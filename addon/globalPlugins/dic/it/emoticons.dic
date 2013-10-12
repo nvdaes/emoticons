@@ -1,0 +1,154 @@
+﻿# :) Sorriso
+(\s|^)(:([\-]|)([)]{1})(\B|\s|$))	\1Smiley Sorriso; 	1	1
+# :( Triste
+(\s|^)(:([\-]|)([(]{1})\B)	\1Smiley Triste; 	1	1
+#  :D Grande Sorriso
+(\s|^)(:([\-]|)([D]{1,})\b)	\1Smiley Grande Sorriso; 	1	1
+# (cool) Sono figo;
+(\s|^)\(cool\)(\B|\s|$)	\1Smiley Sono figo; 	1	1
+# :O Solpreso;
+(\s|^)(:([\-]|)([O]{1})(\W|\s|$))	\1Smiley Sorpreso; 	1	1
+# ;) Occhiolino;
+(\s|^)(;([\-]|)([)D]{1})(\B|\s|$))	\1Smiley Occhiolino; 	1	1
+# ;( In lacrime;
+(\s|^)(;([\-]|)([(]{1})(\B|\s|$))	\1Smiley In lacrime; 	1	1
+# (:| Sudato;
+(\s|^)\((:[\|])(\B|\s|$)	\1Smiley Sudato; 	1	1
+# :| Senza Parole;
+(\s|^)(:[\|])(\B|\s|$)	\1Smiley Senza Parole; 	1	1
+# :* Bacio;
+(\s|^)(:([\-]|)([\*]{1})(\B|\s|$))	\1Smiley Bacio; 	1	1
+# :P Con la lingua fuori;
+(\s|^)(:([\-]|)([pP])(\W|\s|$))	\1Smiley Con la lingua fuori; 	1	1
+# :$ Timido;
+(\s|^)(:[\$])(\B|\s|$)	\1Smiley Timido; 	1	1
+# :^) Dubbioso;
+(\s|^)(:[\^][\)])(\B|\s|$)	\1Smiley Dubbioso; 	1	1
+# |-) Assonnato;
+(\s|^)([\|][\-][\)])(\B|\s|$)	\1Smiley Assonnato; 	1	1
+# |-( Lento;
+(\s|^)([\|][\-][\(])(\B|\s|$)	\1Smiley Lento; 	1	1
+# (inlove) Innamorato;
+(\s|^)\(inlove\)(\B|\s|$)	\1Smiley Innamorato; 	1	1
+# ]:) Ghigno;
+(\s|^)()\]:\)(\B|\s|$)	\1Smiley Ghigno; 	1	1
+# (yn) Dita Incrociate;
+(\s|^)([\(]yn[\)])(\B|\s|$)	\1Smiley Dita incrociate; 	1	1
+# (yawn) Sbadiglio;
+(\s|^)\(yawn\)(\B|\s|$)	\1Smiley Sbadiglio; 	1	1
+# (puke) Sputa;
+(\s|^)\(puke\)(\B|\s|$)	\1Smiley Sputa;	1	1
+# (doh) Infastidito!
+(\s|^)\(doh\)(\B|\s|$)	\1Smiley Infastidito! 	1	1
+# (angry) Arrabbiato;
+(\s|^)\(angry\)(\B|\s|$)	\1Smiley Arrabbiato; 	1	1
+# (wasntme) Non sono stato io!
+(\s|^)\(wasntme\)(\B|\s|$)	\1Smiley Non sono stato io! 	1	1
+# (party) Festa;
+(\s|^)\(party\)(\B|\s|$)	\1Smiley Festa; 	1	1
+# (worry) Preoccupato;
+(\s|^)\(worry\)(\B|\s|$)	\1Smiley Preoccupato; 	1	1
+# (mm) Mmmm...
+(\s|^)\(mm\)(\B|\s|$)	\1Smiley mmmmmm...	1	1
+# (nerd) Sgobbone;
+(\s|^)\(nerd\)(\B|\s|$)	\1Smiley Sgobbone; 	1	1
+# :x Bocca Tappata;
+(\s|^)(:([\-]|)([xX])\b)	\1Smiley Bocca Tappata; 	1	1
+# (wave) Ciao;
+(\s|^)\(wave\)(\B|\s|$)	\1Smiley Ciao; 	1	1
+# (facepalm) Mano sulla faccia;
+(\s|^)\(facepalm\)(\B|\s|$)	\1Smiley Mano sulla faccia; 	1	1
+# (devil) Diavolo;
+(\s|^)\(devil\)(\B|\s|$)	\1Smiley Diavolo; 	1	1
+# (angel) Angelo;
+(\s|^)\(angel\)(\B|\s|$)	\1Smiley Angelo; 	1	1
+# (envy) Invidioso;
+(\s|^)\(envy\)(\B|\s|$)	\1Smiley Invidioso; 	1	1
+# (wait) Aspetta;
+(\s|^)\(wait\)(\B|\s|$)	\1Smiley Aspetta; 	1	1
+# (hug) Abbraccio;
+(\s|^)\(hug\)(\B|\s|$)	\1Smiley Abbraccio; 	1	1
+# (makeup) Rossetto;
+(\s|^)\(makeup\)(\B|\s|$)	\1Smiley Rossetto; 	1	1
+# (chuckle) risatina;
+(\s|^)\(chuckle\)(\B|\s|$)	\1Smiley Risatina; 	1	1
+# (clap) Applauso;
+(\s|^)\(clap\)(\B|\s|$)	\1Smiley Applauso; 	1	1
+# (think) Pensoso;
+(\s|^)\(think\)(\B|\s|$)	\1Smiley Pensoso; 	1	1
+# (bow) Inchino;
+(\s|^)\(bow\)(\B|\s|$)	\1Smiley Inchino; 	1	1
+# (rofl) Mi rotolo dalle risate;
+(\s|^)\(rofl\)(\B|\s|$)	\1Smiley Mi rotolo dalle risate! 	1	1
+# (whew) Meno male;
+(\s|^)\(whew\)(\B|\s|$)	\1Smiley Menomale; 	1	1
+# (happy) Felice;
+(\s|^)\(happy\)(\B|\s|$)	\1Smiley Felice; 	1	1
+# (smirk) Smorfioso;
+(\s|^)\(smirk\)(\B|\s|$)	\1Smiley Smorfioso; 	1	1
+# (nod) Annuisce;
+(\s|^)\(nod\)(\B|\s|$)	\1Smiley Annuisce; 	1	1
+# (shake) Scuoti;
+(\s|^)\(shake\)(\B|\s|$)	\1Smiley Scuoti; 	1	1
+# (waiting) In Attesa;
+(\s|^)\(waiting\)(\B|\s|$)	\1Smiley In attesa; 	1	1
+# (emo) Emo;
+(\s|^)\(emo\)(\B|\s|$)	\1Smiley Emo; 	1	1
+# (y) Si;
+(\s|^)\(y\)(\B|\s|$)	\1Smiley Si; 	1	1
+# (n) no;
+(\s|^)\(n\)(\B|\s|$)	\1Smiley No; 	1	1
+# (handshake) Stretta di mano;
+(\s|^)\(handshake\)(\B|\s|$)	\1Smiley Stretta di mano; 	1	1
+# (highfive) Dammi il cinque;
+(\s|^)\(highfive\)(\B|\s|$)	\1Smiley Dammi il cinque! 	1	1
+# (heart) Cuore;
+(\s|^)\(heart\)(\B|\s|$)	\1Smiley Cuore; 	1	1
+# (lalala) Lalala;
+(\s|^)\(lalala\)(\B|\s|$)	\1Smiley LaLaLa; 	1	1
+# (heidy) Heidy;
+(\s|^)\(heidy\)(\B|\s|$)	\1Smiley Heidy; 	1	1
+# (F) Fiore;
+(\s|^)\(F\)(\B|\s|$)	\1Smiley Fiore; 	1	1
+# (rain) Pioggia;
+(\s|^)\(rain\)(\B|\s|$)	\1Smiley Pioggia; 	1	1
+# (sun) Sole;
+(\s|^)\(sun\)(\B|\s|$)	\1Smiley Sole; 	1	1
+# (tumbleweed) Rovo rotolante;
+(\s|^)\(tumbleweed\)(\B|\s|$)	\1Smiley Rovo rotolante; 	1	1
+# (music) Musica;
+(\s|^)\(music\)(\B|\s|$)	\1Smiley Musica; 	1	1
+# (bandit) Bandito;
+(\s|^)\(bandit\)(\B|\s|$)	\1Smiley Bandito; 	1	1
+# (tmi) Troppe informazioni;
+(\s|^)\(tmi\)(\B|\s|$)	\1Smiley Troppe informazioni; 	1	1
+# (coffee) Caffé;
+(\s|^)\(coffee\)(\B|\s|$)	\1Smiley Caffè; 	1	1
+# (pi) Pizza;
+(\s|^)\(pi\)(\B|\s|$)	\1Smiley Pizza; 	1	1
+# (cash) Denaro;
+(\s|^)\(cash\)(\B|\s|$)	\1Smiley Denaro; 	1	1
+# (flex) Muscolo;
+(\s|^)\(flex\)(\B|\s|$)	\1Smiley Muscolo; 	1	1
+# (^) Torta;
+(\s|^)([\(][\^][\)])(\B|\s|$)	\1Smiley Torta; 	1	1
+# (beer) Birra;
+(\s|^)\(beer\)(\B|\s|$)	\1Smiley Birra; 	1	1
+# (d) Drink;
+(\s|^)\(d\)(\B|\s|$)	\1Smiley Drink; 	1	1
+# \o/ Ballo;
+(\s|^)([\\]o[/])(\B|\s|$)	\1Smiley Ballo; 	1	1
+# (ninja) Ninja;
+(\s|^)\(ninja\)(\B|\s|$)	\1Smiley Ninja; 	1	1
+# (*) Stella;
+(\s|^)([\(][\*][\)])(\B|\s|$)	\1Smiley Stella; 	1	1
+# Facebook Smiley  :'( In lacrime
+(\s|^)([:]['][\(])(\B|\s|$)	\1Smiley In lacrime; 	1	1
+# >:( Arrabbiato 
+(\s|^)(>:[\(])(\B|\s|$)	\1Smiley Arrabbiato; 	1	1
+# :/ Preoccupato
+(\s|^)(:[/])(\B|\s|$)	\1Smiley Preoccupato; 	1	1
+# <3 Cuore
+(\s|^)<3(\W|\s|$)	\1Smiley Cuore; 	1	1
+#regex for Facebook  contacts in Skype v.5 series only.
+\(xmpp:-([0-9]+)@chat.facebook.com\)	(fèisbùc)	1	1

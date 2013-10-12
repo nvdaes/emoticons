@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: emoticons' '0.1\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
+"POT-Creation-Date: 2013-10-03 11:13+0200\n"
+"PO-Revision-Date: 2013-10-03 19:37+0100\n"
+"Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
+"Language-Team: Translators <LL@li.org>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Translators: Tooltip for an addon menu item.
+#: addon\globalPlugins\Emoticons_docHandler.py:60 docHandler.py:60
+#, python-format
+msgid "Opens documentation for %s"
+msgstr "Abrir la documentación %s"
+
+#. Translators: message presented when the dictionary for emoticons is unloaded.
+#. Translators: message presented when the dictionary for emoticons is loaded.
+#: addon\globalPlugins\emoticons.py:77 addon\globalPlugins\emoticons.py:81
+#, python-format
+msgid "Emoticons %s"
+msgstr "Leer Emoticonos %s"
+
+#: addon\globalPlugins\emoticons.py:77
+msgid "off"
+msgstr "Desactivado"
+
+#: addon\globalPlugins\emoticons.py:81
+msgid "on"
+msgstr "Activado"
+
+#: addon\globalPlugins\emoticons.py:82
+msgid "Toggles on and off the speaking of emoticons using speech dictionaries."
+msgstr ""
+"Alternar entre activar y desactivar la lectura de los emoticonos usando el "
+"diccionario del habla."
+
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#: buildVars.py:15
+msgid "Emoticons"
+msgstr "Emoticons"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+#: buildVars.py:18
+msgid ""
+"Press NVDA+E to allow NVDA pronounces emoticons each time that are present.\n"
+"Based on a lists of regular expressions incorporate in this addon."
+msgstr ""
+"Pulsando NVDA+e NVDA Lee los emoticonos cuando están presentes.\n"
+"Utiliza una lista de expresiones regulares incorporado en este complemento."
