@@ -11,18 +11,18 @@ addon_info = {
 	# for previously unpublished addons, please follow the community guidelines at:
 	# https://bitbucket.org/nvdaaddonteam/todo/raw/master/guideLines.txt
 	# add-on Name, internal for nvda
-	"addon-name" : "Emoticons",
+	"addon-name" : "emoticons",
 	# Add-on summary, usually the user visible name of the addon.
 	# TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
 	"addon-summary" : _("Emoticons"),
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-	"addon-description" : _("""Press NVDA+E to allow NVDA pronounces emoticons each time that are present.
-Based on a list of regular expressions incorporated in this addon."""),
+	"addon-description" : _("Enables the announcement of emoticon names instead of the character representation.\n"
+			"Press NVDA+E to toggle."),
 	# version
 	"addon-version" : "1.0-dev",
 	# Author(s)
-	"addon-author" : "Chris <llajta2012@gmail.com>, Noelia <nrm1977@gmail.com>",
+	"addon-author" : "Chris <llajta2012@gmail.com>, Noelia <nrm1977@gmail.com>, Mesar Hameed <mhameed@src.gnome.org>",
 	# URL for the add-on documentation support
 	"addon-url" : "http://addons.nvda-project.org"
 }
