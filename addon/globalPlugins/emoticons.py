@@ -15,39 +15,38 @@ emoticons = [
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def activateEmoticons(self):
-		if self.emoticons == True or self.SD is None:
-			return
-		for patern, replacement, comment, case, reg in emoticons:
-			self.SD.append(speechDictHandler.SpeechDictEntry(patern,replacement,comment,case, reg))
-		speechDictHandler.dictionaries["temp"].extend(self.SD)
-		self.emoticons = True
+		if not self.emoticons:
+			speechDictHandler.dictionaries["temp"].extend(self.SD)
+			self.emoticons = True
 
 	def deactivateEmoticons(self):
-		if self.emoticons == False or self.SD is None:
-			return
-		for entry in self.SD:
-			speechDictHandler.dictionaries["temp"].remove(entry)
-		self.emoticons = False
+		if self.emoticons:
+			for entry in self.SD:
+				speechDictHandler.dictionaries["temp"].remove(entry)
+			self.emoticons = False
 
 	def __init__(self):
 		super(globalPluginHandler.GlobalPlugin, self).__init__()
 		self.emoticons = False
 		self.SD = speechDictHandler.SpeechDict()
+		for pattern, replacement, comment, case, reg in emoticons:
+			self.SD.append(speechDictHandler.SpeechDictEntry(pattern, replacement, comment, case, reg))
 
 	def terminate(self):
 		self.deactivateEmoticons()
 		self.SD = None
 
 	def script_toggle(self, gesture):
-		if self.emoticons == True:
+		if self.emoticons:
 			self.deactivateEmoticons()
 			# Translators: message presented when the dictionary for emoticons is unloaded.
-			ui.message(_("Emoticons %s") % _("off"))
+			ui.message(_("Emoticons off."))
 		else:
 			self.activateEmoticons()
 			# Translators: message presented when the dictionary for emoticons is loaded.
-			ui.message(_("Emoticons %s") % _("on"))
-	script_toggle.__doc__ = _("Toggles on and off the speaking of emoticons using speech dictionaries.")
+			ui.message(_("Emoticons on."))
+	# Translators: Message presented in input help mode.
+	script_toggle.__doc__ = _("Toggles on and off the announcement of emoticons.")
 
 	__gestures = {
 		"kb:NVDA+e": "toggle"
