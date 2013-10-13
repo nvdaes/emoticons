@@ -1,47 +1,24 @@
 # -*- coding: UTF-8 -*-
 
 import globalPluginHandler
-import os
 import speechDictHandler
-import languageHandler
 import ui
 import addonHandler
+
 addonHandler.initTranslation()
 
-_pluginDir = os.path.dirname(__file__) # The root of the addon folder
-_dicFileName = "emoticons.dic" # The name of a dictionary for emoticons
-
-def getDicFolder(pluginDir=_pluginDir):
-	langs = [languageHandler.getLanguage(), "en"]
-	for lang in langs:
-		dicFolder = os.path.join(pluginDir, "dic", lang)
-		if os.path.isdir(dicFolder):
-			return dicFolder
-		if "_" in lang:
-			tryLang = lang.split("_")[0]
-			dicFolder = os.path.join(pluginDir, "dic", tryLang)
-			if os.path.isdir(dicFolder):
-				return dicFolder
-			if tryLang == "en":
-				break
-		if lang == "en":
-			break
-	return None
-
-def getDicPath(dicFileName=_dicFileName):
-	dicPath = getDicFolder()
-	if dicPath is not None:
-		dicFile = os.path.join(dicPath, dicFileName)
-		if os.path.isfile(dicFile):
-			dicPath = dicFile
-	return dicPath
+emoticons = [
+	# Translators :( sad smiley
+	('(\s|^)(:([\-]|)([(]{1})\B)', _("sad smiley"), "sad", True, True),
+]
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def activateEmoticons(self):
 		if self.emoticons == True or self.SD is None:
 			return
-		self.SD.load(self.dicFile)
+		for patern, replacement, comment, case, reg in emoticons:
+			self.SD.append(speechDictHandler.SpeechDictEntry(patern,replacement,comment,case, reg))
 		speechDictHandler.dictionaries["temp"].extend(self.SD)
 		self.emoticons = True
 
@@ -55,22 +32,13 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def __init__(self):
 		super(globalPluginHandler.GlobalPlugin, self).__init__()
 		self.emoticons = False
-		self.dicFile = getDicPath()
-		if self.dicFile is not None:
-			self.SD = speechDictHandler.SpeechDict()
-		else:
-			self.SD = None
+		self.SD = speechDictHandler.SpeechDict()
 
 	def terminate(self):
 		self.deactivateEmoticons()
-		self.dicFile = None
 		self.SD = None
 
 	def script_toggle(self, gesture):
-		if self.SD is None:
-			# Translators: message presented when the corresponding dictionary for emoticons is not found.
-			ui.message("Emoticons dictionary not found.")
-			return
 		if self.emoticons == True:
 			self.deactivateEmoticons()
 			# Translators: message presented when the dictionary for emoticons is unloaded.
