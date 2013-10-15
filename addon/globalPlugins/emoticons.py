@@ -182,7 +182,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		self.emoticons = False
 		self.SD = speechDictHandler.SpeechDict()
 		for pattern, replacement in emoticons:
-			comment = "Emoticon: %s" % replacement
+			comment = _("Emoticon: %s") % replacement
 			otherReplacement = " %s; " % replacement
 			self.SD.append(speechDictHandler.SpeechDictEntry(pattern, otherReplacement, comment, True, True)) # Case and reg are always True
 

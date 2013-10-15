@@ -7,41 +7,418 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 'Emoticons' '1.0-dev'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
-"POT-Creation-Date: 2013-10-13 13:45+0200\n"
-"PO-Revision-Date: 2013-10-13 13:49+0100\n"
+"POT-Creation-Date: 2013-10-15 18:00+0200\n"
+"PO-Revision-Date: 2013-10-15 18:12+0100\n"
 "Last-Translator: Noelia Ruiz Martínez <nrm1977@gmail.com>\n"
 "Language-Team: \n"
-"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#. Translators :) smiley
-#. ( _("smiley"), '(\s|^)(:([\-]|)([)]{1})(\B|\s|$))'),
-#. Translators :( sad smiley
-#: addon\globalPlugins\emoticons.py:43
-msgid "sad smiley"
+#. Translators:  :) Smile
+#: addon\globalPlugins\emoticons.py:12
+msgid "smiley Smile"
+msgstr "Emoticono sonrisa;"
+
+#. Translators:  :( Sad
+#: addon\globalPlugins\emoticons.py:14
+#, fuzzy
+msgid "smiley Sad"
 msgstr "Emoticono triste"
 
-#. Translators: message presented when the dictionary for emoticons is unloaded.
-#. Translators: message presented when the dictionary for emoticons is loaded.
-#: addon\globalPlugins\emoticons.py:89
-#: addon\globalPlugins\emoticons.py:93
-#, python-format
-msgid "Emoticons %s"
-msgstr "Emoticonos %s"
+#. Translators:   :D Laugh
+#: addon\globalPlugins\emoticons.py:16
+msgid "smiley Laugh"
+msgstr "Emoticono carcajada"
 
-#: addon\globalPlugins\emoticons.py:89
-msgid "off"
-msgstr "Desactivado"
+#. Translators:  (cool) Cool
+#: addon\globalPlugins\emoticons.py:18
+msgid "smiley Cool"
+msgstr "Emoticono cool;"
 
-#: addon\globalPlugins\emoticons.py:93
-msgid "on"
-msgstr "Activado"
+#. Translators:  :O Surprised
+#: addon\globalPlugins\emoticons.py:20
+msgid "smiley Surprised"
+msgstr "Emoticono sorprendido"
 
+#. Translators:  ;) Wink;
+#: addon\globalPlugins\emoticons.py:22
+msgid "smiley Wink"
+msgstr ""
+
+#. Translators:  ;( Crying
+#. Translators:  Facebook  Smiley  :'( Crying
+#: addon\globalPlugins\emoticons.py:24
+#: addon\globalPlugins\emoticons.py:156
+msgid "smiley Crying"
+msgstr ""
+
+#. Translators:  (:| Sweating
+#: addon\globalPlugins\emoticons.py:26
+msgid "smiley Sweating"
+msgstr ""
+
+#. Translators:  :| Speechless
+#: addon\globalPlugins\emoticons.py:28
+msgid "smiley Speechless"
+msgstr ""
+
+#. Translators:  :* Kiss
+#: addon\globalPlugins\emoticons.py:30
+msgid "smiley Kiss"
+msgstr ""
+
+#. Translators:  :P Cheeky
+#: addon\globalPlugins\emoticons.py:32
+msgid "smiley Cheeky"
+msgstr ""
+
+#. Translators:  :$ Blushing
+#: addon\globalPlugins\emoticons.py:34
+msgid "smiley Blushing"
+msgstr ""
+
+#. Translators:  :^) Wondering
+#: addon\globalPlugins\emoticons.py:36
+msgid "smiley Wondering"
+msgstr ""
+
+#. Translators:  |-) Sleepy
+#: addon\globalPlugins\emoticons.py:38
+msgid "smiley Sleepy"
+msgstr ""
+
+#. Translators:  |-( Dull
+#: addon\globalPlugins\emoticons.py:40
+msgid "smiley Dull"
+msgstr ""
+
+#. Translators:  (inlove) In Love
+#: addon\globalPlugins\emoticons.py:42
+msgid "smiley In Love"
+msgstr ""
+
+#. Translators:  ]:) Evil grin
+#: addon\globalPlugins\emoticons.py:44
+msgid "smiley Evil grin"
+msgstr ""
+
+#. Translators:  (yn) Fingers crossed
+#: addon\globalPlugins\emoticons.py:46
+msgid "smiley Fingers crossed"
+msgstr ""
+
+#. Translators:  (yawn) Yawn
+#: addon\globalPlugins\emoticons.py:48
+msgid "smiley Yawn"
+msgstr ""
+
+#. Translators:  (puke) Puking
+#: addon\globalPlugins\emoticons.py:50
+msgid "smiley Puking"
+msgstr ""
+
+#. Translators:  (doh) Doh!
+#: addon\globalPlugins\emoticons.py:52
+msgid "smiley Doh! "
+msgstr ""
+
+#. Translators:  (angry) Angry
+#. Translators:  >:( Angry
+#: addon\globalPlugins\emoticons.py:54
+#: addon\globalPlugins\emoticons.py:158
+msgid "smiley Angry"
+msgstr ""
+
+#. Translators:  (wasntme) It wasn't me!
+#: addon\globalPlugins\emoticons.py:56
+msgid "smiley It wasn't me! "
+msgstr ""
+
+#. Translators:  (party) Party
+#: addon\globalPlugins\emoticons.py:58
+msgid "smiley Party"
+msgstr ""
+
+#. Translators:  (worry) Worried
+#. Translators:  :/ Worried
+#: addon\globalPlugins\emoticons.py:60
+#: addon\globalPlugins\emoticons.py:160
+msgid "smiley Worried"
+msgstr ""
+
+#. Translators:  (mm) Mmmm...
+#: addon\globalPlugins\emoticons.py:62
+msgid "smiley mmmmmm..."
+msgstr ""
+
+#. Translators:  (nerd) Nerdy
+#: addon\globalPlugins\emoticons.py:64
+msgid "smiley Nerdy;"
+msgstr ""
+
+#. Translators:  :x My lips are sealed
+#: addon\globalPlugins\emoticons.py:66
+msgid "smiley My lips are sealed"
+msgstr ""
+
+#. Translators:  (wave) Hi
+#: addon\globalPlugins\emoticons.py:68
+#, fuzzy
+msgid "smiley Hi"
+msgstr "Emoticono triste"
+
+#. Translators:  (facepalm) Facepalm
+#: addon\globalPlugins\emoticons.py:70
+msgid "smiley Facepalm"
+msgstr ""
+
+#. Translators:  (devil) Devil
+#: addon\globalPlugins\emoticons.py:72
+msgid "smiley Devil"
+msgstr ""
+
+#. Translators:  (angel) Angel
+#: addon\globalPlugins\emoticons.py:74
+msgid "smiley Angel"
+msgstr ""
+
+#. Translators:  (envy) Envy
+#: addon\globalPlugins\emoticons.py:76
+#, fuzzy
+msgid "smileyEnvy"
+msgstr "Emoticono triste"
+
+#. Translators:  (wait) Wait
+#: addon\globalPlugins\emoticons.py:78
+msgid "smiley Wait"
+msgstr ""
+
+#. Translators:  (hug) Hug
+#: addon\globalPlugins\emoticons.py:80
+#, fuzzy
+msgid "smiley Hug"
+msgstr "Emoticono triste"
+
+#. Translators:  (makeup) Make-up
+#: addon\globalPlugins\emoticons.py:82
+msgid "smiley Make-up"
+msgstr ""
+
+#. Translators:  (chuckle) Giggle
+#: addon\globalPlugins\emoticons.py:84
+msgid "smiley Giggle;"
+msgstr ""
+
+#. Translators:  (clap) Clapping
+#: addon\globalPlugins\emoticons.py:86
+msgid "smiley Clapping"
+msgstr ""
+
+#. Translators:  (think) Thinking
+#: addon\globalPlugins\emoticons.py:88
+msgid "smiley Thinking"
+msgstr ""
+
+#. Translators:  (bow) Bowing
+#: addon\globalPlugins\emoticons.py:90
+msgid "smiley Bowing"
+msgstr ""
+
+#. Translators:  (rofl) Rolling on the floor laughing
+#: addon\globalPlugins\emoticons.py:92
+msgid "smiley Rolling on the floor laughing! "
+msgstr ""
+
+#. Translators:  (whew) Relieved
 #: addon\globalPlugins\emoticons.py:94
-msgid "Toggles on and off the speaking of emoticons using speech dictionaries."
+msgid "smiley Relieved"
+msgstr ""
+
+#. Translators:  (happy) Happy
+#: addon\globalPlugins\emoticons.py:96
+msgid "smiley Happy"
+msgstr ""
+
+#. Translators:  (smirk) Smirking
+#: addon\globalPlugins\emoticons.py:98
+msgid "smiley Smirking"
+msgstr ""
+
+#. Translators:  (nod) Nodding
+#: addon\globalPlugins\emoticons.py:100
+msgid "smiley Nodding;"
+msgstr ""
+
+#. Translators:  (shake) Shake
+#: addon\globalPlugins\emoticons.py:102
+msgid "smiley Shake"
+msgstr ""
+
+#. Translators:  (waiting) Waiting
+#: addon\globalPlugins\emoticons.py:104
+msgid "smiley Waiting"
+msgstr ""
+
+#. Translators:  (emo) Emo;
+#: addon\globalPlugins\emoticons.py:106
+#, fuzzy
+msgid "smiley Emo"
+msgstr "Emoticono triste"
+
+#. Translators:  (y) Yes
+#: addon\globalPlugins\emoticons.py:108
+#, fuzzy
+msgid "smiley Yes"
+msgstr "Emoticono triste"
+
+#. Translators:  (n) no;
+#: addon\globalPlugins\emoticons.py:110
+#, fuzzy
+msgid "smiley NO"
+msgstr "Emoticono triste"
+
+#. Translators:  (handshake) Handshake
+#: addon\globalPlugins\emoticons.py:112
+msgid "smiley Handshake;"
+msgstr ""
+
+#. Translators:  (highfive) High five
+#: addon\globalPlugins\emoticons.py:114
+msgid "smiley High five"
+msgstr ""
+
+#. Translators:  (heart) Heart
+#. Translators:  <3 Heart
+#: addon\globalPlugins\emoticons.py:116
+#: addon\globalPlugins\emoticons.py:162
+msgid "smiley Heart"
+msgstr ""
+
+#. Translators:  (lalala) Lalala;
+#: addon\globalPlugins\emoticons.py:118
+msgid "smiley LaLaLa"
+msgstr ""
+
+#. Translators:  (heidy) Heidy;
+#: addon\globalPlugins\emoticons.py:120
+msgid "smiley Heidy;"
+msgstr ""
+
+#. Translators:  (F) Flower
+#: addon\globalPlugins\emoticons.py:122
+msgid "smiley Flower"
+msgstr ""
+
+#. Translators:  (rain) Raining
+#: addon\globalPlugins\emoticons.py:124
+msgid "smiley Raining"
+msgstr ""
+
+#. Translators:  (sun) Sun
+#: addon\globalPlugins\emoticons.py:126
+#, fuzzy
+msgid "smiley Sun"
+msgstr "Emoticono triste"
+
+#. Translators:  (tumbleweed) Tumbleweed
+#: addon\globalPlugins\emoticons.py:128
+msgid "smiley Tumbleweed"
+msgstr ""
+
+#. Translators:  (music) Music
+#: addon\globalPlugins\emoticons.py:130
+msgid "smiley Music"
+msgstr ""
+
+#. Translators:  (bandit) Bandit
+#: addon\globalPlugins\emoticons.py:132
+msgid "smiley Bandit"
+msgstr ""
+
+#. Translators:  (tmi) Too much information
+#: addon\globalPlugins\emoticons.py:134
+msgid "smiley Too much information;"
+msgstr ""
+
+#. Translators:  (coffee) Coffee
+#: addon\globalPlugins\emoticons.py:136
+msgid "smiley Coffee"
+msgstr ""
+
+#. Translators:  (pi) Pizza
+#: addon\globalPlugins\emoticons.py:138
+msgid "smiley Pizza"
+msgstr ""
+
+#. Translators:  (cash) Cash
+#: addon\globalPlugins\emoticons.py:140
+msgid "smiley Cash"
+msgstr ""
+
+#. Translators:  (flex) Muscle
+#: addon\globalPlugins\emoticons.py:142
+msgid "smiley Muscle"
+msgstr ""
+
+#. Translators:  (^) Cake
+#: addon\globalPlugins\emoticons.py:144
+msgid "smiley Cake"
+msgstr ""
+
+#. Translators:  (beer) Beer
+#: addon\globalPlugins\emoticons.py:146
+msgid "smiley Beer"
+msgstr ""
+
+#. Translators:  (d) Drink
+#: addon\globalPlugins\emoticons.py:148
+msgid "smiley Drink;"
+msgstr ""
+
+#. Translators:  \o/ Dancing
+#: addon\globalPlugins\emoticons.py:150
+msgid "smiley Dancing"
+msgstr ""
+
+#. Translators:  (ninja) Ninja
+#: addon\globalPlugins\emoticons.py:152
+msgid "smiley Ninja;"
+msgstr ""
+
+#. Translators:  (*) Star
+#: addon\globalPlugins\emoticons.py:154
+msgid "smiley Star"
+msgstr ""
+
+#. Translators: regex for Facebook contacts  in Skype v.5 series only.
+#: addon\globalPlugins\emoticons.py:164
+msgid "(facebook)"
+msgstr ""
+
+#: addon\globalPlugins\emoticons.py:185
+#, python-format
+msgid "Emoticon: %s"
+msgstr "Emoticono: %s"
+
+#. Translators: message presented when the dictionary for emoticons is unloaded.
+#: addon\globalPlugins\emoticons.py:197
+#, fuzzy
+msgid "Emoticons off."
+msgstr "Emoticons"
+
+#. Translators: message presented when the dictionary for emoticons is loaded.
+#: addon\globalPlugins\emoticons.py:201
+#, fuzzy
+msgid "Emoticons on."
+msgstr "Emoticons"
+
+#. Translators: Message presented in input help mode.
+#: addon\globalPlugins\emoticons.py:203
+#, fuzzy
+msgid "Toggles on and off the announcement of emoticons."
 msgstr "Activa y desactiva la verbalización de emoticonos utilizando diccionarios del habla."
 
 #. Add-on summary, usually the user visible name of the addon.
@@ -54,7 +431,12 @@ msgstr "Emoticons"
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 #: buildVars.py:20
 msgid ""
-"Press NVDA+E to allow NVDA pronounces emoticons each time that are present.\n"
-"Based on a list of regular expressions incorporated in this addon."
+"Enables the announcement of emoticon names instead of the character representation.\n"
+"Press NVDA+E to toggle."
 msgstr ""
 
+#~ msgid "off"
+#~ msgstr "Desactivado"
+
+#~ msgid "on"
+#~ msgstr "Activado"
