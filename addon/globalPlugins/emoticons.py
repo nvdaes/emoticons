@@ -9,159 +9,159 @@ addonHandler.initTranslation()
 
 emoticons = [
 	# Translators:  :) Smile
-	(r'(\s|^)(:([\-]|)([)]{1})(\B|\s|$))', _("\1smiley Smile"), True, True),
+	(r'(\s|^)(:([\-]|)([)]{1})(\B|\s|$))', _("\1smiley Smile")),
 	# Translators:  :( Sad
-	(r'(\s|^)(:([\-]|)([(]{1})\B)', _("smiley Sad"), True, True),
+	(r'(\s|^)(:([\-]|)([(]{1})\B)', _("smiley Sad")),
 	# Translators:   :D Laugh
-	(r'(\s|^)(:([\-]|)([D]{1,})\b)', _("smiley Laugh"), True, True),
+	(r'(\s|^)(:([\-]|)([D]{1,})\b)', _("smiley Laugh")),
 	# Translators:  (cool) Cool
-	(r'(\s|^)\(cool\)(\B|\s|$)', _("smiley Cool"), True, True),
+	(r'(\s|^)\(cool\)(\B|\s|$)', _("smiley Cool")),
 	# Translators:  :O Surprised
-	(r'(\s|^)(:([\-]|)([O]{1})(\W|\s|$))', _("smiley Surprised"), True, True),
+	(r'(\s|^)(:([\-]|)([O]{1})(\W|\s|$))', _("smiley Surprised")),
 	# Translators:  ;) Wink;
-	(r'(\s|^)(;([\-]|)([)D]{1})(\B|\s|$))', _("smiley Wink"), True, True),
+	(r'(\s|^)(;([\-]|)([)D]{1})(\B|\s|$))', _("smiley Wink")),
 	# Translators:  ;( Crying
-	(r'(\s|^)(;([\-]|)([(]{1})(\B|\s|$))', _("smiley Crying"), True, True),
+	(r'(\s|^)(;([\-]|)([(]{1})(\B|\s|$))', _("smiley Crying")),
 	# Translators:  (:| Sweating
-	(r'(\s|^)\((:[\|])(\B|\s|$)', _("smiley Sweating"), True, True),
+	(r'(\s|^)\((:[\|])(\B|\s|$)', _("smiley Sweating")),
 	# Translators:  :| Speechless
-	(r'(\s|^)(:[\|])(\B|\s|$)', _("smiley Speechless"), True, True),
+	(r'(\s|^)(:[\|])(\B|\s|$)', _("smiley Speechless")),
 	# Translators:  :* Kiss
-	(r'(\s|^)(:([\-]|)([\*]{1})(\B|\s|$))', _("smiley Kiss"), True, True),
+	(r'(\s|^)(:([\-]|)([\*]{1})(\B|\s|$))', _("smiley Kiss")),
 	# Translators:  :P Cheeky
-	(r'(\s|^)(:([\-]|)([pP])(\W|\s|$))', _("smiley Cheeky"), True, True),
+	(r'(\s|^)(:([\-]|)([pP])(\W|\s|$))', _("smiley Cheeky")),
 	# Translators:  :$ Blushing
-	(r'(\s|^)(:[\$])(\B|\s|$)', _("smiley Blushing"), True, True),
+	(r'(\s|^)(:[\$])(\B|\s|$)', _("smiley Blushing")),
 	# Translators:  :^) Wondering
-	(r'(\s|^)(:[\^][\)])(\B|\s|$)', _("smiley Wondering"), True, True),
+	(r'(\s|^)(:[\^][\)])(\B|\s|$)', _("smiley Wondering")),
 	# Translators:  |-) Sleepy
-	(r'(\s|^)([\|][\-][\)])(\B|\s|$)', _("smiley Sleepy"), True, True),
+	(r'(\s|^)([\|][\-][\)])(\B|\s|$)', _("smiley Sleepy")),
 	# Translators:  |-( Dull
-	(r'(\s|^)([\|][\-][\(])(\B|\s|$)', _("smiley Dull"), True, True),
+	(r'(\s|^)([\|][\-][\(])(\B|\s|$)', _("smiley Dull")),
 	# Translators:  (inlove) In Love
-	(r'(\s|^)\(inlove\)(\B|\s|$)', _("smiley In Love"), True, True),
+	(r'(\s|^)\(inlove\)(\B|\s|$)', _("smiley In Love")),
 	# Translators:  ]:) Evil grin
-	(r'(\s|^)()\]:\)(\B|\s|$)', _("smiley Evil grin"), True, True),
+	(r'(\s|^)()\]:\)(\B|\s|$)', _("smiley Evil grin")),
 	# Translators:  (yn) Fingers crossed
-	(r'(\s|^)([\(]yn[\)])(\B|\s|$)', _("smiley Fingers crossed"), True, True),
+	(r'(\s|^)([\(]yn[\)])(\B|\s|$)', _("smiley Fingers crossed")),
 	# Translators:  (yawn) Yawn
-	(r'(\s|^)\(yawn\)(\B|\s|$)', _("smiley Yawn"), True, True),
+	(r'(\s|^)\(yawn\)(\B|\s|$)', _("smiley Yawn")),
 	# Translators:  (puke) Puking
-	(r'(\s|^)\(puke\)(\B|\s|$)', _("smiley Puking"), True, True),
+	(r'(\s|^)\(puke\)(\B|\s|$)', _("smiley Puking")),
 	# Translators:  (doh) Doh!
-	(r'(\s|^)\(doh\)(\B|\s|$)', _("smiley Doh! "), True, True),
+	(r'(\s|^)\(doh\)(\B|\s|$)', _("smiley Doh! ")),
 	# Translators:  (angry) Angry
-	(r'(\s|^)\(angry\)(\B|\s|$)', _("smiley Angry"), True, True),
+	(r'(\s|^)\(angry\)(\B|\s|$)', _("smiley Angry")),
 	# Translators:  (wasntme) It wasn't me!
-	(r'(\s|^)\(wasntme\)(\B|\s|$)', _("smiley It wasn't me! "), True, True),
+	(r'(\s|^)\(wasntme\)(\B|\s|$)', _("smiley It wasn't me! ")),
 	# Translators:  (party) Party
-	(r'(\s|^)\(party\)(\B|\s|$)', _("smiley Party"), True, True),
+	(r'(\s|^)\(party\)(\B|\s|$)', _("smiley Party")),
 	# Translators:  (worry) Worried
-	(r'(\s|^)\(worry\)(\B|\s|$)', _("smiley Worried"), True, True),
+	(r'(\s|^)\(worry\)(\B|\s|$)', _("smiley Worried")),
 	# Translators:  (mm) Mmmm...
-	(r'(\s|^)\(mm\)(\B|\s|$)', _("smiley mmmmmm..."), True, True),
+	(r'(\s|^)\(mm\)(\B|\s|$)', _("smiley mmmmmm...")),
 	# Translators:  (nerd) Nerdy
-	(r'(\s|^)\(nerd\)(\B|\s|$)', _("smiley Nerdy;"), True, True),
+	(r'(\s|^)\(nerd\)(\B|\s|$)', _("smiley Nerdy;")),
 	# Translators:  :x My lips are sealed
-	(r'(\s|^)(:([\-]|)([xX])\b)', _("smiley My lips are sealed"), True, True),
+	(r'(\s|^)(:([\-]|)([xX])\b)', _("smiley My lips are sealed")),
 	# Translators:  (wave) Hi
-	(r'(\s|^)\(wave\)(\B|\s|$)', _("smiley Hi"), True, True),
+	(r'(\s|^)\(wave\)(\B|\s|$)', _("smiley Hi")),
 	# Translators:  (facepalm) Facepalm
-	(r'(\s|^)\(facepalm\)(\B|\s|$)', _("smiley Facepalm"), True, True),
+	(r'(\s|^)\(facepalm\)(\B|\s|$)', _("smiley Facepalm")),
 	# Translators:  (devil) Devil
-	(r'(\s|^)\(devil\)(\B|\s|$)', _("smiley Devil"), True, True),
+	(r'(\s|^)\(devil\)(\B|\s|$)', _("smiley Devil")),
 	# Translators:  (angel) Angel
-	(r'(\s|^)\(angel\)(\B|\s|$)', _("smiley Angel"), True, True),
+	(r'(\s|^)\(angel\)(\B|\s|$)', _("smiley Angel")),
 	# Translators:  (envy) Envy
-	(r'(\s|^)\(envy\)(\B|\s|$)', _("smileyEnvy"), True, True),
+	(r'(\s|^)\(envy\)(\B|\s|$)', _("smileyEnvy")),
 	# Translators:  (wait) Wait
-	(r'(\s|^)\(wait\)(\B|\s|$)', _("smiley Wait"), True, True),
+	(r'(\s|^)\(wait\)(\B|\s|$)', _("smiley Wait")),
 	# Translators:  (hug) Hug
-	(r'(\s|^)\(hug\)(\B|\s|$)', _("smiley Hug"), True, True),
+	(r'(\s|^)\(hug\)(\B|\s|$)', _("smiley Hug")),
 	# Translators:  (makeup) Make-up
-	(r'(\s|^)\(makeup\)(\B|\s|$)', _("smiley Make-up"), True, True),
+	(r'(\s|^)\(makeup\)(\B|\s|$)', _("smiley Make-up")),
 	# Translators:  (chuckle) Giggle
-	(r'(\s|^)\(chuckle\)(\B|\s|$)', _("smiley Giggle;"), True, True),
+	(r'(\s|^)\(chuckle\)(\B|\s|$)', _("smiley Giggle;")),
 	# Translators:  (clap) Clapping
-	(r'(\s|^)\(clap\)(\B|\s|$)', _("smiley Clapping"), True, True),
+	(r'(\s|^)\(clap\)(\B|\s|$)', _("smiley Clapping")),
 	# Translators:  (think) Thinking
-	(r'(\s|^)\(think\)(\B|\s|$)', _("smiley Thinking"), True, True),
+	(r'(\s|^)\(think\)(\B|\s|$)', _("smiley Thinking")),
 	# Translators:  (bow) Bowing
-	(r'(\s|^)\(bow\)(\B|\s|$)', _("smiley Bowing"), True, True),
+	(r'(\s|^)\(bow\)(\B|\s|$)', _("smiley Bowing")),
 	# Translators:  (rofl) Rolling on the floor laughing
-	(r'(\s|^)\(rofl\)(\B|\s|$)', _("smiley Rolling on the floor laughing! "), True, True),
+	(r'(\s|^)\(rofl\)(\B|\s|$)', _("smiley Rolling on the floor laughing! ")),
 	# Translators:  (whew) Relieved
-	(r'(\s|^)\(whew\)(\B|\s|$)', _("smiley Relieved"), True, True),
+	(r'(\s|^)\(whew\)(\B|\s|$)', _("smiley Relieved")),
 	# Translators:  (happy) Happy
-	(r'(\s|^)\(happy\)(\B|\s|$)', _("smiley Happy"), True, True),
+	(r'(\s|^)\(happy\)(\B|\s|$)', _("smiley Happy")),
 	# Translators:  (smirk) Smirking
-	(r'(\s|^)\(smirk\)(\B|\s|$)', _("smiley Smirking"), True, True),
+	(r'(\s|^)\(smirk\)(\B|\s|$)', _("smiley Smirking")),
 	# Translators:  (nod) Nodding
-	(r'(\s|^)\(nod\)(\B|\s|$)', _("smiley Nodding;"), True, True),
+	(r'(\s|^)\(nod\)(\B|\s|$)', _("smiley Nodding;")),
 	# Translators:  (shake) Shake
-	(r'(\s|^)\(shake\)(\B|\s|$)', _("smiley Shake"), True, True),
+	(r'(\s|^)\(shake\)(\B|\s|$)', _("smiley Shake")),
 	# Translators:  (waiting) Waiting
-	(r'(\s|^)\(waiting\)(\B|\s|$)', _("smiley Waiting"), True, True),
+	(r'(\s|^)\(waiting\)(\B|\s|$)', _("smiley Waiting")),
 	# Translators:  (emo) Emo;
-	(r'(\s|^)\(emo\)(\B|\s|$)', _("smiley Emo"), True, True),
+	(r'(\s|^)\(emo\)(\B|\s|$)', _("smiley Emo")),
 	# Translators:  (y) Yes
-	(r'(\s|^)\(y\)(\B|\s|$)', _("smiley Yes"), True, True),
+	(r'(\s|^)\(y\)(\B|\s|$)', _("smiley Yes")),
 	# Translators:  (n) no;
-	(r'(\s|^)\(n\)(\B|\s|$)', _("smiley NO"), True, True),
+	(r'(\s|^)\(n\)(\B|\s|$)', _("smiley NO")),
 	# Translators:  (handshake) Handshake
-	(r'(\s|^)\(handshake\)(\B|\s|$)', _("smiley Handshake;"), True, True),
+	(r'(\s|^)\(handshake\)(\B|\s|$)', _("smiley Handshake;")),
 	# Translators:  (highfive) High five
-	(r'(\s|^)\(highfive\)(\B|\s|$)', _("smiley High five"), True, True),
+	(r'(\s|^)\(highfive\)(\B|\s|$)', _("smiley High five")),
 	# Translators:  (heart) Heart
-	(r'(\s|^)\(heart\)(\B|\s|$)', _("smiley Heart"), True, True),
+	(r'(\s|^)\(heart\)(\B|\s|$)', _("smiley Heart")),
 	# Translators:  (lalala) Lalala;
-	(r'(\s|^)\(lalala\)(\B|\s|$)', _("smiley LaLaLa"), True, True),
+	(r'(\s|^)\(lalala\)(\B|\s|$)', _("smiley LaLaLa")),
 	# Translators:  (heidy) Heidy;
-	(r'(\s|^)\(heidy\)(\B|\s|$)', _("smiley Heidy;"), True, True),
+	(r'(\s|^)\(heidy\)(\B|\s|$)', _("smiley Heidy;")),
 	# Translators:  (F) Flower
-	(r'(\s|^)\(F\)(\B|\s|$)', _("smiley Flower"), True, True),
+	(r'(\s|^)\(F\)(\B|\s|$)', _("smiley Flower")),
 	# Translators:  (rain) Raining
-	(r'(\s|^)\(rain\)(\B|\s|$)', _("smiley Raining"), True, True),
+	(r'(\s|^)\(rain\)(\B|\s|$)', _("smiley Raining")),
 	# Translators:  (sun) Sun
-	(r'(\s|^)\(sun\)(\B|\s|$)', _("smiley Sun"), True, True),
+	(r'(\s|^)\(sun\)(\B|\s|$)', _("smiley Sun")),
 	# Translators:  (tumbleweed) Tumbleweed
-	(r'(\s|^)\(tumbleweed\)(\B|\s|$)', _("smiley Tumbleweed"), True, True),
+	(r'(\s|^)\(tumbleweed\)(\B|\s|$)', _("smiley Tumbleweed")),
 	# Translators:  (music) Music
-	(r'(\s|^)\(music\)(\B|\s|$)', _("smiley Music"), True, True),
+	(r'(\s|^)\(music\)(\B|\s|$)', _("smiley Music")),
 	# Translators:  (bandit) Bandit
-	(r'(\s|^)\(bandit\)(\B|\s|$)', _("smiley Bandit"), True, True),
+	(r'(\s|^)\(bandit\)(\B|\s|$)', _("smiley Bandit")),
 	# Translators:  (tmi) Too much information
-	(r'(\s|^)\(tmi\)(\B|\s|$)', _("smiley Too much information;"), True, True),
+	(r'(\s|^)\(tmi\)(\B|\s|$)', _("smiley Too much information;")),
 	# Translators:  (coffee) Coffee
-	(r'(\s|^)\(coffee\)(\B|\s|$)', _("smiley Coffee"), True, True),
+	(r'(\s|^)\(coffee\)(\B|\s|$)', _("smiley Coffee")),
 	# Translators:  (pi) Pizza
-	(r'(\s|^)\(pi\)(\B|\s|$)', _("smiley Pizza"), True, True),
+	(r'(\s|^)\(pi\)(\B|\s|$)', _("smiley Pizza")),
 	# Translators:  (cash) Cash
-	(r'(\s|^)\(cash\)(\B|\s|$)', _("smiley Cash"), True, True),
+	(r'(\s|^)\(cash\)(\B|\s|$)', _("smiley Cash")),
 	# Translators:  (flex) Muscle
-	(r'(\s|^)\(flex\)(\B|\s|$)', _("smiley Muscle"), True, True),
+	(r'(\s|^)\(flex\)(\B|\s|$)', _("smiley Muscle")),
 	# Translators:  (^) Cake
-	(r'(\s|^)([\(][\^][\)])(\B|\s|$)', _("smiley Cake"), True, True),
+	(r'(\s|^)([\(][\^][\)])(\B|\s|$)', _("smiley Cake")),
 	# Translators:  (beer) Beer
-	(r'(\s|^)\(beer\)(\B|\s|$)', _("smiley Beer"), True, True),
+	(r'(\s|^)\(beer\)(\B|\s|$)', _("smiley Beer")),
 	# Translators:  (d) Drink
-	(r'(\s|^)\(d\)(\B|\s|$)', _("smiley Drink;"), True, True),
+	(r'(\s|^)\(d\)(\B|\s|$)', _("smiley Drink;")),
 	# Translators:  \o/ Dancing
-	(r'(\s|^)([\\]o[/])(\B|\s|$)', _("smiley Dancing"), True, True),
+	(r'(\s|^)([\\]o[/])(\B|\s|$)', _("smiley Dancing")),
 	# Translators:  (ninja) Ninja
-	(r'(\s|^)\(ninja\)(\B|\s|$)', _("smiley Ninja;"), True, True),
+	(r'(\s|^)\(ninja\)(\B|\s|$)', _("smiley Ninja;")),
 	# Translators:  (*) Star
-	(r'(\s|^)([\(][\*][\)])(\B|\s|$)', _("smiley Star"), True, True),
+	(r'(\s|^)([\(][\*][\)])(\B|\s|$)', _("smiley Star")),
 	# Translators:  Facebook  Smiley  :'( Crying
-	("(\s|^)([:]['][\(])(\B|\s|$)", _("smiley Crying"), True, True),
+	("(\s|^)([:]['][\(])(\B|\s|$)", _("smiley Crying")),
 	# Translators:  >:( Angry
-	(r'(\s|^)(>:[\(])(\B|\s|$)', _("smiley Angry"), True, True),
+	(r'(\s|^)(>:[\(])(\B|\s|$)', _("smiley Angry")),
 	# Translators:  :/ Worried
-	(r'(\s|^)(:[/])(\B|\s|$)', _("smiley Worried"), True, True),
+	(r'(\s|^)(:[/])(\B|\s|$)', _("smiley Worried")),
 	# Translators:  <3 Heart
-	(r'(\s|^)<3(\W|\s|$)', _("smiley Heart"), True, True),
+	(r'(\s|^)<3(\W|\s|$)', _("smiley Heart")),
 	# Translators: regex for Facebook contacts  in Skype v.5 series only.
-	(r'\(xmpp:-([0-9]+)@chat.facebook.com\)', _("(facebook)"), True, True),
+	(r'\(xmpp:-([0-9]+)@chat.facebook.com\)', _("(facebook)")),
 ]
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
@@ -181,10 +181,10 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		super(globalPluginHandler.GlobalPlugin, self).__init__()
 		self.emoticons = False
 		self.SD = speechDictHandler.SpeechDict()
-		for pattern, replacement, case, reg in emoticons:
+		for pattern, replacement in emoticons:
 			comment = "Emoticon: %s" % replacement
 			otherReplacement = " %s; " % replacement
-			self.SD.append(speechDictHandler.SpeechDictEntry(pattern, otherReplacement, comment, case, reg))
+			self.SD.append(speechDictHandler.SpeechDictEntry(pattern, otherReplacement, comment, True, True)) # Case and reg are always True
 
 	def terminate(self):
 		self.deactivateEmoticons()
