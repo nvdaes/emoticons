@@ -9,7 +9,7 @@ addonHandler.initTranslation()
 
 emoticons = [
 	# Translators:  :) Smile
-	(r'(\s|^)(:([\-]|)([)]{1})(\B|\s|$))', _("\1smiley Smile")),
+	(r'(\s|^)(:([\-]|)([)]{1})(\B|\s|$))', _("smiley Smile")),
 	# Translators:  :( Sad
 	(r'(\s|^)(:([\-]|)([(]{1})\B)', _("smiley Sad")),
 	# Translators:   :D Laugh
