@@ -7,40 +7,38 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 'Emoticons' '1.0-dev'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
-"POT-Creation-Date: 2013-10-13 13:45+0200\n"
-"PO-Revision-Date: 2013-10-13 13:49+0100\n"
+"POT-Creation-Date: 2013-10-15 06:40+0200\n"
+"PO-Revision-Date: 2013-10-15 06:41+0100\n"
 "Last-Translator: Noelia Ruiz Martínez <nrm1977@gmail.com>\n"
 "Language-Team: \n"
-"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#. Translators :) smiley
-#. ( _("smiley"), '(\s|^)(:([\-]|)([)]{1})(\B|\s|$))'),
 #. Translators :( sad smiley
-#: addon\globalPlugins\emoticons.py:43
+#: addon\globalPlugins\emoticons.py:17
 msgid "sad smiley"
 msgstr "Emoticono triste"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 #. Translators: message presented when the dictionary for emoticons is loaded.
-#: addon\globalPlugins\emoticons.py:89
-#: addon\globalPlugins\emoticons.py:93
+#: addon\globalPlugins\emoticons.py:56
+#: addon\globalPlugins\emoticons.py:60
 #, python-format
 msgid "Emoticons %s"
 msgstr "Emoticonos %s"
 
-#: addon\globalPlugins\emoticons.py:89
+#: addon\globalPlugins\emoticons.py:56
 msgid "off"
 msgstr "Desactivado"
 
-#: addon\globalPlugins\emoticons.py:93
+#: addon\globalPlugins\emoticons.py:60
 msgid "on"
 msgstr "Activado"
 
-#: addon\globalPlugins\emoticons.py:94
+#: addon\globalPlugins\emoticons.py:61
 msgid "Toggles on and off the speaking of emoticons using speech dictionaries."
 msgstr "Activa y desactiva la verbalización de emoticonos utilizando diccionarios del habla."
 
