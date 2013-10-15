@@ -5,6 +5,11 @@ import speechDictHandler
 import ui
 import addonHandler
 
+try:
+	from globalCommands import SCRCAT_SPEECH
+except:
+	SCRCAT_SPEECH = None
+
 addonHandler.initTranslation()
 
 emoticons = [
@@ -165,6 +170,8 @@ emoticons = [
 ]
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
+
+	scriptCategory = SCRCAT_SPEECH
 
 	def activateEmoticons(self):
 		if not self.emoticons:
