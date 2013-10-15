@@ -61,7 +61,7 @@ emoticons = [
 	# Translators:  (mm) Mmmm...
 	(r'(\s|^)\(mm\)(\B|\s|$)', _("smiley mmmmmm...")),
 	# Translators:  (nerd) Nerdy
-	(r'(\s|^)\(nerd\)(\B|\s|$)', _("smiley Nerdy;")),
+	(r'(\s|^)\(nerd\)(\B|\s|$)', _("smiley Nerdy")),
 	# Translators:  :x My lips are sealed
 	(r'(\s|^)(:([\-]|)([xX])\b)', _("smiley My lips are sealed")),
 	# Translators:  (wave) Hi
@@ -81,7 +81,7 @@ emoticons = [
 	# Translators:  (makeup) Make-up
 	(r'(\s|^)\(makeup\)(\B|\s|$)', _("smiley Make-up")),
 	# Translators:  (chuckle) Giggle
-	(r'(\s|^)\(chuckle\)(\B|\s|$)', _("smiley Giggle;")),
+	(r'(\s|^)\(chuckle\)(\B|\s|$)', _("smiley Giggle")),
 	# Translators:  (clap) Clapping
 	(r'(\s|^)\(clap\)(\B|\s|$)', _("smiley Clapping")),
 	# Translators:  (think) Thinking
@@ -97,7 +97,7 @@ emoticons = [
 	# Translators:  (smirk) Smirking
 	(r'(\s|^)\(smirk\)(\B|\s|$)', _("smiley Smirking")),
 	# Translators:  (nod) Nodding
-	(r'(\s|^)\(nod\)(\B|\s|$)', _("smiley Nodding;")),
+	(r'(\s|^)\(nod\)(\B|\s|$)', _("smiley Nodding")),
 	# Translators:  (shake) Shake
 	(r'(\s|^)\(shake\)(\B|\s|$)', _("smiley Shake")),
 	# Translators:  (waiting) Waiting
@@ -109,7 +109,7 @@ emoticons = [
 	# Translators:  (n) no;
 	(r'(\s|^)\(n\)(\B|\s|$)', _("smiley NO")),
 	# Translators:  (handshake) Handshake
-	(r'(\s|^)\(handshake\)(\B|\s|$)', _("smiley Handshake;")),
+	(r'(\s|^)\(handshake\)(\B|\s|$)', _("smiley Handshake")),
 	# Translators:  (highfive) High five
 	(r'(\s|^)\(highfive\)(\B|\s|$)', _("smiley High five")),
 	# Translators:  (heart) Heart
@@ -117,7 +117,7 @@ emoticons = [
 	# Translators:  (lalala) Lalala;
 	(r'(\s|^)\(lalala\)(\B|\s|$)', _("smiley LaLaLa")),
 	# Translators:  (heidy) Heidy;
-	(r'(\s|^)\(heidy\)(\B|\s|$)', _("smiley Heidy;")),
+	(r'(\s|^)\(heidy\)(\B|\s|$)', _("smiley Heidy")),
 	# Translators:  (F) Flower
 	(r'(\s|^)\(F\)(\B|\s|$)', _("smiley Flower")),
 	# Translators:  (rain) Raining
@@ -131,7 +131,7 @@ emoticons = [
 	# Translators:  (bandit) Bandit
 	(r'(\s|^)\(bandit\)(\B|\s|$)', _("smiley Bandit")),
 	# Translators:  (tmi) Too much information
-	(r'(\s|^)\(tmi\)(\B|\s|$)', _("smiley Too much information;")),
+	(r'(\s|^)\(tmi\)(\B|\s|$)', _("smiley Too much information")),
 	# Translators:  (coffee) Coffee
 	(r'(\s|^)\(coffee\)(\B|\s|$)', _("smiley Coffee")),
 	# Translators:  (pi) Pizza
@@ -145,11 +145,11 @@ emoticons = [
 	# Translators:  (beer) Beer
 	(r'(\s|^)\(beer\)(\B|\s|$)', _("smiley Beer")),
 	# Translators:  (d) Drink
-	(r'(\s|^)\(d\)(\B|\s|$)', _("smiley Drink;")),
+	(r'(\s|^)\(d\)(\B|\s|$)', _("smiley Drink")),
 	# Translators:  \o/ Dancing
 	(r'(\s|^)([\\]o[/])(\B|\s|$)', _("smiley Dancing")),
 	# Translators:  (ninja) Ninja
-	(r'(\s|^)\(ninja\)(\B|\s|$)', _("smiley Ninja;")),
+	(r'(\s|^)\(ninja\)(\B|\s|$)', _("smiley Ninja")),
 	# Translators:  (*) Star
 	(r'(\s|^)([\(][\*][\)])(\B|\s|$)', _("smiley Star")),
 	# Translators:  Facebook  Smiley  :'( Crying
