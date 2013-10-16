@@ -197,7 +197,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		self.deactivateEmoticons()
 		self.SD = None
 
-	def script_toggle(self, gesture):
+	def script_toggleSpeakingEmoticons(self, gesture):
 		if self.emoticons:
 			self.deactivateEmoticons()
 			# Translators: message presented when the dictionary for emoticons is unloaded.
@@ -210,5 +210,5 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	script_toggle.__doc__ = _("Toggles on and off the announcement of emoticons.")
 
 	__gestures = {
-		"kb:NVDA+e": "toggle"
+		"kb:NVDA+e": "toggleSpeakingEmoticons"
 	}
