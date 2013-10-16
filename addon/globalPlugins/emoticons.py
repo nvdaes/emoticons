@@ -207,8 +207,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			# Translators: message presented when the dictionary for emoticons is loaded.
 			ui.message(_("Emoticons on."))
 	# Translators: Message presented in input help mode.
-	script_toggle.__doc__ = _("Toggles on and off the announcement of emoticons.")
+	script_toggleSpeakingEmoticons.__doc__ = _("Toggles on and off the announcement of emoticons.")
 
 	__gestures = {
-		"kb:NVDA+e": "toggleSpeakingEmoticons"
+		"kb:NVDA+e": "toggleSpeakingEmoticons",
 	}
