@@ -165,8 +165,6 @@ emoticons = [
 	(r'(\s|^)(:[/])(\B|\s|$)', _("smiley Worried")),
 	# Translators:  <3 Heart
 	(r'(\s|^)<3(\W|\s|$)', _("smiley Heart")),
-	# Translators: regex for Facebook contacts  in Skype v.5 series only.
-	(r'\(xmpp:-([0-9]+)@chat.facebook.com\)', _("(facebook)")),
 ]
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
@@ -189,6 +187,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		self.emoticons = False
 		self.SD = speechDictHandler.SpeechDict()
 		for pattern, replacement in emoticons:
+			# Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 			comment = _("Emoticon: %s") % replacement
 			otherReplacement = " %s; " % replacement
 			self.SD.append(speechDictHandler.SpeechDictEntry(pattern, otherReplacement, comment, True, True)) # Case and reg are always True
