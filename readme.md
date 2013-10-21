@@ -11,6 +11,10 @@ For example: ":)" will be spoken as "smiling smiley", or ":D" will be spoken as 
 ## Key Commands: ##
 
 *	NVDA+E: toggles between speaking text as it is written, or with the emoticons replaced by the human description.
+
+## Changes for 1.0 ##
+
+* Initial version.
  
 [[!tag dev]]
 
