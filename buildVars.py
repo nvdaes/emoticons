@@ -22,7 +22,7 @@ addon_info = {
 	# version
 	"addon-version" : "1.0-dev",
 	# Author(s)
-	"addon-author" : "Chris <llajta2012@gmail.com>, Noelia Ruiz Martínez <nrm1977@gmail.com>, Mesar Hameed <mhameed@src.gnome.org>",
+	"addon-author" : u"Chris <llajta2012@gmail.com>, Noelia Ruiz Martínez <nrm1977@gmail.com>, Mesar Hameed <mhameed@src.gnome.org>",
 	# URL for the add-on documentation support
 	"addon-url" : "http://addons.nvda-project.org"
 }
