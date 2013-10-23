@@ -2,13 +2,16 @@
 
 import globalPluginHandler
 import speechDictHandler
+import os
 import api
+import globalVars
 import ui
 import wx
 import gui
 import addonHandler
 from collections import namedtuple
 from gui.settingsDialogs import SettingsDialog
+from gui.settingsDialogs import DictionaryDialog
 
 try:
 	from globalCommands import SCRCAT_SPEECH
@@ -192,6 +195,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		super(globalPluginHandler.GlobalPlugin, self).__init__()
 		self.emoticons = False
 		self.SD = speechDictHandler.SpeechDict()
+		self.SD.load(os.path.join(os.path.dirname(__file__), "emoticons.dic"))
 		for em in emoticons:
 			# Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 			comment = _("Emoticon: %s") % em.name
@@ -240,9 +244,13 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		self.onInsertEmoticonDialog(None)
 	script_insertEmoticon.__doc__ = _("Shows a dialog to select a smiley you want to paste.")
 
+	def script_test(self, gesture):
+		gui.mainFrame._popupSettingsDialog(DictionaryDialog,_("Emoticons dictionary"), self.SD)
+
 	__gestures = {
 		"kb:NVDA+e": "toggleSpeakingEmoticons",
 		"kb:NVDA+i": "insertEmoticon",
+		"kb:NVDA+o": "test",
 	}
 
 class InsertEmoticonDialog(SettingsDialog):
@@ -272,3 +280,4 @@ class InsertEmoticonDialog(SettingsDialog):
 			wx.CallLater(100, ui.message, _("Smiley copied to clipboard, ready for you to paste."))
 		else:
 			wx.CallLater(100, ui.message, _("Cannot copy smiley."))
+
