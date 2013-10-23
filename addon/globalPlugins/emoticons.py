@@ -1,11 +1,15 @@
 # -*- coding: UTF-8 -*-
 
-from collections import namedtuple
-
 import globalPluginHandler
 import speechDictHandler
+import api
 import ui
+import wx
+import gui
+import brailleInput
 import addonHandler
+from collections import namedtuple
+from gui.settingsDialogs import SettingsDialog
 
 try:
 	from globalCommands import SCRCAT_SPEECH
@@ -195,11 +199,31 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			otherReplacement = " %s; " % em.name
 			# Case and reg are always True
 			self.SD.append(speechDictHandler.SpeechDictEntry(em.pattern, otherReplacement, comment, True, True))
-
+			# Gui
+		self.menu = gui.mainFrame.sysTrayIcon.preferencesMenu
+		self.emMenu = wx.Menu()
+		self.mainItem = self.menu.AppendSubMenu(self.emMenu,
+		# Translators: the name of addon submenu.
+		_("Manage emoticons"),
+		# Translators: the tooltip text for addon submenu.
+		_("Emoticons menu"))
+		self.insertItem = self.emMenu.Append(wx.ID_ANY,
+		# Translators: the name for an item of addon submenu.
+		_("&Insert smiley..."),
+		# Translators: the tooltip text for an item of addon submenu.
+		_("Shows a dialog to insert a smiley"))
+		gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onInsertEmoticonDialog, self.insertItem)
 
 	def terminate(self):
 		self.deactivateEmoticons()
 		self.SD = None
+		try:
+			self.menu.RemoveItem(self.mainItem)
+		except wx.PyDeadObjectError:
+			pass
+
+	def onInsertEmoticonDialog(self, evt):
+		gui.mainFrame._popupSettingsDialog(InsertEmoticonDialog)
 
 	def script_toggleSpeakingEmoticons(self, gesture):
 		if self.emoticons:
@@ -213,6 +237,39 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	# Translators: Message presented in input help mode.
 	script_toggleSpeakingEmoticons.__doc__ = _("Toggles on and off the announcement of emoticons.")
 
+	def script_insertEmoticon(self, gesture):
+		self.onInsertEmoticonDialog(None)
+	script_insertEmoticon.__doc__ = _("Shows a dialog to select a smiley you want to paste.")
+
 	__gestures = {
 		"kb:NVDA+e": "toggleSpeakingEmoticons",
+		"kb:NVDA+i": "insertEmoticon",
 	}
+
+class InsertEmoticonDialog(SettingsDialog):
+	# Translators: This is the label for the specific search settings dialog.
+	title = _("Insert emoticon")
+
+	def makeSettings(self, settingsSizer):
+		smileysListSizer=wx.BoxSizer(wx.HORIZONTAL)
+		# Translators: The label for a setting in Insert emoticons to select a smiley.
+		smileysListLabel = wx.StaticText(self,-1,label=_("&Available emoticons (%s)" % len(emoticons)))
+		smileysListSizer.Add(smileysListLabel)
+		smileysListID=wx.NewId()
+		# Translators: A combo box to choose a smiley.
+		self.smileysList=wx.Choice(self ,smileysListID, name=_("Available smileys to insert:"), choices= [emoticon.name for emoticon in emoticons])
+		self.smileysList.SetSelection(0)
+		smileysListSizer.Add(self.smileysList)
+		settingsSizer.Add(smileysListSizer, border=10, flag=wx.BOTTOM)
+
+	def postInit(self):
+		self.smileysList.SetFocus()
+
+	def onOk(self,evt):
+		super(InsertEmoticonDialog, self).onOk(evt)
+		iconToInsert = unicode(emoticons[self.smileysList.GetSelection()].chars)
+		if api.copyToClip(iconToInsert):
+			# Translators: This is the message when smiley has been copied to the clipboard.
+			wx.CallLater(100, ui.message, _("Smiley copied to clipboard, ready for you to paste."))
+		else:
+			wx.CallLater(100, ui.message, _("Cannot copy smiley."))
