@@ -1,10 +1,10 @@
 # -*- coding: UTF-8 -*-
 
 import globalPluginHandler
+import globalVars
 import speechDictHandler
 import os
 import api
-import globalVars
 import ui
 import wx
 import gui
@@ -188,7 +188,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def deactivateEmoticons(self):
 		if self.emoticons:
 			for entry in self.SD:
-				speechDictHandler.dictionaries["temp"].remove(entry)
+				if entry in speechDictHandler.dictionaries["temp"]:
+					speechDictHandler.dictionaries["temp"].remove(entry)
 			self.emoticons = False
 
 	def __init__(self):
@@ -216,6 +217,12 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# Translators: the tooltip text for an item of addon submenu.
 		_("Shows a dialog to insert a smiley"))
 		gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onInsertEmoticonDialog, self.insertItem)
+		self.dicItem = self.emMenu.Append(wx.ID_ANY,
+		# Translators: the name for an item of addon submenu.
+		_("&Customize emoticons..."),
+		# Translators: the tooltip text for an item of addon submenu.
+		_("Shows a dictionary dialog to customize emoticons"))
+		gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onEmDicDialog, self.dicItem)
 
 	def terminate(self):
 		self.deactivateEmoticons()
@@ -228,7 +235,14 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def onInsertEmoticonDialog(self, evt):
 		gui.mainFrame._popupSettingsDialog(InsertEmoticonDialog)
 
+	def onEmDicDialog(self, evt):
+		speechDictHandler.initialize()
+		self.deactivateEmoticons()
+		gui.mainFrame._popupSettingsDialog(DictionaryDialog,_("Emoticons dictionary"), self.SD)
+
 	def script_toggleSpeakingEmoticons(self, gesture):
+		if not globalVars.speechDictionaryProcessing:
+			return
 		if self.emoticons:
 			self.deactivateEmoticons()
 			# Translators: message presented when the dictionary for emoticons is unloaded.
@@ -244,13 +258,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		self.onInsertEmoticonDialog(None)
 	script_insertEmoticon.__doc__ = _("Shows a dialog to select a smiley you want to paste.")
 
-	def script_test(self, gesture):
-		gui.mainFrame._popupSettingsDialog(DictionaryDialog,_("Emoticons dictionary"), self.SD)
-
 	__gestures = {
 		"kb:NVDA+e": "toggleSpeakingEmoticons",
 		"kb:NVDA+i": "insertEmoticon",
-		"kb:NVDA+o": "test",
 	}
 
 class InsertEmoticonDialog(SettingsDialog):
