@@ -6,7 +6,6 @@ import api
 import ui
 import wx
 import gui
-import brailleInput
 import addonHandler
 from collections import namedtuple
 from gui.settingsDialogs import SettingsDialog
