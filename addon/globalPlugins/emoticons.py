@@ -177,30 +177,31 @@ emoticons = [
 	Smiley(r'(\s|^)<3(\W|\s|$)', _("heart smiley"), r'<3'),
 ]
 
-defaultDic = SD = speechDictHandler.SpeechDict()
+defaultDic = speechDictHandler.SpeechDict()
+sD =speechDictHandler.SpeechDict()
+emStatus = False
+shouldActivateEmoticons = False
+
+def activateEmoticons():
+	global emStatus
+	speechDictHandler.dictionaries["temp"].extend(sD)
+	emStatus = True
+
+def deactivateEmoticons():
+	global emStatus
+	for entry in sD:
+		if entry in speechDictHandler.dictionaries["temp"]:
+			speechDictHandler.dictionaries["temp"].remove(entry)
+	emStatus = False
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	scriptCategory = SCRCAT_SPEECH
 
-	def activateEmoticons(self):
-		if not self.emoticons:
-			speechDictHandler.dictionaries["temp"].extend(self.SD)
-			self.emoticons = True
-
-	def deactivateEmoticons(self):
-		if self.emoticons:
-			for entry in self.SD:
-				if entry in speechDictHandler.dictionaries["temp"]:
-					speechDictHandler.dictionaries["temp"].remove(entry)
-			self.emoticons = False
-
 	def __init__(self):
 		super(globalPluginHandler.GlobalPlugin, self).__init__()
-		self.emoticons = False
-		self.SD = speechDictHandler.SpeechDict()
-		self.SD.load(dicFile)
-		global defaultDic
+		global sD, defaultDic
+		sD.load(dicFile)
 		for em in emoticons:
 			# Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 			comment = _("Emoticon: %s") % em.name
@@ -208,7 +209,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			# Case and reg are always True
 			defaultDic.append(speechDictHandler.SpeechDictEntry(em.pattern, otherReplacement, comment, True, True))
 		if not os.path.isfile(dicFile):
-			self.SD.extend(defaultDic)
+			sD.extend(defaultDic)
 		# Gui
 		self.menu = gui.mainFrame.sysTrayIcon.preferencesMenu
 		self.emMenu = wx.Menu()
@@ -231,8 +232,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onEmDicDialog, self.dicItem)
 
 	def terminate(self):
-		self.deactivateEmoticons()
-		self.SD = None
+		deactivateEmoticons()
+		global sD, defaultDic
+		sD = defaultDic = None
 		try:
 			self.menu.RemoveItem(self.mainItem)
 		except wx.PyDeadObjectError:
@@ -242,18 +244,20 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		gui.mainFrame._popupSettingsDialog(InsertEmoticonDialog)
 
 	def onEmDicDialog(self, evt):
-		self.deactivateEmoticons()
-		gui.mainFrame._popupSettingsDialog(EmDicDialog,_("Emoticons dictionary"), self.SD)
+		global shouldActivateEmoticons
+		shouldActivateEmoticons = emStatus
+		deactivateEmoticons()
+		gui.mainFrame._popupSettingsDialog(EmDicDialog,_("Emoticons dictionary"), sD)
 
 	def script_toggleSpeakingEmoticons(self, gesture):
 		if not globalVars.speechDictionaryProcessing:
 			return
-		if self.emoticons:
-			self.deactivateEmoticons()
+		if emStatus:
+			deactivateEmoticons()
 			# Translators: message presented when the dictionary for emoticons is unloaded.
 			ui.message(_("Emoticons off."))
 		else:
-			self.activateEmoticons()
+			activateEmoticons()
 			# Translators: message presented when the dictionary for emoticons is loaded.
 			ui.message(_("Emoticons on."))
 	# Translators: Message presented in input help mode.
@@ -269,7 +273,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	}
 
 class InsertEmoticonDialog(SettingsDialog):
-	# Translators: This is the label for the specific search settings dialog.
+	# Translators: This is the label for the InsertEmoticon dialog.
 	title = _("Insert emoticon")
 
 	def makeSettings(self, settingsSizer):
@@ -349,3 +353,17 @@ class EmDicDialog(DictionaryDialog):
 		for entry in defaultDic:
 			self.dictList.Append((entry.comment,entry.pattern,entry.replacement,self.offOn[int(entry.caseSensitive)],self.offOn[int(entry.regexp)]))
 		self.dictList.SetFocus()
+
+	def onOk(self,evt):
+		super(EmDicDialog, self).onOk(evt)
+		global shouldActivateEmoticons
+		if shouldActivateEmoticons:
+			activateEmoticons()
+		shouldActivateEmoticons = False
+
+	def onCancel(self,evt):
+		super(EmDicDialog, self).onCancel(evt)
+		global shouldActivateEmoticons
+		if shouldActivateEmoticons:
+			activateEmoticons()
+			shouldActivateEmoticons = False
