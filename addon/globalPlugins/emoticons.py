@@ -20,6 +20,7 @@ except:
 
 addonHandler.initTranslation()
 
+dicFile = os.path.join(os.path.dirname(__file__), "emoticons.dic")
 Smiley = namedtuple('Smiley', 'pattern name chars')
 emoticons = [
 	# Translators: :) Smile
@@ -176,6 +177,8 @@ emoticons = [
 	Smiley(r'(\s|^)<3(\W|\s|$)', _("heart smiley"), r'<3'),
 ]
 
+defaultDic = SD = speechDictHandler.SpeechDict()
+
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	scriptCategory = SCRCAT_SPEECH
@@ -196,14 +199,17 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		super(globalPluginHandler.GlobalPlugin, self).__init__()
 		self.emoticons = False
 		self.SD = speechDictHandler.SpeechDict()
-		self.SD.load(os.path.join(os.path.dirname(__file__), "emoticons.dic"))
+		self.SD.load(dicFile)
+		global defaultDic
 		for em in emoticons:
 			# Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 			comment = _("Emoticon: %s") % em.name
 			otherReplacement = " %s; " % em.name
 			# Case and reg are always True
-			self.SD.append(speechDictHandler.SpeechDictEntry(em.pattern, otherReplacement, comment, True, True))
-			# Gui
+			defaultDic.append(speechDictHandler.SpeechDictEntry(em.pattern, otherReplacement, comment, True, True))
+		if not os.path.isfile(dicFile):
+			self.sd.extend(defaultDic)
+		# Gui
 		self.menu = gui.mainFrame.sysTrayIcon.preferencesMenu
 		self.emMenu = wx.Menu()
 		self.mainItem = self.menu.AppendSubMenu(self.emMenu,
@@ -236,9 +242,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		gui.mainFrame._popupSettingsDialog(InsertEmoticonDialog)
 
 	def onEmDicDialog(self, evt):
-		speechDictHandler.initialize()
 		self.deactivateEmoticons()
-		gui.mainFrame._popupSettingsDialog(DictionaryDialog,_("Emoticons dictionary"), self.SD)
+		gui.mainFrame._popupSettingsDialog(EmDicDialog,_("Emoticons dictionary"), self.SD)
 
 	def script_toggleSpeakingEmoticons(self, gesture):
 		if not globalVars.speechDictionaryProcessing:
@@ -291,3 +296,56 @@ class InsertEmoticonDialog(SettingsDialog):
 		else:
 			wx.CallLater(100, ui.message, _("Cannot copy smiley."))
 
+class EmDicDialog(DictionaryDialog):
+
+	def makeSettings(self, settingsSizer):
+		dictListID=wx.NewId()
+		entriesSizer=wx.BoxSizer(wx.VERTICAL)
+		# Translators: The label for the combo box of dictionary entries in speech dictionary dialog.
+		entriesLabel=wx.StaticText(self,-1,label=_("&Dictionary entries"))
+		entriesSizer.Add(entriesLabel)
+		self.dictList=wx.ListCtrl(self,dictListID,style=wx.LC_REPORT|wx.LC_SINGLE_SEL,size=(550,350))
+		# Translators: The label for a column in dictionary entries list used to identify comments for the entry.
+		self.dictList.InsertColumn(0,_("Comment"),width=150)
+		# Translators: The label for a column in dictionary entries list used to identify pattern (original word or a pattern).
+		self.dictList.InsertColumn(1,_("Pattern"),width=150)
+		# Translators: The label for a column in dictionary entries list and in a list of symbols from symbol pronunciation dialog used to identify replacement for a pattern or a symbol
+		self.dictList.InsertColumn(2,_("Replacement"),width=150)
+		# Translators: The label for a column in dictionary entries list used to identify whether the entry is case sensitive or not.
+		self.dictList.InsertColumn(3,_("case"),width=50)
+		# Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression or not.
+		self.dictList.InsertColumn(4,_("Regexp"),width=50)
+		self.offOn = (_("off"),_("on"))
+		for entry in self.tempSpeechDict:
+			self.dictList.Append((entry.comment,entry.pattern,entry.replacement,self.offOn[int(entry.caseSensitive)],self.offOn[int(entry.regexp)]))
+		self.editingIndex=-1
+		entriesSizer.Add(self.dictList,proportion=8)
+		settingsSizer.Add(entriesSizer)
+		entryButtonsSizer=wx.BoxSizer(wx.HORIZONTAL)
+		addButtonID=wx.NewId()
+		# Translators: The label for a button in speech dictionaries dialog to add new entries.
+		addButton=wx.Button(self,addButtonID,_("&Add"),wx.DefaultPosition)
+		entryButtonsSizer.Add(addButton)
+		editButtonID=wx.NewId()
+		# Translators: The label for a button in speech dictionaries dialog to edit existing entries.
+		editButton=wx.Button(self,editButtonID,_("&Edit"),wx.DefaultPosition)
+		entryButtonsSizer.Add(editButton)
+		removeButtonID=wx.NewId()
+		removeButton=wx.Button(self,removeButtonID,_("&Remove"),wx.DefaultPosition)
+		entryButtonsSizer.Add(removeButton)
+		resetButtonID=wx.NewId()
+		resetButton=wx.Button(self,resetButtonID,_("Rese&t"),wx.DefaultPosition)
+		entryButtonsSizer.Add(resetButton)
+		self.Bind(wx.EVT_BUTTON,self.OnAddClick,id=addButtonID)
+		self.Bind(wx.EVT_BUTTON,self.OnEditClick,id=editButtonID)
+		self.Bind(wx.EVT_BUTTON,self.OnRemoveClick,id=removeButtonID)
+		self.Bind(wx.EVT_BUTTON,self.OnResetClick,id=resetButtonID)
+		settingsSizer.Add(entryButtonsSizer)
+
+	def OnResetClick(self,evt):
+		self.dictList.DeleteAllItems()
+		self.tempSpeechDict = []
+		self.tempSpeechDict.extend(defaultDic)
+		for entry in defaultDic:
+			self.dictList.Append((entry.comment,entry.pattern,entry.replacement,self.offOn[int(entry.caseSensitive)],self.offOn[int(entry.regexp)]))
+		self.dictList.SetFocus()
