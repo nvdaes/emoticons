@@ -208,7 +208,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			# Case and reg are always True
 			defaultDic.append(speechDictHandler.SpeechDictEntry(em.pattern, otherReplacement, comment, True, True))
 		if not os.path.isfile(dicFile):
-			self.sd.extend(defaultDic)
+			self.SD.extend(defaultDic)
 		# Gui
 		self.menu = gui.mainFrame.sysTrayIcon.preferencesMenu
 		self.emMenu = wx.Menu()
