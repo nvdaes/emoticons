@@ -2,6 +2,7 @@
 
 import addonHandler
 import speechDictHandler
+import globalVars
 import os
 import shutil
 import gui
@@ -20,14 +21,18 @@ def onInstall():
 				wx.YES|wx.NO|wx.ICON_WARNING)==wx.YES:
 					addon.requestRemove()
 			break
-	if os.path.isfile(os.path.join(speechDictHandler.speechDictsPath, "emoticons.dic")):
+	if os.path.isfile(os.path.join(speechDictHandler.speechDictsPath, "emoticons.dic")) or os.path.isfile(os.path.join(globalVars.appArgs.configPath, "emoticons.ini")):
 		if gui.messageBox(
 		# Translators: the label of a message box dialog.
-		_("You seem to have a dictionary for this add-on. Do you want to import it?"),
+		_("You seem to have previous settings saved for this add-on. Do you want to import them?"),
 		# Translators: the title of a message box dialog.
-		_("Import emoticons dictionary"),
+		_("Import Emoticons add-on settings"),
 		wx.YES|wx.NO|wx.ICON_WARNING)==wx.YES:
 			try:
 				shutil.copy(os.path.join(speechDictHandler.speechDictsPath, "emoticons.dic"), os.path.join(os.path.dirname(__file__), "globalPlugins"))
+			except:
+				pass
+			try:
+				shutil.copy(os.path.join(globalVars.appArgs.configPath, "emoticons.ini"), os.path.join(os.path.dirname(__file__), "globalPlugins"))
 			except:
 				pass

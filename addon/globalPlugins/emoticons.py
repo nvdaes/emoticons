@@ -4,6 +4,7 @@ import globalPluginHandler
 import globalVars
 import speechDictHandler
 import os
+import shutil
 import api
 import ui
 import wx
@@ -19,6 +20,24 @@ except:
 	SCRCAT_SPEECH = None
 
 addonHandler.initTranslation()
+
+# Activation at start
+from logHandler import log
+from cStringIO import StringIO
+from configobj import ConfigObj
+from validate import Validator
+
+iniFileName = os.path.join(os.path.dirname(__file__), "emoticons.ini")
+
+confspec = ConfigObj(StringIO("""#Configuration file
+
+[Activation settings]
+	activateAtStart = integer(default=0)
+"""), encoding="UTF-8", list_values=False)
+confspec.newlines = "\r\n"
+conf = ConfigObj(iniFileName, configspec = confspec, indent_type = "\t", encoding="UTF-8")
+val = Validator()
+conf.validate(val)
 
 dicFile = os.path.join(os.path.dirname(__file__), "emoticons.dic")
 Smiley = namedtuple('Smiley', 'pattern name chars')
@@ -179,7 +198,7 @@ emoticons = [
 
 defaultDic = speechDictHandler.SpeechDict()
 sD =speechDictHandler.SpeechDict()
-emStatus = False
+emStatus = conf["Activation settings"]["activateAtStart"]
 shouldActivateEmoticons = False
 
 def activateEmoticons():
@@ -230,6 +249,12 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# Translators: the tooltip text for an item of addon submenu.
 		_("Shows a dictionary dialog to customize emoticons"))
 		gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onEmDicDialog, self.dicItem)
+		self.activateItem = self.emMenu.Append(wx.ID_ANY,
+		# Translators: the name for an item of addon submenu.
+		_("&Activation settings..."),
+		# Translators: the tooltip text for an item of addon submenu.
+		_("Shows a dialog to choose when emoticons speaking should be activated"))
+		gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onActivateDialog, self.activateItem)
 
 	def terminate(self):
 		deactivateEmoticons()
@@ -248,6 +273,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		shouldActivateEmoticons = emStatus
 		deactivateEmoticons()
 		gui.mainFrame._popupSettingsDialog(EmDicDialog,_("Emoticons dictionary"), sD)
+
+	def onActivateDialog(self, evt):
+		gui.mainFrame._popupSettingsDialog(ActivateEmoticonsDialog)
 
 	def script_toggleSpeakingEmoticons(self, gesture):
 		if not globalVars.speechDictionaryProcessing:
@@ -273,15 +301,16 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	}
 
 class InsertEmoticonDialog(SettingsDialog):
+
 	# Translators: This is the label for the InsertEmoticon dialog.
 	title = _("Insert emoticon")
 
 	def makeSettings(self, settingsSizer):
-		smileysListSizer=wx.BoxSizer(wx.HORIZONTAL)
+		smileysListSizer = wx.BoxSizer(wx.HORIZONTAL)
 		# Translators: The label for a setting in Insert emoticons to select a smiley.
 		smileysListLabel = wx.StaticText(self,-1,label=_("&Available emoticons (%s)" % len(emoticons)))
 		smileysListSizer.Add(smileysListLabel)
-		smileysListID=wx.NewId()
+		smileysListID = wx.NewId()
 		# Translators: A combo box to choose a smiley.
 		self.smileysList=wx.Choice(self ,smileysListID, name=_("Available smileys to insert:"), choices= [emoticon.name for emoticon in emoticons])
 		self.smileysList.SetSelection(0)
@@ -303,10 +332,10 @@ class InsertEmoticonDialog(SettingsDialog):
 class EmDicDialog(DictionaryDialog):
 
 	def makeSettings(self, settingsSizer):
-		dictListID=wx.NewId()
-		entriesSizer=wx.BoxSizer(wx.VERTICAL)
+		dictListID = wx.NewId()
+		entriesSizer = wx.BoxSizer(wx.VERTICAL)
 		# Translators: The label for the combo box of dictionary entries in speech dictionary dialog.
-		entriesLabel=wx.StaticText(self,-1,label=_("&Dictionary entries"))
+		entriesLabel = wx.StaticText(self,-1,label=_("&Dictionary entries"))
 		entriesSizer.Add(entriesLabel)
 		self.dictList=wx.ListCtrl(self,dictListID,style=wx.LC_REPORT|wx.LC_SINGLE_SEL,size=(550,350))
 		# Translators: The label for a column in dictionary entries list used to identify comments for the entry.
@@ -325,30 +354,30 @@ class EmDicDialog(DictionaryDialog):
 		self.editingIndex=-1
 		entriesSizer.Add(self.dictList,proportion=8)
 		settingsSizer.Add(entriesSizer)
-		entryButtonsSizer=wx.BoxSizer(wx.HORIZONTAL)
-		addButtonID=wx.NewId()
+		entryButtonsSizer = wx.BoxSizer(wx.HORIZONTAL)
+		addButtonID = wx.NewId()
 		# Translators: The label for a button in speech dictionaries dialog to add new entries.
-		addButton=wx.Button(self,addButtonID,_("&Add"),wx.DefaultPosition)
+		addButton = wx.Button(self,addButtonID,_("&Add"),wx.DefaultPosition)
 		entryButtonsSizer.Add(addButton)
-		editButtonID=wx.NewId()
+		editButtonID = wx.NewId()
 		# Translators: The label for a button in speech dictionaries dialog to edit existing entries.
-		editButton=wx.Button(self,editButtonID,_("&Edit"),wx.DefaultPosition)
+		editButton = wx.Button(self,editButtonID,_("&Edit"),wx.DefaultPosition)
 		entryButtonsSizer.Add(editButton)
-		removeButtonID=wx.NewId()
-		removeButton=wx.Button(self,removeButtonID,_("&Remove"),wx.DefaultPosition)
+		removeButtonID = wx.NewId()
+		removeButton = wx.Button(self,removeButtonID,_("&Remove"),wx.DefaultPosition)
 		entryButtonsSizer.Add(removeButton)
-		resetButtonID=wx.NewId()
-		resetButton=wx.Button(self,resetButtonID,_("Rese&t"),wx.DefaultPosition)
+		resetButtonID = wx.NewId()
+		resetButton = wx.Button(self,resetButtonID,_("Rese&t"),wx.DefaultPosition)
 		entryButtonsSizer.Add(resetButton)
 		self.Bind(wx.EVT_BUTTON,self.OnAddClick,id=addButtonID)
 		self.Bind(wx.EVT_BUTTON,self.OnEditClick,id=editButtonID)
 		self.Bind(wx.EVT_BUTTON,self.OnRemoveClick,id=removeButtonID)
 		self.Bind(wx.EVT_BUTTON,self.OnResetClick,id=resetButtonID)
 		settingsSizer.Add(entryButtonsSizer)
-		fileButtonsSizer=wx.BoxSizer(wx.HORIZONTAL)
-		exportButtonID=wx.NewId()
+		fileButtonsSizer = wx.BoxSizer(wx.HORIZONTAL)
+		exportButtonID = wx.NewId()
 		# Translators: The label for a button in speech dictionaries dialog to add new entries.
-		exportButton=wx.Button(self,exportButtonID,_("E&xport dictionary"),wx.DefaultPosition)
+		exportButton = wx.Button(self,exportButtonID,_("Save and e&xport dictionary"),wx.DefaultPosition)
 		fileButtonsSizer.Add(exportButton)
 		self.Bind(wx.EVT_BUTTON,self.OnExportClick,id=exportButtonID)
 		settingsSizer.Add(fileButtonsSizer)
@@ -378,3 +407,49 @@ class EmDicDialog(DictionaryDialog):
 	def OnExportClick(self,evt):
 		self.onOk(None)
 		sD.save(os.path.join(speechDictHandler.speechDictsPath, "emoticons.dic"))
+
+class ActivateEmoticonsDialog(SettingsDialog):
+
+# Translators: this is the label for the Emoticons activate dialog.
+	title = _("Activation settings")
+
+	def makeSettings(self, settingsSizer):
+		activateSizer=wx.BoxSizer(wx.HORIZONTAL)
+		# Translators: The label for a setting in Activate emoticons dialog.
+		activateLabel=wx.StaticText(self,-1,label=_("&Activate speaking of emoticons at start:"))
+		activateSizer.Add(activateLabel)
+		activateListID = wx.NewId()
+		self.activateChoices = [
+		# Translators: a choice of Activateemoticons dialog.
+		_("off"),
+		# Translators: a choice of Activateemoticons dialog.
+		_("On")]
+		# Translators: a combo box in Emoticons dialog.
+		self.activateList = wx.Choice(self, activateListID, name=_("Activate at start"), choices=[x for x in self.activateChoices])
+		self.activateList.SetSelection(conf["Activation settings"]["activateAtStart"])
+		activateSizer.Add(self.activateList)
+		settingsSizer.Add(activateSizer,border=10,flag=wx.BOTTOM)
+		# Translators: The label for a setting in Activate emoticons dialog to copy activation settings.
+		self.copyActivationCheckBox = wx.CheckBox(self, wx.NewId(), label=_("&Copy activation settings"))
+		self.copyActivationCheckBox.SetValue(False)
+		settingsSizer.Add(self.copyActivationCheckBox,border=10,flag=wx.BOTTOM)
+
+	def postInit(self):
+		self.activateList.SetFocus()
+
+	def onOk(self,evt):
+		super(ActivateEmoticonsDialog, self).onOk(evt)
+		conf["Activation settings"]["activateAtStart"] = self.activateList.GetSelection()
+		try:
+			conf.validate(val, copy=True)
+			conf.write()
+			log.info("Emoticons add-on configuration saved.")
+		except Exception, e:
+			log.warning("Could not save Emoticons add-on configuration.")
+			log.debugWarning("", exc_info=True)
+			raise e
+		if self.copyActivationCheckBox.GetValue():
+			try:
+				shutil.copy(iniFileName, globalVars.appArgs.configPath)
+			except:
+				pass
