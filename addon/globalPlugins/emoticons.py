@@ -345,6 +345,13 @@ class EmDicDialog(DictionaryDialog):
 		self.Bind(wx.EVT_BUTTON,self.OnRemoveClick,id=removeButtonID)
 		self.Bind(wx.EVT_BUTTON,self.OnResetClick,id=resetButtonID)
 		settingsSizer.Add(entryButtonsSizer)
+		fileButtonsSizer=wx.BoxSizer(wx.HORIZONTAL)
+		exportButtonID=wx.NewId()
+		# Translators: The label for a button in speech dictionaries dialog to add new entries.
+		exportButton=wx.Button(self,exportButtonID,_("E&xport dictionary"),wx.DefaultPosition)
+		fileButtonsSizer.Add(exportButton)
+		self.Bind(wx.EVT_BUTTON,self.OnExportClick,id=exportButtonID)
+		settingsSizer.Add(fileButtonsSizer)
 
 	def OnResetClick(self,evt):
 		self.dictList.DeleteAllItems()
@@ -367,3 +374,7 @@ class EmDicDialog(DictionaryDialog):
 		if shouldActivateEmoticons:
 			activateEmoticons()
 			shouldActivateEmoticons = False
+
+	def OnExportClick(self,evt):
+		self.onOk(None)
+		sD.save(os.path.join(speechDictHandler.speechDictsPath, "emoticons.dic"))
