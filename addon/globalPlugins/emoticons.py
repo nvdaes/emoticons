@@ -15,9 +15,9 @@ from gui.settingsDialogs import DictionaryDialog
 from smileysList import emoticons
 
 try:
-	from globalCommands import SCRCAT_SPEECH
+	from globalCommands import SCRCAT_SPEECH, SCRCAT_TOOLS
 except:
-	SCRCAT_SPEECH = None
+	SCRCAT_SPEECH = SCRCAT_TOOLS = None
 
 addonHandler.initTranslation()
 
@@ -139,6 +139,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def script_insertEmoticon(self, gesture):
 		self.onInsertEmoticonDialog(None)
+	script_insertEmoticon.category = SCRCAT_TOOLS
+	# Translators: Message presented in input help mode.
 	script_insertEmoticon.__doc__ = _("Shows a dialog to select a smiley you want to paste.")
 
 	__gestures = {
