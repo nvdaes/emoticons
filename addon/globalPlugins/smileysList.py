@@ -143,7 +143,7 @@ emoticons = [
 	# Translators: (y) Yes
 	Smiley(r'(\s|^)\(y\)(\B|\s|$)', _("yes smiley"), r'(y)'),
 	# Translators: (n) no;
-	Smiley(r'(\s|^)\(n\)(\B|\s|$)', _("nO smiley"), r'(n)'),
+	Smiley(r'(\s|^)\(n\)(\B|\s|$)', _("no smiley"), r'(n)'),
 	# Translators: (handshake) Handshake
 	Smiley(r'(\s|^)\(handshake\)(\B|\s|$)', _("handshake smiley"), r'(handshake)'),
 	# Translators: (highfive) High five
