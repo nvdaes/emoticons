@@ -1,7 +1,7 @@
 # Emoticons #
 
 * Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed
-* Download [development version: 1.0-dev][1]
+* Download [development version][1]
 
 Using this add-on, spoken text containing emoticon characters will be replaced by its more human friendly description.
 84 emoticons are defined.
