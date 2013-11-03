@@ -1,7 +1,6 @@
 # -*- coding: UTF-8 -*-
 
 import addonHandler
-import globalPluginHandler
 from collections import namedtuple
 
 addonHandler.initTranslation()
@@ -178,9 +177,6 @@ emoticons = [
 	Smiley(r'(\s|^)([\(][\*][\)])(\B|\s|$)', _("star smiley"), r'(*)'),
 ]
 
-class GlobalPlugin(globalPluginHandler.GlobalPlugin):
-	"""We need this class to import this file as a global plugin."""
-
-	def terminate(self):
-		global emoticons
-		del emoticons
+def terminate(self):
+	global emoticons
+	del emoticons
