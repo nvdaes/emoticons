@@ -157,7 +157,7 @@ class InsertEmoticonDialog(SettingsDialog):
 		smileysListSizer = wx.BoxSizer(wx.HORIZONTAL)
 		# Translators: The label for a setting in Insert emoticons to select a smiley.
 		availableEmoticonsLabel = _("Available emoticons")
-		smileysListLabel = wx.StaticText(self,-1,label="{labelString} ({labelInt})".format(labelString=availableEmoticonsLabel, labelInt=str(len(emoticons))))
+		smileysListLabel = wx.StaticText(self,-1,label=u"{labelString} ({labelInt})".format(labelString=availableEmoticonsLabel, labelInt=str(len(emoticons))))
 		smileysListSizer.Add(smileysListLabel)
 		smileysListID = wx.NewId()
 		# Translators: A combo box to choose a smiley.
