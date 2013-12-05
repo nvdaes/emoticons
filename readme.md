@@ -1,7 +1,8 @@
 # Emoticons #
 
 * Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed
-* Download [development version][1]
+* Download [stable version][1]
+* Download [development version][2]
 
 Using this add-on, spoken text containing emoticon characters will be replaced by its more human friendly description.
 84 emoticons are defined.
@@ -39,7 +40,6 @@ It is also possible to save your choice for this setting.
 ## Changes for 1.0 ##
 
 * Initial version.
- 
-[[!tag dev]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+[1]: http://addons.nvda-project.org/files/get.php?file=emo
+[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev

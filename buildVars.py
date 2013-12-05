@@ -20,7 +20,7 @@ addon_info = {
 	"addon-description" : _("Enables the announcement of emoticon names instead of the character representation.\n"
 			"Press NVDA+E to toggle."),
 	# version
-	"addon-version" : "1.0-dev",
+	"addon-version" : "1.0",
 	# Author(s)
 	"addon-author" : u"Chris Leo <llajta2012@gmail.com>, Noelia Ruiz Martínez <nrm1977@gmail.com>, Mesar Hameed <mhameed@src.gnome.org>",
 	# URL for the add-on documentation support
