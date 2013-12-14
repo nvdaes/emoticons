@@ -1,7 +1,8 @@
 # Emoticons #
 
 * Autores: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed
-* Baixe a [versão de desenvolvimento][1]
+* Baixe a [versão estável][1]
+* Baixe a [versão de desenvolvimento][2]
 
 Ao usar este complemento, os textos falados que contenham caracteres de
 emoticons serão substituídos por descrições mais amigáveis.  Estão definidos
@@ -46,6 +47,8 @@ para esta opção.
 
 * Versão inicial.
  
-[[!tag dev]]
+[[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+[1]: http://addons.nvda-project.org/files/get.php?file=emo
+
+[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev

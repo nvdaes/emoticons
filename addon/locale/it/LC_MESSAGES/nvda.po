@@ -19,41 +19,32 @@ msgstr ""
 "X-Poedit-Country: ITALY\n"
 
 #. Translators: Tooltip for an addon menu item.
-#: addon\globalPlugins\Emoticons_docHandler.py:60
-#: docHandler.py:60
 #, python-format
 msgid "Opens documentation for %s"
 msgstr "Apre la documentazione %s"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 #. Translators: message presented when the dictionary for emoticons is loaded.
-#: addon\globalPlugins\emoticons.py:77
-#: addon\globalPlugins\emoticons.py:81
 #, python-format
 msgid "Emoticons %s"
 msgstr "Leggi Emoticons %s"
 
-#: addon\globalPlugins\emoticons.py:77
 msgid "off"
 msgstr "Disattivato"
 
-#: addon\globalPlugins\emoticons.py:81
 msgid "on"
 msgstr "Attivato"
 
-#: addon\globalPlugins\emoticons.py:82
 msgid "Toggles on and off the speaking of emoticons using speech dictionaries."
 msgstr "Attiva o disattiva la lettura degli Emoticon con l'uso dei dizionari."
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
-#: buildVars.py:15
 msgid "Emoticons"
 msgstr "Emoticons"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
-#: buildVars.py:18
 msgid ""
 "Press NVDA+E to allow NVDA pronounces emoticons each time that are present.\n"
 "Based on a lists of regular expressions incorporate in this addon."

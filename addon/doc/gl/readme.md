@@ -1,7 +1,8 @@
 # Emoticons #
 
 * Autores: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed
-* Descargar [versión de desenvolvemento][1]
+* Descargar [versión estable][1]
+* Descargar [versión de desenvolvemento][2]
 
 Usando este complemento, o texto falado que conteña caracteres emoticonos
 será substituído pola súa descrición máis humana e agradable. 84 emoticons
@@ -47,6 +48,8 @@ axuste.
 
 * Versión inicial.
  
-[[!tag dev]]
+[[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+[1]: http://addons.nvda-project.org/files/get.php?file=emo
+
+[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev

@@ -1,9 +1,10 @@
 # Hymiöt #
 
 * Tekijät: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed
-* Lataa [kehitysversio][1]
+* Lataa [vakaa versio][1]
+* Lataa [kehitysversio][2]
 
-Puhutussa tekstissä olevat hymiömerkit korvataan tätä lisäosaa käyttäen
+Puhutussa tekstissä olevat hymiömerkit korvataan tätä lisäosaa käytettäessä
 niiden ihmisystävällisemmillä kuvauksilla.  Valmiiksi määriteltynä on 84
 hymiötä.
 
@@ -45,6 +46,8 @@ on myös mahdollista tallentaa.
 
 * Ensimmäinen versio.
  
-[[!tag dev]]
+[[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+[1]: http://addons.nvda-project.org/files/get.php?file=emo
+
+[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev

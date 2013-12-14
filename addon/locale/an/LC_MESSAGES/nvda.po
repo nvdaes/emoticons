@@ -7,513 +7,508 @@ msgid ""
 msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2013-11-16 20:13+0100\n"
-"PO-Revision-Date: 2013-12-06 18:48+0100\n"
-"Last-Translator: Bernd Dorer <bernd_dorer@yahoo.de>\n"
+"POT-Creation-Date: 2013-11-19 18:53+0100\n"
+"PO-Revision-Date: 2013-12-12 19:56+0100\n"
+"Last-Translator: Jorge Pérez Pérez <jorgtum@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: de\n"
+"Language: an\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.6.2\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
 "You have installed the Emoticons add-on, probably an old and incompatible "
 "version with this one. Do you want to uninstall the old version?"
 msgstr ""
-"Sie haben möglicherweise eine veraltete und inkompatible Version der "
-"Emoticons-Erweiterung installiert. Möchten Sie die alte Version "
-"deinstallieren?"
+"Has instalau lo complemento d'emoticons, prebablement una versión viella ye "
+"incompatible con ista. Quiers desinstalar-ne a versión viella?"
 
 #. Translators: the title of a message box dialog.
 msgid "Uninstall incompatible add-on"
-msgstr "Inkompatible Erweiterung deinstallieren"
+msgstr "Desinatalar o complemento incompatible"
 
 #. Translators: the label of a message box dialog.
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them?"
 msgstr ""
-"Scheinbar haben Sie bereits eine ältere Konfiguration dieser Erweiterung "
-"gespeichert. Möchten Sie diese importieren?"
+"Pareix que tiens alzaus  achustes previos pa iste complemento. Quiers "
+"importar-los?"
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
-msgstr "Einstellungen zur Emoticons-Erweiterung importieren"
+msgstr "Importar os achustes d'o complemento d'emoticons"
 
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 #, python-format
 msgid "Emoticon: %s"
-msgstr "Emoticon: %s"
+msgstr "Emoticón: %s"
 
 #. Translators: the name of addon submenu.
 msgid "Manage emoticons"
-msgstr "Emoticons verwalten"
+msgstr "Administrar os emoticons"
 
 #. Translators: the tooltip text for addon submenu.
 msgid "Emoticons menu"
-msgstr "Emoticons-Menü"
+msgstr "Menú d'emoticons"
 
 #. Translators: the name for an item of addon submenu.
 msgid "&Insert smiley..."
-msgstr "Sm&iley einfügen..."
+msgstr "F&icar un emoticón..."
 
 #. Translators: the tooltip text for an item of addon submenu.
 msgid "Shows a dialog to insert a smiley"
-msgstr "Zeigt ein Dialogfeld zum Einfügen eines Smileys."
+msgstr "Amuestra un dialogo ta ficar un emoticón"
 
 #. Translators: the name for an item of addon submenu.
 msgid "&Customize emoticons..."
-msgstr "Emoticons an&passen..."
+msgstr "Emoti&cons personalizaus..."
 
 #. Translators: the tooltip text for an item of addon submenu.
 msgid "Shows a dictionary dialog to customize emoticons"
-msgstr "Zeigt ein Dialogfeld zur Anpassung der Emoticons an."
+msgstr "Amuestra un dialogo de diccionario ta personalizar emoticons"
 
 #. Translators: the name for an item of addon submenu.
 msgid "&Activation settings..."
-msgstr "Einstellungen &übernehmen..."
+msgstr "Propiedatz d'&activación..."
 
 #. Translators: the tooltip text for an item of addon submenu.
 msgid "Shows a dialog to choose when emoticons speaking should be activated"
 msgstr ""
-"Zeigt ein Dialogfeld zur Auswahl der Emoticons an, die aktiviert werden "
-"sollen."
+"Amuestra un dialogo ta esleyir quan s'activará a lectura d'os emoticons"
 
 msgid "Emoticons dictionary"
-msgstr "Emoticons-Liste"
+msgstr "Diccionario d'emoticons"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
-msgstr "Emoticons aus."
+msgstr "Emoticons desenchegaus."
 
 #. Translators: message presented when the dictionary for emoticons is loaded.
 msgid "Emoticons on."
-msgstr "Emoticons ein."
+msgstr "Emoticons enchegaus."
 
 #. Translators: Message presented in input help mode.
 msgid "Toggles on and off the announcement of emoticons."
-msgstr "Schaltet die Ansage der Emoticons an oder aus."
+msgstr "Selecciona entre enchegar u desenchegar l'anunciau d'os emoticons."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
-msgstr ""
-"Zeigt ein Dialogfeld zum Auswählen eines Smileys an, das Sie einfügen "
-"möchten."
+msgstr "Amuestra un dialogo ta seleccionar l'emoticón que quiers apegar."
 
 #. Translators: This is the label for the InsertEmoticon dialog.
 msgid "Insert emoticon"
-msgstr "Emoticon einfügen"
+msgstr "Ficar l'emoticón"
 
 #. Translators: The label for a setting in Insert emoticons to select a smiley.
 msgid "Available emoticons"
-msgstr "Verfügbare Emoticons"
+msgstr "Emoticons disponibles"
 
 #. Translators: A combo box to choose a smiley.
 msgid "Available smileys to insert:"
-msgstr "Einzufügende Smileys: "
+msgstr "Emoticons disponible sta ficar-los:"
 
 #. Translators: This is the message when smiley has been copied to the clipboard.
 msgid "Smiley copied to clipboard, ready for you to paste."
 msgstr ""
-"Das Smiley wurde in die Zwischenablage kopiert und jetzt können Sie es an "
-"gewünschter Stelle einfügen."
+"S'ha copiau o emoticón en o portafuellas y ye presto pa que lo apegues."
 
 msgid "Cannot copy smiley."
-msgstr "Das Smiley konnte nicht kopiert werden."
+msgstr "No se puet copiar o emoticón."
 
 #. Translators: The label for the combo box of dictionary entries in speech dictionary dialog.
 msgid "&Dictionary entries"
-msgstr "&Wörterbucheinträge"
+msgstr "Dentradas d'o &diccionario"
 
 #. Translators: The label for a column in dictionary entries list used to identify comments for the entry.
 msgid "Comment"
-msgstr "Kommentar"
+msgstr "Comentario"
 
 #. Translators: The label for a column in dictionary entries list used to identify pattern (original word or a pattern).
 msgid "Pattern"
-msgstr "Muster"
+msgstr "Patrón"
 
 #. Translators: The label for a column in dictionary entries list and in a list of symbols from symbol pronunciation dialog used to identify replacement for a pattern or a symbol
 msgid "Replacement"
-msgstr "Ersetzen durch"
+msgstr "Substitución"
 
 #. Translators: The label for a column in dictionary entries list used to identify whether the entry is case sensitive or not.
 msgid "case"
-msgstr "Groß-/Kleinschreibung beachten"
+msgstr "Sensible a las mayusclas"
 
 #. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression or not.
 msgid "Regexp"
-msgstr "Reguläre Ausdrücke"
+msgstr "Expresión regular"
 
 #. Translators: a choice of Activateemoticons dialog.
 msgid "off"
-msgstr "aus"
+msgstr "desenchegau"
 
 msgid "on"
-msgstr "ein"
+msgstr "enchegau"
 
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
 msgid "&Add"
-msgstr "&Hinzufügen"
+msgstr "&Adhibir"
 
 #. Translators: The label for a button in speech dictionaries dialog to edit existing entries.
 msgid "&Edit"
-msgstr "&Bearbeiten"
+msgstr "&Editar"
 
 msgid "&Remove"
-msgstr "&Löschen"
+msgstr "Esbo&rrar"
 
 msgid "Rese&t"
-msgstr "Zurückse&tzen"
+msgstr "Res&tablir"
 
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
 msgid "Save and e&xport dictionary"
-msgstr "Wörterbuch speichern und e&xportieren"
+msgstr "Alzar y e&xportar o diccionario"
 
 #. Translators: this is the label for the Emoticons activate dialog.
 msgid "Activation settings"
-msgstr "Einstellungen übernehmen"
+msgstr "Propiedatz d'activación"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 msgid "&Activate speaking of emoticons at start:"
-msgstr "&Ansagen der Emoticons zu Beginn einschalten:"
+msgstr "&Activar a lectura d'os emoticons a lo prencipio:"
 
 #. Translators: a choice of Activateemoticons dialog.
 msgid "On"
-msgstr "An"
+msgstr "Enchegau"
 
 #. Translators: a combo box in Emoticons dialog.
 msgid "Activate at start"
-msgstr "Zu Beginn einschalten"
+msgstr "Activar-nea lo prencipio"
 
 #. Translators: The label for a setting in Activate emoticons dialog to copy activation settings.
 msgid "&Copy activation settings"
-msgstr "Aktivierungseinstellungen &kopieren..."
+msgstr "&Copiar as propiedatz d'activación"
 
 #. Translators: :) Smile
 msgid "smiling smiley"
-msgstr "Lächelndes Smiley"
+msgstr "emoticón sonrient"
 
 #. Translators: :( Sad
 msgid "sad smiley"
-msgstr "Trauriges Smiley"
+msgstr "emoticón triste"
 
 #. Translators: :D Laugh
 msgid "Laughing smiley"
-msgstr "Lachendes Smiley"
+msgstr "emoticón redindo-se"
 
 #. Translators: :O Surprised
 msgid "surprised smiley"
-msgstr "Überraschtes Smiley"
+msgstr "emoticón sorprendiu"
 
 #. Translators: ;) Wink;
 msgid "winking smiley"
-msgstr "zwinkerndes Smiley"
+msgstr "EMOTICÓN CLUCANDO LO UELLO"
 
 #. Translators: ;( Crying
 msgid "crying smiley"
-msgstr "weinendes Smiley"
+msgstr "emoticón plorando"
 
 #. Translators: (:| Sweating
 msgid "sweating smiley"
-msgstr "schwitzendes Smiley"
+msgstr "emoticón sudando"
 
 #. translators:  :|] Robot (a robot head)
 msgid "Robot Smiley"
-msgstr "Robotter-Smiley"
+msgstr "robot"
 
 #. Translators: :| Speechless
 msgid "speechless smiley"
-msgstr "Sprachloses Smiley"
+msgstr "emoticón enlucernau"
 
 #. Translators: :* Kiss
 msgid "kiss smiley"
-msgstr "Küssendes Smiley"
+msgstr "beso"
 
 #. Translators: :P Cheeky
 msgid "cheeky smiley"
-msgstr "Freches Smiley"
+msgstr "luenga difuera"
 
 #. Translators: :$ Blushing
 msgid "blushing smiley"
-msgstr "Verlegenes Smiley"
+msgstr "emoticón royo"
 
 #. Translators: :^) Wondering
 msgid "wondering smiley"
-msgstr "Verwundertes Smiley"
+msgstr "emoticón dandaloso"
 
 #. Translators: |-) Sleepy
 msgid "sleepy smiley"
-msgstr "Schläfriges Smiley"
+msgstr "emoticón con suenio"
 
 #. Translators: |-( Dull
 msgid "dull smiley"
-msgstr "gelangweiltes Smiley"
+msgstr "emoticón aburriu"
 
 #. Translators: :x My lips are sealed
 msgid "my lips are sealed smiley"
-msgstr "Smiley mit geschlossenen Lippen"
+msgstr "morros sellaus"
 
 #. Translators: \o/ Dancing
 msgid "dancing smiley"
-msgstr "Tanzendes Smiley"
+msgstr "emoticón danzando"
 
 #. Translators: :'( crying a lot smiley
 msgid "crying a lot smiley"
-msgstr "Keifendes Smiley"
+msgstr "emoticón plorando asaber-lo"
 
 #. Translators: >:( Angry
 #. Translators: (angry) Angry
 msgid "angry smiley"
-msgstr "Verärgertes Smiley"
+msgstr "emoticón encarranyau"
 
 #. Translators: :/ Worried
 #. Translators: (worry) Worried
 msgid "worried smiley"
-msgstr "besorgtes Smiley"
+msgstr "emoticón preocupau"
 
 #. Translators: <3 Heart
 #. Translators: (heart) Heart
 msgid "heart smiley"
-msgstr "Herzliches Smiley"
+msgstr "corazón"
 
 #. Translators:  O:)  O:-) Angel
 msgid "Angel Smiley"
-msgstr "Engelssmiley"
+msgstr "Anchel"
 
 #. Translators:  O.o  o.O  Confused
 msgid "Confused Smiley"
-msgstr "Verwirrtes Smiley"
+msgstr "emoticón confundiu"
 
 #. Translators:   3:-) Devil
 msgid "Devil Smiley"
-msgstr "Teuflisches Smiley"
+msgstr "Diaple"
 
 #. Translators:  ^_^ Keke (This smiley is inspired by the Asian style, which is a happy face.)
 msgid "Keke Smiley"
-msgstr "Fröhliches Smiley"
+msgstr "pastel"
 
 #. Translators: -_- Bored (This smiley face has its eyes closed and is sporting a very small grin.)
 msgid "Bored smiley"
-msgstr "Gelangweiltes Smiley"
+msgstr "emoticón sonrient con os uellos zarraus"
 
 #. Translators:  >:O  Upset, angry or shouting...
 msgid "Angry Smiley"
-msgstr "Wütendes Smiley"
+msgstr "Emoticón encarranyau"
 
 #. Translators:  :3  Cat (Cat faced smiley with curly lips)
 msgid "Cat Smiley"
-msgstr "Smiley mit grinsendem Katzengesicht"
+msgstr "Mixín"
 
 #. Translators:  (cash) Cash
 msgid "cash smiley"
-msgstr "Geldgieriges Smiley"
+msgstr "diners"
 
 #. Translators: (flex) Muscle
 msgid "muscle smiley"
-msgstr "Sportliches Smiley"
+msgstr "musclo"
 
 #. Translators: (beer) Beer
 msgid "beer smiley"
-msgstr "Besoffenes Smiley"
+msgstr "biera"
 
 #. Translators: (d) Drink
 msgid "drink smiley"
-msgstr "Trinkendes Smiley"
+msgstr "emoticón bebendo"
 
 #. Translators: (ninja) Ninja
 msgid "ninja smiley"
-msgstr "Ninja-Smiley"
+msgstr "ninja"
 
 #. Translators: (cool) Cool
 msgid "cool smiley"
-msgstr "Cooles Smiley"
+msgstr "emoticón interesant"
 
 #. Translators: (inlove) In Love
 msgid "in love smiley"
-msgstr "Verliebtes Smiley"
+msgstr "emoticón enamorau"
 
 #. Translators: (yn) Fingers crossed
 msgid "fingers crossed smiley"
-msgstr "verschwörerisches Smiley"
+msgstr "didos en cruz"
 
 #. Translators: (yawn) Yawn
 msgid "yawning smiley"
-msgstr "Gähnendes Smiley"
+msgstr "emoticón badallando"
 
 #. Translators: (puke) Puking
 msgid "puking smiley"
-msgstr "Kotzendes Smiley"
+msgstr "fastio"
 
 #. Translators: (doh) Doh!
 msgid "doh! smiley"
-msgstr "doh! smiley"
+msgstr "ui!"
 
 #. Translators: (wasntme) It wasn't me!
 msgid "it wasn't me! smiley"
-msgstr "Scheinheiliges Smiley"
+msgstr "no soi estau yo"
 
 #. Translators: (party) Party
 msgid "party smiley"
-msgstr "Feierndes Smiley"
+msgstr "borina"
 
 #. Translators: (mm) Mmmm...
 msgid "mmmmmm... smiley"
-msgstr "\"Mmmmm\"-Smiley"
+msgstr "mmmmmm..."
 
 #. Translators: (nerd) Nerdy
 msgid "nerdy smiley"
-msgstr "Trotteliges Smiley"
+msgstr "empollón"
 
 #. Translators: (wave) Hi
 msgid "hi smiley"
-msgstr "Hi sagendes und winkendes Smiley"
+msgstr "ola!"
 
 #. Translators: (facepalm) Facepalm
 msgid "facepalm smiley"
-msgstr "Maskiertes Smiley"
+msgstr "emoticón desasperau"
 
 #. Translators: (devil) Devil
 msgid "devil smiley"
-msgstr "Teuflisches Smiley"
+msgstr "diaple"
 
 #. Translators: (angel) Angel
 msgid "angel smiley"
-msgstr "Engelssmiley"
+msgstr "anchel"
 
 #. Translators: (envy) Envy
 msgid "envy smiley"
-msgstr "Neidisches Smiley"
+msgstr "emoticón invidioso"
 
 #. Translators: (wait) Wait
 msgid "wait smiley"
-msgstr "Warte Smiley"
+msgstr "aguarda"
 
 #. Translators: (hug) Hug
 msgid "hug smiley"
-msgstr "Umarmendes Smiley"
+msgstr "abrazada"
 
 #. Translators: (makeup) Make-up
 msgid "make-up smiley"
-msgstr "Schminkendes Smiley"
+msgstr "maquillache"
 
 #. Translators: (chuckle) Giggle
 msgid "giggle smiley"
-msgstr "Kicherndes Smiley"
+msgstr "riseta"
 
 #. Translators: (clap) Clapping
 msgid "clapping smiley"
-msgstr "Klatschendes Smiley"
+msgstr "emoticón aplaudindo"
 
 #. Translators: (think) Thinking
 msgid "thinking smiley"
-msgstr "Grübelndes Smiley"
+msgstr "emoticón pensaroso"
 
 #. Translators: (bow) Bowing
 msgid "bowing smiley"
-msgstr "Verbeugendes Smiley"
+msgstr "reverencia"
 
 #. Translators: (rofl) Rolling on the floor laughing
 msgid "rolling on the floor laughing! smiley"
-msgstr "Herzhaft laut lachendes Smiley"
+msgstr "emoticón esmelicando-se"
 
 #. Translators: (whew) Relieved
 msgid "relieved smiley"
-msgstr "Erleichtertes Smiley"
+msgstr "emoticón aliviau"
 
 #. Translators: (happy) Happy
 msgid "happy smiley"
-msgstr "Fröhliches Smiley"
+msgstr "emoticón contento"
 
 #. Translators: (smirk) Smirking
 msgid "smirking smiley"
-msgstr "Blöd grinsendes Smiley"
+msgstr "risalleta de goyo"
 
 #. Translators: (nod) Nodding
 msgid "nodding smiley"
-msgstr "Nickendes Smiley"
+msgstr "emoticón afirmando"
 
 #. Translators: (shake) Shake
 msgid "shakeing smiley"
-msgstr "Erschüttertes Smiley"
+msgstr "emoticón negando"
 
 #. Translators: (waiting) Waiting
 msgid "waiting smiley"
-msgstr "Wartendes Smiley"
+msgstr "emoticón aguardando"
 
 #. Translators: (emo) Emo;
 msgid "Emo smiley"
-msgstr "Emo-Smiley"
+msgstr "emo"
 
 #. Translators: (y) Yes
 msgid "yes smiley"
-msgstr "Ja-Smiley"
+msgstr "sí"
 
 #. Translators: (n) no;
 msgid "no smiley"
-msgstr "Nein-Smiley"
+msgstr "no"
 
 #. Translators: (handshake) Handshake
 msgid "handshake smiley"
-msgstr "Händeschüttelndes Smiley"
+msgstr "pretada de mans"
 
 #. Translators: (highfive) High five
 msgid "high five smiley"
-msgstr "Hi5-Smiley"
+msgstr "choca ixas cinco"
 
 #. Translators: (lalala) Lalala;
 msgid "lalala smiley"
-msgstr "Lalala-Smiley"
+msgstr "mormormor"
 
 #. Translators: (heidy) Heidy;
 msgid "heidy smiley"
-msgstr "heidy smiley"
+msgstr "esquiruelo"
 
 #. Translators: (F) Flower
 msgid "flower smiley"
-msgstr "Smiley mit Rose"
+msgstr "flor"
 
 #. Translators: (rain) Raining
 msgid "raining smiley"
-msgstr "Verregnetes Smiely"
+msgstr "plebida"
 
 #. Translators: (sun) Sun
 msgid "sunny smiley"
-msgstr "Sonniges Smiley"
+msgstr "sol"
 
 #. Translators: (tumbleweed) Tumbleweed
 msgid "tumbleweed smiley"
-msgstr "Verzerrtes Smiley"
+msgstr "planta rodant"
 
 #. Translators: (music) Music
 msgid "music smiley"
-msgstr "Musik-Smiley"
+msgstr "mosica"
 
 #. Translators: (bandit) Bandit
 msgid "bandit smiley"
-msgstr "Diebisches Smiley"
+msgstr "bandiu"
 
 #. Translators: (tmi) Too much information
 msgid "too much information smiley"
-msgstr "Verhaltendes Smiley"
+msgstr "masiada información"
 
 #. Translators: (coffee) Coffee
 msgid "coffee smiley"
-msgstr "Smiley mit Kaffee"
+msgstr "café"
 
 #. Translators: (pi) Pizza
 msgid "pizza smiley"
-msgstr "Smiley mit Pizza"
+msgstr "pizza"
 
 #. Translators: (^) Cake
 msgid "cake smiley"
-msgstr "Smiley mit Geburtstagskuchen"
+msgstr "Tarta"
 
 #. Translators: (*) Star
 msgid "star smiley"
-msgstr "Smiley mit Sternchen"
+msgstr "estrela"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
@@ -526,5 +521,5 @@ msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "representation.\n"
 msgstr ""
-"Schaltet die Ansage der Namen der Emoticons ein, anstelle der "
-"Zeichendarstellung.\n"
+"Enchega l'anunciau d'os nombres d'os emoticons en cuenta d'a representación "
+"de caracters.\n"

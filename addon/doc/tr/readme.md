@@ -2,7 +2,8 @@
 
 * Yazarlar: Chris Leo, Noelia Ruiz Martínez, Mesar HameedYazarlar: Chris,
   Noelia Ruiz Martínez, Mesar Hameed
-* İndir [geliştirilen versiyon][1]
+* İndir [kararlı sürüm][1]
+* İndir [geliştirme sürümü][2]
 
 bu eklentiyi kullanarak, ifade karakterlerini içeren metin onun insan dostu
 açıklamasıyla değiştirilerek seslendirilecektir. 84 ifade tanımlanmıştır.
@@ -47,6 +48,8 @@ seçiminizi kalıcı olarak kaydetmek mümkündür.
 
 * İlk sürüm.
  
-[[!tag dev]]
+[[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+[1]: http://addons.nvda-project.org/files/get.php?file=emo
+
+[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev

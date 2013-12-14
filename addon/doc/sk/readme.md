@@ -1,7 +1,8 @@
 # Emotikony #
 
 * Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed
-* Stiahnuť [Vývojová verzia][1]
+* stiahnuť [stabilná verzia][1]
+* Stiahnuť [Vývojová verzia][2]
 
 Tento doplnok nahrádza emotikony slovným popisom. V súčasnosti obsahuje 84
 definovaných emotikonov.
@@ -42,6 +43,8 @@ môžete určiť predvolené nastavenie do budúcnosti.
 
 * prvé vydanie.
  
-[[!tag dev]]
+[[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+[1]: http://addons.nvda-project.org/files/get.php?file=emo
+
+[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev

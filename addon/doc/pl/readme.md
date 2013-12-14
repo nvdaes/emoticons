@@ -1,7 +1,8 @@
 # Emotikony / Emoticons #
 
 * Autorzy: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed
-* Pobierz [wersja rozwojowa][1]
+* Download [stable version][1]
+* Download [development version][2]
 
 Przy użyciu tego dodatku, wypowiadany tekst zawierający znaki emotikonów
 zostanie zastąpiony przez bardziej przyjazne opisy.  Zdefiniowane zostały 84
@@ -46,6 +47,8 @@ ustawienia.
 
 * Pierwsza wersja.
  
-[[!tag dev]]
+[[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+[1]: http://addons.nvda-project.org/files/get.php?file=emo
+
+[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev

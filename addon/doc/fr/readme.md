@@ -1,7 +1,8 @@
 # Emoticons #
 
 * Auteurs : Chris Leo, Noelia Ruiz Martínez, Mesar Hameed
-* Télécharger [version de développement][1]
+* Télécharger [version stable][1]
+* Télécharger [version de développement][2]
 
 Avec ce module complémentaires,  les caractères de la frimousse seront
 remplacés par leur description humaine plus conviviale. 84 frimousses sont
@@ -47,6 +48,8 @@ d'enregistrer votre choix pour ce paramètre.
 
 * Première version.
  
-[[!tag dev]]
+[[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+[1]: http://addons.nvda-project.org/files/get.php?file=emo
+
+[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev

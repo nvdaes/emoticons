@@ -1,7 +1,8 @@
 # Emoticons #
 
 * Авторы: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed
-* Загрузить [Разрабатываемую версию][1]
+* Загрузить [Стабильную версию][1]
+* Загрузить [Разрабатываемую версию][2]
 
 При использовании этого дополнения, символы смайликов в проговариваемом
 тексте будут заменены на их более дружественные описания. 84 смайликов
@@ -46,6 +47,8 @@ NVDA. По умолчанию оно отключено. Также возмож
 
 * Начальная версия.
  
-[[!tag dev]]
+[[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+[1]: http://addons.nvda-project.org/files/get.php?file=emo
+
+[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
