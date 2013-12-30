@@ -1,8 +1,8 @@
 # Emotikony / Emoticons #
 
 * Autorzy: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed
-* Download [stable version][1]
-* Download [development version][2]
+* Pobierz [wersja stabilna][1]
+* Pobierz [wersja rozwojowa][2]
 
 Przy użyciu tego dodatku, wypowiadany tekst zawierający znaki emotikonów
 zostanie zastąpiony przez bardziej przyjazne opisy.  Zdefiniowane zostały 84

@@ -30,7 +30,7 @@ emoticons.dic will be saved in your user config folder, speechDicts
 subfolder.
 
 
-## Activation settings ##
+## Aktivierungseinstellungen ##
 
 You can choose whether to Activate speaking of emoticons when starting
 NVDA. By default it is disabled.  It is also possible to save your choice
