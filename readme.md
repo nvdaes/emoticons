@@ -37,9 +37,15 @@ It is also possible to save your choice for this setting.
 *	NVDA+E: toggles between speaking text as it is written, or with the emoticons replaced by the human description.
 *	NVDA+I: show a dialog to select a smiley you want to paste.
 
+## Changes for 1.1 ##
+
+* Removed duplicated emoticon.
+* Added some smileys.
+
 ## Changes for 1.0 ##
 
 * Initial version.
 
 [1]: http://addons.nvda-project.org/files/get.php?file=emo
+
 [2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
