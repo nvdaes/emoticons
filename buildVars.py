@@ -12,13 +12,10 @@ addon_info = {
 	# https://bitbucket.org/nvdaaddonteam/todo/raw/master/guideLines.txt
 	# add-on Name, internal for nvda
 	"addon-name" : "emoticons",
-	# Add-on summary, usually the user visible name of the addon.
-	# Translators: Summary for this add-on to be shown on installation and add-on information.
+	# Translators: user visible addon name.
 	"addon-summary" : _("Emoticons"),
-	# Add-on description
-	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-	"addon-description" : _("Enables the announcement of emoticon names instead of the character representation.\n"
-			"Press NVDA+E to toggle."),
+    # Translators: Add-on description
+	"addon-description" : _("Enables the announcement of emoticon names instead of the character Representation."),
 	# version
 	"addon-version" : "1.1-dev",
 	# Author(s)
