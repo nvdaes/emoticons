@@ -5,7 +5,7 @@
 * Download [development version][2]
 
 Using this add-on, spoken text containing emoticon characters will be replaced by its more human friendly description.
-84 emoticons are defined.
+86 emoticons are defined.
 
 For example: ":)" will be spoken as "smiling smiley", or ":D" will be spoken as "laughing smiley"
 
