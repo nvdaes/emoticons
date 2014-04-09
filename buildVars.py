@@ -14,7 +14,7 @@ addon_info = {
 	"addon-name" : "emoticons",
 	# Translators: user visible addon name.
 	"addon-summary" : _("Emoticons"),
-    # Translators: Add-on description
+	# Translators: Add-on description
 	"addon-description" : _("Enables the announcement of emoticon names instead of the character Representation."),
 	# version
 	"addon-version" : "1.1-dev",
