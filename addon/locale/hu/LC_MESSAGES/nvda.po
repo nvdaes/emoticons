@@ -1,521 +1,522 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Emoticons-1.0\n"
+"Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2013-11-16 18:37+0100\n"
-"PO-Revision-Date: 2014-03-12 15:49+0100\n"
-"Last-Translator: Bachir Benanou <ben_bach@yahoo.fr>\n"
-"Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
-"Language: fr_FR\n"
+"POT-Creation-Date: 2013-11-19 18:53+0100\n"
+"PO-Revision-Date: 2014-03-14 00:26+0100\n"
+"Last-Translator: Ócsvári Áron <oaron1@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
-"X-Poedit-Basepath: .\n"
 "X-Generator: Poedit 1.6.4\n"
-"X-Poedit-SearchPath-0: .\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
 "You have installed the Emoticons add-on, probably an old and incompatible "
 "version with this one. Do you want to uninstall the old version?"
 msgstr ""
-"Vous avez probablement installé une version ancienne du module "
-"complémentaire Emoticons, et elle est incompatible avec la présente. Voulez-"
-"vous désinstaller l'ancienne version ?"
+"Korábban már telepítette a hangulatjelek bővítmény egy régebbi verzióját, "
+"amely valószínűleg nem kompatibilis a jelenlegi verzióval. El kívánja "
+"távolítani ezt a régebbi verziót?"
 
 #. Translators: the title of a message box dialog.
 msgid "Uninstall incompatible add-on"
-msgstr "Désinstaller le module complémentaire incompatible"
+msgstr "A nem kompatibilis bővítmény eltávolítása"
 
 #. Translators: the label of a message box dialog.
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them?"
 msgstr ""
-"Vous semblez avoir des paramètres antérieurs enregistrés pour ce module "
-"complémentaire. Voulez-vous les importer ?"
+"Úgy tűnik, hogy már vannak korábban elmentett beállításai ehhez a "
+"bővítményhez. Szeretné őket importálni?"
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
-msgstr "Importer les paramètres du module complémantaire Emoticons"
+msgstr "A hangulatjelek bővítmény beállításainak importálása"
 
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 #, python-format
 msgid "Emoticon: %s"
-msgstr "Frimousse : %s"
+msgstr "Hangulatjel: %s"
 
 #. Translators: the name of addon submenu.
 msgid "Manage emoticons"
-msgstr "Gestion des frimousses"
+msgstr "Hangulatjelek kezelése"
 
 #. Translators: the tooltip text for addon submenu.
 msgid "Emoticons menu"
-msgstr "Menu Emoticons"
+msgstr "Hangulatjelek menü"
 
 #. Translators: the name for an item of addon submenu.
 msgid "&Insert smiley..."
-msgstr "&Insérer une frimousse..."
+msgstr "Hangulatjel b&eszúrása..."
 
 #. Translators: the tooltip text for an item of addon submenu.
 msgid "Shows a dialog to insert a smiley"
-msgstr "Affiche un dialogue pour insérer une frimousse"
+msgstr "Megnyitja a hangulatjel beszúrása párbeszédablakot"
 
 #. Translators: the name for an item of addon submenu.
 msgid "&Customize emoticons..."
-msgstr "&Personnaliser les frimousses..."
+msgstr "Hangulatjelek &testreszabása..."
 
 #. Translators: the tooltip text for an item of addon submenu.
 msgid "Shows a dictionary dialog to customize emoticons"
-msgstr "Affiche un dialogue du dictionnaire de personnalisation des frimousses"
+msgstr "Megnyitja a hangulatjelek szerkeztése párbeszédablakot"
 
 #. Translators: the name for an item of addon submenu.
 msgid "&Activation settings..."
-msgstr "&Paramètres d'activation..."
+msgstr "&Aktiválási beállítások..."
 
 #. Translators: the tooltip text for an item of addon submenu.
 msgid "Shows a dialog to choose when emoticons speaking should be activated"
 msgstr ""
-"Affiche un dialogue pour choisir le moment où l'annonce des frimousses doit "
-"être activée"
+"Megjelenít egy párbeszédablakot, melyben kiválaszthatja, hogy mely "
+"hangulatjel bemondása legyen aktív"
 
 msgid "Emoticons dictionary"
-msgstr "Dictionnaire des frimousses"
+msgstr "Hangulatjelek szótár"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
-msgstr "Frimousses désactivées."
+msgstr "Hangulatjelek kikapcsolva"
 
 #. Translators: message presented when the dictionary for emoticons is loaded.
 msgid "Emoticons on."
-msgstr "Frimousses activées."
+msgstr "Hangulatjelek bekapcsolva"
 
 #. Translators: Message presented in input help mode.
 msgid "Toggles on and off the announcement of emoticons."
-msgstr "Active ou désactive l'annonce des frimousses."
+msgstr "A hangulatjelek bemondásának be, és kikapcsolása közötti váltás."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
 msgstr ""
-"Affiche un dialogue pour sélectionner une frimousse que vous souhaitez "
-"coller."
+"Megjelenít egy párbeszédablakot, amelyben kiválaszthatja a beszúrni kívánt "
+"hangulatjelet."
 
 #. Translators: This is the label for the InsertEmoticon dialog.
 msgid "Insert emoticon"
-msgstr "Insérer une frimousse"
+msgstr "Hangulatjel beszúrása"
 
 #. Translators: The label for a setting in Insert emoticons to select a smiley.
 msgid "Available emoticons"
-msgstr "Frimousses disponibles"
+msgstr "Elérhető hangulatjelek"
 
 #. Translators: A combo box to choose a smiley.
 msgid "Available smileys to insert:"
-msgstr "Frimousses disponibles à insérer :"
+msgstr "Elérhető beszúrható hangulatjelek:"
 
 #. Translators: This is the message when smiley has been copied to the clipboard.
 msgid "Smiley copied to clipboard, ready for you to paste."
-msgstr ""
-"Frimousse copiée dans le presse-papiers, prête pour que vous la colliez."
+msgstr "A hangulatjel a vágólapra másolva, beillesztheti."
 
 msgid "Cannot copy smiley."
-msgstr "Impossible de copier la frimousse."
+msgstr "A hangulatjel nem másolható."
 
 #. Translators: The label for the combo box of dictionary entries in speech dictionary dialog.
 msgid "&Dictionary entries"
-msgstr "&Entrées du dictionnaire"
+msgstr "&Szótár bejegyzések"
 
 #. Translators: The label for a column in dictionary entries list used to identify comments for the entry.
 msgid "Comment"
-msgstr "Commentaire"
+msgstr "Megjegyzés"
 
 #. Translators: The label for a column in dictionary entries list used to identify pattern (original word or a pattern).
 msgid "Pattern"
-msgstr "Modèle"
+msgstr "Minta"
 
 #. Translators: The label for a column in dictionary entries list and in a list of symbols from symbol pronunciation dialog used to identify replacement for a pattern or a symbol
 msgid "Replacement"
-msgstr "Remplacement"
+msgstr "Csere"
 
 #. Translators: The label for a column in dictionary entries list used to identify whether the entry is case sensitive or not.
 msgid "case"
-msgstr "casse"
+msgstr "Eset"
 
 #. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression or not.
 msgid "Regexp"
-msgstr "Regexp"
+msgstr "Reguláris kifejezés"
 
 #. Translators: a choice of Activateemoticons dialog.
 msgid "off"
-msgstr "désactivé"
+msgstr "Ki"
 
 msgid "on"
-msgstr "activé"
+msgstr "Be"
 
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
 msgid "&Add"
-msgstr "&Ajouter"
+msgstr "&Hozzáadás"
 
 #. Translators: The label for a button in speech dictionaries dialog to edit existing entries.
 msgid "&Edit"
-msgstr "&Modifier"
+msgstr "&Szerkeztés"
 
 msgid "&Remove"
-msgstr "&Supprimer"
+msgstr "&Eltávolítás"
 
 msgid "Rese&t"
-msgstr "Réi&nitialiser"
+msgstr "&Visszaállítás"
 
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
 msgid "Save and e&xport dictionary"
-msgstr "Enregistrer et e&xporter le dictionnaire"
+msgstr "&Szótár mentése és exportálása"
 
 #. Translators: this is the label for the Emoticons activate dialog.
 msgid "Activation settings"
-msgstr "Paramètres d'activation"
+msgstr "Aktiválás beállítása"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 msgid "&Activate speaking of emoticons at start:"
-msgstr "&Activer l'annonce des frimousses au démarrage :"
+msgstr "&Hangulatjel bemondás aktiválása induláskor:"
 
 #. Translators: a choice of Activateemoticons dialog.
 msgid "On"
-msgstr "Activé"
+msgstr "Be"
 
 #. Translators: a combo box in Emoticons dialog.
 msgid "Activate at start"
-msgstr "Activer au démarrage"
+msgstr "Aktiválás induláskor"
 
 #. Translators: The label for a setting in Activate emoticons dialog to copy activation settings.
 msgid "&Copy activation settings"
-msgstr "&Copier les paramètres d'activation"
+msgstr "&Aktiválási beállítások másolása"
 
 #. Translators: :) Smile
 msgid "smiling smiley"
-msgstr "frimousse sourire"
+msgstr "mosolygó arc"
 
 #. Translators: :( Sad
 msgid "sad smiley"
-msgstr "frimousse triste"
+msgstr "szomorú arc"
 
 #. Translators: :D Laugh
 msgid "Laughing smiley"
-msgstr "Frimousse rire"
+msgstr "nevető arc"
 
 #. Translators: :O Surprised
 msgid "surprised smiley"
-msgstr "Frimousse Surpris"
+msgstr "meglepődött arc"
 
 #. Translators: ;) Wink;
 msgid "winking smiley"
-msgstr "Frimousse Clin d'oeil"
+msgstr "kacsintó arc"
 
 #. Translators: ;( Crying
 msgid "crying smiley"
-msgstr "Frimousse Pleurs"
+msgstr "síró arc"
 
 #. Translators: (:| Sweating
 msgid "sweating smiley"
-msgstr "Frimousse Transpirant"
+msgstr "izzadó arc"
 
 #. translators:  :|] Robot (a robot head)
 msgid "Robot Smiley"
-msgstr "Frimousse Robot"
+msgstr "robot arc"
 
 #. Translators: :| Speechless
 msgid "speechless smiley"
-msgstr "Frimousse Bouche bée"
+msgstr "szótlan arc"
 
 #. Translators: :* Kiss
 msgid "kiss smiley"
-msgstr "Frimousse Bisou"
+msgstr "csókos arc"
 
 #. Translators: :P Cheeky
 msgid "cheeky smiley"
-msgstr "Frimousse Insolent"
+msgstr "szemtelen arc"
 
 #. Translators: :$ Blushing
 msgid "blushing smiley"
-msgstr "Frimousse Rougi"
+msgstr "elpirult arc"
 
 #. Translators: :^) Wondering
 msgid "wondering smiley"
-msgstr "Frimousse Se demande"
+msgstr "csodálkozó arc"
 
 #. Translators: |-) Sleepy
 msgid "sleepy smiley"
-msgstr "Frimousse Endormi"
+msgstr "álmos arc"
 
 #. Translators: |-( Dull
 msgid "dull smiley"
-msgstr "Frimousse Ennuyeux"
+msgstr "unatkozó arc"
 
 #. Translators: :x My lips are sealed
 msgid "my lips are sealed smiley"
-msgstr "Frimousse Bouche cousue"
+msgstr "lakat van a számon arckifejezés"
 
 #. Translators: \o/ Dancing
 msgid "dancing smiley"
-msgstr "Frimousse Danse"
+msgstr "táncoló hangulatjel"
 
 #. Translators: :'( crying a lot smiley
 msgid "crying a lot smiley"
-msgstr "Frimousse Pleurer beaucoup"
+msgstr "sokat síró arckifejezés"
 
 #. Translators: >:( Angry
 #. Translators: (angry) Angry
 msgid "angry smiley"
-msgstr "Frimousse En colère"
+msgstr "mérges arc"
 
 #. Translators: :/ Worried
 #. Translators: (worry) Worried
 msgid "worried smiley"
-msgstr "Frimousse Inquiet"
+msgstr "aggódó arc"
 
 #. Translators: <3 Heart
 #. Translators: (heart) Heart
 msgid "heart smiley"
-msgstr "Frimousse Cœur"
+msgstr "szív hangulatjel"
 
 #. Translators:  O:)  O:-) Angel
 msgid "Angel Smiley"
-msgstr "Frimousse Ange"
+msgstr "angyal hangulatjel"
 
 #. Translators:  O.o  o.O  Confused
 msgid "Confused Smiley"
-msgstr "Frimousse Confondu"
+msgstr "zavarodott arckifejezés"
 
 #. Translators:   3:-) Devil
 msgid "Devil Smiley"
-msgstr "Frimousse Diable"
+msgstr "ördög hangulatjel"
 
 #. Translators:  ^_^ Keke (This smiley is inspired by the Asian style, which is a happy face.)
 msgid "Keke Smiley"
-msgstr "Frimousse Gâteau"
+msgstr "Keke hangulatjel"
 
 #. Translators: -_- Bored (This smiley face has its eyes closed and is sporting a very small grin.)
 msgid "Bored smiley"
-msgstr "Frimousse Ennuyeux"
+msgstr "unott arckifejezés"
 
 #. Translators:  >:O  Upset, angry or shouting...
 msgid "Angry Smiley"
-msgstr "Frimousse En colère"
+msgstr "mérges arc"
 
 #. Translators:  :3  Cat (Cat faced smiley with curly lips)
 msgid "Cat Smiley"
-msgstr "Frimousse Chat"
+msgstr "macska hangulatjel"
 
 #. Translators:  (cash) Cash
 msgid "cash smiley"
-msgstr "Frimousse Monnaie"
+msgstr "készpénz hangulatjel"
 
 #. Translators: (flex) Muscle
 msgid "muscle smiley"
-msgstr "Frimousse Muscle"
+msgstr "izom hangulatjel"
 
 #. Translators: (beer) Beer
 msgid "beer smiley"
-msgstr "Frimousse Bière"
+msgstr "sör hangulatjel"
 
 #. Translators: (d) Drink
 msgid "drink smiley"
-msgstr "Frimousse Verre"
+msgstr "ivós hangulatjel"
 
 #. Translators: (ninja) Ninja
 msgid "ninja smiley"
-msgstr "Frimousse Ninja"
+msgstr "nindzsa hangulatjel"
 
 #. Translators: (cool) Cool
 msgid "cool smiley"
-msgstr "Frimousse Cool"
+msgstr "hűvös arckifejezés"
 
 #. Translators: (inlove) In Love
 msgid "in love smiley"
-msgstr "Frimousse Amoureux"
+msgstr "szerelmes arckifejezés"
 
 #. Translators: (yn) Fingers crossed
 msgid "fingers crossed smiley"
-msgstr "Frimousse Croise les doigts"
+msgstr "drukkolás hangulatjel"
 
 #. Translators: (yawn) Yawn
 msgid "yawning smiley"
-msgstr "Frimousse Bâille"
+msgstr "ásítós arckifejezés"
 
 #. Translators: (puke) Puking
 msgid "puking smiley"
-msgstr "Frimousse Vomit"
+msgstr "hányós arckifejezés"
 
 #. Translators: (doh) Doh!
 msgid "doh! smiley"
-msgstr "Frimousse D'oh !"
+msgstr "doh! arckifejezés"
 
 #. Translators: (wasntme) It wasn't me!
 msgid "it wasn't me! smiley"
-msgstr "Frimousse C'était pas moi !"
+msgstr "nem én voltam! arckifejezés"
 
 #. Translators: (party) Party
 msgid "party smiley"
-msgstr "Frimousse Fête"
+msgstr "party hangulatjel"
 
 #. Translators: (mm) Mmmm...
 msgid "mmmmmm... smiley"
-msgstr "Frimousse mmmmm..."
+msgstr "mmmmmm... arckifejezés"
 
 #. Translators: (nerd) Nerdy
 msgid "nerdy smiley"
-msgstr "Frimousse Intello"
+msgstr "majom hangulatjel"
 
 #. Translators: (wave) Hi
 msgid "hi smiley"
-msgstr "Frimousse Salut"
+msgstr "üdvözlő hangulatjel"
 
 #. Translators: (facepalm) Facepalm
 msgid "facepalm smiley"
-msgstr "Frimousse Rhoo..."
+msgstr "facepalm hangulatjel"
 
 #. Translators: (devil) Devil
 msgid "devil smiley"
-msgstr "Frimousse Diable"
+msgstr "ördög hangulatjel"
 
 #. Translators: (angel) Angel
 msgid "angel smiley"
-msgstr "Frimousse Ange"
+msgstr "angyal hangulatjel"
 
 #. Translators: (envy) Envy
 msgid "envy smiley"
-msgstr "Frimousse Envieux"
+msgstr "irigy arckifejezés"
 
 #. Translators: (wait) Wait
 msgid "wait smiley"
-msgstr "Frimousse Attend"
+msgstr "várakozó arckifejezés"
 
 #. Translators: (hug) Hug
 msgid "hug smiley"
-msgstr "Frimousse Câlin"
+msgstr "ölelő hangulatjel"
 
 #. Translators: (makeup) Make-up
 msgid "make-up smiley"
-msgstr "Frimousse Maquillage"
+msgstr "Csinibaba hangulatjel"
 
 #. Translators: (chuckle) Giggle
 msgid "giggle smiley"
-msgstr "Frimousse Rire niais"
+msgstr "vihogó hangulatjel"
 
 #. Translators: (clap) Clapping
 msgid "clapping smiley"
-msgstr "Frimousse Applaudit"
+msgstr "tapsoló hangulatjel"
 
 #. Translators: (think) Thinking
 msgid "thinking smiley"
-msgstr "Frimousse Pensif"
+msgstr "elgondolkodó hangulatjel"
 
 #. Translators: (bow) Bowing
 msgid "bowing smiley"
-msgstr "Frimousse Courbette"
+msgstr "Köszönet hangulatjel"
 
 #. Translators: (rofl) Rolling on the floor laughing
 msgid "rolling on the floor laughing! smiley"
-msgstr "Frimousse Mort de rire"
+msgstr "a nevetéstől a földön fekvő hangulatjel"
 
 #. Translators: (whew) Relieved
 msgid "relieved smiley"
-msgstr "Frimousse Ouf"
+msgstr "megkönyebbült arckifejezés"
 
 #. Translators: (happy) Happy
 msgid "happy smiley"
-msgstr "Frimousse Content"
+msgstr "boldog arckifejezés"
 
 #. Translators: (smirk) Smirking
 msgid "smirking smiley"
-msgstr "Frimousse Rire jaune"
+msgstr "önelégülten vigyorgó arckifejezés"
 
 #. Translators: (nod) Nodding
 msgid "nodding smiley"
-msgstr "Frimousse Acquiescement"
+msgstr "bólogató hangulatjel"
 
 #. Translators: (shake) Shake
 msgid "shakeing smiley"
-msgstr "Frimousse Secoué"
+msgstr "rázó hangulatjel"
 
 #. Translators: (waiting) Waiting
 msgid "waiting smiley"
-msgstr "Frimousse En attente"
+msgstr "várakozó hangulatjel"
 
 #. Translators: (emo) Emo;
 msgid "Emo smiley"
-msgstr "Frimousse Emo"
+msgstr "emo-s arckifejezés"
 
 #. Translators: (y) Yes
 msgid "yes smiley"
-msgstr "Frimousse Oui"
+msgstr "ez király! hangulatjel"
 
 #. Translators: (n) no;
 msgid "no smiley"
-msgstr "Frimousse Non"
+msgstr "ez béna! hangulatjel"
 
 #. Translators: (handshake) Handshake
 msgid "handshake smiley"
-msgstr "Frimousse Poignée de main"
+msgstr "kézfogás hangulatjel"
 
 #. Translators: (highfive) High five
 msgid "high five smiley"
-msgstr "Frimousse Tapes m'en cinq"
+msgstr "Pacsi hangulatjel"
 
 #. Translators: (lalala) Lalala;
 msgid "lalala smiley"
-msgstr "Frimousse Lalala"
+msgstr "éneklő hangulatjel"
 
 #. Translators: (heidy) Heidy;
 msgid "heidy smiley"
-msgstr "Frimousse Écureuil"
+msgstr "Mókuska hangulatjel"
 
 #. Translators: (F) Flower
 msgid "flower smiley"
-msgstr "Frimousse Fleur"
+msgstr "virág hangulatjel"
 
 #. Translators: (rain) Raining
 msgid "raining smiley"
-msgstr "Frimousse Pluie"
+msgstr "esős hangulatjel"
 
 #. Translators: (sun) Sun
 msgid "sunny smiley"
-msgstr "Frimousse Soleil"
+msgstr "nap hangulatjel"
 
 #. Translators: (tumbleweed) Tumbleweed
 msgid "tumbleweed smiley"
-msgstr "Frimousse Virevoltant"
+msgstr "Ördögszekér hangulatjel"
 
 #. Translators: (music) Music
 msgid "music smiley"
-msgstr "Frimousse Musique"
+msgstr "zene hangulatjel"
 
 #. Translators: (bandit) Bandit
 msgid "bandit smiley"
-msgstr "Frimousse Bandit"
+msgstr "bandita hangulatjel"
 
 #. Translators: (tmi) Too much information
 msgid "too much information smiley"
-msgstr "Frimousse M'en dis pas plus"
+msgstr "túl sok információ arckifejezés"
 
 #. Translators: (coffee) Coffee
 msgid "coffee smiley"
-msgstr "Frimousse Café"
+msgstr "kávé hangulatjel"
 
 #. Translators: (pi) Pizza
 msgid "pizza smiley"
-msgstr "Frimousse Pizza"
+msgstr "pizza hangulatjel"
 
 #. Translators: (^) Cake
 msgid "cake smiley"
-msgstr "Frimousse Gâteau"
+msgstr "torta hangulatjel"
 
 #. Translators: (*) Star
 msgid "star smiley"
-msgstr "Frimousse Étoile"
+msgstr "csillag hangulatjel"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Emoticons"
-msgstr "Emoticons"
+msgstr "Hangulatjelek"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -523,8 +524,5 @@ msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "representation.\n"
 msgstr ""
-"Permet l'annonce des noms des frimousses au lieu de la représentation des "
-"caractères.\n"
-
-#~ msgid "evil grin smiley"
-#~ msgstr "Diabolique frimousse"
+"A hangulatjel jelentés bemondásának engedélyezése, annak "
+"karakterkombinációja helyett.\n"
