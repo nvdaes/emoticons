@@ -24,7 +24,7 @@ When you press OK, the characters for the chosen smiley will be copied to your c
 From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can open a dialog setting to add or to edit available emoticons.
 This dialog allows you to save an emoticons speech  dictionary  with your customizations.
 
-Pressin' "Save and export dictionary" button, a file dictionary named emoticons.dic will be saved in your user config folder, speechDicts subfolder.
+Pressing "Save and export dictionary" button, a file dictionary named emoticons.dic will be saved in your user config folder, speechDicts subfolder.
 
 
 ## Activation settings ##
