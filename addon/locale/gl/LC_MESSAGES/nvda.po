@@ -516,9 +516,11 @@ msgstr "Emoticons"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "representation.\n"
+"Press NVDA+E to toggle."
 msgstr ""
 "Permite o anuncio de nomes de emoticóns en lugar da representación de "
 "caracteres.\n"

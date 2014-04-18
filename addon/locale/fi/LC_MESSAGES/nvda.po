@@ -516,7 +516,9 @@ msgstr "Hymiöt"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "representation.\n"
+"Press NVDA+E to toggle."
 msgstr "Ottaa käyttöön hymiöiden nimien puhumisen niiden merkkien sijasta.\n"

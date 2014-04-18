@@ -141,7 +141,7 @@ msgstr "Знакочувствителност"
 msgid "Regexp"
 msgstr "Регулярен израз"
 
-#. Translators: a choice of Activate emoticons dialog.
+#. Translators: a choice of Activateemoticons dialog.
 msgid "off"
 msgstr "Изключено"
 
@@ -516,9 +516,11 @@ msgstr "Емотикони"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "representation.\n"
+"Press NVDA+E to toggle."
 msgstr ""
 "Прави възможно прочитането на имената на емотикони вместо тяхното "
 "представяне със знаци.\n"

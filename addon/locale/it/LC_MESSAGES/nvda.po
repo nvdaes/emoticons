@@ -11,10 +11,10 @@ msgstr ""
 "PO-Revision-Date: 2014-02-17 16:11+0100\n"
 "Last-Translator: Simone Dal Maso <simone.dalmaso@juvox.it>\n"
 "Language-Team: Translators <LL@li.org>\n"
+"Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it_IT\n"
 "X-Generator: Poedit 1.5.5\n"
 
 #. Translators: the label of a message box dialog.
@@ -300,18 +300,6 @@ msgstr "Smiley Arrabbiato;"
 msgid "Cat Smiley"
 msgstr "Smiley Gatto con le labbra arricciate;"
 
-#. Translators: (-.-)ZZZ I�m Sleepy
-msgid "I am Sleepy smiley"
-msgstr "Emoticon, Stò dormendo..."
-
-#. Translators: 8-) Glasses
-msgid "glasses smiley"
-msgstr "Smiley con Occhiali"
-
-#. Translators: (^^^) shark
-msgid "shark smiley"
-msgstr "Emoticon Scualo"
-
 #. Translators:  (cash) Cash
 msgid "cash smiley"
 msgstr "Smiley Denaro;"
@@ -535,6 +523,15 @@ msgstr ""
 "Abilita la lettura del nome dell'emoticon invece della rappresentazione dei "
 "caratteri.\n"
 "Premere NVDA+E per attivare."
+
+#~ msgid "I am Sleepy smiley"
+#~ msgstr "Emoticon, Stò dormendo..."
+
+#~ msgid "glasses smiley"
+#~ msgstr "Smiley con Occhiali"
+
+#~ msgid "shark smiley"
+#~ msgstr "Emoticon Scualo"
 
 #~ msgid "Opens documentation for %s"
 #~ msgstr "Apre la documentazione %s"

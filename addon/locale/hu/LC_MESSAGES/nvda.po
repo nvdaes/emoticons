@@ -520,9 +520,11 @@ msgstr "Hangulatjelek"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "representation.\n"
+"Press NVDA+E to toggle."
 msgstr ""
 "A hangulatjel jelentés bemondásának engedélyezése, annak "
 "karakterkombinációja helyett.\n"
