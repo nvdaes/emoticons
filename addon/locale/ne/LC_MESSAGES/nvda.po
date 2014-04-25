@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-19 18:53+0100\n"
-"PO-Revision-Date: 2013-11-30 13:50+0545\n"
+"PO-Revision-Date: 2014-04-18 14:00+0545\n"
 "Last-Translator: Him Prasad Gautam <drishtibachak@gmail.com>\n"
 "Language-Team: LANGUAGE <drishtibachak@gmail.com>\n"
 "Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.6.1\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -513,9 +513,10 @@ msgstr "इमोटिकन"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#, fuzzy
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "representation.\n"
 "Press NVDA+E to toggle."
-msgstr "ईमोटिकन वर्णको सट्टा नामको  घोषणालाइ  योग्य बनाउँछ । \n"
+msgstr ""
+"ईमोटिकन वर्णको सट्टा नामको  घोषणालाइ  योग्य बनाउँछ । \n"
+"साटोफेरो गर्न नेत्रवाणी+E दबाउनु होला ।"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 20:13+0100\n"
-"PO-Revision-Date: 2013-11-28 19:52+0530\n"
+"PO-Revision-Date: 2014-04-18 11:32+0530\n"
 "Last-Translator: DINAKAR T.D. <td.dinkar@gmail.com>\n"
 "Language-Team: DINAKAR T.D. <td.dinkar@gmail.com>\n"
 "Language: Tamil\n"
@@ -519,9 +519,10 @@ msgstr "உணர்வுருக்கள்"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#, fuzzy
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "representation.\n"
 "Press NVDA+E to toggle."
-msgstr "வரியுருக்களுக்கு மாற்றாக உணர்வுருக்களின் பெயரை அறிவிக்கும்.\n"
+msgstr ""
+"வரியுருக்களுக்கு மாற்றாக உணர்வுருக்களின் பெயரை அறிவிக்கும்.\n"
+"அறிவிப்பை மாற்றியமைக்க, என்விடிஏ+e விசையை அழுத்தவும். "

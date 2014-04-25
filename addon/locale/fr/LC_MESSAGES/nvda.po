@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Emoticons-1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 18:37+0100\n"
-"PO-Revision-Date: 2014-03-12 15:49+0100\n"
-"Last-Translator: Bachir Benanou <ben_bach@yahoo.fr>\n"
+"PO-Revision-Date: 2014-04-19 14:52+0100\n"
+"Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
@@ -519,7 +519,6 @@ msgstr "Emoticons"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#, fuzzy
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "representation.\n"
@@ -527,6 +526,7 @@ msgid ""
 msgstr ""
 "Permet l'annonce des noms des frimousses au lieu de la représentation des "
 "caractères.\n"
+"Appuyez sur NVDA+E pour activé ou désactivé."
 
 #~ msgid "evil grin smiley"
 #~ msgstr "Diabolique frimousse"
