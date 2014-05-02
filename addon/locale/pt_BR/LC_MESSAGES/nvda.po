@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 20:13+0100\n"
-"PO-Revision-Date: 2013-11-17 14:27-0300\n"
+"PO-Revision-Date: 2014-04-25 09:42-0300\n"
 "Last-Translator: Cleverson Casarin Uliana <clever92000@yahoo.com.br>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
 "<clever92000@yahoo.com.br>\n"
@@ -518,7 +518,6 @@ msgstr "Emoticons"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#, fuzzy
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "representation.\n"
@@ -526,3 +525,4 @@ msgid ""
 msgstr ""
 "Abilita o anúncio dos nomes de emoticons ao invés da representação em "
 "caracteres.\n"
+"Pressione NVDA+e para ativar e desativar."
