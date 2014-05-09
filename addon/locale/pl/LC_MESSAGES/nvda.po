@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 18:37+0100\n"
-"PO-Revision-Date: 2013-12-15 15:17+0100\n"
+"PO-Revision-Date: 2014-05-04 10:39+0100\n"
 "Last-Translator: Grzegorz Zlotowicz <grzezlo@wp.pl>\n"
 "Language-Team: Polish <killer@tyflonet.com>\n"
 "Language: pl\n"
@@ -516,9 +516,10 @@ msgstr "Emotikony / Emoticons"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#, fuzzy
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "representation.\n"
 "Press NVDA+E to toggle."
-msgstr "Umożliwia oznajmianie nazw emotikon zamiast tworzących je znaków.\n"
+msgstr ""
+"Umożliwia oznajmianie nazw emotikon zamiast tworzących je znaków.\n"
+"Naciśnij NVDA+E aby przełączyć."
