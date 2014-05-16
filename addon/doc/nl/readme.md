@@ -1,8 +1,8 @@
 # Emoticons #
 
 * Auteurs: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed
-* Download [stable version][1]
-* Download [development version][2]
+* Download [stabiele versie][1]
+* Download [ontwikkelversie][2]
 
 Het gebruik van deze add-on zorgt ervoor dat emoticonkarakters in gesproken
 tekst worden vervangen door hun gebruiksvriendelijkere omschrijving. Er zijn
