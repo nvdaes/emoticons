@@ -18,494 +18,621 @@ msgstr ""
 "X-Generator: Poedit 1.6.4\n"
 
 #. Translators: the label of a message box dialog.
+#: addon/installTasks.py:18
 msgid ""
 "You have installed the Emoticons add-on, probably an old and incompatible "
 "version with this one. Do you want to uninstall the old version?"
 msgstr "您已经安装了“表情”的不兼容的旧版本，您希望卸载此旧版本吗？"
 
 #. Translators: the title of a message box dialog.
+#: addon/installTasks.py:20
 msgid "Uninstall incompatible add-on"
 msgstr "正在卸载不兼容的插件"
 
 #. Translators: the label of a message box dialog.
+#: addon/installTasks.py:27
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them?"
 msgstr "您似乎拥有此插件的上次保存的配置。您希望导入他们吗？"
 
 #. Translators: the title of a message box dialog.
+#: addon/installTasks.py:29
 msgid "Import Emoticons add-on settings"
 msgstr "导入表情插件设置"
 
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
+#: addon/globalPlugins/emoticons/__init__.py:70
 #, python-format
 msgid "Emoticon: %s"
 msgstr "表情： %s"
 
 #. Translators: the name of addon submenu.
+#: addon/globalPlugins/emoticons/__init__.py:81
 msgid "Manage emoticons"
 msgstr "管理表情"
 
 #. Translators: the tooltip text for addon submenu.
+#: addon/globalPlugins/emoticons/__init__.py:83
 msgid "Emoticons menu"
 msgstr "表情菜单"
 
 #. Translators: the name for an item of addon submenu.
+#: addon/globalPlugins/emoticons/__init__.py:86
 msgid "&Insert smiley..."
 msgstr "插入表情(&I)..."
 
 #. Translators: the tooltip text for an item of addon submenu.
+#: addon/globalPlugins/emoticons/__init__.py:88
 msgid "Shows a dialog to insert a smiley"
 msgstr "显示一个对话框来插入表情"
 
 #. Translators: the name for an item of addon submenu.
+#: addon/globalPlugins/emoticons/__init__.py:92
 msgid "&Customize emoticons..."
 msgstr "自定义表情(&C)..."
 
 #. Translators: the tooltip text for an item of addon submenu.
+#: addon/globalPlugins/emoticons/__init__.py:94
 msgid "Shows a dictionary dialog to customize emoticons"
 msgstr "显示一个词典对话框来自定义表情"
 
 #. Translators: the name for an item of addon submenu.
+#: addon/globalPlugins/emoticons/__init__.py:98
 msgid "&Activation settings..."
 msgstr "激活设置(&A)..."
 
 #. Translators: the tooltip text for an item of addon submenu.
+#: addon/globalPlugins/emoticons/__init__.py:100
 msgid "Shows a dialog to choose when emoticons speaking should be activated"
 msgstr "显示一个对话框来定义核实启用表情朗读"
 
+#: addon/globalPlugins/emoticons/__init__.py:121
 msgid "Emoticons dictionary"
 msgstr "表情字典"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
+#: addon/globalPlugins/emoticons/__init__.py:132
 msgid "Emoticons off."
 msgstr "表情朗读关闭。"
 
 #. Translators: message presented when the dictionary for emoticons is loaded.
+#: addon/globalPlugins/emoticons/__init__.py:136
 msgid "Emoticons on."
 msgstr "表情朗读开启。"
 
 #. Translators: Message presented in input help mode.
+#: addon/globalPlugins/emoticons/__init__.py:138
 msgid "Toggles on and off the announcement of emoticons."
 msgstr "在表情朗读的开关之间切换。"
 
 #. Translators: Message presented in input help mode.
+#: addon/globalPlugins/emoticons/__init__.py:144
 msgid "Shows a dialog to select a smiley you want to paste."
 msgstr "显示一个对话框来选择您希望粘贴的表情"
 
 #. Translators: This is the label for the InsertEmoticon dialog.
+#: addon/globalPlugins/emoticons/__init__.py:154
 msgid "Insert emoticon"
 msgstr "插入表情"
 
 #. Translators: The label for a setting in Insert emoticons to select a smiley.
+#: addon/globalPlugins/emoticons/__init__.py:159
 msgid "Available emoticons"
 msgstr "可用的表情"
 
 #. Translators: A combo box to choose a smiley.
+#: addon/globalPlugins/emoticons/__init__.py:164
 msgid "Available smileys to insert:"
 msgstr "允许插入的表情："
 
 #. Translators: This is the message when smiley has been copied to the clipboard.
+#: addon/globalPlugins/emoticons/__init__.py:177
 msgid "Smiley copied to clipboard, ready for you to paste."
 msgstr "表情已经拷贝到剪贴板，已经为您准备好粘贴。"
 
+#: addon/globalPlugins/emoticons/__init__.py:179
 msgid "Cannot copy smiley."
 msgstr "无法复制表情。"
 
 #. Translators: The label for the combo box of dictionary entries in speech dictionary dialog.
+#: addon/globalPlugins/emoticons/__init__.py:187
 msgid "&Dictionary entries"
 msgstr "字典条目(&D)"
 
 #. Translators: The label for a column in dictionary entries list used to identify comments for the entry.
+#: addon/globalPlugins/emoticons/__init__.py:191
 msgid "Comment"
 msgstr "注释"
 
 #. Translators: The label for a column in dictionary entries list used to identify pattern (original word or a pattern).
+#: addon/globalPlugins/emoticons/__init__.py:193
 msgid "Pattern"
 msgstr "样式"
 
 #. Translators: The label for a column in dictionary entries list and in a list of symbols from symbol pronunciation dialog used to identify replacement for a pattern or a symbol
+#: addon/globalPlugins/emoticons/__init__.py:195
 msgid "Replacement"
 msgstr "替换为"
 
 #. Translators: The label for a column in dictionary entries list used to identify whether the entry is case sensitive or not.
+#: addon/globalPlugins/emoticons/__init__.py:197
 msgid "case"
 msgstr "事件"
 
 #. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression or not.
+#: addon/globalPlugins/emoticons/__init__.py:199
 msgid "Regexp"
 msgstr "正则表达式"
 
 #. Translators: a choice of Activateemoticons dialog.
+#: addon/globalPlugins/emoticons/__init__.py:200
+#: addon/globalPlugins/emoticons/__init__.py:273
 msgid "off"
 msgstr "关闭"
 
+#: addon/globalPlugins/emoticons/__init__.py:200
 msgid "on"
 msgstr "打开"
 
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
+#: addon/globalPlugins/emoticons/__init__.py:209
 msgid "&Add"
 msgstr "添加(&A)"
 
 #. Translators: The label for a button in speech dictionaries dialog to edit existing entries.
+#: addon/globalPlugins/emoticons/__init__.py:213
 msgid "&Edit"
 msgstr "编辑(&E)"
 
+#: addon/globalPlugins/emoticons/__init__.py:216
 msgid "&Remove"
 msgstr "删除(&R)"
 
+#: addon/globalPlugins/emoticons/__init__.py:219
 msgid "Rese&t"
 msgstr "重置(&T)"
 
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
+#: addon/globalPlugins/emoticons/__init__.py:229
 msgid "Save and e&xport dictionary"
 msgstr "保存并输出到词典(&X)"
 
 #. Translators: this is the label for the Emoticons activate dialog.
+#: addon/globalPlugins/emoticons/__init__.py:263
 msgid "Activation settings"
 msgstr "激活设置"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
+#: addon/globalPlugins/emoticons/__init__.py:268
 msgid "&Activate speaking of emoticons at start:"
 msgstr "启动时启用表情朗读(&A):"
 
 #. Translators: a choice of Activateemoticons dialog.
+#: addon/globalPlugins/emoticons/__init__.py:275
 msgid "On"
 msgstr "启用"
 
 #. Translators: a combo box in Emoticons dialog.
+#: addon/globalPlugins/emoticons/__init__.py:277
 msgid "Activate at start"
 msgstr "启动时激活"
 
 #. Translators: The label for a setting in Activate emoticons dialog to copy activation settings.
+#: addon/globalPlugins/emoticons/__init__.py:282
 msgid "&Copy activation settings"
 msgstr "复制激活设置(&A)"
 
 #. Translators: :) Smile
+#: addon/globalPlugins/emoticons/smileysList.py:11
 msgid "smiling smiley"
 msgstr "微笑，表情"
 
 #. Translators: :( Sad
+#: addon/globalPlugins/emoticons/smileysList.py:13
 msgid "sad smiley"
 msgstr "痛苦，表情"
 
 #. Translators: :D Laugh
+#: addon/globalPlugins/emoticons/smileysList.py:15
 msgid "Laughing smiley"
 msgstr "笑，表情"
 
 #. Translators: :O Surprised
+#: addon/globalPlugins/emoticons/smileysList.py:17
 msgid "surprised smiley"
 msgstr "吃惊，表情"
 
 #. Translators: ;) Wink;
+#: addon/globalPlugins/emoticons/smileysList.py:19
 msgid "winking smiley"
 msgstr "眨眼，表情"
 
 #. Translators: ;( Crying
+#: addon/globalPlugins/emoticons/smileysList.py:21
 msgid "crying smiley"
 msgstr "哭，表情"
 
 #. Translators: (:| Sweating
+#: addon/globalPlugins/emoticons/smileysList.py:23
 msgid "sweating smiley"
 msgstr "流汗，表情"
 
 #. translators:  :|] Robot (a robot head)
+#: addon/globalPlugins/emoticons/smileysList.py:25
 msgid "Robot Smiley"
 msgstr "机器人，表情"
 
 #. Translators: :| Speechless
+#: addon/globalPlugins/emoticons/smileysList.py:27
 msgid "speechless smiley"
 msgstr "惊讶，表情"
 
 #. Translators: :* Kiss
+#: addon/globalPlugins/emoticons/smileysList.py:29
 msgid "kiss smiley"
 msgstr "亲，表情"
 
 #. Translators: :P Cheeky
+#: addon/globalPlugins/emoticons/smileysList.py:31
 msgid "cheeky smiley"
 msgstr "无耻，表情"
 
 #. Translators: :$ Blushing
+#: addon/globalPlugins/emoticons/smileysList.py:33
 msgid "blushing smiley"
 msgstr "脸红，表情"
 
 #. Translators: :^) Wondering
+#: addon/globalPlugins/emoticons/smileysList.py:35
 msgid "wondering smiley"
 msgstr "惊奇，表情"
 
 #. Translators: |-) Sleepy
+#: addon/globalPlugins/emoticons/smileysList.py:37
 msgid "sleepy smiley"
 msgstr "睡，表情"
 
 #. Translators: |-( Dull
+#: addon/globalPlugins/emoticons/smileysList.py:39
 msgid "dull smiley"
 msgstr "发呆，表情"
 
 #. Translators: :x My lips are sealed
+#: addon/globalPlugins/emoticons/smileysList.py:41
 msgid "my lips are sealed smiley"
 msgstr "合上嘴，表情"
 
 #. Translators: \o/ Dancing
+#: addon/globalPlugins/emoticons/smileysList.py:43
 msgid "dancing smiley"
 msgstr "跳舞，表情"
 
 #. Translators: :'( crying a lot smiley
+#: addon/globalPlugins/emoticons/smileysList.py:45
 msgid "crying a lot smiley"
 msgstr "大哭，表情"
 
 #. Translators: >:( Angry
 #. Translators: (angry) Angry
+#: addon/globalPlugins/emoticons/smileysList.py:47
+#: addon/globalPlugins/emoticons/smileysList.py:93
 msgid "angry smiley"
 msgstr "生气，表情"
 
 #. Translators: :/ Worried
 #. Translators: (worry) Worried
+#: addon/globalPlugins/emoticons/smileysList.py:49
+#: addon/globalPlugins/emoticons/smileysList.py:67
 msgid "worried smiley"
 msgstr "担心，表情"
 
 #. Translators: <3 Heart
 #. Translators: (heart) Heart
+#: addon/globalPlugins/emoticons/smileysList.py:51
+#: addon/globalPlugins/emoticons/smileysList.py:151
 msgid "heart smiley"
 msgstr "心，表情"
 
 #. Translators:  O:)  O:-) Angel
+#: addon/globalPlugins/emoticons/smileysList.py:53
 msgid "Angel Smiley"
 msgstr "天使，表情"
 
 #. Translators:  O.o  o.O  Confused
+#: addon/globalPlugins/emoticons/smileysList.py:55
 msgid "Confused Smiley"
 msgstr "困惑，表情"
 
 #. Translators:   3:-) Devil
+#: addon/globalPlugins/emoticons/smileysList.py:57
 msgid "Devil Smiley"
 msgstr "折磨，表情"
 
 #. Translators:  ^_^ Keke (This smiley is inspired by the Asian style, which is a happy face.)
+#: addon/globalPlugins/emoticons/smileysList.py:59
 msgid "Keke Smiley"
 msgstr "咳咳，表情"
 
 #. Translators: -_- Bored (This smiley face has its eyes closed and is sporting a very small grin.)
+#: addon/globalPlugins/emoticons/smileysList.py:61
 msgid "Bored smiley"
 msgstr "无聊，表情"
 
 #. Translators:  >:O  Upset, angry or shouting...
+#: addon/globalPlugins/emoticons/smileysList.py:63
 msgid "Angry Smiley"
 msgstr "生气，表情"
 
 #. Translators:  :3  Cat (Cat faced smiley with curly lips)
+#: addon/globalPlugins/emoticons/smileysList.py:65
 msgid "Cat Smiley"
 msgstr "扁嘴，表情"
 
 #. Translators:  (cash) Cash
+#: addon/globalPlugins/emoticons/smileysList.py:69
 msgid "cash smiley"
 msgstr "钱，表情"
 
 #. Translators: (flex) Muscle
+#: addon/globalPlugins/emoticons/smileysList.py:71
 msgid "muscle smiley"
 msgstr "力量，表情"
 
 #. Translators: (beer) Beer
+#: addon/globalPlugins/emoticons/smileysList.py:73
 msgid "beer smiley"
 msgstr "啤酒，表情"
 
 #. Translators: (d) Drink
+#: addon/globalPlugins/emoticons/smileysList.py:75
 msgid "drink smiley"
 msgstr "喝，表情"
 
 #. Translators: (ninja) Ninja
+#: addon/globalPlugins/emoticons/smileysList.py:77
 msgid "ninja smiley"
 msgstr "忍者，表情"
 
 #. Translators: (cool) Cool
+#: addon/globalPlugins/emoticons/smileysList.py:79
 msgid "cool smiley"
 msgstr "酷，表情"
 
 #. Translators: (inlove) In Love
+#: addon/globalPlugins/emoticons/smileysList.py:81
 msgid "in love smiley"
 msgstr "爱，表情"
 
 #. Translators: (yn) Fingers crossed
+#: addon/globalPlugins/emoticons/smileysList.py:83
 msgid "fingers crossed smiley"
 msgstr "手指相扣，表情"
 
 #. Translators: (yawn) Yawn
+#: addon/globalPlugins/emoticons/smileysList.py:85
+#: addon/globalPlugins/emoticons/smileysList.py:87
 msgid "yawning smiley"
 msgstr "哈欠，表情"
 
 #. Translators: (puke) Puking
+#: addon/globalPlugins/emoticons/smileysList.py:89
 msgid "puking smiley"
 msgstr "呕吐，表情"
 
 #. Translators: (doh) Doh!
+#: addon/globalPlugins/emoticons/smileysList.py:91
 msgid "doh! smiley"
 msgstr "doh!，表情"
 
 #. Translators: (wasntme) It wasn't me!
+#: addon/globalPlugins/emoticons/smileysList.py:95
 msgid "it wasn't me! smiley"
 msgstr "不是我，表情"
 
 #. Translators: (party) Party
+#: addon/globalPlugins/emoticons/smileysList.py:97
 msgid "party smiley"
 msgstr "聚会，表情"
 
 #. Translators: (mm) Mmmm...
+#: addon/globalPlugins/emoticons/smileysList.py:99
 msgid "mmmmmm... smiley"
 msgstr "咬，表情"
 
 #. Translators: (nerd) Nerdy
+#: addon/globalPlugins/emoticons/smileysList.py:101
 msgid "nerdy smiley"
 msgstr "讨厌，表情"
 
 #. Translators: (wave) Hi
+#: addon/globalPlugins/emoticons/smileysList.py:103
 msgid "hi smiley"
 msgstr "嗨，表情"
 
 #. Translators: (facepalm) Facepalm
+#: addon/globalPlugins/emoticons/smileysList.py:105
 msgid "facepalm smiley"
 msgstr "捂脸，表情"
 
 #. Translators: (devil) Devil
+#: addon/globalPlugins/emoticons/smileysList.py:107
 msgid "devil smiley"
 msgstr "折磨，表情"
 
 #. Translators: (angel) Angel
+#: addon/globalPlugins/emoticons/smileysList.py:109
 msgid "angel smiley"
 msgstr "天使，表情"
 
 #. Translators: (envy) Envy
+#: addon/globalPlugins/emoticons/smileysList.py:111
 msgid "envy smiley"
 msgstr "羡慕，表情"
 
 #. Translators: (wait) Wait
+#: addon/globalPlugins/emoticons/smileysList.py:113
 msgid "wait smiley"
 msgstr "等，表情"
 
 #. Translators: (hug) Hug
+#: addon/globalPlugins/emoticons/smileysList.py:115
 msgid "hug smiley"
 msgstr "拥抱，表情"
 
 #. Translators: (makeup) Make-up
+#: addon/globalPlugins/emoticons/smileysList.py:117
 msgid "make-up smiley"
 msgstr "虚构，表情"
 
 #. Translators: (chuckle) Giggle
+#: addon/globalPlugins/emoticons/smileysList.py:119
 msgid "giggle smiley"
 msgstr "傻笑，表情"
 
 #. Translators: (clap) Clapping
+#: addon/globalPlugins/emoticons/smileysList.py:121
 msgid "clapping smiley"
 msgstr "鼓掌，表情"
 
 #. Translators: (think) Thinking
+#: addon/globalPlugins/emoticons/smileysList.py:123
 msgid "thinking smiley"
 msgstr "思考，表情"
 
 #. Translators: (bow) Bowing
+#: addon/globalPlugins/emoticons/smileysList.py:125
 msgid "bowing smiley"
 msgstr "鞠躬，表情"
 
 #. Translators: (rofl) Rolling on the floor laughing
+#: addon/globalPlugins/emoticons/smileysList.py:127
 msgid "rolling on the floor laughing! smiley"
 msgstr "滚蛋笑，表情"
 
 #. Translators: (whew) Relieved
+#: addon/globalPlugins/emoticons/smileysList.py:129
 msgid "relieved smiley"
 msgstr "放心，表情"
 
 #. Translators: (happy) Happy
+#: addon/globalPlugins/emoticons/smileysList.py:131
 msgid "happy smiley"
 msgstr "愉快，表情"
 
 #. Translators: (smirk) Smirking
+#: addon/globalPlugins/emoticons/smileysList.py:133
 msgid "smirking smiley"
 msgstr "傻笑，表情"
 
 #. Translators: (nod) Nodding
+#: addon/globalPlugins/emoticons/smileysList.py:135
 msgid "nodding smiley"
 msgstr "点头，表情"
 
 #. Translators: (shake) Shake
+#: addon/globalPlugins/emoticons/smileysList.py:137
 msgid "shakeing smiley"
 msgstr "握手，表情"
 
 #. Translators: (waiting) Waiting
+#: addon/globalPlugins/emoticons/smileysList.py:139
 msgid "waiting smiley"
 msgstr "等，表情"
 
 #. Translators: (emo) Emo;
+#: addon/globalPlugins/emoticons/smileysList.py:141
 msgid "Emo smiley"
 msgstr "负荷，表情"
 
 #. Translators: (y) Yes
+#: addon/globalPlugins/emoticons/smileysList.py:143
 msgid "yes smiley"
 msgstr "是，表情"
 
 #. Translators: (n) no;
+#: addon/globalPlugins/emoticons/smileysList.py:145
 msgid "no smiley"
 msgstr "否，表情"
 
 #. Translators: (handshake) Handshake
+#: addon/globalPlugins/emoticons/smileysList.py:147
 msgid "handshake smiley"
 msgstr "握手，表情"
 
 #. Translators: (highfive) High five
+#: addon/globalPlugins/emoticons/smileysList.py:149
 msgid "high five smiley"
 msgstr "击掌，表情"
 
 #. Translators: (lalala) Lalala;
+#: addon/globalPlugins/emoticons/smileysList.py:153
 msgid "lalala smiley"
 msgstr "啦啦啦，表情"
 
 #. Translators: (heidy) Heidy;
+#: addon/globalPlugins/emoticons/smileysList.py:155
 msgid "heidy smiley"
 msgstr "松鼠，表情"
 
 #. Translators: (F) Flower
+#: addon/globalPlugins/emoticons/smileysList.py:157
 msgid "flower smiley"
 msgstr "花，表情"
 
 #. Translators: (rain) Raining
+#: addon/globalPlugins/emoticons/smileysList.py:159
 msgid "raining smiley"
 msgstr "下雨，表情"
 
 #. Translators: (sun) Sun
+#: addon/globalPlugins/emoticons/smileysList.py:161
 msgid "sunny smiley"
 msgstr "太阳，"
 
 #. Translators: (tumbleweed) Tumbleweed
+#: addon/globalPlugins/emoticons/smileysList.py:163
 msgid "tumbleweed smiley"
 msgstr "植物，表情"
 
 #. Translators: (music) Music
+#: addon/globalPlugins/emoticons/smileysList.py:165
 msgid "music smiley"
 msgstr "音乐，表情"
 
 #. Translators: (bandit) Bandit
+#: addon/globalPlugins/emoticons/smileysList.py:167
 msgid "bandit smiley"
 msgstr "强盗，表情"
 
 #. Translators: (tmi) Too much information
+#: addon/globalPlugins/emoticons/smileysList.py:169
 msgid "too much information smiley"
 msgstr "太多信息，表情"
 
 #. Translators: (coffee) Coffee
+#: addon/globalPlugins/emoticons/smileysList.py:171
 msgid "coffee smiley"
 msgstr "咖啡，表情"
 
 #. Translators: (pi) Pizza
+#: addon/globalPlugins/emoticons/smileysList.py:173
 msgid "pizza smiley"
 msgstr "比萨饼，表情"
 
 #. Translators: (^) Cake
+#: addon/globalPlugins/emoticons/smileysList.py:175
 msgid "cake smiley"
 msgstr "蛋糕，表情"
 
 #. Translators: (*) Star
+#: addon/globalPlugins/emoticons/smileysList.py:177
 msgid "star smiley"
 msgstr "星星，表情"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
+#: buildVars.py:17
 msgid "Emoticons"
 msgstr ""
 "表情\n"
@@ -513,6 +640,7 @@ msgstr ""
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:20
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "representation.\n"
