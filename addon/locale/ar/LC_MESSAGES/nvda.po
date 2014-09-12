@@ -18,627 +18,499 @@ msgstr ""
 "X-Generator: Poedit 1.5.7\n"
 
 #. Translators: the label of a message box dialog.
-#: addon/installTasks.py:18
 msgid ""
 "You have installed the Emoticons add-on, probably an old and incompatible "
 "version with this one. Do you want to uninstall the old version?"
 msgstr "لقد قمت بتنزيل إضافة رموز المشاعر "
 
 #. Translators: the title of a message box dialog.
-#: addon/installTasks.py:20
 msgid "Uninstall incompatible add-on"
 msgstr "إزالة الإضافة غير المتوافقة"
 
 #. Translators: the label of a message box dialog.
-#: addon/installTasks.py:27
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them?"
 msgstr "يبدو أن لديك إعدادات محفوظة مسبقا لهذه الإضافة، فهل تود استيرادها؟ "
 
 #. Translators: the title of a message box dialog.
-#: addon/installTasks.py:29
 msgid "Import Emoticons add-on settings"
 msgstr "استيراد إعدادات إضافة رموز المشاعر"
 
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
-#: addon/globalPlugins/emoticons/__init__.py:70
 #, python-format
 msgid "Emoticon: %s"
 msgstr "رمز المشاعر: %s"
 
 #. Translators: the name of addon submenu.
-#: addon/globalPlugins/emoticons/__init__.py:81
 msgid "Manage emoticons"
 msgstr "إدارة رموز المشاعر"
 
 #. Translators: the tooltip text for addon submenu.
-#: addon/globalPlugins/emoticons/__init__.py:83
 msgid "Emoticons menu"
 msgstr "قائمة رموز المشاعر"
 
 #. Translators: the name for an item of addon submenu.
-#: addon/globalPlugins/emoticons/__init__.py:86
 msgid "&Insert smiley..."
 msgstr "&إدخال ابتسامة..."
 
 #. Translators: the tooltip text for an item of addon submenu.
-#: addon/globalPlugins/emoticons/__init__.py:88
 msgid "Shows a dialog to insert a smiley"
 msgstr "عرض محاورة لإدخال ابتسامة"
 
 #. Translators: the name for an item of addon submenu.
-#: addon/globalPlugins/emoticons/__init__.py:92
 msgid "&Customize emoticons..."
 msgstr "&تخصيص رموز المشاعر..."
 
 #. Translators: the tooltip text for an item of addon submenu.
-#: addon/globalPlugins/emoticons/__init__.py:94
 msgid "Shows a dictionary dialog to customize emoticons"
 msgstr "عرض محاورة القاموس لتخصيص رموز المشاعر. "
 
 #. Translators: the name for an item of addon submenu.
-#: addon/globalPlugins/emoticons/__init__.py:98
 msgid "&Activation settings..."
 msgstr "&إعدادات التفعيل..."
 
 #. Translators: the tooltip text for an item of addon submenu.
-#: addon/globalPlugins/emoticons/__init__.py:100
 msgid "Shows a dialog to choose when emoticons speaking should be activated"
 msgstr "عرض محاورة لاختيار متى يتم تفعيل رمز مشاعر منطوق"
 
-#: addon/globalPlugins/emoticons/__init__.py:121
 msgid "Emoticons dictionary"
 msgstr "قاموس رموز المشاعر"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
-#: addon/globalPlugins/emoticons/__init__.py:132
 msgid "Emoticons off."
 msgstr "رموز المشاعر لا تعمل."
 
 #. Translators: message presented when the dictionary for emoticons is loaded.
-#: addon/globalPlugins/emoticons/__init__.py:136
 msgid "Emoticons on."
 msgstr "رموز المشاعر تعمل."
 
 #. Translators: Message presented in input help mode.
-#: addon/globalPlugins/emoticons/__init__.py:138
 msgid "Toggles on and off the announcement of emoticons."
 msgstr "للتحول بين تفعيل وتعطيل الإعلان عن رموز المشاعر. "
 
 #. Translators: Message presented in input help mode.
-#: addon/globalPlugins/emoticons/__init__.py:144
 msgid "Shows a dialog to select a smiley you want to paste."
 msgstr "عرض محاورة لتختار ابتسامة للصقها. "
 
 #. Translators: This is the label for the InsertEmoticon dialog.
-#: addon/globalPlugins/emoticons/__init__.py:154
 msgid "Insert emoticon"
 msgstr "إدخال رمز مشاعر"
 
 #. Translators: The label for a setting in Insert emoticons to select a smiley.
-#: addon/globalPlugins/emoticons/__init__.py:159
 msgid "Available emoticons"
 msgstr "رموز المشاعر المتاحة"
 
 #. Translators: A combo box to choose a smiley.
-#: addon/globalPlugins/emoticons/__init__.py:164
 msgid "Available smileys to insert:"
 msgstr "الابتسامات المتاحة لإدخالها:"
 
 #. Translators: This is the message when smiley has been copied to the clipboard.
-#: addon/globalPlugins/emoticons/__init__.py:177
 msgid "Smiley copied to clipboard, ready for you to paste."
 msgstr "تم نسخ الابتسامة إلى الحافظة وجاهزة للصقها. "
 
-#: addon/globalPlugins/emoticons/__init__.py:179
 msgid "Cannot copy smiley."
 msgstr "لا يمكن نسخ الابتسامة. "
 
 #. Translators: The label for the combo box of dictionary entries in speech dictionary dialog.
-#: addon/globalPlugins/emoticons/__init__.py:187
 msgid "&Dictionary entries"
 msgstr "مدخلات القاموس"
 
 #. Translators: The label for a column in dictionary entries list used to identify comments for the entry.
-#: addon/globalPlugins/emoticons/__init__.py:191
 msgid "Comment"
 msgstr "تعليق"
 
 #. Translators: The label for a column in dictionary entries list used to identify pattern (original word or a pattern).
-#: addon/globalPlugins/emoticons/__init__.py:193
 msgid "Pattern"
 msgstr "الكلمة الأصلية"
 
 #. Translators: The label for a column in dictionary entries list and in a list of symbols from symbol pronunciation dialog used to identify replacement for a pattern or a symbol
-#: addon/globalPlugins/emoticons/__init__.py:195
 msgid "Replacement"
 msgstr "الكلمة البديلة"
 
 #. Translators: The label for a column in dictionary entries list used to identify whether the entry is case sensitive or not.
-#: addon/globalPlugins/emoticons/__init__.py:197
 msgid "case"
 msgstr "حالة الأحرف"
 
 #. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression or not.
-#: addon/globalPlugins/emoticons/__init__.py:199
 msgid "Regexp"
 msgstr "تعبير قياسي"
 
 #. Translators: a choice of Activateemoticons dialog.
-#: addon/globalPlugins/emoticons/__init__.py:200
-#: addon/globalPlugins/emoticons/__init__.py:273
 msgid "off"
 msgstr "لا يعمل"
 
-#: addon/globalPlugins/emoticons/__init__.py:200
 msgid "on"
 msgstr "يعمل"
 
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
-#: addon/globalPlugins/emoticons/__init__.py:209
 msgid "&Add"
 msgstr "&إضافة"
 
 #. Translators: The label for a button in speech dictionaries dialog to edit existing entries.
-#: addon/globalPlugins/emoticons/__init__.py:213
 msgid "&Edit"
 msgstr "&تعديل"
 
-#: addon/globalPlugins/emoticons/__init__.py:216
 msgid "&Remove"
 msgstr "&إزالة"
 
-#: addon/globalPlugins/emoticons/__init__.py:219
 msgid "Rese&t"
 msgstr "استعاد&ة"
 
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
-#: addon/globalPlugins/emoticons/__init__.py:229
 msgid "Save and e&xport dictionary"
 msgstr "حفظ وت&صدير القاموس"
 
 #. Translators: this is the label for the Emoticons activate dialog.
-#: addon/globalPlugins/emoticons/__init__.py:263
 msgid "Activation settings"
 msgstr "محاورة إعدادات التفعيل"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
-#: addon/globalPlugins/emoticons/__init__.py:268
 msgid "&Activate speaking of emoticons at start:"
 msgstr "&تفعيل نطق رموز المشاعر عند البداية"
 
 #. Translators: a choice of Activateemoticons dialog.
-#: addon/globalPlugins/emoticons/__init__.py:275
 msgid "On"
 msgstr "يعمل"
 
 #. Translators: a combo box in Emoticons dialog.
-#: addon/globalPlugins/emoticons/__init__.py:277
 msgid "Activate at start"
 msgstr "التفعيل عند البداية"
 
 #. Translators: The label for a setting in Activate emoticons dialog to copy activation settings.
-#: addon/globalPlugins/emoticons/__init__.py:282
 msgid "&Copy activation settings"
 msgstr "&نسخ إعدادات التفعيل"
 
 #. Translators: :) Smile
-#: addon/globalPlugins/emoticons/smileysList.py:11
 msgid "smiling smiley"
 msgstr "ابتسامة"
 
 #. Translators: :( Sad
-#: addon/globalPlugins/emoticons/smileysList.py:13
 msgid "sad smiley"
 msgstr "وجه حزين"
 
 #. Translators: :D Laugh
-#: addon/globalPlugins/emoticons/smileysList.py:15
 msgid "Laughing smiley"
 msgstr "ابتسامة عريضة"
 
 #. Translators: :O Surprised
-#: addon/globalPlugins/emoticons/smileysList.py:17
 msgid "surprised smiley"
 msgstr "اندهاش"
 
 #. Translators: ;) Wink;
-#: addon/globalPlugins/emoticons/smileysList.py:19
 msgid "winking smiley"
 msgstr "غمزة"
 
 #. Translators: ;( Crying
-#: addon/globalPlugins/emoticons/smileysList.py:21
 msgid "crying smiley"
 msgstr "بكاء"
 
 #. Translators: (:| Sweating
-#: addon/globalPlugins/emoticons/smileysList.py:23
 msgid "sweating smiley"
 msgstr "عرقان"
 
 #. translators:  :|] Robot (a robot head)
-#: addon/globalPlugins/emoticons/smileysList.py:25
 msgid "Robot Smiley"
 msgstr "روبوت"
 
 #. Translators: :| Speechless
-#: addon/globalPlugins/emoticons/smileysList.py:27
 msgid "speechless smiley"
 msgstr "لا تعليق"
 
 #. Translators: :* Kiss
-#: addon/globalPlugins/emoticons/smileysList.py:29
 msgid "kiss smiley"
 msgstr "قبلة"
 
 #. Translators: :P Cheeky
-#: addon/globalPlugins/emoticons/smileysList.py:31
 msgid "cheeky smiley"
 msgstr "إغاظة"
 
 #. Translators: :$ Blushing
-#: addon/globalPlugins/emoticons/smileysList.py:33
 msgid "blushing smiley"
 msgstr "خجل"
 
 #. Translators: :^) Wondering
-#: addon/globalPlugins/emoticons/smileysList.py:35
 msgid "wondering smiley"
 msgstr "تعجب"
 
 #. Translators: |-) Sleepy
-#: addon/globalPlugins/emoticons/smileysList.py:37
 msgid "sleepy smiley"
 msgstr "نعاس"
 
 #. Translators: |-( Dull
-#: addon/globalPlugins/emoticons/smileysList.py:39
 msgid "dull smiley"
 msgstr "كسل"
 
 #. Translators: :x My lips are sealed
-#: addon/globalPlugins/emoticons/smileysList.py:41
 msgid "my lips are sealed smiley"
 msgstr "لن أخبر أحدا"
 
 #. Translators: \o/ Dancing
-#: addon/globalPlugins/emoticons/smileysList.py:43
 msgid "dancing smiley"
 msgstr "رقص"
 
 #. Translators: :'( crying a lot smiley
-#: addon/globalPlugins/emoticons/smileysList.py:45
 msgid "crying a lot smiley"
 msgstr "أجهش بالبكاء"
 
 #. Translators: >:( Angry
 #. Translators: (angry) Angry
-#: addon/globalPlugins/emoticons/smileysList.py:47
-#: addon/globalPlugins/emoticons/smileysList.py:93
 msgid "angry smiley"
 msgstr "غضب"
 
 #. Translators: :/ Worried
 #. Translators: (worry) Worried
-#: addon/globalPlugins/emoticons/smileysList.py:49
-#: addon/globalPlugins/emoticons/smileysList.py:67
 msgid "worried smiley"
 msgstr "قلق"
 
 #. Translators: <3 Heart
 #. Translators: (heart) Heart
-#: addon/globalPlugins/emoticons/smileysList.py:51
-#: addon/globalPlugins/emoticons/smileysList.py:151
 msgid "heart smiley"
 msgstr "قلب"
 
 #. Translators:  O:)  O:-) Angel
-#: addon/globalPlugins/emoticons/smileysList.py:53
 msgid "Angel Smiley"
 msgstr "ملاك"
 
 #. Translators:  O.o  o.O  Confused
-#: addon/globalPlugins/emoticons/smileysList.py:55
 msgid "Confused Smiley"
 msgstr "حائر"
 
 #. Translators:   3:-) Devil
-#: addon/globalPlugins/emoticons/smileysList.py:57
 msgid "Devil Smiley"
 msgstr "شرير"
 
 #. Translators:  ^_^ Keke (This smiley is inspired by the Asian style, which is a happy face.)
-#: addon/globalPlugins/emoticons/smileysList.py:59
 msgid "Keke Smiley"
 msgstr "ابتسامة آسيوية"
 
 #. Translators: -_- Bored (This smiley face has its eyes closed and is sporting a very small grin.)
-#: addon/globalPlugins/emoticons/smileysList.py:61
 msgid "Bored smiley"
 msgstr "ملل"
 
 #. Translators:  >:O  Upset, angry or shouting...
-#: addon/globalPlugins/emoticons/smileysList.py:63
 msgid "Angry Smiley"
 msgstr "غضب"
 
 #. Translators:  :3  Cat (Cat faced smiley with curly lips)
-#: addon/globalPlugins/emoticons/smileysList.py:65
 msgid "Cat Smiley"
 msgstr "قطة"
 
 #. Translators:  (cash) Cash
-#: addon/globalPlugins/emoticons/smileysList.py:69
 msgid "cash smiley"
 msgstr "أموال"
 
 #. Translators: (flex) Muscle
-#: addon/globalPlugins/emoticons/smileysList.py:71
 msgid "muscle smiley"
 msgstr "عضلات"
 
 #. Translators: (beer) Beer
-#: addon/globalPlugins/emoticons/smileysList.py:73
 msgid "beer smiley"
 msgstr "مشروب"
 
 #. Translators: (d) Drink
-#: addon/globalPlugins/emoticons/smileysList.py:75
 msgid "drink smiley"
 msgstr "شراب"
 
 #. Translators: (ninja) Ninja
-#: addon/globalPlugins/emoticons/smileysList.py:77
 msgid "ninja smiley"
 msgstr "النينجا"
 
 #. Translators: (cool) Cool
-#: addon/globalPlugins/emoticons/smileysList.py:79
 msgid "cool smiley"
 msgstr "ابتسامة مثيرة"
 
 #. Translators: (inlove) In Love
-#: addon/globalPlugins/emoticons/smileysList.py:81
 msgid "in love smiley"
 msgstr "هائم في الحب"
 
 #. Translators: (yn) Fingers crossed
-#: addon/globalPlugins/emoticons/smileysList.py:83
 msgid "fingers crossed smiley"
 msgstr "تفاؤل بالخير"
 
 #. Translators: (yawn) Yawn
-#: addon/globalPlugins/emoticons/smileysList.py:85
-#: addon/globalPlugins/emoticons/smileysList.py:87
 msgid "yawning smiley"
 msgstr "تثاؤب"
 
 #. Translators: (puke) Puking
-#: addon/globalPlugins/emoticons/smileysList.py:89
 msgid "puking smiley"
 msgstr "يتقيأ"
 
 #. Translators: (doh) Doh!
-#: addon/globalPlugins/emoticons/smileysList.py:91
 msgid "doh! smiley"
 msgstr "ضيق"
 
 #. Translators: (wasntme) It wasn't me!
-#: addon/globalPlugins/emoticons/smileysList.py:95
 msgid "it wasn't me! smiley"
 msgstr "لست أنا"
 
 #. Translators: (party) Party
-#: addon/globalPlugins/emoticons/smileysList.py:97
 msgid "party smiley"
 msgstr "حفلة"
 
 #. Translators: (mm) Mmmm...
-#: addon/globalPlugins/emoticons/smileysList.py:99
 msgid "mmmmmm... smiley"
 msgstr "لذيذ"
 
 #. Translators: (nerd) Nerdy
-#: addon/globalPlugins/emoticons/smileysList.py:101
 msgid "nerdy smiley"
 msgstr "عبقري"
 
 #. Translators: (wave) Hi
-#: addon/globalPlugins/emoticons/smileysList.py:103
 msgid "hi smiley"
 msgstr "مرحبا"
 
 #. Translators: (facepalm) Facepalm
-#: addon/globalPlugins/emoticons/smileysList.py:105
 msgid "facepalm smiley"
 msgstr "حزن"
 
 #. Translators: (devil) Devil
-#: addon/globalPlugins/emoticons/smileysList.py:107
 msgid "devil smiley"
 msgstr "شرير"
 
 #. Translators: (angel) Angel
-#: addon/globalPlugins/emoticons/smileysList.py:109
 msgid "angel smiley"
 msgstr "ملاك"
 
 #. Translators: (envy) Envy
-#: addon/globalPlugins/emoticons/smileysList.py:111
 msgid "envy smiley"
 msgstr "حسد"
 
 #. Translators: (wait) Wait
-#: addon/globalPlugins/emoticons/smileysList.py:113
 msgid "wait smiley"
 msgstr "انتظر"
 
 #. Translators: (hug) Hug
-#: addon/globalPlugins/emoticons/smileysList.py:115
 msgid "hug smiley"
 msgstr "عناق"
 
 #. Translators: (makeup) Make-up
-#: addon/globalPlugins/emoticons/smileysList.py:117
 msgid "make-up smiley"
 msgstr "تجميل"
 
 #. Translators: (chuckle) Giggle
-#: addon/globalPlugins/emoticons/smileysList.py:119
 msgid "giggle smiley"
 msgstr "قهقهة"
 
 #. Translators: (clap) Clapping
-#: addon/globalPlugins/emoticons/smileysList.py:121
 msgid "clapping smiley"
 msgstr "تصفيق"
 
 #. Translators: (think) Thinking
-#: addon/globalPlugins/emoticons/smileysList.py:123
 msgid "thinking smiley"
 msgstr "تفكير"
 
 #. Translators: (bow) Bowing
-#: addon/globalPlugins/emoticons/smileysList.py:125
 msgid "bowing smiley"
 msgstr "إنحناءة"
 
 #. Translators: (rofl) Rolling on the floor laughing
-#: addon/globalPlugins/emoticons/smileysList.py:127
 msgid "rolling on the floor laughing! smiley"
 msgstr "تدحرج على الأرض ضاحكا"
 
 #. Translators: (whew) Relieved
-#: addon/globalPlugins/emoticons/smileysList.py:129
 msgid "relieved smiley"
 msgstr "ارتياح"
 
 #. Translators: (happy) Happy
-#: addon/globalPlugins/emoticons/smileysList.py:131
 msgid "happy smiley"
 msgstr "سعيد"
 
 #. Translators: (smirk) Smirking
-#: addon/globalPlugins/emoticons/smileysList.py:133
 msgid "smirking smiley"
 msgstr "ابتسامة مصطنعة"
 
 #. Translators: (nod) Nodding
-#: addon/globalPlugins/emoticons/smileysList.py:135
 msgid "nodding smiley"
 msgstr "إيماءة"
 
 #. Translators: (shake) Shake
-#: addon/globalPlugins/emoticons/smileysList.py:137
 msgid "shakeing smiley"
 msgstr "مصافحة"
 
 #. Translators: (waiting) Waiting
-#: addon/globalPlugins/emoticons/smileysList.py:139
 msgid "waiting smiley"
 msgstr "بالانتظار"
 
 #. Translators: (emo) Emo;
-#: addon/globalPlugins/emoticons/smileysList.py:141
 msgid "Emo smiley"
 msgstr "رمز"
 
 #. Translators: (y) Yes
-#: addon/globalPlugins/emoticons/smileysList.py:143
 msgid "yes smiley"
 msgstr "نعم"
 
 #. Translators: (n) no;
-#: addon/globalPlugins/emoticons/smileysList.py:145
 msgid "no smiley"
 msgstr "لا"
 
 #. Translators: (handshake) Handshake
-#: addon/globalPlugins/emoticons/smileysList.py:147
 msgid "handshake smiley"
 msgstr "مصافحة بااليد"
 
 #. Translators: (highfive) High five
-#: addon/globalPlugins/emoticons/smileysList.py:149
 msgid "high five smiley"
 msgstr "ضرب الأكف للاحتفال"
 
 #. Translators: (lalala) Lalala;
-#: addon/globalPlugins/emoticons/smileysList.py:153
 msgid "lalala smiley"
 msgstr "سعادة"
 
 #. Translators: (heidy) Heidy;
-#: addon/globalPlugins/emoticons/smileysList.py:155
 msgid "heidy smiley"
 msgstr "شخص يعمل في Skype"
 
 #. Translators: (F) Flower
-#: addon/globalPlugins/emoticons/smileysList.py:157
 msgid "flower smiley"
 msgstr "وردة"
 
 #. Translators: (rain) Raining
-#: addon/globalPlugins/emoticons/smileysList.py:159
 msgid "raining smiley"
 msgstr "تمطر"
 
 #. Translators: (sun) Sun
-#: addon/globalPlugins/emoticons/smileysList.py:161
 msgid "sunny smiley"
 msgstr "مشمس"
 
 #. Translators: (tumbleweed) Tumbleweed
-#: addon/globalPlugins/emoticons/smileysList.py:163
 msgid "tumbleweed smiley"
 msgstr "اختفاء"
 
 #. Translators: (music) Music
-#: addon/globalPlugins/emoticons/smileysList.py:165
 msgid "music smiley"
 msgstr "موسيقى"
 
 #. Translators: (bandit) Bandit
-#: addon/globalPlugins/emoticons/smileysList.py:167
 msgid "bandit smiley"
 msgstr "قاطع الطريق"
 
 #. Translators: (tmi) Too much information
-#: addon/globalPlugins/emoticons/smileysList.py:169
 msgid "too much information smiley"
 msgstr "معلومات كثيرة جدا"
 
 #. Translators: (coffee) Coffee
-#: addon/globalPlugins/emoticons/smileysList.py:171
 msgid "coffee smiley"
 msgstr "قهوة"
 
 #. Translators: (pi) Pizza
-#: addon/globalPlugins/emoticons/smileysList.py:173
 msgid "pizza smiley"
 msgstr "البيتزا"
 
 #. Translators: (^) Cake
-#: addon/globalPlugins/emoticons/smileysList.py:175
 msgid "cake smiley"
 msgstr "كعك"
 
 #. Translators: (*) Star
-#: addon/globalPlugins/emoticons/smileysList.py:177
 msgid "star smiley"
 msgstr "نجم"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-#: buildVars.py:17
 msgid "Emoticons"
 msgstr "رموز المشاعر"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#: buildVars.py:20
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "representation.\n"
