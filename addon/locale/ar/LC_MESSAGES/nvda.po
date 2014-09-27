@@ -5,514 +5,509 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: emoticons 1.0-dev\n"
+"Project-Id-Version: emoticons 1.1-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2013-11-16 18:37+0100\n"
-"PO-Revision-Date: 2014-04-18 09:40+0200\n"
-"Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
+"POT-Creation-Date: 2014-04-11 05:05+0100\n"
+"PO-Revision-Date: 2014-04-27 11:42+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: fi\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.4\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
 "You have installed the Emoticons add-on, probably an old and incompatible "
 "version with this one. Do you want to uninstall the old version?"
-msgstr ""
-"Sinulla on asennettuna luultavasti vanha Hymiöt-lisäosan versio, joka ei ole "
-"yhteensopiva tämän version kanssa. Haluatko poistaa vanhan version?"
+msgstr "لقد قمت بتنزيل إضافة رموز المشاعر "
 
 #. Translators: the title of a message box dialog.
 msgid "Uninstall incompatible add-on"
-msgstr "Poista yhteensopimaton lisäosa"
+msgstr "إزالة الإضافة غير المتوافقة"
 
 #. Translators: the label of a message box dialog.
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them?"
-msgstr ""
-"Sinulla näyttää olevan tämän lisäosan aiempia asetuksia. Haluatko tuoda ne?"
+msgstr "يبدو أن لديك إعدادات محفوظة مسبقا لهذه الإضافة، فهل تود استيرادها؟ "
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
-msgstr "Tuo Hymiöt-lisäosan asetukset"
+msgstr "استيراد إعدادات إضافة رموز المشاعر"
 
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 #, python-format
 msgid "Emoticon: %s"
-msgstr "Hymiö: %s"
+msgstr "رمز المشاعر: %s"
 
 #. Translators: the name of addon submenu.
 msgid "Manage emoticons"
-msgstr "Hymiöiden hallinta"
+msgstr "إدارة رموز المشاعر"
 
 #. Translators: the tooltip text for addon submenu.
 msgid "Emoticons menu"
-msgstr "Hymiöt-valikko"
+msgstr "قائمة رموز المشاعر"
 
 #. Translators: the name for an item of addon submenu.
 msgid "&Insert smiley..."
-msgstr "&Lisää hymiö..."
+msgstr "&إدخال ابتسامة..."
 
 #. Translators: the tooltip text for an item of addon submenu.
 msgid "Shows a dialog to insert a smiley"
-msgstr "Näyttää valintaikkunan hymiön lisäämiseksi"
+msgstr "عرض محاورة لإدخال ابتسامة"
 
 #. Translators: the name for an item of addon submenu.
 msgid "&Customize emoticons..."
-msgstr "&Mukauta hymiöitä..."
+msgstr "&تخصيص رموز المشاعر..."
 
 #. Translators: the tooltip text for an item of addon submenu.
 msgid "Shows a dictionary dialog to customize emoticons"
-msgstr "Näyttää sanastovalintaikkunan hymiöiden mukauttamiseksi"
+msgstr "عرض محاورة القاموس لتخصيص رموز المشاعر. "
 
 #. Translators: the name for an item of addon submenu.
 msgid "&Activation settings..."
-msgstr "&Käyttöönoton asetukset..."
+msgstr "&إعدادات التفعيل..."
 
 #. Translators: the tooltip text for an item of addon submenu.
 msgid "Shows a dialog to choose when emoticons speaking should be activated"
-msgstr ""
-"Näyttää valintaikkunan, josta voidaan valita, koska hymiöiden puhumisen "
-"tulisi olla käytössä"
+msgstr "عرض محاورة لاختيار متى يتم تفعيل رمز مشاعر منطوق"
 
 msgid "Emoticons dictionary"
-msgstr "Hymiösanasto"
+msgstr "قاموس رموز المشاعر"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
-msgstr "Hymiöt pois."
+msgstr "رموز المشاعر لا تعمل."
 
 #. Translators: message presented when the dictionary for emoticons is loaded.
 msgid "Emoticons on."
-msgstr "Hymiöt käytössä."
+msgstr "رموز المشاعر تعمل."
 
 #. Translators: Message presented in input help mode.
 msgid "Toggles on and off the announcement of emoticons."
-msgstr "Ottaa käyttöön hymiöiden puhumisen tai poistaa sen käytöstä."
+msgstr "للتحول بين تفعيل وتعطيل الإعلان عن رموز المشاعر. "
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
-msgstr "Näyttää valintaikkunan, josta voit valita liitettävän hymiön."
+msgstr "عرض محاورة لتختار ابتسامة للصقها. "
 
 #. Translators: This is the label for the InsertEmoticon dialog.
 msgid "Insert emoticon"
-msgstr "Lisää hymiö"
+msgstr "إدخال رمز مشاعر"
 
 #. Translators: The label for a setting in Insert emoticons to select a smiley.
 msgid "Available emoticons"
-msgstr "Käytettävissä olevat hymiöt"
+msgstr "رموز المشاعر المتاحة"
 
 #. Translators: A combo box to choose a smiley.
 msgid "Available smileys to insert:"
-msgstr "Lisättävät hymiöt:"
+msgstr "الابتسامات المتاحة لإدخالها:"
 
 #. Translators: This is the message when smiley has been copied to the clipboard.
 msgid "Smiley copied to clipboard, ready for you to paste."
-msgstr "Hymiö kopioitu leikepöydälle."
+msgstr "تم نسخ الابتسامة إلى الحافظة وجاهزة للصقها. "
 
 msgid "Cannot copy smiley."
-msgstr "Hymiötä' ei voi kopioida."
+msgstr "لا يمكن نسخ الابتسامة. "
 
 #. Translators: The label for the combo box of dictionary entries in speech dictionary dialog.
 msgid "&Dictionary entries"
-msgstr "&Sanastomerkinnät"
+msgstr "مدخلات القاموس"
 
 #. Translators: The label for a column in dictionary entries list used to identify comments for the entry.
 msgid "Comment"
-msgstr "Kommentti"
+msgstr "تعليق"
 
 #. Translators: The label for a column in dictionary entries list used to identify pattern (original word or a pattern).
 msgid "Pattern"
-msgstr "Korvattava"
+msgstr "الكلمة الأصلية"
 
 #. Translators: The label for a column in dictionary entries list and in a list of symbols from symbol pronunciation dialog used to identify replacement for a pattern or a symbol
 msgid "Replacement"
-msgstr "Korvaava"
+msgstr "الكلمة البديلة"
 
 #. Translators: The label for a column in dictionary entries list used to identify whether the entry is case sensitive or not.
 msgid "case"
-msgstr "kirjainkoko"
+msgstr "حالة الأحرف"
 
 #. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression or not.
 msgid "Regexp"
-msgstr "Säänla"
+msgstr "تعبير قياسي"
 
 #. Translators: a choice of Activateemoticons dialog.
 msgid "off"
-msgstr "pois"
+msgstr "لا يعمل"
 
 msgid "on"
-msgstr "käytössä"
+msgstr "يعمل"
 
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
 msgid "&Add"
-msgstr "&Lisää"
+msgstr "&إضافة"
 
 #. Translators: The label for a button in speech dictionaries dialog to edit existing entries.
 msgid "&Edit"
-msgstr "&Muokkaa"
+msgstr "&تعديل"
 
 msgid "&Remove"
-msgstr "&Poista"
+msgstr "&إزالة"
 
 msgid "Rese&t"
-msgstr "P&alauta oletusarvot"
+msgstr "استعاد&ة"
 
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
 msgid "Save and e&xport dictionary"
-msgstr "Tallenna ja v&ie sanasto"
+msgstr "حفظ وت&صدير القاموس"
 
 #. Translators: this is the label for the Emoticons activate dialog.
 msgid "Activation settings"
-msgstr "Käyttöönoton asetukset"
+msgstr "محاورة إعدادات التفعيل"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 msgid "&Activate speaking of emoticons at start:"
-msgstr "&Ota hymiöiden puhuminen käyttöön käynnistettäessä:"
+msgstr "&تفعيل نطق رموز المشاعر عند البداية"
 
 #. Translators: a choice of Activateemoticons dialog.
 msgid "On"
-msgstr "Käytössä"
+msgstr "يعمل"
 
 #. Translators: a combo box in Emoticons dialog.
 msgid "Activate at start"
-msgstr "Ota käyttöön käynnistettäessä"
+msgstr "التفعيل عند البداية"
 
 #. Translators: The label for a setting in Activate emoticons dialog to copy activation settings.
 msgid "&Copy activation settings"
-msgstr "&Kopioi käyttöönoton asetukset"
+msgstr "&نسخ إعدادات التفعيل"
 
 #. Translators: :) Smile
 msgid "smiling smiley"
-msgstr "hymyilee"
+msgstr "ابتسامة"
 
 #. Translators: :( Sad
 msgid "sad smiley"
-msgstr "surullinen"
+msgstr "وجه حزين"
 
 #. Translators: :D Laugh
 msgid "Laughing smiley"
-msgstr "nauraa"
+msgstr "ابتسامة عريضة"
 
 #. Translators: :O Surprised
 msgid "surprised smiley"
-msgstr "yllättynyt"
+msgstr "اندهاش"
 
 #. Translators: ;) Wink;
 msgid "winking smiley"
-msgstr "iskee silmää"
+msgstr "غمزة"
 
 #. Translators: ;( Crying
 msgid "crying smiley"
-msgstr "itkee"
+msgstr "بكاء"
 
 #. Translators: (:| Sweating
 msgid "sweating smiley"
-msgstr "hikoilee"
+msgstr "عرقان"
 
 #. translators:  :|] Robot (a robot head)
 msgid "Robot Smiley"
-msgstr "robotti"
+msgstr "روبوت"
 
 #. Translators: :| Speechless
 msgid "speechless smiley"
-msgstr "sanaton"
+msgstr "لا تعليق"
 
 #. Translators: :* Kiss
 msgid "kiss smiley"
-msgstr "pusu"
+msgstr "قبلة"
 
 #. Translators: :P Cheeky
 msgid "cheeky smiley"
-msgstr "näyttää kieltä"
+msgstr "إغاظة"
 
 #. Translators: :$ Blushing
 msgid "blushing smiley"
-msgstr "punastuu"
+msgstr "خجل"
 
 #. Translators: :^) Wondering
 msgid "wondering smiley"
-msgstr "ihmettelee"
+msgstr "تعجب"
 
 #. Translators: |-) Sleepy
 msgid "sleepy smiley"
-msgstr "uninen"
+msgstr "نعاس"
 
 #. Translators: |-( Dull
 msgid "dull smiley"
-msgstr "vaisu"
+msgstr "كسل"
 
 #. Translators: :x My lips are sealed
 msgid "my lips are sealed smiley"
-msgstr "huuleni ovat sinetöidyt"
+msgstr "لن أخبر أحدا"
 
 #. Translators: \o/ Dancing
 msgid "dancing smiley"
-msgstr "tanssii"
+msgstr "رقص"
 
 #. Translators: :'( crying a lot smiley
 msgid "crying a lot smiley"
-msgstr "itkee lohduttomasti"
+msgstr "أجهش بالبكاء"
 
 #. Translators: >:( Angry
 #. Translators: (angry) Angry
 msgid "angry smiley"
-msgstr "vihainen"
+msgstr "غضب"
 
 #. Translators: :/ Worried
 #. Translators: (worry) Worried
 msgid "worried smiley"
-msgstr "huolestunut"
+msgstr "قلق"
 
 #. Translators: <3 Heart
 #. Translators: (heart) Heart
 msgid "heart smiley"
-msgstr "sydän"
+msgstr "قلب"
 
 #. Translators:  O:)  O:-) Angel
 msgid "Angel Smiley"
-msgstr "enkeli"
+msgstr "ملاك"
 
 #. Translators:  O.o  o.O  Confused
 msgid "Confused Smiley"
-msgstr "hämmentynyt"
+msgstr "حائر"
 
 #. Translators:   3:-) Devil
 msgid "Devil Smiley"
-msgstr "pirullinen"
+msgstr "شرير"
 
 #. Translators:  ^_^ Keke (This smiley is inspired by the Asian style, which is a happy face.)
 msgid "Keke Smiley"
-msgstr "iloinen"
+msgstr "ابتسامة آسيوية"
 
 #. Translators: -_- Bored (This smiley face has its eyes closed and is sporting a very small grin.)
 msgid "Bored smiley"
-msgstr "tympääntynyt"
+msgstr "ملل"
 
 #. Translators:  >:O  Upset, angry or shouting...
 msgid "Angry Smiley"
-msgstr "huutaa"
+msgstr "غضب"
 
 #. Translators:  :3  Cat (Cat faced smiley with curly lips)
 msgid "Cat Smiley"
-msgstr "kissa"
+msgstr "قطة"
 
 #. Translators:  (cash) Cash
 msgid "cash smiley"
-msgstr "käteinen"
+msgstr "أموال"
 
 #. Translators: (flex) Muscle
 msgid "muscle smiley"
-msgstr "muskeli"
+msgstr "عضلات"
 
 #. Translators: (beer) Beer
 msgid "beer smiley"
-msgstr "tuoppi"
+msgstr "مشروب"
 
 #. Translators: (d) Drink
 msgid "drink smiley"
-msgstr "drinkki"
+msgstr "شراب"
 
 #. Translators: (ninja) Ninja
 msgid "ninja smiley"
-msgstr "ninja"
+msgstr "النينجا"
 
 #. Translators: (cool) Cool
 msgid "cool smiley"
-msgstr "siistiä"
+msgstr "ابتسامة مثيرة"
 
 #. Translators: (inlove) In Love
 msgid "in love smiley"
-msgstr "rakastunut"
+msgstr "هائم في الحب"
 
 #. Translators: (yn) Fingers crossed
 msgid "fingers crossed smiley"
-msgstr "sormet ristissä"
+msgstr "تفاؤل بالخير"
 
 #. Translators: (yawn) Yawn
 msgid "yawning smiley"
-msgstr "haukottelee"
+msgstr "تثاؤب"
 
 #. Translators: (puke) Puking
 msgid "puking smiley"
-msgstr "oksentaa"
+msgstr "يتقيأ"
 
 #. Translators: (doh) Doh!
 msgid "doh! smiley"
-msgstr "No niin!"
+msgstr "ضيق"
 
 #. Translators: (wasntme) It wasn't me!
 msgid "it wasn't me! smiley"
-msgstr "En se minä ollut!"
+msgstr "لست أنا"
 
 #. Translators: (party) Party
 msgid "party smiley"
-msgstr "juhlii"
+msgstr "حفلة"
 
 #. Translators: (mm) Mmmm...
 msgid "mmmmmm... smiley"
-msgstr "mmmm..."
+msgstr "لذيذ"
 
 #. Translators: (nerd) Nerdy
 msgid "nerdy smiley"
-msgstr "nörtti"
+msgstr "عبقري"
 
 #. Translators: (wave) Hi
 msgid "hi smiley"
-msgstr "hei"
+msgstr "مرحبا"
 
 #. Translators: (facepalm) Facepalm
 msgid "facepalm smiley"
-msgstr "epätoivoinen"
+msgstr "حزن"
 
 #. Translators: (devil) Devil
 msgid "devil smiley"
-msgstr "pirullinen"
+msgstr "شرير"
 
 #. Translators: (angel) Angel
 msgid "angel smiley"
-msgstr "enkeli"
+msgstr "ملاك"
 
 #. Translators: (envy) Envy
 msgid "envy smiley"
-msgstr "kateellinen"
+msgstr "حسد"
 
 #. Translators: (wait) Wait
 msgid "wait smiley"
-msgstr "odota"
+msgstr "انتظر"
 
 #. Translators: (hug) Hug
 msgid "hug smiley"
-msgstr "halaus"
+msgstr "عناق"
 
 #. Translators: (makeup) Make-up
 msgid "make-up smiley"
-msgstr "meikki"
+msgstr "تجميل"
 
 #. Translators: (chuckle) Giggle
 msgid "giggle smiley"
-msgstr "hihittää"
+msgstr "قهقهة"
 
 #. Translators: (clap) Clapping
 msgid "clapping smiley"
-msgstr "taputtaa"
+msgstr "تصفيق"
 
 #. Translators: (think) Thinking
 msgid "thinking smiley"
-msgstr "ajattelee"
+msgstr "تفكير"
 
 #. Translators: (bow) Bowing
 msgid "bowing smiley"
-msgstr "kumartaa"
+msgstr "إنحناءة"
 
 #. Translators: (rofl) Rolling on the floor laughing
 msgid "rolling on the floor laughing! smiley"
-msgstr "nauraa kippurassa"
+msgstr "تدحرج على الأرض ضاحكا"
 
 #. Translators: (whew) Relieved
 msgid "relieved smiley"
-msgstr "helpottunut"
+msgstr "ارتياح"
 
 #. Translators: (happy) Happy
 msgid "happy smiley"
-msgstr "onnellinen"
+msgstr "سعيد"
 
 #. Translators: (smirk) Smirking
 msgid "smirking smiley"
-msgstr "virnistys"
+msgstr "ابتسامة مصطنعة"
 
 #. Translators: (nod) Nodding
 msgid "nodding smiley"
-msgstr "nyökkäys"
+msgstr "إيماءة"
 
 #. Translators: (shake) Shake
 msgid "shakeing smiley"
-msgstr "pudistaa päätään"
+msgstr "مصافحة"
 
 #. Translators: (waiting) Waiting
 msgid "waiting smiley"
-msgstr "odottaa"
+msgstr "بالانتظار"
 
 #. Translators: (emo) Emo;
 msgid "Emo smiley"
-msgstr "emo"
+msgstr "رمز"
 
 #. Translators: (y) Yes
 msgid "yes smiley"
-msgstr "kyllä"
+msgstr "نعم"
 
 #. Translators: (n) no;
 msgid "no smiley"
-msgstr "ei"
+msgstr "لا"
 
 #. Translators: (handshake) Handshake
 msgid "handshake smiley"
-msgstr "kädenpuristus"
+msgstr "مصافحة بااليد"
 
 #. Translators: (highfive) High five
 msgid "high five smiley"
-msgstr "ylävitonen"
+msgstr "ضرب الأكف للاحتفال"
 
 #. Translators: (lalala) Lalala;
 msgid "lalala smiley"
-msgstr "laulaa"
+msgstr "سعادة"
 
 #. Translators: (heidy) Heidy;
 msgid "heidy smiley"
-msgstr "orava"
+msgstr "شخص يعمل في Skype"
 
 #. Translators: (F) Flower
 msgid "flower smiley"
-msgstr "kukka"
+msgstr "وردة"
 
 #. Translators: (rain) Raining
 msgid "raining smiley"
-msgstr "sataa"
+msgstr "تمطر"
 
 #. Translators: (sun) Sun
 msgid "sunny smiley"
-msgstr "aurinko paistaa"
+msgstr "مشمس"
 
 #. Translators: (tumbleweed) Tumbleweed
 msgid "tumbleweed smiley"
-msgstr "tyyntä ennen myrskyä"
+msgstr "اختفاء"
 
 #. Translators: (music) Music
 msgid "music smiley"
-msgstr "musiikki"
+msgstr "موسيقى"
 
 #. Translators: (bandit) Bandit
 msgid "bandit smiley"
-msgstr "rosvo"
+msgstr "قاطع الطريق"
 
 #. Translators: (tmi) Too much information
 msgid "too much information smiley"
-msgstr "liikaa tietoa"
+msgstr "معلومات كثيرة جدا"
 
 #. Translators: (coffee) Coffee
 msgid "coffee smiley"
-msgstr "kahvia"
+msgstr "قهوة"
 
 #. Translators: (pi) Pizza
 msgid "pizza smiley"
-msgstr "pizza"
+msgstr "البيتزا"
 
 #. Translators: (^) Cake
 msgid "cake smiley"
-msgstr "kakku"
+msgstr "كعك"
 
 #. Translators: (*) Star
 msgid "star smiley"
-msgstr "tähti"
+msgstr "نجم"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Emoticons"
-msgstr "Hymiöt"
+msgstr "رموز المشاعر"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -521,5 +516,5 @@ msgid ""
 "representation.\n"
 "Press NVDA+E to toggle."
 msgstr ""
-"Ottaa käyttöön hymiöiden nimien puhumisen niiden merkkien sijasta.\n"
-"Vaihda asetusta painamalla NVDA+E."
+"تفعيل الإعلان عن أسماء رموز المشاعر بدلا من الحروف التي تمثلها.\n"
+"اضغط NVDA+E للتحويل. "

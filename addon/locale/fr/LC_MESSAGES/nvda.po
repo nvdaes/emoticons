@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Emoticons-1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 18:37+0100\n"
-"PO-Revision-Date: 2013-11-29 17:19+0100\n"
+"PO-Revision-Date: 2014-04-19 14:52+0100\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language: fr_FR\n"
@@ -12,6 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
 "X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.6.4\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #. Translators: the label of a message box dialog.
@@ -19,9 +20,9 @@ msgid ""
 "You have installed the Emoticons add-on, probably an old and incompatible "
 "version with this one. Do you want to uninstall the old version?"
 msgstr ""
-"Vous avez installé probablement une version ancienne du module "
-"complémentaire Emoticons, et il est incompatible avec celui-ci. Vous voulez "
-"désinstaller l'ancienne version?"
+"Vous avez probablement installé une version ancienne du module "
+"complémentaire Emoticons, et elle est incompatible avec la présente. Voulez-"
+"vous désinstaller l'ancienne version ?"
 
 #. Translators: the title of a message box dialog.
 msgid "Uninstall incompatible add-on"
@@ -32,8 +33,8 @@ msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them?"
 msgstr ""
-"Vous semblez avoir des paramètres précédents enregistrés pour ce module "
-"complémentaire. Vous voulez les importer?"
+"Vous semblez avoir des paramètres antérieurs enregistrés pour ce module "
+"complémentaire. Voulez-vous les importer ?"
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
@@ -42,7 +43,7 @@ msgstr "Importer les paramètres du module complémantaire Emoticons"
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 #, python-format
 msgid "Emoticon: %s"
-msgstr "Frimousse: %s"
+msgstr "Frimousse : %s"
 
 #. Translators: the name of addon submenu.
 msgid "Manage emoticons"
@@ -58,7 +59,7 @@ msgstr "&Insérer une frimousse..."
 
 #. Translators: the tooltip text for an item of addon submenu.
 msgid "Shows a dialog to insert a smiley"
-msgstr "Affiche une boîte de dialogue pour insérer une frimousse"
+msgstr "Affiche un dialogue pour insérer une frimousse"
 
 #. Translators: the name for an item of addon submenu.
 msgid "&Customize emoticons..."
@@ -66,9 +67,7 @@ msgstr "&Personnaliser les frimousses..."
 
 #. Translators: the tooltip text for an item of addon submenu.
 msgid "Shows a dictionary dialog to customize emoticons"
-msgstr ""
-"Affiche la boîte de dialogue du dictionnaire pour personnaliser les "
-"frimousses"
+msgstr "Affiche un dialogue du dictionnaire de personnalisation des frimousses"
 
 #. Translators: the name for an item of addon submenu.
 msgid "&Activation settings..."
@@ -77,29 +76,29 @@ msgstr "&Paramètres d'activation..."
 #. Translators: the tooltip text for an item of addon submenu.
 msgid "Shows a dialog to choose when emoticons speaking should be activated"
 msgstr ""
-"Affiche une boîte de dialogue pour choisir lorsque la verbalisation des "
-"frimousses doivent être activées"
+"Affiche un dialogue pour choisir le moment où l'annonce des frimousses doit "
+"être activée"
 
 msgid "Emoticons dictionary"
 msgstr "Dictionnaire des frimousses"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
-msgstr "Frimousses désactivé."
+msgstr "Frimousses désactivées."
 
 #. Translators: message presented when the dictionary for emoticons is loaded.
 msgid "Emoticons on."
-msgstr "Frimousses activé."
+msgstr "Frimousses activées."
 
 #. Translators: Message presented in input help mode.
 msgid "Toggles on and off the announcement of emoticons."
-msgstr "Basculer entre activer et désactiver l'annonce des frimousses."
+msgstr "Active ou désactive l'annonce des frimousses."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
 msgstr ""
-"Affiche une boîte de dialogue pour sélectionner une frimousse que vous "
-"souhaitez coller."
+"Affiche un dialogue pour sélectionner une frimousse que vous souhaitez "
+"coller."
 
 #. Translators: This is the label for the InsertEmoticon dialog.
 msgid "Insert emoticon"
@@ -111,11 +110,12 @@ msgstr "Frimousses disponibles"
 
 #. Translators: A combo box to choose a smiley.
 msgid "Available smileys to insert:"
-msgstr "Frimousses disponibles à insérer:"
+msgstr "Frimousses disponibles à insérer :"
 
 #. Translators: This is the message when smiley has been copied to the clipboard.
 msgid "Smiley copied to clipboard, ready for you to paste."
-msgstr "Frimousse copiée dans le presse-papiers, prêt pour que vous le collez."
+msgstr ""
+"Frimousse copiée dans le presse-papiers, prête pour que vous la colliez."
 
 msgid "Cannot copy smiley."
 msgstr "Impossible de copier la frimousse."
@@ -163,7 +163,7 @@ msgid "&Remove"
 msgstr "&Supprimer"
 
 msgid "Rese&t"
-msgstr "Restauratio&n"
+msgstr "Réi&nitialiser"
 
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
 msgid "Save and e&xport dictionary"
@@ -175,7 +175,7 @@ msgstr "Paramètres d'activation"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 msgid "&Activate speaking of emoticons at start:"
-msgstr "&Activer la verbalisation des frimousses au démarrage:"
+msgstr "&Activer l'annonce des frimousses au démarrage :"
 
 #. Translators: a choice of Activateemoticons dialog.
 msgid "On"
@@ -191,15 +191,15 @@ msgstr "&Copier les paramètres d'activation"
 
 #. Translators: :) Smile
 msgid "smiling smiley"
-msgstr "Frimousse Sourire"
+msgstr "frimousse sourire"
 
 #. Translators: :( Sad
 msgid "sad smiley"
-msgstr "Frimousse Triste"
+msgstr "frimousse triste"
 
 #. Translators: :D Laugh
 msgid "Laughing smiley"
-msgstr "Frimousse Rigole"
+msgstr "Frimousse rire"
 
 #. Translators: :O Surprised
 msgid "surprised smiley"
@@ -306,7 +306,7 @@ msgstr "Frimousse Chat"
 
 #. Translators:  (cash) Cash
 msgid "cash smiley"
-msgstr "Frimousse Cash"
+msgstr "Frimousse Monnaie"
 
 #. Translators: (flex) Muscle
 msgid "muscle smiley"
@@ -338,7 +338,7 @@ msgstr "Frimousse Croise les doigts"
 
 #. Translators: (yawn) Yawn
 msgid "yawning smiley"
-msgstr "Frimousse Baille"
+msgstr "Frimousse Bâille"
 
 #. Translators: (puke) Puking
 msgid "puking smiley"
@@ -346,11 +346,11 @@ msgstr "Frimousse Vomit"
 
 #. Translators: (doh) Doh!
 msgid "doh! smiley"
-msgstr "Frimousse D’oh !"
+msgstr "Frimousse D'oh !"
 
 #. Translators: (wasntme) It wasn't me!
 msgid "it wasn't me! smiley"
-msgstr "Frimousse C’était pas moi !"
+msgstr "Frimousse C'était pas moi !"
 
 #. Translators: (party) Party
 msgid "party smiley"
@@ -414,7 +414,7 @@ msgstr "Frimousse Courbette"
 
 #. Translators: (rofl) Rolling on the floor laughing
 msgid "rolling on the floor laughing! smiley"
-msgstr "Frimousse MDR"
+msgstr "Frimousse Mort de rire"
 
 #. Translators: (whew) Relieved
 msgid "relieved smiley"
@@ -522,9 +522,11 @@ msgstr "Emoticons"
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "representation.\n"
+"Press NVDA+E to toggle."
 msgstr ""
 "Permet l'annonce des noms des frimousses au lieu de la représentation des "
 "caractères.\n"
+"Appuyez sur NVDA+E pour activé ou désactivé."
 
 #~ msgid "evil grin smiley"
-#~ msgstr "Diabolique émoticône"
+#~ msgstr "Diabolique frimousse"

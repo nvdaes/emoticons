@@ -1,8 +1,8 @@
 # Emoticons #
 
 * Auteurs: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed
-* Download [stable version][1]
-* Download [development version][2]
+* Download [stabiele versie][1]
+* Download [ontwikkelversie][2]
 
 Het gebruik van deze add-on zorgt ervoor dat emoticonkarakters in gesproken
 tekst worden vervangen door hun gebruiksvriendelijkere omschrijving. Er zijn
@@ -23,12 +23,12 @@ When you press OK, the characters for the chosen smiley will be copied to your c
 
 ## Emoticons aanpassen ##
 
-From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can open a dialog setting to add or to edit available emoticons.
-This dialog allows you to save an emoticons speech  dictionary  with your customizations.
+In het NVDA menu, Opties -> Emoticons beheren -> Emoticons personaliseren, kunt u beschikbare emoticons toevoegen of bewerken.
+Dit dialoogvenster laat u toe een emoticons uitspraakwoordenboek op te slaan met uw aanpassingen.
 
-Pressin' "Save and export dictionary" button, a file dictionary named
-emoticons.dic will be saved in your user config folder, speechDicts
-subfolder.
+Als u op de knop "Woordenboek opslaan en exporteren" drukt, wordt een
+woordenboekbestand met de naam emoticons.dic opgeslagen in de speechDicts
+subfolder van uw gebruikersconfiguratiemap.
 
 
 ## Actievatie-instellingen ##
