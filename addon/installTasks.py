@@ -1,16 +1,16 @@
 # -*- coding: UTF-8 -*-
 
 import addonHandler
-import speechDictHandler
-import globalVars
-import os
-import shutil
-import gui
-import wx
 
 addonHandler.initTranslation()
 
 def onInstall():
+	import speechDictHandler
+	import globalVars
+	import os
+	import shutil
+	import gui
+	import wx
 	for addon in addonHandler.getAvailableAddons():
 		if addon.manifest['name'] == "Emoticons":
 			if gui.messageBox(
