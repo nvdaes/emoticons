@@ -39,7 +39,7 @@
 
 * 初始版本
  
-[[!tag 开发板 稳定版]]
+[[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=emo
 

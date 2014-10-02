@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons' '0.1\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-19 18:53+0100\n"
-"PO-Revision-Date: 2013-11-19 20:44+0200\n"
+"PO-Revision-Date: 2014-10-01 21:06+0200\n"
 "Last-Translator: Çağrı Doğan <cagrid@hotmail.com>\n"
 "Language-Team: Translators <cagrid@hotmail.com>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.6.9\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. Translators: the label of a message box dialog.
@@ -518,12 +518,13 @@ msgstr "İfadeler"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#, fuzzy
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "representation.\n"
 "Press NVDA+E to toggle."
-msgstr "Karakter gösterimi yerine ifade adlarının seslendirilmesini sağlar.\n"
+msgstr ""
+"Karakter gösterimi yerine ifade adlarının seslendirilmesini sağlar.\n"
+"Açıp kapatmak için NVDA+e tuşlarını kullanın."
 
 #~ msgid "Opens documentation for %s"
 #~ msgstr "%s için Belgeleri açar"
