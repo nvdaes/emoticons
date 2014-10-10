@@ -63,6 +63,12 @@ emoticons = [
 	Smiley(r'(\s|^)(>:O)(\W|\s|$)', _("Angry Smiley"), r'>:O'),
 	# Translators:  :3  Cat (Cat faced smiley with curly lips)
 	Smiley(r'(\s|^)(:3)(\W|\s|$)', _("Cat Smiley"), r':3'),
+	# Translators: (-.-)ZZZ I’m Sleepy
+	Smiley(r'(\s|^)\([-][\.][-]\)ZZZ(\B|\s|$)', _("I am Sleepy smiley"), r'(-.-)ZZZ'),
+	# Translators: 8-) Glasses
+	Smiley(r'(\s|^)8[-][)](\B|\s|$)', _("glasses smiley"), r'8-)'),
+	# Translators: (^^^) shark
+	Smiley(r'(\s|^)\([\^]{3}\)(\B|\s|$)', _("shark smiley"), r'(^^^)'),
 	# Translators: (worry) Worried
 	Smiley(r'(\s|^)\(worry\)(\B|\s|$)', _("worried smiley"), r'(worry)'),
 	# Translators:  (cash) Cash
@@ -81,8 +87,6 @@ emoticons = [
 	Smiley(r'(\s|^)\(inlove\)(\B|\s|$)', _("in love smiley"), r'(inlove)'),
 	# Translators: (yn) Fingers crossed
 	Smiley(r'(\s|^)([\(]yn[\)])(\B|\s|$)', _("fingers crossed smiley"), r'(yn)'),
-	# Translators: (yawn) Yawn
-	Smiley(r'(\s|^)\(yawn\)(\B|\s|$)', _("yawning smiley"), r'(yawn)'),
 	# Translators: (yawn) Yawn
 	Smiley(r'(\s|^)\(yawn\)(\B|\s|$)', _("yawning smiley"), r'(yawn)'),
 	# Translators: (puke) Puking
