@@ -302,6 +302,21 @@ msgstr "cara gritando"
 msgid "Cat Smiley"
 msgstr "Cara de gato sonriendo "
 
+#. Translators: (-.-)ZZZ I�m Sleepy
+#, fuzzy
+msgid "I am Sleepy smiley"
+msgstr "cara soñolienta"
+
+#. Translators: 8-) Glasses
+#, fuzzy
+msgid "glasses smiley"
+msgstr "sí"
+
+#. Translators: (^^^) shark
+#, fuzzy
+msgid "shark smiley"
+msgstr "estrella"
+
 #. Translators:  (cash) Cash
 msgid "cash smiley"
 msgstr "Dinero"
@@ -517,10 +532,10 @@ msgstr "Emoticons"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
-"representation.\n"
-"Press NVDA+E to toggle."
+"Representation."
 msgstr ""
 "Permite el anuncio de los nombres de los emoticones en lugar de la "
 "representación de caracteres.\n"

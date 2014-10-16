@@ -305,6 +305,21 @@ msgstr "mérges arc"
 msgid "Cat Smiley"
 msgstr "macska hangulatjel"
 
+#. Translators: (-.-)ZZZ I�m Sleepy
+#, fuzzy
+msgid "I am Sleepy smiley"
+msgstr "álmos arc"
+
+#. Translators: 8-) Glasses
+#, fuzzy
+msgid "glasses smiley"
+msgstr "ez király! hangulatjel"
+
+#. Translators: (^^^) shark
+#, fuzzy
+msgid "shark smiley"
+msgstr "csillag hangulatjel"
+
 #. Translators:  (cash) Cash
 msgid "cash smiley"
 msgstr "készpénz hangulatjel"
@@ -520,10 +535,10 @@ msgstr "Hangulatjelek"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
-"representation.\n"
-"Press NVDA+E to toggle."
+"Representation."
 msgstr ""
 "A hangulatjel jelentés bemondásának engedélyezése, annak "
 "karakterkombinációja helyett.\n"

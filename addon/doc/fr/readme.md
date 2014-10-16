@@ -5,7 +5,7 @@
 * Télécharger [version de développement][2]
 
 Avec ce module complémentaire,  les caractères de la frimousse seront
-remplacés par leur description humaine plus conviviale. 84 frimousses sont
+remplacés par leur description humaine plus conviviale. 86 frimousses sont
 définies.
 
 Par exemple : ":)" sera prononcé comme "Frimousse Sourire", ou ":D" sera
@@ -27,8 +27,8 @@ Depuis le menu NVDA, Préférences -> Gestion des frimousses -> Personnaliser le
 Cette boîte de dialogue vous permet d'enregistrer un dictionnaire de parole avec vos frimousses personnalisées.
 
 En appuyant sur le bouton "Enregistrer et exporter le dictionnaire" un
-fichier de dictionnaire nommé emoticons.dic sera enregistré dans le
-sous-dossier speechDicts de votre dossier de configuration utilisateur.
+fichier de dictionnaire nommé emoticons.dic sera enregistré dans votre
+dossier de configuration utilisateur, sous-dossier speechDicts.
 
 
 ## Paramètres d'activation ##
@@ -44,10 +44,21 @@ possible d'enregistrer votre choix pour ce paramètre.
 *	NVDA+I: affiche une boîte de dialogue pour choisir la frimousse que vous
   souhaitez coller.
 
+
+## Changements pour la version 2.0 ##
+
+* L'aide du module complémentaire est disponible à partir du Gestionnaire de
+  modules complémentaires.
+
+## Changements pour la version 1.1 ##
+
+* Suppression des frimousses dupliqué.
+* Ajouté quelques frimousses.
+
 ## Changements pour la version 1.0 ##
 
 * Première version.
- 
+
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=emo

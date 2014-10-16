@@ -303,6 +303,21 @@ msgstr "Sinirli yüz"
 msgid "Cat Smiley"
 msgstr "Kedi"
 
+#. Translators: (-.-)ZZZ I�m Sleepy
+#, fuzzy
+msgid "I am Sleepy smiley"
+msgstr "Uykulu yüz"
+
+#. Translators: 8-) Glasses
+#, fuzzy
+msgid "glasses smiley"
+msgstr "Evet "
+
+#. Translators: (^^^) shark
+#, fuzzy
+msgid "shark smiley"
+msgstr "yıldız smiley"
+
 #. Translators:  (cash) Cash
 msgid "cash smiley"
 msgstr "Nakit"
@@ -518,10 +533,10 @@ msgstr "İfadeler"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
-"representation.\n"
-"Press NVDA+E to toggle."
+"Representation."
 msgstr ""
 "Karakter gösterimi yerine ifade adlarının seslendirilmesini sağlar.\n"
 "Açıp kapatmak için NVDA+e tuşlarını kullanın."

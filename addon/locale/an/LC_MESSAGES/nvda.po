@@ -302,6 +302,21 @@ msgstr "Emoticón encarranyau"
 msgid "Cat Smiley"
 msgstr "Mixín"
 
+#. Translators: (-.-)ZZZ I�m Sleepy
+#, fuzzy
+msgid "I am Sleepy smiley"
+msgstr "emoticón con suenio"
+
+#. Translators: 8-) Glasses
+#, fuzzy
+msgid "glasses smiley"
+msgstr "sí"
+
+#. Translators: (^^^) shark
+#, fuzzy
+msgid "shark smiley"
+msgstr "estrela"
+
 #. Translators:  (cash) Cash
 msgid "cash smiley"
 msgstr "diners"
@@ -517,10 +532,10 @@ msgstr "Emoticons"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
-"representation.\n"
-"Press NVDA+E to toggle."
+"Representation."
 msgstr ""
 "Enchega l'anunciau d'os nombres d'os emoticons en cuenta d'a representación "
 "de caracters.\n"

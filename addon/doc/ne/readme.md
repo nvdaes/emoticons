@@ -5,7 +5,7 @@
 * Download [विकास संस्करण][2]
 
 Using this add-on, spoken text containing emoticon characters will be
-replaced by its more human friendly description.  84 emoticons are defined.
+replaced by its more human friendly description.  86 emoticons are defined.
 
 उदाहरणका लागि: ":)" जस्तै "मुस्कान smiley बोलिन्छ ", अथवा  ":D" बोलिन्छ
 जस्तै "हाँसो मुस्कान"
@@ -25,7 +25,7 @@ When you press OK, the characters for the chosen smiley will be copied to your c
 नेत्रवाणी मेनुभित्र रहेको प्राथमिकताहरू-> इमोटिकनको व्यबस्थापन-> इमोटिकनको अनुकूलन भन्ने पातोबाट तपाइले इमोटिकनलाई  थप गर्ने वा हटाउने जस्ता अनुकूलन कार्य गर्न सक्नु हुन्छ ।
 यो पातोले तपाइलाई आफ्नो अनुकूलन अनुसारको इमोटिकन वाचन भण्डार बचत गर्ने अनुमति प्रदान गर्ने छ ।
 
-Pressin' "Save and export dictionary" button, a file dictionary named
+Pressing "Save and export dictionary" button, a file dictionary named
 emoticons.dic will be saved in your user config folder, speechDicts
 subfolder.
 
@@ -42,10 +42,20 @@ for this setting.
   मानविय विवरण अनुसार प्रतिस्थापन गरिन्छ ।
 *	नेत्रवाणी+I: तपाइले चाहेको मुस्कान टास्ने पातो देखाउँछ ।
 
+
+## Changes for 2.0 ##
+
+* Add-on help is available from the Add-ons Manager.
+
+## Changes for 1.1 ##
+
+* Removed duplicated emoticon.
+* Added some smileys.
+
 ## १.० मा गरिएका परिवर्तनहरू ##
 
 * सुरुको संस्करण
- 
+
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=emo

@@ -296,6 +296,21 @@ msgstr "生气，表情"
 msgid "Cat Smiley"
 msgstr "扁嘴，表情"
 
+#. Translators: (-.-)ZZZ I�m Sleepy
+#, fuzzy
+msgid "I am Sleepy smiley"
+msgstr "睡，表情"
+
+#. Translators: 8-) Glasses
+#, fuzzy
+msgid "glasses smiley"
+msgstr "是，表情"
+
+#. Translators: (^^^) shark
+#, fuzzy
+msgid "shark smiley"
+msgstr "星星，表情"
+
 #. Translators:  (cash) Cash
 msgid "cash smiley"
 msgstr "钱，表情"
@@ -513,10 +528,10 @@ msgstr ""
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
-"representation.\n"
-"Press NVDA+E to toggle."
+"Representation."
 msgstr ""
 "启用表情朗读，极用真正的名称来代替屏幕上显示的字符。\n"
 "按下“NVDA加E”进行切换。"

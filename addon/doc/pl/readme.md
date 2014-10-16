@@ -4,9 +4,8 @@
 * Pobierz [wersja stabilna][1]
 * Pobierz [wersja rozwojowa][2]
 
-Przy użyciu tego dodatku, wypowiadany tekst zawierający znaki emotikonów
-zostanie zastąpiony przez bardziej przyjazne opisy.  Zdefiniowane zostały 84
-emotikony.
+Using this add-on, spoken text containing emoticon characters will be
+replaced by its more human friendly description.  86 emoticons are defined.
 
 Dla przykładu: ":)" zostanie odczytane jako "Buzia uśmiech", albo ":D"
 zostanie przeczytane jako "Buzia śmiech"
@@ -26,9 +25,9 @@ Po naciśnięciu OK, znaki tworzące wybrany emotikon zostaną skopiowane do sch
 Z menu NVDA, możesz wybrać Ustawienia-> Zarządzaj emotikonami-> Dostosuj emotikony, aby otworzyć okno ustawień, umożliwiające dodawanie lub edycję dostępnych emotikon.
 To okno umożliwia zapisanie słownika wymowy emotikon zawierającego twoje dostosowania.
 
-Naciśnij przycisk "Zapisz i eksportuj słownik", plik słownika o nazwie
-emoticons.dic zostanie zapisany w twoim folderze konfiguracji użytkownika,
-podfolderze speechDicts.
+Pressing "Save and export dictionary" button, a file dictionary named
+emoticons.dic will be saved in your user config folder, speechDicts
+subfolder.
 
 
 ## Ustawienia aktywacji ##
@@ -43,10 +42,20 @@ ustawienia.
   emotikonami zastąpionymi przez opisy.
 *	NVDA+I: wyświetla okno dialogowe wyboru uśmieszku do wklejenia.
 
+
+## Changes for 2.0 ##
+
+* Add-on help is available from the Add-ons Manager.
+
+## Changes for 1.1 ##
+
+* Removed duplicated emoticon.
+* Added some smileys.
+
 ## Zmiany dla wersji 1.0 ##
 
 * Pierwsza wersja.
- 
+
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=emo

@@ -4,9 +4,8 @@
 * Download [stabiele versie][1]
 * Download [ontwikkelversie][2]
 
-Het gebruik van deze add-on zorgt ervoor dat emoticonkarakters in gesproken
-tekst worden vervangen door hun gebruiksvriendelijkere omschrijving. Er zijn
-84 emoticons gedefinieerd.
+Using this add-on, spoken text containing emoticon characters will be
+replaced by its more human friendly description.  86 emoticons are defined.
 
 Bijvoorbeeld: ":)" zal uitgesproken worden als "smiling smiley", of ":D" zal
 uitgesproken worden als "laughing smiley"
@@ -26,9 +25,9 @@ When you press OK, the characters for the chosen smiley will be copied to your c
 In het NVDA menu, Opties -> Emoticons beheren -> Emoticons personaliseren, kunt u beschikbare emoticons toevoegen of bewerken.
 Dit dialoogvenster laat u toe een emoticons uitspraakwoordenboek op te slaan met uw aanpassingen.
 
-Als u op de knop "Woordenboek opslaan en exporteren" drukt, wordt een
-woordenboekbestand met de naam emoticons.dic opgeslagen in de speechDicts
-subfolder van uw gebruikersconfiguratiemap.
+Pressing "Save and export dictionary" button, a file dictionary named
+emoticons.dic will be saved in your user config folder, speechDicts
+subfolder.
 
 
 ## Actievatie-instellingen ##
@@ -44,10 +43,20 @@ om uw keuze op te slaan voor deze instelling.
 *	NVDA+I: geeft een dialoogvenster weer waarin u een smiley kunt selecteren
   die u vervolgens kunt plakken.
 
+
+## Changes for 2.0 ##
+
+* Add-on help is available from the Add-ons Manager.
+
+## Changes for 1.1 ##
+
+* Removed duplicated emoticon.
+* Added some smileys.
+
 ## Veranderingen voor 1.0 ##
 
 * Eerste versie.
- 
+
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=emo

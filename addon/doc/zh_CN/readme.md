@@ -4,7 +4,8 @@
 * 下载[稳定版][1]
 * 下载[开发版][2]
 
-使用此插件，可以把文字中的表情以友好的文字描述来代替。已经定义了84个表情符号。
+Using this add-on, spoken text containing emoticon characters will be
+replaced by its more human friendly description.  86 emoticons are defined.
 
 例如：":)" 将被朗读为 "微笑表情"， ":D" 被朗读为 "大笑表情"
 
@@ -23,7 +24,9 @@
 从 NVDA 的菜单中，点击“选项”，点击“管理插件”，点击“自定义表情”，您可以打开一个对话框来添加或者对现有的表情符号进行编辑。
 您的自定义表情符号将被保存在 emoticons 字典之内。
 
-按下"保存并导出字典"按钮，一个名为 emoticons.dic 的文件将被保存在用户配置目录下的 speechDicts 子目录下。
+Pressing "Save and export dictionary" button, a file dictionary named
+emoticons.dic will be saved in your user config folder, speechDicts
+subfolder.
 
 
 ## 激活设置 ##
@@ -35,10 +38,20 @@
 *	NVDA加E：在直接读取元字符和使用有好的字符描述之间切换。
 *	NVDA加I:显示一个对话框，让您选择需要粘贴的表情。
 
+
+## Changes for 2.0 ##
+
+* Add-on help is available from the Add-ons Manager.
+
+## Changes for 1.1 ##
+
+* Removed duplicated emoticon.
+* Added some smileys.
+
 ## 版本1.0 ##
 
 * 初始版本
- 
+
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=emo

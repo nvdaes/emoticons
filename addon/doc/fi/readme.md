@@ -4,9 +4,8 @@
 * Lataa [vakaa versio][1]
 * Lataa [kehitysversio][2]
 
-Puhutussa tekstissä olevat hymiömerkit korvataan tätä lisäosaa käytettäessä
-niiden ihmisystävällisemmillä kuvauksilla.  Valmiiksi määriteltynä on 84
-hymiötä.
+Using this add-on, spoken text containing emoticon characters will be
+replaced by its more human friendly description.  86 emoticons are defined.
 
 Esimerkki: ":)" luetaan "hymyilee" tai ":D" luetaan "nauraa"
 
@@ -25,8 +24,9 @@ Kun painat OK, valitsemasi hymiön merkit kopioidaan leikepöydälle, josta voit
 Voit avata valintaikkunan uusien hymiöiden lisäämiseksi tai olemassa olevien muokkaamiseksi valitsemalla NVDA-valikosta Asetukset -> Hymiöiden hallinta -> Mukauta hymiöitä.
 Tekemäsi muokkaukset tallennetaan hymiöiden puhesanastoon.
 
-Kun painat "Tallenna ja vie sanasto"-painiketta, asetuskansiossasi olevaan
-speechDicts-alikansioon luodaan emoticons.dic-niminen sanastotiedosto.
+Pressing "Save and export dictionary" button, a file dictionary named
+emoticons.dic will be saved in your user config folder, speechDicts
+subfolder.
 
 
 ## Käyttöönoton asetukset ##
@@ -42,10 +42,20 @@ on myös mahdollista tallentaa.
 *	NVDA+I: näyttää valintaikkunan, josta voit valita tekstiin liitettävän
   hymiön.
 
+
+## Changes for 2.0 ##
+
+* Add-on help is available from the Add-ons Manager.
+
+## Changes for 1.1 ##
+
+* Removed duplicated emoticon.
+* Added some smileys.
+
 ## Muutokset versiossa 1.0 ##
 
 * Ensimmäinen versio.
- 
+
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=emo

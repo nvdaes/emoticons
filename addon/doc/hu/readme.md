@@ -4,8 +4,8 @@
 * Letöltés [Stabil verzió][1]
 * Letöltés [Fejlesztői verzió][2]
 
-A kiegészítő használatával a hangulatjelek szöveges jelentésükkel kerülnek
-kimondásra. A kiegészítőben 84 hangulatjel van definiálva.
+Using this add-on, spoken text containing emoticon characters will be
+replaced by its more human friendly description.  86 emoticons are defined.
 
 Például: ":)" helyett a "Mosolygó arc" kerül kimondásra, a ":D" helyett
 pedig "Nevető arc".
@@ -24,8 +24,9 @@ A megnyíló párbeszédablakban kiválaszthatja a beszúrandó hangulatjelet, a
 Az NVDA menü ->beállítások->Hangulatjelek kezelése ->hangulatjelek testreszabása menüpontban hozzáadhat, vagy szerkeszthet egy már meglévő hangulatjelet.
 Lehetőség van egy kivételszótárba elmenteni a testreszabott hangulatjel listát.
 
-Nyomja meg a "szótár mentése és exportálása" gombot, ekkor az emoticons.dic
-szótárfájl létrejön a saját beállítások mappa speechDicts almappában.
+Pressing "Save and export dictionary" button, a file dictionary named
+emoticons.dic will be saved in your user config folder, speechDicts
+subfolder.
 
 
 ## Aktiválási beállítások ##
@@ -39,10 +40,20 @@ elmentésére.
 *	NVDA+E: Be és kikapcsolható a hangulatjel szöveges bemondása.
 *	NVDA+I: Megjeleníti a hangulatjel beszúrására szolgáló párbeszédablakot.
 
+
+## Changes for 2.0 ##
+
+* Add-on help is available from the Add-ons Manager.
+
+## Changes for 1.1 ##
+
+* Removed duplicated emoticon.
+* Added some smileys.
+
 ## Az 1.0 változásai ##
 
 * Első verzió
- 
+
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=emo

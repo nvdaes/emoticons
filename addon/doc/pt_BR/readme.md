@@ -4,9 +4,8 @@
 * Baixe a [versão estável][1]
 * Baixe a [versão de desenvolvimento][2]
 
-Ao usar este complemento, os textos falados que contenham caracteres de
-emoticons serão substituídos por descrições mais amigáveis.  Estão definidos
-84 emoticons.
+Using this add-on, spoken text containing emoticon characters will be
+replaced by its more human friendly description.  86 emoticons are defined.
 
 Por exemplo: ":)" será falado como "cara de sorriso", ou ":D" will be spoken
 as "cara de riso"
@@ -26,9 +25,9 @@ Quando pressionar OK, os caracteres da cara escolhida serão copiados para a ár
 No menu do NVDA, em Preferências -> Gerir emoticons -> personalizar emoticons, pode abrir um diálogo de opções para adicionar ou editar os emoticons disponíveis.
 Esse diálogo lhe possibilita salvar um dicionário de fala de emoticons com as suas personalizações.
 
-Se pressionar o botão "Salvar e exportar dicionário", será salvo um arquivo
-de dicionário chamado emoticons.dic na pasta de configuração do usuário,
-subpasta speechDicts.
+Pressing "Save and export dictionary" button, a file dictionary named
+emoticons.dic will be saved in your user config folder, speechDicts
+subfolder.
 
 
 ## Opções de ativação ##
@@ -43,10 +42,20 @@ para esta opção.
   substituídos pelas descrições amigáveis.
 *	NVDA+I: mostra um diálogo para selecionar uma cara que queira colar.
 
+
+## Changes for 2.0 ##
+
+* Add-on help is available from the Add-ons Manager.
+
+## Changes for 1.1 ##
+
+* Removed duplicated emoticon.
+* Added some smileys.
+
 ## Mudanças na 1.0 ##
 
 * Versão inicial.
- 
+
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=emo

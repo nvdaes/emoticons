@@ -4,9 +4,8 @@
 * Baixada[versión estable][1]
 * Baixada[versión de desembolique][2]
 
-Fendo servir iste complemento, o texto fablau que contienga caracters
-d'emoticóns se substituirá por una descripción humana más amigable d'ell.
-Son definius 84 emoticóns.
+Using this add-on, spoken text containing emoticon characters will be
+replaced by its more human friendly description.  86 emoticons are defined.
 
 Por eixemplo: ":)" se leyerá como "emoticón sonrient", u ":D" se leyerá como
 "emoticón redindo-se"
@@ -26,9 +25,9 @@ En que pretes Acceptar, os caracters d'o emoticón elegido se copiarán ta lo po
 Dende o menú NVDA, Preferencias -> Administrar os emoticóns -> Personalizar os emoticóns, puetz ubrir un dialogo pa adhibir u editar os emoticóns disponibles.
 Iste dialogo te permite alzar un diccionario d'a fabla d'emoticóns con personalizacions.
 
-Pretando lo botón "Alzar y exportar o diccionario", s'alzará un fichero de
-diccionario clamau emoticons.dic en a carpeta de configuración d'usuario,
-subcarpeta speechDicts.
+Pressing "Save and export dictionary" button, a file dictionary named
+emoticons.dic will be saved in your user config folder, speechDicts
+subfolder.
 
 
 ## Opcions d'activación ##
@@ -44,10 +43,20 @@ d'ista opción.
 *	NVDA+I: Amuestra un quadro de dialogo pa trigar un emoticón que quieras
   apegar.
 
+
+## Changes for 2.0 ##
+
+* Add-on help is available from the Add-ons Manager.
+
+## Changes for 1.1 ##
+
+* Removed duplicated emoticon.
+* Added some smileys.
+
 ## Cambios en 1.0 ##
 
 * Versión inicial.
- 
+
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=emo

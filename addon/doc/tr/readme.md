@@ -5,8 +5,8 @@
 * İndir [kararlı sürüm][1]
 * İndir [geliştirme sürümü][2]
 
-bu eklentiyi kullanarak, ifade karakterlerini içeren metin onun insan dostu
-açıklamasıyla değiştirilerek seslendirilecektir. 84 ifade tanımlanmıştır.
+Using this add-on, spoken text containing emoticon characters will be
+replaced by its more human friendly description.  86 emoticons are defined.
 
 For example: ":)" will be spoken as "smiling smiley", or ":D" will be spoken
 as "laughing smiley"
@@ -26,9 +26,9 @@ Tamam düğmesine bastığınızda, seçilen ifadeyle ilgili karakterler panoya 
 NVDA menüsü altından, Tercihler -> ifadeleri yönet -> ifadeleri özelleştir seçeneğiyle, kullanılabilir ifadeleri eklemek veya düzenlemek için bir iletişim kutusu açabilirsiniz.
 Bu iletişim kutusu özelleştirmelerinizle birlikte bir ifade konuşma sözlüğü kaydetmenize olanak verir.
 
-"Sözlüğü kaydet ve dışa aktar" düğmesine basarsanız, Kullanıcı konfigürasyon
-klasöründe, speechDicts alt klasörüne emoticons.dic adlı bir sözlük dosyası
-kaydedilir.
+Pressing "Save and export dictionary" button, a file dictionary named
+emoticons.dic will be saved in your user config folder, speechDicts
+subfolder.
 
 
 ## Etkinleştirme ayarları ##
@@ -44,10 +44,20 @@ seçiminizi kalıcı olarak kaydetmek mümkündür.
 *	NVDA + I: yapıştırmak istediğiniz bir ifade seçmek için bir iletişim
   kutusu açar.
 
+
+## Changes for 2.0 ##
+
+* Add-on help is available from the Add-ons Manager.
+
+## Changes for 1.1 ##
+
+* Removed duplicated emoticon.
+* Added some smileys.
+
 ## 1.0 için değişiklikler ##
 
 * İlk sürüm.
- 
+
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=emo

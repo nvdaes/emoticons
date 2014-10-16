@@ -300,6 +300,21 @@ msgstr "nahnevaný"
 msgid "Cat Smiley"
 msgstr "mačka"
 
+#. Translators: (-.-)ZZZ I�m Sleepy
+#, fuzzy
+msgid "I am Sleepy smiley"
+msgstr "ospalý"
+
+#. Translators: 8-) Glasses
+#, fuzzy
+msgid "glasses smiley"
+msgstr "áno"
+
+#. Translators: (^^^) shark
+#, fuzzy
+msgid "shark smiley"
+msgstr "hviezda"
+
 #. Translators:  (cash) Cash
 msgid "cash smiley"
 msgstr "peniaze"
@@ -515,10 +530,10 @@ msgstr "Emotikony"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
-"representation.\n"
-"Press NVDA+E to toggle."
+"Representation."
 msgstr ""
 "Namiesto znakov popisuje emotikony slovne.\n"
 "Toto možno prepínať pomocou nvda+e."

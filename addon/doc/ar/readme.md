@@ -4,8 +4,8 @@
 * تحميل [الإصدار النهائي][1]
 * تحميل [الإصدار التجريبي][2]
 
-تعمل هذه الإضافة على نطق الحروف التي تتشكل منها رموز المشاعر واستبدالها بوصف
-ذو معنى يستطيع فهمه المستخدم. وقد تم تعريف 84 رمز مشاعر.
+Using this add-on, spoken text containing emoticon characters will be
+replaced by its more human friendly description.  86 emoticons are defined.
 
 على سبيل المثال: سيتم نطق ":)" بالقول "ابتسامة", أو ":D" سيتم نطقها بالقول
 "ابتسامة عريضة"
@@ -25,8 +25,9 @@
 من قائمة NVDA ثم التفضيلات ثم إدارة الرموزتخصيص رمز مشاعر، يمكنك فتح محاورة الإعدادات لإضافة رمز أو تعديل رمز موجود.
 تسمح لك هذه المحاورة بحفظ معجم لنطق رموز المشاعر بما قمت به من تخصيص.
 
-بالضغط على "زر حفظ وتصدير المعجم" سيتم حفظ ملف باسم emoticons.dic داخل مجلد
-إعدادات المستخدم ثم مجلد معاجم النطق المتفرع عنه.
+Pressing "Save and export dictionary" button, a file dictionary named
+emoticons.dic will be saved in your user config folder, speechDicts
+subfolder.
 
 
 ## إعدادات التفعيل ##
@@ -41,10 +42,20 @@
 *	الضغط على مفتاح NVDA+I لإظهار قائمة برموز المشاعر لاختيار رمز معين
   لإلصاقه. 
 
+
+## Changes for 2.0 ##
+
+* Add-on help is available from the Add-ons Manager.
+
+## Changes for 1.1 ##
+
+* Removed duplicated emoticon.
+* Added some smileys.
+
 ## مستجدات الإصدار 1.0 ##
 
 * إصدار بدائي
- 
+
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=emo

@@ -4,9 +4,9 @@
 * Descargar [versión estable][1]
 * Descargar [versión de desenvolvemento][2]
 
-Usando este complemento, o texto falado que conteña caracteres emoticonos
-será substituído pola súa descrición máis humana e agradable. 84 emoticons
-están definidos.
+Ó se utilizar este complemento, o texto falado que conteña carácteres de
+emoticón reemprazarase pola súa descripción máis amigable.  Definíronse 86
+emoticóns .
 
 Por exemplo: ":)" falarase como "cara sorrinte", ou ":D" falarase como "cara
 rindo"
@@ -26,8 +26,8 @@ Cando premas Aceptar, os caracteres para o emoticón escollido serán copiados o
 Dende o menú NVDA, Preferencias -> Xestionar emoticóns -> Persoalizar emoticóns, podes abrir un diálogo para engadir ou editar os emoticóns dispoñibles.
 Este diálogo permíteche gardar un diccionario da fala de emoticóns cas túas persoalizacións.
 
-Premendo o botón "Gardar e exportar diccionario", gardarase un ficheiro de
-diccionario chamado emoticons.dic no teu cartafol de configuración de
+Premendo o botón "Gardar e exportar diccionario", gardarase unn ficheiro de
+diccionario chamado emoticons.dic  no teu  cartafol de configuración de
 usuario, subcartafol speechDicts.
 
 
@@ -44,10 +44,20 @@ axuste.
 *	NVDA+I: amosa un cadro de diálogo para seleccionar un emoticón que queras
   pegar.
 
+
+## Cambios para 2.0 ##
+
+* A axuda do complemento está dispoñible no Administrador de Complementos.
+
+## Cambios para 1.1 ##
+
+* Borrado un emoticón duplicado.
+* Engadidos algúns emoticóns.
+
 ## Cambios para 1.0 ##
 
 * Versión inicial.
- 
+
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=emo

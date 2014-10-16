@@ -301,6 +301,21 @@ msgstr "huutaa"
 msgid "Cat Smiley"
 msgstr "kissa"
 
+#. Translators: (-.-)ZZZ I�m Sleepy
+#, fuzzy
+msgid "I am Sleepy smiley"
+msgstr "uninen"
+
+#. Translators: 8-) Glasses
+#, fuzzy
+msgid "glasses smiley"
+msgstr "kyllä"
+
+#. Translators: (^^^) shark
+#, fuzzy
+msgid "shark smiley"
+msgstr "tähti"
+
 #. Translators:  (cash) Cash
 msgid "cash smiley"
 msgstr "käteinen"
@@ -516,10 +531,10 @@ msgstr "Hymiöt"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
-"representation.\n"
-"Press NVDA+E to toggle."
+"Representation."
 msgstr ""
 "Ottaa käyttöön hymiöiden nimien puhumisen niiden merkkien sijasta.\n"
 "Vaihda asetusta painamalla NVDA+E."

@@ -4,9 +4,8 @@
 * Загрузить [Стабильную версию][1]
 * Загрузить [Разрабатываемую версию][2]
 
-При использовании этого дополнения, символы смайликов в проговариваемом
-тексте будут заменены на их более дружественные описания. 84 смайликов
-определены.
+Using this add-on, spoken text containing emoticon characters will be
+replaced by its more human friendly description.  86 emoticons are defined.
 
 Например: ":)" будет проговариваться как "улыбающийся смайлик", а ":D" -
 "смеющийся смайлик"
@@ -26,9 +25,9 @@
 В меню NVDA, Параметры -> Управление смайликами -> Настройка смайликов, можно открыть диалог настроек, чтобы добавить или редактировать имеющиеся смайлики.
 Этот диалог позволяет сохранять речевой словарь смайликов с вашими настройками.
 
-При нажатии кнопки "Сохранить и экспортировать словарь", файл словаря с
-именем emoticons.dic будет сохранен в вашей папке Конфигурации Пользователя,
-во вложенную папку speechDicts.
+Pressing "Save and export dictionary" button, a file dictionary named
+emoticons.dic will be saved in your user config folder, speechDicts
+subfolder.
 
 
 ## Настройки активации ##
@@ -43,10 +42,20 @@ NVDA. По умолчанию оно отключено. Также возмож
   заменёнными дружескими описаниями.
 *	NVDA+I: показать диалоговое окно выбора смайликов для вставки.
 
+
+## Changes for 2.0 ##
+
+* Add-on help is available from the Add-ons Manager.
+
+## Changes for 1.1 ##
+
+* Removed duplicated emoticon.
+* Added some smileys.
+
 ## Изменения в версии 1.0 ##
 
 * Начальная версия.
- 
+
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=emo

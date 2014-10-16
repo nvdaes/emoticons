@@ -4,8 +4,8 @@
 * [stabile Version herunterladen][1]
 * [Testversion herunterladen][2]
 
-Wenn Sie diese Erweiterung verwenden, werden Emoticons durch besser
-verständliche Beschreibungen ersetzt.  Es gibt 84 Emoticon-Definitionen.
+Using this add-on, spoken text containing emoticon characters will be
+replaced by its more human friendly description.  86 emoticons are defined.
 
 So wird beispielsweise: ":)" als "Lächelndes Smiley", oder ":D" als
 "lachendes Smiley" gesprochen.
@@ -25,7 +25,7 @@ When you press OK, the characters for the chosen smiley will be copied to your c
 From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can open a dialog setting to add or to edit available emoticons.
 This dialog allows you to save an emoticons speech  dictionary  with your customizations.
 
-Pressin' "Save and export dictionary" button, a file dictionary named
+Pressing "Save and export dictionary" button, a file dictionary named
 emoticons.dic will be saved in your user config folder, speechDicts
 subfolder.
 
@@ -42,10 +42,20 @@ for this setting.
   ob Emoticons durch die menschliche Beschreibung ersetzt werden sollen.
 *	NVDA+I: show a dialog to select a smiley you want to paste.
 
+
+## Changes for 2.0 ##
+
+* Add-on help is available from the Add-ons Manager.
+
+## Changes for 1.1 ##
+
+* Removed duplicated emoticon.
+* Added some smileys.
+
 ## Änderungen in 1.0 ##
 
 * Ehrstveröffentlichung
- 
+
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=emo
