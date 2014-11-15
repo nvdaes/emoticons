@@ -70,7 +70,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			comment = _("Emoticon: %s") % em.name
 			otherReplacement = " %s; " % em.name
 			# Case and reg are always True
-			defaultDic.append(speechDictHandler.SpeechDictEntry(em.pattern, otherReplacement, comment, True, True))
+			defaultDic.append(speechDictHandler.SpeechDictEntry(em.pattern, otherReplacement, comment, True, speechDictHandler.ENTRY_TYPE_REGEXP))
 		if not os.path.isfile(dicFile):
 			sD.extend(defaultDic)
 		# Gui
@@ -181,10 +181,10 @@ class InsertEmoticonDialog(SettingsDialog):
 class EmDicDialog(DictionaryDialog):
 
 	def makeSettings(self, settingsSizer):
-		dictListID = wx.NewId()
-		entriesSizer = wx.BoxSizer(wx.VERTICAL)
+		dictListID=wx.NewId()
+		entriesSizer=wx.BoxSizer(wx.VERTICAL)
 		# Translators: The label for the combo box of dictionary entries in speech dictionary dialog.
-		entriesLabel = wx.StaticText(self,-1,label=_("&Dictionary entries"))
+		entriesLabel=wx.StaticText(self,-1,label=_("&Dictionary entries"))
 		entriesSizer.Add(entriesLabel)
 		self.dictList=wx.ListCtrl(self,dictListID,style=wx.LC_REPORT|wx.LC_SINGLE_SEL,size=(550,350))
 		# Translators: The label for a column in dictionary entries list used to identify comments for the entry.
@@ -195,29 +195,28 @@ class EmDicDialog(DictionaryDialog):
 		self.dictList.InsertColumn(2,_("Replacement"),width=150)
 		# Translators: The label for a column in dictionary entries list used to identify whether the entry is case sensitive or not.
 		self.dictList.InsertColumn(3,_("case"),width=50)
-		# Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression or not.
-		self.dictList.InsertColumn(4,_("Regexp"),width=50)
+		# Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression, matches whole words, or matches anywhere.
+		self.dictList.InsertColumn(4,_("Type"),width=50)
 		self.offOn = (_("off"),_("on"))
 		for entry in self.tempSpeechDict:
-			self.dictList.Append((entry.comment,entry.pattern,entry.replacement,self.offOn[int(entry.caseSensitive)],self.offOn[int(entry.regexp)]))
+			self.dictList.Append((entry.comment,entry.pattern,entry.replacement,self.offOn[int(entry.caseSensitive)],DictionaryDialog.TYPE_LABELS[entry.type]))
 		self.editingIndex=-1
 		entriesSizer.Add(self.dictList,proportion=8)
 		settingsSizer.Add(entriesSizer)
-		entryButtonsSizer = wx.BoxSizer(wx.HORIZONTAL)
-		addButtonID = wx.NewId()
+		entryButtonsSizer=wx.BoxSizer(wx.HORIZONTAL)
+		addButtonID=wx.NewId()
 		# Translators: The label for a button in speech dictionaries dialog to add new entries.
-		addButton = wx.Button(self,addButtonID,_("&Add"),wx.DefaultPosition)
+		addButton=wx.Button(self,addButtonID,_("&Add"),wx.DefaultPosition)
 		entryButtonsSizer.Add(addButton)
-		editButtonID = wx.NewId()
+		editButtonID=wx.NewId()
 		# Translators: The label for a button in speech dictionaries dialog to edit existing entries.
-		editButton = wx.Button(self,editButtonID,_("&Edit"),wx.DefaultPosition)
+		editButton=wx.Button(self,editButtonID,_("&Edit"),wx.DefaultPosition)
 		entryButtonsSizer.Add(editButton)
-		removeButtonID = wx.NewId()
-		removeButton = wx.Button(self,removeButtonID,_("&Remove"),wx.DefaultPosition)
+		removeButtonID=wx.NewId()
+		removeButton=wx.Button(self,removeButtonID,_("&Remove"),wx.DefaultPosition)
 		entryButtonsSizer.Add(removeButton)
 		resetButtonID = wx.NewId()
 		resetButton = wx.Button(self,resetButtonID,_("Rese&t"),wx.DefaultPosition)
-		entryButtonsSizer.Add(resetButton)
 		self.Bind(wx.EVT_BUTTON,self.OnAddClick,id=addButtonID)
 		self.Bind(wx.EVT_BUTTON,self.OnEditClick,id=editButtonID)
 		self.Bind(wx.EVT_BUTTON,self.OnRemoveClick,id=removeButtonID)
