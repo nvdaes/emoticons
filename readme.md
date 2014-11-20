@@ -41,6 +41,7 @@ It is also possible to save your choice for this setting.
 ## Changes for 2.0 ##
 
 * Add-on help is available from the Add-ons Manager.
+* In the Customize emoticons dialog, it is now possible to specify that a pattern should only match if it is a whole word, according to speech dictionaries of NVDA 2014.4.
 
 ## Changes for 1.1 ##
 
