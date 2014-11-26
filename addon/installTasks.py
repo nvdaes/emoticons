@@ -29,10 +29,10 @@ def onInstall():
 		_("Import Emoticons add-on settings"),
 		wx.YES|wx.NO|wx.ICON_WARNING)==wx.YES:
 			try:
-				shutil.copy(os.path.join(speechDictHandler.speechDictsPath, "emoticons.dic"), os.path.join(os.path.dirname(__file__), "globalPlugins"))
+				shutil.copy(os.path.join(speechDictHandler.speechDictsPath, "emoticons.dic"), os.path.join(os.path.dirname(__file__), "globalPlugins", "emoticons"))
 			except:
 				pass
 			try:
-				shutil.copy(os.path.join(globalVars.appArgs.configPath, "emoticons.ini"), os.path.join(os.path.dirname(__file__), "globalPlugins"))
+				shutil.copy(os.path.join(globalVars.appArgs.configPath, "emoticons.ini"), os.path.join(os.path.dirname(__file__), "globalPlugins", "emoticons"))
 			except:
 				pass
