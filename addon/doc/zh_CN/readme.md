@@ -38,6 +38,12 @@ subfolder.
 *	NVDA加E：在直接读取元字符和使用有好的字符描述之间切换。
 *	NVDA加I:显示一个对话框，让您选择需要粘贴的表情。
 
+## Changes for 3.0 ##
+
+* In the Customize emoticons dialog, it is now possible to specify that a
+  pattern should only match if it is a whole word, according to speech
+  dictionaries of NVDA 2014.4.
+
 
 ## Changes for 2.0 ##
 

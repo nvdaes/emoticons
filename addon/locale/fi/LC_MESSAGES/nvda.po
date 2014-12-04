@@ -5,17 +5,18 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: emoticons 1.0-dev\n"
+"Project-Id-Version: emoticons\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 18:37+0100\n"
-"PO-Revision-Date: 2014-04-18 09:40+0200\n"
+"PO-Revision-Date: 2014-12-02 09:15+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Finnish <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.4\n"
+"X-Generator: Poedit 1.6.10\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -33,8 +34,7 @@ msgstr "Poista yhteensopimaton lisäosa"
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them?"
-msgstr ""
-"Sinulla näyttää olevan tämän lisäosan aiempia asetuksia. Haluatko tuoda ne?"
+msgstr "Sinulla on tämän lisäosan aiempia asetuksia. Haluatko tuoda ne?"
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
@@ -47,7 +47,7 @@ msgstr "Hymiö: %s"
 
 #. Translators: the name of addon submenu.
 msgid "Manage emoticons"
-msgstr "Hymiöiden hallinta"
+msgstr "Hymiöi&den hallinta"
 
 #. Translators: the tooltip text for addon submenu.
 msgid "Emoticons menu"
@@ -119,7 +119,7 @@ msgstr "Hymiötä' ei voi kopioida."
 
 #. Translators: The label for the combo box of dictionary entries in speech dictionary dialog.
 msgid "&Dictionary entries"
-msgstr "&Sanastomerkinnät"
+msgstr "&Sanastomääritykset"
 
 #. Translators: The label for a column in dictionary entries list used to identify comments for the entry.
 msgid "Comment"
@@ -137,9 +137,9 @@ msgstr "Korvaava"
 msgid "case"
 msgstr "kirjainkoko"
 
-#. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression or not.
-msgid "Regexp"
-msgstr "Säänla"
+#. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression, matches whole words, or matches anywhere.
+msgid "Type"
+msgstr ""
 
 #. Translators: a choice of Activateemoticons dialog.
 msgid "off"
@@ -302,19 +302,16 @@ msgid "Cat Smiley"
 msgstr "kissa"
 
 #. Translators: (-.-)ZZZ I�m Sleepy
-#, fuzzy
 msgid "I am Sleepy smiley"
-msgstr "uninen"
+msgstr "minua nukuttaa"
 
 #. Translators: 8-) Glasses
-#, fuzzy
 msgid "glasses smiley"
-msgstr "kyllä"
+msgstr "silmälasit"
 
 #. Translators: (^^^) shark
-#, fuzzy
 msgid "shark smiley"
-msgstr "tähti"
+msgstr "hai"
 
 #. Translators:  (cash) Cash
 msgid "cash smiley"
@@ -531,10 +528,10 @@ msgstr "Hymiöt"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#, fuzzy
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
-msgstr ""
-"Ottaa käyttöön hymiöiden nimien puhumisen niiden merkkien sijasta.\n"
-"Vaihda asetusta painamalla NVDA+E."
+msgstr "Ottaa käyttöön hymiöiden nimien puhumisen niiden merkkien sijasta."
+
+#~ msgid "Regexp"
+#~ msgstr "Säänla"

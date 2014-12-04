@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Emoticons-1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 18:37+0100\n"
-"PO-Revision-Date: 2014-04-19 14:52+0100\n"
+"PO-Revision-Date: 2014-10-16 21:51+0100\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language: fr_FR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
 "X-Poedit-Basepath: .\n"
-"X-Generator: Poedit 1.6.4\n"
+"X-Generator: Poedit 1.6.8\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #. Translators: the label of a message box dialog.
@@ -140,9 +140,9 @@ msgstr "Remplacement"
 msgid "case"
 msgstr "casse"
 
-#. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression or not.
-msgid "Regexp"
-msgstr "Regexp"
+#. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression, matches whole words, or matches anywhere.
+msgid "Type"
+msgstr ""
 
 #. Translators: a choice of Activateemoticons dialog.
 msgid "off"
@@ -305,19 +305,16 @@ msgid "Cat Smiley"
 msgstr "Frimousse Chat"
 
 #. Translators: (-.-)ZZZ I�m Sleepy
-#, fuzzy
 msgid "I am Sleepy smiley"
-msgstr "Frimousse Endormi"
+msgstr "Frimousse Je dors..."
 
 #. Translators: 8-) Glasses
-#, fuzzy
 msgid "glasses smiley"
-msgstr "Frimousse Oui"
+msgstr "Frimousse avec des lunettes"
 
 #. Translators: (^^^) shark
-#, fuzzy
 msgid "shark smiley"
-msgstr "Frimousse Étoile"
+msgstr "Frimousse Requin"
 
 #. Translators:  (cash) Cash
 msgid "cash smiley"
@@ -534,14 +531,15 @@ msgstr "Emoticons"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#, fuzzy
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
 msgstr ""
 "Permet l'annonce des noms des frimousses au lieu de la représentation des "
-"caractères.\n"
-"Appuyez sur NVDA+E pour activé ou désactivé."
+"caractères."
+
+#~ msgid "Regexp"
+#~ msgstr "Regexp"
 
 #~ msgid "evil grin smiley"
 #~ msgstr "Diabolique frimousse"

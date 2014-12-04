@@ -132,9 +132,9 @@ msgstr "الكلمة البديلة"
 msgid "case"
 msgstr "حالة الأحرف"
 
-#. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression or not.
-msgid "Regexp"
-msgstr "تعبير قياسي"
+#. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression, matches whole words, or matches anywhere.
+msgid "Type"
+msgstr ""
 
 #. Translators: a choice of Activateemoticons dialog.
 msgid "off"
@@ -533,3 +533,6 @@ msgid ""
 msgstr ""
 "تفعيل الإعلان عن أسماء رموز المشاعر بدلا من الحروف التي تمثلها.\n"
 "اضغط NVDA+E للتحويل. "
+
+#~ msgid "Regexp"
+#~ msgstr "تعبير قياسي"

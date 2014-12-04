@@ -143,9 +143,9 @@ msgstr "Ersetzen durch"
 msgid "case"
 msgstr "Groß-/Kleinschreibung beachten"
 
-#. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression or not.
-msgid "Regexp"
-msgstr "Reguläre Ausdrücke"
+#. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression, matches whole words, or matches anywhere.
+msgid "Type"
+msgstr ""
 
 #. Translators: a choice of Activateemoticons dialog.
 msgid "off"
@@ -544,3 +544,6 @@ msgid ""
 msgstr ""
 "Verwenden Sie nvda+e, um die Ansage von Emoticon-Namen anstelle der "
 "Zeichendarstellung ein- und auszuschalten."
+
+#~ msgid "Regexp"
+#~ msgstr "Reguläre Ausdrücke"

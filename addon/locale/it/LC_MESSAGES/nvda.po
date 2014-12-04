@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons' '0.1\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: 2014-02-04 14:28+0100\n"
-"PO-Revision-Date: 2014-02-17 16:11+0100\n"
-"Last-Translator: Simone Dal Maso <simone.dalmaso@juvox.it>\n"
+"PO-Revision-Date: 2014-11-04 10:14+0100\n"
+"Last-Translator: Simone Dal Maso <simone.dalmaso@gmail.com>\n"
 "Language-Team: Translators <LL@li.org>\n"
 "Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.6.6\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -136,9 +136,9 @@ msgstr "Voce in sostituzione:"
 msgid "case"
 msgstr "Sensibile alle maiuscole"
 
-#. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression or not.
-msgid "Regexp"
-msgstr "Espressione regolare"
+#. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression, matches whole words, or matches anywhere.
+msgid "Type"
+msgstr ""
 
 #. Translators: a choice of Activateemoticons dialog.
 msgid "off"
@@ -527,14 +527,15 @@ msgstr "Emoticons"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#, fuzzy
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
 msgstr ""
 "Abilita la lettura del nome dell'emoticon invece della rappresentazione dei "
-"caratteri.\n"
-"Premere NVDA+E per attivare."
+"caratteri."
+
+#~ msgid "Regexp"
+#~ msgstr "Espressione regolare"
 
 #~ msgid "Opens documentation for %s"
 #~ msgstr "Apre la documentazione %s"

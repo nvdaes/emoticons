@@ -43,6 +43,12 @@ om uw keuze op te slaan voor deze instelling.
 *	NVDA+I: geeft een dialoogvenster weer waarin u een smiley kunt selecteren
   die u vervolgens kunt plakken.
 
+## Changes for 3.0 ##
+
+* In the Customize emoticons dialog, it is now possible to specify that a
+  pattern should only match if it is a whole word, according to speech
+  dictionaries of NVDA 2014.4.
+
 
 ## Changes for 2.0 ##
 
@@ -51,7 +57,7 @@ om uw keuze op te slaan voor deze instelling.
 ## Changes for 1.1 ##
 
 * Removed duplicated emoticon.
-* Added some smileys.
+* Enkele smileys toegevoegd.
 
 ## Veranderingen voor 1.0 ##
 

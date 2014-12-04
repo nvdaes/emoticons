@@ -43,6 +43,12 @@ d'ista opción.
 *	NVDA+I: Amuestra un quadro de dialogo pa trigar un emoticón que quieras
   apegar.
 
+## Changes for 3.0 ##
+
+* In the Customize emoticons dialog, it is now possible to specify that a
+  pattern should only match if it is a whole word, according to speech
+  dictionaries of NVDA 2014.4.
+
 
 ## Changes for 2.0 ##
 

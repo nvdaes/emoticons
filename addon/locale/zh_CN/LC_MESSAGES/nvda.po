@@ -132,9 +132,9 @@ msgstr "替换为"
 msgid "case"
 msgstr "事件"
 
-#. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression or not.
-msgid "Regexp"
-msgstr "正则表达式"
+#. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression, matches whole words, or matches anywhere.
+msgid "Type"
+msgstr ""
 
 #. Translators: a choice of Activateemoticons dialog.
 msgid "off"
@@ -535,3 +535,6 @@ msgid ""
 msgstr ""
 "启用表情朗读，极用真正的名称来代替屏幕上显示的字符。\n"
 "按下“NVDA加E”进行切换。"
+
+#~ msgid "Regexp"
+#~ msgstr "正则表达式"

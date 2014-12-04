@@ -4,8 +4,8 @@
 * stiahnuť [stabilná verzia][1]
 * Stiahnuť [Vývojová verzia][2]
 
-Using this add-on, spoken text containing emoticon characters will be
-replaced by its more human friendly description.  86 emoticons are defined.
+Tento doplnok nahrádza emotikony slovným popisom. V súčasnosti obsahuje 86
+definovaných emotikonov.
 
 napríklad: ":)" bude prečítané ako "úsmev", alebo ":D" bude prečítané ako
 "smiech"
@@ -25,9 +25,9 @@ Po stlačení OK sa znaky skopírujú do schránky.
 V menu NVDA >možnosti >emotikony >pridať /upraviť môžete vytvoriť nové, alebo upraviť existujúce emotikony.
 V tomto dialógu môžete uložiť vlastný používateľský slovník s emotikonmi.
 
-Pressing "Save and export dictionary" button, a file dictionary named
-emoticons.dic will be saved in your user config folder, speechDicts
-subfolder.
+po stlačení tlačidla "Ulož a exportuj slovník" sa používateľský slovník
+uloží v priečinku s nastaveniami NVDA, v podpriečinku speechDicts pod názvom
+emoticons.dic.
 
 
 ## Aktivácia ##
@@ -40,15 +40,21 @@ môžete určiť predvolené nastavenie do budúcnosti.
 *	NVDA+E: prepína medzi vyslovovaním znakov a popisov emotikonov.
 *	NVDA+I: zobrazí dialóg na vloženie požadovaného úsmevu.
 
+## Changes for 3.0 ##
 
-## Changes for 2.0 ##
+* In the Customize emoticons dialog, it is now possible to specify that a
+  pattern should only match if it is a whole word, according to speech
+  dictionaries of NVDA 2014.4.
 
-* Add-on help is available from the Add-ons Manager.
 
-## Changes for 1.1 ##
+## Zmeny vo verzii 2.0 ##
 
-* Removed duplicated emoticon.
-* Added some smileys.
+* Návod k doplnku môžete nájsť v správcovi doplnkov.
+
+## Zmeny vo verzii 1.1 ##
+
+* odstránené duplicitné emotikony.
+* pridané nové emotikony.
 
 ## Zmeny vo verzii 1.0 ##
 

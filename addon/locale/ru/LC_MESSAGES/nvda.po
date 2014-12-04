@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: 'emoticons' '1.0-dev'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: 2013-11-16 17:06+0400\n"
-"PO-Revision-Date: 2014-04-21 08:28+0400\n"
-"Last-Translator: Ruslan Kolodyazhni <eye0@rambler.ru>\n"
+"PO-Revision-Date: 2014-10-29 00:14+0300\n"
+"Last-Translator: Ruslan <eye0@rambler.ru>\n"
 "Language-Team: Translators <LL@li.org>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
@@ -136,9 +136,9 @@ msgstr "Замена"
 msgid "case"
 msgstr "регистр"
 
-#. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression or not.
-msgid "Regexp"
-msgstr "Регулярное выражение"
+#. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression, matches whole words, or matches anywhere.
+msgid "Type"
+msgstr ""
 
 #. Translators: a choice of Activateemoticons dialog.
 msgid "off"
@@ -301,19 +301,16 @@ msgid "Cat Smiley"
 msgstr "кот"
 
 #. Translators: (-.-)ZZZ I�m Sleepy
-#, fuzzy
 msgid "I am Sleepy smiley"
-msgstr "сонный смайлик"
+msgstr "Я Сонный смайлик"
 
 #. Translators: 8-) Glasses
-#, fuzzy
 msgid "glasses smiley"
-msgstr "соглашающийся смайлик"
+msgstr "очки смайлик"
 
 #. Translators: (^^^) shark
-#, fuzzy
 msgid "shark smiley"
-msgstr "звезда смайлик"
+msgstr "акула смайлик"
 
 #. Translators:  (cash) Cash
 msgid "cash smiley"
@@ -530,13 +527,13 @@ msgstr "Emoticons"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#, fuzzy
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
-msgstr ""
-"Позволяет объявлять имена смайликов вместо символьного представления.\n"
-"Для переключения нажмите NVDA+E."
+msgstr "Позволяет объявлять имена смайликов вместо символьного представления."
+
+#~ msgid "Regexp"
+#~ msgstr "Регулярное выражение"
 
 #~ msgid "Opens documentation for %s"
 #~ msgstr "Открывает документацию для %s"

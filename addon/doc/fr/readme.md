@@ -44,6 +44,12 @@ possible d'enregistrer votre choix pour ce paramètre.
 *	NVDA+I: affiche une boîte de dialogue pour choisir la frimousse que vous
   souhaitez coller.
 
+## Changements pour la version 3.0 ##
+
+* Dans la boîte de dialogue Personnaliser les frimousses, il est maintenant
+  possible de spécifier qu'un modèle doit correspondre uniquement si c'est
+  un mot entier, selon les dictionnaires de paroles de NVDA 2014.4.
+
 
 ## Changements pour la version 2.0 ##
 

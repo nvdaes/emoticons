@@ -44,6 +44,12 @@ la elección de esta opción.
 *	NVDA+I: muestra un cuadro de diálogo para seleccionar un emoticono que
   quieras pegar.
 
+## Changes for 3.0 ##
+
+* In the Customize emoticons dialog, it is now possible to specify that a
+  pattern should only match if it is a whole word, according to speech
+  dictionaries of NVDA 2014.4.
+
 
 ## Cambios para 2.0 ##
 

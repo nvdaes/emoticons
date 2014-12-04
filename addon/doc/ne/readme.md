@@ -42,6 +42,12 @@ for this setting.
   मानविय विवरण अनुसार प्रतिस्थापन गरिन्छ ।
 *	नेत्रवाणी+I: तपाइले चाहेको मुस्कान टास्ने पातो देखाउँछ ।
 
+## Changes for 3.0 ##
+
+* In the Customize emoticons dialog, it is now possible to specify that a
+  pattern should only match if it is a whole word, according to speech
+  dictionaries of NVDA 2014.4.
+
 
 ## Changes for 2.0 ##
 

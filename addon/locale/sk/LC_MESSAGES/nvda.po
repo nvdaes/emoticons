@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-19 18:53+0100\n"
-"PO-Revision-Date: 2014-05-29 14:43+0100\n"
+"PO-Revision-Date: 2014-10-28 19:02+0100\n"
 "Last-Translator: Ondrej Rosík <ondrej.rosik@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -136,9 +136,9 @@ msgstr "nahradiť s"
 msgid "case"
 msgstr "Rozlišovať malé a veľké písmená"
 
-#. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression or not.
-msgid "Regexp"
-msgstr "Regulárny výraz"
+#. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression, matches whole words, or matches anywhere.
+msgid "Type"
+msgstr ""
 
 #. Translators: a choice of Activateemoticons dialog.
 msgid "off"
@@ -301,19 +301,16 @@ msgid "Cat Smiley"
 msgstr "mačka"
 
 #. Translators: (-.-)ZZZ I�m Sleepy
-#, fuzzy
 msgid "I am Sleepy smiley"
 msgstr "ospalý"
 
 #. Translators: 8-) Glasses
-#, fuzzy
 msgid "glasses smiley"
-msgstr "áno"
+msgstr "úsmev s okuliarmi"
 
 #. Translators: (^^^) shark
-#, fuzzy
 msgid "shark smiley"
-msgstr "hviezda"
+msgstr "žralok"
 
 #. Translators:  (cash) Cash
 msgid "cash smiley"
@@ -530,10 +527,10 @@ msgstr "Emotikony"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#, fuzzy
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
-msgstr ""
-"Namiesto znakov popisuje emotikony slovne.\n"
-"Toto možno prepínať pomocou nvda+e."
+msgstr "Namiesto znakov popisuje emotikony slovne."
+
+#~ msgid "Regexp"
+#~ msgstr "Regulárny výraz"
