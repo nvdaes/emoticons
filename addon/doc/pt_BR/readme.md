@@ -43,11 +43,11 @@ para esta opção.
   substituídos pelas descrições amigáveis.
 *	NVDA+I: mostra um diálogo para selecionar uma cara que queira colar.
 
-## Changes for 3.0 ##
+## Mudanças na 3.0 ##
 
-* In the Customize emoticons dialog, it is now possible to specify that a
-  pattern should only match if it is a whole word, according to speech
-  dictionaries of NVDA 2014.4.
+* No diálogo Personalizar emoticons, agora é possível determinar que uma
+  expressão só deve valer se for uma palavra inteira, conforme os
+  dicionários de fala do NVDA 2014.4.
 
 
 ## Mudanças na 2.0 ##

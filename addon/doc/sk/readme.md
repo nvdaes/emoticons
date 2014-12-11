@@ -40,11 +40,11 @@ môžete určiť predvolené nastavenie do budúcnosti.
 *	NVDA+E: prepína medzi vyslovovaním znakov a popisov emotikonov.
 *	NVDA+I: zobrazí dialóg na vloženie požadovaného úsmevu.
 
-## Changes for 3.0 ##
+## Zmeny vo verzii 3.0 ##
 
-* In the Customize emoticons dialog, it is now possible to specify that a
-  pattern should only match if it is a whole word, according to speech
-  dictionaries of NVDA 2014.4.
+* v dialógu s nastavením emotikonov môžete odteraz určiť, či sa má reťazec
+  zmeniť len ak je ako celeé slovo, alebo v ľubovoľnom knotexte (rovnako ako
+  v rečových slovníkoch NVDA od verzie 2014.4).
 
 
 ## Zmeny vo verzii 2.0 ##

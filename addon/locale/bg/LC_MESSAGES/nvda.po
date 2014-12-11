@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 18:37+0100\n"
-"PO-Revision-Date: 2014-10-16 22:21+0200\n"
+"PO-Revision-Date: 2014-12-04 22:44+0200\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -139,7 +139,7 @@ msgstr "Знакочувствителност"
 
 #. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression, matches whole words, or matches anywhere.
 msgid "Type"
-msgstr ""
+msgstr "Тип"
 
 #. Translators: a choice of Activateemoticons dialog.
 msgid "off"

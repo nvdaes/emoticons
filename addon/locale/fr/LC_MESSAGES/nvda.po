@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Emoticons-1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 18:37+0100\n"
-"PO-Revision-Date: 2014-10-16 21:51+0100\n"
+"PO-Revision-Date: 2014-12-04 21:22+0100\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language: fr_FR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
 "X-Poedit-Basepath: .\n"
-"X-Generator: Poedit 1.6.8\n"
+"X-Generator: Poedit 1.6.10\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #. Translators: the label of a message box dialog.
@@ -142,7 +142,7 @@ msgstr "casse"
 
 #. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression, matches whole words, or matches anywhere.
 msgid "Type"
-msgstr ""
+msgstr "Tapez"
 
 #. Translators: a choice of Activateemoticons dialog.
 msgid "off"

@@ -44,11 +44,11 @@ axuste.
 *	NVDA+I: amosa un cadro de diálogo para seleccionar un emoticón que queras
   pegar.
 
-## Changes for 3.0 ##
+## Cambios para 3.0 ##
 
-* In the Customize emoticons dialog, it is now possible to specify that a
-  pattern should only match if it is a whole word, according to speech
-  dictionaries of NVDA 2014.4.
+* No diálogo Persoalizar emoticóns, agora é posible especificar que un
+  patrón só debería compararse se é unha palabra completo, de acordo cos
+  diccionarios da fala do NVDA 2014.4.
 
 
 ## Cambios para 2.0 ##
