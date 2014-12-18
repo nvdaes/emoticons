@@ -39,11 +39,11 @@ elmentésére.
 *	NVDA+E: Be és kikapcsolható a hangulatjel szöveges bemondása.
 *	NVDA+I: Megjeleníti a hangulatjel beszúrására szolgáló párbeszédablakot.
 
-## Changes for 3.0 ##
+## A 3.0 változásai ##
 
-* In the Customize emoticons dialog, it is now possible to specify that a
-  pattern should only match if it is a whole word, according to speech
-  dictionaries of NVDA 2014.4.
+* A hangulatjelek testreszabása párbeszédablakon lehetőség van egy kifejezés
+  egyezésének meghatározására, úgy mint a kivételszótár használata esetén az
+  NVDA 2014.4-ben.
 
 
 ## A 2.0 változásai ##
