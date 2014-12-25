@@ -4,8 +4,8 @@
 * تحميل [الإصدار النهائي][1]
 * تحميل [الإصدار التجريبي][2]
 
-Using this add-on, spoken text containing emoticon characters will be
-replaced by its more human friendly description.  86 emoticons are defined.
+تعمل هذه الإضافة على نطق الحروف التي تتشكل منها رموز المشاعر واستبدالها بوصف
+ذو معنى يستطيع فهمه المستخدم. وقد تم تعريف 86 رمز مشاعر.
 
 على سبيل المثال: سيتم نطق ":)" بالقول "ابتسامة", أو ":D" سيتم نطقها بالقول
 "ابتسامة عريضة"
@@ -25,9 +25,8 @@ replaced by its more human friendly description.  86 emoticons are defined.
 من قائمة NVDA ثم التفضيلات ثم إدارة الرموزتخصيص رمز مشاعر، يمكنك فتح محاورة الإعدادات لإضافة رمز أو تعديل رمز موجود.
 تسمح لك هذه المحاورة بحفظ معجم لنطق رموز المشاعر بما قمت به من تخصيص.
 
-Pressing "Save and export dictionary" button, a file dictionary named
-emoticons.dic will be saved in your user config folder, speechDicts
-subfolder.
+بالضغط على زر "حفظ وتصدير المعجم" سيتم حفظ ملف باسم emoticons.dic داخل مجلد
+إعدادات المستخدم ثم مجلد معاجم النطق المتفرع عنه.
 
 
 ## إعدادات التفعيل ##
@@ -42,21 +41,20 @@ subfolder.
 *	الضغط على مفتاح NVDA+I لإظهار قائمة برموز المشاعر لاختيار رمز معين
   لإلصاقه. 
 
-## Changes for 3.0 ##
+## مستجدات الإصدار 3.0 ##
 
-* In the Customize emoticons dialog, it is now possible to specify that a
-  pattern should only match if it is a whole word, according to speech
-  dictionaries of NVDA 2014.4.
+* أصبح من الممكن تخصيص نطق الكلمة الأصلية عندما تتطابق مع الكلمة البديلة,
+  طبقا لمعاجم النطق ب NVDA2014.4. بمحاورة تخصيص رموز المشاعر.
 
 
-## Changes for 2.0 ##
+## مستجدات الإصدار 2.0 ##
 
-* Add-on help is available from the Add-ons Manager.
+* توافر ملف المساعدة بمدير الإضافات البرمجية.
 
-## Changes for 1.1 ##
+## مستجدات الإصدار 1.1 ##
 
-* Removed duplicated emoticon.
-* Added some smileys.
+* حذف رموز المشاعر المكررة.
+* تمت إضافة المزيد من رموز المشاعر.
 
 ## مستجدات الإصدار 1.0 ##
 
