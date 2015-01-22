@@ -4,8 +4,9 @@
 * Pobierz [wersja stabilna][1]
 * Pobierz [wersja rozwojowa][2]
 
-Using this add-on, spoken text containing emoticon characters will be
-replaced by its more human friendly description.  86 emoticons are defined.
+Przy użyciu tego dodatku, wypowiadany tekst zawierający znaki emotikonów
+zostanie zastąpiony przez bardziej przyjazne opisy.  Zdefiniowane zostało 86
+emotikon.
 
 Dla przykładu: ":)" zostanie odczytane jako "Buzia uśmiech", albo ":D"
 zostanie przeczytane jako "Buzia śmiech"
@@ -25,9 +26,9 @@ Po naciśnięciu OK, znaki tworzące wybrany emotikon zostaną skopiowane do sch
 Z menu NVDA, możesz wybrać Ustawienia-> Zarządzaj emotikonami-> Dostosuj emotikony, aby otworzyć okno ustawień, umożliwiające dodawanie lub edycję dostępnych emotikon.
 To okno umożliwia zapisanie słownika wymowy emotikon zawierającego twoje dostosowania.
 
-Pressing "Save and export dictionary" button, a file dictionary named
-emoticons.dic will be saved in your user config folder, speechDicts
-subfolder.
+Naciśnij przycisk "Zapisz i eksportuj słownik", plik słownika o nazwie
+emoticons.dic zostanie zapisany w twoim folderze konfiguracji użytkownika,
+podfolderze speechDicts.
 
 
 ## Ustawienia aktywacji ##
@@ -42,21 +43,21 @@ ustawienia.
   emotikonami zastąpionymi przez opisy.
 *	NVDA+I: wyświetla okno dialogowe wyboru uśmieszku do wklejenia.
 
-## Changes for 3.0 ##
+## Zmiany dla wersji 3.0 ##
 
-* In the Customize emoticons dialog, it is now possible to specify that a
-  pattern should only match if it is a whole word, according to speech
-  dictionaries of NVDA 2014.4.
+* W oknie konfiguracji dodatku, , można teraz określić, że wzorzec powinien
+  pasować tylko, jeśli jest całym słowem, zgodnie ze słownikami mowy NVDA
+  2014.4.
 
 
-## Changes for 2.0 ##
+## Zmiany dla wersji 2.0 ##
 
-* Add-on help is available from the Add-ons Manager.
+* Pomoc dodatku dostępna w managerze dodatków.
 
-## Changes for 1.1 ##
+## Zmiany dla wersji 1.1 ##
 
-* Removed duplicated emoticon.
-* Added some smileys.
+* Usunięty powielony emotikon.
+* Dodano kilka buź.
 
 ## Zmiany dla wersji 1.0 ##
 

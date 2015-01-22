@@ -4,8 +4,9 @@
 * Download [stabiele versie][1]
 * Download [ontwikkelversie][2]
 
-Using this add-on, spoken text containing emoticon characters will be
-replaced by its more human friendly description.  86 emoticons are defined.
+Het gebruik van deze add-on zorgt ervoor dat emoticonkarakters in gesproken
+tekst worden vervangen door hun gebruiksvriendelijkere omschrijving. Er zijn
+86 emoticons gedefinieerd.
 
 Bijvoorbeeld: ":)" zal uitgesproken worden als "smiling smiley", of ":D" zal
 uitgesproken worden als "laughing smiley"
@@ -25,9 +26,9 @@ When you press OK, the characters for the chosen smiley will be copied to your c
 In het NVDA menu, Opties -> Emoticons beheren -> Emoticons personaliseren, kunt u beschikbare emoticons toevoegen of bewerken.
 Dit dialoogvenster laat u toe een emoticons uitspraakwoordenboek op te slaan met uw aanpassingen.
 
-Pressing "Save and export dictionary" button, a file dictionary named
-emoticons.dic will be saved in your user config folder, speechDicts
-subfolder.
+Als u op de knop "Woordenboek opslaan en exporteren" drukt, wordt een
+woordenboekbestand met de naam emoticons.dic opgeslagen in de speechDicts
+subfolder van uw gebruikersconfiguratiemap.
 
 
 ## Actievatie-instellingen ##
@@ -43,23 +44,23 @@ om uw keuze op te slaan voor deze instelling.
 *	NVDA+I: geeft een dialoogvenster weer waarin u een smiley kunt selecteren
   die u vervolgens kunt plakken.
 
-## Changes for 3.0 ##
+## Veranderingen in 3.0 ##
 
-* In the Customize emoticons dialog, it is now possible to specify that a
-  pattern should only match if it is a whole word, according to speech
-  dictionaries of NVDA 2014.4.
+* In het dialoogvenster Emoticons aanpassen is het nu mogelijk om een
+  patroon alleen toe te passen bij hele woorden, zoals sinds NVDA 2014.4 ook
+  mogelijk is bij uitspraakwoordenboeken.
 
 
-## Changes for 2.0 ##
+## Veranderingen in 2.0 ##
 
-* Add-on help is available from the Add-ons Manager.
+* Addon-help is beschikbaar via Add-ons beheren
 
-## Changes for 1.1 ##
+## Veranderingen in 1.1 ##
 
-* Removed duplicated emoticon.
+* Dubbel aanwezige emoticon verwijderd.
 * Enkele smileys toegevoegd.
 
-## Veranderingen voor 1.0 ##
+## Veranderingen in 1.0 ##
 
 * Eerste versie.
 
