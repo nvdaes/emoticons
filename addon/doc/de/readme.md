@@ -15,6 +15,9 @@ Folgende Features:
 ## Smiley einfügen ##
 
 Wenn Sie sich nicht sicher sind, welche Zeichen welches Smiley ist, können Sie auch diese auswählen und direkt in Ihrem Text einfügen.
+Drücken Sie NVDA+i oder gehen Sie im NVDA-Menü in Einstellungen, Emoticons und auf Smiley einfügen. 
+Um einen Dialog mit Smileys zu öffnen.
+Wenn Sie auf ok klicken, befinden sich die Zeichen des gewählten Smileys in der Zwischenablage.
 
 
 ## Benutzerdefinierte Emoticons ##
@@ -40,11 +43,11 @@ für diese Einstellung speichern.
 *	NVDA+I: Zeigt ein Dialogfeld an, aus dem Sie ein Smiley zum Einfügen
   auswählen können.
 
-## Changes for 3.0 ##
+## Änderungen in 3.0 ##
 
-* In the Customize emoticons dialog, it is now possible to specify that a
-  pattern should only match if it is a whole word, according to speech
-  dictionaries of NVDA 2014.4.
+* Im Dialog Smileys verwalten kann nun festgelegt werden, dass ein Muster
+  nur gültig ist, wenn es ein ganzes Wort ist. Vergleichbar mit
+  deAussprache-Wörterbüchern von NVDA 2014.4.
 
 
 ## Änderungen in 2.0 ##
