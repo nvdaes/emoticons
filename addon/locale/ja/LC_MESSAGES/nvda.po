@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 3.1\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2015-01-30 05:00+1000\n"
-"PO-Revision-Date: 2015-01-31 21:07+0900\n"
+"PO-Revision-Date: 2015-03-25 13:02+0900\n"
 "Last-Translator: Takuya Nishimoto <nishimotz@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -87,7 +87,7 @@ msgstr "エモーティコン無効"
 
 #. Translators: message presented when the dictionary for emoticons is loaded.
 msgid "Emoticons on."
-msgstr "エモーティコン無効"
+msgstr "エモーティコン有効"
 
 #. Translators: Message presented in input help mode.
 msgid "Toggles on and off the announcement of emoticons."
