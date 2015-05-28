@@ -8,348 +8,349 @@ msgstr ""
 "Project-Id-Version: emoticons 2.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2014-10-17 05:00+1000\n"
-"PO-Revision-Date: 2014-12-11 18:26+0100\n"
-"Last-Translator: nikola jovic <wwenikola123@gmail.com>\n"
+"PO-Revision-Date: 2015-05-23 01:23+0100\n"
+"Last-Translator: Danijela Popovic <vlajna95@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.1\n"
+"X-Generator: Poedit 1.6.3\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
 "You have installed the Emoticons add-on, probably an old and incompatible "
 "version with this one. Do you want to uninstall the old version?"
 msgstr ""
-"instalirali ste staru ili ne kompatibilnu verziju ovog dodatka зелите ли да "
-"је деинсталирате"
+"Instalirali ste staru ili nekompatibilnu verziju ovog dodatka. Želite li da "
+"je deinstalirate?"
 
 #. Translators: the title of a message box dialog.
 msgid "Uninstall incompatible add-on"
-msgstr "деинсталирај некомпатибилни додатак"
+msgstr "Deinstaliraj nekompatibilni dodatak"
 
 #. Translators: the label of a message box dialog.
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them?"
 msgstr ""
-"имате претходна сачувана подешавања за овај додатак зелите ли да их пренесете"
+"Imate prethodno sačuvana podešavanja za ovaj dodatak. Želite li da ih "
+"prenesete?"
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
-msgstr "пренеси подешавања за овај додатак"
+msgstr "Uvezi podešavanja za ovaj dodatak"
 
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 #, python-format
 msgid "Emoticon: %s"
-msgstr "емотикон %s"
+msgstr "emotikon %s"
 
 #. Translators: the name of addon submenu.
 msgid "Manage emoticons"
-msgstr "управљај емотиконима"
+msgstr "Upravljaj emotikonima"
 
 #. Translators: the tooltip text for addon submenu.
 msgid "Emoticons menu"
-msgstr "мени емотикона"
+msgstr "Meni emotikona"
 
 #. Translators: the name for an item of addon submenu.
 msgid "&Insert smiley..."
-msgstr "& убаци смешак"
+msgstr "Ubaci smajli..."
 
 #. Translators: the tooltip text for an item of addon submenu.
 msgid "Shows a dialog to insert a smiley"
-msgstr "приказује дијалог за убациванје смешака"
+msgstr "Prikazuje dijalog za ubacivanje smajlija"
 
 #. Translators: the name for an item of addon submenu.
 msgid "&Customize emoticons..."
-msgstr "& прилагођавање емотикона"
+msgstr "&Prilagođavanje emotikona..."
 
 #. Translators: the tooltip text for an item of addon submenu.
 msgid "Shows a dictionary dialog to customize emoticons"
-msgstr "приказује дијалог речника за прилагођавање емотикона"
+msgstr "Prikazuje dijalog rečnika za prilagođavanje emotikona"
 
 #. Translators: the name for an item of addon submenu.
 msgid "&Activation settings..."
-msgstr "& подешавања активације "
+msgstr "Podešavanja &aktivacije..."
 
 #. Translators: the tooltip text for an item of addon submenu.
 msgid "Shows a dialog to choose when emoticons speaking should be activated"
-msgstr "приказује дијалог  за одабир када се емотикони изговарају"
+msgstr "Prikazuje dijalog za odabir kada se emotikoni izgovaraju"
 
 msgid "Emoticons dictionary"
-msgstr "речник за емотиконе"
+msgstr "Rečnik emotikona"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
-msgstr "емотикони искључени"
+msgstr "Emotikoni isključeni"
 
 #. Translators: message presented when the dictionary for emoticons is loaded.
 msgid "Emoticons on."
-msgstr "емотикони укључени"
+msgstr "Emotikoni uključeni"
 
 #. Translators: Message presented in input help mode.
 msgid "Toggles on and off the announcement of emoticons."
-msgstr "искључује и укључује изговор емотикона"
+msgstr "Isključuje i uključuje izgovor emotikona"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
-msgstr "приказује дијалог за одабир смешка за лепљење"
+msgstr "Prikazuje dijalog za odabir smajlija za nalepljivanje"
 
 #. Translators: This is the label for the InsertEmoticon dialog.
 msgid "Insert emoticon"
-msgstr "убаци емотикон"
+msgstr "Ubaci emotikon"
 
 #. Translators: The label for a setting in Insert emoticons to select a smiley.
 msgid "Available emoticons"
-msgstr "доступни емотикони"
+msgstr "Dostupni emotikoni"
 
 #. Translators: A combo box to choose a smiley.
 msgid "Available smileys to insert:"
-msgstr "доступни смешци за убацивање"
+msgstr "Dostupni smajliji za ubacivanje:"
 
 #. Translators: This is the message when smiley has been copied to the clipboard.
 msgid "Smiley copied to clipboard, ready for you to paste."
-msgstr "смешак копиран у привремену меморију спреман за лепљење"
+msgstr "Smajli kopiran u privremenu memoriju; spreman za nalepljivanje."
 
 msgid "Cannot copy smiley."
-msgstr "немогу да копирам смешак"
+msgstr "Nije moguće kopirati smajli."
 
 #. Translators: The label for the combo box of dictionary entries in speech dictionary dialog.
 msgid "&Dictionary entries"
-msgstr "& уноси у речнику"
+msgstr "Unosi u &rečniku"
 
 #. Translators: The label for a column in dictionary entries list used to identify comments for the entry.
 msgid "Comment"
-msgstr "коментар"
+msgstr "Komentar"
 
 #. Translators: The label for a column in dictionary entries list used to identify pattern (original word or a pattern).
 msgid "Pattern"
-msgstr "забринут"
+msgstr "Tekst"
 
 #. Translators: The label for a column in dictionary entries list and in a list of symbols from symbol pronunciation dialog used to identify replacement for a pattern or a symbol
 msgid "Replacement"
-msgstr "замењен"
+msgstr "Zamena"
 
 #. Translators: The label for a column in dictionary entries list used to identify whether the entry is case sensitive or not.
 msgid "case"
-msgstr "словни"
+msgstr "Veličina slova"
 
 #. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression, matches whole words, or matches anywhere.
 msgid "Type"
-msgstr "тип"
+msgstr "Tip"
 
 #. Translators: a choice of Activateemoticons dialog.
 msgid "off"
-msgstr "искључен"
+msgstr "isključen"
 
 msgid "on"
-msgstr "укључен"
+msgstr "uključen"
 
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
 msgid "&Add"
-msgstr "& додај"
+msgstr "&Dodaj"
 
 #. Translators: The label for a button in speech dictionaries dialog to edit existing entries.
 msgid "&Edit"
-msgstr "& уреди"
+msgstr "&Izmeni"
 
 msgid "&Remove"
-msgstr "& уклони"
+msgstr "&Ukloni"
 
 msgid "Rese&t"
-msgstr "ресе&туј"
+msgstr "Rese&tuj"
 
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
 msgid "Save and e&xport dictionary"
-msgstr "сачувај и п&ренеси речник"
+msgstr "Sačuvaj i &prenesi rečnik"
 
 #. Translators: this is the label for the Emoticons activate dialog.
 msgid "Activation settings"
-msgstr "подешавања активације"
+msgstr "Podešavanja aktivacije"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 msgid "&Activate speaking of emoticons at start:"
-msgstr "& активирај изговор емотикона при стартовању"
+msgstr "Aktiviraj izgovor emotikona pri pokretanju"
 
 #. Translators: a choice of Activateemoticons dialog.
 msgid "On"
-msgstr "укључен"
+msgstr "Uključen"
 
 #. Translators: a combo box in Emoticons dialog.
 msgid "Activate at start"
-msgstr "активирај при покретању"
+msgstr "Aktiviraj pri pokretanju"
 
 #. Translators: The label for a setting in Activate emoticons dialog to copy activation settings.
 msgid "&Copy activation settings"
-msgstr "& копирај подешавања активације"
+msgstr "&Kopiraj podešavanja aktivacije"
 
 #. Translators: :) Smile
 msgid "smiling smiley"
-msgstr "смешак"
+msgstr "Osmeh"
 
 #. Translators: :( Sad
 msgid "sad smiley"
-msgstr "тужан"
+msgstr "Tužan"
 
 #. Translators: :D Laugh
 msgid "Laughing smiley"
-msgstr "лаугхинг"
+msgstr "Veliki osmeh"
 
 #. Translators: :O Surprised
 msgid "surprised smiley"
-msgstr "изненађен"
+msgstr "Iznenađen"
 
 #. Translators: ;) Wink;
 msgid "winking smiley"
-msgstr "уморан"
+msgstr "Namiguje"
 
 #. Translators: ;( Crying
 msgid "crying smiley"
-msgstr "уплакан"
+msgstr "Plačljivko"
 
 #. Translators: (:| Sweating
 msgid "sweating smiley"
-msgstr "сладак"
+msgstr "Preznojava se"
 
 #. translators:  :|] Robot (a robot head)
 msgid "Robot Smiley"
-msgstr "робот"
+msgstr "Robot"
 
 #. Translators: :| Speechless
 msgid "speechless smiley"
-msgstr "причљив"
+msgstr "Bez reči"
 
 #. Translators: :* Kiss
 msgid "kiss smiley"
-msgstr "пољубац"
+msgstr "Poljubac"
 
 #. Translators: :P Cheeky
 msgid "cheeky smiley"
-msgstr "цхееки"
+msgstr "Plezi se"
 
 #. Translators: :$ Blushing
 msgid "blushing smiley"
-msgstr "блусхинг"
+msgstr "Pocrveneo"
 
 #. Translators: :^) Wondering
 msgid "wondering smiley"
-msgstr "радознао"
+msgstr "Zapitan"
 
 #. Translators: |-) Sleepy
 msgid "sleepy smiley"
-msgstr "поспан"
+msgstr "Pospan"
 
 #. Translators: |-( Dull
 msgid "dull smiley"
-msgstr "дулл"
+msgstr "Dosadno"
 
 #. Translators: :x My lips are sealed
 msgid "my lips are sealed smiley"
-msgstr "глуп"
+msgstr "Usta su mi zapečaćena"
 
 #. Translators: \o/ Dancing
 msgid "dancing smiley"
-msgstr "плес"
+msgstr "Pleše"
 
 #. Translators: :'( crying a lot smiley
 msgid "crying a lot smiley"
-msgstr "плаче пуно"
+msgstr "Plačljivko"
 
 #. Translators: >:( Angry
 #. Translators: (angry) Angry
 msgid "angry smiley"
-msgstr "љут"
+msgstr "Ljut"
 
 #. Translators: :/ Worried
 #. Translators: (worry) Worried
 msgid "worried smiley"
-msgstr "забринут"
+msgstr "Zabrinut"
 
 #. Translators: <3 Heart
 #. Translators: (heart) Heart
 msgid "heart smiley"
-msgstr "чуо"
+msgstr "Srce"
 
 #. Translators:  O:)  O:-) Angel
 msgid "Angel Smiley"
-msgstr "англе"
+msgstr "Anđeo"
 
 #. Translators:  O.o  o.O  Confused
 msgid "Confused Smiley"
-msgstr "збуњен"
+msgstr "Zbunjen"
 
 #. Translators:   3:-) Devil
 msgid "Devil Smiley"
-msgstr "зао"
+msgstr "Đavo"
 
 #. Translators:  ^_^ Keke (This smiley is inspired by the Asian style, which is a happy face.)
 msgid "Keke Smiley"
-msgstr "кеке"
+msgstr "Keke"
 
 #. Translators: -_- Bored (This smiley face has its eyes closed and is sporting a very small grin.)
 msgid "Bored smiley"
-msgstr "борет"
+msgstr "Smoren"
 
 #. Translators:  >:O  Upset, angry or shouting...
 msgid "Angry Smiley"
-msgstr "љут"
+msgstr "Ljut"
 
 #. Translators:  :3  Cat (Cat faced smiley with curly lips)
 msgid "Cat Smiley"
-msgstr "мачка"
+msgstr "Mačka"
 
 #. Translators: (-.-)ZZZ I�m Sleepy
 msgid "I am Sleepy smiley"
-msgstr "ја сам поспан"
+msgstr "Spava mi se"
 
 #. Translators: 8-) Glasses
 msgid "glasses smiley"
-msgstr "глассес"
+msgstr "Naočare"
 
 #. Translators: (^^^) shark
 msgid "shark smiley"
-msgstr "схарк"
+msgstr "Ajkula"
 
 #. Translators:  (cash) Cash
 msgid "cash smiley"
-msgstr "цасх"
+msgstr "Keš"
 
 #. Translators: (flex) Muscle
 msgid "muscle smiley"
-msgstr "мусцле"
+msgstr "Snaga"
 
 #. Translators: (beer) Beer
 msgid "beer smiley"
-msgstr "пиво"
+msgstr "Pivo"
 
 #. Translators: (d) Drink
 msgid "drink smiley"
-msgstr "пиће"
+msgstr "Piće"
 
 #. Translators: (ninja) Ninja
 msgid "ninja smiley"
-msgstr "ниндза"
+msgstr "Nindža"
 
 #. Translators: (cool) Cool
 msgid "cool smiley"
-msgstr "кул"
+msgstr "Kul"
 
 #. Translators: (inlove) In Love
 msgid "in love smiley"
-msgstr "заљубљен"
+msgstr "Zaljubljen"
 
 #. Translators: (yn) Fingers crossed
 msgid "fingers crossed smiley"
-msgstr "скупљени прсти"
+msgstr "Prepleteni prsti"
 
 #. Translators: (yawn) Yawn
 msgid "yawning smiley"
-msgstr "јавнинг"
+msgstr "Zeva"
 
 #. Translators: (puke) Puking
 msgid "puking smiley"
-msgstr "пукинг"
+msgstr "Povraća"
 
 #. Translators: (doh) Doh!
 msgid "doh! smiley"
@@ -357,179 +358,179 @@ msgstr "дох"
 
 #. Translators: (wasntme) It wasn't me!
 msgid "it wasn't me! smiley"
-msgstr "то нисам био ја"
+msgstr "Nisam ja!"
 
 #. Translators: (party) Party
 msgid "party smiley"
-msgstr "журка"
+msgstr "Žurka"
 
 #. Translators: (mm) Mmmm...
 msgid "mmmmmm... smiley"
-msgstr "мммммммммммммммммммммммммм"
+msgstr "Mmmmm..."
 
 #. Translators: (nerd) Nerdy
 msgid "nerdy smiley"
-msgstr "ммммм..."
+msgstr "Nerdy"
 
 #. Translators: (wave) Hi
 msgid "hi smiley"
-msgstr "ћао"
+msgstr "Ćao"
 
 #. Translators: (facepalm) Facepalm
 msgid "facepalm smiley"
-msgstr "фацепалм"
+msgstr "Facepalm"
 
 #. Translators: (devil) Devil
 msgid "devil smiley"
-msgstr "зао"
+msgstr "Đavo"
 
 #. Translators: (angel) Angel
 msgid "angel smiley"
-msgstr "ангел"
+msgstr "Anđeo"
 
 #. Translators: (envy) Envy
 msgid "envy smiley"
-msgstr "енви"
+msgstr "Envy"
 
 #. Translators: (wait) Wait
 msgid "wait smiley"
-msgstr "чекај"
+msgstr "Čekaj"
 
 #. Translators: (hug) Hug
 msgid "hug smiley"
-msgstr "хук"
+msgstr "Zagrljaj"
 
 #. Translators: (makeup) Make-up
 msgid "make-up smiley"
-msgstr "макеуп"
+msgstr "Šminka"
 
 #. Translators: (chuckle) Giggle
 msgid "giggle smiley"
-msgstr "гиггле"
+msgstr "Kikot"
 
 #. Translators: (clap) Clapping
 msgid "clapping smiley"
-msgstr "пуца"
+msgstr "Aplauz"
 
 #. Translators: (think) Thinking
 msgid "thinking smiley"
-msgstr "замишљен"
+msgstr "Zamišljen"
 
 #. Translators: (bow) Bowing
 msgid "bowing smiley"
-msgstr "бовинг"
+msgstr "Poklanja se"
 
 #. Translators: (rofl) Rolling on the floor laughing
 msgid "rolling on the floor laughing! smiley"
-msgstr "пао  на под и плаче"
+msgstr "Valja se od smeha"
 
 #. Translators: (whew) Relieved
 msgid "relieved smiley"
-msgstr "оживљен"
+msgstr "Olakšanje"
 
 #. Translators: (happy) Happy
 msgid "happy smiley"
-msgstr "срећан"
+msgstr "Srećan"
 
 #. Translators: (smirk) Smirking
 msgid "smirking smiley"
-msgstr "смиркинг"
+msgstr "Zlobni osmeh"
 
 #. Translators: (nod) Nodding
 msgid "nodding smiley"
-msgstr "ноддинг"
+msgstr "Klimanje glavom"
 
 #. Translators: (shake) Shake
 msgid "shakeing smiley"
-msgstr "тресе"
+msgstr "Mahanje"
 
 #. Translators: (waiting) Waiting
 msgid "waiting smiley"
-msgstr "чека"
+msgstr "Čekam"
 
 #. Translators: (emo) Emo;
 msgid "Emo smiley"
-msgstr "емо"
+msgstr "Emo"
 
 #. Translators: (y) Yes
 msgid "yes smiley"
-msgstr "да"
+msgstr "Da"
 
 #. Translators: (n) no;
 msgid "no smiley"
-msgstr "не"
+msgstr "Ne"
 
 #. Translators: (handshake) Handshake
 msgid "handshake smiley"
-msgstr "руковање"
+msgstr "Rukovanje"
 
 #. Translators: (highfive) High five
 msgid "high five smiley"
-msgstr "висока петица"
+msgstr "Baci kosku"
 
 #. Translators: (lalala) Lalala;
 msgid "lalala smiley"
-msgstr "лалала"
+msgstr "lalala"
 
 #. Translators: (heidy) Heidy;
 msgid "heidy smiley"
-msgstr "хеј "
+msgstr "Hajdi"
 
 #. Translators: (F) Flower
 msgid "flower smiley"
-msgstr "цвеће"
+msgstr "Cvet"
 
 #. Translators: (rain) Raining
 msgid "raining smiley"
-msgstr "киша"
+msgstr "Kiša"
 
 #. Translators: (sun) Sun
 msgid "sunny smiley"
-msgstr "сунце"
+msgstr "Sunce"
 
 #. Translators: (tumbleweed) Tumbleweed
 msgid "tumbleweed smiley"
-msgstr "олуја"
+msgstr "Oluja"
 
 #. Translators: (music) Music
 msgid "music smiley"
-msgstr "музика"
+msgstr "Muzika"
 
 #. Translators: (bandit) Bandit
 msgid "bandit smiley"
-msgstr "бенд"
+msgstr "Bandit"
 
 #. Translators: (tmi) Too much information
 msgid "too much information smiley"
-msgstr "превише информација"
+msgstr "Previše informacija"
 
 #. Translators: (coffee) Coffee
 msgid "coffee smiley"
-msgstr "кафа"
+msgstr "Kafa"
 
 #. Translators: (pi) Pizza
 msgid "pizza smiley"
-msgstr "пица"
+msgstr "Pica"
 
 #. Translators: (^) Cake
 msgid "cake smiley"
-msgstr "цаке"
+msgstr "Torta"
 
 #. Translators: (*) Star
 msgid "star smiley"
-msgstr "звезда"
+msgstr "Zvezda"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Emoticons"
-msgstr "емотикони"
+msgstr "Emotikoni"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
-msgstr "омогућава изговор имена емотикона"
+msgstr "Omogućava izgovor naziva emotikona umesto teksta koji ga predstavlja"
 
 #~ msgid "Regexp"
 #~ msgstr "регеxp"
