@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-19 18:53+0100\n"
-"PO-Revision-Date: 2014-12-13 11:43+0100\n"
+"PO-Revision-Date: 2015-06-20 10:53+0100\n"
 "Last-Translator: Jorge Pérez Pérez <jorgtum@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: an\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.1\n"
+"X-Generator: Poedit 1.8\n"
+"Language-Team: \n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -529,14 +529,12 @@ msgstr "Emoticons"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#, fuzzy
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
 msgstr ""
 "Enchega l'anunciau d'os nombres d'os emoticons en cuenta d'a representación "
-"de caracters.\n"
-"Preta NVDA+E ta cambiar-lo."
+"de caracters."
 
 #~ msgid "Regexp"
 #~ msgstr "Expresión regular"
