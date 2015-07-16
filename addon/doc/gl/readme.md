@@ -47,7 +47,7 @@ axuste.
 ## Cambios para 3.0 ##
 
 * No diálogo Persoalizar emoticóns, agora é posible especificar que un
-  patrón só debería compararse se é unha palabra completo, de acordo cos
+  patrón só debería compararse se é unha palabra completa, de acordo cos
   diccionarios da fala do NVDA 2014.4.
 
 
