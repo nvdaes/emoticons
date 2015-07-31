@@ -138,7 +138,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	script_toggleSpeakingEmoticons.__doc__ = _("Toggles on and off the announcement of emoticons.")
 
 	def script_insertEmoticon(self, gesture):
-		self.onInsertEmoticonDialog(None)
+		wx.CallAfter(self.onInsertEmoticonDialog, None)
 	script_insertEmoticon.category = SCRCAT_TOOLS
 	# Translators: Message presented in input help mode.
 	script_insertEmoticon.__doc__ = _("Shows a dialog to select a smiley you want to paste.")
