@@ -44,6 +44,13 @@ la elección de esta opción.
 *	NVDA+I: muestra un cuadro de diálogo para seleccionar un emoticono que
   quieras pegar.
 
+
+## Cambios para 4.0 ##
+
+* Si el diálogo Insertar emoticono está abierto cuando esté activo otro
+  diálogo de opciones, NVDA mostrará el mensaje de error correspondiente.
+
+
 ## Cambios para 3.0 ##
 
 * En el diálogo Personalizar emoticonos, ahora es posible especificar que un
@@ -55,6 +62,7 @@ la elección de esta opción.
 
 * La ayuda del complemento está disponible en el Administrador de
   Complementos.
+
 
 ## Cambios para 1.1 ##
 

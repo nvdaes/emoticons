@@ -43,6 +43,13 @@ ustawienia.
   emotikonami zastąpionymi przez opisy.
 *	NVDA+I: wyświetla okno dialogowe wyboru uśmieszku do wklejenia.
 
+
+## Changes for 4.0 ##
+
+* If the Insert smiley dialog is opened when another settings dialog is
+  active, NVDA will show the corresponding error message.
+
+
 ## Zmiany dla wersji 3.0 ##
 
 * W oknie konfiguracji dodatku, , można teraz określić, że wzorzec powinien
@@ -53,6 +60,7 @@ ustawienia.
 ## Zmiany dla wersji 2.0 ##
 
 * Pomoc dodatku dostępna w managerze dodatków.
+
 
 ## Zmiany dla wersji 1.1 ##
 

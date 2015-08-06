@@ -42,6 +42,13 @@ postavku.
 *	NVDA+I: Prikazuje dijaloški okvir u kojem  odabirete lijepljenje emotikona
   za chat ili bilo koji drugi tekstualni okvir.
 
+
+## Changes for 4.0 ##
+
+* If the Insert smiley dialog is opened when another settings dialog is
+  active, NVDA will show the corresponding error message.
+
+
 ## Promjene u inačici 3.0 ##
 
 * U dijaloškom okviru prilagodi emotikone, sada je moguće postaviti da se
@@ -52,6 +59,7 @@ postavku.
 ## izmjene u inačici 2.0 ##
 
 * Pomoć dodatka je dostupna iz upravitelja dodataka.
+
 
 ## Izmjene u inačici 1.1 ##
 

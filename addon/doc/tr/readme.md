@@ -44,6 +44,13 @@ seçiminizi kalıcı olarak kaydetmek mümkündür.
 *	NVDA + I: yapıştırmak istediğiniz bir ifade seçmek için bir iletişim
   kutusu açar.
 
+
+## Changes for 4.0 ##
+
+* If the Insert smiley dialog is opened when another settings dialog is
+  active, NVDA will show the corresponding error message.
+
+
 ## 3.0 için değişiklikler ##
 
 * In the Customize emoticons dialog, it is now possible to specify that a
@@ -54,6 +61,7 @@ seçiminizi kalıcı olarak kaydetmek mümkündür.
 ## 2.0 için değişiklikler ##
 
 * Eklenti yardımına Eklenti Yöneticisi altından ulaşılabilir.
+
 
 ## 1.1 için değişiklikler ##
 

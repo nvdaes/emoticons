@@ -38,6 +38,13 @@ subfolder.
 *	NVDA加E：在直接读取元字符和使用有好的字符描述之间切换。
 *	NVDA加I:显示一个对话框，让您选择需要粘贴的表情。
 
+
+## Changes for 4.0 ##
+
+* If the Insert smiley dialog is opened when another settings dialog is
+  active, NVDA will show the corresponding error message.
+
+
 ## Changes for 3.0 ##
 
 * In the Customize emoticons dialog, it is now possible to specify that a
@@ -48,6 +55,7 @@ subfolder.
 ## Changes for 2.0 ##
 
 * Add-on help is available from the Add-ons Manager.
+
 
 ## Changes for 1.1 ##
 

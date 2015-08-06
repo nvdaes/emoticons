@@ -43,6 +43,13 @@ d'ista opción.
 *	NVDA+I: Amuestra un quadro de dialogo pa trigar un emoticón que quieras
   apegar.
 
+
+## Changes for 4.0 ##
+
+* If the Insert smiley dialog is opened when another settings dialog is
+  active, NVDA will show the corresponding error message.
+
+
 ## Changes for 3.0 ##
 
 * In the Customize emoticons dialog, it is now possible to specify that a
@@ -53,6 +60,7 @@ d'ista opción.
 ## Changes for 2.0 ##
 
 * Add-on help is available from the Add-ons Manager.
+
 
 ## Changes for 1.1 ##
 

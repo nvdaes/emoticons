@@ -40,6 +40,13 @@ môžete určiť predvolené nastavenie do budúcnosti.
 *	NVDA+E: prepína medzi vyslovovaním znakov a popisov emotikonov.
 *	NVDA+I: zobrazí dialóg na vloženie požadovaného úsmevu.
 
+
+## Changes for 4.0 ##
+
+* If the Insert smiley dialog is opened when another settings dialog is
+  active, NVDA will show the corresponding error message.
+
+
 ## Zmeny vo verzii 3.0 ##
 
 * v dialógu s nastavením emotikonov môžete odteraz určiť, či sa má reťazec
@@ -50,6 +57,7 @@ môžete určiť predvolené nastavenie do budúcnosti.
 ## Zmeny vo verzii 2.0 ##
 
 * Návod k doplnku môžete nájsť v správcovi doplnkov.
+
 
 ## Zmeny vo verzii 1.1 ##
 

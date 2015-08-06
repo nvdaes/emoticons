@@ -8,19 +8,19 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-19 18:53+0100\n"
-"PO-Revision-Date: 2014-10-17 12:34+0545\n"
-"Last-Translator: Him Prasad Gautam <drishtibachak@gmail.com>\n"
+"PO-Revision-Date: 2015-07-31 18:12+0545\n"
+"Last-Translator: drishtibachak@gmail.com\n"
 "Language-Team: LANGUAGE <drishtibachak@gmail.com>\n"
 "Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.1\n"
+"X-Generator: Poedit 1.8.2\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
-"You have installed the Emoticons add-on, probably an old and incompatible "
-"version with this one. Do you want to uninstall the old version?"
+"You have installed the Emoticons add-on, probably an old and incompatible version "
+"with this one. Do you want to uninstall the old version?"
 msgstr "यो इमोटिकन सित नमिल्ने वा पुरानो उपकर्मी भित्र्याएको रहेछ ।"
 
 #. Translators: the title of a message box dialog.
@@ -29,11 +29,10 @@ msgstr "नमिल्दो उपकर्मीलाई हटाउनु 
 
 #. Translators: the label of a message box dialog.
 msgid ""
-"You seem to have previous settings saved for this add-on. Do you want to "
-"import them?"
+"You seem to have previous settings saved for this add-on. Do you want to import "
+"them?"
 msgstr ""
-"तपाइले यो उपकर्मीको अनुकूलनलाई पहिले नै बचत गर्नु भएको छ । के तपाइ यसलाई आयात गर्न "
-"चाहनु हुन्छ ।"
+"तपाइले यो उपकर्मीको अनुकूलनलाई पहिले नै बचत गर्नु भएको छ । के तपाइ यसलाई आयात गर्न चाहनु हुन्छ ।"
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
@@ -136,7 +135,7 @@ msgstr "श्रेणी"
 
 #. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression, matches whole words, or matches anywhere.
 msgid "Type"
-msgstr ""
+msgstr "किसिम"
 
 #. Translators: a choice of Activateemoticons dialog.
 msgid "off"
@@ -526,8 +525,7 @@ msgstr "इमोटिकन"
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
-"Enables the announcement of emoticon names instead of the character "
-"Representation."
+"Enables the announcement of emoticon names instead of the character Representation."
 msgstr "ईमोटिकन वर्णको सट्टा नामको  घोषणालाइ  योग्य बनाउँछ ।"
 
 #~ msgid "Regexp"

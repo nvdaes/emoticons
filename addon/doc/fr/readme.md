@@ -44,6 +44,14 @@ possible d'enregistrer votre choix pour ce paramètre.
 *	NVDA+I: affiche une boîte de dialogue pour choisir la frimousse que vous
   souhaitez coller.
 
+
+## Changements pour la version 4.0 ##
+
+* Si la boîte de dialogue Insérer une frimousse est ouverte lorsqu'une autre
+  boîte de dialogue de paramètres est actif, NVDA affichera le message
+  d'erreur correspondant.
+
+
 ## Changements pour la version 3.0 ##
 
 * Dans la boîte de dialogue Personnaliser les frimousses, il est maintenant
@@ -55,6 +63,7 @@ possible d'enregistrer votre choix pour ce paramètre.
 
 * L'aide du module complémentaire est disponible à partir du Gestionnaire de
   modules complémentaires.
+
 
 ## Changements pour la version 1.1 ##
 

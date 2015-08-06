@@ -44,6 +44,13 @@ om uw keuze op te slaan voor deze instelling.
 *	NVDA+I: geeft een dialoogvenster weer waarin u een smiley kunt selecteren
   die u vervolgens kunt plakken.
 
+
+## Changes for 4.0 ##
+
+* If the Insert smiley dialog is opened when another settings dialog is
+  active, NVDA will show the corresponding error message.
+
+
 ## Veranderingen in 3.0 ##
 
 * In het dialoogvenster Emoticons aanpassen is het nu mogelijk om een
@@ -54,6 +61,7 @@ om uw keuze op te slaan voor deze instelling.
 ## Veranderingen in 2.0 ##
 
 * Addon-help is beschikbaar via Add-ons beheren
+
 
 ## Veranderingen in 1.1 ##
 

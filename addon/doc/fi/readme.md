@@ -42,6 +42,13 @@ on myös mahdollista tallentaa.
 *	NVDA+I: näyttää valintaikkunan, josta voit valita tekstiin liitettävän
   hymiön.
 
+
+## Muutokset versiossa 4.0 ##
+
+* Jos Lisää hymiö -valintaikkuna avataan, kun toinen asetusvalintaikkuna on
+  aktiivisena, NVDA näyttää virheilmoituksen.
+
+
 ## Muutokset versiossa 3.0 ##
 
 * Mukauta hymiöitä -valintaikkunassa on nyt mahdollista määrittää, että
@@ -52,6 +59,7 @@ on myös mahdollista tallentaa.
 ## Muutokset versiossa 2.0 ##
 
 * Ohje on käytettävissä Lisäosien hallinnasta.
+
 
 ## Muutokset versiossa 1.1 ##
 

@@ -41,6 +41,13 @@
 *	الضغط على مفتاح NVDA+I لإظهار قائمة برموز المشاعر لاختيار رمز معين
   لإلصاقه. 
 
+
+## Changes for 4.0 ##
+
+* If the Insert smiley dialog is opened when another settings dialog is
+  active, NVDA will show the corresponding error message.
+
+
 ## مستجدات الإصدار 3.0 ##
 
 * أصبح من الممكن تخصيص نطق الكلمة الأصلية عندما تتطابق مع الكلمة البديلة,
@@ -50,6 +57,7 @@
 ## مستجدات الإصدار 2.0 ##
 
 * توافر ملف المساعدة بمدير الإضافات البرمجية.
+
 
 ## مستجدات الإصدار 1.1 ##
 

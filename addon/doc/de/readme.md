@@ -43,6 +43,13 @@ für diese Einstellung speichern.
 *	NVDA+I: Zeigt ein Dialogfeld an, aus dem Sie ein Smiley zum Einfügen
   auswählen können.
 
+
+## Changes for 4.0 ##
+
+* If the Insert smiley dialog is opened when another settings dialog is
+  active, NVDA will show the corresponding error message.
+
+
 ## Änderungen in 3.0 ##
 
 * Im Dialog Smileys verwalten kann nun festgelegt werden, dass ein Muster
@@ -54,6 +61,7 @@ für diese Einstellung speichern.
 
 * Eine Hilfe für diese Erweiterung ist in der Erweiterungsverwaltung
   verfügbar.
+
 
 ## Änderungen in 1.1 ##
 

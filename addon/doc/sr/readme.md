@@ -41,6 +41,13 @@ isključena.
 *	NVDA+I: otvara prozor za izbor emotikona za kopiranje u privremenu
   memoriju
 
+
+## Changes for 4.0 ##
+
+* If the Insert smiley dialog is opened when another settings dialog is
+  active, NVDA will show the corresponding error message.
+
+
 ## Promene u 3.0 ##
 
 * Sada je moguće u dijalogu za prilagođavanje emotikona podesiti da se
@@ -51,6 +58,7 @@ isključena.
 ## Promene u 2.9 ##
 
 * Pomoć za dodatak je dostupna iz menadžera/upravljača dodataka.
+
 
 ## Promene u 1.1 ##
 

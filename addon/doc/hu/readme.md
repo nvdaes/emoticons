@@ -39,6 +39,13 @@ elmentésére.
 *	NVDA+E: Be és kikapcsolható a hangulatjel szöveges bemondása.
 *	NVDA+I: Megjeleníti a hangulatjel beszúrására szolgáló párbeszédablakot.
 
+
+## Changes for 4.0 ##
+
+* If the Insert smiley dialog is opened when another settings dialog is
+  active, NVDA will show the corresponding error message.
+
+
 ## A 3.0 változásai ##
 
 * A hangulatjelek testreszabása párbeszédablakon lehetőség van egy kifejezés
@@ -49,6 +56,7 @@ elmentésére.
 ## A 2.0 változásai ##
 
 * A kiegészítő súgója elérhető a Bővítménkezelő ablakában.
+
 
 ## Az 1.1 változásai ##
 

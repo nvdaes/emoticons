@@ -43,6 +43,13 @@ para esta opção.
   substituídos pelas descrições amigáveis.
 *	NVDA+I: mostra um diálogo para selecionar uma cara que queira colar.
 
+
+## Changes for 4.0 ##
+
+* If the Insert smiley dialog is opened when another settings dialog is
+  active, NVDA will show the corresponding error message.
+
+
 ## Mudanças na 3.0 ##
 
 * No diálogo Personalizar emoticons, agora é possível determinar que uma
@@ -53,6 +60,7 @@ para esta opção.
 ## Mudanças na 2.0 ##
 
 * A ajuda do complemento está disponível no gestor de complementos.
+
 
 ## Mudanças na 1.1 ##
 

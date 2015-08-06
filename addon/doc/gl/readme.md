@@ -44,6 +44,13 @@ axuste.
 *	NVDA+I: amosa un cadro de diálogo para seleccionar un emoticón que queras
   pegar.
 
+
+## Cambios para 4.0 ##
+
+* Se o diálogo Insertar emoticón  está aberto cando outro diálogo de opcións
+  estea activo, NVDA amosará a mensaxe de erro correspondente.
+
+
 ## Cambios para 3.0 ##
 
 * No diálogo Persoalizar emoticóns, agora é posible especificar que un
@@ -54,6 +61,7 @@ axuste.
 ## Cambios para 2.0 ##
 
 * A axuda do complemento está dispoñible no Administrador de Complementos.
+
 
 ## Cambios para 1.1 ##
 
