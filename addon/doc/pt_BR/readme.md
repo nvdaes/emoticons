@@ -44,10 +44,10 @@ para esta opção.
 *	NVDA+I: mostra um diálogo para selecionar uma cara que queira colar.
 
 
-## Changes for 4.0 ##
+## Mudanças na 4.0 ##
 
-* If the Insert smiley dialog is opened when another settings dialog is
-  active, NVDA will show the corresponding error message.
+* Se o diálogo de inserir cara for aberto quando outro diálogo de opções
+  estiver ativo, o NVDA mostrará a mensagem de erro correspondente.
 
 
 ## Mudanças na 3.0 ##
