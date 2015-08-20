@@ -40,10 +40,10 @@ elmentésére.
 *	NVDA+I: Megjeleníti a hangulatjel beszúrására szolgáló párbeszédablakot.
 
 
-## Changes for 4.0 ##
+## A 4.0 változásai ##
 
-* If the Insert smiley dialog is opened when another settings dialog is
-  active, NVDA will show the corresponding error message.
+* Ha a hangulatjel ablaka nyitva van és megnyílik egy másik NVDA beállítás
+  ablaka, már megjelenik az ekkor szokásos hibaüzenet.
 
 
 ## A 3.0 változásai ##
