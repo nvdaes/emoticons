@@ -36,10 +36,9 @@ NVDA を起動したときにエモーティコンの読み上げを有効にす
 *	NVDA+I: 貼り付けをしたい顔文字を選択するダイアログを表示します。
 
 
-## Changes for 4.0 ##
+## 4.0 での変更点 ##
 
-* If the Insert smiley dialog is opened when another settings dialog is
-  active, NVDA will show the corresponding error message.
+* 他の設定ダイアログが開いている状態で「顔文字の挿入」ダイアログを開くとエラーメッセージが表示されるようになりました。
 
 
 ## 3.0 での変更点 ##

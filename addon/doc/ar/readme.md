@@ -42,10 +42,10 @@
   لإلصاقه. 
 
 
-## Changes for 4.0 ##
+## مستجدات الإصدار 4.0 ##
 
-* If the Insert smiley dialog is opened when another settings dialog is
-  active, NVDA will show the corresponding error message.
+* إذا كانت محاورة إدراج رموز المشاعر مفتوحة بالتزامن مع تنشيط محاورة أخرى,
+  ستظهر رسالة الخطأ التي تفيد بذلك.
 
 
 ## مستجدات الإصدار 3.0 ##
