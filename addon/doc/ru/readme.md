@@ -44,10 +44,10 @@ NVDA. По умолчанию оно отключено. Также возмож
 *	NVDA+I: показать диалоговое окно выбора смайликов для вставки.
 
 
-## Changes for 4.0 ##
+## Изменения в версии 4.0 ##
 
-* If the Insert smiley dialog is opened when another settings dialog is
-  active, NVDA will show the corresponding error message.
+* Если открывать диалог Insert smiley, когда активен другой диалог настроек,
+  NVDA покажет соответствующее сообщение об ошибке.
 
 
 ## Изменения в версии 3.0 ##
