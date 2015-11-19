@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 1.1-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2014-04-11 05:05+0100\n"
-"PO-Revision-Date: 2014-04-19 16:34+0800\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-10-18 20:18+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.4\n"
+"X-Generator: Poedit 1.7.4\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -134,7 +134,7 @@ msgstr "事件"
 
 #. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression, matches whole words, or matches anywhere.
 msgid "Type"
-msgstr ""
+msgstr "类型"
 
 #. Translators: a choice of Activateemoticons dialog.
 msgid "off"
@@ -297,19 +297,16 @@ msgid "Cat Smiley"
 msgstr "扁嘴，表情"
 
 #. Translators: (-.-)ZZZ I�m Sleepy
-#, fuzzy
 msgid "I am Sleepy smiley"
-msgstr "睡，表情"
+msgstr "我正在睡觉，表情"
 
 #. Translators: 8-) Glasses
-#, fuzzy
 msgid "glasses smiley"
-msgstr "是，表情"
+msgstr "眼镜，表情"
 
 #. Translators: (^^^) shark
-#, fuzzy
 msgid "shark smiley"
-msgstr "星星，表情"
+msgstr "鲨鱼，表情"
 
 #. Translators:  (cash) Cash
 msgid "cash smiley"
@@ -528,13 +525,10 @@ msgstr ""
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#, fuzzy
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
-msgstr ""
-"启用表情朗读，极用真正的名称来代替屏幕上显示的字符。\n"
-"按下“NVDA加E”进行切换。"
+msgstr "启用表情名称朗读来代替原字符朗读。"
 
 #~ msgid "Regexp"
 #~ msgstr "正则表达式"
