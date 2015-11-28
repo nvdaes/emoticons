@@ -235,7 +235,7 @@ class EmDicDialog(DictionaryDialog):
 		self.tempSpeechDict = []
 		self.tempSpeechDict.extend(defaultDic)
 		for entry in defaultDic:
-			self.dictList.Append((entry.comment,entry.pattern,entry.replacement,self.offOn[int(entry.caseSensitive)],self.offOn[int(entry.regexp)]))
+			self.dictList.Append((entry.comment,entry.pattern,entry.replacement,True,speechDictHandler.ENTRY_TYPE_REGEXP))
 		self.dictList.SetFocus()
 
 	def onOk(self,evt):
