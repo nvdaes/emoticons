@@ -44,10 +44,11 @@ für diese Einstellung speichern.
   auswählen können.
 
 
-## Changes for 4.0 ##
+## Änderungen in 4.0 ##
 
-* If the Insert smiley dialog is opened when another settings dialog is
-  active, NVDA will show the corresponding error message.
+* Wenn der Dialog Smiley einfügen geöffnet wird, während ein
+  Einstellungsdialog von NVDA aktiv ist, wird die zugehörige Fehlermeldung
+  ausgegeben.
 
 
 ## Änderungen in 3.0 ##
