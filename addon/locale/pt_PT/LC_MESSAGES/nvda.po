@@ -1,0 +1,525 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: emoticons 2.0\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2014-10-17 05:00+1000\n"
+"PO-Revision-Date: 2014-12-22 00:59-0000\n"
+"Last-Translator: Rui Fontes <rui.fontes@tiflotecnia.com>\n"
+"Language-Team: Portuguese <rui.fontes@tiflotecnia.com>\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: PORTUGAL\n"
+
+#. Translators: the label of a message box dialog.
+msgid "You have installed the Emoticons add-on, probably an old and incompatible version with this one. Do you want to uninstall the old version?"
+msgstr "Tem instalados os extra Emoticons, provavelmente uma versão antiga e incompatível com esta. Deseja remover a versão antiga?"
+
+#. Translators: the title of a message box dialog.
+msgid "Uninstall incompatible add-on"
+msgstr "Remover o extra incompatível"
+
+#. Translators: the label of a message box dialog.
+msgid "You seem to have previous settings saved for this add-on. Do you want to import them?"
+msgstr "Tem guardadas configurações anteriores para este extra. Quer importá-las?"
+
+#. Translators: the title of a message box dialog.
+msgid "Import Emoticons add-on settings"
+msgstr "Importação de configurações do extra Emoticons"
+
+#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
+#, python-format
+msgid "Emoticon: %s"
+msgstr "Emoticon: %s"
+
+#. Translators: the name of addon submenu.
+msgid "Manage emoticons"
+msgstr "Gerir emoticons"
+
+#. Translators: the tooltip text for addon submenu.
+msgid "Emoticons menu"
+msgstr "Menu Emoticons"
+
+#. Translators: the name for an item of addon submenu.
+msgid "&Insert smiley..."
+msgstr ""
+
+#. Translators: the tooltip text for an item of addon submenu.
+msgid "Shows a dialog to insert a smiley"
+msgstr ""
+
+#. Translators: the name for an item of addon submenu.
+msgid "&Customize emoticons..."
+msgstr ""
+
+#. Translators: the tooltip text for an item of addon submenu.
+msgid "Shows a dictionary dialog to customize emoticons"
+msgstr ""
+
+#. Translators: the name for an item of addon submenu.
+msgid "&Activation settings..."
+msgstr ""
+
+#. Translators: the tooltip text for an item of addon submenu.
+msgid "Shows a dialog to choose when emoticons speaking should be activated"
+msgstr ""
+
+msgid "Emoticons dictionary"
+msgstr ""
+
+#. Translators: message presented when the dictionary for emoticons is unloaded.
+msgid "Emoticons off."
+msgstr ""
+
+#. Translators: message presented when the dictionary for emoticons is loaded.
+msgid "Emoticons on."
+msgstr ""
+
+#. Translators: Message presented in input help mode.
+msgid "Toggles on and off the announcement of emoticons."
+msgstr ""
+
+#. Translators: Message presented in input help mode.
+msgid "Shows a dialog to select a smiley you want to paste."
+msgstr ""
+
+#. Translators: This is the label for the InsertEmoticon dialog.
+msgid "Insert emoticon"
+msgstr ""
+
+#. Translators: The label for a setting in Insert emoticons to select a smiley.
+msgid "Available emoticons"
+msgstr ""
+
+#. Translators: A combo box to choose a smiley.
+msgid "Available smileys to insert:"
+msgstr ""
+
+#. Translators: This is the message when smiley has been copied to the clipboard.
+msgid "Smiley copied to clipboard, ready for you to paste."
+msgstr ""
+
+msgid "Cannot copy smiley."
+msgstr ""
+
+#. Translators: The label for the combo box of dictionary entries in speech dictionary dialog.
+msgid "&Dictionary entries"
+msgstr ""
+
+#. Translators: The label for a column in dictionary entries list used to identify comments for the entry.
+msgid "Comment"
+msgstr ""
+
+#. Translators: The label for a column in dictionary entries list used to identify pattern (original word or a pattern).
+msgid "Pattern"
+msgstr ""
+
+#. Translators: The label for a column in dictionary entries list and in a list of symbols from symbol pronunciation dialog used to identify replacement for a pattern or a symbol
+msgid "Replacement"
+msgstr ""
+
+#. Translators: The label for a column in dictionary entries list used to identify whether the entry is case sensitive or not.
+msgid "case"
+msgstr ""
+
+#. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression or not.
+msgid "Regexp"
+msgstr ""
+
+#. Translators: a choice of Activateemoticons dialog.
+msgid "off"
+msgstr ""
+
+msgid "on"
+msgstr ""
+
+#. Translators: The label for a button in speech dictionaries dialog to add new entries.
+msgid "&Add"
+msgstr ""
+
+#. Translators: The label for a button in speech dictionaries dialog to edit existing entries.
+msgid "&Edit"
+msgstr ""
+
+msgid "&Remove"
+msgstr ""
+
+msgid "Rese&t"
+msgstr ""
+
+#. Translators: The label for a button in speech dictionaries dialog to add new entries.
+msgid "Save and e&xport dictionary"
+msgstr ""
+
+#. Translators: this is the label for the Emoticons activate dialog.
+msgid "Activation settings"
+msgstr ""
+
+#. Translators: The label for a setting in Activate emoticons dialog.
+msgid "&Activate speaking of emoticons at start:"
+msgstr ""
+
+#. Translators: a choice of Activateemoticons dialog.
+msgid "On"
+msgstr ""
+
+#. Translators: a combo box in Emoticons dialog.
+msgid "Activate at start"
+msgstr ""
+
+#. Translators: The label for a setting in Activate emoticons dialog to copy activation settings.
+msgid "&Copy activation settings"
+msgstr ""
+
+#. Translators: :) Smile
+msgid "smiling smiley"
+msgstr ""
+
+#. Translators: :( Sad
+msgid "sad smiley"
+msgstr ""
+
+#. Translators: :D Laugh
+msgid "Laughing smiley"
+msgstr ""
+
+#. Translators: :O Surprised
+msgid "surprised smiley"
+msgstr ""
+
+#. Translators: ;) Wink;
+msgid "winking smiley"
+msgstr ""
+
+#. Translators: ;( Crying
+msgid "crying smiley"
+msgstr ""
+
+#. Translators: (:| Sweating
+msgid "sweating smiley"
+msgstr ""
+
+#. translators:  :|] Robot (a robot head)
+msgid "Robot Smiley"
+msgstr ""
+
+#. Translators: :| Speechless
+msgid "speechless smiley"
+msgstr ""
+
+#. Translators: :* Kiss
+msgid "kiss smiley"
+msgstr ""
+
+#. Translators: :P Cheeky
+msgid "cheeky smiley"
+msgstr ""
+
+#. Translators: :$ Blushing
+msgid "blushing smiley"
+msgstr ""
+
+#. Translators: :^) Wondering
+msgid "wondering smiley"
+msgstr ""
+
+#. Translators: |-) Sleepy
+msgid "sleepy smiley"
+msgstr ""
+
+#. Translators: |-( Dull
+msgid "dull smiley"
+msgstr ""
+
+#. Translators: :x My lips are sealed
+msgid "my lips are sealed smiley"
+msgstr ""
+
+#. Translators: \o/ Dancing
+msgid "dancing smiley"
+msgstr ""
+
+#. Translators: :'( crying a lot smiley
+msgid "crying a lot smiley"
+msgstr ""
+
+#. Translators: >:( Angry
+#. Translators: (angry) Angry
+msgid "angry smiley"
+msgstr ""
+
+#. Translators: :/ Worried
+#. Translators: (worry) Worried
+msgid "worried smiley"
+msgstr ""
+
+#. Translators: <3 Heart
+#. Translators: (heart) Heart
+msgid "heart smiley"
+msgstr ""
+
+#. Translators:  O:)  O:-) Angel
+msgid "Angel Smiley"
+msgstr ""
+
+#. Translators:  O.o  o.O  Confused
+msgid "Confused Smiley"
+msgstr ""
+
+#. Translators:   3:-) Devil
+msgid "Devil Smiley"
+msgstr ""
+
+#. Translators:  ^_^ Keke (This smiley is inspired by the Asian style, which is a happy face.)
+msgid "Keke Smiley"
+msgstr ""
+
+#. Translators: -_- Bored (This smiley face has its eyes closed and is sporting a very small grin.)
+msgid "Bored smiley"
+msgstr ""
+
+#. Translators:  >:O  Upset, angry or shouting...
+msgid "Angry Smiley"
+msgstr ""
+
+#. Translators:  :3  Cat (Cat faced smiley with curly lips)
+msgid "Cat Smiley"
+msgstr ""
+
+#. Translators: (-.-)ZZZ I�m Sleepy
+msgid "I am Sleepy smiley"
+msgstr ""
+
+#. Translators: 8-) Glasses
+msgid "glasses smiley"
+msgstr ""
+
+#. Translators: (^^^) shark
+msgid "shark smiley"
+msgstr ""
+
+#. Translators:  (cash) Cash
+msgid "cash smiley"
+msgstr ""
+
+#. Translators: (flex) Muscle
+msgid "muscle smiley"
+msgstr ""
+
+#. Translators: (beer) Beer
+msgid "beer smiley"
+msgstr ""
+
+#. Translators: (d) Drink
+msgid "drink smiley"
+msgstr ""
+
+#. Translators: (ninja) Ninja
+msgid "ninja smiley"
+msgstr ""
+
+#. Translators: (cool) Cool
+msgid "cool smiley"
+msgstr ""
+
+#. Translators: (inlove) In Love
+msgid "in love smiley"
+msgstr ""
+
+#. Translators: (yn) Fingers crossed
+msgid "fingers crossed smiley"
+msgstr ""
+
+#. Translators: (yawn) Yawn
+msgid "yawning smiley"
+msgstr ""
+
+#. Translators: (puke) Puking
+msgid "puking smiley"
+msgstr ""
+
+#. Translators: (doh) Doh!
+msgid "doh! smiley"
+msgstr ""
+
+#. Translators: (wasntme) It wasn't me!
+msgid "it wasn't me! smiley"
+msgstr ""
+
+#. Translators: (party) Party
+msgid "party smiley"
+msgstr ""
+
+#. Translators: (mm) Mmmm...
+msgid "mmmmmm... smiley"
+msgstr ""
+
+#. Translators: (nerd) Nerdy
+msgid "nerdy smiley"
+msgstr ""
+
+#. Translators: (wave) Hi
+msgid "hi smiley"
+msgstr ""
+
+#. Translators: (facepalm) Facepalm
+msgid "facepalm smiley"
+msgstr ""
+
+#. Translators: (devil) Devil
+msgid "devil smiley"
+msgstr ""
+
+#. Translators: (angel) Angel
+msgid "angel smiley"
+msgstr ""
+
+#. Translators: (envy) Envy
+msgid "envy smiley"
+msgstr ""
+
+#. Translators: (wait) Wait
+msgid "wait smiley"
+msgstr ""
+
+#. Translators: (hug) Hug
+msgid "hug smiley"
+msgstr ""
+
+#. Translators: (makeup) Make-up
+msgid "make-up smiley"
+msgstr ""
+
+#. Translators: (chuckle) Giggle
+msgid "giggle smiley"
+msgstr ""
+
+#. Translators: (clap) Clapping
+msgid "clapping smiley"
+msgstr ""
+
+#. Translators: (think) Thinking
+msgid "thinking smiley"
+msgstr ""
+
+#. Translators: (bow) Bowing
+msgid "bowing smiley"
+msgstr ""
+
+#. Translators: (rofl) Rolling on the floor laughing
+msgid "rolling on the floor laughing! smiley"
+msgstr ""
+
+#. Translators: (whew) Relieved
+msgid "relieved smiley"
+msgstr ""
+
+#. Translators: (happy) Happy
+msgid "happy smiley"
+msgstr ""
+
+#. Translators: (smirk) Smirking
+msgid "smirking smiley"
+msgstr ""
+
+#. Translators: (nod) Nodding
+msgid "nodding smiley"
+msgstr ""
+
+#. Translators: (shake) Shake
+msgid "shakeing smiley"
+msgstr ""
+
+#. Translators: (waiting) Waiting
+msgid "waiting smiley"
+msgstr ""
+
+#. Translators: (emo) Emo;
+msgid "Emo smiley"
+msgstr ""
+
+#. Translators: (y) Yes
+msgid "yes smiley"
+msgstr ""
+
+#. Translators: (n) no;
+msgid "no smiley"
+msgstr ""
+
+#. Translators: (handshake) Handshake
+msgid "handshake smiley"
+msgstr ""
+
+#. Translators: (highfive) High five
+msgid "high five smiley"
+msgstr ""
+
+#. Translators: (lalala) Lalala;
+msgid "lalala smiley"
+msgstr ""
+
+#. Translators: (heidy) Heidy;
+msgid "heidy smiley"
+msgstr ""
+
+#. Translators: (F) Flower
+msgid "flower smiley"
+msgstr ""
+
+#. Translators: (rain) Raining
+msgid "raining smiley"
+msgstr ""
+
+#. Translators: (sun) Sun
+msgid "sunny smiley"
+msgstr ""
+
+#. Translators: (tumbleweed) Tumbleweed
+msgid "tumbleweed smiley"
+msgstr ""
+
+#. Translators: (music) Music
+msgid "music smiley"
+msgstr ""
+
+#. Translators: (bandit) Bandit
+msgid "bandit smiley"
+msgstr ""
+
+#. Translators: (tmi) Too much information
+msgid "too much information smiley"
+msgstr ""
+
+#. Translators: (coffee) Coffee
+msgid "coffee smiley"
+msgstr ""
+
+#. Translators: (pi) Pizza
+msgid "pizza smiley"
+msgstr ""
+
+#. Translators: (^) Cake
+msgid "cake smiley"
+msgstr ""
+
+#. Translators: (*) Star
+msgid "star smiley"
+msgstr ""
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+msgid "Emoticons"
+msgstr ""
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+msgid "Enables the announcement of emoticon names instead of the character Representation."
+msgstr ""
+
