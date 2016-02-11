@@ -16,7 +16,7 @@ Vous pouvez profiter des fonctionnalités suivantes :
 ## Insérer une frimousse ##
 
 Lorsque vous n'êtes pas sûr des caractères pour une frimousse particulière, ce module complémentaire vous permet de sélectionner et insérer dans votre texte comme dans une conversation.
-Appuyez sur NVDA + I, ou à partir du menu Préférences -> Gestion des frimousses -> Insérer une frimousse, pour ouvrir une boîte de dialogue 
+Appuyez sur NVDA + I, ou à partir du menu Préférences -> Gestion des frimousses -> Insérer une frimousse, pour ouvrir un dialogue 
 avec les frimousses disponibles.
 Lorsque vous appuyez sur Accepter, les caractères pour la frimousse choisie sont copiés dans le presse-papiers, prêts à être collés.
 
