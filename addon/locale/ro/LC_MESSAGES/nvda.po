@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: emoticons 4.4\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2016-02-12 05:00+1000\n"
-"PO-Revision-Date: 2016-07-20 20:22+0200\n"
-"Last-Translator: DanP <dan.punga@gmail.com>\n"
+"PO-Revision-Date: 2016-07-26 00:07+0300\n"
+"Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.8.8\n"
 "Language-Team: \n"
 
 #. Translators: the label of a message box dialog.
@@ -151,17 +151,17 @@ msgstr "Activat"
 
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
 msgid "&Add"
-msgstr "Adaugă"
+msgstr "&Adaugă"
 
 #. Translators: The label for a button in speech dictionaries dialog to edit existing entries.
 msgid "&Edit"
-msgstr "Editează"
+msgstr "&Editează"
 
 msgid "&Remove"
 msgstr "Șterge"
 
 msgid "Rese&t"
-msgstr "Resetează"
+msgstr "&Resetează"
 
 #. Translators: The label for a button in speech dictionaries dialog to add new entries.
 msgid "Save and e&xport dictionary"
@@ -320,7 +320,7 @@ msgstr "Bani"
 
 #. Translators: (flex) Muscle
 msgid "muscle smiley"
-msgstr "muşchi"
+msgstr "mușchi"
 
 #. Translators: (beer) Beer
 msgid "beer smiley"
@@ -344,7 +344,7 @@ msgstr "îndrăgostit"
 
 #. Translators: (yn) Fingers crossed
 msgid "fingers crossed smiley"
-msgstr "degete încrucişate"
+msgstr "degete încrucișate"
 
 #. Translators: (yawn) Yawn
 msgid "yawning smiley"
@@ -396,11 +396,11 @@ msgstr "invidios"
 
 #. Translators: (wait) Wait
 msgid "wait smiley"
-msgstr "Aşteaptă"
+msgstr "Așteaptă"
 
 #. Translators: (hug) Hug
 msgid "hug smiley"
-msgstr "Îmbrăţişare"
+msgstr "Îmbrățișare"
 
 #. Translators: (makeup) Make-up
 msgid "make-up smiley"
@@ -420,7 +420,7 @@ msgstr "Gânditor"
 
 #. Translators: (bow) Bowing
 msgid "bowing smiley"
-msgstr "Faţă zâmbitoare"
+msgstr "Față zâmbitoare"
 
 #. Translators: (rofl) Rolling on the floor laughing
 msgid "rolling on the floor laughing! smiley"
@@ -428,7 +428,7 @@ msgstr "Rostogolire pe podea de râs!"
 
 #. Translators: (whew) Relieved
 msgid "relieved smiley"
-msgstr "uşurat"
+msgstr "ușurat"
 
 #. Translators: (happy) Happy
 msgid "happy smiley"
@@ -448,7 +448,7 @@ msgstr "strângând mâna"
 
 #. Translators: (waiting) Waiting
 msgid "waiting smiley"
-msgstr "aşteptând"
+msgstr "așteptând"
 
 #. Translators: (emo) Emo;
 msgid "Emo smiley"
@@ -505,7 +505,7 @@ msgstr "bandit"
 
 #. Translators: (tmi) Too much information
 msgid "too much information smiley"
-msgstr "prea multă informaţie"
+msgstr "prea multă informație"
 
 #. Translators: (coffee) Coffee
 msgid "coffee smiley"
@@ -534,4 +534,4 @@ msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
 msgstr ""
-"permite anunţarea numelor emoticoanelor în loc de caracterul de reprezentare."
+"permite anunțarea numelor emoticoanelor în loc de caracterul de reprezentare."
