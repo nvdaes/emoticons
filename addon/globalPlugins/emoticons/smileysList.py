@@ -1,4 +1,6 @@
 # -*- coding: UTF-8 -*-
+#Copyright (C) 2013-2016 Chris Leo, Mesar Hameed
+# Released under GPL 2
 
 import addonHandler
 from collections import namedtuple
