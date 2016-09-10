@@ -45,8 +45,8 @@ on myös mahdollista tallentaa.
 
 ## Muutokset versiossa 4.0 ##
 
-* Jos Lisää hymiö -valintaikkuna avataan, kun toinen asetusvalintaikkuna on
-  aktiivisena, NVDA näyttää virheilmoituksen.
+* NVDA näyttää virheilmoituksen, jos Lisää hymiö -valintaikkuna avataan
+  toisen asetusvalintaikkunan ollessa aktiivisena.
 
 
 ## Muutokset versiossa 3.0 ##
