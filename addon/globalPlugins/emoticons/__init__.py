@@ -173,7 +173,11 @@ class InsertEmoticonDialog(SettingsDialog):
 
 	def onOk(self,evt):
 		super(InsertEmoticonDialog, self).onOk(evt)
-		iconToInsert = unicode(emoticons[self.smileysList.GetSelection()].chars)
+		icon = emoticons[self.smileysList.GetSelection()]
+		if not icon.isEmoji:
+			iconToInsert = unicode(icon.chars)
+		else:
+			iconToInsert = icon.chars.decode("utf-8")
 		if api.copyToClip(iconToInsert):
 			# Translators: This is the message when smiley has been copied to the clipboard.
 			wx.CallLater(100, ui.message, _("Smiley copied to clipboard, ready for you to paste."))
