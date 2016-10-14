@@ -184,3 +184,7 @@ emoticons = [
 	# Translators: (emoji) Latin cross
 	Smiley(u'✝', _("Latin cross"), '✝', True),
 ]
+
+def terminate(self):
+	global emoticons
+	del emoticons
