@@ -68,8 +68,12 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		global sD, defaultDic
 		sD.load(dicFile)
 		for em in emoticons:
-			# Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
-			comment = _("Emoticon: %s") % em.name
+			if not em.isEmoji:
+				# Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
+				comment = _("Emoticon: %s") % em.name
+			else:
+				# Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
+				comment = _("Emoji: %s") % em.name
 			otherReplacement = " %s; " % em.name
 			# Case and reg are always True
 			defaultDic.append(speechDictHandler.SpeechDictEntry(em.pattern, otherReplacement, comment, True, speechDictHandler.ENTRY_TYPE_REGEXP))
