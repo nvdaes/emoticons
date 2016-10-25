@@ -155,23 +155,24 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	}
 
 class EmoticonFilter(object):
-
+	"""Filter for all emoticons."""
+	
 	def filter(self, emoticonsList, pattern):
-		"""Filter for all emoticons."""
+		"""Filters the input list with the specified pattern."""
 		if pattern == "": return emoticonsList
 		else: return filter(lambda emoticon: pattern.upper() in emoticon.name.upper(), emoticonsList)
 
 class FilterStandard(EmoticonFilter):
-
+	"""Filter just for standard emoticons."""
+	
 	def filter(self, emoticonsList, pattern):
-		"""Filter just for standard emoticons."""
 		filtered = super(FilterStandard, self).filter(emoticonsList, pattern)
 		return filter(lambda emoticon: not(emoticon.isEmoji), filtered)
 
 class FilterEmoji(EmoticonFilter):
-
+	"""Filter just for emojis."""
+	
 	def filter(self, emoticonsList, pattern):
-		"""Filter just for emojis."""
 		filtered = super(FilterEmoji, self).filter(emoticonsList, pattern)
 		return filter(lambda emoticon: emoticon.isEmoji, filtered)
 
@@ -180,6 +181,7 @@ class InsertEmoticonDialog(wx.Dialog):
 	
 	filteredEmoticons = emoticons
 	filter = EmoticonFilter()
+	
 	def __init__(self, parent):
 		# Translators: Title of the dialog.
 		wx.Dialog.__init__(self, parent, title= _("Insert emoticon"), pos = wx.DefaultPosition, size = (500, 600))
@@ -225,8 +227,6 @@ class InsertEmoticonDialog(wx.Dialog):
 		self.sizerButtons = self.CreateButtonSizer(wx.OK | wx.CANCEL)
 		btnOk = self.FindWindowById(self.GetAffirmativeId())
 		self.Bind(wx.EVT_BUTTON, self.onOk, btnOk)
-		#btnOk.SetDefault()
-		self.FindWindowById(self.GetAffirmativeId()).SetDefault()
 		# Vertical layout
 		self.sizerLayout = wx.BoxSizer(wx.VERTICAL)
 		self.sizerLayout.Add(self.sizerFilter, 0, wx.FIXED_MINSIZE)
@@ -241,27 +241,34 @@ class InsertEmoticonDialog(wx.Dialog):
 		self.txtFilter.SetFocus()
 		
 	def _formatIsEmoji(self, isEmoji):
+		"""Converts boolean isEmoji property to text."""
 		# Translators: Label for emojis in the list.
 		if isEmoji: return _("Emoji")
 		# Translators: Label for standard emoticons in the list.
 		else: return _("Standard")
 		
 	def _loadEmoticons(self):
+		"""Reload the emoticons list."""
 		self.smileysList.DeleteAllItems()
 		for emoticon in self.filteredEmoticons:
-			self.smileysList.Append([self._formatIsEmoji(emoticon.isEmoji), _(emoticon.name)])
+			if not emoticon.isEmoji:
+				self.smileysList.Append([self._formatIsEmoji(emoticon.isEmoji), unicode(emoticon.chars)])
+			else:
+				self.smileysList.Append([self._formatIsEmoji(emoticon.isEmoji), emoticon.chars.decode("utf-8")])
 			
 	def onFilterChange(self, event):
-		# print("Filter changed to ", self.txtFilter.GetValue())
+		"""Updates the emoticon list when the filter field changes its content."""
 		self.filteredEmoticons = self.filter.filter(emoticons, self.txtFilter.GetValue())
 		self._loadEmoticons()
 		
 	def onEnterOnList(self, evt):
+		"""Same effect as click OK button when pressing enter on smileys list."""
 		keycode = evt.GetKeyCode()
 		if keycode == wx.WXK_RETURN: self.onOk(evt)
 		evt.Skip(True)
 		
 	def onOk(self, evt):
+		"""Copy to clipboard the focused emoticon on the list."""
 		icon = self.filteredEmoticons[self.smileysList.GetFocusedItem()]
 		if not icon.isEmoji:
 			iconToInsert = unicode(icon.chars)
@@ -275,19 +282,19 @@ class InsertEmoticonDialog(wx.Dialog):
 		self.Destroy()
 	
 	def onAllEmoticons(self, event):
-		# print("Todos los emoticonos visibles.")
+		"""Changes the filter to all emoticons and reload the emoticon list."""
 		self.filter = EmoticonFilter()
 		self.filteredEmoticons = self.filter.filter(emoticons, self.txtFilter.GetValue())
 		self._loadEmoticons()
 	
 	def onStandardEmoticons(self, event):
-		# print("Emoticonos tradicionales visibles.")
+		"""Changes the filter to standard emoticons and reloads the emoticon list."""
 		self.filter = FilterStandard()
 		self.filteredEmoticons = self.filter.filter(emoticons, self.txtFilter.GetValue())
 		self._loadEmoticons()
 
 	def onEmojis(self, event):
-		# print("Emojis  visibles.")
+		"""Changes the filter to emojis and reloads the emoticon list."""
 		self.filter = FilterEmoji()
 		self.filteredEmoticons = self.filter.filter(emoticons, self.txtFilter.GetValue())
 		self._loadEmoticons()
