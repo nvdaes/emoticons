@@ -212,12 +212,14 @@ class InsertEmoticonDialog(wx.Dialog):
 		self.sizerRadio.Add(self.rdEmojis, 0, wx.FIXED_MINSIZE)
 		# List of emoticons.
 		# Translators: Label for the smileys list.
-		self.lblList = wx.StaticText(self, label= _("List of smilies:"), pos = (-1, -1))
+		self.lblList = wx.StaticText(self, label= _("&List of smilies:"), pos = (-1, -1))
 		self.smileysList = wx.ListCtrl(self, size=(490, 400), style=wx.LC_REPORT | wx.BORDER_SUNKEN)
+		# Translators: Column which specifies the name  of emoticon.
+		self.smileysList.InsertColumn(0, _("Name"))
 		# Translators: Column which specifies the type of emoticon (standard or emoji).
-		self.smileysList.InsertColumn(0, _("Type"), width = 100)
+		self.smileysList.InsertColumn(1, _("Type"))
 		# Translators: The column which contains the emoticon.
-		self.smileysList.InsertColumn(1, _("Emoticon"), width = 390)
+		self.smileysList.InsertColumn(2, _("Emoticon"))
 		self.smileysList.Bind(wx.EVT_KEY_DOWN, self.onEnterOnList)
 		self.sizerList = wx.BoxSizer(wx.VERTICAL)
 		self.sizerList.Add(self.lblList, 0, wx.FIXED_MINSIZE)
@@ -252,9 +254,9 @@ class InsertEmoticonDialog(wx.Dialog):
 		self.smileysList.DeleteAllItems()
 		for emoticon in self.filteredEmoticons:
 			if not emoticon.isEmoji:
-				self.smileysList.Append([self._formatIsEmoji(emoticon.isEmoji), unicode(emoticon.chars)])
+				self.smileysList.Append([emoticon.name, self._formatIsEmoji(emoticon.isEmoji), unicode(emoticon.chars)])
 			else:
-				self.smileysList.Append([self._formatIsEmoji(emoticon.isEmoji), emoticon.chars.decode("utf-8")])
+				self.smileysList.Append([emoticon.name, self._formatIsEmoji(emoticon.isEmoji), emoticon.chars.decode("utf-8")])
 			
 	def onFilterChange(self, event):
 		"""Updates the emoticon list when the filter field changes its content."""
