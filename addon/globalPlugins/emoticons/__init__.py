@@ -239,6 +239,7 @@ class InsertEmoticonDialog(wx.Dialog):
 		self.SetSizer(self.sizerLayout)
 		self.SetAutoLayout(1)
 		self.sizerLayout.Fit(self)
+		self.Center()
 		self.Show(True)
 		self.txtFilter.SetFocus()
 		
