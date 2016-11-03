@@ -246,8 +246,8 @@ class InsertEmoticonDialog(wx.Dialog):
 		self.Bind(wx.EVT_BUTTON, self.onOk, btnOk)
 		# Vertical layout
 		self.sizerLayout = wx.BoxSizer(wx.VERTICAL)
-		self.sizerLayout.Add(self.sizerFilter, 0, wx.FIXED_MINSIZE)
 		self.sizerLayout.Add(self.sizerRadio, 0, wx.FIXED_MINSIZE)
+		self.sizerLayout.Add(self.sizerFilter, 0, wx.FIXED_MINSIZE)
 		self.sizerLayout.Add(self.sizerList, 1, wx.EXPAND)
 		self.sizerLayout.Add(self.sizerButtons, 0, wx.EXPAND)
 		
