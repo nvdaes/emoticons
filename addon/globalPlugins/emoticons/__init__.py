@@ -209,8 +209,6 @@ class InsertEmoticonDialog(wx.Dialog):
 		self.sizerFilter.Add(self.lblFilter, 0, wx.FIXED_MINSIZE)
 		self.sizerFilter.Add(self.txtFilter, 1, wx.EXPAND)
 		# Radio buttons to choose the emoticon set.
-		# Translators: Kind of emoticons to show.
-		self.lblShow = wx.StaticText(self, label= _("&Show:"), pos = (-1, -1))
 		# Translators: A radio button to choose all types of emoticons.
 		self.rdAll = wx.RadioButton(self, label = _("&All"), style = wx.RB_GROUP)
 		self.Bind(wx.EVT_RADIOBUTTON, self.onAllEmoticons, self.rdAll)
@@ -221,7 +219,6 @@ class InsertEmoticonDialog(wx.Dialog):
 		self.rdEmojis = wx.RadioButton(self, label = _("Emoj&is"))
 		self.Bind(wx.EVT_RADIOBUTTON, self.onEmojis, self.rdEmojis)
 		self.sizerRadio = wx.BoxSizer(wx.HORIZONTAL)
-		self.sizerRadio.Add(self.lblShow, 0, wx.FIXED_MINSIZE)
 		self.sizerRadio.Add(self.rdAll, 0, wx.FIXED_MINSIZE)
 		self.sizerRadio.Add(self.rdStandard, 0, wx.FIXED_MINSIZE)
 		self.sizerRadio.Add(self.rdEmojis, 0, wx.FIXED_MINSIZE)
@@ -230,11 +227,11 @@ class InsertEmoticonDialog(wx.Dialog):
 		self.lblList = wx.StaticText(self, label= _("&List of smilies:"), pos = (-1, -1))
 		self.smileysList = wx.ListCtrl(self, size=(490, 400), style=wx.LC_REPORT | wx.BORDER_SUNKEN)
 		# Translators: Column which specifies the name  of emoticon.
-		self.smileysList.InsertColumn(0, _("Name"))
+		self.smileysList.InsertColumn(0, _("Name"), width=350)
 		# Translators: Column which specifies the type of emoticon (standard or emoji).
-		self.smileysList.InsertColumn(1, _("Type"))
+		self.smileysList.InsertColumn(1, _("Type"), width=100)
 		# Translators: The column which contains the emoticon.
-		self.smileysList.InsertColumn(2, _("Emoticon"))
+		self.smileysList.InsertColumn(2, _("Emoticon"), width=40)
 		self.smileysList.Bind(wx.EVT_KEY_DOWN, self.onEnterOnList)
 		self.sizerList = wx.BoxSizer(wx.VERTICAL)
 		self.sizerList.Add(self.lblList, 0, wx.FIXED_MINSIZE)
