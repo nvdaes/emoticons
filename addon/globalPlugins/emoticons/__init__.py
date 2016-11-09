@@ -16,6 +16,7 @@ import addonHandler
 from gui.settingsDialogs import SettingsDialog
 from gui.settingsDialogs import DictionaryDialog
 from smileysList import emoticons
+from skipTranslation import translate
 
 try:
 	from globalCommands import SCRCAT_SPEECH, SCRCAT_TOOLS
@@ -188,7 +189,7 @@ class EmDicDialog(DictionaryDialog):
 		bHelper = guiHelper.ButtonHelper(orientation=wx.HORIZONTAL)
 		resetButtonID = wx.NewId()
 		# Translators: The label for a button in the Emoticons dictionary dialog.
-		bHelper.addButton(self, resetButtonID, _("Re&set"), wx.DefaultPosition)
+		bHelper.addButton(self, resetButtonID, _("Rese&t"), wx.DefaultPosition)
 		exportButtonID = wx.NewId()
 		# Translators: The label for a button in the Emoticons dictionary dialog.
 		bHelper.addButton(self, exportButtonID, _("Save and e&xport dictionary"), wx.DefaultPosition)
@@ -229,25 +230,16 @@ class ActivateEmoticonsDialog(SettingsDialog):
 	title = _("Activation settings")
 
 	def makeSettings(self, settingsSizer):
-		activateSizer=wx.BoxSizer(wx.HORIZONTAL)
+		sHelper = guiHelper.BoxSizerHelper(self, sizer=settingsSizer)
 		# Translators: The label for a setting in Activate emoticons dialog.
-		activateLabel=wx.StaticText(self,-1,label=_("&Activate speaking of emoticons at start:"))
-		activateSizer.Add(activateLabel)
-		activateListID = wx.NewId()
-		self.activateChoices = [
-		# Translators: a choice of Activateemoticons dialog.
-		_("off"),
-		# Translators: a choice of Activateemoticons dialog.
-		_("On")]
+		activateLabel = _("&Activate speaking of emoticons at start:")
+		self.activateChoices = (translate("off"), translate("on"))
 		# Translators: a combo box in Emoticons dialog.
-		self.activateList = wx.Choice(self, activateListID, name=_("Activate at start"), choices=[x for x in self.activateChoices])
-		self.activateList.SetSelection(conf["Activation settings"]["activateAtStart"])
-		activateSizer.Add(self.activateList)
-		settingsSizer.Add(activateSizer,border=10,flag=wx.BOTTOM)
+		self.activateList = sHelper.addLabeledControl(activateLabel, wx.Choice, choices=self.activateChoices)
+		self.activateList.Selection = conf["Activation settings"]["activateAtStart"]
 		# Translators: The label for a setting in Activate emoticons dialog to copy activation settings.
-		self.copyActivationCheckBox = wx.CheckBox(self, wx.NewId(), label=_("&Copy activation settings"))
-		self.copyActivationCheckBox.SetValue(False)
-		settingsSizer.Add(self.copyActivationCheckBox,border=10,flag=wx.BOTTOM)
+		self.copyActivationCheckBox = sHelper.addItem(wx.CheckBox(self, label=_("&Copy activation settings")))
+		self.copyActivationCheckBox.Value = False
 
 	def postInit(self):
 		self.activateList.SetFocus()
