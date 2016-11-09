@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-#Copyright (C) 2013-2016 Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez
+#Copyright (C) 2013-2016 Noelia Ruiz Martínez, Mesar Hameed
 # Released under GPL 2
 
 import globalPluginHandler
@@ -11,11 +11,11 @@ import api
 import ui
 import wx
 import gui
+from gui import guiHelper
 import addonHandler
 from gui.settingsDialogs import SettingsDialog
 from gui.settingsDialogs import DictionaryDialog
 from smileysList import emoticons
-from logHandler import log
 
 try:
 	from globalCommands import SCRCAT_SPEECH, SCRCAT_TOOLS
@@ -69,12 +69,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		global sD, defaultDic
 		sD.load(dicFile)
 		for em in emoticons:
-			if not em.isEmoji:
-				# Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
-				comment = _("Emoticon: %s") % em.name
-			else:
-				# Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
-				comment = _("Emoji: %s") % em.name
+			# Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
+			comment = _("Emoticon: %s") % em.name
 			otherReplacement = " %s; " % em.name
 			# Case and reg are always True
 			defaultDic.append(speechDictHandler.SpeechDictEntry(em.pattern, otherReplacement, comment, True, speechDictHandler.ENTRY_TYPE_REGEXP))
@@ -119,10 +115,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			pass
 
 	def onInsertEmoticonDialog(self, evt):
-		gui.mainFrame.prePopup()
-		d = InsertEmoticonDialog(gui.mainFrame)
-		d.Show(True)
-		gui.mainFrame.postPopup()
+		gui.mainFrame._popupSettingsDialog(InsertEmoticonDialog)
 
 	def onEmDicDialog(self, evt):
 		global shouldActivateEmoticons
@@ -158,220 +151,53 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		"kb:NVDA+i": "insertEmoticon",
 	}
 
-class EmoticonFilter(object):
-	"""Filter for all emoticons."""
-	
-	def filter(self, emoticonsList, pattern):
-		"""Filters the input list with the specified pattern."""
-		if pattern == "": return emoticonsList
-		else: return filter(lambda emoticon: pattern.upper() in emoticon.name.upper(), emoticonsList)
+class InsertEmoticonDialog(SettingsDialog):
 
-class FilterStandard(EmoticonFilter):
-	"""Filter just for standard emoticons."""
-	
-	def filter(self, emoticonsList, pattern):
-		filtered = super(FilterStandard, self).filter(emoticonsList, pattern)
-		return filter(lambda emoticon: not(emoticon.isEmoji), filtered)
+	# Translators: This is the label for the InsertEmoticon dialog.
+	title = _("Insert emoticon")
 
-class FilterEmoji(EmoticonFilter):
-	"""Filter just for emojis."""
-	
-	def filter(self, emoticonsList, pattern):
-		filtered = super(FilterEmoji, self).filter(emoticonsList, pattern)
-		return filter(lambda emoticon: emoticon.isEmoji, filtered)
+	def makeSettings(self, settingsSizer):
+		smileysListSizer = wx.BoxSizer(wx.HORIZONTAL)
+		# Translators: The label for a setting in Insert emoticons to select a smiley.
+		availableEmoticonsLabel = _("Available emoticons")
+		smileysListLabel = wx.StaticText(self,-1,label=u"{labelString} ({labelInt})".format(labelString=availableEmoticonsLabel, labelInt=str(len(emoticons))))
+		smileysListSizer.Add(smileysListLabel)
+		smileysListID = wx.NewId()
+		# Translators: A combo box to choose a smiley.
+		self.smileysList=wx.Choice(self ,smileysListID, name=_("Available smileys to insert:"), choices= [emoticon.name for emoticon in emoticons])
+		self.smileysList.SetSelection(0)
+		smileysListSizer.Add(self.smileysList)
+		settingsSizer.Add(smileysListSizer, border=10, flag=wx.BOTTOM)
 
-class InsertEmoticonDialog(wx.Dialog):
-	""" A dialog  to insert emoticons from a list. """
-	
-	_instance = None
-	_filteredEmoticons = None
-	_filter = None
-	
-	def __new__(cls, *args, **kwargs):
-		if InsertEmoticonDialog._instance is None:
-			return super(InsertEmoticonDialog, cls).__new__(cls, *args, **kwargs)
-		return InsertEmoticonDialog._instance
+	def postInit(self):
+		self.smileysList.SetFocus()
 
-	def __init__(self, parent):
-		if InsertEmoticonDialog._instance is not None:
-			return
-		InsertEmoticonDialog._instance = self
-		# Translators: Title of the dialog.
-		super(InsertEmoticonDialog, self).__init__(parent, title= _("Insert emoticon"), pos = wx.DefaultPosition, size = (500, 600))
-		self._filteredEmoticons = emoticons
-		self._filter = EmoticonFilter()
-		# Filter panel.
-		# Translators: A text field to filter emoticons.
-		self.lblFilter = wx.StaticText(self, label= _("&Filter:"), pos = (-1, -1))
-		self.txtFilter = wx.TextCtrl(self)
-		self.Bind(wx.EVT_TEXT, self.onFilterChange, self.txtFilter)
-		self.sizerFilter = wx.BoxSizer(wx.HORIZONTAL)
-		self.sizerFilter.Add(self.lblFilter, 0, wx.FIXED_MINSIZE)
-		self.sizerFilter.Add(self.txtFilter, 1, wx.EXPAND)
-		# Radio buttons to choose the emoticon set.
-		# Translators: Kind of emoticons to show.
-		self.lblShow = wx.StaticText(self, label= _("&Show:"), pos = (-1, -1))
-		# Translators: A radio button to choose all types of emoticons.
-		self.rdAll = wx.RadioButton(self, label = _("&All"), style = wx.RB_GROUP)
-		self.Bind(wx.EVT_RADIOBUTTON, self.onAllEmoticons, self.rdAll)
-		# Translators: A radio button to choose only standard emoticons.
-		self.rdStandard = wx.RadioButton(self, label = _("&Standard"))
-		self.Bind(wx.EVT_RADIOBUTTON, self.onStandardEmoticons, self.rdStandard)
-		# Translators: A radio button to choose only emojis.
-		self.rdEmojis = wx.RadioButton(self, label = _("Emoj&is"))
-		self.Bind(wx.EVT_RADIOBUTTON, self.onEmojis, self.rdEmojis)
-		self.sizerRadio = wx.BoxSizer(wx.HORIZONTAL)
-		self.sizerRadio.Add(self.lblShow, 0, wx.FIXED_MINSIZE)
-		self.sizerRadio.Add(self.rdAll, 0, wx.FIXED_MINSIZE)
-		self.sizerRadio.Add(self.rdStandard, 0, wx.FIXED_MINSIZE)
-		self.sizerRadio.Add(self.rdEmojis, 0, wx.FIXED_MINSIZE)
-		# List of emoticons.
-		# Translators: Label for the smileys list.
-		self.lblList = wx.StaticText(self, label= _("&List of smilies:"), pos = (-1, -1))
-		self.smileysList = wx.ListCtrl(self, size=(490, 400), style=wx.LC_REPORT | wx.BORDER_SUNKEN)
-		# Translators: Column which specifies the name  of emoticon.
-		self.smileysList.InsertColumn(0, _("Name"))
-		# Translators: Column which specifies the type of emoticon (standard or emoji).
-		self.smileysList.InsertColumn(1, _("Type"))
-		# Translators: The column which contains the emoticon.
-		self.smileysList.InsertColumn(2, _("Emoticon"))
-		self.smileysList.Bind(wx.EVT_KEY_DOWN, self.onEnterOnList)
-		self.sizerList = wx.BoxSizer(wx.VERTICAL)
-		self.sizerList.Add(self.lblList, 0, wx.FIXED_MINSIZE)
-		self.sizerList.Add(self.smileysList, 1, wx.EXPAND)
-		self._loadEmoticons()
-		# Buttons.
-		self.sizerButtons = self.CreateButtonSizer(wx.OK | wx.CANCEL)
-		btnOk = self.FindWindowById(self.GetAffirmativeId())
-		self.Bind(wx.EVT_BUTTON, self.onOk, btnOk)
-		# Vertical layout
-		self.sizerLayout = wx.BoxSizer(wx.VERTICAL)
-		self.sizerLayout.Add(self.sizerRadio, 0, wx.FIXED_MINSIZE)
-		self.sizerLayout.Add(self.sizerFilter, 0, wx.FIXED_MINSIZE)
-		self.sizerLayout.Add(self.sizerList, 1, wx.EXPAND)
-		self.sizerLayout.Add(self.sizerButtons, 0, wx.EXPAND)
-		
-		self.SetSizer(self.sizerLayout)
-		self.SetAutoLayout(1)
-		self.sizerLayout.Fit(self)
-		self.Center()
-		self.txtFilter.SetFocus()
-		
-	def _formatIsEmoji(self, isEmoji):
-		"""Converts boolean isEmoji property to text."""
-		# Translators: Label for emojis in the list.
-		if isEmoji: return _("Emoji")
-		# Translators: Label for standard emoticons in the list.
-		else: return _("Standard")
-		
-	def _loadEmoticons(self):
-		"""Reload the emoticons list."""
-		self.smileysList.DeleteAllItems()
-		for emoticon in self._filteredEmoticons:
-			if not emoticon.isEmoji:
-				self.smileysList.Append([emoticon.name, self._formatIsEmoji(emoticon.isEmoji), unicode(emoticon.chars)])
-			else:
-				self.smileysList.Append([emoticon.name, self._formatIsEmoji(emoticon.isEmoji), emoticon.chars.decode("utf-8")])
-			
-	def onFilterChange(self, event):
-		"""Updates the emoticon list when the filter field changes its content."""
-		self._filteredEmoticons = self._filter.filter(emoticons, self.txtFilter.GetValue())
-		self._loadEmoticons()
-		
-	def onEnterOnList(self, evt):
-		"""Same effect as click OK button when pressing enter on smileys list."""
-		keycode = evt.GetKeyCode()
-		if keycode == wx.WXK_RETURN: self.onOk(evt)
-		evt.Skip(True)
-		
-	def onOk(self, evt):
-		"""Copy to clipboard the focused emoticon on the list."""
-		icon = self._filteredEmoticons[self.smileysList.GetFocusedItem()]
-		if not icon.isEmoji:
-			iconToInsert = unicode(icon.chars)
-		else:
-			iconToInsert = icon.chars.decode("utf-8")
+	def onOk(self,evt):
+		super(InsertEmoticonDialog, self).onOk(evt)
+		iconToInsert = unicode(emoticons[self.smileysList.GetSelection()].chars)
 		if api.copyToClip(iconToInsert):
 			# Translators: This is the message when smiley has been copied to the clipboard.
 			wx.CallLater(100, ui.message, _("Smiley copied to clipboard, ready for you to paste."))
 		else:
 			wx.CallLater(100, ui.message, _("Cannot copy smiley."))
-		self.Destroy()
-	
-	def onAllEmoticons(self, event):
-		"""Changes the filter to all emoticons and reload the emoticon list."""
-		self._filter = EmoticonFilter()
-		self._filteredEmoticons = self._filter.filter(emoticons, self.txtFilter.GetValue())
-		self._loadEmoticons()
-	
-	def onStandardEmoticons(self, event):
-		"""Changes the filter to standard emoticons and reloads the emoticon list."""
-		self._filter = FilterStandard()
-		self._filteredEmoticons = self._filter.filter(emoticons, self.txtFilter.GetValue())
-		self._loadEmoticons()
-
-	def onEmojis(self, event):
-		"""Changes the filter to emojis and reloads the emoticon list."""
-		self._filter = FilterEmoji()
-		self._filteredEmoticons = self._filter.filter(emoticons, self.txtFilter.GetValue())
-		self._loadEmoticons()
-		
-	def __del__(self):
-		InsertEmoticonDialog._instance = None
 
 class EmDicDialog(DictionaryDialog):
 
 	def makeSettings(self, settingsSizer):
-		dictListID=wx.NewId()
-		entriesSizer=wx.BoxSizer(wx.VERTICAL)
-		# Translators: The label for the combo box of dictionary entries in speech dictionary dialog.
-		entriesLabel=wx.StaticText(self,-1,label=_("&Dictionary entries"))
-		entriesSizer.Add(entriesLabel)
-		self.dictList=wx.ListCtrl(self,dictListID,style=wx.LC_REPORT|wx.LC_SINGLE_SEL,size=(550,350))
-		# Translators: The label for a column in dictionary entries list used to identify comments for the entry.
-		self.dictList.InsertColumn(0,_("Comment"),width=150)
-		# Translators: The label for a column in dictionary entries list used to identify pattern (original word or a pattern).
-		self.dictList.InsertColumn(1,_("Pattern"),width=150)
-		# Translators: The label for a column in dictionary entries list and in a list of symbols from symbol pronunciation dialog used to identify replacement for a pattern or a symbol
-		self.dictList.InsertColumn(2,_("Replacement"),width=150)
-		# Translators: The label for a column in dictionary entries list used to identify whether the entry is case sensitive or not.
-		self.dictList.InsertColumn(3,_("case"),width=50)
-		# Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression, matches whole words, or matches anywhere.
-		self.dictList.InsertColumn(4,_("Type"),width=50)
-		self.offOn = (_("off"),_("on"))
-		for entry in self.tempSpeechDict:
-			self.dictList.Append((entry.comment,entry.pattern,entry.replacement,self.offOn[int(entry.caseSensitive)],DictionaryDialog.TYPE_LABELS[entry.type]))
-		self.editingIndex=-1
-		entriesSizer.Add(self.dictList,proportion=8)
-		settingsSizer.Add(entriesSizer)
-		entryButtonsSizer=wx.BoxSizer(wx.HORIZONTAL)
-		addButtonID=wx.NewId()
-		# Translators: The label for a button in speech dictionaries dialog to add new entries.
-		addButton=wx.Button(self,addButtonID,_("&Add"),wx.DefaultPosition)
-		entryButtonsSizer.Add(addButton)
-		editButtonID=wx.NewId()
-		# Translators: The label for a button in speech dictionaries dialog to edit existing entries.
-		editButton=wx.Button(self,editButtonID,_("&Edit"),wx.DefaultPosition)
-		entryButtonsSizer.Add(editButton)
-		removeButtonID=wx.NewId()
-		removeButton=wx.Button(self,removeButtonID,_("&Remove"),wx.DefaultPosition)
-		entryButtonsSizer.Add(removeButton)
+		sHelper = guiHelper.BoxSizerHelper(self, sizer=settingsSizer)
+		bHelper = guiHelper.ButtonHelper(orientation=wx.HORIZONTAL)
 		resetButtonID = wx.NewId()
-		resetButton = wx.Button(self,resetButtonID,_("Rese&t"),wx.DefaultPosition)
-		self.Bind(wx.EVT_BUTTON,self.OnAddClick,id=addButtonID)
-		self.Bind(wx.EVT_BUTTON,self.OnEditClick,id=editButtonID)
-		self.Bind(wx.EVT_BUTTON,self.OnRemoveClick,id=removeButtonID)
-		self.Bind(wx.EVT_BUTTON,self.OnResetClick,id=resetButtonID)
-		settingsSizer.Add(entryButtonsSizer)
-		fileButtonsSizer = wx.BoxSizer(wx.HORIZONTAL)
+		# Translators: The label for a button in the Emoticons dictionary dialog.
+		bHelper.addButton(self, resetButtonID, _("Re&set"), wx.DefaultPosition)
 		exportButtonID = wx.NewId()
-		# Translators: The label for a button in speech dictionaries dialog to add new entries.
-		exportButton = wx.Button(self,exportButtonID,_("Save and e&xport dictionary"),wx.DefaultPosition)
-		fileButtonsSizer.Add(exportButton)
-		self.Bind(wx.EVT_BUTTON,self.OnExportClick,id=exportButtonID)
-		settingsSizer.Add(fileButtonsSizer)
+		# Translators: The label for a button in the Emoticons dictionary dialog.
+		bHelper.addButton(self, exportButtonID, _("Save and e&xport dictionary"), wx.DefaultPosition)
+		sHelper.addItem(bHelper)
+		super(EmDicDialog, self).makeSettings(settingsSizer)
+		self.Bind(wx.EVT_BUTTON, self.OnResetClick, id=resetButtonID)
+		self.Bind(wx.EVT_BUTTON, self.OnExportClick, id=exportButtonID)
 
-	def OnResetClick(self,evt):
+	def OnResetClick(self, evt):
 		self.dictList.DeleteAllItems()
 		self.tempSpeechDict = []
 		self.tempSpeechDict.extend(defaultDic)
@@ -393,7 +219,7 @@ class EmDicDialog(DictionaryDialog):
 			activateEmoticons()
 			shouldActivateEmoticons = False
 
-	def OnExportClick(self,evt):
+	def OnExportClick(self, evt):
 		self.onOk(None)
 		sD.save(os.path.join(speechDictHandler.speechDictsPath, "emoticons.dic"))
 
