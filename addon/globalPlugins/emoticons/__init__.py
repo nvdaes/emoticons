@@ -14,6 +14,7 @@ import gui
 import addonHandler
 from gui.settingsDialogs import SettingsDialog
 from gui.settingsDialogs import DictionaryDialog
+from gui import guiHelper
 from smileysList import emoticons
 from logHandler import log
 
@@ -200,32 +201,25 @@ class InsertEmoticonDialog(wx.Dialog):
 		super(InsertEmoticonDialog, self).__init__(parent, title= _("Insert emoticon"), pos = wx.DefaultPosition, size = (500, 600))
 		self._filteredEmoticons = emoticons
 		self._filter = EmoticonFilter()
+		self.sizerLayout = guiHelper.BoxSizerHelper(self, wx.VERTICAL)
 		# Filter panel.
 		# Translators: A text field to filter emoticons.
-		self.lblFilter = wx.StaticText(self, label= _("&Filter:"), pos = (-1, -1))
-		self.txtFilter = wx.TextCtrl(self)
+		self.txtFilter = self.sizerLayout.addLabeledControl(_("&Filter:"), wx.TextCtrl)
 		self.Bind(wx.EVT_TEXT, self.onFilterChange, self.txtFilter)
-		self.sizerFilter = wx.BoxSizer(wx.HORIZONTAL)
-		self.sizerFilter.Add(self.lblFilter, 0, wx.FIXED_MINSIZE)
-		self.sizerFilter.Add(self.txtFilter, 1, wx.EXPAND)
 		# Radio buttons to choose the emoticon set.
+		self.sizerRadio = guiHelper.BoxSizerHelper(self, wx.HORIZONTAL)
 		# Translators: A radio button to choose all types of emoticons.
-		self.rdAll = wx.RadioButton(self, label = _("&All"), style = wx.RB_GROUP)
+		self.rdAll = self.sizerRadio.addItem(wx.RadioButton(self, label= _("&All"), style= wx.RB_GROUP))
 		self.Bind(wx.EVT_RADIOBUTTON, self.onAllEmoticons, self.rdAll)
 		# Translators: A radio button to choose only standard emoticons.
-		self.rdStandard = wx.RadioButton(self, label = _("&Standard"))
+		self.rdStandard = self.sizerRadio.addItem(wx.RadioButton(self, label= _("&Standard")))
 		self.Bind(wx.EVT_RADIOBUTTON, self.onStandardEmoticons, self.rdStandard)
 		# Translators: A radio button to choose only emojis.
-		self.rdEmojis = wx.RadioButton(self, label = _("Emoj&is"))
+		self.rdEmojis = self.sizerRadio.addItem(wx.RadioButton(self, label= _("Emoj&is")))
 		self.Bind(wx.EVT_RADIOBUTTON, self.onEmojis, self.rdEmojis)
-		self.sizerRadio = wx.BoxSizer(wx.HORIZONTAL)
-		self.sizerRadio.Add(self.rdAll, 0, wx.FIXED_MINSIZE)
-		self.sizerRadio.Add(self.rdStandard, 0, wx.FIXED_MINSIZE)
-		self.sizerRadio.Add(self.rdEmojis, 0, wx.FIXED_MINSIZE)
 		# List of emoticons.
 		# Translators: Label for the smileys list.
-		self.lblList = wx.StaticText(self, label= _("&List of smilies:"), pos = (-1, -1))
-		self.smileysList = wx.ListCtrl(self, size=(490, 400), style=wx.LC_REPORT | wx.BORDER_SUNKEN)
+		self.smileysList = self.sizerLayout.addLabeledControl(_("&List of smilies"), wx.ListCtrl, size= (490, 400), style= wx.LC_REPORT | wx.BORDER_SUNKEN)
 		# Translators: Column which specifies the name  of emoticon.
 		self.smileysList.InsertColumn(0, _("Name"), width=350)
 		# Translators: Column which specifies the type of emoticon (standard or emoji).
@@ -233,24 +227,20 @@ class InsertEmoticonDialog(wx.Dialog):
 		# Translators: The column which contains the emoticon.
 		self.smileysList.InsertColumn(2, _("Emoticon"), width=40)
 		self.smileysList.Bind(wx.EVT_KEY_DOWN, self.onEnterOnList)
-		self.sizerList = wx.BoxSizer(wx.VERTICAL)
-		self.sizerList.Add(self.lblList, 0, wx.FIXED_MINSIZE)
-		self.sizerList.Add(self.smileysList, 1, wx.EXPAND)
 		self._loadEmoticons()
 		# Buttons.
 		self.sizerButtons = self.CreateButtonSizer(wx.OK | wx.CANCEL)
 		btnOk = self.FindWindowById(self.GetAffirmativeId())
 		self.Bind(wx.EVT_BUTTON, self.onOk, btnOk)
 		# Vertical layout
-		self.sizerLayout = wx.BoxSizer(wx.VERTICAL)
-		self.sizerLayout.Add(self.sizerRadio, 0, wx.FIXED_MINSIZE)
-		self.sizerLayout.Add(self.sizerFilter, 0, wx.FIXED_MINSIZE)
-		self.sizerLayout.Add(self.sizerList, 1, wx.EXPAND)
-		self.sizerLayout.Add(self.sizerButtons, 0, wx.EXPAND)
+		self.sizerLayout.addItem(self.sizerRadio.sizer, flag=wx.ALL)
+		self.sizerLayout.addItem(self.sizerButtons)
 		
-		self.SetSizer(self.sizerLayout)
+		self.mainSizer = wx.BoxSizer(wx.VERTICAL)
+		self.mainSizer.Add(self.sizerLayout.sizer, border=10, flag=wx.ALL)
+		self.SetSizer(self.mainSizer)
 		self.SetAutoLayout(1)
-		self.sizerLayout.Fit(self)
+		self.mainSizer.Fit(self)
 		self.Center()
 		self.txtFilter.SetFocus()
 		
