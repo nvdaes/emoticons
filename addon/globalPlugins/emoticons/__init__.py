@@ -193,12 +193,30 @@ class InsertEmoticonDialog(wx.Dialog):
 			return super(InsertEmoticonDialog, cls).__new__(cls, *args, **kwargs)
 		return InsertEmoticonDialog._instance
 
+	def _calculatePosition(self, width, height):
+		w = wx.SystemSettings.GetMetric(wx.SYS_SCREEN_X)
+		h = wx.SystemSettings.GetMetric(wx.SYS_SCREEN_Y)
+
+		# Centre of the screen
+		x = w / 2
+		y = h / 2
+
+		# Minus application offset
+		x -= (width / 2)
+		y -= (height / 2)
+
+		return (x, y)
+
+
 	def __init__(self, parent):
 		if InsertEmoticonDialog._instance is not None:
 			return
 		InsertEmoticonDialog._instance = self
+		WIDTH = 500
+		HEIGHT = 600
+		pos = self._calculatePosition(WIDTH, HEIGHT)
 		# Translators: Title of the dialog.
-		super(InsertEmoticonDialog, self).__init__(parent, title= _("Insert emoticon"), pos = wx.DefaultPosition, size = (500, 600))
+		super(InsertEmoticonDialog, self).__init__(parent, title= _("Insert emoticon"), pos = pos, size = (WIDTH, HEIGHT))
 		self._filteredEmoticons = emoticons
 		self._filter = EmoticonFilter()
 		self.sizerLayout = guiHelper.BoxSizerHelper(self, wx.VERTICAL)
@@ -224,8 +242,8 @@ class InsertEmoticonDialog(wx.Dialog):
 		self.smileysList.InsertColumn(0, _("Name"), width=350)
 		# Translators: Column which specifies the type of emoticon (standard or emoji).
 		self.smileysList.InsertColumn(1, _("Type"), width=100)
-		# Translators: The column which contains the emoticon.
-		self.smileysList.InsertColumn(2, _("Emoticon"), width=40)
+		# Translators: The column which contains the characters of the emoticon.
+		self.smileysList.InsertColumn(2, _("Characters"), width=40)
 		self.smileysList.Bind(wx.EVT_KEY_DOWN, self.onEnterOnList)
 		self._loadEmoticons()
 		# Buttons.
@@ -239,9 +257,9 @@ class InsertEmoticonDialog(wx.Dialog):
 		self.mainSizer = wx.BoxSizer(wx.VERTICAL)
 		self.mainSizer.Add(self.sizerLayout.sizer, border=10, flag=wx.ALL)
 		self.SetSizer(self.mainSizer)
-		self.SetAutoLayout(1)
+		# self.SetAutoLayout(1)
 		self.mainSizer.Fit(self)
-		self.Center()
+		# self.Center()
 		self.txtFilter.SetFocus()
 		
 	def _formatIsEmoji(self, isEmoji):
@@ -273,7 +291,15 @@ class InsertEmoticonDialog(wx.Dialog):
 		
 	def onOk(self, evt):
 		"""Copy to clipboard the focused emoticon on the list."""
-		icon = self._filteredEmoticons[self.smileysList.GetFocusedItem()]
+		focusedItem = self.smileysList.GetFocusedItem()
+		if focusedItem == -1:
+			if self.smileysList.GetItemCount() > 0: focusedItem = 0
+			else:
+				# Translators: Error message when none emoticon is selected or the list is empty, and title of the error dialog.
+				errorDialog = wx.MessageDialog(self, _("There is not any emoticon selected."), _("Error"), wx.OK)
+				errorDialog.ShowModal()
+				return
+		icon = self._filteredEmoticons[focusedItem]
 		if not icon.isEmoji:
 			iconToInsert = unicode(icon.chars)
 		else:
