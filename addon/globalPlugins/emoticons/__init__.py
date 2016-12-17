@@ -11,10 +11,12 @@ import api
 import ui
 import wx
 import gui
+from gui import guiHelper
 import addonHandler
 from gui.settingsDialogs import SettingsDialog
 from gui.settingsDialogs import DictionaryDialog
 from smileysList import emoticons
+from skipTranslation import translate
 
 try:
 	from globalCommands import SCRCAT_SPEECH, SCRCAT_TOOLS
@@ -68,12 +70,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		global sD, defaultDic
 		sD.load(dicFile)
 		for em in emoticons:
-			if not em.isEmoji:
-				# Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
-				comment = _("Emoticon: %s") % em.name
-			else:
-				# Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
-				comment = _("Emoji: %s") % em.name
+			# Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
+			comment = _("Emoticon: %s") % em.name
 			otherReplacement = " %s; " % em.name
 			# Case and reg are always True
 			defaultDic.append(speechDictHandler.SpeechDictEntry(em.pattern, otherReplacement, comment, True, speechDictHandler.ENTRY_TYPE_REGEXP))
@@ -177,11 +175,7 @@ class InsertEmoticonDialog(SettingsDialog):
 
 	def onOk(self,evt):
 		super(InsertEmoticonDialog, self).onOk(evt)
-		icon = emoticons[self.smileysList.GetSelection()]
-		if not icon.isEmoji:
-			iconToInsert = unicode(icon.chars)
-		else:
-			iconToInsert = icon.chars.decode("utf-8")
+		iconToInsert = unicode(emoticons[self.smileysList.GetSelection()].chars)
 		if api.copyToClip(iconToInsert):
 			# Translators: This is the message when smiley has been copied to the clipboard.
 			wx.CallLater(100, ui.message, _("Smiley copied to clipboard, ready for you to paste."))
@@ -191,56 +185,20 @@ class InsertEmoticonDialog(SettingsDialog):
 class EmDicDialog(DictionaryDialog):
 
 	def makeSettings(self, settingsSizer):
-		dictListID=wx.NewId()
-		entriesSizer=wx.BoxSizer(wx.VERTICAL)
-		# Translators: The label for the combo box of dictionary entries in speech dictionary dialog.
-		entriesLabel=wx.StaticText(self,-1,label=_("&Dictionary entries"))
-		entriesSizer.Add(entriesLabel)
-		self.dictList=wx.ListCtrl(self,dictListID,style=wx.LC_REPORT|wx.LC_SINGLE_SEL,size=(550,350))
-		# Translators: The label for a column in dictionary entries list used to identify comments for the entry.
-		self.dictList.InsertColumn(0,_("Comment"),width=150)
-		# Translators: The label for a column in dictionary entries list used to identify pattern (original word or a pattern).
-		self.dictList.InsertColumn(1,_("Pattern"),width=150)
-		# Translators: The label for a column in dictionary entries list and in a list of symbols from symbol pronunciation dialog used to identify replacement for a pattern or a symbol
-		self.dictList.InsertColumn(2,_("Replacement"),width=150)
-		# Translators: The label for a column in dictionary entries list used to identify whether the entry is case sensitive or not.
-		self.dictList.InsertColumn(3,_("case"),width=50)
-		# Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression, matches whole words, or matches anywhere.
-		self.dictList.InsertColumn(4,_("Type"),width=50)
-		self.offOn = (_("off"),_("on"))
-		for entry in self.tempSpeechDict:
-			self.dictList.Append((entry.comment,entry.pattern,entry.replacement,self.offOn[int(entry.caseSensitive)],DictionaryDialog.TYPE_LABELS[entry.type]))
-		self.editingIndex=-1
-		entriesSizer.Add(self.dictList,proportion=8)
-		settingsSizer.Add(entriesSizer)
-		entryButtonsSizer=wx.BoxSizer(wx.HORIZONTAL)
-		addButtonID=wx.NewId()
-		# Translators: The label for a button in speech dictionaries dialog to add new entries.
-		addButton=wx.Button(self,addButtonID,_("&Add"),wx.DefaultPosition)
-		entryButtonsSizer.Add(addButton)
-		editButtonID=wx.NewId()
-		# Translators: The label for a button in speech dictionaries dialog to edit existing entries.
-		editButton=wx.Button(self,editButtonID,_("&Edit"),wx.DefaultPosition)
-		entryButtonsSizer.Add(editButton)
-		removeButtonID=wx.NewId()
-		removeButton=wx.Button(self,removeButtonID,_("&Remove"),wx.DefaultPosition)
-		entryButtonsSizer.Add(removeButton)
+		sHelper = guiHelper.BoxSizerHelper(self, sizer=settingsSizer)
+		bHelper = guiHelper.ButtonHelper(orientation=wx.HORIZONTAL)
 		resetButtonID = wx.NewId()
-		resetButton = wx.Button(self,resetButtonID,_("Rese&t"),wx.DefaultPosition)
-		self.Bind(wx.EVT_BUTTON,self.OnAddClick,id=addButtonID)
-		self.Bind(wx.EVT_BUTTON,self.OnEditClick,id=editButtonID)
-		self.Bind(wx.EVT_BUTTON,self.OnRemoveClick,id=removeButtonID)
-		self.Bind(wx.EVT_BUTTON,self.OnResetClick,id=resetButtonID)
-		settingsSizer.Add(entryButtonsSizer)
-		fileButtonsSizer = wx.BoxSizer(wx.HORIZONTAL)
+		# Translators: The label for a button in the Emoticons dictionary dialog.
+		bHelper.addButton(self, resetButtonID, _("Rese&t"), wx.DefaultPosition)
 		exportButtonID = wx.NewId()
-		# Translators: The label for a button in speech dictionaries dialog to add new entries.
-		exportButton = wx.Button(self,exportButtonID,_("Save and e&xport dictionary"),wx.DefaultPosition)
-		fileButtonsSizer.Add(exportButton)
-		self.Bind(wx.EVT_BUTTON,self.OnExportClick,id=exportButtonID)
-		settingsSizer.Add(fileButtonsSizer)
+		# Translators: The label for a button in the Emoticons dictionary dialog.
+		bHelper.addButton(self, exportButtonID, _("Save and e&xport dictionary"), wx.DefaultPosition)
+		sHelper.addItem(bHelper)
+		super(EmDicDialog, self).makeSettings(settingsSizer)
+		self.Bind(wx.EVT_BUTTON, self.OnResetClick, id=resetButtonID)
+		self.Bind(wx.EVT_BUTTON, self.OnExportClick, id=exportButtonID)
 
-	def OnResetClick(self,evt):
+	def OnResetClick(self, evt):
 		self.dictList.DeleteAllItems()
 		self.tempSpeechDict = []
 		self.tempSpeechDict.extend(defaultDic)
@@ -262,7 +220,7 @@ class EmDicDialog(DictionaryDialog):
 			activateEmoticons()
 			shouldActivateEmoticons = False
 
-	def OnExportClick(self,evt):
+	def OnExportClick(self, evt):
 		self.onOk(None)
 		sD.save(os.path.join(speechDictHandler.speechDictsPath, "emoticons.dic"))
 
@@ -272,25 +230,16 @@ class ActivateEmoticonsDialog(SettingsDialog):
 	title = _("Activation settings")
 
 	def makeSettings(self, settingsSizer):
-		activateSizer=wx.BoxSizer(wx.HORIZONTAL)
+		sHelper = guiHelper.BoxSizerHelper(self, sizer=settingsSizer)
 		# Translators: The label for a setting in Activate emoticons dialog.
-		activateLabel=wx.StaticText(self,-1,label=_("&Activate speaking of emoticons at start:"))
-		activateSizer.Add(activateLabel)
-		activateListID = wx.NewId()
-		self.activateChoices = [
-		# Translators: a choice of Activateemoticons dialog.
-		_("off"),
-		# Translators: a choice of Activateemoticons dialog.
-		_("On")]
+		activateLabel = _("&Activate speaking of emoticons at start:")
+		self.activateChoices = (translate("off"), translate("on"))
 		# Translators: a combo box in Emoticons dialog.
-		self.activateList = wx.Choice(self, activateListID, name=_("Activate at start"), choices=[x for x in self.activateChoices])
-		self.activateList.SetSelection(conf["Activation settings"]["activateAtStart"])
-		activateSizer.Add(self.activateList)
-		settingsSizer.Add(activateSizer,border=10,flag=wx.BOTTOM)
+		self.activateList = sHelper.addLabeledControl(activateLabel, wx.Choice, choices=self.activateChoices)
+		self.activateList.Selection = conf["Activation settings"]["activateAtStart"]
 		# Translators: The label for a setting in Activate emoticons dialog to copy activation settings.
-		self.copyActivationCheckBox = wx.CheckBox(self, wx.NewId(), label=_("&Copy activation settings"))
-		self.copyActivationCheckBox.SetValue(False)
-		settingsSizer.Add(self.copyActivationCheckBox,border=10,flag=wx.BOTTOM)
+		self.copyActivationCheckBox = sHelper.addItem(wx.CheckBox(self, label=_("&Copy activation settings")))
+		self.copyActivationCheckBox.Value = False
 
 	def postInit(self):
 		self.activateList.SetFocus()
