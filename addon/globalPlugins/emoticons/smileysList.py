@@ -7,180 +7,284 @@ from collections import namedtuple
 
 addonHandler.initTranslation()
 
-Smiley = namedtuple('Smiley', 'pattern name chars')
+Smiley = namedtuple('Smiley', 'pattern name chars isEmoji')
 emoticons = [
+	# Translators: (emoji) Happy face with open mouth and squinting eyes.
+	Smiley(u'😄', _("Happy face with open mouth and squinting eyes"), '😄', True),
+	# Translators: (emoji) happy face with normal eyes.
+	Smiley(u'😀', _("Happy face with normal eyes"), '😀', True),
+	# Translators: (emoji) happy face with wide mouth and squinting eyes.
+	Smiley(u'😊', _("Happy face with wide mouth and squinting eyes"), '😊', True),
+	# Translators: (emoji) white smiling face.
+	Smiley(u'☺', _("white smiling face"), '☺', True),
+	# Translators: (emoji) white frowning face.
+	Smiley(u'☹', _("White frowning face"), '☹', True),
+	# Translators: (emoji) winking face.
+	Smiley(u'😉', _("Winking face"), '😉', True),
+	# Translators: (emoji) smiling face with heart shaped eyes.
+	Smiley(u'😍', _("Smiling face with heart shaped eyes"), '😍', True),
+	# Translators: (emoji) face throwing a kiss.
+	Smiley(u'😘', _("Face throwing a kiss"), '😘', True),
+	# Translators: (emoji) kissing face with closed eyes.
+	Smiley(u'😚', _("Kissing face with closed eyes"), '😚', True),
+	# Translators: (emoji) kissing face with open eyes.
+	Smiley(u'😗', _("Kissing face with open eyes"), '😗', True),
+	# Translators: (emoji) kissing face with arched eyes.
+	Smiley(u'😙', _("Kissing face with arched eyes"), '😙', True),
+	# Translators: (emoji) winking face with stuck out tongue.
+	Smiley(u'😜', _("Winking face with stuck out tongue"), '😜', True),
+	# Translators: (emoji) face with stuck out tongue and eyes tightly closed.
+	Smiley(u'😝', _("Face with stuck out tongue and eyes tightly closed"), '😝', True),
+	# Translators: (emoji) face with stuck out tongue and eyes open.
+	Smiley(u'😛', _("Face with stuck out tongue and eyes open"), '😛', True),
+	# Translators: (emoji) flushed face.
+	Smiley(u'😳', _("Flushed face"), '😳', True),
+	# Translators: (emoji) face with clenched teeth.
+	Smiley(u'😁', _("Face with clenched teeth"), '😁', True),
+	# Translators: (emoji) person frowning.
+	Smiley(u'😔', _("Person frowning"), '😔', True),
+	# Translators: (emoji) relieved face.
+	Smiley(u'😌', _("Relieved face"), '😌', True),
+	# Translators: (emoji) unamused face.
+	Smiley(u'😒', _("Unamused face"), '😒', True),
+	# Translators: (emoji) disappointed face.
+	Smiley(u'😞', _("Disappointed face"), 'ð😞', True),
+	# Translators: (emoji) tired face.
+	Smiley(u'😣', _("Tired face"), '😣', True),
+	# Translators: (emoji) crying face.
+	Smiley(u'😢', _("Crying face"), '😢', True),
+	# Translators: (emoji) face with tears of joy.
+	Smiley(u'😂', _("Face with tears of joy"), '😂', True),
+	# Translators: (emoji) loudly crying face.
+	Smiley(u'😭', _("Loudly crying face"), '😭', True),
+	# Translators: (emoji) sleepy face.
+	Smiley(u'😪', _("Sleepy face"), '😪', True),
+	# Translators: (emoji) disappointed but relieved face.
+	Smiley(u'😥', _("Disappointed but relieved face"), '😥', True),
+	# Translators: (emoji) exasperated face.
+	Smiley(u'😰', _("Exasperated face"), '😰', True),
+	# Translators: (emoji) happy face with tear-drop.
+	Smiley(u'😅', _("Happy face with teardrop"), '😅', True),
+	# Translators: (emoji) face with cold sweat.
+	Smiley(u'😓', _("Face with cold sweat"), '😓', True),
+	# Translators: (emoji) whaling face.
+	Smiley(u'😩', _("Whaling face"), '😩', True),
+	# Translators: (emoji) whaling face with squinting eyes.
+	Smiley(u'😫', _("Whaling face with squinting eyes"), '😫', True),
+	# Translators: (emoji) fearful face.
+	Smiley(u'😨', _("Fearful face"), '😨', True),
+	# Translators: (emoji) face screaming in fear.
+	Smiley(u'😱', _("Face screaming in fear"), '😱', True),
+	# Translators: (emoji) angry face.
+	Smiley(u'😠', _("Angry face"), '😠', True),
+	# Translators: (emoji) pouting face.
+	Smiley(u'😡', _("Pouting face"), '😡', True),
+	# Translators: (emoji) huffing with anger face.
+	Smiley(u'😤', _("Huffing with anger face"), '😤', True),
+	# Translators: (emoji) confounded face.
+	Smiley(u'😖', _("Confounded face"), '😖', True),
+	# Translators: (emoji) oddly evil and smiling face.
+	Smiley(u'😆', _("Oddly evil and smiling face"), '😆', True),
+	# Translators: (emoji) happy face licking lips.
+	Smiley(u'😋', _("Happy face licking lips"), '😋', True),
+	# Translators: (emoji) happy face with sunglasses.
+	Smiley(u'😎', _("Happy face with sunglasses"), '😎', True),
+	# Translators: (emoji) sleeping face.
+	Smiley(u'😴', _("Sleeping face"), '😴', True),
+	# Translators: (emoji) very astonished face.
+	Smiley(u'😵', _("Very astonished face"), '😵', True),
+	# Translators: (emoji) astonished face.
+	Smiley(u'😲', _("Astonished face"), '😲', True),
+	# Translators: (emoji) worried face.
+	Smiley(u'😟', _("Worried face"), '😟', True),
+	# Translators: (emoji) surprised and dismayed face.
+	Smiley(u'😦', _("Surprised and dismayed face"), '😦', True),
+	# Translators: (emoji) anguished face.
+	Smiley(u'😧', _("Anguished face"), '😧', True),
+	# Translators: (emoji) open mouth and surprised face.
+	Smiley(u'😮', _("Open mouth and surprised face"), '😮', True),
+	# Translators: (emoji) grimacing face.
+	Smiley(u'😬', _("Grimacing face"), '😬', True),
+	# Translators: (emoji) confused face.
+	Smiley(u'😕', _("Confused face"), '😕', True),
+	# Translators: (emoji) surprised face.
+	Smiley(u'😯', _("Surprised face"), '😯', True),
+	# Translators: (emoji) happy cat face with heart shaped eyes.
+	Smiley(u'😻', _("Happy cat face with heart shaped eyes"), '😻', True),
+	# Translators: (emoji) Latin cross
+	Smiley(u'✝', _("Latin cross"), '✝', True),
 	# Translators: :) Smile
-	Smiley(r'(\s|^)(:([\-]|)([)]{1})(\B|\s|$))', _("smiling smiley"), r':)'),
+	Smiley(r'(\s|^)(:([\-]|)([)]{1})(\B|\s|$))', _("smiling smiley"), r':)', False),
 	# Translators: :( Sad
-	Smiley(r'(\s|^)(:([\-]|)([(]{1})\B)', _("sad smiley"), r':('),
+	Smiley(r'(\s|^)(:([\-]|)([(]{1})\B)', _("sad smiley"), r':(', False),
 	# Translators: :D Laugh
-	Smiley(r'(\s|^)(:([\-]|)([D]{1,})\b)', _("Laughing smiley"), r':D'),
+	Smiley(r'(\s|^)(:([\-]|)([D]{1,})\b)', _("Laughing smiley"), r':D', False),
 	# Translators: :O Surprised
-	Smiley(r'(\s|^)(:([\-]|)([O]{1})(\W|\s|$))', _("surprised smiley"), r':O'),
+	Smiley(r'(\s|^)(:([\-]|)([O]{1})(\W|\s|$))', _("surprised smiley"), r':O', False),
 	# Translators: ;) Wink;
-	Smiley(r'(\s|^)(;([\-]|)([)D]{1})(\B|\s|$))', _("winking smiley"), r';)'),
+	Smiley(r'(\s|^)(;([\-]|)([)D]{1})(\B|\s|$))', _("winking smiley"), r';)', False),
 	# Translators: ;( Crying
-	Smiley(r'(\s|^)(;([\-]|)([(]{1})(\B|\s|$))', _("crying smiley"), r';('),
+	Smiley(r'(\s|^)(;([\-]|)([(]{1})(\B|\s|$))', _("crying smiley"), r';(', False),
 	# Translators: (:| Sweating
-	Smiley(r'(\s|^)\((:[\|])(\B|\s|$)', _("sweating smiley"), r'(:|'),
+	Smiley(r'(\s|^)\((:[\|])(\B|\s|$)', _("sweating smiley"), r'(:|', False),
 	# translators:  :|] Robot (a robot head)
-	Smiley(r'(\s|^)(:[\|][\]])(\W|\s|$)', _("Robot Smiley"), r':|]'),
+	Smiley(r'(\s|^)(:[\|][\]])(\W|\s|$)', _("Robot Smiley"), r':|]', False),
 	# Translators: :| Speechless
-	Smiley(r'(\s|^)(:[\|])(\B|\s|$)', _("speechless smiley"), r':|'),
+	Smiley(r'(\s|^)(:[\|])(\B|\s|$)', _("speechless smiley"), r':|', False),
 	# Translators: :* Kiss
-	Smiley(r'(\s|^)(:([\-]|)([\*]{1})(\B|\s|$))', _("kiss smiley"), r':*'),
+	Smiley(r'(\s|^)(:([\-]|)([\*]{1})(\B|\s|$))', _("kiss smiley"), r':*', False),
 	# Translators: :P Cheeky
-	Smiley(r'(\s|^)(:([\-]|)([pP])(\W|\s|$))', _("cheeky smiley"), r':P'),
+	Smiley(r'(\s|^)(:([\-]|)([pP])(\W|\s|$))', _("cheeky smiley"), r':P', False),
 	# Translators: :$ Blushing
-	Smiley(r'(\s|^)(:[\$])(\B|\s|$)', _("blushing smiley"), r':$'),
+	Smiley(r'(\s|^)(:[\$])(\B|\s|$)', _("blushing smiley"), r':$', False),
 	# Translators: :^) Wondering
-	Smiley(r'(\s|^)(:[\^][\)])(\B|\s|$)', _("wondering smiley"), r':^)'),
+	Smiley(r'(\s|^)(:[\^][\)])(\B|\s|$)', _("wondering smiley"), r':^)', False),
 	# Translators: |-) Sleepy
-	Smiley(r'(\s|^)([\|][\-][\)])(\B|\s|$)', _("sleepy smiley"), r'|-)'),
+	Smiley(r'(\s|^)([\|][\-][\)])(\B|\s|$)', _("sleepy smiley"), r'|-)', False),
 	# Translators: |-( Dull
-	Smiley(r'(\s|^)([\|][\-][\(])(\B|\s|$)', _("dull smiley"), r'|-('),
+	Smiley(r'(\s|^)([\|][\-][\(])(\B|\s|$)', _("dull smiley"), r'|-(', False),
 	# Translators: :x My lips are sealed
-	Smiley(r'(\s|^)(:([\-]|)([xX])\b)', _("my lips are sealed smiley"), r':x'),
+	Smiley(r'(\s|^)(:([\-]|)([xX])\b)', _("my lips are sealed smiley"), r':x', False),
 	# Translators: \o/ Dancing
-	Smiley(r'(\s|^)([\\]o[/])(\B|\s|$)', _("dancing smiley"), r'\o/'),
+	Smiley(r'(\s|^)([\\]o[/])(\B|\s|$)', _("dancing smiley"), r'\o/', False),
 	# Translators: :'( crying a lot smiley
-	Smiley(r"(\s|^)([:]['][\(])(\B|\s|$)", _("crying a lot smiley"), r":'("),
+	Smiley(r"(\s|^)([:]['][\(])(\B|\s|$)", _("crying a lot smiley"), r":'(", False),
 	# Translators: >:( Angry
-	Smiley(r'(\s|^)(>:[\(])(\B|\s|$)', _("angry smiley"), r'>:('),
+	Smiley(r'(\s|^)(>:[\(])(\B|\s|$)', _("angry smiley"), r'>:(', False),
 	# Translators: :/ Worried
-	Smiley(r'(\s|^)(:[/])(\B|\s|$)', _("worried smiley"), r':/'),
+	Smiley(r'(\s|^)(:[/])(\B|\s|$)', _("worried smiley"), r':/', False),
 	# Translators: <3 Heart
-	Smiley(r'(\s|^)<3(\W|\s|$)', _("heart smiley"), r'<3'),
+	Smiley(r'(\s|^)<3(\W|\s|$)', _("heart smiley"), r'<3', False),
 	# Translators:  O:)  O:-) Angel
-	Smiley(r'(\s|^)(O:([\-]|)([)])(\W|\s|$))', _("Angel Smiley"), r'O:)'),
+	Smiley(r'(\s|^)(O:([\-]|)([)])(\W|\s|$))', _("Angel Smiley"), r'O:)', False),
 	# Translators:  O.o  o.O  Confused
-	Smiley(r'(\s|^)[Oo][\.][oO](\B|\s|$)', _("Confused Smiley"), r'O.o'),
+	Smiley(r'(\s|^)[Oo][\.][oO](\B|\s|$)', _("Confused Smiley"), r'O.o', False),
 	# Translators:   3:-) Devil
-	Smiley(r'(\s|^)(3:([\-]|)([\)]))(\B|\s|$)', _("Devil Smiley"), r'3:-)'),
+	Smiley(r'(\s|^)(3:([\-]|)([\)]))(\B|\s|$)', _("Devil Smiley"), r'3:-)', False),
 	# Translators:  ^_^ Keke (This smiley is inspired by the Asian style, which is a happy face.)
-	Smiley(r'(\s|^)[\^]_[\^](\B|\s|$)', _("Keke Smiley"), r'^_^'),
+	Smiley(r'(\s|^)[\^]_[\^](\B|\s|$)', _("Keke Smiley"), r'^_^', False),
 	# Translators: -_- Bored (This smiley face has its eyes closed and is sporting a very small grin.)
-	Smiley(r'(\s|^)[\-]_[\-](\B|\s|$)', _("Bored smiley"), r'-_-'),
+	Smiley(r'(\s|^)[\-]_[\-](\B|\s|$)', _("Bored smiley"), r'-_-', False),
 	# Translators:  >:O  Upset, angry or shouting...
-	Smiley(r'(\s|^)(>:O)(\W|\s|$)', _("Angry Smiley"), r'>:O'),
+	Smiley(r'(\s|^)(>:O)(\W|\s|$)', _("Angry Smiley"), r'>:O', False),
 	# Translators:  :3  Cat (Cat faced smiley with curly lips)
-	Smiley(r'(\s|^)(:3)(\W|\s|$)', _("Cat Smiley"), r':3'),
-	# Translators: (-.-)ZZZ I�m Sleepy
-	Smiley(r'(\s|^)\([-][\.][-]\)ZZZ(\B|\s|$)', _("I am Sleepy smiley"), r'(-.-)ZZZ'),
+	Smiley(r'(\s|^)(:3)(\W|\s|$)', _("Cat Smiley"), r':3', False),
+	# Translators: (-.-)ZZZ Iӭ Sleepy
+	Smiley(r'(\s|^)\([-][\.][-]\)ZZZ(\B|\s|$)', _("I am Sleepy smiley"), r'(-.-)ZZZ', False),
 	# Translators: 8-) Glasses
-	Smiley(r'(\s|^)8[-][)](\B|\s|$)', _("glasses smiley"), r'8-)'),
+	Smiley(r'(\s|^)8[-][)](\B|\s|$)', _("glasses smiley"), r'8-)', False),
 	# Translators: (^^^) shark
-	Smiley(r'(\s|^)\([\^]{3}\)(\B|\s|$)', _("shark smiley"), r'(^^^)'),
+	Smiley(r'(\s|^)\([\^]{3}\)(\B|\s|$)', _("shark smiley"), r'(^^^)', False),
 	# Translators: (worry) Worried
-	Smiley(r'(\s|^)\(worry\)(\B|\s|$)', _("worried smiley"), r'(worry)'),
+	Smiley(r'(\s|^)\(worry\)(\B|\s|$)', _("worried smiley"), r'(worry)', False),
 	# Translators:  (cash) Cash
-	Smiley(r'(\s|^)\(cash\)(\B|\s|$)', _("cash smiley"), r'(cash)'),
+	Smiley(r'(\s|^)\(cash\)(\B|\s|$)', _("cash smiley"), r'(cash)', False),
 	# Translators: (flex) Muscle
-	Smiley(r'(\s|^)\(flex\)(\B|\s|$)', _("muscle smiley"), r'(flex)'),
+	Smiley(r'(\s|^)\(flex\)(\B|\s|$)', _("muscle smiley"), r'(flex)', False),
 	# Translators: (beer) Beer
-	Smiley(r'(\s|^)\(beer\)(\B|\s|$)', _("beer smiley"), r'(beer)'),
+	Smiley(r'(\s|^)\(beer\)(\B|\s|$)', _("beer smiley"), r'(beer)', False),
 	# Translators: (d) Drink
-	Smiley(r'(\s|^)\(d\)(\B|\s|$)', _("drink smiley"), r'(d)'),
+	Smiley(r'(\s|^)\(d\)(\B|\s|$)', _("drink smiley"), r'(d)', False),
 	# Translators: (ninja) Ninja
-	Smiley(r'(\s|^)\(ninja\)(\B|\s|$)', _("ninja smiley"), r'(ninja)'),
+	Smiley(r'(\s|^)\(ninja\)(\B|\s|$)', _("ninja smiley"), r'(ninja)', False),
 	# Translators: (cool) Cool
-	Smiley(r'(\s|^)\(cool\)(\B|\s|$)', _("cool smiley"), r'(cool)'),
+	Smiley(r'(\s|^)\(cool\)(\B|\s|$)', _("cool smiley"), r'(cool)', False),
 	# Translators: (inlove) In Love
-	Smiley(r'(\s|^)\(inlove\)(\B|\s|$)', _("in love smiley"), r'(inlove)'),
+	Smiley(r'(\s|^)\(inlove\)(\B|\s|$)', _("in love smiley"), r'(inlove)', False),
 	# Translators: (yn) Fingers crossed
-	Smiley(r'(\s|^)([\(]yn[\)])(\B|\s|$)', _("fingers crossed smiley"), r'(yn)'),
+	Smiley(r'(\s|^)([\(]yn[\)])(\B|\s|$)', _("fingers crossed smiley"), r'(yn)', False),
 	# Translators: (yawn) Yawn
-	Smiley(r'(\s|^)\(yawn\)(\B|\s|$)', _("yawning smiley"), r'(yawn)'),
+	Smiley(r'(\s|^)\(yawn\)(\B|\s|$)', _("yawning smiley"), r'(yawn)', False),
 	# Translators: (puke) Puking
-	Smiley(r'(\s|^)\(puke\)(\B|\s|$)', _("puking smiley"), r'(puke)'),
+	Smiley(r'(\s|^)\(puke\)(\B|\s|$)', _("puking smiley"), r'(puke)', False),
 	# Translators: (doh) Doh!
-	Smiley(r'(\s|^)\(doh\)(\B|\s|$)', _("doh! smiley"), r'(doh)'),
+	Smiley(r'(\s|^)\(doh\)(\B|\s|$)', _("doh! smiley"), r'(doh)', False),
 	# Translators: (angry) Angry
-	Smiley(r'(\s|^)\(angry\)(\B|\s|$)', _("angry smiley"), r'(angry)'),
+	Smiley(r'(\s|^)\(angry\)(\B|\s|$)', _("angry smiley"), r'(angry)', False),
 	# Translators: (wasntme) It wasn't me!
-	Smiley(r'(\s|^)\(wasntme\)(\B|\s|$)', _("it wasn't me! smiley"), r'(wasntme)'),
+	Smiley(r'(\s|^)\(wasntme\)(\B|\s|$)', _("it wasn't me! smiley"), r'(wasntme)', False),
 	# Translators: (party) Party
-	Smiley(r'(\s|^)\(party\)(\B|\s|$)', _("party smiley"), r'(party)'),
+	Smiley(r'(\s|^)\(party\)(\B|\s|$)', _("party smiley"), r'(party)', False),
 	# Translators: (mm) Mmmm...
-	Smiley(r'(\s|^)\(mm\)(\B|\s|$)', _("mmmmmm... smiley"), r'(mm)'),
+	Smiley(r'(\s|^)\(mm\)(\B|\s|$)', _("mmmmmm... smiley"), r'(mm)', False),
 	# Translators: (nerd) Nerdy
-	Smiley(r'(\s|^)\(nerd\)(\B|\s|$)', _("nerdy smiley"), r'(nerd)'),
+	Smiley(r'(\s|^)\(nerd\)(\B|\s|$)', _("nerdy smiley"), r'(nerd)', False),
 	# Translators: (wave) Hi
-	Smiley(r'(\s|^)\(wave\)(\B|\s|$)', _("hi smiley"), r'(wave)'),
+	Smiley(r'(\s|^)\(wave\)(\B|\s|$)', _("hi smiley"), r'(wave)', False),
 	# Translators: (facepalm) Facepalm
-	Smiley(r'(\s|^)\(facepalm\)(\B|\s|$)', _("facepalm smiley"), r'(facepalm)'),
+	Smiley(r'(\s|^)\(facepalm\)(\B|\s|$)', _("facepalm smiley"), r'(facepalm)', False),
 	# Translators: (devil) Devil
-	Smiley(r'(\s|^)\(devil\)(\B|\s|$)', _("devil smiley"), r'(devil)'),
+	Smiley(r'(\s|^)\(devil\)(\B|\s|$)', _("devil smiley"), r'(devil)', False),
 	# Translators: (angel) Angel
-	Smiley(r'(\s|^)\(angel\)(\B|\s|$)', _("angel smiley"), r'(angel)'),
+	Smiley(r'(\s|^)\(angel\)(\B|\s|$)', _("angel smiley"), r'(angel)', False),
 	# Translators: (envy) Envy
-	Smiley(r'(\s|^)\(envy\)(\B|\s|$)', _("envy smiley"), r'(envy)'),
+	Smiley(r'(\s|^)\(envy\)(\B|\s|$)', _("envy smiley"), r'(envy)', False),
 	# Translators: (wait) Wait
-	Smiley(r'(\s|^)\(wait\)(\B|\s|$)', _("wait smiley"), r'(wait)'),
+	Smiley(r'(\s|^)\(wait\)(\B|\s|$)', _("wait smiley"), r'(wait)', False),
 	# Translators: (hug) Hug
-	Smiley(r'(\s|^)\(hug\)(\B|\s|$)', _("hug smiley"), r'(hug)'),
+	Smiley(r'(\s|^)\(hug\)(\B|\s|$)', _("hug smiley"), r'(hug)', False),
 	# Translators: (makeup) Make-up
-	Smiley(r'(\s|^)\(makeup\)(\B|\s|$)', _("make-up smiley"), r'(makeup)'),
+	Smiley(r'(\s|^)\(makeup\)(\B|\s|$)', _("make-up smiley"), r'(makeup)', False),
 	# Translators: (chuckle) Giggle
-	Smiley(r'(\s|^)\(chuckle\)(\B|\s|$)', _("giggle smiley"), r'(chuckle)'),
+	Smiley(r'(\s|^)\(chuckle\)(\B|\s|$)', _("giggle smiley"), r'(chuckle)', False),
 	# Translators: (clap) Clapping
-	Smiley(r'(\s|^)\(clap\)(\B|\s|$)', _("clapping smiley"), r'(clap)'),
+	Smiley(r'(\s|^)\(clap\)(\B|\s|$)', _("clapping smiley"), r'(clap)', False),
 	# Translators: (think) Thinking
-	Smiley(r'(\s|^)\(think\)(\B|\s|$)', _("thinking smiley"), r'(think)'),
+	Smiley(r'(\s|^)\(think\)(\B|\s|$)', _("thinking smiley"), r'(think)', False),
 	# Translators: (bow) Bowing
-	Smiley(r'(\s|^)\(bow\)(\B|\s|$)', _("bowing smiley"), r'(bow)'),
+	Smiley(r'(\s|^)\(bow\)(\B|\s|$)', _("bowing smiley"), r'(bow)', False),
 	# Translators: (rofl) Rolling on the floor laughing
-	Smiley(r'(\s|^)\(rofl\)(\B|\s|$)', _("rolling on the floor laughing! smiley"), r'(rofl)'),
+	Smiley(r'(\s|^)\(rofl\)(\B|\s|$)', _("rolling on the floor laughing! smiley"), r'(rofl)', False),
 	# Translators: (whew) Relieved
-	Smiley(r'(\s|^)\(whew\)(\B|\s|$)', _("relieved smiley"), r'(whew)'),
+	Smiley(r'(\s|^)\(whew\)(\B|\s|$)', _("relieved smiley"), r'(whew)', False),
 	# Translators: (happy) Happy
-	Smiley(r'(\s|^)\(happy\)(\B|\s|$)', _("happy smiley"), r'(happy)'),
+	Smiley(r'(\s|^)\(happy\)(\B|\s|$)', _("happy smiley"), r'(happy)', False),
 	# Translators: (smirk) Smirking
-	Smiley(r'(\s|^)\(smirk\)(\B|\s|$)', _("smirking smiley"), r'(smirk)'),
+	Smiley(r'(\s|^)\(smirk\)(\B|\s|$)', _("smirking smiley"), r'(smirk)', False),
 	# Translators: (nod) Nodding
-	Smiley(r'(\s|^)\(nod\)(\B|\s|$)', _("nodding smiley"), r'(nod)'),
+	Smiley(r'(\s|^)\(nod\)(\B|\s|$)', _("nodding smiley"), r'(nod)', False),
 	# Translators: (shake) Shake
-	Smiley(r'(\s|^)\(shake\)(\B|\s|$)', _("shakeing smiley"), r'(shake)'),
+	Smiley(r'(\s|^)\(shake\)(\B|\s|$)', _("shakeing smiley"), r'(shake)', False),
 	# Translators: (waiting) Waiting
-	Smiley(r'(\s|^)\(waiting\)(\B|\s|$)', _("waiting smiley"), r'(waiting)'),
+	Smiley(r'(\s|^)\(waiting\)(\B|\s|$)', _("waiting smiley"), r'(waiting)', False),
 	# Translators: (emo) Emo;
-	Smiley(r'(\s|^)\(emo\)(\B|\s|$)', _("Emo smiley"), r'(emo)'),
+	Smiley(r'(\s|^)\(emo\)(\B|\s|$)', _("Emo smiley"), r'(emo)', False),
 	# Translators: (y) Yes
-	Smiley(r'(\s|^)\(y\)(\B|\s|$)', _("yes smiley"), r'(y)'),
+	Smiley(r'(\s|^)\(y\)(\B|\s|$)', _("yes smiley"), r'(y)', False),
 	# Translators: (n) no;
-	Smiley(r'(\s|^)\(n\)(\B|\s|$)', _("no smiley"), r'(n)'),
+	Smiley(r'(\s|^)\(n\)(\B|\s|$)', _("no smiley"), r'(n)', False),
 	# Translators: (handshake) Handshake
-	Smiley(r'(\s|^)\(handshake\)(\B|\s|$)', _("handshake smiley"), r'(handshake)'),
+	Smiley(r'(\s|^)\(handshake\)(\B|\s|$)', _("handshake smiley"), r'(handshake)', False),
 	# Translators: (highfive) High five
-	Smiley(r'(\s|^)\(highfive\)(\B|\s|$)', _("high five smiley"), r'(highfive)'),
+	Smiley(r'(\s|^)\(highfive\)(\B|\s|$)', _("high five smiley"), r'(highfive)', False),
 	# Translators: (heart) Heart
-	Smiley(r'(\s|^)\(heart\)(\B|\s|$)', _("heart smiley"), r'(heart)'),
+	Smiley(r'(\s|^)\(heart\)(\B|\s|$)', _("heart smiley"), r'(heart)', False),
 	# Translators: (lalala) Lalala;
-	Smiley(r'(\s|^)\(lalala\)(\B|\s|$)', _("lalala smiley"), r'(lalala)'),
+	Smiley(r'(\s|^)\(lalala\)(\B|\s|$)', _("lalala smiley"), r'(lalala)', False),
 	# Translators: (heidy) Heidy;
-	Smiley(r'(\s|^)\(heidy\)(\B|\s|$)', _("heidy smiley"), r'(heidy)'),
+	Smiley(r'(\s|^)\(heidy\)(\B|\s|$)', _("heidy smiley"), r'(heidy)', False),
 	# Translators: (F) Flower
-	Smiley(r'(\s|^)\(F\)(\B|\s|$)', _("flower smiley"), r'(F)'),
+	Smiley(r'(\s|^)\(F\)(\B|\s|$)', _("flower smiley"), r'(F)', False),
 	# Translators: (rain) Raining
-	Smiley(r'(\s|^)\(rain\)(\B|\s|$)', _("raining smiley"), r'(rain)'),
+	Smiley(r'(\s|^)\(rain\)(\B|\s|$)', _("raining smiley"), r'(rain)', False),
 	# Translators: (sun) Sun
-	Smiley(r'(\s|^)\(sun\)(\B|\s|$)', _("sunny smiley"), r'(sun)'),
+	Smiley(r'(\s|^)\(sun\)(\B|\s|$)', _("sunny smiley"), r'(sun)', False),
 	# Translators: (tumbleweed) Tumbleweed
-	Smiley(r'(\s|^)\(tumbleweed\)(\B|\s|$)', _("tumbleweed smiley"), r'(tumbleweed)'),
+	Smiley(r'(\s|^)\(tumbleweed\)(\B|\s|$)', _("tumbleweed smiley"), r'(tumbleweed)', False),
 	# Translators: (music) Music
-	Smiley(r'(\s|^)\(music\)(\B|\s|$)', _("music smiley"), r'(music)'),
+	Smiley(r'(\s|^)\(music\)(\B|\s|$)', _("music smiley"), r'(music)', False),
 	# Translators: (bandit) Bandit
-	Smiley(r'(\s|^)\(bandit\)(\B|\s|$)', _("bandit smiley"), r'(bandit)'),
+	Smiley(r'(\s|^)\(bandit\)(\B|\s|$)', _("bandit smiley"), r'(bandit)', False),
 	# Translators: (tmi) Too much information
-	Smiley(r'(\s|^)\(tmi\)(\B|\s|$)', _("too much information smiley"), r'(tmi)'),
+	Smiley(r'(\s|^)\(tmi\)(\B|\s|$)', _("too much information smiley"), r'(tmi)', False),
 	# Translators: (coffee) Coffee
-	Smiley(r'(\s|^)\(coffee\)(\B|\s|$)', _("coffee smiley"), r'(coffee)'),
+	Smiley(r'(\s|^)\(coffee\)(\B|\s|$)', _("coffee smiley"), r'(coffee)', False),
 	# Translators: (pi) Pizza
-	Smiley(r'(\s|^)\(pi\)(\B|\s|$)', _("pizza smiley"), r'(pi)'),
+	Smiley(r'(\s|^)\(pi\)(\B|\s|$)', _("pizza smiley"), r'(pi)', False),
 	# Translators: (^) Cake
-	Smiley(r'(\s|^)([\(][\^][\)])(\B|\s|$)', _("cake smiley"), r'(^)'),
+	Smiley(r'(\s|^)([\(][\^][\)])(\B|\s|$)', _("cake smiley"), r'(^)', False),
 	# Translators: (*) Star
-	Smiley(r'(\s|^)([\(][\*][\)])(\B|\s|$)', _("star smiley"), r'(*)'),
+	Smiley(r'(\s|^)([\(][\*][\)])(\B|\s|$)', _("star smiley"), r'(*)', False),
 ]
 
 def terminate(self):

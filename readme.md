@@ -38,6 +38,11 @@ It is also possible to save your choice for this setting.
 *	NVDA+I: show a dialog to select a smiley you want to paste.
 
 
+## Changes for 5.0 ##
+
+* Added support for emojis.
+
+
 ## Changes for 4.0 ##
 
 * If the Insert smiley dialog is opened when another settings dialog is active, NVDA will show the corresponding error message.
