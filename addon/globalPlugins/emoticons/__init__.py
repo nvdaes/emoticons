@@ -180,6 +180,7 @@ class InsertEmoticonDialog(SettingsDialog):
 
 	def onOk(self,evt):
 		super(InsertEmoticonDialog, self).onOk(evt)
+		icon = emoticons[self.smileysList.Selection]
 		if icon.isEmoji:
 			iconToInsert = icon.chars.decode("utf-8")
 		else:
