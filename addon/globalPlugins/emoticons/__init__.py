@@ -196,17 +196,13 @@ class InsertEmoticonDialog(wx.Dialog):
 	def _calculatePosition(self, width, height):
 		w = wx.SystemSettings.GetMetric(wx.SYS_SCREEN_X)
 		h = wx.SystemSettings.GetMetric(wx.SYS_SCREEN_Y)
-
 		# Centre of the screen
 		x = w / 2
 		y = h / 2
-
 		# Minus application offset
 		x -= (width / 2)
 		y -= (height / 2)
-
 		return (x, y)
-
 
 	def __init__(self, parent):
 		if InsertEmoticonDialog._instance is not None:
@@ -252,14 +248,12 @@ class InsertEmoticonDialog(wx.Dialog):
 		self.Bind(wx.EVT_BUTTON, self.onOk, btnOk)
 		# Vertical layout
 		self.sizerLayout.addItem(self.sizerRadio.sizer, flag=wx.ALL)
-		self.sizerLayout.addItem(self.sizerButtons)
+		self.sizerLayout.addDialogDismissButtons(self.sizerButtons)
 		
 		self.mainSizer = wx.BoxSizer(wx.VERTICAL)
 		self.mainSizer.Add(self.sizerLayout.sizer, border=10, flag=wx.ALL)
 		self.SetSizer(self.mainSizer)
-		# self.SetAutoLayout(1)
 		self.mainSizer.Fit(self)
-		# self.Center()
 		self.txtFilter.SetFocus()
 		
 	def _formatIsEmoji(self, isEmoji):
