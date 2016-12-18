@@ -9,20 +9,36 @@ addonHandler.initTranslation()
 
 Smiley = namedtuple('Smiley', 'pattern name chars isEmoji')
 emoticons = [
-	# Translators: (emoji) Happy face with open mouth and squinting eyes.
-	Smiley(u'😄', _("Happy face with open mouth and squinting eyes"), '😄', True),
 	# Translators: (emoji) happy face with normal eyes.
 	Smiley(u'😀', _("Happy face with normal eyes"), '😀', True),
+	# Translators: (emoji) Happy face with open mouth and squinting eyes.
+	Smiley(u'😄', _("Happy face with open mouth and squinting eyes"), '😄', True),
+	# Translators: (emoji) happy face with open mouth.
+	Smiley(u'😃', _("Happy face with open mouth"), '😃', True),
 	# Translators: (emoji) happy face with wide mouth and squinting eyes.
 	Smiley(u'😊', _("Happy face with wide mouth and squinting eyes"), '😊', True),
+	# Translators: (emoji) smirking face.
+	Smiley(u'😏', _("Smirking face"), '😏', True),
+	# Translators: (emoji) Slightly Smiling Face: a face that is a little bit happy, with a slight smile and neutral eyes.
+	Smiley(u'🙂', _("Slightly smiling face"), '🙂', True),
 	# Translators: (emoji) white smiling face.
 	Smiley(u'☺', _("white smiling face"), '☺', True),
+	# Translators: (emoji) happy face with halo.
+	Smiley(u'😇', _("Happy face with halo"), '😇', True),
 	# Translators: (emoji) white frowning face.
 	Smiley(u'☹', _("White frowning face"), '☹', True),
 	# Translators: (emoji) winking face.
 	Smiley(u'😉', _("Winking face"), '😉', True),
 	# Translators: (emoji) smiling face with heart shaped eyes.
 	Smiley(u'😍', _("Smiling face with heart shaped eyes"), '😍', True),
+	# Translators: (emoji)  Rose: a single red rose.
+	Smiley(u'🌹', _("Rose"), '🌹', True),
+	# Translators: (emoji) Expressionless face: a face with straight lined eyes and mouth. A deliberate display of no comment...
+	Smiley(u'😑', _("Expressionless face"), '😑', True),
+	# Translators: (emoji) neutral face.
+	Smiley(u'😐', _("Neutral face"), '😐', True),
+	# Translators: (emoji) face without mouth.
+	Smiley(u'😶', _("Face without mouth"), '😶', True),
 	# Translators: (emoji) face throwing a kiss.
 	Smiley(u'😘', _("Face throwing a kiss"), '😘', True),
 	# Translators: (emoji) kissing face with closed eyes.
@@ -37,18 +53,22 @@ emoticons = [
 	Smiley(u'😝', _("Face with stuck out tongue and eyes tightly closed"), '😝', True),
 	# Translators: (emoji) face with stuck out tongue and eyes open.
 	Smiley(u'😛', _("Face with stuck out tongue and eyes open"), '😛', True),
+	# Translators: (emoji) Hugging Face: a face displayed with an open hands gesture, offering a hug.
+	Smiley(u'🤗', _("Hugging face"), '🤗', True),
 	# Translators: (emoji) flushed face.
 	Smiley(u'😳', _("Flushed face"), '😳', True),
 	# Translators: (emoji) face with clenched teeth.
 	Smiley(u'😁', _("Face with clenched teeth"), '😁', True),
 	# Translators: (emoji) person frowning.
 	Smiley(u'😔', _("Person frowning"), '😔', True),
+	# Translators: (emoji) devil with evil smile.
+	Smiley(u'😈', _("Devil with evil smile"), '😈', True),
+	# Translators: (emoji) devil.
+	Smiley(u'👿', _("Devil"), '👿', True),
 	# Translators: (emoji) relieved face.
 	Smiley(u'😌', _("Relieved face"), '😌', True),
 	# Translators: (emoji) unamused face.
 	Smiley(u'😒', _("Unamused face"), '😒', True),
-	# Translators: (emoji) disappointed face.
-	Smiley(u'😞', _("Disappointed face"), 'ð😞', True),
 	# Translators: (emoji) tired face.
 	Smiley(u'😣', _("Tired face"), '😣', True),
 	# Translators: (emoji) crying face.
@@ -59,6 +79,10 @@ emoticons = [
 	Smiley(u'😭', _("Loudly crying face"), '😭', True),
 	# Translators: (emoji) sleepy face.
 	Smiley(u'😪', _("Sleepy face"), '😪', True),
+	# Translators: (emoji) Shrugging: A person shrugging their shoulders to indicate a lack of knowledge about a particular topic, or a lack of care about the result of a situation.
+	Smiley(u'🤷', _("Shrugging emoji"), '🤷', True),
+	# Translators: (emoji) disappointed face.
+	Smiley(u'😞', _("Disappointed face"), '😞', True),
 	# Translators: (emoji) disappointed but relieved face.
 	Smiley(u'😥', _("Disappointed but relieved face"), '😥', True),
 	# Translators: (emoji) exasperated face.
@@ -109,16 +133,44 @@ emoticons = [
 	Smiley(u'😕', _("Confused face"), '😕', True),
 	# Translators: (emoji) surprised face.
 	Smiley(u'😯', _("Surprised face"), '😯', True),
+	# Translators: (emoji) broken heart.
+	Smiley(u'💔', _("Broken heart"), '💔', True),
+	# Translators: (emoji) pulsating heart.
+	Smiley(u'💗', _("Pulsating heart"), '💗', True),
+	# Translators: (emoji) beating heart.
+	Smiley(u'💓', _("Beating heart"), '💓', True),
+	# Translators: (emoji) two hearts.
+	Smiley(u'💕', _("Two hearts"), '💕', True),
+	# Translators: (emoji) heart with arrow.
+	Smiley(u'💘', _("Heart with arrow"), '💘', True),
+	# Translators: (emoji) purple heart.
+	Smiley(u'💜', _("Purple heart"), '💜', True),
+	# Translators: (emoji) red heart.
+	Smiley(u'❤', _("Red heart"), '❤', True),
+	# Translators: (emoji) yellow heart.
+	Smiley(u'💛', _("Yellow heart"), '💛', True),
+	# Translators: (emoji) green heart.
+	Smiley(u'💚', _("Green heart"), '💚', True),
+	# Translators: (emoji) blue heart.
+	Smiley(u'💙', _("Blue heart"), '💙', True),
 	# Translators: (emoji) happy cat face with heart shaped eyes.
 	Smiley(u'😻', _("Happy cat face with heart shaped eyes"), '😻', True),
-	# Translators: (emoji) Latin cross
-	Smiley(u'✝', _("Latin cross"), '✝', True),
+	# Translators: (emoji) ok hand sign.
+	Smiley(u'👌', _("Ok hand sign"), '👌', True),
+	# Translators: (emoji) thumbs up symbol.
+	Smiley(u'👍', _("Thumbs up symbol"), '👍', True),
+	# Translators: (emoji) thumbs down symbol.
+	Smiley(u'👎', _("Thumbs down symbol"), '👎', True),
+	# Translators: (emoji) Victory Hand
+	Smiley(u'✌', _("Victory Hand"), '✌', True),
 	# Translators: :) Smile
 	Smiley(r'(\s|^)(:([\-]|)([)]{1})(\B|\s|$))', _("smiling smiley"), r':)', False),
 	# Translators: :( Sad
 	Smiley(r'(\s|^)(:([\-]|)([(]{1})\B)', _("sad smiley"), r':(', False),
 	# Translators: :D Laugh
 	Smiley(r'(\s|^)(:([\-]|)([D]{1,})\b)', _("Laughing smiley"), r':D', False),
+	# Translators: :@ hangry face.
+	Smiley(r'(\s|^)(:([\-]|)([@]{1})(\B|\s|$))', _("Hangry face"), r':@', False),
 	# Translators: :O Surprised
 	Smiley(r'(\s|^)(:([\-]|)([O]{1})(\W|\s|$))', _("surprised smiley"), r':O', False),
 	# Translators: ;) Wink;
