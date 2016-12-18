@@ -302,6 +302,7 @@ class InsertEmoticonDialog(wx.Dialog):
 			# Translators: This is the message when smiley has been copied to the clipboard.
 			wx.CallLater(100, ui.message, _("Smiley copied to clipboard, ready for you to paste."))
 		else:
+			# Translators: Message when the emoticon couldn't be copied.
 			wx.CallLater(100, ui.message, _("Cannot copy smiley."))
 		self.Destroy()
 	
