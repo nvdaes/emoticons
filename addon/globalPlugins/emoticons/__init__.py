@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-# Copyright (C) 2013-2016 Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez
+#Copyright (C) 2013-2016 Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez
 # Released under GPL 2
 
 import globalPluginHandler
@@ -18,11 +18,7 @@ from gui.settingsDialogs import DictionaryDialog
 from gui import guiHelper
 from smileysList import emoticons
 from skipTranslation import translate
-
-try:
 	from globalCommands import SCRCAT_SPEECH, SCRCAT_TOOLS
-except:
-	SCRCAT_SPEECH = SCRCAT_TOOLS = None
 
 addonHandler.initTranslation()
 
@@ -160,7 +156,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 class EmoticonFilter(object):
 	"""Filter for all emoticons."""
-	
+
 	def filter(self, emoticonsList, pattern):
 		"""Filters the input list with the specified pattern."""
 		if pattern == "": return emoticonsList
@@ -168,25 +164,25 @@ class EmoticonFilter(object):
 
 class FilterStandard(EmoticonFilter):
 	"""Filter just for standard emoticons."""
-	
+
 	def filter(self, emoticonsList, pattern):
 		filtered = super(FilterStandard, self).filter(emoticonsList, pattern)
 		return filter(lambda emoticon: not(emoticon.isEmoji), filtered)
 
 class FilterEmoji(EmoticonFilter):
 	"""Filter just for emojis."""
-	
+
 	def filter(self, emoticonsList, pattern):
 		filtered = super(FilterEmoji, self).filter(emoticonsList, pattern)
 		return filter(lambda emoticon: emoticon.isEmoji, filtered)
 
 class InsertEmoticonDialog(wx.Dialog):
 	""" A dialog  to insert emoticons from a list. """
-	
+
 	_instance = None
 	_filteredEmoticons = None
 	_filter = None
-	
+
 	def __new__(cls, *args, **kwargs):
 		if InsertEmoticonDialog._instance is None:
 			return super(InsertEmoticonDialog, cls).__new__(cls, *args, **kwargs)
@@ -248,20 +244,20 @@ class InsertEmoticonDialog(wx.Dialog):
 		# Vertical layout
 		self.sizerLayout.addItem(self.sizerRadio.sizer, flag=wx.ALL)
 		self.sizerLayout.addDialogDismissButtons(self.sizerButtons)
-		
+
 		self.mainSizer = wx.BoxSizer(wx.VERTICAL)
 		self.mainSizer.Add(self.sizerLayout.sizer, border=10, flag=wx.ALL)
 		self.SetSizer(self.mainSizer)
 		self.mainSizer.Fit(self)
 		self.txtFilter.SetFocus()
-		
+
 	def _formatIsEmoji(self, isEmoji):
 		"""Converts boolean isEmoji property to text."""
 		# Translators: Label for emojis in the list.
 		if isEmoji: return _("Emoji")
 		# Translators: Label for standard emoticons in the list.
 		else: return _("Standard")
-		
+
 	def _loadEmoticons(self):
 		"""Reload the emoticons list."""
 		self.smileysList.DeleteAllItems()
@@ -270,18 +266,18 @@ class InsertEmoticonDialog(wx.Dialog):
 				self.smileysList.Append([emoticon.name, self._formatIsEmoji(emoticon.isEmoji), unicode(emoticon.chars)])
 			else:
 				self.smileysList.Append([emoticon.name, self._formatIsEmoji(emoticon.isEmoji), emoticon.chars.decode("utf-8")])
-			
+
 	def onFilterChange(self, event):
 		"""Updates the emoticon list when the filter field changes its content."""
 		self._filteredEmoticons = self._filter.filter(emoticons, self.txtFilter.GetValue())
 		self._loadEmoticons()
-		
+
 	def onEnterOnList(self, evt):
 		"""Same effect as click OK button when pressing enter on smileys list."""
 		keycode = evt.GetKeyCode()
 		if keycode == wx.WXK_RETURN: self.onOk(evt)
 		evt.Skip(True)
-		
+
 	def onOk(self, evt):
 		"""Copy to clipboard the focused emoticon on the list."""
 		focusedItem = self.smileysList.GetFocusedItem()
@@ -304,13 +300,13 @@ class InsertEmoticonDialog(wx.Dialog):
 			# Translators: Message when the emoticon couldn't be copied.
 			wx.CallLater(100, ui.message, _("Cannot copy smiley."))
 		self.Destroy()
-	
+
 	def onAllEmoticons(self, event):
 		"""Changes the filter to all emoticons and reload the emoticon list."""
 		self._filter = EmoticonFilter()
 		self._filteredEmoticons = self._filter.filter(emoticons, self.txtFilter.GetValue())
 		self._loadEmoticons()
-	
+
 	def onStandardEmoticons(self, event):
 		"""Changes the filter to standard emoticons and reloads the emoticon list."""
 		self._filter = FilterStandard()
@@ -322,7 +318,7 @@ class InsertEmoticonDialog(wx.Dialog):
 		self._filter = FilterEmoji()
 		self._filteredEmoticons = self._filter.filter(emoticons, self.txtFilter.GetValue())
 		self._loadEmoticons()
-		
+
 	def __del__(self):
 		InsertEmoticonDialog._instance = None
 
