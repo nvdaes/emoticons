@@ -18,7 +18,7 @@ from gui.settingsDialogs import DictionaryDialog
 from gui import guiHelper
 from smileysList import emoticons
 from skipTranslation import translate
-	from globalCommands import SCRCAT_SPEECH, SCRCAT_TOOLS
+from globalCommands import SCRCAT_SPEECH, SCRCAT_TOOLS
 
 addonHandler.initTranslation()
 
