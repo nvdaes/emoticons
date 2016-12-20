@@ -18,7 +18,7 @@ from gui.settingsDialogs import DictionaryDialog
 from gui import guiHelper
 from smileysList import emoticons
 from skipTranslation import translate
-from globalCommands import SCRCAT_SPEECH, SCRCAT_TOOLS
+from globalCommands import SCRCAT_SPEECH, SCRCAT_TOOLS, SCRCAT_CONFIG
 
 addonHandler.initTranslation()
 
@@ -148,6 +148,18 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	script_insertEmoticon.category = SCRCAT_TOOLS
 	# Translators: Message presented in input help mode.
 	script_insertEmoticon.__doc__ = _("Shows a dialog to select a smiley you want to paste.")
+
+	def script_emDicDialog(self, gesture):
+		wx.CallAfter(self.onEmDicDialog, None)
+	script_emDicDialog.category = SCRCAT_CONFIG
+	# Translators: Message presented in input help mode.
+	script_emDicDialog.__doc__ = _("Shows the Emoticons dictionary dialog.")
+
+	def script_activateDialog(self, gesture):
+		wx.CallAfter(self.onActivateDialog, None)
+	script_activateDialog.category = SCRCAT_CONFIG
+	# Translators: Message presented in input help mode.
+	script_activateDialog.__doc__ = _("Shows the Emoticons Activation settings dialog.")
 
 	__gestures = {
 		"kb:NVDA+e": "toggleSpeakingEmoticons",
