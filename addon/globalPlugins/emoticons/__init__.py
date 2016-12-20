@@ -84,7 +84,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		self.emMenu = wx.Menu()
 		self.mainItem = self.menu.AppendSubMenu(self.emMenu,
 		# Translators: the name of addon submenu.
-		_("Manage emoticons"),
+		_("Manag&e emoticons"),
 		# Translators: the tooltip text for addon submenu.
 		_("Emoticons menu"))
 		self.insertItem = self.emMenu.Append(wx.ID_ANY,
