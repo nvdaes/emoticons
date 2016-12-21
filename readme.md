@@ -10,15 +10,15 @@ For example: the sequence  ":)" will be spoken as "smiling smiley", or for examp
 
 You can take advantage of the following features:
 
-## Insert Emoticon Dialog ##
+## Insert Emoticon ##
 
 When you are unsure of the characters for a particular smiley, this addon enables you to select and insert it into your text such as in a chat.
 
-Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert smiley, to open a dialog with the provided emoticons or emoji.
+Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
 
 This dialog allows you to choose an emoticon and to view  the emoticons that interest you:
 
-*	A editable field allows you to filter the search for the desired emoticon among the emoticons available.
+*	An editable field allows you to filter the search for the desired emoticon among the emoticons available.
 *	Through a set of radio buttons, you can choose to view    only emoji category (alt+E) or view only standard emoticon category (alt+s) or view all emoticons available (alt+A).
 *	In the list of emoticons (alt+L) are displayed  on three columns respectively: the name of emoticon, the type of emoticon (standard emoticon or emoji), the  corresponding character.
 
