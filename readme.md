@@ -10,7 +10,7 @@ For example: the sequence  ":)" will be spoken as "smiling smiley", or for examp
 
 You can take advantage of the following features:
 
-## Insert Emoticons Dialog ##
+## Insert Emoticon Dialog ##
 
 When you are unsure of the characters for a particular smiley, this addon enables you to select and insert it into your text such as in a chat.
 
@@ -48,8 +48,8 @@ These are the key command available by default, you can edit those or add new ke
 ## Changes for 5.0 ##
 
 * Added support for emojis.
-* Improvements for Insert Emoticon dialog with a filter field and radio buttons to choose displaied emoticons.
-* Using guiHelper for Activation settings dialog and Insert Emoticon dialog: require NVDA 2016.4 or higher versions 
+* Improvements for Insert Emoticon dialog with a filter field and radio buttons to choose displayed emoticons.
+* Using guiHelper for Activation settings dialog and Insert Emoticon dialog: requires NVDA 2016.4 or higher versions 
 
 ## Changes for 4.0 ##
 
