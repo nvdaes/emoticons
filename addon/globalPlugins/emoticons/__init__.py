@@ -89,9 +89,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		_("Emoticons menu"))
 		self.insertItem = self.emMenu.Append(wx.ID_ANY,
 		# Translators: the name for an item of addon submenu.
-		_("&Insert smiley..."),
+		_("&Insert emoticon..."),
 		# Translators: the tooltip text for an item of addon submenu.
-		_("Shows a dialog to insert a smiley"))
+		_("Shows a dialog to insert an smiley"))
 		gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onInsertEmoticonDialog, self.insertItem)
 		self.dicItem = self.emMenu.Append(wx.ID_ANY,
 		# Translators: the name for an item of addon submenu.
