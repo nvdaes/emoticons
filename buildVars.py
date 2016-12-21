@@ -21,7 +21,7 @@ addon_info = {
 	# version
 	"addon_version" : "5.0-dev",
 	# Author(s)
-	"addon_author" : u"Chris Leo <llajta2012@gmail.com>, Noelia Ruiz Martínez <nrm1977@gmail.com>, Mesar Hameed <mhameed@src.gnome.org>",
+	"addon_author" : u"Chris Leo <llajta2012@gmail.com>, Noelia Ruiz Martínez <nrm1977@gmail.com>, Mesar Hameed <mhameed@src.gnome.org>, Francisco Javier Estrada Martínez <Fjestrad@hotmail.com>",
 	# URL for the add-on documentation support
 	"addon_url" : "http://addons.nvda-project.org",
 	# Documentation file name
