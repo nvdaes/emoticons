@@ -42,10 +42,10 @@ isključena.
   memoriju
 
 
-## Changes for 4.0 ##
+## Promene u 4.0 ##
 
-* If the Insert smiley dialog is opened when another settings dialog is
-  active, NVDA will show the corresponding error message.
+* Ako je otvoren dijalog za ubacivanje smajlija kada je neki NVDA dijalog sa
+  podešavanjima otvoren, odgovarajuća greška je prikazana.
 
 
 ## Promene u 3.0 ##
