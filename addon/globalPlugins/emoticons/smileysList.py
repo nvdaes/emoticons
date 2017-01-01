@@ -9,8 +9,8 @@ addonHandler.initTranslation()
 
 Smiley = namedtuple('Smiley', 'pattern name chars isEmoji')
 emoticons = [
-	# Translators: (emoji) happy face with normal eyes.
-	Smiley(u'😀', _("Happy face with normal eyes"), '😀', True),
+	# Translators: (emoji) Grinning face, an happy face with normal eyes.
+	Smiley(u'😀', _("Grinning face"), '😀', True),
 	# Translators: (emoji) Happy face with open mouth and squinting eyes.
 	Smiley(u'😄', _("Happy face with open mouth and squinting eyes"), '😄', True),
 	# Translators: (emoji) happy face with open mouth.
@@ -107,8 +107,8 @@ emoticons = [
 	Smiley(u'😤', _("Huffing with anger face"), '😤', True),
 	# Translators: (emoji) confounded face.
 	Smiley(u'😖', _("Confounded face"), '😖', True),
-	# Translators: (emoji) oddly evil and smiling face.
-	Smiley(u'😆', _("Oddly evil and smiling face"), '😆', True),
+	# Translators: (emoji) Smiling Face With Open Mouth and Tightly-Closed Eyes.
+	Smiley(u'😆', _("Smiling Face With Open Mouth and Tightly-Closed Eyes"), '😆', True),
 	# Translators: (emoji) happy face licking lips.
 	Smiley(u'😋', _("Happy face licking lips"), '😋', True),
 	# Translators: (emoji) happy face with sunglasses.
@@ -177,6 +177,8 @@ emoticons = [
 	Smiley(r'(\s|^)(;([\-]|)([)D]{1})(\B|\s|$))', _("winking smiley"), r';)', False),
 	# Translators: ;( Crying
 	Smiley(r'(\s|^)(;([\-]|)([(]{1})(\B|\s|$))', _("crying smiley"), r';(', False),
+	# Translators: :s :-S :-Q Confused face:
+	Smiley(r'(\s|^)(:([\-]|)([sSQ$])(\b|\s|$))', _("Confused Face"), r':s', False),
 	# Translators: (:| Sweating
 	Smiley(r'(\s|^)\((:[\|])(\B|\s|$)', _("sweating smiley"), r'(:|', False),
 	# translators:  :|] Robot (a robot head)
