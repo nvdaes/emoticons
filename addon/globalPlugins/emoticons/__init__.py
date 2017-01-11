@@ -297,8 +297,7 @@ class InsertEmoticonDialog(wx.Dialog):
 			if self.smileysList.GetItemCount() > 0: focusedItem = 0
 			else:
 				# Translators: Error message when none emoticon is selected or the list is empty, and title of the error dialog.
-				errorDialog = wx.MessageDialog(self, _("There is not any emoticon selected."), _("Error"), wx.OK)
-				errorDialog.ShowModal()
+				gui.messageBox(_("There is not any emoticon selected."), _("Error"), parent = self)
 				return
 		icon = self._filteredEmoticons[focusedItem]
 		if not icon.isEmoji:
