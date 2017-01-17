@@ -1,48 +1,69 @@
 # Emoticons #
 
-* Autores: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed
+* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+  Estrada Martínez
 * Baixe a [versão estável][1]
 * Baixe a [versão de desenvolvimento][2]
 
-Ao usar este complemento, os textos falados que contenham caracteres de
-emoticons serão substituídos por descrições mais amigáveis.  Estão definidos
-86 emoticons.
+Using this add-on, spoken text containing emoticon characters will be
+replaced by its more human friendly description.
 
-Por exemplo: ":)" será falado como "cara de sorriso", ou ":D" will be spoken
-as "cara de riso"
+For example: the sequence ":)" will be spoken as "smiling smiley", or for
+example NVDA will recognize the meaning of each emoji.
 
 Pode tirar proveito dos seguintes recursos:
 
-## Inserir cara ##
+## Insert Emoticon ##
 
-Quando você está em dúvida sobre quais são os caracteres para uma cara em particular, este complemento o abilita a selecioná-los e inseri-los num texto, por exemplo um bate-papo.
-Pressione NVDA+I, ou no menu Preferências -> Gerir emoticons -> Inserir cara, para abrir um diálogo 
-com as caras disponíveis.
-Quando pressionar OK, os caracteres da cara escolhida serão copiados para a área de transferência, prontos para colagem.
+When you are unsure of the characters for a particular smiley, this addon
+enables you to select and insert it into your text such as in a chat.
 
+Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
+
+This dialog allows you to choose an emoticon and to view the emoticons that
+interest you:
+
+*	An editable field allows you to filter the search for the desired emoticon
+  among the emoticons available.
+*	Through a set of radio buttons, you can choose to view    only emoji category (alt+E) or view only standard emoticon category (alt+s) or view all emoticons available (alt+A).
+*	In the list of emoticons (alt+L) are displayed  on three columns respectively: the name of emoticon, the type of emoticon (standard emoticon or emoji), the  corresponding character.
+
+When you press OK, the characters for the chosen emoticon will be copied to
+your clipboard, ready for pasting.
 
 ## Personalizar emoticons ##
 
-No menu do NVDA, em Preferências -> Gerir emoticons -> personalizar emoticons, pode abrir um diálogo de opções para adicionar ou editar os emoticons disponíveis.
-Esse diálogo lhe possibilita salvar um dicionário de fala de emoticons com as suas personalizações.
+From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can open a dialog setting to add or to edit available emoticons.
+
+This dialog allows you to save an emoticons speech dictionary with your
+customizations.
 
 Se pressionar o botão "Salvar e exportar dicionário", será salvo um arquivo
 de dicionário chamado emoticons.dic na pasta de configuração do usuário,
 subpasta speechDicts.
 
-
 ## Opções de ativação ##
 
-Você pode escolher se quer ativar o anúncio de emoticons quando o NVDA
-inicia. Por padrão, está desabilitado.  Também é possível salvar sua escolha
-para esta opção.
+From menu Preferences -> Manage Emoticons -> Activation settings, you can choose whether to Activate speaking of emoticons when starting NVDA. By default it is disabled.
+It is also possible to save your choice for this setting.
 
 ## Teclas de comando: ##
 
-*	NVDA+E: alterna entre falar o texto como está escrito ou com os emoticons
-  substituídos pelas descrições amigáveis.
-*	NVDA+I: mostra um diálogo para selecionar uma cara que queira colar.
+These are the key command available by default, you can edit those or add
+new key to open Activation settings dialog or Emoticon Dictionary dialog:
 
+* NVDA+E: alterna entre falar o texto como está escrito ou com os emoticons
+  substituídos pelas descrições amigáveis.
+* NVDA+I: show a dialog to select an emoticon you want to copy.
+
+
+## Changes for 5.0 ##
+
+* Added support for emojis.
+* Improvements for Insert Emoticon dialog with a filter field and radio
+  buttons to choose displayed emoticons.
+* Using guiHelper for Activation settings dialog and Insert Emoticon dialog:
+  requires NVDA 2016.4 or higher versions
 
 ## Mudanças na 4.0 ##
 
