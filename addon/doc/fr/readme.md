@@ -1,49 +1,69 @@
 # Emoticons #
 
-* Auteurs : Chris Leo, Noelia Ruiz Martínez, Mesar Hameed
+* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+  Estrada Martínez
 * Télécharger [version stable][1]
 * Télécharger [version de développement][2]
 
-Avec ce module complémentaire,  les caractères de la frimousse seront
-remplacés par leur description humaine plus conviviale. 86 frimousses sont
-définies.
+Using this add-on, spoken text containing emoticon characters will be
+replaced by its more human friendly description.
 
-Par exemple : ":)" sera prononcé comme "Frimousse Sourire", ou ":D" sera
-annoncé comme "Frimousse Rigole"
+For example: the sequence ":)" will be spoken as "smiling smiley", or for
+example NVDA will recognize the meaning of each emoji.
 
 Vous pouvez profiter des fonctionnalités suivantes :
 
-## Insérer une frimousse ##
+## Insert Emoticon ##
 
-Lorsque vous n'êtes pas sûr des caractères pour une frimousse particulière, ce module complémentaire vous permet de sélectionner et insérer dans votre texte comme dans une conversation.
-Appuyez sur NVDA + I, ou à partir du menu Préférences -> Gestion des frimousses -> Insérer une frimousse, pour ouvrir un dialogue 
-avec les frimousses disponibles.
-Lorsque vous appuyez sur Accepter, les caractères pour la frimousse choisie sont copiés dans le presse-papiers, prêts à être collés.
+When you are unsure of the characters for a particular smiley, this addon
+enables you to select and insert it into your text such as in a chat.
 
+Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
+
+This dialog allows you to choose an emoticon and to view the emoticons that
+interest you:
+
+*	An editable field allows you to filter the search for the desired emoticon
+  among the emoticons available.
+*	Through a set of radio buttons, you can choose to view    only emoji category (alt+E) or view only standard emoticon category (alt+s) or view all emoticons available (alt+A).
+*	In the list of emoticons (alt+L) are displayed  on three columns respectively: the name of emoticon, the type of emoticon (standard emoticon or emoji), the  corresponding character.
+
+When you press OK, the characters for the chosen emoticon will be copied to
+your clipboard, ready for pasting.
 
 ## Personnaliser les frimousses ##
 
-Depuis le menu NVDA, Préférences -> Gestion des frimousses -> Personnaliser les frimousses, vous pouvez ouvrir une boîte de dialogue pour ajouter ou modifier les frimousses disponibles.
-Cette boîte de dialogue vous permet d'enregistrer un dictionnaire de parole avec vos frimousses personnalisées.
+From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can open a dialog setting to add or to edit available emoticons.
+
+This dialog allows you to save an emoticons speech dictionary with your
+customizations.
 
 En appuyant sur le bouton "Enregistrer et exporter le dictionnaire" un
 fichier de dictionnaire nommé emoticons.dic sera enregistré dans votre
 dossier de configuration utilisateur, sous-dossier speechDicts.
 
-
 ## Paramètres d'activation ##
 
-Vous pouvez choisir d'activer ou non l'annonce des frimousses lors du
-démarrage de NVDA. Par défaut, elle est désactivée. Il est également
-possible d'enregistrer votre choix pour ce paramètre.
+From menu Preferences -> Manage Emoticons -> Activation settings, you can choose whether to Activate speaking of emoticons when starting NVDA. By default it is disabled.
+It is also possible to save your choice for this setting.
 
 ## Raccourcis clavier : ##
 
-*	NVDA+E: permet de basculer entre la lecture du texte comme il est écrit,
-  ou avec les frimousses remplacées par leur description humaine.
-*	NVDA+I: affiche une boîte de dialogue pour choisir la frimousse que vous
-  souhaitez coller.
+These are the key command available by default, you can edit those or add
+new key to open Activation settings dialog or Emoticon Dictionary dialog:
 
+* NVDA+E: permet de basculer entre la lecture du texte comme il est écrit,
+  ou avec les frimousses remplacées par leur description humaine.
+* NVDA+I: show a dialog to select an emoticon you want to copy.
+
+
+## Changes for 5.0 ##
+
+* Added support for emojis.
+* Improvements for Insert Emoticon dialog with a filter field and radio
+  buttons to choose displayed emoticons.
+* Using guiHelper for Activation settings dialog and Insert Emoticon dialog:
+  requires NVDA 2016.4 or higher versions
 
 ## Changements pour la version 4.0 ##
 

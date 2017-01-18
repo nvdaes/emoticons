@@ -1,45 +1,68 @@
 # Emotikony #
 
-* Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed
+* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+  Estrada Martínez
 * stiahnuť [stabilná verzia][1]
 * Stiahnuť [Vývojová verzia][2]
 
-Tento doplnok nahrádza emotikony slovným popisom. V súčasnosti obsahuje 86
-definovaných emotikonov.
+Using this add-on, spoken text containing emoticon characters will be
+replaced by its more human friendly description.
 
-napríklad: ":)" bude prečítané ako "úsmev", alebo ":D" bude prečítané ako
-"smiech"
+For example: the sequence ":)" will be spoken as "smiling smiley", or for
+example NVDA will recognize the meaning of each emoji.
 
 Ďalšie vlastnosti:
 
-## Vloženie emotikonu ##
+## Insert Emoticon ##
 
-Ak neviete, ako sa správne píše nejaký emotikon, môžete ho vybrať v zozname a priamo vložiť napríklad do chatu.
-Stlačte nvda+i, alebo v Menu NVDA > Možnosti > emotikony vyberte položku vložiť.
-Zobrazí sa dialóg s dostupnými tvárami.
-Po stlačení OK sa znaky skopírujú do schránky.
+When you are unsure of the characters for a particular smiley, this addon
+enables you to select and insert it into your text such as in a chat.
 
+Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
+
+This dialog allows you to choose an emoticon and to view the emoticons that
+interest you:
+
+*	An editable field allows you to filter the search for the desired emoticon
+  among the emoticons available.
+*	Through a set of radio buttons, you can choose to view    only emoji category (alt+E) or view only standard emoticon category (alt+s) or view all emoticons available (alt+A).
+*	In the list of emoticons (alt+L) are displayed  on three columns respectively: the name of emoticon, the type of emoticon (standard emoticon or emoji), the  corresponding character.
+
+When you press OK, the characters for the chosen emoticon will be copied to
+your clipboard, ready for pasting.
 
 ## vlastné emotikony ##
 
-V menu NVDA >možnosti >emotikony >pridať /upraviť môžete vytvoriť nové, alebo upraviť existujúce emotikony.
-V tomto dialógu môžete uložiť vlastný používateľský slovník s emotikonmi.
+From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can open a dialog setting to add or to edit available emoticons.
+
+This dialog allows you to save an emoticons speech dictionary with your
+customizations.
 
 po stlačení tlačidla "Ulož a exportuj slovník" sa používateľský slovník
 uloží v priečinku s nastaveniami NVDA, v podpriečinku speechDicts pod názvom
 emoticons.dic.
 
-
 ## Aktivácia ##
 
-môžete určiť, či má alebo nemá byť doplnok aktívny po štarte NVDA. Tiež
-môžete určiť predvolené nastavenie do budúcnosti.
+From menu Preferences -> Manage Emoticons -> Activation settings, you can choose whether to Activate speaking of emoticons when starting NVDA. By default it is disabled.
+It is also possible to save your choice for this setting.
 
 ## Klávesové skratky: ##
 
-*	NVDA+E: prepína medzi vyslovovaním znakov a popisov emotikonov.
-*	NVDA+I: zobrazí dialóg na vloženie požadovaného úsmevu.
+These are the key command available by default, you can edit those or add
+new key to open Activation settings dialog or Emoticon Dictionary dialog:
 
+* NVDA+E: prepína medzi vyslovovaním znakov a popisov emotikonov.
+* NVDA+I: show a dialog to select an emoticon you want to copy.
+
+
+## Changes for 5.0 ##
+
+* Added support for emojis.
+* Improvements for Insert Emoticon dialog with a filter field and radio
+  buttons to choose displayed emoticons.
+* Using guiHelper for Activation settings dialog and Insert Emoticon dialog:
+  requires NVDA 2016.4 or higher versions
 
 ## Changes for 4.0 ##
 
