@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 4.4\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2016-02-12 05:00+1000\n"
-"PO-Revision-Date: 2016-07-26 00:07+0300\n"
+"PO-Revision-Date: 2017-01-17 19:32+0200\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
+"Language-Team: \n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.8\n"
-"Language-Team: \n"
+"X-Generator: Poedit 1.8.9\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -42,21 +42,25 @@ msgid "Import Emoticons add-on settings"
 msgstr "Setările de importare a extensiei Emoticons"
 
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
-#, python-format
-msgid "Emoticon: %s"
-msgstr "Emoticon: %s"
+#. Translators: Label for emojis in the list.
+msgid "Emoji"
+msgstr "Moji"
+
+#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
+msgid "Emoticon"
+msgstr "Emoticon"
 
 #. Translators: the name of addon submenu.
-msgid "Manage emoticons"
-msgstr "Administrare emoticonuri"
+msgid "Manag&e emoticons"
+msgstr "&Administrare emoticonuri"
 
 #. Translators: the tooltip text for addon submenu.
 msgid "Emoticons menu"
 msgstr "Meniu emoticons"
 
 #. Translators: the name for an item of addon submenu.
-msgid "&Insert smiley..."
-msgstr "&Inserare zâmbet..."
+msgid "&Insert emoticon..."
+msgstr "&Inserare emoticon"
 
 #. Translators: the tooltip text for an item of addon submenu.
 msgid "Shows a dialog to insert a smiley"
@@ -99,71 +103,73 @@ msgstr "Comută între activarea și dezactivarea anunțurilor emoticoanelor."
 msgid "Shows a dialog to select a smiley you want to paste."
 msgstr "Arată un dialog pentru a selecta un zâmbet unde vrei să îl lipești."
 
-#. Translators: This is the label for the InsertEmoticon dialog.
+#. Translators: Message presented in input help mode.
+msgid "Shows the Emoticons dictionary dialog."
+msgstr "Afișează dialogul cu dicționarul emoticoanelor."
+
+#. Translators: Message presented in input help mode.
+msgid "Shows the Emoticons Activation settings dialog."
+msgstr "Afișează dialogul cu setările de activare ale emoticoanelor."
+
+#. Translators: Title of the dialog.
 msgid "Insert emoticon"
 msgstr "Inserează emoticon"
 
-#. Translators: The label for a setting in Insert emoticons to select a smiley.
-msgid "Available emoticons"
-msgstr "Emoticoane disponibile"
+#. Filter panel.
+#. Translators: A text field to filter emoticons.
+msgid "&Filter:"
+msgstr "&Filtrare"
 
-#. Translators: A combo box to choose a smiley.
-msgid "Available smileys to insert:"
-msgstr "Zâmbete disponibile pentru a insera:"
+#. Translators: A radio button to choose all types of emoticons.
+msgid "&All"
+msgstr "&toate"
+
+#. Translators: A radio button to choose only standard emoticons.
+msgid "&Standard"
+msgstr "&Standard"
+
+#. Translators: A radio button to choose only emojis.
+msgid "Emoj&is"
+msgstr "Mojiuri"
+
+#. List of emoticons.
+#. Translators: Label for the smileys list.
+msgid "&List of smilies"
+msgstr "&Lista zâmbetelor"
+
+#. Translators: Column which specifies the name  of emoticon.
+msgid "Name"
+msgstr "Nume"
+
+#. Translators: Column which specifies the type of emoticon (standard or emoji).
+msgid "Type"
+msgstr "Tip"
+
+#. Translators: The column which contains the characters of the emoticon.
+msgid "Characters"
+msgstr "Caractere"
+
+#. Translators: Label for standard emoticons in the list.
+msgid "Standard"
+msgstr "Standard"
+
+#. Translators: Error message when none emoticon is selected or the list is empty, and title of the error dialog.
+msgid "There is not any emoticon selected."
+msgstr "Nu există nici un emoticon selectat."
 
 #. Translators: This is the message when smiley has been copied to the clipboard.
 msgid "Smiley copied to clipboard, ready for you to paste."
 msgstr "Zâmbet copiat pe planșetă, gata să îl lipiți."
 
+#. Translators: Message when the emoticon couldn't be copied.
 msgid "Cannot copy smiley."
 msgstr "Zâmbetul nu poate fi copiat."
 
-#. Translators: The label for the combo box of dictionary entries in speech dictionary dialog.
-msgid "&Dictionary entries"
-msgstr "&Intrările din dicționar"
-
-#. Translators: The label for a column in dictionary entries list used to identify comments for the entry.
-msgid "Comment"
-msgstr "Comentariu"
-
-#. Translators: The label for a column in dictionary entries list used to identify pattern (original word or a pattern).
-msgid "Pattern"
-msgstr "Model"
-
-#. Translators: The label for a column in dictionary entries list and in a list of symbols from symbol pronunciation dialog used to identify replacement for a pattern or a symbol
-msgid "Replacement"
-msgstr "Înlocuire"
-
-#. Translators: The label for a column in dictionary entries list used to identify whether the entry is case sensitive or not.
-msgid "case"
-msgstr "caz"
-
-#. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression, matches whole words, or matches anywhere.
-msgid "Type"
-msgstr "Tip"
-
-#. Translators: a choice of Activateemoticons dialog.
-msgid "off"
-msgstr "Dezactivat"
-
-msgid "on"
-msgstr "Activat"
-
-#. Translators: The label for a button in speech dictionaries dialog to add new entries.
-msgid "&Add"
-msgstr "&Adaugă"
-
-#. Translators: The label for a button in speech dictionaries dialog to edit existing entries.
-msgid "&Edit"
-msgstr "&Editează"
-
-msgid "&Remove"
-msgstr "Șterge"
-
+#. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Rese&t"
 msgstr "&Resetează"
 
-#. Translators: The label for a button in speech dictionaries dialog to add new entries.
+#. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Save and e&xport dictionary"
 msgstr "Salvează și exportă dicționarul."
 
@@ -175,25 +181,327 @@ msgstr "Setări de activare"
 msgid "&Activate speaking of emoticons at start:"
 msgstr "&Activează vorbirea emoticoanelor la pornire:"
 
-#. Translators: a choice of Activateemoticons dialog.
-msgid "On"
-msgstr "Activat"
-
-#. Translators: a combo box in Emoticons dialog.
-msgid "Activate at start"
-msgstr "Activează la pornire"
-
 #. Translators: The label for a setting in Activate emoticons dialog to copy activation settings.
 msgid "&Copy activation settings"
 msgstr "&Copiază setările de activare"
+
+#. Translators: (emoji) Grinning face, an happy face with normal eyes.
+msgid "Grinning face"
+msgstr "Rânjet"
+
+#. Translators: (emoji) Happy face with open mouth and squinting eyes.
+msgid "Happy face with open mouth and squinting eyes"
+msgstr "Față fericită cu gura deschisă și ochii cruciși"
+
+#. Translators: (emoji) happy face with open mouth.
+msgid "Happy face with open mouth"
+msgstr "Față fericită cu gura deschisă"
+
+#. Translators: (emoji) happy face with wide mouth and squinting eyes.
+msgid "Happy face with wide mouth and squinting eyes"
+msgstr "Față fericită cu gura largă și ochii cruciși"
+
+#. Translators: (emoji) smirking face.
+msgid "Smirking face"
+msgstr "Rânjește"
+
+#. Translators: (emoji) Slightly Smiling Face: a face that is a little bit happy, with a slight smile and neutral eyes.
+msgid "Slightly smiling face"
+msgstr "Față puțin zâmbitoare"
+
+#. Translators: (emoji) white smiling face.
+msgid "white smiling face"
+msgstr "Față zâmbitoare albă"
+
+#. Translators: (emoji) happy face with halo.
+msgid "Happy face with halo"
+msgstr "Față fericită cu halo"
+
+#. Translators: (emoji) white frowning face.
+msgid "White frowning face"
+msgstr "Față albă încruntată"
+
+#. Translators: (emoji) winking face.
+msgid "Winking face"
+msgstr "Face cu ochiul"
+
+#. Translators: (emoji) smiling face with heart shaped eyes.
+msgid "Smiling face with heart shaped eyes"
+msgstr "Față zâmbitoare cu ochii în formă de inimă"
+
+#. Translators: (emoji)  Rose: a single red rose.
+msgid "Rose"
+msgstr "Trandafir"
+
+#. Translators: (emoji) Expressionless face: a face with straight lined eyes and mouth. A deliberate display of no comment...
+msgid "Expressionless face"
+msgstr "Față inexpresivă"
+
+#. Translators: (emoji) neutral face.
+msgid "Neutral face"
+msgstr "Față neutră"
+
+#. Translators: (emoji) face without mouth.
+msgid "Face without mouth"
+msgstr "Față fără gură"
+
+#. Translators: (emoji) face throwing a kiss.
+msgid "Face throwing a kiss"
+msgstr "Aruncând un sărut"
+
+#. Translators: (emoji) kissing face with closed eyes.
+msgid "Kissing face with closed eyes"
+msgstr "Sărut cu ochii închiși"
+
+#. Translators: (emoji) kissing face with open eyes.
+msgid "Kissing face with open eyes"
+msgstr "Sărut cu ochii deschiși"
+
+#. Translators: (emoji) kissing face with arched eyes.
+msgid "Kissing face with arched eyes"
+msgstr "Sărut cu ochii arcuiți"
+
+#. Translators: (emoji) winking face with stuck out tongue.
+msgid "Winking face with stuck out tongue"
+msgstr "Confruntare cu limba scoasă"
+
+#. Translators: (emoji) face with stuck out tongue and eyes tightly closed.
+msgid "Face with stuck out tongue and eyes tightly closed"
+msgstr "Față cu limba scoasă și ochii închiși ermetic"
+
+#. Translators: (emoji) face with stuck out tongue and eyes open.
+msgid "Face with stuck out tongue and eyes open"
+msgstr "Față cu limba și ochii deschiși"
+
+#. Translators: (emoji) Hugging Face: a face displayed with an open hands gesture, offering a hug.
+msgid "Hugging face"
+msgstr "îmbrățișare"
+
+#. Translators: (emoji) flushed face.
+msgid "Flushed face"
+msgstr "Față congestionată"
+
+#. Translators: (emoji) face with clenched teeth.
+msgid "Face with clenched teeth"
+msgstr "Față cu dinții încleștați"
+
+#. Translators: (emoji) person frowning.
+msgid "Person frowning"
+msgstr "Persoană încruntată"
+
+#. Translators: (emoji) devil with evil smile.
+msgid "Devil with evil smile"
+msgstr "Diavol cu zâmbet rău"
+
+#. Translators: (emoji) devil.
+msgid "Devil"
+msgstr "Diavol"
+
+#. Translators: (emoji) relieved face.
+msgid "Relieved face"
+msgstr "Ușurat"
+
+#. Translators: (emoji) unamused face.
+msgid "Unamused face"
+msgstr "Față nostimă"
+
+#. Translators: (emoji) tired face.
+msgid "Tired face"
+msgstr "Față obosită"
+
+#. Translators: (emoji) crying face.
+msgid "Crying face"
+msgstr "Față încleștată"
+
+#. Translators: (emoji) face with tears of joy.
+msgid "Face with tears of joy"
+msgstr "Lacrimi de bucurie"
+
+#. Translators: (emoji) loudly crying face.
+msgid "Loudly crying face"
+msgstr "Plâns cu glas tare"
+
+#. Translators: (emoji) sleepy face.
+msgid "Sleepy face"
+msgstr "Față somnoroasă"
+
+#. Translators: (emoji) Shrugging: A person shrugging their shoulders to indicate a lack of knowledge about a particular topic, or a lack of care about the result of a situation.
+msgid "Shrugging emoji"
+msgstr "ridicând"
+
+#. Translators: (emoji) disappointed face.
+msgid "Disappointed face"
+msgstr "Față dezamăgită"
+
+#. Translators: (emoji) disappointed but relieved face.
+msgid "Disappointed but relieved face"
+msgstr "Față dezamăgită, dar ușurată"
+
+#. Translators: (emoji) exasperated face.
+msgid "Exasperated face"
+msgstr "Față exasperată"
+
+#. Translators: (emoji) happy face with tear-drop.
+msgid "Happy face with teardrop"
+msgstr "Față fericită cu teardrop"
+
+#. Translators: (emoji) face with cold sweat.
+msgid "Face with cold sweat"
+msgstr "Sudoare rece"
+
+#. Translators: (emoji) whaling face.
+msgid "Whaling face"
+msgstr "Vânătoare de balene"
+
+#. Translators: (emoji) whaling face with squinting eyes.
+msgid "Whaling face with squinting eyes"
+msgstr "Vânătoare de balene cu ochii cruciși"
+
+#. Translators: (emoji) fearful face.
+msgid "Fearful face"
+msgstr "Față fricoasă"
+
+#. Translators: (emoji) face screaming in fear.
+msgid "Face screaming in fear"
+msgstr "Țipă de frică"
+
+#. Translators: (emoji) angry face.
+#. Translators: :@ angry face.
+msgid "Angry face"
+msgstr "Nervos"
+
+#. Translators: (emoji) pouting face.
+msgid "Pouting face"
+msgstr "Față bosumflată"
+
+#. Translators: (emoji) huffing with anger face.
+msgid "Huffing with anger face"
+msgstr "Huffing cu fața furiei"
+
+#. Translators: (emoji) confounded face.
+msgid "Confounded face"
+msgstr "Contrariat"
+
+#. Translators: (emoji) Smiling Face With Open Mouth and Tightly-Closed Eyes.
+msgid "Smiling Face With Open Mouth and Tightly-Closed Eyes"
+msgstr "Față zâmbitoare cu gura deschisă și ochii închiși ermetic"
+
+#. Translators: (emoji) happy face licking lips.
+msgid "Happy face licking lips"
+msgstr "Față fericită lingând buzele"
+
+#. Translators: (emoji) happy face with sunglasses.
+msgid "Happy face with sunglasses"
+msgstr "Față fericită cu ochelari de soare"
+
+#. Translators: (emoji) sleeping face.
+msgid "Sleeping face"
+msgstr "Dormind"
+
+#. Translators: (emoji) very astonished face.
+msgid "Very astonished face"
+msgstr "Față foarte uimită"
+
+#. Translators: (emoji) astonished face.
+msgid "Astonished face"
+msgstr "Față uimită"
+
+#. Translators: (emoji) worried face.
+msgid "Worried face"
+msgstr "Îngrijorat"
+
+#. Translators: (emoji) surprised and dismayed face.
+msgid "Surprised and dismayed face"
+msgstr "Față surprinsă și consternată"
+
+#. Translators: (emoji) anguished face.
+msgid "Anguished face"
+msgstr "Față angoasă"
+
+#. Translators: (emoji) open mouth and surprised face.
+msgid "Open mouth and surprised face"
+msgstr "Gură deschisă și față surprinsă"
+
+#. Translators: (emoji) grimacing face.
+msgid "Grimacing face"
+msgstr "Față grimasă"
+
+#. Translators: (emoji) confused face.
+msgid "Confused face"
+msgstr "Confuz"
+
+#. Translators: (emoji) surprised face.
+msgid "Surprised face"
+msgstr "Surprins"
+
+#. Translators: (emoji) broken heart.
+msgid "Broken heart"
+msgstr "Inimă ruptă"
+
+#. Translators: (emoji) pulsating heart.
+msgid "Pulsating heart"
+msgstr "Inimă pulsantă"
+
+#. Translators: (emoji) beating heart.
+msgid "Beating heart"
+msgstr "Inimă ce bate"
+
+#. Translators: (emoji) two hearts.
+msgid "Two hearts"
+msgstr "Două inimi"
+
+#. Translators: (emoji) heart with arrow.
+msgid "Heart with arrow"
+msgstr "Inimă cu săgeată"
+
+#. Translators: (emoji) purple heart.
+msgid "Purple heart"
+msgstr "Inimă mov"
+
+#. Translators: (emoji) red heart.
+msgid "Red heart"
+msgstr "Inimă roșie"
+
+#. Translators: (emoji) yellow heart.
+msgid "Yellow heart"
+msgstr "Inimă galbenă"
+
+#. Translators: (emoji) green heart.
+msgid "Green heart"
+msgstr "Inimă verde"
+
+#. Translators: (emoji) blue heart.
+msgid "Blue heart"
+msgstr "Inimă albastră"
+
+#. Translators: (emoji) happy cat face with heart shaped eyes.
+msgid "Happy cat face with heart shaped eyes"
+msgstr "Pisică fericită cu ochii în formă de inimă"
+
+#. Translators: (emoji) ok hand sign.
+msgid "Ok hand sign"
+msgstr "OK, semn cu mâna"
+
+#. Translators: (emoji) thumbs up symbol.
+msgid "Thumbs up symbol"
+msgstr "Simbolul Thumbs up"
+
+#. Translators: (emoji) thumbs down symbol.
+msgid "Thumbs down symbol"
+msgstr "Simbolul Thumbs down"
+
+#. Translators: (emoji) Victory Hand
+msgid "Victory Hand"
+msgstr "Mână victorioasă"
 
 #. Translators: :) Smile
 msgid "smiling smiley"
 msgstr "zâmbet"
 
-#. Translators: :( Sad
-msgid "sad smiley"
-msgstr "trist"
+#. Translators: :( Sad face.
+#, fuzzy
+msgid "Sad face"
+msgstr "Față nostimă"
 
 #. Translators: :D Laugh
 msgid "Laughing smiley"
@@ -210,6 +518,10 @@ msgstr "face cu ochiul"
 #. Translators: ;( Crying
 msgid "crying smiley"
 msgstr "plânge"
+
+#. Translators: :s :-S :-Q Confused face:
+msgid "Confused Face"
+msgstr "Confuz"
 
 #. Translators: (:| Sweating
 msgid "sweating smiley"
@@ -302,7 +614,7 @@ msgstr "nervos"
 msgid "Cat Smiley"
 msgstr "Pisică"
 
-#. Translators: (-.-)ZZZ I�m Sleepy
+#. Translators: (-.-)ZZZ Iӭ Sleepy
 msgid "I am Sleepy smiley"
 msgstr "Sunt somnoros"
 
@@ -535,3 +847,57 @@ msgid ""
 "Representation."
 msgstr ""
 "permite anunțarea numelor emoticoanelor în loc de caracterul de reprezentare."
+
+#~ msgid "sad smiley"
+#~ msgstr "trist"
+
+#~ msgid "Hangry face"
+#~ msgstr "Nervos"
+
+#~ msgid "Emoticon: %s"
+#~ msgstr "Emoticon: %s"
+
+#~ msgid "&Insert smiley..."
+#~ msgstr "&Inserare zâmbet..."
+
+#~ msgid "Available emoticons"
+#~ msgstr "Emoticoane disponibile"
+
+#~ msgid "Available smileys to insert:"
+#~ msgstr "Zâmbete disponibile pentru a insera:"
+
+#~ msgid "&Dictionary entries"
+#~ msgstr "&Intrările din dicționar"
+
+#~ msgid "Comment"
+#~ msgstr "Comentariu"
+
+#~ msgid "Pattern"
+#~ msgstr "Model"
+
+#~ msgid "Replacement"
+#~ msgstr "Înlocuire"
+
+#~ msgid "case"
+#~ msgstr "caz"
+
+#~ msgid "off"
+#~ msgstr "Dezactivat"
+
+#~ msgid "on"
+#~ msgstr "Activat"
+
+#~ msgid "&Add"
+#~ msgstr "&Adaugă"
+
+#~ msgid "&Edit"
+#~ msgstr "&Editează"
+
+#~ msgid "&Remove"
+#~ msgstr "Șterge"
+
+#~ msgid "On"
+#~ msgstr "Activat"
+
+#~ msgid "Activate at start"
+#~ msgstr "Activează la pornire"

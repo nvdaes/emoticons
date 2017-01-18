@@ -1,42 +1,42 @@
 # Emoticoane #
 
-* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+* Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Descarcă [versiunea stabilă][1]
 * Descarcă [versiunea în dezvoltare][2]
 
-Using this add-on, spoken text containing emoticon characters will be
-replaced by its more human friendly description.
+Folosind acest add-on, textul care conține emoticoane va fi înlocuit cu o
+descriere mult mai prietenoasă.
 
-For example: the sequence ":)" will be spoken as "smiling smiley", or for
-example NVDA will recognize the meaning of each emoji.
+De exemplu: secvența ":)" va fi pronunțată ca „zâmbet” sau, de exemplu, NVDA
+va recunoaște semnificația fiecărui moji.
 
 Există următoarele caracteristici:
 
-## Insert Emoticon ##
+## Inserează Emoticon ##
 
-When you are unsure of the characters for a particular smiley, this addon
-enables you to select and insert it into your text such as in a chat.
+Când sunteți nesigur de caracterele pentru un zâmbet particular, add-on-ul
+vă permite să-l selectați și inserați în textul dumneavoastră.
 
-Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
+Apăsați NVDA+I, sau din meniul preferințe -> Administrare emoticonuri -> Inserare emoticon, pentru a deschide un dialog cu emoticoanele oferite sau mojiuri.
 
-This dialog allows you to choose an emoticon and to view the emoticons that
-interest you:
+Acest dialog vă permite să alegeți un emoticon și să vizualizați
+emoticoanele care vă interesează:
 
-*	An editable field allows you to filter the search for the desired emoticon
-  among the emoticons available.
-*	Through a set of radio buttons, you can choose to view    only emoji category (alt+E) or view only standard emoticon category (alt+s) or view all emoticons available (alt+A).
-*	In the list of emoticons (alt+L) are displayed  on three columns respectively: the name of emoticon, the type of emoticon (standard emoticon or emoji), the  corresponding character.
+*	Un câmp editabil vă permite să filtrați căutarea pentru emoticonul dorit
+  dintre emoticoanele disponibile.
+*	printr-o setare a butoanelor rotative, puteți să alegeți să vizualizați doar categoria mojiuri (alt+E) sau să vizualizați doar categoria emoticoanelor standard (alt+s) sau să vizualizați toate emoticoanele disponibile (alt+A).
+*	În lista emoticoanelor (alt+L) sunt afișate pe trei coloane: numele emoticonului, tipul acestuia (emoticon standard sau moji), caracterul corespunzător.
 
-When you press OK, the characters for the chosen emoticon will be copied to
-your clipboard, ready for pasting.
+Când apăsați OK, caracterele pentru emoticoanele alese vor fi copiate pe
+planșetă, pregătite pentru lipire.
 
 ## Personalizează emoticoanele ##
 
-From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can open a dialog setting to add or to edit available emoticons.
+Din meniul NVDA, Preferințe, Administrare emoticoane, Personalizează emoticoanele, poți să deschizi un dialog cu setările unde poți adăuga sau edita emoticoanle disponibile.
 
-This dialog allows you to save an emoticons speech dictionary with your
-customizations.
+Acest dialog vă permite să salvați un dicționar de vorbire al emoticoanelor
+cu personalizările dumneavoastră.
 
 Apăsând butonul "Salvare și exportare dicționar", un fișier numit
 emoticons.dic va fi salvat în folderul de configurare al utilizatorului, în
@@ -44,26 +44,28 @@ sub-folderul speechDicts.
 
 ## Setări de activare ##
 
-From menu Preferences -> Manage Emoticons -> Activation settings, you can choose whether to Activate speaking of emoticons when starting NVDA. By default it is disabled.
-It is also possible to save your choice for this setting.
+Din meniul Preferințe -> Gestionare Emoticoane ->, puteți alege dacă să activați rostirea emoticonurilor la pornirea NVDA. În mod implicit este dezactivată.
+De asemenea, puteți să salvați alegerea pentru această setare.
 
 ## Comenzi de tastatură ##
 
-These are the key command available by default, you can edit those or add
-new key to open Activation settings dialog or Emoticon Dictionary dialog:
+Acestea sunt scurtăturile disponibile în mod implicit, puteți să le editați
+sau puteți adăuga o nouă tastă pentru a deschide dialogul cu activarea
+setărilor sau dialogul cu dicționarul emoticoanelor:
 
 * NVDA+E: Comută între vorbirea textului așa cum este scris, sau cu
   descrierea emoticoanelor.
-* NVDA+I: show a dialog to select an emoticon you want to copy.
+* NVDA+I: Arată un dialog pentru a selecta emoticonul pe care vrei să îl
+  copiezi.
 
 
-## Changes for 5.0 ##
+## Modificări aduse în 5.0 ##
 
-* Added support for emojis.
-* Improvements for Insert Emoticon dialog with a filter field and radio
-  buttons to choose displayed emoticons.
-* Using guiHelper for Activation settings dialog and Insert Emoticon dialog:
-  requires NVDA 2016.4 or higher versions
+* A fost adăugat suportul pentru mojiuri.
+* Îmbunătățiri pentru dialogul de inserare al emoticoanelor cu un câmp de
+  filtrare și butoane rotative pentru a alege emoticoanele afișate.
+* Utilizând ghidul de ajutor pentru dialogul de activare al setărilor și
+  dialogul de inserare a emoticoanelor: Necesită NVDA 2016.4 sau mai vechi
 
 ## Modificări aduse în 4.0 ##
 
