@@ -164,13 +164,13 @@ emoticons = [
 	# Translators: (emoji) Victory Hand
 	Smiley(u'✌', _("Victory Hand"), '✌', True),
 	# Translators: :) Smile
-	Smiley(r'(\s|^)(:([\-]|)([)]{1})(\B|\s|$))', _("smiling smiley"), r':)', False),
-	# Translators: :( Sad
-	Smiley(r'(\s|^)(:([\-]|)([(]{1})\B)', _("sad smiley"), r':(', False),
+	Smiley(r'(\s|^)(:([\-]|)([)]{1})(\B|\s|$))', _("smiling smiley"), r':-)', False),
+	# Translators: :( Sad face.
+	Smiley(r'(\s|^)(:([\-]|)([(]{1})\B)', _("Sad face"), r':-(', False),
 	# Translators: :D Laugh
-	Smiley(r'(\s|^)(:([\-]|)([D]{1,})\b)', _("Laughing smiley"), r':D', False),
-	# Translators: :@ hangry face.
-	Smiley(r'(\s|^)(:([\-]|)([@]{1})(\B|\s|$))', _("Hangry face"), r':@', False),
+	Smiley(r'(\s|^)(:([\-]|)([D]{1,})\b)', _("Laughing smiley"), r':-D', False),
+	# Translators: :@ angry face.
+	Smiley(r'(\s|^)(:([\-]|)([@]{1})(\B|\s|$))', _("Angry face"), r':@', False),
 	# Translators: :O Surprised
 	Smiley(r'(\s|^)(:([\-]|)([O]{1})(\W|\s|$))', _("surprised smiley"), r':O', False),
 	# Translators: ;) Wink;
