@@ -1,68 +1,69 @@
 # Hymiöt #
 
-* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+* Tekijät: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Lataa [vakaa versio][1]
 * Lataa [kehitysversio][2]
 
-Using this add-on, spoken text containing emoticon characters will be
-replaced by its more human friendly description.
+Puhutussa tekstissä olevat hymiömerkit korvataan tätä lisäosaa käytettäessä
+niiden ihmisystävällisemmillä kuvauksilla.
 
-For example: the sequence ":)" will be spoken as "smiling smiley", or for
-example NVDA will recognize the meaning of each emoji.
+Esimerkki: Merkit ":)" luetaan "hymyilee", ja NVDA tunnistaa myös emojit.
 
 Voit hyödyntää seuraavia ominaisuuksia:
 
-## Insert Emoticon ##
+## Lisää hymiö ##
 
-When you are unsure of the characters for a particular smiley, this addon
-enables you to select and insert it into your text such as in a chat.
+Kun olet epävarma jonkin tietyn hymiön merkeistä, tämän lisäosan avulla voit
+valita ja lisätä ne tekstiisi, kuten esim. chattiin.
 
-Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
+Paina NVDA+I tai valitse Asetukset-valikko -> Hymiöiden hallinta -> Lisää hymiö avataksesi valintaikkunan, jossa näkyvät käytettävissä olevat hymiöt ja emojit.
 
-This dialog allows you to choose an emoticon and to view the emoticons that
-interest you:
+Tästä valintaikkunasta voit valita haluamasi hymiön ja tarkastella
+sellaisia, jotka sinua kiinnostavat:
 
-*	An editable field allows you to filter the search for the desired emoticon
-  among the emoticons available.
-*	Through a set of radio buttons, you can choose to view    only emoji category (alt+E) or view only standard emoticon category (alt+s) or view all emoticons available (alt+A).
-*	In the list of emoticons (alt+L) are displayed  on three columns respectively: the name of emoticon, the type of emoticon (standard emoticon or emoji), the  corresponding character.
+*	Muokkauskentän avulla voit suodattaa hakua löytääksesi käytettävissä
+  olevien hymiöiden joukosta haluamasi.
+*	Valintapainikkeilla voit valita, näytetäänkö vain emojit (Alt+E), vain tavalliset hymiöt (Alt+I) vai kaikki käytettävissä olevat hymiöt (Alt+A).
+*	Hymiöluettelossa (Alt+H) näytetään kolmessa sarakkeessa hymiön nimi, tyyppi (tavallinen tai emoji) ja vastaavat merkit.
 
-When you press OK, the characters for the chosen emoticon will be copied to
-your clipboard, ready for pasting.
+Kun painat OK, valitun hymiön merkit kopioidaan leikepöydälle, josta voit
+liittää ne haluamaasi paikkaan.
 
 ## Mukauta hymiöitä ##
 
-From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can open a dialog setting to add or to edit available emoticons.
+Voit avata valintaikkunan uusien hymiöiden lisäämiseksi tai olemassa olevien muokkaamiseksi valitsemalla NVDA-valikosta Asetukset -> Hymiöiden hallinta -> Mukauta hymiöitä.
 
-This dialog allows you to save an emoticons speech dictionary with your
-customizations.
+Tässä valintaikkunassa voit tallentaa tekemäsi muokkaukset
+hymiöpuhesanastoon.
 
 Kun painat "Tallenna ja vie sanasto" -painiketta, asetuskansiossasi olevaan
 speechDicts-alikansioon luodaan emoticons.dic-niminen sanastotiedosto.
 
 ## Käyttöönoton asetukset ##
 
-From menu Preferences -> Manage Emoticons -> Activation settings, you can choose whether to Activate speaking of emoticons when starting NVDA. By default it is disabled.
-It is also possible to save your choice for this setting.
+Voit valita, otetaanko hymiöiden puhuminen käyttöön NVDA:ta käynnistettäessä valitsemalla NVDA-valikosta Asetukset -> Hymiöiden hallinta -> Käyttöönoton asetukset. Tämä ei ole oletusarvoisesti käytössä.
+Valitsemasi asetus on myös mahdollista tallentaa.
 
 ## Näppäinkomennot: ##
 
-These are the key command available by default, you can edit those or add
-new key to open Activation settings dialog or Emoticon Dictionary dialog:
+Nämä ovat oletusnäppäinkomentoja. Voit muokata niitä tai lisätä uuden
+käyttöönottoasetusten valintaikkunan tai hymiösanaston avaamiseen:
 
 * NVDA+E: ottaa käyttöön tekstin lukemisen sellaisena kuin se on kirjoitettu
   tai hymiöiden korvaamisen niiden kuvauksilla.
-* NVDA+I: show a dialog to select an emoticon you want to copy.
+* NVDA+I: näyttää valintaikkunan, josta voit valita tekstiin lisättävän
+  hymiön.
 
 
-## Changes for 5.0 ##
+## Muutokset versiossa 5.0 ##
 
-* Added support for emojis.
-* Improvements for Insert Emoticon dialog with a filter field and radio
-  buttons to choose displayed emoticons.
-* Using guiHelper for Activation settings dialog and Insert Emoticon dialog:
-  requires NVDA 2016.4 or higher versions
+* Lisätty tuki emojeille.
+* Hymiönlisäysvalintaikkunaa paranneltu suodatuskentällä ja
+  valintapainikkeilla hymiötyypin valitsemiseksi.
+* Käyttöönottoasetusten- ja hymiönlisäysvalintaikkunoiden visuaalista
+  esitystä paranneltu noudattamaan NVDA:n ikkunoiden ulkoasua: edellyttää
+  NVDA:n 2016.4-versiota tai uudempaa.
 
 ## Muutokset versiossa 4.0 ##
 

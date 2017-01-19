@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 18:37+0100\n"
-"PO-Revision-Date: 2017-01-17 13:50+0200\n"
+"PO-Revision-Date: 2017-01-18 20:35+0200\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -498,9 +498,8 @@ msgid "smiling smiley"
 msgstr "Усмихване емотикон"
 
 #. Translators: :( Sad face.
-#, fuzzy
 msgid "Sad face"
-msgstr "Неразвеселено лице"
+msgstr "Тъжно лице"
 
 #. Translators: :D Laugh
 msgid "Laughing smiley"

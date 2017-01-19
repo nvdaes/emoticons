@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Emoticons-5.0\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: 2017-01-17 12:06+0100\n"
-"PO-Revision-Date: 2017-01-18 11:58+0100\n"
+"PO-Revision-Date: 2017-01-19 14:10+0100\n"
 "Last-Translator: Michel Such <michel.such@free.fr>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language: fr_FR\n"
@@ -238,7 +238,7 @@ msgstr "Rose"
 
 #. Translators: (emoji) Expressionless face: a face with straight lined eyes and mouth. A deliberate display of no comment...
 msgid "Expressionless face"
-msgstr "Visage sans expression"
+msgstr "Visage inexpressif"
 
 #. Translators: (emoji) neutral face.
 msgid "Neutral face"
@@ -379,7 +379,7 @@ msgstr "Visage faisant la moue"
 
 #. Translators: (emoji) huffing with anger face.
 msgid "Huffing with anger face"
-msgstr "Visage souffrant de colère"
+msgstr "Visage vexé et en colère"
 
 #. Translators: (emoji) confounded face.
 msgid "Confounded face"
@@ -502,9 +502,8 @@ msgid "smiling smiley"
 msgstr "frimousse sourire"
 
 #. Translators: :( Sad face.
-#, fuzzy
 msgid "Sad face"
-msgstr "Visage pas amusé"
+msgstr "Visage triste"
 
 #. Translators: :D Laugh
 msgid "Laughing smiley"

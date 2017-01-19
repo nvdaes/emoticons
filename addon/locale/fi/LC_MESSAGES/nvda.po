@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 18:37+0100\n"
-"PO-Revision-Date: 2016-12-25 14:41+0200\n"
+"PO-Revision-Date: 2017-01-19 10:32+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Finnish <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 1.6.11\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Translators: the label of a message box dialog.
@@ -41,12 +41,16 @@ msgid "Import Emoticons add-on settings"
 msgstr "Tuo Hymiöt-lisäosan asetukset"
 
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
-#, python-format
-msgid "Emoticon: %s"
-msgstr "Hymiö: %s"
+#. Translators: Label for emojis in the list.
+msgid "Emoji"
+msgstr "Emoji"
+
+#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
+msgid "Emoticon"
+msgstr "Hymiö"
 
 #. Translators: the name of addon submenu.
-msgid "Manage emoticons"
+msgid "Manag&e emoticons"
 msgstr "Hymiöi&den hallinta"
 
 #. Translators: the tooltip text for addon submenu.
@@ -54,7 +58,7 @@ msgid "Emoticons menu"
 msgstr "Hymiöt-valikko"
 
 #. Translators: the name for an item of addon submenu.
-msgid "&Insert smiley..."
+msgid "&Insert emoticon..."
 msgstr "&Lisää hymiö..."
 
 #. Translators: the tooltip text for an item of addon submenu.
@@ -98,71 +102,73 @@ msgstr "Ottaa käyttöön hymiöiden puhumisen tai poistaa sen käytöstä."
 msgid "Shows a dialog to select a smiley you want to paste."
 msgstr "Näyttää valintaikkunan, josta voit valita liitettävän hymiön."
 
-#. Translators: This is the label for the InsertEmoticon dialog.
+#. Translators: Message presented in input help mode.
+msgid "Shows the Emoticons dictionary dialog."
+msgstr "Näyttää hymiösanastovalintaikkunan."
+
+#. Translators: Message presented in input help mode.
+msgid "Shows the Emoticons Activation settings dialog."
+msgstr "Näyttää hymiöiden käyttöönottoasetusten valintaikkunan."
+
+#. Translators: Title of the dialog.
 msgid "Insert emoticon"
 msgstr "Lisää hymiö"
 
-#. Translators: The label for a setting in Insert emoticons to select a smiley.
-msgid "Available emoticons"
-msgstr "Käytettävissä olevat hymiöt"
+#. Filter panel.
+#. Translators: A text field to filter emoticons.
+msgid "&Filter:"
+msgstr "&Suodata:"
 
-#. Translators: A combo box to choose a smiley.
-msgid "Available smileys to insert:"
-msgstr "Lisättävät hymiöt:"
+#. Translators: A radio button to choose all types of emoticons.
+msgid "&All"
+msgstr "K&aikki"
+
+#. Translators: A radio button to choose only standard emoticons.
+msgid "&Standard"
+msgstr "Tavall&iset"
+
+#. Translators: A radio button to choose only emojis.
+msgid "Emoj&is"
+msgstr "&Emojit"
+
+#. List of emoticons.
+#. Translators: Label for the smileys list.
+msgid "&List of smilies"
+msgstr "&Hymiöluettelo"
+
+#. Translators: Column which specifies the name  of emoticon.
+msgid "Name"
+msgstr "Nimi"
+
+#. Translators: Column which specifies the type of emoticon (standard or emoji).
+msgid "Type"
+msgstr "Tyyppi"
+
+#. Translators: The column which contains the characters of the emoticon.
+msgid "Characters"
+msgstr "Merkit"
+
+#. Translators: Label for standard emoticons in the list.
+msgid "Standard"
+msgstr "Tavallinen"
+
+#. Translators: Error message when none emoticon is selected or the list is empty, and title of the error dialog.
+msgid "There is not any emoticon selected."
+msgstr "Yhtään hymiötä ei ole valittu."
 
 #. Translators: This is the message when smiley has been copied to the clipboard.
 msgid "Smiley copied to clipboard, ready for you to paste."
 msgstr "Hymiö kopioitu leikepöydälle."
 
+#. Translators: Message when the emoticon couldn't be copied.
 msgid "Cannot copy smiley."
 msgstr "Hymiötä' ei voi kopioida."
 
-#. Translators: The label for the combo box of dictionary entries in speech dictionary dialog.
-msgid "&Dictionary entries"
-msgstr "&Sanastomääritykset"
-
-#. Translators: The label for a column in dictionary entries list used to identify comments for the entry.
-msgid "Comment"
-msgstr "Kommentti"
-
-#. Translators: The label for a column in dictionary entries list used to identify pattern (original word or a pattern).
-msgid "Pattern"
-msgstr "Korvattava"
-
-#. Translators: The label for a column in dictionary entries list and in a list of symbols from symbol pronunciation dialog used to identify replacement for a pattern or a symbol
-msgid "Replacement"
-msgstr "Korvaava"
-
-#. Translators: The label for a column in dictionary entries list used to identify whether the entry is case sensitive or not.
-msgid "case"
-msgstr "kirjainkoko"
-
-#. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression, matches whole words, or matches anywhere.
-msgid "Type"
-msgstr "Tyyppi"
-
-#. Translators: a choice of Activateemoticons dialog.
-msgid "off"
-msgstr "pois"
-
-msgid "on"
-msgstr "käytössä"
-
-#. Translators: The label for a button in speech dictionaries dialog to add new entries.
-msgid "&Add"
-msgstr "&Lisää"
-
-#. Translators: The label for a button in speech dictionaries dialog to edit existing entries.
-msgid "&Edit"
-msgstr "&Muokkaa"
-
-msgid "&Remove"
-msgstr "&Poista"
-
+#. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Rese&t"
 msgstr "P&alauta oletukset"
 
-#. Translators: The label for a button in speech dictionaries dialog to add new entries.
+#. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Save and e&xport dictionary"
 msgstr "Tallenna ja v&ie sanasto"
 
@@ -174,25 +180,327 @@ msgstr "Käyttöönoton asetukset"
 msgid "&Activate speaking of emoticons at start:"
 msgstr "&Ota hymiöiden puhuminen käyttöön käynnistettäessä:"
 
-#. Translators: a choice of Activateemoticons dialog.
-msgid "On"
-msgstr "Käytössä"
-
-#. Translators: a combo box in Emoticons dialog.
-msgid "Activate at start"
-msgstr "Ota käyttöön käynnistettäessä"
-
 #. Translators: The label for a setting in Activate emoticons dialog to copy activation settings.
 msgid "&Copy activation settings"
 msgstr "&Kopioi käyttöönoton asetukset"
+
+#. Translators: (emoji) Grinning face, an happy face with normal eyes.
+msgid "Grinning face"
+msgstr "Virnistävä naama"
+
+#. Translators: (emoji) Happy face with open mouth and squinting eyes.
+msgid "Happy face with open mouth and squinting eyes"
+msgstr "iloiset kasvot suu auki ja silmät sirrillä"
+
+#. Translators: (emoji) happy face with open mouth.
+msgid "Happy face with open mouth"
+msgstr "Iloiset kasvot suu auki"
+
+#. Translators: (emoji) happy face with wide mouth and squinting eyes.
+msgid "Happy face with wide mouth and squinting eyes"
+msgstr "Iloiset kasvot suu levällään ja silmät sirrillä"
+
+#. Translators: (emoji) smirking face.
+msgid "Smirking face"
+msgstr "Typerästi hymyilevät kasvot"
+
+#. Translators: (emoji) Slightly Smiling Face: a face that is a little bit happy, with a slight smile and neutral eyes.
+msgid "Slightly smiling face"
+msgstr "Hienoisesti hymyilevät kasvot"
+
+#. Translators: (emoji) white smiling face.
+msgid "white smiling face"
+msgstr "Valkoiset hymyilevät kasvot"
+
+#. Translators: (emoji) happy face with halo.
+msgid "Happy face with halo"
+msgstr "Iloiset kasvot sädekehällä"
+
+#. Translators: (emoji) white frowning face.
+msgid "White frowning face"
+msgstr "Valkoiset kasvot otsa rypyssä"
+
+#. Translators: (emoji) winking face.
+msgid "Winking face"
+msgstr "Silmää iskevät kasvot"
+
+#. Translators: (emoji) smiling face with heart shaped eyes.
+msgid "Smiling face with heart shaped eyes"
+msgstr "Hymyilevät kasvot sydämenmuotoisin silmin"
+
+#. Translators: (emoji)  Rose: a single red rose.
+msgid "Rose"
+msgstr "Ruusu"
+
+#. Translators: (emoji) Expressionless face: a face with straight lined eyes and mouth. A deliberate display of no comment...
+msgid "Expressionless face"
+msgstr "Ilmeettömät kasvot"
+
+#. Translators: (emoji) neutral face.
+msgid "Neutral face"
+msgstr "neutraalit kasvot"
+
+#. Translators: (emoji) face without mouth.
+msgid "Face without mouth"
+msgstr "kasvot ilman suuta"
+
+#. Translators: (emoji) face throwing a kiss.
+msgid "Face throwing a kiss"
+msgstr "lentosuukkoa heittävät kasvot"
+
+#. Translators: (emoji) kissing face with closed eyes.
+msgid "Kissing face with closed eyes"
+msgstr "suutelevat kasvot silmät suljettuina"
+
+#. Translators: (emoji) kissing face with open eyes.
+msgid "Kissing face with open eyes"
+msgstr "suutelevat kasvot silmät auki"
+
+#. Translators: (emoji) kissing face with arched eyes.
+msgid "Kissing face with arched eyes"
+msgstr "Suutelevat kasvot ilkikurisin silmin"
+
+#. Translators: (emoji) winking face with stuck out tongue.
+msgid "Winking face with stuck out tongue"
+msgstr "Silmää iskevät ja kieltä näyttävät kasvot"
+
+#. Translators: (emoji) face with stuck out tongue and eyes tightly closed.
+msgid "Face with stuck out tongue and eyes tightly closed"
+msgstr "Kieltä näyttävät kasvot silmät tiukasti suljettuina"
+
+#. Translators: (emoji) face with stuck out tongue and eyes open.
+msgid "Face with stuck out tongue and eyes open"
+msgstr "Kieltä näyttävät kasvot silmät auki"
+
+#. Translators: (emoji) Hugging Face: a face displayed with an open hands gesture, offering a hug.
+msgid "Hugging face"
+msgstr "Halaavat kasvot"
+
+#. Translators: (emoji) flushed face.
+msgid "Flushed face"
+msgstr "Punottavat kasvot"
+
+#. Translators: (emoji) face with clenched teeth.
+msgid "Face with clenched teeth"
+msgstr "Kasvot yhteenpuristetuin hampain"
+
+#. Translators: (emoji) person frowning.
+msgid "Person frowning"
+msgstr "Henkilö otsa rypyssä"
+
+#. Translators: (emoji) devil with evil smile.
+msgid "Devil with evil smile"
+msgstr "Häijysti hymyilevä piru"
+
+#. Translators: (emoji) devil.
+msgid "Devil"
+msgstr "Piru"
+
+#. Translators: (emoji) relieved face.
+msgid "Relieved face"
+msgstr "Helpottuneet kasvot"
+
+#. Translators: (emoji) unamused face.
+msgid "Unamused face"
+msgstr "Tympääntyneet kasvot"
+
+#. Translators: (emoji) tired face.
+msgid "Tired face"
+msgstr "Väsyneet kasvot"
+
+#. Translators: (emoji) crying face.
+msgid "Crying face"
+msgstr "Itkevät kasvot"
+
+#. Translators: (emoji) face with tears of joy.
+msgid "Face with tears of joy"
+msgstr "Kasvot ilon kyynelissä"
+
+#. Translators: (emoji) loudly crying face.
+msgid "Loudly crying face"
+msgstr "Ääneen itkevät kasvot"
+
+#. Translators: (emoji) sleepy face.
+msgid "Sleepy face"
+msgstr "Uneliaat kasvot"
+
+#. Translators: (emoji) Shrugging: A person shrugging their shoulders to indicate a lack of knowledge about a particular topic, or a lack of care about the result of a situation.
+msgid "Shrugging emoji"
+msgstr "Olankohautus"
+
+#. Translators: (emoji) disappointed face.
+msgid "Disappointed face"
+msgstr "Pettyneet kasvot"
+
+#. Translators: (emoji) disappointed but relieved face.
+msgid "Disappointed but relieved face"
+msgstr "Pettyneet mutta helpottuneet kasvot"
+
+#. Translators: (emoji) exasperated face.
+msgid "Exasperated face"
+msgstr "Raivoissaan olevat kasvot"
+
+#. Translators: (emoji) happy face with tear-drop.
+msgid "Happy face with teardrop"
+msgstr "Iloiset kasvot kyynelissä"
+
+#. Translators: (emoji) face with cold sweat.
+msgid "Face with cold sweat"
+msgstr "Kasvot kylmässä hiessä"
+
+#. Translators: (emoji) whaling face.
+msgid "Whaling face"
+msgstr "Valaan kasvot"
+
+#. Translators: (emoji) whaling face with squinting eyes.
+msgid "Whaling face with squinting eyes"
+msgstr "Valaan kasvot silmät sirrillään"
+
+#. Translators: (emoji) fearful face.
+msgid "Fearful face"
+msgstr "Pelokkaat kasvot"
+
+#. Translators: (emoji) face screaming in fear.
+msgid "Face screaming in fear"
+msgstr "Pelosta kirkuvat kasvot"
+
+#. Translators: (emoji) angry face.
+#. Translators: :@ angry face.
+msgid "Angry face"
+msgstr "Vihaiset kasvot"
+
+#. Translators: (emoji) pouting face.
+msgid "Pouting face"
+msgstr "Murjottavat kasvot"
+
+#. Translators: (emoji) huffing with anger face.
+msgid "Huffing with anger face"
+msgstr "Kiukkuiset kasvot"
+
+#. Translators: (emoji) confounded face.
+msgid "Confounded face"
+msgstr "Neuvottomat kasvot"
+
+#. Translators: (emoji) Smiling Face With Open Mouth and Tightly-Closed Eyes.
+msgid "Smiling Face With Open Mouth and Tightly-Closed Eyes"
+msgstr "Hymyilevät kasvot suu auki ja silmät tiukasti suljettuina"
+
+#. Translators: (emoji) happy face licking lips.
+msgid "Happy face licking lips"
+msgstr "Iloiset huulia nuolevat kasvot"
+
+#. Translators: (emoji) happy face with sunglasses.
+msgid "Happy face with sunglasses"
+msgstr "Iloiset kasvot aurinkolasein"
+
+#. Translators: (emoji) sleeping face.
+msgid "Sleeping face"
+msgstr "Nukkuvat kasvot"
+
+#. Translators: (emoji) very astonished face.
+msgid "Very astonished face"
+msgstr "Erittäin hämmästyneet kasvot"
+
+#. Translators: (emoji) astonished face.
+msgid "Astonished face"
+msgstr "Hämmästyneet kasvot"
+
+#. Translators: (emoji) worried face.
+msgid "Worried face"
+msgstr "Huolestuneet kasvot"
+
+#. Translators: (emoji) surprised and dismayed face.
+msgid "Surprised and dismayed face"
+msgstr "Yllättyneet ja tyrmistyneet kasvot"
+
+#. Translators: (emoji) anguished face.
+msgid "Anguished face"
+msgstr "Tuskaiset kasvot"
+
+#. Translators: (emoji) open mouth and surprised face.
+msgid "Open mouth and surprised face"
+msgstr "Yllättyneet kasvot suu auki"
+
+#. Translators: (emoji) grimacing face.
+msgid "Grimacing face"
+msgstr "Irvistävät kasvot"
+
+#. Translators: (emoji) confused face.
+msgid "Confused face"
+msgstr "Hämmentyneet kasvot"
+
+#. Translators: (emoji) surprised face.
+msgid "Surprised face"
+msgstr "Yllättyneet kasvot"
+
+#. Translators: (emoji) broken heart.
+msgid "Broken heart"
+msgstr "Särkynyt sydän"
+
+#. Translators: (emoji) pulsating heart.
+msgid "Pulsating heart"
+msgstr "Sykkivä sydän"
+
+#. Translators: (emoji) beating heart.
+msgid "Beating heart"
+msgstr "Sydän lyö"
+
+#. Translators: (emoji) two hearts.
+msgid "Two hearts"
+msgstr "Kaksi sydäntä"
+
+#. Translators: (emoji) heart with arrow.
+msgid "Heart with arrow"
+msgstr "Sydän jossa nuoli"
+
+#. Translators: (emoji) purple heart.
+msgid "Purple heart"
+msgstr "Vaaleanpunainen sydän"
+
+#. Translators: (emoji) red heart.
+msgid "Red heart"
+msgstr "Punainen sydän"
+
+#. Translators: (emoji) yellow heart.
+msgid "Yellow heart"
+msgstr "Keltainen sydän"
+
+#. Translators: (emoji) green heart.
+msgid "Green heart"
+msgstr "Vihreä sydän"
+
+#. Translators: (emoji) blue heart.
+msgid "Blue heart"
+msgstr "Sininen sydän"
+
+#. Translators: (emoji) happy cat face with heart shaped eyes.
+msgid "Happy cat face with heart shaped eyes"
+msgstr "Iloinen kissan naama sydämenmuotoisin silmin"
+
+#. Translators: (emoji) ok hand sign.
+msgid "Ok hand sign"
+msgstr "OK-käsimerkki"
+
+#. Translators: (emoji) thumbs up symbol.
+msgid "Thumbs up symbol"
+msgstr "Peukalot ylös"
+
+#. Translators: (emoji) thumbs down symbol.
+msgid "Thumbs down symbol"
+msgstr "Peukalot alas"
+
+#. Translators: (emoji) Victory Hand
+msgid "Victory Hand"
+msgstr "Voitonmerkki"
 
 #. Translators: :) Smile
 msgid "smiling smiley"
 msgstr "hymyilee"
 
-#. Translators: :( Sad
-msgid "sad smiley"
-msgstr "surullinen"
+#. Translators: :( Sad face.
+#, fuzzy
+msgid "Sad face"
+msgstr "Tympääntyneet kasvot"
 
 #. Translators: :D Laugh
 msgid "Laughing smiley"
@@ -209,6 +517,10 @@ msgstr "iskee silmää"
 #. Translators: ;( Crying
 msgid "crying smiley"
 msgstr "itkee"
+
+#. Translators: :s :-S :-Q Confused face:
+msgid "Confused Face"
+msgstr "Hämmentyneet kasvot"
 
 #. Translators: (:| Sweating
 msgid "sweating smiley"
@@ -301,7 +613,7 @@ msgstr "huutaa"
 msgid "Cat Smiley"
 msgstr "kissa"
 
-#. Translators: (-.-)ZZZ I�m Sleepy
+#. Translators: (-.-)ZZZ Iӭ Sleepy
 msgid "I am Sleepy smiley"
 msgstr "minua nukuttaa"
 
@@ -507,7 +819,7 @@ msgstr "liikaa tietoa"
 
 #. Translators: (coffee) Coffee
 msgid "coffee smiley"
-msgstr "kahvia"
+msgstr "kahvi"
 
 #. Translators: (pi) Pizza
 msgid "pizza smiley"
@@ -531,4 +843,58 @@ msgstr "Hymiöt"
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
-msgstr "Ottaa käyttöön hymiöiden nimien puhumisen niiden merkkien sijasta."
+msgstr "Ottaa käyttöön hymiöiden nimien puhumisen niiden merkkien asemesta."
+
+#~ msgid "sad smiley"
+#~ msgstr "surullinen"
+
+#~ msgid "Hangry face"
+#~ msgstr "Nälkäiset ja vihaiset kasvot"
+
+#~ msgid "Emoticon: %s"
+#~ msgstr "Hymiö: %s"
+
+#~ msgid "&Insert smiley..."
+#~ msgstr "&Lisää hymiö..."
+
+#~ msgid "Available emoticons"
+#~ msgstr "Käytettävissä olevat hymiöt"
+
+#~ msgid "Available smileys to insert:"
+#~ msgstr "Lisättävät hymiöt:"
+
+#~ msgid "&Dictionary entries"
+#~ msgstr "&Sanastomääritykset"
+
+#~ msgid "Comment"
+#~ msgstr "Kommentti"
+
+#~ msgid "Pattern"
+#~ msgstr "Korvattava"
+
+#~ msgid "Replacement"
+#~ msgstr "Korvaava"
+
+#~ msgid "case"
+#~ msgstr "kirjainkoko"
+
+#~ msgid "off"
+#~ msgstr "pois"
+
+#~ msgid "on"
+#~ msgstr "käytössä"
+
+#~ msgid "&Add"
+#~ msgstr "&Lisää"
+
+#~ msgid "&Edit"
+#~ msgstr "&Muokkaa"
+
+#~ msgid "&Remove"
+#~ msgstr "&Poista"
+
+#~ msgid "On"
+#~ msgstr "Käytössä"
+
+#~ msgid "Activate at start"
+#~ msgstr "Ota käyttöön käynnistettäessä"
