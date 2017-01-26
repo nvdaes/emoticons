@@ -6,7 +6,7 @@
 * Descargar [versión de desarrollo][2]
 
 Utilizando este complemento, la verbalización de texto que contenga
-ccarácteres emoticonos se reemplazará por su descripción más amigable.
+caracteres emoticonos se reemplazará por su descripción más amigable.
 
 Por ejemplo: la secuencia ":)" se verbalizará como "cara sonriente", o por
 ejemplo NVDA reconocerá el significado de cada emoji.
@@ -19,7 +19,7 @@ Cuando no estés seguro de los caracteres para un emoticono en particular,
 este complemento te capacita para seleccionarlos e insertarlos en tu texto
 tal como en un chat.
 
-Pulsa NVDA+I, o desde el menú Preferencias -> Gestionar emoticonos -> Insertar emoticón, para abrir un diálogo con los emoticonos o emojis proporcionados.
+Pulsa NVDA+I, o desde el menú Preferencias -> Gestionar emoticonos -> Insertar emoticono, para abrir un diálogo con los emoticonos o emojis proporcionados.
 
 Este diálogo te permite elegir un emoticono y ver los emoticonos que te
 interesen:
@@ -90,7 +90,7 @@ diálogo Diccionario de Emoticonos:
 
 ## Cambios para 1.1 ##
 
-* Elininado un emoticono duplicado.
+* Eliminado un emoticono duplicado.
 * Añadidos algunos emoticonos.
 
 ## Cambios para 1.0 ##

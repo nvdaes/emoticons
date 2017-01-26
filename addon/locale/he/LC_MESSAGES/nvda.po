@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: emoticons 4.2\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2015-10-23 05:00+1000\n"
-"PO-Revision-Date: 2016-09-11 20:49+0300\n"
-"Last-Translator: shmuel <shmuel_naaman@yahoo.com>\n"
-"Language-Team: Shmuel Retbi , Shmuel Naaman"
-"Language: he\n"
+"PO-Revision-Date: 2017-01-22 10:40+0200\n"
+"Last-Translator: shmuel_naaman@yahoo.com\n"
+"Language-Team: naaman.shmuel@gmail.com\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.6\n"
-"Language-Team: \n"
+"X-Generator: Poedit 1.8.11\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: he_IL\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -38,24 +38,30 @@ msgstr "נראה כי קיימות הגדרות ישנות של תוסף זה. �
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
-msgstr "יבוא הגדרות תוסף Emoticons"
+msgstr "יבוא הגדרות תוסף רגשונים"
 
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
-#, python-format
-msgid "Emoticon: %s"
-msgstr "Emoticon: %s"
+#. Translators: Label for emojis in the list.
+msgid "Emoji"
+msgstr "רגשון"
+
+#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
+msgid "Emoticon"
+msgstr "רגשונים"
 
 #. Translators: the name of addon submenu.
-msgid "Manage emoticons"
+#, fuzzy
+msgid "Manag&e emoticons"
 msgstr "ניהול הרגשונים"
 
 #. Translators: the tooltip text for addon submenu.
 msgid "Emoticons menu"
-msgstr ";תפריט Emoticon: "
+msgstr ";תפריט רגשונים: "
 
 #. Translators: the name for an item of addon submenu.
-msgid "&Insert smiley..."
-msgstr "ה&כנס רגשון..."
+#, fuzzy
+msgid "&Insert emoticon..."
+msgstr "הדבקת הרגשון"
 
 #. Translators: the tooltip text for an item of addon submenu.
 msgid "Shows a dialog to insert a smiley"
@@ -96,71 +102,76 @@ msgstr "מיתוג הקראת הרגשונים"
 msgid "Shows a dialog to select a smiley you want to paste."
 msgstr "פתיחת תיבת הדו-שיח המאפשר לבחור את הרגשון הרצוי"
 
-#. Translators: This is the label for the InsertEmoticon dialog.
+#. Translators: Message presented in input help mode.
+#, fuzzy
+msgid "Shows the Emoticons dictionary dialog."
+msgstr "מילון הרגשונים"
+
+#. Translators: Message presented in input help mode.
+#, fuzzy
+msgid "Shows the Emoticons Activation settings dialog."
+msgstr "יבוא הגדרות תוסף Emoticons"
+
+#. Translators: Title of the dialog.
 msgid "Insert emoticon"
 msgstr "הדבקת הרגשון"
 
-#. Translators: The label for a setting in Insert emoticons to select a smiley.
-msgid "Available emoticons"
-msgstr "רגשונים זמינים"
+#. Filter panel.
+#. Translators: A text field to filter emoticons.
+msgid "&Filter:"
+msgstr "מסנן"
 
-#. Translators: A combo box to choose a smiley.
-msgid "Available smileys to insert:"
-msgstr "רשימת הרגשונים הקיימים במערכת"
+#. Translators: A radio button to choose all types of emoticons.
+msgid "&All"
+msgstr "הכל"
+
+#. Translators: A radio button to choose only standard emoticons.
+msgid "&Standard"
+msgstr "רגיל"
+
+#. Translators: A radio button to choose only emojis.
+msgid "Emoj&is"
+msgstr "רגשונים בלבד"
+
+#. List of emoticons.
+#. Translators: Label for the smileys list.
+#, fuzzy
+msgid "&List of smilies"
+msgstr "רגשון מאוהב"
+
+#. Translators: Column which specifies the name  of emoticon.
+msgid "Name"
+msgstr "שם"
+
+#. Translators: Column which specifies the type of emoticon (standard or emoji).
+msgid "Type"
+msgstr "סוג"
+
+#. Translators: The column which contains the characters of the emoticon.
+msgid "Characters"
+msgstr "תווים"
+
+#. Translators: Label for standard emoticons in the list.
+msgid "Standard"
+msgstr "רגיל"
+
+#. Translators: Error message when none emoticon is selected or the list is empty, and title of the error dialog.
+msgid "There is not any emoticon selected."
+msgstr "לא נבחרו רגשונים"
 
 #. Translators: This is the message when smiley has been copied to the clipboard.
 msgid "Smiley copied to clipboard, ready for you to paste."
 msgstr "הרגשון הועתק לזכרון הזמני והוא עתה זמין להדבקה"
 
+#. Translators: Message when the emoticon couldn't be copied.
 msgid "Cannot copy smiley."
 msgstr "לא ניתן להעתיק את הרגשון"
 
-#. Translators: The label for the combo box of dictionary entries in speech dictionary dialog.
-msgid "&Dictionary entries"
-msgstr "&מונחי המילון"
-
-#. Translators: The label for a column in dictionary entries list used to identify comments for the entry.
-msgid "Comment"
-msgstr "הערה"
-
-#. Translators: The label for a column in dictionary entries list used to identify pattern (original word or a pattern).
-msgid "Pattern"
-msgstr "תבנית"
-
-#. Translators: The label for a column in dictionary entries list and in a list of symbols from symbol pronunciation dialog used to identify replacement for a pattern or a symbol
-msgid "Replacement"
-msgstr "החלפה"
-
-#. Translators: The label for a column in dictionary entries list used to identify whether the entry is case sensitive or not.
-msgid "case"
-msgstr "להתחשב באותיות רשיות"
-
-#. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression, matches whole words, or matches anywhere.
-msgid "Type"
-msgstr "סוג"
-
-#. Translators: a choice of Activateemoticons dialog.
-msgid "off"
-msgstr "לא פעיל"
-
-msgid "on"
-msgstr "פעיל"
-
-#. Translators: The label for a button in speech dictionaries dialog to add new entries.
-msgid "&Add"
-msgstr "&הוספה"
-
-#. Translators: The label for a button in speech dictionaries dialog to edit existing entries.
-msgid "&Edit"
-msgstr "&עריכה"
-
-msgid "&Remove"
-msgstr "ה&סרה"
-
+#. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Rese&t"
 msgstr "&איפוס"
 
-#. Translators: The label for a button in speech dictionaries dialog to add new entries.
+#. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Save and e&xport dictionary"
 msgstr "&שמירה ויצוא של המילון"
 
@@ -172,17 +183,327 @@ msgstr "הגדרות הפעלה"
 msgid "&Activate speaking of emoticons at start:"
 msgstr "ה&פעלת הקראת הרגשונים בעת פתיחה"
 
-#. Translators: a choice of Activateemoticons dialog.
-msgid "On"
-msgstr "פעיל"
-
-#. Translators: a combo box in Emoticons dialog.
-msgid "Activate at start"
-msgstr "הפעלה בעת פתיחה"
-
 #. Translators: The label for a setting in Activate emoticons dialog to copy activation settings.
 msgid "&Copy activation settings"
 msgstr "ה&עתקת הגדרות הפעלה"
+
+#. Translators: (emoji) Grinning face, an happy face with normal eyes.
+msgid "Grinning face"
+msgstr "רגשון מחייך"
+
+#. Translators: (emoji) Happy face with open mouth and squinting eyes.
+msgid "Happy face with open mouth and squinting eyes"
+msgstr "רגשון השמח עם פה פעור ועיינים פוזלות "
+
+#. Translators: (emoji) happy face with open mouth.
+msgid "Happy face with open mouth"
+msgstr "רגשון השמח עם פה פעור"
+
+#. Translators: (emoji) happy face with wide mouth and squinting eyes.
+msgid "Happy face with wide mouth and squinting eyes"
+msgstr "רגשון השמח עם פה חיוך רחבו"
+
+#. Translators: (emoji) smirking face.
+#, fuzzy
+msgid "Smirking face"
+msgstr "רגשון נעלב"
+
+#. Translators: (emoji) Slightly Smiling Face: a face that is a little bit happy, with a slight smile and neutral eyes.
+msgid "Slightly smiling face"
+msgstr "רגשון המחייך מעט"
+
+#. Translators: (emoji) white smiling face.
+#, fuzzy
+msgid "white smiling face"
+msgstr "רגשון המתנה"
+
+#. Translators: (emoji) happy face with halo.
+msgid "Happy face with halo"
+msgstr "רגשון השמח עם הילה"
+
+#. Translators: (emoji) white frowning face.
+msgid "White frowning face"
+msgstr "רגשון הפנים חמורות ולבנות"
+
+#. Translators: (emoji) winking face.
+#, fuzzy
+msgid "Winking face"
+msgstr "רגשון קורץ"
+
+#. Translators: (emoji) smiling face with heart shaped eyes.
+msgid "Smiling face with heart shaped eyes"
+msgstr "רגשון המחייך עם עיניים בצורת לב"
+
+#. Translators: (emoji)  Rose: a single red rose.
+msgid "Rose"
+msgstr "רגשון ורד"
+
+#. Translators: (emoji) Expressionless face: a face with straight lined eyes and mouth. A deliberate display of no comment...
+msgid "Expressionless face"
+msgstr "רגשון פנים חסרי הבעה"
+
+#. Translators: (emoji) neutral face.
+msgid "Neutral face"
+msgstr "רגשון פנים ניטרלי"
+
+#. Translators: (emoji) face without mouth.
+msgid "Face without mouth"
+msgstr "רגשון פנים לא פה"
+
+#. Translators: (emoji) face throwing a kiss.
+msgid "Face throwing a kiss"
+msgstr "רגשון מפריח נשיקה"
+
+#. Translators: (emoji) kissing face with closed eyes.
+msgid "Kissing face with closed eyes"
+msgstr "רגשון נשיקה עם עיניים סגורות"
+
+#. Translators: (emoji) kissing face with open eyes.
+msgid "Kissing face with open eyes"
+msgstr "רגשון נשיקה עם עיניים פתוחות"
+
+#. Translators: (emoji) kissing face with arched eyes.
+msgid "Kissing face with arched eyes"
+msgstr "רגשון נשיקה עם עיניים סגורות קמורות"
+
+#. Translators: (emoji) winking face with stuck out tongue.
+msgid "Winking face with stuck out tongue"
+msgstr "רגשון הקריצה עם לשון בחוץ"
+
+#. Translators: (emoji) face with stuck out tongue and eyes tightly closed.
+msgid "Face with stuck out tongue and eyes tightly closed"
+msgstr "רגשון הלשון בחוץ עם עיניים סגורות היטב"
+
+#. Translators: (emoji) face with stuck out tongue and eyes open.
+msgid "Face with stuck out tongue and eyes open"
+msgstr "רגשון הלשון בחוץ ועיניים פתוחות"
+
+#. Translators: (emoji) Hugging Face: a face displayed with an open hands gesture, offering a hug.
+msgid "Hugging face"
+msgstr "רגשון החיבוק"
+
+#. Translators: (emoji) flushed face.
+msgid "Flushed face"
+msgstr "רגשון סמוק לחיים"
+
+#. Translators: (emoji) face with clenched teeth.
+msgid "Face with clenched teeth"
+msgstr "רגשון חריקת שיניים"
+
+#. Translators: (emoji) person frowning.
+msgid "Person frowning"
+msgstr "רגשון הזועף"
+
+#. Translators: (emoji) devil with evil smile.
+#, fuzzy
+msgid "Devil with evil smile"
+msgstr "רגשון התאוששות"
+
+#. Translators: (emoji) devil.
+msgid "Devil"
+msgstr "רגשון שטן"
+
+#. Translators: (emoji) relieved face.
+#, fuzzy
+msgid "Relieved face"
+msgstr "רגשון התאוששות"
+
+#. Translators: (emoji) unamused face.
+msgid "Unamused face"
+msgstr "רגשון משועשע"
+
+#. Translators: (emoji) tired face.
+msgid "Tired face"
+msgstr "רגשון מותש"
+
+#. Translators: (emoji) crying face.
+msgid "Crying face"
+msgstr "רגשון בוכה"
+
+#. Translators: (emoji) face with tears of joy.
+msgid "Face with tears of joy"
+msgstr "רגשון עם דמעות של שמחה"
+
+#. Translators: (emoji) loudly crying face.
+msgid "Loudly crying face"
+msgstr "רגשון בוכה בקול"
+
+#. Translators: (emoji) sleepy face.
+msgid "Sleepy face"
+msgstr "רגשון ישנוני"
+
+#. Translators: (emoji) Shrugging: A person shrugging their shoulders to indicate a lack of knowledge about a particular topic, or a lack of care about the result of a situation.
+msgid "Shrugging emoji"
+msgstr "רגשון משיכת כתפיים"
+
+#. Translators: (emoji) disappointed face.
+msgid "Disappointed face"
+msgstr "רגשון מאוכזב"
+
+#. Translators: (emoji) disappointed but relieved face.
+msgid "Disappointed but relieved face"
+msgstr "רגשון מאוכזב אבל עם הקלה"
+
+#. Translators: (emoji) exasperated face.
+msgid "Exasperated face"
+msgstr "רגשון כועס"
+
+#. Translators: (emoji) happy face with tear-drop.
+msgid "Happy face with teardrop"
+msgstr "רגשון שמח עם דמעה"
+
+#. Translators: (emoji) face with cold sweat.
+msgid "Face with cold sweat"
+msgstr "רגשון עם זיעה קרה"
+
+#. Translators: (emoji) whaling face.
+msgid "Whaling face"
+msgstr "לוויתן "
+
+#. Translators: (emoji) whaling face with squinting eyes.
+msgid "Whaling face with squinting eyes"
+msgstr "לוויתן עם עיניים מצומצמות"
+
+#. Translators: (emoji) fearful face.
+msgid "Fearful face"
+msgstr "רגשון מפוחד"
+
+#. Translators: (emoji) face screaming in fear.
+msgid "Face screaming in fear"
+msgstr "רגשון צורח בפחד"
+
+#. Translators: (emoji) angry face.
+#, fuzzy
+msgid "Angry face"
+msgstr "רגשון ברוגז"
+
+#. Translators: (emoji) pouting face.
+msgid "Pouting face"
+msgstr "רגשון פנים חמוצות"
+
+#. Translators: (emoji) huffing with anger face.
+msgid "Huffing with anger face"
+msgstr "רגשון כועס  ומתנשף"
+
+#. Translators: (emoji) confounded face.
+#, fuzzy
+msgid "Confounded face"
+msgstr "רגשון מבולבל"
+
+#. Translators: (emoji) Smiling Face With Open Mouth and Tightly-Closed Eyes.
+msgid "Smiling Face With Open Mouth and Tightly-Closed Eyes"
+msgstr "רגשון מחייך עם פה פתוח ועיינים סגורות "
+
+#. Translators: (emoji) happy face licking lips.
+msgid "Happy face licking lips"
+msgstr "רגשון שמח מלקק את האצבעות "
+
+#. Translators: (emoji) happy face with sunglasses.
+msgid "Happy face with sunglasses"
+msgstr "רגשון שמח עם משקפי שמש"
+
+#. Translators: (emoji) sleeping face.
+msgid "Sleeping face"
+msgstr "רגשון ישן"
+
+#. Translators: (emoji) very astonished face.
+msgid "Very astonished face"
+msgstr "רגשון תמיהה גדולה"
+
+#. Translators: (emoji) astonished face.
+msgid "Astonished face"
+msgstr "רגשון תמיהה"
+
+#. Translators: (emoji) worried face.
+#, fuzzy
+msgid "Worried face"
+msgstr "רגשון מוטרד"
+
+#. Translators: (emoji) surprised and dismayed face.
+msgid "Surprised and dismayed face"
+msgstr "רגשן מופתע ומזועזע"
+
+#. Translators: (emoji) anguished face.
+msgid "Anguished face"
+msgstr "רגשון מיוסר"
+
+#. Translators: (emoji) open mouth and surprised face.
+msgid "Open mouth and surprised face"
+msgstr "רגשון פה פתוח ופנים מופתעות"
+
+#. Translators: (emoji) grimacing face.
+msgid "Grimacing face"
+msgstr "רגשון עיקום פנים"
+
+#. Translators: (emoji) confused face.
+#, fuzzy
+msgid "Confused face"
+msgstr "רגשון מבולבל"
+
+#. Translators: (emoji) surprised face.
+#, fuzzy
+msgid "Surprised face"
+msgstr "רגשון מופתע"
+
+#. Translators: (emoji) broken heart.
+msgid "Broken heart"
+msgstr "לב שבור"
+
+#. Translators: (emoji) pulsating heart.
+msgid "Pulsating heart"
+msgstr "לב פועם"
+
+#. Translators: (emoji) beating heart.
+msgid "Beating heart"
+msgstr "לב פועם"
+
+#. Translators: (emoji) two hearts.
+msgid "Two hearts"
+msgstr "שני לבבות"
+
+#. Translators: (emoji) heart with arrow.
+msgid "Heart with arrow"
+msgstr "לב עם חץ"
+
+#. Translators: (emoji) purple heart.
+msgid "Purple heart"
+msgstr "לב סגול"
+
+#. Translators: (emoji) red heart.
+msgid "Red heart"
+msgstr "לב אדום"
+
+#. Translators: (emoji) yellow heart.
+msgid "Yellow heart"
+msgstr "לב צהוב"
+
+#. Translators: (emoji) green heart.
+msgid "Green heart"
+msgstr "לב ירוק"
+
+#. Translators: (emoji) blue heart.
+msgid "Blue heart"
+msgstr "לב כחול"
+
+#. Translators: (emoji) happy cat face with heart shaped eyes.
+msgid "Happy cat face with heart shaped eyes"
+msgstr "רגשון חתול מחייך עם עיניים בצורת לב"
+
+#. Translators: (emoji) ok hand sign.
+msgid "Ok hand sign"
+msgstr "סימן יד מאשרת "
+
+#. Translators: (emoji) thumbs up symbol.
+msgid "Thumbs up symbol"
+msgstr "סימן אגודלים למעלה"
+
+#. Translators: (emoji) thumbs down symbol.
+msgid "Thumbs down symbol"
+msgstr "סימן אגודלים למטה"
+
+#. Translators: (emoji) Victory Hand
+msgid "Victory Hand"
+msgstr "סימן ניצחון"
 
 #. Translators: :) Smile
 msgid "smiling smiley"
@@ -196,6 +517,11 @@ msgstr "רגשון עצוב"
 msgid "Laughing smiley"
 msgstr "רגשון צוחק"
 
+#. Translators: :@ hangry face.
+#, fuzzy
+msgid "Hangry face"
+msgstr "רגשון ברוגז"
+
 #. Translators: :O Surprised
 msgid "surprised smiley"
 msgstr "רגשון מופתע"
@@ -207,6 +533,11 @@ msgstr "רגשון קורץ"
 #. Translators: ;( Crying
 msgid "crying smiley"
 msgstr "רגשון בוכה"
+
+#. Translators: :s :-S :-Q Confused face:
+#, fuzzy
+msgid "Confused Face"
+msgstr "רגשון מבולבל"
 
 #. Translators: (:| Sweating
 msgid "sweating smiley"
@@ -299,7 +630,7 @@ msgstr "רגשון ברוגז"
 msgid "Cat Smiley"
 msgstr "רגשון חתול"
 
-#. Translators: (-.-)ZZZ I�m Sleepy
+#. Translators: (-.-)ZZZ Iӭ Sleepy
 msgid "I am Sleepy smiley"
 msgstr "רגשון אני רדום"
 
@@ -530,3 +861,51 @@ msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
 msgstr "מאפשר הקראה של תיאור הרגשונים במקום צורתם הגראפית"
+
+#~ msgid "Emoticon: %s"
+#~ msgstr "Emoticon: %s"
+
+#~ msgid "&Insert smiley..."
+#~ msgstr "ה&כנס רגשון..."
+
+#~ msgid "Available emoticons"
+#~ msgstr "רגשונים זמינים"
+
+#~ msgid "Available smileys to insert:"
+#~ msgstr "רשימת הרגשונים הקיימים במערכת"
+
+#~ msgid "&Dictionary entries"
+#~ msgstr "&מונחי המילון"
+
+#~ msgid "Comment"
+#~ msgstr "הערה"
+
+#~ msgid "Pattern"
+#~ msgstr "תבנית"
+
+#~ msgid "Replacement"
+#~ msgstr "החלפה"
+
+#~ msgid "case"
+#~ msgstr "להתחשב באותיות רשיות"
+
+#~ msgid "off"
+#~ msgstr "לא פעיל"
+
+#~ msgid "on"
+#~ msgstr "פעיל"
+
+#~ msgid "&Add"
+#~ msgstr "&הוספה"
+
+#~ msgid "&Edit"
+#~ msgstr "&עריכה"
+
+#~ msgid "&Remove"
+#~ msgstr "ה&סרה"
+
+#~ msgid "On"
+#~ msgstr "פעיל"
+
+#~ msgid "Activate at start"
+#~ msgstr "הפעלה בעת פתיחה"

@@ -5,8 +5,8 @@
 * Télécharger [version stable][1]
 * Télécharger [version de développement][2]
 
-En utilisant ce module complémentaire, le texte parlé contenant les
-caractères de la frimousse seront remplacés par leur description humaine
+En utilisant ce module complémentaire, la verbalisation du texte contenant
+les caractères de la frimousse seront remplacés par leur description humaine
 plus conviviale.
 
 Par exemple : la séquence ":)" sera prononcé comme "Frimousse Sourire", ou
