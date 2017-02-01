@@ -63,8 +63,8 @@ diálogo Diccionario de Emoticonos:
 ## Cambios para 5.0 ##
 
 * Añadido el soporte para emojis.
-* Mejoras para el diálogo Insertar Emoticón con un campo de filtro y botones
-  de opción para elegir los emoticonos mostrados.
+* Mejoras para el diálogo Insertar Emoticones con un campo de filtro y
+  botones de opción para elegir los emoticonos mostrados.
 * Utilización de guiHelper para el diálogo Opciones de Activación y el
   diálogo Insertar Emoticono: requiere de versiones de NVDA 2016.4 o
   superiores
