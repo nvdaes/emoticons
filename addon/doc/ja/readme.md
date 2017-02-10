@@ -1,40 +1,67 @@
 # Emoticons #
 
-* 作者: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed
+* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+  Estrada Martínez
 * ダウンロード [安定版][1]
 * ダウンロード [開発版][2]
 
-このアドオンを使うと、エモーティコン文字列を含むテキストを読み上げるときに人間がもっと理解しやすい読み方に置き換えます。86種類のエモーティコンを定義しています。
+Using this add-on, spoken text containing emoticon characters will be
+replaced by its more human friendly description.
 
-例えば ":)" は「ほほえんでいる顔文字」になります。また ":D" は「笑っている顔文字」になります。
+For example: the sequence ":)" will be spoken as "smiling smiley", or for
+example NVDA will recognize the meaning of each emoji.
 
 次のような機能があります:
 
-## 顔文字の挿入 ##
+## Insert Emoticon ##
 
-特定の顔文字のためにどの文字を使えばよいか分からない場合に、このアドオンを使うと、顔文字を選択してチャットなど編集中のテキスト領域に入力できます。
-NVDA+I を押すか、メニューから 設定 → エモーティコンの管理 → 顔文字の挿入 を選択してください。
-ダイアログが表示され、登録されている顔文字から選択できます。OK ボタンを押すと、選択された顔文字の文字列がクリップボードにコピーされます。テキストエディットに入力するには貼り付けの操作をしてください。
+When you are unsure of the characters for a particular smiley, this addon
+enables you to select and insert it into your text such as in a chat.
 
+Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
+
+This dialog allows you to choose an emoticon and to view the emoticons that
+interest you:
+
+*	An editable field allows you to filter the search for the desired emoticon
+  among the emoticons available.
+*	Through a set of radio buttons, you can choose to view    only emoji category (alt+E) or view only standard emoticon category (alt+s) or view all emoticons available (alt+A).
+*	In the list of emoticons (alt+L) are displayed  on three columns respectively: the name of emoticon, the type of emoticon (standard emoticon or emoji), the  corresponding character.
+
+When you press OK, the characters for the chosen emoticon will be copied to
+your clipboard, ready for pasting.
 
 ## エモーティコンの編集 ##
 
-NVDAメニューの 設定 → エモーティコンの管理 → エモーティコンの編集 から、設定のダイアログが表示されます。ここでエモーティコンの追加と、登録済みのエモーティコンの編集ができます。
-このダイアログから NVDA の読み上げ辞書の形式で、あなたが編集した内容を保存できます。
+From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can open a dialog setting to add or to edit available emoticons.
+
+This dialog allows you to save an emoticons speech dictionary with your
+customizations.
 
 「辞書を保存してエクスポート」ボタンを押すと、NVDAユーザー設定フォルダーの speechDicts サブフォルダーにファイル名
 emoticons.dic で保存されます。
 
-
 ## 設定の有効化 ##
 
-NVDA を起動したときにエモーティコンの読み上げを有効にするかどうかを選択できます。既定では無効になっています。この設定は保存することができます。
+From menu Preferences -> Manage Emoticons -> Activation settings, you can choose whether to Activate speaking of emoticons when starting NVDA. By default it is disabled.
+It is also possible to save your choice for this setting.
 
 ## キーコマンド: ##
 
-*	NVDA+E: テキストを書かれた文字のまま読み上げるか、エモーティコンを理解しやすい読み方に置き換えるかを切り替えます。
-*	NVDA+I: 貼り付けをしたい顔文字を選択するダイアログを表示します。
+These are the key command available by default, you can edit those or add
+new key to open Activation settings dialog or Emoticon Dictionary dialog:
 
+* NVDA+E: テキストを書かれた文字のまま読み上げるか、エモーティコンを理解しやすい読み方に置き換えるかを切り替えます。
+* NVDA+I: show a dialog to select an emoticon you want to copy.
+
+
+## Changes for 5.0 ##
+
+* Added support for emojis.
+* Improvements for Insert Emoticon dialog with a filter field and radio
+  buttons to choose displayed emoticons.
+* Using guiHelper for Activation settings dialog and Insert Emoticon dialog:
+  requires NVDA 2016.4 or higher versions
 
 ## 4.0 での変更点 ##
 

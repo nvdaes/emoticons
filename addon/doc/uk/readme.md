@@ -1,48 +1,69 @@
 # Emoticons #
 
-* Автори: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed
+* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+  Estrada Martínez
 * Завантажити [стабільну версію][1]
 * Завантажити [версію у розробці][2]
 
-Під час використання цього додатка, символи смайликів у тексті, що
-промовляється, будуть замінені на їх більш зрозумілі описи. В додатку
-визначено 86 смайликів.
+Using this add-on, spoken text containing emoticon characters will be
+replaced by its more human friendly description.
 
-Наприклад: ":)" буде промовлятися як "усміхнений смайлик", а ":D" -
-"смайлик, що сміється"
+For example: the sequence ":)" will be spoken as "smiling smiley", or for
+example NVDA will recognize the meaning of each emoji.
 
 Ви можете скористатися такими можливостями:
 
-## Вставити смайлик ##
+## Insert Emoticon ##
 
-Якщо ви не впевнені у символах для конкретного смайлика, цей додаток дозволяє вам обрати і вставити його в текст, наприклад, в чаті.
-Натисніть NVDA+I, або увійдіть в меню Параметри -> Керування смайликами -> Вставити смайлик, щоб відкрити діалог 
-з запропонованими смайликами.
-Після натиснення ОК, символи для обраного смайлика, готові для вставки, буде скопійовано в буфер обміну.
+When you are unsure of the characters for a particular smiley, this addon
+enables you to select and insert it into your text such as in a chat.
 
+Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
+
+This dialog allows you to choose an emoticon and to view the emoticons that
+interest you:
+
+*	An editable field allows you to filter the search for the desired emoticon
+  among the emoticons available.
+*	Through a set of radio buttons, you can choose to view    only emoji category (alt+E) or view only standard emoticon category (alt+s) or view all emoticons available (alt+A).
+*	In the list of emoticons (alt+L) are displayed  on three columns respectively: the name of emoticon, the type of emoticon (standard emoticon or emoji), the  corresponding character.
+
+When you press OK, the characters for the chosen emoticon will be copied to
+your clipboard, ready for pasting.
 
 ## Налаштувати смайлики ##
 
-В меню NVDA, Параметри -> Керування смайликами -> Налаштування смайликів, можна відкрити діалог налаштувань, щоб додати або редагувати вже наявні смайлики.
-Цей діалог дозволяє зберігати мовленнєвий словник смайликів з вашими налаштуваннями.
+From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can open a dialog setting to add or to edit available emoticons.
+
+This dialog allows you to save an emoticons speech dictionary with your
+customizations.
 
 Натиснення кнопки "Зберегти і експортувати словник" збереже файл словника з
 іменем emoticons.dic у вашу папку користувацької конфігурації, у вкладену
 папку speechDicts.
 
-
 ## Налаштування активації ##
 
-Ви можете вибрати, чи потрібно вмикати промовляння смайликів при запуску
-NVDA. Типово, ця функція вимкнена. Також можливо зберегти зміни для цього
-параметра.
+From menu Preferences -> Manage Emoticons -> Activation settings, you can choose whether to Activate speaking of emoticons when starting NVDA. By default it is disabled.
+It is also possible to save your choice for this setting.
 
 ## Клавіатурні команди ##
 
-*	NVDA+E: перемкнути між промовлянням тексту як написано, або з заміненими
-  зрозумілими описами.
-*	NVDA+I: викликає діалог для вибору смайлика, який ви хочете вставити.
+These are the key command available by default, you can edit those or add
+new key to open Activation settings dialog or Emoticon Dictionary dialog:
 
+* NVDA+E: перемкнути між промовлянням тексту як написано, або з заміненими
+  зрозумілими описами.
+* NVDA+I: show a dialog to select an emoticon you want to copy.
+
+
+## Changes for 5.0 ##
+
+* Added support for emojis.
+* Improvements for Insert Emoticon dialog with a filter field and radio
+  buttons to choose displayed emoticons.
+* Using guiHelper for Activation settings dialog and Insert Emoticon dialog:
+  requires NVDA 2016.4 or higher versions
 
 ## Changes for 4.0 ##
 

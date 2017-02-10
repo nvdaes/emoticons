@@ -1,46 +1,68 @@
 # Emoticons #
 
-* مطورو الإضافة: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed
+* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+  Estrada Martínez
 * تحميل [الإصدار النهائي][1]
 * تحميل [الإصدار التجريبي][2]
 
-تعمل هذه الإضافة على نطق الحروف التي تتشكل منها رموز المشاعر واستبدالها بوصف
-ذو معنى يستطيع فهمه المستخدم. وقد تم تعريف 86 رمز مشاعر.
+Using this add-on, spoken text containing emoticon characters will be
+replaced by its more human friendly description.
 
-على سبيل المثال: سيتم نطق ":)" بالقول "ابتسامة", أو ":D" سيتم نطقها بالقول
-"ابتسامة عريضة"
+For example: the sequence ":)" will be spoken as "smiling smiley", or for
+example NVDA will recognize the meaning of each emoji.
 
 يمكنك الاستفادة من هذه الميزات:
 
-## إضافة رمز مشاعر ##
+## Insert Emoticon ##
 
-في حالة عدم التأكد من الحرف الخاص برمز مشاعر معين تساعدك هذه الإضافة على اختيار الرمز ثم إدراجه كما هو في رسائل الدردشة.
-اضغط مفتاح NVDA + I أو من قائمة NVDA ثم التفضيلات قم باختيار إدارة رموز المشاعر -> ثم اختر إدراج رمز لفتح المحاورة.
-المشتملة على هذه الرموز.
-عند الضغط على زر الموافقة سيتم نسخ الحروف الخاصة بالرمز المختار إلى الحافظة استعدادا للصقه.
+When you are unsure of the characters for a particular smiley, this addon
+enables you to select and insert it into your text such as in a chat.
 
+Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
+
+This dialog allows you to choose an emoticon and to view the emoticons that
+interest you:
+
+*	An editable field allows you to filter the search for the desired emoticon
+  among the emoticons available.
+*	Through a set of radio buttons, you can choose to view    only emoji category (alt+E) or view only standard emoticon category (alt+s) or view all emoticons available (alt+A).
+*	In the list of emoticons (alt+L) are displayed  on three columns respectively: the name of emoticon, the type of emoticon (standard emoticon or emoji), the  corresponding character.
+
+When you press OK, the characters for the chosen emoticon will be copied to
+your clipboard, ready for pasting.
 
 ## تخصيص رموز المشاعر ##
 
-من قائمة NVDA ثم التفضيلات ثم إدارة الرموزتخصيص رمز مشاعر، يمكنك فتح محاورة الإعدادات لإضافة رمز أو تعديل رمز موجود.
-تسمح لك هذه المحاورة بحفظ معجم لنطق رموز المشاعر بما قمت به من تخصيص.
+From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can open a dialog setting to add or to edit available emoticons.
+
+This dialog allows you to save an emoticons speech dictionary with your
+customizations.
 
 بالضغط على زر "حفظ وتصدير المعجم" سيتم حفظ ملف باسم emoticons.dic داخل مجلد
 إعدادات المستخدم ثم مجلد معاجم النطق المتفرع عنه.
 
-
 ## إعدادات التفعيل ##
 
-يمكنك اختيار تفعيل نطق رموز المشاعر عند بدء NVDA. ويكون هذا الخيار معطل
-افتراضيا. كما يمكن حفظ اختيارك لهذا الإعداد 
+From menu Preferences -> Manage Emoticons -> Activation settings, you can choose whether to Activate speaking of emoticons when starting NVDA. By default it is disabled.
+It is also possible to save your choice for this setting.
 
 ## مفاتيح الاختصار: ##
 
-*	NVDA+E: ينتقل بين نطق الرمز كما هو مكتوب بالأحرف وبين نطقه بالوصف الآدمي
-  له.
-*	الضغط على مفتاح NVDA+I لإظهار قائمة برموز المشاعر لاختيار رمز معين
-  لإلصاقه. 
+These are the key command available by default, you can edit those or add
+new key to open Activation settings dialog or Emoticon Dictionary dialog:
 
+* NVDA+E: ينتقل بين نطق الرمز كما هو مكتوب بالأحرف وبين نطقه بالوصف الآدمي
+  له.
+* NVDA+I: show a dialog to select an emoticon you want to copy.
+
+
+## Changes for 5.0 ##
+
+* Added support for emojis.
+* Improvements for Insert Emoticon dialog with a filter field and radio
+  buttons to choose displayed emoticons.
+* Using guiHelper for Activation settings dialog and Insert Emoticon dialog:
+  requires NVDA 2016.4 or higher versions
 
 ## مستجدات الإصدار 4.0 ##
 

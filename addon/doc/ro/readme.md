@@ -1,47 +1,71 @@
 # Emoticoane #
 
-* Autori: Chris Leo, Noelia Ruiz Martinez, Mesar Hameed.
+* Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+  Estrada Martínez
 * Descarcă [versiunea stabilă][1]
 * Descarcă [versiunea în dezvoltare][2]
 
-Folosind acest add-on, textul care conține emoticoane va fi înlocuit cu
-descriile lor prietenoase. 86 emoticoane sunt definite.
+Folosind acest add-on, textul care conține emoticoane va fi înlocuit cu o
+descriere mult mai prietenoasă.
 
-De exemplu: ":)" va fi înlocuit cu "zâmbăreț", sau ":D" va fi înlocuit cu
-"râde".
+De exemplu: secvența ":)" va fi pronunțată ca „zâmbet” sau, de exemplu, NVDA
+va recunoaște semnificația fiecărui moji.
 
 Există următoarele caracteristici:
 
-## Înserează Emoticon ##
+## Inserează Emoticon ##
 
-Când nu ești sigur care sunt caracterele pentru un emoticon particular, acest add-on te lasă să selectezi și înserezi emoticonul în textul tău, cum ar fi un chat.
-Apasă NVDA+I, sau din meniul Preferințe, Administrare emoticonuri, Înserează emoticon, pentru a deschide un dialog
-cu emoticoanele disponibile.
-Când apeși OK, caracterele pentru emoticonul selectat va fi copiat pe planșetă, gata pentru a fi lipit.
+Când sunteți nesigur de caracterele pentru un zâmbet particular, add-on-ul
+vă permite să-l selectați și inserați în textul dumneavoastră.
 
+Apăsați NVDA+I, sau din meniul preferințe -> Administrare emoticonuri -> Inserare emoticon, pentru a deschide un dialog cu emoticoanele oferite sau mojiuri.
+
+Acest dialog vă permite să alegeți un emoticon și să vizualizați
+emoticoanele care vă interesează:
+
+*	Un câmp editabil vă permite să filtrați căutarea pentru emoticonul dorit
+  dintre emoticoanele disponibile.
+*	printr-o setare a butoanelor rotative, puteți să alegeți să vizualizați doar categoria mojiuri (alt+E) sau să vizualizați doar categoria emoticoanelor standard (alt+s) sau să vizualizați toate emoticoanele disponibile (alt+A).
+*	În lista emoticoanelor (alt+L) sunt afișate pe trei coloane: numele emoticonului, tipul acestuia (emoticon standard sau moji), caracterul corespunzător.
+
+Când apăsați OK, caracterele pentru emoticoanele alese vor fi copiate pe
+planșetă, pregătite pentru lipire.
 
 ## Personalizează emoticoanele ##
 
 Din meniul NVDA, Preferințe, Administrare emoticoane, Personalizează emoticoanele, poți să deschizi un dialog cu setările unde poți adăuga sau edita emoticoanle disponibile.
-Acest diaog îți permite să salvezi un emoticon cu dicționar de vorbire cu persoanlizarea ta.
+
+Acest dialog vă permite să salvați un dicționar de vorbire al emoticoanelor
+cu personalizările dumneavoastră.
 
 Apăsând butonul "Salvare și exportare dicționar", un fișier numit
 emoticons.dic va fi salvat în folderul de configurare al utilizatorului, în
 sub-folderul speechDicts.
 
-
 ## Setări de activare ##
 
-Poți să selectezi dacă vorbirea emoticoanelor la pornirea NVDA va fi
-activată.
+Din meniul Preferințe -> Gestionare Emoticoane ->, puteți alege dacă să activați rostirea emoticonurilor la pornirea NVDA. În mod implicit este dezactivată.
+De asemenea, puteți să salvați alegerea pentru această setare.
 
 ## Comenzi de tastatură ##
 
-*	NVDA+E: Comută între vorbirea textului așa cum este scris, sau cu
-  descrierea emoticoanelor.
-*	NVDA+I: Arată un dialog pentru a selecta emoticonul pe care vrei să îl
-  lipești.
+Acestea sunt scurtăturile disponibile în mod implicit, puteți să le editați
+sau puteți adăuga o nouă tastă pentru a deschide dialogul cu activarea
+setărilor sau dialogul cu dicționarul emoticoanelor:
 
+* NVDA+E: Comută între vorbirea textului așa cum este scris, sau cu
+  descrierea emoticoanelor.
+* NVDA+I: Arată un dialog pentru a selecta emoticonul pe care vrei să îl
+  copiezi.
+
+
+## Modificări aduse în 5.0 ##
+
+* A fost adăugat suportul pentru mojiuri.
+* Îmbunătățiri pentru dialogul de inserare al emoticoanelor cu un câmp de
+  filtrare și butoane rotative pentru a alege emoticoanele afișate.
+* Utilizând ghidul de ajutor pentru dialogul de activare al setărilor și
+  dialogul de inserare a emoticoanelor: Necesită NVDA 2016.4 sau mai vechi
 
 ## Modificări aduse în 4.0 ##
 
