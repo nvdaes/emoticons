@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-19 18:53+0100\n"
-"PO-Revision-Date: 2017-02-06 20:16+0100\n"
+"PO-Revision-Date: 2017-02-09 22:26+0100\n"
 "Last-Translator: Bue Vester-Andersen <bue@vester-andersen.dk>\n"
 "Language-Team: Bue Vester-Andersen <bue@vester-andersen.dk>\n"
 "Language: da\n"
@@ -498,9 +498,8 @@ msgid "smiling smiley"
 msgstr "Smilende smiley"
 
 #. Translators: :( Sad face.
-#, fuzzy
 msgid "Sad face"
-msgstr "Misfornøjet ansigt"
+msgstr "Bedrøvet ansigt"
 
 #. Translators: :D Laugh
 msgid "Laughing smiley"

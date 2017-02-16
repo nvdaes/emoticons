@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 4.2\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2015-10-23 05:00+1000\n"
-"PO-Revision-Date: 2017-02-05 01:03+0200\n"
+"PO-Revision-Date: 2017-02-09 21:36+0200\n"
 "Last-Translator:  <shmuel_naaman@yahoo.com>\n"
 "Language-Team: naaman.shmuel@gmail.com\n"
 "Language: he_IL\n"
@@ -496,9 +496,8 @@ msgid "smiling smiley"
 msgstr "רגשון שמח"
 
 #. Translators: :( Sad face.
-#, fuzzy
 msgid "Sad face"
-msgstr "רגשון משועשע"
+msgstr "רגשון עצוב"
 
 #. Translators: :D Laugh
 msgid "Laughing smiley"
