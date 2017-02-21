@@ -15,11 +15,11 @@ emoticons = [
 	Smiley(u'😄', _("Happy face with open mouth and squinting eyes"), '😄', True),
 	# Translators: (emoji) happy face with open mouth.
 	Smiley(u'😃', _("Happy face with open mouth"), '😃', True),
-	# Translators: (emoji) happy face with wide mouth and squinting eyes.
-	Smiley(u'😊', _("Happy face with wide mouth and squinting eyes"), '😊', True),
+	# Translators: (emoji) A smiling face with smiling eyes and rosy cheeks.
+	Smiley(u'😊', _("Smiling Face With Smiling Eyes"), '😊', True),
 	# Translators: (emoji) smirking face.
 	Smiley(u'😏', _("Smirking face"), '😏', True),
-	# Translators: (emoji) Slightly Smiling Face: a face that is a little bit happy, with a slight smile and neutral eyes.
+	# Translators: (emoji) Slightly Smiling Face: a face that is a little bit happy, with a slight smile and neutral eyes.
 	Smiley(u'🙂', _("Slightly smiling face"), '🙂', True),
 	# Translators: (emoji) white smiling face.
 	Smiley(u'☺', _("white smiling face"), '☺', True),
@@ -43,24 +43,24 @@ emoticons = [
 	Smiley(u'😘', _("Face throwing a kiss"), '😘', True),
 	# Translators: (emoji) kissing face with closed eyes.
 	Smiley(u'😚', _("Kissing face with closed eyes"), '😚', True),
-	# Translators: (emoji) kissing face with open eyes.
-	Smiley(u'😗', _("Kissing face with open eyes"), '😗', True),
+	# Translators: (emoji) Kissing face.
+	Smiley(u'😗', _("Kissing face"), '😗', True),
 	# Translators: (emoji) kissing face with arched eyes.
 	Smiley(u'😙', _("Kissing face with arched eyes"), '😙', True),
 	# Translators: (emoji) winking face with stuck out tongue.
 	Smiley(u'😜', _("Winking face with stuck out tongue"), '😜', True),
 	# Translators: (emoji) face with stuck out tongue and eyes tightly closed.
 	Smiley(u'😝', _("Face with stuck out tongue and eyes tightly closed"), '😝', True),
-	# Translators: (emoji) face with stuck out tongue and eyes open.
-	Smiley(u'😛', _("Face with stuck out tongue and eyes open"), '😛', True),
+	# Translators: (emoji) A cheeky face with stuck out tongue.
+	Smiley(u'😛', _("Face with stuck out tongue"), '😛', True),
 	# Translators: (emoji) Hugging Face: a face displayed with an open hands gesture, offering a hug.
 	Smiley(u'🤗', _("Hugging face"), '🤗', True),
 	# Translators: (emoji) flushed face.
 	Smiley(u'😳', _("Flushed face"), '😳', True),
-	# Translators: (emoji) face with clenched teeth.
-	Smiley(u'😁', _("Face with clenched teeth"), '😁', True),
-	# Translators: (emoji) person frowning.
-	Smiley(u'😔', _("Person frowning"), '😔', True),
+	# Translators: (emoji) Grinning face showing smiling eyes.
+	Smiley(u'😁', _("Grinning Face With Smiling Eyes"), '😁', True),
+	# Translators: (emoji) A pensive, remorseful and saddened face. Quietly considering where things all went wrong.
+	Smiley(u'😔', _("Pensive Face"), '😔', True),
 	# Translators: (emoji) devil with evil smile.
 	Smiley(u'😈', _("Devil with evil smile"), '😈', True),
 	# Translators: (emoji) devil.
@@ -69,8 +69,8 @@ emoticons = [
 	Smiley(u'😌', _("Relieved face"), '😌', True),
 	# Translators: (emoji) unamused face.
 	Smiley(u'😒', _("Unamused face"), '😒', True),
-	# Translators: (emoji) tired face.
-	Smiley(u'😣', _("Tired face"), '😣', True),
+	# Translators: (emoji) A face with scrunched up and closed eyes, frowning. Used to show helplessness in a situation.
+	Smiley(u'😣', _("Persevering Face"), '😣', True),
 	# Translators: (emoji) crying face.
 	Smiley(u'😢', _("Crying face"), '😢', True),
 	# Translators: (emoji) face with tears of joy.
@@ -85,16 +85,16 @@ emoticons = [
 	Smiley(u'😞', _("Disappointed face"), '😞', True),
 	# Translators: (emoji) disappointed but relieved face.
 	Smiley(u'😥', _("Disappointed but relieved face"), '😥', True),
-	# Translators: (emoji) exasperated face.
-	Smiley(u'😰', _("Exasperated face"), '😰', True),
-	# Translators: (emoji) happy face with tear-drop.
-	Smiley(u'😅', _("Happy face with teardrop"), '😅', True),
+	# Translators: (emoji) Face with a look of concern, with a blue forehead and sweat dripping down the cheek.
+	Smiley(u'😰', _("Face With Open Mouth & Cold Sweat"), '😰', True),
+	# Translators: (emoji) Happy face with a single drop of sweat on one side of the face.
+	Smiley(u'😅', _("Smiling Face With Open Mouth & Cold Sweat"), '😅', True),
 	# Translators: (emoji) face with cold sweat.
 	Smiley(u'😓', _("Face with cold sweat"), '😓', True),
-	# Translators: (emoji) whaling face.
-	Smiley(u'😩', _("Whaling face"), '😩', True),
-	# Translators: (emoji) whaling face with squinting eyes.
-	Smiley(u'😫', _("Whaling face with squinting eyes"), '😫', True),
+	# Translators: (emoji) A distraught-looking face with  an open mouth and crescent shaped eyes.
+	Smiley(u'😩', _("Weary Face"), '😩', True),
+	# Translators: (emoji) An exhausted-looking face with an open mouth and tightly closed eyes.
+	Smiley(u'😫', _("Tired Face"), '😫', True),
 	# Translators: (emoji) fearful face.
 	Smiley(u'😨', _("Fearful face"), '😨', True),
 	# Translators: (emoji) face screaming in fear.
@@ -103,8 +103,8 @@ emoticons = [
 	Smiley(u'😠', _("Angry face"), '😠', True),
 	# Translators: (emoji) pouting face.
 	Smiley(u'😡', _("Pouting face"), '😡', True),
-	# Translators: (emoji) huffing with anger face.
-	Smiley(u'😤', _("Huffing with anger face"), '😤', True),
+	# Translators: (emoji) A face with air coming out of its nose, huffing with anger face.
+	Smiley(u'😤', _("Face With Steam From Nose"), '😤', True),
 	# Translators: (emoji) confounded face.
 	Smiley(u'😖', _("Confounded face"), '😖', True),
 	# Translators: (emoji) Smiling Face With Open Mouth and Tightly-Closed Eyes.
@@ -115,24 +115,24 @@ emoticons = [
 	Smiley(u'😎', _("Happy face with sunglasses"), '😎', True),
 	# Translators: (emoji) sleeping face.
 	Smiley(u'😴', _("Sleeping face"), '😴', True),
-	# Translators: (emoji) very astonished face.
-	Smiley(u'😵', _("Very astonished face"), '😵', True),
+	# Translators: (emoji) A dizzy face, looking sick or confused from being spun around in circles too many times.
+	Smiley(u'😵', _("Dizzy Face"), '😵', True),
 	# Translators: (emoji) astonished face.
 	Smiley(u'😲', _("Astonished face"), '😲', True),
 	# Translators: (emoji) worried face.
 	Smiley(u'😟', _("Worried face"), '😟', True),
-	# Translators: (emoji) surprised and dismayed face.
-	Smiley(u'😦', _("Surprised and dismayed face"), '😦', True),
+	# Translators: (emoji) Dismayed face with open eyes and open mouth, appear closer to  a frowning face.
+	Smiley(u'😦', _("Frowning Face With Open Mouth"), '😦', True),
 	# Translators: (emoji) anguished face.
 	Smiley(u'😧', _("Anguished face"), '😧', True),
-	# Translators: (emoji) open mouth and surprised face.
-	Smiley(u'😮', _("Open mouth and surprised face"), '😮', True),
+	# Translators: (emoji) A face with Open Mouth, generally used to represent an element of surprise.
+	Smiley(u'😮', _("Face with Open Mouth"), '😮', True),
 	# Translators: (emoji) grimacing face.
 	Smiley(u'😬', _("Grimacing face"), '😬', True),
 	# Translators: (emoji) confused face.
 	Smiley(u'😕', _("Confused face"), '😕', True),
-	# Translators: (emoji) surprised face.
-	Smiley(u'😯', _("Surprised face"), '😯', True),
+	# Translators: (emoji) A face with high eyebrows and an open mouth, it looks more surprised than hushed.
+	Smiley(u'😯', _("Hushed Face"), '😯', True),
 	# Translators: (emoji) broken heart.
 	Smiley(u'💔', _("Broken heart"), '💔', True),
 	# Translators: (emoji) pulsating heart.
@@ -153,6 +153,28 @@ emoticons = [
 	Smiley(u'💚', _("Green heart"), '💚', True),
 	# Translators: (emoji) blue heart.
 	Smiley(u'💙', _("Blue heart"), '💙', True),
+	# Translators: (emoji) This emoji is the version of the phrase ROFL. A person lying on the floor due to an extreme amount of laughter.
+	Smiley(u'🤣', _("Rolling on the Floor Laughing"), '🤣', True),
+	# Translators: (emoji) A face that is a little bit sad, with a slight frown and neutral eyes.
+	Smiley(u'🙁', _("Slightly Frowning Face"), '🙁', True),
+	# Translators: (emoji) A face that is upside-down.
+	Smiley(u'🙃', _("Upside-down Face"), '🙃', True),
+	# Translators: (emoji) A face displaying eyes glancing upward.
+	Smiley(u'🙄', _("Face With Rolling Eyes"), '🙄', True),
+	# Translators: (emoji) A person with arms forming an X to indicate no or no good.
+	Smiley(u'🙅', _("Person Gesturing No"), '🙅', True),
+	# Translators: (emoji) A person with arms above his head, making an OK sign with the whole body.
+	Smiley(u'🙆', _("Person Gesturing OK"), '🙆', True),
+	# Translators: (emoji) A person bowing deeply, express a sincere apology or to request a favour.
+	Smiley(u'🙇', _("Person bowing"), '🙇', True),
+	# Translators: (emoji) An upset person frowning with dismay.
+	Smiley(u'🙍', _("Person Frowning"), '🙍', True),
+	# Translators: (emoji) Two hands placed firmly together.
+	Smiley(u'🙏', _("Folded Hands"), '🙏', True),
+	# Translators: (emoji) A person with a surgical mask on their face.
+	Smiley(u'😷', _("Face with medical mask"), '😷', True),
+	# Translators: (emoji) A black version of white smiling face.
+	Smiley(u'☻', _("Black Smiling Face"), '☻', True),
 	# Translators: (emoji) happy cat face with heart shaped eyes.
 	Smiley(u'😻', _("Happy cat face with heart shaped eyes"), '😻', True),
 	# Translators: (emoji) ok hand sign.
@@ -161,7 +183,7 @@ emoticons = [
 	Smiley(u'👍', _("Thumbs up symbol"), '👍', True),
 	# Translators: (emoji) thumbs down symbol.
 	Smiley(u'👎', _("Thumbs down symbol"), '👎', True),
-	# Translators: (emoji) Victory Hand
+	# Translators: (emoji) Victory Hand.
 	Smiley(u'✌', _("Victory Hand"), '✌', True),
 	# Translators: :) Smile
 	Smiley(r'(\s|^)(:([\-]|)([)]{1})(\B|\s|$))', _("smiling smiley"), r':-)', False),
