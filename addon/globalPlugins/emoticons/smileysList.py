@@ -153,6 +153,28 @@ emoticons = [
 	Smiley(u'💚', _("Green heart"), '💚', True),
 	# Translators: (emoji) blue heart.
 	Smiley(u'💙', _("Blue heart"), '💙', True),
+	# Translators: (emoji) This emoji is the version of the phrase ROFL. A person lying on the floor due to an extreme amount of laughter.
+	Smiley(u'🤣', _("Rolling on the Floor Laughing"), '🤣', True),
+	# Translators: (emoji) A face that is a little bit sad, with a slight frown and neutral eyes.
+	Smiley(u'🙁', _("Slightly Frowning Face"), '🙁', True),
+	# Translators: (emoji) A face that is upside-down.
+	Smiley(u'🙃', _("Upside-down Face"), '🙃', True),
+	# Translators: (emoji) A face displaying eyes glancing upward.
+	Smiley(u'🙄', _("Face With Rolling Eyes"), '🙄', True),
+	# Translators: (emoji) A person with arms forming an X to indicate no or no good.
+	Smiley(u'🙅', _("Person Gesturing No"), '🙅', True),
+	# Translators: (emoji) A person with arms above his head, making an OK sign with the whole body.
+	Smiley(u'🙆', _("Person Gesturing OK"), '🙆', True),
+	# Translators: (emoji) A person bowing deeply, express a sincere apology or to request a favour.
+	Smiley(u'🙇', _("Person bowing"), '🙇', True),
+	# Translators: (emoji) An upset person frowning with dismay.
+	Smiley(u'🙍', _("Person Frowning"), '🙍', True),
+	# Translators: (emoji) Two hands placed firmly together.
+	Smiley(u'🙏', _("Folded Hands"), '🙏', True),
+	# Translators: (emoji) A person with a surgical mask on their face.
+	Smiley(u'😷', _("Face with medical mask"), '😷', True),
+	# Translators: (emoji) A black version of white smiling face.
+	Smiley(u'☻', _("Black Smiling Face"), '☻', True),
 	# Translators: (emoji) happy cat face with heart shaped eyes.
 	Smiley(u'😻', _("Happy cat face with heart shaped eyes"), '😻', True),
 	# Translators: (emoji) ok hand sign.
