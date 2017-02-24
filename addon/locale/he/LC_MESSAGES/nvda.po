@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: emoticons 4.2\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2015-10-23 05:00+1000\n"
-"PO-Revision-Date: 2017-01-22 10:40+0200\n"
-"Last-Translator: shmuel_naaman@yahoo.com\n"
+"PO-Revision-Date: 2017-02-09 21:36+0200\n"
+"Last-Translator:  <shmuel_naaman@yahoo.com>\n"
 "Language-Team: naaman.shmuel@gmail.com\n"
+"Language: he_IL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 1.6.10\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: he_IL\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -50,7 +50,6 @@ msgid "Emoticon"
 msgstr "רגשונים"
 
 #. Translators: the name of addon submenu.
-#, fuzzy
 msgid "Manag&e emoticons"
 msgstr "ניהול הרגשונים"
 
@@ -59,9 +58,8 @@ msgid "Emoticons menu"
 msgstr ";תפריט רגשונים: "
 
 #. Translators: the name for an item of addon submenu.
-#, fuzzy
 msgid "&Insert emoticon..."
-msgstr "הדבקת הרגשון"
+msgstr "&הדבקת הרגשון"
 
 #. Translators: the tooltip text for an item of addon submenu.
 msgid "Shows a dialog to insert a smiley"
@@ -103,12 +101,10 @@ msgid "Shows a dialog to select a smiley you want to paste."
 msgstr "פתיחת תיבת הדו-שיח המאפשר לבחור את הרגשון הרצוי"
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid "Shows the Emoticons dictionary dialog."
 msgstr "מילון הרגשונים"
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid "Shows the Emoticons Activation settings dialog."
 msgstr "יבוא הגדרות תוסף Emoticons"
 
@@ -135,9 +131,8 @@ msgstr "רגשונים בלבד"
 
 #. List of emoticons.
 #. Translators: Label for the smileys list.
-#, fuzzy
 msgid "&List of smilies"
-msgstr "רגשון מאוהב"
+msgstr "&רשימת סמיילים"
 
 #. Translators: Column which specifies the name  of emoticon.
 msgid "Name"
@@ -204,7 +199,6 @@ msgid "Happy face with wide mouth and squinting eyes"
 msgstr "רגשון השמח עם פה חיוך רחבו"
 
 #. Translators: (emoji) smirking face.
-#, fuzzy
 msgid "Smirking face"
 msgstr "רגשון נעלב"
 
@@ -213,7 +207,6 @@ msgid "Slightly smiling face"
 msgstr "רגשון המחייך מעט"
 
 #. Translators: (emoji) white smiling face.
-#, fuzzy
 msgid "white smiling face"
 msgstr "רגשון המתנה"
 
@@ -226,7 +219,6 @@ msgid "White frowning face"
 msgstr "רגשון הפנים חמורות ולבנות"
 
 #. Translators: (emoji) winking face.
-#, fuzzy
 msgid "Winking face"
 msgstr "רגשון קורץ"
 
@@ -295,16 +287,14 @@ msgid "Person frowning"
 msgstr "רגשון הזועף"
 
 #. Translators: (emoji) devil with evil smile.
-#, fuzzy
 msgid "Devil with evil smile"
-msgstr "רגשון התאוששות"
+msgstr "רגשון שטן עם חיוך"
 
 #. Translators: (emoji) devil.
 msgid "Devil"
 msgstr "רגשון שטן"
 
 #. Translators: (emoji) relieved face.
-#, fuzzy
 msgid "Relieved face"
 msgstr "רגשון התאוששות"
 
@@ -373,7 +363,7 @@ msgid "Face screaming in fear"
 msgstr "רגשון צורח בפחד"
 
 #. Translators: (emoji) angry face.
-#, fuzzy
+#. Translators: :@ angry face.
 msgid "Angry face"
 msgstr "רגשון ברוגז"
 
@@ -386,7 +376,6 @@ msgid "Huffing with anger face"
 msgstr "רגשון כועס  ומתנשף"
 
 #. Translators: (emoji) confounded face.
-#, fuzzy
 msgid "Confounded face"
 msgstr "רגשון מבולבל"
 
@@ -415,7 +404,6 @@ msgid "Astonished face"
 msgstr "רגשון תמיהה"
 
 #. Translators: (emoji) worried face.
-#, fuzzy
 msgid "Worried face"
 msgstr "רגשון מוטרד"
 
@@ -436,12 +424,10 @@ msgid "Grimacing face"
 msgstr "רגשון עיקום פנים"
 
 #. Translators: (emoji) confused face.
-#, fuzzy
 msgid "Confused face"
 msgstr "רגשון מבולבל"
 
 #. Translators: (emoji) surprised face.
-#, fuzzy
 msgid "Surprised face"
 msgstr "רגשון מופתע"
 
@@ -509,18 +495,13 @@ msgstr "סימן ניצחון"
 msgid "smiling smiley"
 msgstr "רגשון שמח"
 
-#. Translators: :( Sad
-msgid "sad smiley"
+#. Translators: :( Sad face.
+msgid "Sad face"
 msgstr "רגשון עצוב"
 
 #. Translators: :D Laugh
 msgid "Laughing smiley"
 msgstr "רגשון צוחק"
-
-#. Translators: :@ hangry face.
-#, fuzzy
-msgid "Hangry face"
-msgstr "רגשון ברוגז"
 
 #. Translators: :O Surprised
 msgid "surprised smiley"
@@ -535,7 +516,6 @@ msgid "crying smiley"
 msgstr "רגשון בוכה"
 
 #. Translators: :s :-S :-Q Confused face:
-#, fuzzy
 msgid "Confused Face"
 msgstr "רגשון מבולבל"
 
@@ -861,6 +841,12 @@ msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
 msgstr "מאפשר הקראה של תיאור הרגשונים במקום צורתם הגראפית"
+
+#~ msgid "sad smiley"
+#~ msgstr "רגשון עצוב"
+
+#~ msgid "Hangry face"
+#~ msgstr "רגשון ברוגז"
 
 #~ msgid "Emoticon: %s"
 #~ msgstr "Emoticon: %s"
