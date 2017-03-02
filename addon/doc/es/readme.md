@@ -15,6 +15,9 @@ Puedes aprovecharte de las siguientes características:
 
 ## Insertar Emoticono ##
 
+A veces una imagen vale más que 1000 palabras: utiliza el nuevo emoji para
+animar tu mensaje instantáneo y para que tus amigos sepan cómo te sientes.
+
 Cuando no estés seguro de los caracteres para un emoticono en particular,
 este complemento te capacita para seleccionarlos e insertarlos en tu texto
 tal como en un chat.
@@ -46,6 +49,7 @@ usuario, subcarpeta speechDicts.
 ## Opciones de activación ##
 
 Desde el menú Preferencias -> Gestionar Emoticonos -> Opciones de Activación, puedes elegir activar la verbalización de emoticonos cuando arranque NVDA. de manera predeterminada está desactivado.
+
 También es posible guardar la elección de esta opción.
 
 ## Órdenes de teclado: ##
@@ -54,8 +58,9 @@ Estas son las teclas de órdenes disponibles por omisión, puedes editarlas o
 añadir teclas nuevas para abrir el diálogo Opciones de Activación o el
 diálogo Diccionario de Emoticonos:
 
-* NVDA+E: conmuta entre verbalizar texto tal Como está escrito:, o con los
-  emoticonos reemplazados por la descripción humana.
+* NVDA+E: activando y desactivando la difusión de los emoticonos, conmuta
+  entre verbalizar texto tal Como está escrito, o con los emoticonos
+  reemplazados por la descripción humana.
 * NVDA+I: muestra un cuadro de diálogo para seleccionar un emoticono que
   quieras pegar.
 

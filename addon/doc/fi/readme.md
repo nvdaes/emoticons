@@ -14,6 +14,10 @@ Voit hyödyntää seuraavia ominaisuuksia:
 
 ## Lisää hymiö ##
 
+Joskus kuva kertoo enemmän kuin 1000 sanaa: käytä uusia emojeja
+pikaviestiesi elävöittämiseen ja ilmoittaaksesi ystävillesi, miltä sinusta
+tuntuu.
+
 Kun olet epävarma jonkin tietyn hymiön merkeistä, tämän lisäosan avulla voit
 valita ja lisätä ne tekstiisi, kuten esim. chattiin.
 
@@ -43,6 +47,7 @@ speechDicts-alikansioon luodaan emoticons.dic-niminen sanastotiedosto.
 ## Käyttöönoton asetukset ##
 
 Voit valita, otetaanko hymiöiden puhuminen käyttöön NVDA:ta käynnistettäessä valitsemalla NVDA-valikosta Asetukset -> Hymiöiden hallinta -> Käyttöönoton asetukset. Tämä ei ole oletusarvoisesti käytössä.
+
 Valitsemasi asetus on myös mahdollista tallentaa.
 
 ## Näppäinkomennot: ##
@@ -50,8 +55,9 @@ Valitsemasi asetus on myös mahdollista tallentaa.
 Nämä ovat oletusnäppäinkomentoja. Voit muokata niitä tai lisätä uuden
 käyttöönottoasetusten valintaikkunan tai hymiösanaston avaamiseen:
 
-* NVDA+E: ottaa käyttöön tekstin lukemisen sellaisena kuin se on kirjoitettu
-  tai hymiöiden korvaamisen niiden kuvauksilla.
+* NVDA+E: hymiöiden puhuminen käyttöön/pois käytöstä - ottaa käyttöön
+  tekstin lukemisen sellaisena kuin se on kirjoitettu tai hymiöiden
+  korvaamisen niiden kuvauksilla.
 * NVDA+I: näyttää valintaikkunan, josta voit valita tekstiin lisättävän
   hymiön.
 

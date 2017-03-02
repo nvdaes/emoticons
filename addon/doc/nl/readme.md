@@ -15,6 +15,9 @@ U kunt gebruik maken van de volgende functies:
 
 ## Insert Emoticon ##
 
+Sometimes an image is worth a 1000 words: use the new emoji to liven up your
+instant message and to let your friends know how you’re feeling.
+
 When you are unsure of the characters for a particular smiley, this addon
 enables you to select and insert it into your text such as in a chat.
 
@@ -45,6 +48,7 @@ subfolder van uw gebruikersconfiguratiemap.
 ## Actievatie-instellingen ##
 
 From menu Preferences -> Manage Emoticons -> Activation settings, you can choose whether to Activate speaking of emoticons when starting NVDA. By default it is disabled.
+
 It is also possible to save your choice for this setting.
 
 ## Toetscommando's: ##
@@ -52,8 +56,8 @@ It is also possible to save your choice for this setting.
 These are the key command available by default, you can edit those or add
 new key to open Activation settings dialog or Emoticon Dictionary dialog:
 
-* NVDA+E: Schakelt tussen het uitspreken van tekst zoals deze geschreven is
-  en het vervangen van emoticonkarakters door omschrijvingen.
+* NVDA+E: speaching emoticons on/off, toggles between speaking text as it is
+  written, or with the emoticons replaced by the human description.
 * NVDA+I: show a dialog to select an emoticon you want to copy.
 
 
