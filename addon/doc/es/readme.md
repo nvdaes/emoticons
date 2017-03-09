@@ -15,8 +15,8 @@ Puedes aprovecharte de las siguientes características:
 
 ## Insertar Emoticono ##
 
-A veces una imagen vale más que 1000 palabras: utiliza el nuevo emoji para
-animar tu mensaje instantáneo y para que tus amigos sepan cómo te sientes.
+A veces una imagen vale más que 1000 palabras: usa el nuevo emoji para
+animar tus mensajes instantáneos para que tus amigos sepan cómo te sientes.
 
 Cuando no estés seguro de los caracteres para un emoticono en particular,
 este complemento te capacita para seleccionarlos e insertarlos en tu texto
@@ -43,7 +43,7 @@ Este diálogo te permite guardar un diccionario de habla de emoticonos con
 tus personalizaciones.
 
 Pulsando el botón "Guardar y exportar diccionario", se guardará un fichero
-de diccionario llamado emoticons.dic  en tu carpeta de configuración de
+de diccionario llamado emoticons.dic en tu carpeta de configuración de
 usuario, subcarpeta speechDicts.
 
 ## Opciones de activación ##
@@ -58,8 +58,8 @@ Estas son las teclas de órdenes disponibles por omisión, puedes editarlas o
 añadir teclas nuevas para abrir el diálogo Opciones de Activación o el
 diálogo Diccionario de Emoticonos:
 
-* NVDA+E: activando y desactivando la difusión de los emoticonos, conmuta
-  entre verbalizar texto tal Como está escrito, o con los emoticonos
+* NVDA+E: activando/desactivando la difusión de los emoticonos, conmuta
+  entre verbalizar texto tal Como está escrito:, o con los emoticonos
   reemplazados por la descripción humana.
 * NVDA+I: muestra un cuadro de diálogo para seleccionar un emoticono que
   quieras pegar.

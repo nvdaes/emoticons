@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 4.4\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2016-02-12 05:00+1000\n"
-"PO-Revision-Date: 2017-01-18 19:56+0200\n"
+"PO-Revision-Date: 2017-03-05 17:42+0200\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
 "Language: ro\n"
@@ -22,20 +22,20 @@ msgid ""
 "You have installed the Emoticons add-on, probably an old and incompatible "
 "version with this one. Do you want to uninstall the old version?"
 msgstr ""
-"Aveți instalată Extensia add-on Emoticons, probabil o versiune veche și "
+"Aveți instalat suplimentul Emoticons, probabil o versiune veche și "
 "incompatibilă cu acesta. Vreți să dezinstalați versiunea veche?"
 
 #. Translators: the title of a message box dialog.
 msgid "Uninstall incompatible add-on"
-msgstr "Dezinstalare extensie add-on incompatibilă"
+msgstr "Dezinstalare supliment incompatibil"
 
 #. Translators: the label of a message box dialog.
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them?"
 msgstr ""
-"Se pare că aveți setările anterioare salvate pentru această extensie add-on. "
-"Doriți să le importați?"
+"Se pare că aveți setările anterioare salvate pentru acest supliment. Doriți "
+"să le importați?"
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
