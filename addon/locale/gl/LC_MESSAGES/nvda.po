@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: emoticons 1.0-dev\n"
+"Project-Id-Version: emoticons 1.1\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 20:13+0100\n"
-"PO-Revision-Date: 2017-01-17 23:01+0100\n"
+"PO-Revision-Date: 2017-02-28 12:37+0100\n"
 "Last-Translator: Juan C. Buño <quetzatl@eresmas.net>\n"
 "Language-Team: NVDA add-ons translation team <LL@li.org>\n"
 "Language: gl\n"
@@ -351,11 +351,11 @@ msgstr "Cara con suor fría"
 
 #. Translators: (emoji) whaling face.
 msgid "Whaling face"
-msgstr "Cara de balea"
+msgstr "Cara cansa"
 
 #. Translators: (emoji) whaling face with squinting eyes.
 msgid "Whaling face with squinting eyes"
-msgstr "Cara de balea cos ollos vesgos"
+msgstr "Cara cansa cos ollos vesgos"
 
 #. Translators: (emoji) fearful face.
 msgid "Fearful face"
@@ -499,9 +499,8 @@ msgid "smiling smiley"
 msgstr "cara sorrindo"
 
 #. Translators: :( Sad face.
-#, fuzzy
 msgid "Sad face"
-msgstr "Cara sen cara"
+msgstr "Cara triste"
 
 #. Translators: :D Laugh
 msgid "Laughing smiley"
