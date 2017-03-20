@@ -16,9 +16,8 @@ Vous pouvez profiter des fonctionnalités suivantes :
 
 ## Insérer une frimousse ##
 
-Parfois, une image vaut 1000 mots: utilisez le nouvel emoji pour animer
-votre message instantané et faire savoir à vos amis comment vous vous
-sentez.
+Parfois, une image vaut 1000 mots : utilisez le nouvel emoji pour animer vos
+messages instantanés pour indiquer à vos contacts ce que vous ressentez.
 
 Lorsque vous n'êtes pas sûr des caractères pour une frimousse particulière,
 ce module complémentaire vous permet de sélectionner et insérer dans votre
@@ -60,10 +59,10 @@ Voici les raccourcis clavier par défaut, vous pouvez les modifier ou ajouter
 un nouveau raccourci pour ouvrir le dialogue Paramètres d'activation ou le
 dialogue Dictionnaire des frimousses :
 
-* NVDA+E: en activant/désactivant la diffusion des frimousses, permet de
+* NVDA+E : en activant/désactivant la diffusion des frimousses, permet de
   basculer entre la lecture du texte comme il est écrit, ou avec les
   frimousses remplacées par leur description humaine.
-* NVDA+I: affiche un dialogue pour choisir la frimousse que vous souhaitez
+* NVDA+I : affiche un dialogue pour choisir la frimousse que vous souhaitez
   copier.
 
 

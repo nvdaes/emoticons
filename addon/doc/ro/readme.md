@@ -5,7 +5,7 @@
 * Descarcă [versiunea stabilă][1]
 * Descarcă [versiunea în dezvoltare][2]
 
-Folosind acest add-on, textul care conține emoticoane va fi înlocuit cu o
+Folosind acest supliment, textul care conține emoticoane va fi înlocuit cu o
 descriere mult mai prietenoasă.
 
 De exemplu: secvența ":)" va fi pronunțată ca „zâmbet” sau, de exemplu, NVDA

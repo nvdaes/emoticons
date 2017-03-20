@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons'5.3'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: 2017-02-21 15:25+0100\n"
-"PO-Revision-Date: 2017-02-25 15:27+0100\n"
-"Last-Translator: Chris Leo Mameli <llajta2012@gmail.com>\n"
+"PO-Revision-Date: 2017-03-03 10:14+0100\n"
+"Last-Translator: Simone Dal Maso <simone.dalmaso@gmail.com>\n"
 "Language-Team: Translators <LL@li.org>\n"
 "Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.3\n"
+"X-Generator: Poedit 1.8.7\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -285,9 +285,8 @@ msgid "Face with clenched teeth"
 msgstr " Faccina a denti stretti"
 
 #. Translators: (emoji) person frowning.
-#, fuzzy
 msgid "Person frowning"
-msgstr " Persona sconvolta e accigliata"
+msgstr "Persona sconvolta e accigliata"
 
 #. Translators: (emoji) devil with evil smile.
 msgid "Devil with evil smile"
@@ -306,9 +305,8 @@ msgid "Unamused face"
 msgstr " Faccina annoiata"
 
 #. Translators: (emoji) tired face.
-#, fuzzy
 msgid "Tired face"
-msgstr " Faccina stanca"
+msgstr "Faccina stanca"
 
 #. Translators: (emoji) crying face.
 msgid "Crying face"
@@ -355,9 +353,8 @@ msgid "Whaling face"
 msgstr " Faccina affaticata"
 
 #. Translators: (emoji) whaling face with squinting eyes.
-#, fuzzy
 msgid "Whaling face with squinting eyes"
-msgstr " Bacio con occhi aperti"
+msgstr "Bacio con occhi aperti"
 
 #. Translators: (emoji) fearful face.
 msgid "Fearful face"
