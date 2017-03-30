@@ -9,12 +9,12 @@ msgstr ""
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2017-02-03 05:00+1000\n"
 "PO-Revision-Date: 2017-03-14 11:18+0700\n"
+"Last-Translator: Dang Manh Cuong <cuong@trungtamsaomai.org>\n"
+"Language-Team: \n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: Dang Manh Cuong <cuong@trungtamsaomai.org>\n"
-"Language-Team: \n"
 "X-Generator: Poedit 1.8.12\n"
 
 #. Translators: the label of a message box dialog.
@@ -22,8 +22,8 @@ msgid ""
 "You have installed the Emoticons add-on, probably an old and incompatible "
 "version with this one. Do you want to uninstall the old version?"
 msgstr ""
-"Bạn có lẽ đã cài đặt add-on Emoticons, một bản cũ và không tương thích "
-"với phiên bản này. Bạn có muốn gỡ phiên bản đó không?"
+"Bạn có lẽ đã cài đặt add-on Emoticons, một bản cũ và không tương thích với "
+"phiên bản này. Bạn có muốn gỡ phiên bản đó không?"
 
 #. Translators: the title of a message box dialog.
 msgid "Uninstall incompatible add-on"
@@ -34,8 +34,8 @@ msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them?"
 msgstr ""
-"Có vẻ như bạn đã lưu các thiết lập trước đây của add-on này. Bạn có muốn "
-"nạp chúng vào không?"
+"Có vẻ như bạn đã lưu các thiết lập trước đây của add-on này. Bạn có muốn nạp "
+"chúng vào không?"
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
@@ -81,8 +81,8 @@ msgstr "&Các cài đặt kích hoạt..."
 #. Translators: the tooltip text for an item of addon submenu.
 msgid "Shows a dialog to choose when emoticons speaking should be activated"
 msgstr ""
-"Hiển thị một hộp thoại để lựa chọn khi nào thì chế độ nói các biểu tượng "
-"cảm xúc nên được kích hoạt"
+"Hiển thị một hộp thoại để lựa chọn khi nào thì chế độ nói các biểu tượng cảm "
+"xúc nên được kích hoạt"
 
 msgid "Emoticons dictionary"
 msgstr "Từ điển các biểu tượng cảm xúc"
@@ -197,15 +197,16 @@ msgstr "Mặt hạnh phúc mở miệng và nheo mắt"
 msgid "Happy face with open mouth"
 msgstr "Mặt hạnh phúc mở miệng"
 
-#. Translators: (emoji) happy face with wide mouth and squinting eyes.
-msgid "Happy face with wide mouth and squinting eyes"
-msgstr "Mặt hạnh phúc với miệng mở rộng và nheo mắt"
+#. Translators: (emoji) A smiling face with smiling eyes and rosy cheeks.
+#, fuzzy
+msgid "Smiling Face With Smiling Eyes"
+msgstr "Mặt cá voi nheo mắt"
 
 #. Translators: (emoji) smirking face.
 msgid "Smirking face"
 msgstr "Mặt mỉm cười"
 
-#. Translators: (emoji) Slightly Smiling Face: a face that is a little bit happy, with a slight smile and neutral eyes.
+#. Translators: (emoji) Slightly Smiling Face: a face that is a little bit happy, with a slight smile and neutral eyes.
 msgid "Slightly smiling face"
 msgstr "Mặt mỉm cười"
 
@@ -253,9 +254,10 @@ msgstr "Mặt ném một nụ hôn"
 msgid "Kissing face with closed eyes"
 msgstr "Hôn khuôn mặt với đôi mắt khép kín"
 
-#. Translators: (emoji) kissing face with open eyes.
-msgid "Kissing face with open eyes"
-msgstr "Hôn khuôn mặt với đôi mắt mở"
+#. Translators: (emoji) Kissing face.
+#, fuzzy
+msgid "Kissing face"
+msgstr "Mặt nháy mắt"
 
 #. Translators: (emoji) kissing face with arched eyes.
 msgid "Kissing face with arched eyes"
@@ -269,9 +271,10 @@ msgstr "Mặt nháy mắt lè lưỡi"
 msgid "Face with stuck out tongue and eyes tightly closed"
 msgstr "Mặt nhắm mắt lè lưỡi"
 
-#. Translators: (emoji) face with stuck out tongue and eyes open.
-msgid "Face with stuck out tongue and eyes open"
-msgstr "Mặt mở mắt lè lưỡi"
+#. Translators: (emoji) A cheeky face with stuck out tongue.
+#, fuzzy
+msgid "Face with stuck out tongue"
+msgstr "Mặt nháy mắt lè lưỡi"
 
 #. Translators: (emoji) Hugging Face: a face displayed with an open hands gesture, offering a hug.
 msgid "Hugging face"
@@ -281,13 +284,15 @@ msgstr "Ôm mặt"
 msgid "Flushed face"
 msgstr "Mặt đỏ ửng"
 
-#. Translators: (emoji) face with clenched teeth.
-msgid "Face with clenched teeth"
-msgstr "Mặt nghiến răng"
+#. Translators: (emoji) Grinning face showing smiling eyes.
+#, fuzzy
+msgid "Grinning Face With Smiling Eyes"
+msgstr "Mặt cá voi nheo mắt"
 
-#. Translators: (emoji) person frowning.
-msgid "Person frowning"
-msgstr "Người cau mày"
+#. Translators: (emoji) A pensive, remorseful and saddened face. Quietly considering where things all went wrong.
+#, fuzzy
+msgid "Pensive Face"
+msgstr "Mặt bối rối"
 
 #. Translators: (emoji) devil with evil smile.
 msgid "Devil with evil smile"
@@ -305,9 +310,10 @@ msgstr "Mặt an tâm"
 msgid "Unamused face"
 msgstr "Mặt vô dụng"
 
-#. Translators: (emoji) tired face.
-msgid "Tired face"
-msgstr "Mặt mệt mỏi"
+#. Translators: (emoji) A face with scrunched up and closed eyes, frowning. Used to show helplessness in a situation.
+#, fuzzy
+msgid "Persevering Face"
+msgstr "Mặt buồn ngủ"
 
 #. Translators: (emoji) crying face.
 msgid "Crying face"
@@ -337,25 +343,28 @@ msgstr "Mặt thất vọng"
 msgid "Disappointed but relieved face"
 msgstr "Mặt thất vọng nhưng an tâm"
 
-#. Translators: (emoji) exasperated face.
-msgid "Exasperated face"
-msgstr "Mặt mất tinh thần"
+#. Translators: (emoji) Face with a look of concern, with a blue forehead and sweat dripping down the cheek.
+#, fuzzy
+msgid "Face With Open Mouth & Cold Sweat"
+msgstr "Mặt toát mồ hôi lạnh"
 
-#. Translators: (emoji) happy face with tear-drop.
-msgid "Happy face with teardrop"
-msgstr "Mặt hạnh phúc rơi nước mắt"
+#. Translators: (emoji) Happy face with a single drop of sweat on one side of the face.
+#, fuzzy
+msgid "Smiling Face With Open Mouth & Cold Sweat"
+msgstr "Mặt cười nhắm mắt hả miệng"
 
 #. Translators: (emoji) face with cold sweat.
 msgid "Face with cold sweat"
 msgstr "Mặt toát mồ hôi lạnh"
 
-#. Translators: (emoji) whaling face.
-msgid "Whaling face"
-msgstr "Mặt cá voi"
+#. Translators: (emoji) A distraught-looking face with  an open mouth and crescent shaped eyes.
+msgid "Weary Face"
+msgstr ""
 
-#. Translators: (emoji) whaling face with squinting eyes.
-msgid "Whaling face with squinting eyes"
-msgstr "Mặt cá voi nheo mắt"
+#. Translators: (emoji) An exhausted-looking face with an open mouth and tightly closed eyes.
+#, fuzzy
+msgid "Tired Face"
+msgstr "Mặt mệt mỏi"
 
 #. Translators: (emoji) fearful face.
 msgid "Fearful face"
@@ -374,9 +383,10 @@ msgstr "Mặt giận"
 msgid "Pouting face"
 msgstr "Mặt hờn dỗi"
 
-#. Translators: (emoji) huffing with anger face.
-msgid "Huffing with anger face"
-msgstr "Huffing với mặt giận dữ"
+#. Translators: (emoji) A face with air coming out of its nose, huffing with anger face.
+#, fuzzy
+msgid "Face With Steam From Nose"
+msgstr "Mặt mừng rơi nước mắt"
 
 #. Translators: (emoji) confounded face.
 msgid "Confounded face"
@@ -398,9 +408,9 @@ msgstr "Mặt hạnh phúc với kính râm"
 msgid "Sleeping face"
 msgstr "Mặt buồn ngủ"
 
-#. Translators: (emoji) very astonished face.
-msgid "Very astonished face"
-msgstr "Mặt rất ngạc nhiên"
+#. Translators: (emoji) A dizzy face, looking sick or confused from being spun around in circles too many times.
+msgid "Dizzy Face"
+msgstr ""
 
 #. Translators: (emoji) astonished face.
 msgid "Astonished face"
@@ -410,17 +420,19 @@ msgstr "Mặt ngạc nhiên"
 msgid "Worried face"
 msgstr "Mặt lo lắng"
 
-#. Translators: (emoji) surprised and dismayed face.
-msgid "Surprised and dismayed face"
-msgstr "Mặt ngạc nhiên và xuống tinh thần"
+#. Translators: (emoji) Dismayed face with open eyes and open mouth, appear closer to  a frowning face.
+#, fuzzy
+msgid "Frowning Face With Open Mouth"
+msgstr "Mặt hạnh phúc mở miệng"
 
 #. Translators: (emoji) anguished face.
 msgid "Anguished face"
 msgstr "Mặt đau khổ"
 
-#. Translators: (emoji) open mouth and surprised face.
-msgid "Open mouth and surprised face"
-msgstr "Mặt mở miệng và ngạc nhiên"
+#. Translators: (emoji) A face with Open Mouth, generally used to represent an element of surprise.
+#, fuzzy
+msgid "Face with Open Mouth"
+msgstr "Mặt hạnh phúc mở miệng"
 
 #. Translators: (emoji) grimacing face.
 msgid "Grimacing face"
@@ -430,9 +442,10 @@ msgstr "Nhăn mặt"
 msgid "Confused face"
 msgstr "Mặt bối rối"
 
-#. Translators: (emoji) surprised face.
-msgid "Surprised face"
-msgstr "Mặt ngạc nhiên"
+#. Translators: (emoji) A face with high eyebrows and an open mouth, it looks more surprised than hushed.
+#, fuzzy
+msgid "Hushed Face"
+msgstr "Mặt đỏ ửng"
 
 #. Translators: (emoji) broken heart.
 msgid "Broken heart"
@@ -474,6 +487,59 @@ msgstr "Tim xanh lá"
 msgid "Blue heart"
 msgstr "Tim xanh dương"
 
+#. Translators: (emoji) This emoji is the version of the phrase ROFL. A person lying on the floor due to an extreme amount of laughter.
+#, fuzzy
+msgid "Rolling on the Floor Laughing"
+msgstr "cười bò ra sàn nhà"
+
+#. Translators: (emoji) A face that is a little bit sad, with a slight frown and neutral eyes.
+#, fuzzy
+msgid "Slightly Frowning Face"
+msgstr "Mặt mỉm cười"
+
+#. Translators: (emoji) A face that is upside-down.
+msgid "Upside-down Face"
+msgstr ""
+
+#. Translators: (emoji) A face displaying eyes glancing upward.
+#, fuzzy
+msgid "Face With Rolling Eyes"
+msgstr "Mặt ném một nụ hôn"
+
+#. Translators: (emoji) A person with arms forming an X to indicate no or no good.
+#, fuzzy
+msgid "Person Gesturing No"
+msgstr "Người cau mày"
+
+#. Translators: (emoji) A person with arms above his head, making an OK sign with the whole body.
+#, fuzzy
+msgid "Person Gesturing OK"
+msgstr "Người cau mày"
+
+#. Translators: (emoji) A person bowing deeply, express a sincere apology or to request a favour.
+#, fuzzy
+msgid "Person bowing"
+msgstr "Người cau mày"
+
+#. Translators: (emoji) An upset person frowning with dismay.
+#, fuzzy
+msgid "Person Frowning"
+msgstr "Người cau mày"
+
+#. Translators: (emoji) Two hands placed firmly together.
+msgid "Folded Hands"
+msgstr ""
+
+#. Translators: (emoji) A person with a surgical mask on their face.
+#, fuzzy
+msgid "Face with medical mask"
+msgstr "Mặt toát mồ hôi lạnh"
+
+#. Translators: (emoji) A black version of white smiling face.
+#, fuzzy
+msgid "Black Smiling Face"
+msgstr "Mặt mỉm cười"
+
 #. Translators: (emoji) happy cat face with heart shaped eyes.
 msgid "Happy cat face with heart shaped eyes"
 msgstr "Mặt mèo hạnh phúc với đôi mắt hình trái tim"
@@ -490,7 +556,7 @@ msgstr "Giơ ngón cái lên"
 msgid "Thumbs down symbol"
 msgstr "Bỏ ngon cái xuống"
 
-#. Translators: (emoji) Victory Hand
+#. Translators: (emoji) Victory Hand.
 msgid "Victory Hand"
 msgstr "Tay chiến thắng"
 
@@ -844,3 +910,39 @@ msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
 msgstr "Bật chế độ đọc tên biểu tượng cảm xúc thay cho kí tự của nó."
+
+#~ msgid "Happy face with wide mouth and squinting eyes"
+#~ msgstr "Mặt hạnh phúc với miệng mở rộng và nheo mắt"
+
+#~ msgid "Kissing face with open eyes"
+#~ msgstr "Hôn khuôn mặt với đôi mắt mở"
+
+#~ msgid "Face with stuck out tongue and eyes open"
+#~ msgstr "Mặt mở mắt lè lưỡi"
+
+#~ msgid "Face with clenched teeth"
+#~ msgstr "Mặt nghiến răng"
+
+#~ msgid "Exasperated face"
+#~ msgstr "Mặt mất tinh thần"
+
+#~ msgid "Happy face with teardrop"
+#~ msgstr "Mặt hạnh phúc rơi nước mắt"
+
+#~ msgid "Whaling face"
+#~ msgstr "Mặt cá voi"
+
+#~ msgid "Huffing with anger face"
+#~ msgstr "Huffing với mặt giận dữ"
+
+#~ msgid "Very astonished face"
+#~ msgstr "Mặt rất ngạc nhiên"
+
+#~ msgid "Surprised and dismayed face"
+#~ msgstr "Mặt ngạc nhiên và xuống tinh thần"
+
+#~ msgid "Open mouth and surprised face"
+#~ msgstr "Mặt mở miệng và ngạc nhiên"
+
+#~ msgid "Surprised face"
+#~ msgstr "Mặt ngạc nhiên"

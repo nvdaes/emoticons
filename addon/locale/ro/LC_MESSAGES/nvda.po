@@ -197,15 +197,16 @@ msgstr "Față fericită cu gura deschisă și ochii cruciși"
 msgid "Happy face with open mouth"
 msgstr "Față fericită cu gura deschisă"
 
-#. Translators: (emoji) happy face with wide mouth and squinting eyes.
-msgid "Happy face with wide mouth and squinting eyes"
-msgstr "Față fericită cu gura largă și ochii cruciși"
+#. Translators: (emoji) A smiling face with smiling eyes and rosy cheeks.
+#, fuzzy
+msgid "Smiling Face With Smiling Eyes"
+msgstr "Vânătoare de balene cu ochii cruciși"
 
 #. Translators: (emoji) smirking face.
 msgid "Smirking face"
 msgstr "Rânjește"
 
-#. Translators: (emoji) Slightly Smiling Face: a face that is a little bit happy, with a slight smile and neutral eyes.
+#. Translators: (emoji) Slightly Smiling Face: a face that is a little bit happy, with a slight smile and neutral eyes.
 msgid "Slightly smiling face"
 msgstr "Față puțin zâmbitoare"
 
@@ -253,9 +254,10 @@ msgstr "Aruncând un sărut"
 msgid "Kissing face with closed eyes"
 msgstr "Sărut cu ochii închiși"
 
-#. Translators: (emoji) kissing face with open eyes.
-msgid "Kissing face with open eyes"
-msgstr "Sărut cu ochii deschiși"
+#. Translators: (emoji) Kissing face.
+#, fuzzy
+msgid "Kissing face"
+msgstr "Face cu ochiul"
 
 #. Translators: (emoji) kissing face with arched eyes.
 msgid "Kissing face with arched eyes"
@@ -269,9 +271,10 @@ msgstr "Confruntare cu limba scoasă"
 msgid "Face with stuck out tongue and eyes tightly closed"
 msgstr "Față cu limba scoasă și ochii închiși ermetic"
 
-#. Translators: (emoji) face with stuck out tongue and eyes open.
-msgid "Face with stuck out tongue and eyes open"
-msgstr "Față cu limba și ochii deschiși"
+#. Translators: (emoji) A cheeky face with stuck out tongue.
+#, fuzzy
+msgid "Face with stuck out tongue"
+msgstr "Confruntare cu limba scoasă"
 
 #. Translators: (emoji) Hugging Face: a face displayed with an open hands gesture, offering a hug.
 msgid "Hugging face"
@@ -281,13 +284,15 @@ msgstr "îmbrățișare"
 msgid "Flushed face"
 msgstr "Față congestionată"
 
-#. Translators: (emoji) face with clenched teeth.
-msgid "Face with clenched teeth"
-msgstr "Față cu dinții încleștați"
+#. Translators: (emoji) Grinning face showing smiling eyes.
+#, fuzzy
+msgid "Grinning Face With Smiling Eyes"
+msgstr "Vânătoare de balene cu ochii cruciși"
 
-#. Translators: (emoji) person frowning.
-msgid "Person frowning"
-msgstr "Persoană încruntată"
+#. Translators: (emoji) A pensive, remorseful and saddened face. Quietly considering where things all went wrong.
+#, fuzzy
+msgid "Pensive Face"
+msgstr "Confuz"
 
 #. Translators: (emoji) devil with evil smile.
 msgid "Devil with evil smile"
@@ -305,9 +310,10 @@ msgstr "Ușurat"
 msgid "Unamused face"
 msgstr "Față nostimă"
 
-#. Translators: (emoji) tired face.
-msgid "Tired face"
-msgstr "Față obosită"
+#. Translators: (emoji) A face with scrunched up and closed eyes, frowning. Used to show helplessness in a situation.
+#, fuzzy
+msgid "Persevering Face"
+msgstr "Dormind"
 
 #. Translators: (emoji) crying face.
 msgid "Crying face"
@@ -337,25 +343,28 @@ msgstr "Față dezamăgită"
 msgid "Disappointed but relieved face"
 msgstr "Față dezamăgită, dar ușurată"
 
-#. Translators: (emoji) exasperated face.
-msgid "Exasperated face"
-msgstr "Față exasperată"
+#. Translators: (emoji) Face with a look of concern, with a blue forehead and sweat dripping down the cheek.
+#, fuzzy
+msgid "Face With Open Mouth & Cold Sweat"
+msgstr "Sudoare rece"
 
-#. Translators: (emoji) happy face with tear-drop.
-msgid "Happy face with teardrop"
-msgstr "Față fericită cu teardrop"
+#. Translators: (emoji) Happy face with a single drop of sweat on one side of the face.
+#, fuzzy
+msgid "Smiling Face With Open Mouth & Cold Sweat"
+msgstr "Față zâmbitoare cu gura deschisă și ochii închiși ermetic"
 
 #. Translators: (emoji) face with cold sweat.
 msgid "Face with cold sweat"
 msgstr "Sudoare rece"
 
-#. Translators: (emoji) whaling face.
-msgid "Whaling face"
-msgstr "Vânătoare de balene"
+#. Translators: (emoji) A distraught-looking face with  an open mouth and crescent shaped eyes.
+msgid "Weary Face"
+msgstr ""
 
-#. Translators: (emoji) whaling face with squinting eyes.
-msgid "Whaling face with squinting eyes"
-msgstr "Vânătoare de balene cu ochii cruciși"
+#. Translators: (emoji) An exhausted-looking face with an open mouth and tightly closed eyes.
+#, fuzzy
+msgid "Tired Face"
+msgstr "Față obosită"
 
 #. Translators: (emoji) fearful face.
 msgid "Fearful face"
@@ -374,9 +383,10 @@ msgstr "Nervos"
 msgid "Pouting face"
 msgstr "Față bosumflată"
 
-#. Translators: (emoji) huffing with anger face.
-msgid "Huffing with anger face"
-msgstr "Huffing cu fața furiei"
+#. Translators: (emoji) A face with air coming out of its nose, huffing with anger face.
+#, fuzzy
+msgid "Face With Steam From Nose"
+msgstr "Lacrimi de bucurie"
 
 #. Translators: (emoji) confounded face.
 msgid "Confounded face"
@@ -398,9 +408,9 @@ msgstr "Față fericită cu ochelari de soare"
 msgid "Sleeping face"
 msgstr "Dormind"
 
-#. Translators: (emoji) very astonished face.
-msgid "Very astonished face"
-msgstr "Față foarte uimită"
+#. Translators: (emoji) A dizzy face, looking sick or confused from being spun around in circles too many times.
+msgid "Dizzy Face"
+msgstr ""
 
 #. Translators: (emoji) astonished face.
 msgid "Astonished face"
@@ -410,17 +420,19 @@ msgstr "Față uimită"
 msgid "Worried face"
 msgstr "Îngrijorat"
 
-#. Translators: (emoji) surprised and dismayed face.
-msgid "Surprised and dismayed face"
-msgstr "Față surprinsă și consternată"
+#. Translators: (emoji) Dismayed face with open eyes and open mouth, appear closer to  a frowning face.
+#, fuzzy
+msgid "Frowning Face With Open Mouth"
+msgstr "Față fericită cu gura deschisă"
 
 #. Translators: (emoji) anguished face.
 msgid "Anguished face"
 msgstr "Față angoasă"
 
-#. Translators: (emoji) open mouth and surprised face.
-msgid "Open mouth and surprised face"
-msgstr "Gură deschisă și față surprinsă"
+#. Translators: (emoji) A face with Open Mouth, generally used to represent an element of surprise.
+#, fuzzy
+msgid "Face with Open Mouth"
+msgstr "Față fericită cu gura deschisă"
 
 #. Translators: (emoji) grimacing face.
 msgid "Grimacing face"
@@ -430,9 +442,10 @@ msgstr "Față grimasă"
 msgid "Confused face"
 msgstr "Confuz"
 
-#. Translators: (emoji) surprised face.
-msgid "Surprised face"
-msgstr "Surprins"
+#. Translators: (emoji) A face with high eyebrows and an open mouth, it looks more surprised than hushed.
+#, fuzzy
+msgid "Hushed Face"
+msgstr "Față congestionată"
 
 #. Translators: (emoji) broken heart.
 msgid "Broken heart"
@@ -474,6 +487,59 @@ msgstr "Inimă verde"
 msgid "Blue heart"
 msgstr "Inimă albastră"
 
+#. Translators: (emoji) This emoji is the version of the phrase ROFL. A person lying on the floor due to an extreme amount of laughter.
+#, fuzzy
+msgid "Rolling on the Floor Laughing"
+msgstr "Rostogolire pe podea de râs!"
+
+#. Translators: (emoji) A face that is a little bit sad, with a slight frown and neutral eyes.
+#, fuzzy
+msgid "Slightly Frowning Face"
+msgstr "Față puțin zâmbitoare"
+
+#. Translators: (emoji) A face that is upside-down.
+msgid "Upside-down Face"
+msgstr ""
+
+#. Translators: (emoji) A face displaying eyes glancing upward.
+#, fuzzy
+msgid "Face With Rolling Eyes"
+msgstr "Aruncând un sărut"
+
+#. Translators: (emoji) A person with arms forming an X to indicate no or no good.
+#, fuzzy
+msgid "Person Gesturing No"
+msgstr "Persoană încruntată"
+
+#. Translators: (emoji) A person with arms above his head, making an OK sign with the whole body.
+#, fuzzy
+msgid "Person Gesturing OK"
+msgstr "Persoană încruntată"
+
+#. Translators: (emoji) A person bowing deeply, express a sincere apology or to request a favour.
+#, fuzzy
+msgid "Person bowing"
+msgstr "Persoană încruntată"
+
+#. Translators: (emoji) An upset person frowning with dismay.
+#, fuzzy
+msgid "Person Frowning"
+msgstr "Persoană încruntată"
+
+#. Translators: (emoji) Two hands placed firmly together.
+msgid "Folded Hands"
+msgstr ""
+
+#. Translators: (emoji) A person with a surgical mask on their face.
+#, fuzzy
+msgid "Face with medical mask"
+msgstr "Sudoare rece"
+
+#. Translators: (emoji) A black version of white smiling face.
+#, fuzzy
+msgid "Black Smiling Face"
+msgstr "Rânjește"
+
 #. Translators: (emoji) happy cat face with heart shaped eyes.
 msgid "Happy cat face with heart shaped eyes"
 msgstr "Pisică fericită cu ochii în formă de inimă"
@@ -490,7 +556,7 @@ msgstr "Simbolul Thumbs up"
 msgid "Thumbs down symbol"
 msgstr "Simbolul Thumbs down"
 
-#. Translators: (emoji) Victory Hand
+#. Translators: (emoji) Victory Hand.
 msgid "Victory Hand"
 msgstr "Mână victorioasă"
 
@@ -846,6 +912,42 @@ msgid ""
 "Representation."
 msgstr ""
 "permite anunțarea numelor emoticoanelor în loc de caracterul de reprezentare."
+
+#~ msgid "Happy face with wide mouth and squinting eyes"
+#~ msgstr "Față fericită cu gura largă și ochii cruciși"
+
+#~ msgid "Kissing face with open eyes"
+#~ msgstr "Sărut cu ochii deschiși"
+
+#~ msgid "Face with stuck out tongue and eyes open"
+#~ msgstr "Față cu limba și ochii deschiși"
+
+#~ msgid "Face with clenched teeth"
+#~ msgstr "Față cu dinții încleștați"
+
+#~ msgid "Exasperated face"
+#~ msgstr "Față exasperată"
+
+#~ msgid "Happy face with teardrop"
+#~ msgstr "Față fericită cu teardrop"
+
+#~ msgid "Whaling face"
+#~ msgstr "Vânătoare de balene"
+
+#~ msgid "Huffing with anger face"
+#~ msgstr "Huffing cu fața furiei"
+
+#~ msgid "Very astonished face"
+#~ msgstr "Față foarte uimită"
+
+#~ msgid "Surprised and dismayed face"
+#~ msgstr "Față surprinsă și consternată"
+
+#~ msgid "Open mouth and surprised face"
+#~ msgstr "Gură deschisă și față surprinsă"
+
+#~ msgid "Surprised face"
+#~ msgstr "Surprins"
 
 #~ msgid "sad smiley"
 #~ msgstr "trist"

@@ -28,8 +28,10 @@ sellaisia, jotka sinua kiinnostavat:
 
 *	Muokkauskentän avulla voit suodattaa hakua löytääksesi käytettävissä
   olevien hymiöiden joukosta haluamasi.
-*	Valintapainikkeilla voit valita, näytetäänkö vain emojit (Alt+E), vain tavalliset hymiöt (Alt+I) vai kaikki käytettävissä olevat hymiöt (Alt+A).
-*	Hymiöluettelossa (Alt+H) näytetään kolmessa sarakkeessa hymiön nimi, tyyppi (tavallinen tai emoji) ja vastaavat merkit.
+*	Valintapainikkeilla voit valita, näytetäänkö vain emojit (Alt+E), vain
+  tavalliset hymiöt (Alt+I) vai kaikki käytettävissä olevat hymiöt (Alt+A).
+*	Hymiöluettelossa (Alt+H) näytetään kolmessa sarakkeessa hymiön nimi,
+  tyyppi (tavallinen tai emoji) sekä vastaava merkki.
 
 Kun painat OK, valitun hymiön merkit kopioidaan leikepöydälle, josta voit
 liittää ne haluamaasi paikkaan.

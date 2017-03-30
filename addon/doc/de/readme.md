@@ -28,8 +28,12 @@ auswählen können, um Nähreres über dieses zu erfahren.
 
 *	An editable field allows you to filter the search for the desired emoticon
   among the emoticons available.
-*	Through a set of radio buttons, you can choose to view    only emoji category (alt+E) or view only standard emoticon category (alt+s) or view all emoticons available (alt+A).
-*	In the list of emoticons (alt+L) are displayed  on three columns respectively: the name of emoticon, the type of emoticon (standard emoticon or emoji), the  corresponding character.
+*	Through a set of radio buttons, you can choose to view only emoji category
+  (alt+E) or view only standard emoticon category (alt+s) or view all
+  emoticons available (alt+A).
+*	In the list of emoticons (alt+L) are displayed on three columns
+  respectively: the name of emoticon, the type of emoticon (standard
+  emoticon or emoji), the corresponding character.
 
 Wenn Sie auf "OK" drücken, wird die Zeichenfolge für das ausgewählte Smiley
 in die Zwischenablage kopiert.

@@ -196,15 +196,16 @@ msgstr ""
 msgid "Happy face with open mouth"
 msgstr "Srećno lice sa otvorenim ustima"
 
-#. Translators: (emoji) happy face with wide mouth and squinting eyes.
-msgid "Happy face with wide mouth and squinting eyes"
-msgstr ""
+#. Translators: (emoji) A smiling face with smiling eyes and rosy cheeks.
+#, fuzzy
+msgid "Smiling Face With Smiling Eyes"
+msgstr "Lice koje šalje poljubac otvorenih očiju"
 
 #. Translators: (emoji) smirking face.
 msgid "Smirking face"
 msgstr "Smajli koji se zlobno osmehuje"
 
-#. Translators: (emoji) Slightly Smiling Face: a face that is a little bit happy, with a slight smile and neutral eyes.
+#. Translators: (emoji) Slightly Smiling Face: a face that is a little bit happy, with a slight smile and neutral eyes.
 msgid "Slightly smiling face"
 msgstr "Lice sa blagim osmehom"
 
@@ -252,9 +253,10 @@ msgstr "Lice koje šalje poljubac"
 msgid "Kissing face with closed eyes"
 msgstr "Lice koje šalje poljubac zatvorenih očiju"
 
-#. Translators: (emoji) kissing face with open eyes.
-msgid "Kissing face with open eyes"
-msgstr "Lice koje šalje poljubac otvorenih očiju"
+#. Translators: (emoji) Kissing face.
+#, fuzzy
+msgid "Kissing face"
+msgstr "Smajli koji namiguje"
 
 #. Translators: (emoji) kissing face with arched eyes.
 msgid "Kissing face with arched eyes"
@@ -268,9 +270,10 @@ msgstr "Lice koje se plazi i namiguje"
 msgid "Face with stuck out tongue and eyes tightly closed"
 msgstr "Lice koje se plazi čvrsto zatvorenih očiju"
 
-#. Translators: (emoji) face with stuck out tongue and eyes open.
-msgid "Face with stuck out tongue and eyes open"
-msgstr "Lice koje se plazi otvorenih očiju"
+#. Translators: (emoji) A cheeky face with stuck out tongue.
+#, fuzzy
+msgid "Face with stuck out tongue"
+msgstr "Lice koje se plazi i namiguje"
 
 #. Translators: (emoji) Hugging Face: a face displayed with an open hands gesture, offering a hug.
 msgid "Hugging face"
@@ -280,13 +283,15 @@ msgstr "Zagrljaj"
 msgid "Flushed face"
 msgstr "Stidljivo lice"
 
-#. Translators: (emoji) face with clenched teeth.
-msgid "Face with clenched teeth"
-msgstr "Lice sa stisnutim zubima"
+#. Translators: (emoji) Grinning face showing smiling eyes.
+#, fuzzy
+msgid "Grinning Face With Smiling Eyes"
+msgstr "Lice koje šalje poljubac otvorenih očiju"
 
-#. Translators: (emoji) person frowning.
-msgid "Person frowning"
-msgstr ""
+#. Translators: (emoji) A pensive, remorseful and saddened face. Quietly considering where things all went wrong.
+#, fuzzy
+msgid "Pensive Face"
+msgstr "Zbunjeni smajli"
 
 #. Translators: (emoji) devil with evil smile.
 msgid "Devil with evil smile"
@@ -304,9 +309,10 @@ msgstr "Olakšanje"
 msgid "Unamused face"
 msgstr "Smoreno lice"
 
-#. Translators: (emoji) tired face.
-msgid "Tired face"
-msgstr "Umorno lice"
+#. Translators: (emoji) A face with scrunched up and closed eyes, frowning. Used to show helplessness in a situation.
+#, fuzzy
+msgid "Persevering Face"
+msgstr "Lice koje spava"
 
 #. Translators: (emoji) crying face.
 msgid "Crying face"
@@ -336,25 +342,27 @@ msgstr "Razočarano lice"
 msgid "Disappointed but relieved face"
 msgstr "Razočarano lice, ali sa olakšanjem"
 
-#. Translators: (emoji) exasperated face.
-msgid "Exasperated face"
-msgstr "Ogorčeno lice"
+#. Translators: (emoji) Face with a look of concern, with a blue forehead and sweat dripping down the cheek.
+#, fuzzy
+msgid "Face With Open Mouth & Cold Sweat"
+msgstr "Lice koje obliva hladan znoj"
 
-#. Translators: (emoji) happy face with tear-drop.
-msgid "Happy face with teardrop"
-msgstr "Lice sa suzom"
+#. Translators: (emoji) Happy face with a single drop of sweat on one side of the face.
+msgid "Smiling Face With Open Mouth & Cold Sweat"
+msgstr ""
 
 #. Translators: (emoji) face with cold sweat.
 msgid "Face with cold sweat"
 msgstr "Lice koje obliva hladan znoj"
 
-#. Translators: (emoji) whaling face.
-msgid "Whaling face"
+#. Translators: (emoji) A distraught-looking face with  an open mouth and crescent shaped eyes.
+msgid "Weary Face"
 msgstr ""
 
-#. Translators: (emoji) whaling face with squinting eyes.
-msgid "Whaling face with squinting eyes"
-msgstr ""
+#. Translators: (emoji) An exhausted-looking face with an open mouth and tightly closed eyes.
+#, fuzzy
+msgid "Tired Face"
+msgstr "Umorno lice"
 
 #. Translators: (emoji) fearful face.
 msgid "Fearful face"
@@ -373,9 +381,10 @@ msgstr "Ljuti smajli"
 msgid "Pouting face"
 msgstr ""
 
-#. Translators: (emoji) huffing with anger face.
-msgid "Huffing with anger face"
-msgstr ""
+#. Translators: (emoji) A face with air coming out of its nose, huffing with anger face.
+#, fuzzy
+msgid "Face With Steam From Nose"
+msgstr "Lice sa suzama"
 
 #. Translators: (emoji) confounded face.
 msgid "Confounded face"
@@ -397,8 +406,8 @@ msgstr "Srećno lice sa sunčanim naočarama"
 msgid "Sleeping face"
 msgstr "Lice koje spava"
 
-#. Translators: (emoji) very astonished face.
-msgid "Very astonished face"
+#. Translators: (emoji) A dizzy face, looking sick or confused from being spun around in circles too many times.
+msgid "Dizzy Face"
 msgstr ""
 
 #. Translators: (emoji) astonished face.
@@ -409,17 +418,19 @@ msgstr ""
 msgid "Worried face"
 msgstr "Zabrinuti smajli"
 
-#. Translators: (emoji) surprised and dismayed face.
-msgid "Surprised and dismayed face"
-msgstr ""
+#. Translators: (emoji) Dismayed face with open eyes and open mouth, appear closer to  a frowning face.
+#, fuzzy
+msgid "Frowning Face With Open Mouth"
+msgstr "Srećno lice sa otvorenim ustima"
 
 #. Translators: (emoji) anguished face.
 msgid "Anguished face"
 msgstr ""
 
-#. Translators: (emoji) open mouth and surprised face.
-msgid "Open mouth and surprised face"
-msgstr ""
+#. Translators: (emoji) A face with Open Mouth, generally used to represent an element of surprise.
+#, fuzzy
+msgid "Face with Open Mouth"
+msgstr "Srećno lice sa otvorenim ustima"
 
 #. Translators: (emoji) grimacing face.
 msgid "Grimacing face"
@@ -429,9 +440,10 @@ msgstr ""
 msgid "Confused face"
 msgstr "Zbunjeni smajli"
 
-#. Translators: (emoji) surprised face.
-msgid "Surprised face"
-msgstr "Iznenađen smajli"
+#. Translators: (emoji) A face with high eyebrows and an open mouth, it looks more surprised than hushed.
+#, fuzzy
+msgid "Hushed Face"
+msgstr "Stidljivo lice"
 
 #. Translators: (emoji) broken heart.
 msgid "Broken heart"
@@ -473,6 +485,55 @@ msgstr "Zeleno srce"
 msgid "Blue heart"
 msgstr "Plavo srce"
 
+#. Translators: (emoji) This emoji is the version of the phrase ROFL. A person lying on the floor due to an extreme amount of laughter.
+#, fuzzy
+msgid "Rolling on the Floor Laughing"
+msgstr "smajli koji se valja po podu od smeha"
+
+#. Translators: (emoji) A face that is a little bit sad, with a slight frown and neutral eyes.
+#, fuzzy
+msgid "Slightly Frowning Face"
+msgstr "Lice sa blagim osmehom"
+
+#. Translators: (emoji) A face that is upside-down.
+msgid "Upside-down Face"
+msgstr ""
+
+#. Translators: (emoji) A face displaying eyes glancing upward.
+#, fuzzy
+msgid "Face With Rolling Eyes"
+msgstr "Lice koje šalje poljubac"
+
+#. Translators: (emoji) A person with arms forming an X to indicate no or no good.
+msgid "Person Gesturing No"
+msgstr ""
+
+#. Translators: (emoji) A person with arms above his head, making an OK sign with the whole body.
+msgid "Person Gesturing OK"
+msgstr ""
+
+#. Translators: (emoji) A person bowing deeply, express a sincere apology or to request a favour.
+msgid "Person bowing"
+msgstr ""
+
+#. Translators: (emoji) An upset person frowning with dismay.
+msgid "Person Frowning"
+msgstr ""
+
+#. Translators: (emoji) Two hands placed firmly together.
+msgid "Folded Hands"
+msgstr ""
+
+#. Translators: (emoji) A person with a surgical mask on their face.
+#, fuzzy
+msgid "Face with medical mask"
+msgstr "Lice koje obliva hladan znoj"
+
+#. Translators: (emoji) A black version of white smiling face.
+#, fuzzy
+msgid "Black Smiling Face"
+msgstr "Smajli koji se zlobno osmehuje"
+
 #. Translators: (emoji) happy cat face with heart shaped eyes.
 msgid "Happy cat face with heart shaped eyes"
 msgstr "Mačka sa osmehom i očima u obliku srca"
@@ -489,7 +550,7 @@ msgstr ""
 msgid "Thumbs down symbol"
 msgstr ""
 
-#. Translators: (emoji) Victory Hand
+#. Translators: (emoji) Victory Hand.
 msgid "Victory Hand"
 msgstr "Znak pobede"
 
@@ -844,6 +905,21 @@ msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
 msgstr "Omogućava izgovor naziva emotikona umesto teksta koji ga predstavlja."
+
+#~ msgid "Face with stuck out tongue and eyes open"
+#~ msgstr "Lice koje se plazi otvorenih očiju"
+
+#~ msgid "Face with clenched teeth"
+#~ msgstr "Lice sa stisnutim zubima"
+
+#~ msgid "Exasperated face"
+#~ msgstr "Ogorčeno lice"
+
+#~ msgid "Happy face with teardrop"
+#~ msgstr "Lice sa suzom"
+
+#~ msgid "Surprised face"
+#~ msgstr "Iznenađen smajli"
 
 #~ msgid "sad smiley"
 #~ msgstr "Tužan smajli"

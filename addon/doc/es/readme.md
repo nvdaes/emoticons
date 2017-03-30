@@ -29,8 +29,12 @@ interesen:
 
 *	Un campo editable que te permite filtrar la búsqueda del emoticono deseado
   de entre los emoticonos disponibles.
-*	A través de un grupo de botones de opción, puedes elegir ver sólo la categoría emoji (alt+E) o ver sólo la categoría de emoticonos estándar (alt+s) o ver todos los emoticonos disponibles (alt+A).
-*	En la lista de emoticonos (alt+L) se muestran en tres columnas respectivamente: los nombres de emoticono, el tipo de emoticono (emoticono estándar o emoji), el carácter correspondiente.
+*	A través de un grupo de botones de opción, puedes elegir ver sólo la
+  categoría emoji (alt+E) o ver sólo la categoría de emoticonos estándar
+  (alt+s) o ver todos los emoticonos disponibles (alt+A).
+*	En la lista de emoticonos (alt+L) se muestran en tres columnas
+  respectivamente: los nombres de emoticono, el tipo de emoticono (emoticono
+  estándar o emoji), el carácter correspondiente.
 
 Cuando pulses Aceptar, los caracteres para el emoticono elegido se copiarán
 en tu portapapeles, listos para pegarse.

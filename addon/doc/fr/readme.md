@@ -30,8 +30,13 @@ frimousses qui vous intéressent :
 
 *	Un champ éditable vous permet de filtrer la recherche de la frimousse
   souhaitée parmi les frimousses disponibles.
-*	Grâce à un ensemble de boutons radio, vous pouvez choisir d'afficher uniquement la catégorie emoji (alt+E) ou afficher uniquement la catégorie frimousse standard (alt+s) ou afficher toutes les frimousses  disponibles (alt+A).
-*	Dans la liste des frimousses (alt+L) sont affichés respectivement sur trois colonnes : le nom de la frimousse, le type de frimousse (frimousse standard ou emoji), le  caractère correspondant.
+*	Grâce à un ensemble de boutons radio, vous pouvez choisir d'afficher
+  uniquement la catégorie emoji (alt+E) ou afficher uniquement la catégorie
+  frimousse standard (alt+s) ou afficher toutes les frimousses  disponibles
+  (alt+A).
+*	Dans la liste des frimousses (alt+L) sont affichés respectivement sur
+  trois colonnes : le nom de la frimousse, le type de frimousse (frimousse
+  standard ou emoji), le  caractère correspondant.
 
 Lorsque vous appuyez sur OK, les caractères pour la frimousse choisie sont
 copiés dans le presse-papiers, prêts à être collés.
