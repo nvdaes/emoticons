@@ -30,12 +30,12 @@ interesen:
 
 *	Un campo editable que che permite filtrar a procura do emoticón desexado
   de entre os emoticóns dispoñibles.
-*	Through a set of radio buttons, you can choose to view only emoji category
-  (alt+E) or view only standard emoticon category (alt+s) or view all
-  emoticons available (alt+A).
-*	In the list of emoticons (alt+L) are displayed on three columns
-  respectively: the name of emoticon, the type of emoticon (standard
-  emoticon or emoji), the corresponding character.
+*	A través dun grupo de botóns de opción, podes escoller ver só a categoría
+  emoji (alt+E) ou ver só a categoría de emoticonos estándar (alt+s) ou ver
+  todos os emoticonos dispoñibles (alt+A).
+*	Na listaxe de emoticonos (alt+L) amósanse en tres columnas
+  respectivamente: os nomes de emoticono, o tipo de emoticono (emoticono
+  estándar ou emoji), o carácter correspondente.
 
 Cando premas Aceptar, os caracteres para o emoticón escollido copiaranse no
 teu portapapeis, listos para se pegar.

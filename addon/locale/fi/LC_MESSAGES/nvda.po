@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 18:37+0100\n"
-"PO-Revision-Date: 2017-01-24 16:09+0200\n"
+"PO-Revision-Date: 2017-03-31 08:58+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Finnish <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -197,9 +197,8 @@ msgid "Happy face with open mouth"
 msgstr "Iloiset kasvot suu auki"
 
 #. Translators: (emoji) A smiling face with smiling eyes and rosy cheeks.
-#, fuzzy
 msgid "Smiling Face With Smiling Eyes"
-msgstr "Valaan kasvot silmät sirrillään"
+msgstr "Hymyilevät kasvot silmät hymyssä"
 
 #. Translators: (emoji) smirking face.
 msgid "Smirking face"
@@ -254,9 +253,8 @@ msgid "Kissing face with closed eyes"
 msgstr "suutelevat kasvot silmät suljettuina"
 
 #. Translators: (emoji) Kissing face.
-#, fuzzy
 msgid "Kissing face"
-msgstr "Silmää iskevät kasvot"
+msgstr "Suutelevat kasvot"
 
 #. Translators: (emoji) kissing face with arched eyes.
 msgid "Kissing face with arched eyes"
@@ -271,9 +269,8 @@ msgid "Face with stuck out tongue and eyes tightly closed"
 msgstr "Kieltä näyttävät kasvot silmät tiukasti suljettuina"
 
 #. Translators: (emoji) A cheeky face with stuck out tongue.
-#, fuzzy
 msgid "Face with stuck out tongue"
-msgstr "Silmää iskevät ja kieltä näyttävät kasvot"
+msgstr "Kieltä näyttävät kasvot"
 
 #. Translators: (emoji) Hugging Face: a face displayed with an open hands gesture, offering a hug.
 msgid "Hugging face"
@@ -284,14 +281,12 @@ msgid "Flushed face"
 msgstr "Punottavat kasvot"
 
 #. Translators: (emoji) Grinning face showing smiling eyes.
-#, fuzzy
 msgid "Grinning Face With Smiling Eyes"
-msgstr "Valaan kasvot silmät sirrillään"
+msgstr "Virnistävät kasvot silmät hymyssä"
 
 #. Translators: (emoji) A pensive, remorseful and saddened face. Quietly considering where things all went wrong.
-#, fuzzy
 msgid "Pensive Face"
-msgstr "Hämmentyneet kasvot"
+msgstr "Syvämietteiset kasvot"
 
 #. Translators: (emoji) devil with evil smile.
 msgid "Devil with evil smile"
@@ -310,9 +305,8 @@ msgid "Unamused face"
 msgstr "Tympääntyneet kasvot"
 
 #. Translators: (emoji) A face with scrunched up and closed eyes, frowning. Used to show helplessness in a situation.
-#, fuzzy
 msgid "Persevering Face"
-msgstr "Nukkuvat kasvot"
+msgstr "Sinnikkäät kasvot"
 
 #. Translators: (emoji) crying face.
 msgid "Crying face"
@@ -343,14 +337,12 @@ msgid "Disappointed but relieved face"
 msgstr "Pettyneet mutta helpottuneet kasvot"
 
 #. Translators: (emoji) Face with a look of concern, with a blue forehead and sweat dripping down the cheek.
-#, fuzzy
 msgid "Face With Open Mouth & Cold Sweat"
-msgstr "Kasvot kylmässä hiessä"
+msgstr "Kasvot suu auki ja kylmässä hiessä"
 
 #. Translators: (emoji) Happy face with a single drop of sweat on one side of the face.
-#, fuzzy
 msgid "Smiling Face With Open Mouth & Cold Sweat"
-msgstr "Hymyilevät kasvot suu auki ja silmät tiukasti suljettuina"
+msgstr "Hymyilevät kasvot suu auki ja kylmässä hiessä"
 
 #. Translators: (emoji) face with cold sweat.
 msgid "Face with cold sweat"
@@ -358,10 +350,9 @@ msgstr "Kasvot kylmässä hiessä"
 
 #. Translators: (emoji) A distraught-looking face with  an open mouth and crescent shaped eyes.
 msgid "Weary Face"
-msgstr ""
+msgstr "Voipuneet kasvot"
 
 #. Translators: (emoji) An exhausted-looking face with an open mouth and tightly closed eyes.
-#, fuzzy
 msgid "Tired Face"
 msgstr "Väsyneet kasvot"
 
@@ -383,9 +374,8 @@ msgid "Pouting face"
 msgstr "Murjottavat kasvot"
 
 #. Translators: (emoji) A face with air coming out of its nose, huffing with anger face.
-#, fuzzy
 msgid "Face With Steam From Nose"
-msgstr "Kasvot ilon kyynelissä"
+msgstr "Kasvot, joiden nenästä tulee höyryä"
 
 #. Translators: (emoji) confounded face.
 msgid "Confounded face"
@@ -409,7 +399,7 @@ msgstr "Nukkuvat kasvot"
 
 #. Translators: (emoji) A dizzy face, looking sick or confused from being spun around in circles too many times.
 msgid "Dizzy Face"
-msgstr ""
+msgstr "Huumaantuneet kasvot"
 
 #. Translators: (emoji) astonished face.
 msgid "Astonished face"
@@ -420,18 +410,16 @@ msgid "Worried face"
 msgstr "Huolestuneet kasvot"
 
 #. Translators: (emoji) Dismayed face with open eyes and open mouth, appear closer to  a frowning face.
-#, fuzzy
 msgid "Frowning Face With Open Mouth"
-msgstr "Iloiset kasvot suu auki"
+msgstr "Otsaa rypistävät kasvot suu auki"
 
 #. Translators: (emoji) anguished face.
 msgid "Anguished face"
 msgstr "Tuskaiset kasvot"
 
 #. Translators: (emoji) A face with Open Mouth, generally used to represent an element of surprise.
-#, fuzzy
 msgid "Face with Open Mouth"
-msgstr "Iloiset kasvot suu auki"
+msgstr "Kasvot suu auki"
 
 #. Translators: (emoji) grimacing face.
 msgid "Grimacing face"
@@ -442,9 +430,8 @@ msgid "Confused face"
 msgstr "Hämmentyneet kasvot"
 
 #. Translators: (emoji) A face with high eyebrows and an open mouth, it looks more surprised than hushed.
-#, fuzzy
 msgid "Hushed Face"
-msgstr "Punottavat kasvot"
+msgstr "Vaiennetut kasvot"
 
 #. Translators: (emoji) broken heart.
 msgid "Broken heart"
@@ -487,57 +474,48 @@ msgid "Blue heart"
 msgstr "Sininen sydän"
 
 #. Translators: (emoji) This emoji is the version of the phrase ROFL. A person lying on the floor due to an extreme amount of laughter.
-#, fuzzy
 msgid "Rolling on the Floor Laughing"
-msgstr "nauraa kippurassa"
+msgstr "Kierii nauraen lattialla"
 
 #. Translators: (emoji) A face that is a little bit sad, with a slight frown and neutral eyes.
-#, fuzzy
 msgid "Slightly Frowning Face"
-msgstr "Hienoisesti hymyilevät kasvot"
+msgstr "Hiukan otsaa rypistävät kasvot"
 
 #. Translators: (emoji) A face that is upside-down.
 msgid "Upside-down Face"
-msgstr ""
+msgstr "Kasvot ylösalaisin"
 
 #. Translators: (emoji) A face displaying eyes glancing upward.
-#, fuzzy
 msgid "Face With Rolling Eyes"
-msgstr "lentosuukkoa heittävät kasvot"
+msgstr "Silmiä pyörittelevät kasvot"
 
 #. Translators: (emoji) A person with arms forming an X to indicate no or no good.
-#, fuzzy
 msgid "Person Gesturing No"
-msgstr "Henkilö otsa rypyssä"
+msgstr "Kieltävästi elehtivä henkilö"
 
 #. Translators: (emoji) A person with arms above his head, making an OK sign with the whole body.
-#, fuzzy
 msgid "Person Gesturing OK"
-msgstr "Henkilö otsa rypyssä"
+msgstr "Myöntävästi elehtivä henkilö"
 
 #. Translators: (emoji) A person bowing deeply, express a sincere apology or to request a favour.
-#, fuzzy
 msgid "Person bowing"
-msgstr "Henkilö otsa rypyssä"
+msgstr "Kumarteleva henkilö"
 
 #. Translators: (emoji) An upset person frowning with dismay.
-#, fuzzy
 msgid "Person Frowning"
 msgstr "Henkilö otsa rypyssä"
 
 #. Translators: (emoji) Two hands placed firmly together.
 msgid "Folded Hands"
-msgstr ""
+msgstr "Tiukasti yhdessä olevat kädet"
 
 #. Translators: (emoji) A person with a surgical mask on their face.
-#, fuzzy
 msgid "Face with medical mask"
-msgstr "Kasvot kylmässä hiessä"
+msgstr "Kasvot, joilla leikkausmaski"
 
 #. Translators: (emoji) A black version of white smiling face.
-#, fuzzy
 msgid "Black Smiling Face"
-msgstr "Typerästi hymyilevät kasvot"
+msgstr "Mustat hymyilevät kasvot"
 
 #. Translators: (emoji) happy cat face with heart shaped eyes.
 msgid "Happy cat face with heart shaped eyes"

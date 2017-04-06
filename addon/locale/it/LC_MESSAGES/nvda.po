@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons'5.3'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: 2017-02-21 15:25+0100\n"
-"PO-Revision-Date: 2017-03-03 10:14+0100\n"
+"PO-Revision-Date: 2017-03-31 10:41+0200\n"
 "Last-Translator: Simone Dal Maso <simone.dalmaso@gmail.com>\n"
 "Language-Team: Translators <LL@li.org>\n"
 "Language: it_IT\n"
@@ -353,7 +353,6 @@ msgid "Weary Face"
 msgstr "Faccina stufata"
 
 #. Translators: (emoji) An exhausted-looking face with an open mouth and tightly closed eyes.
-#, fuzzy
 msgid "Tired Face"
 msgstr "Faccina stanca"
 
@@ -503,9 +502,8 @@ msgid "Person bowing"
 msgstr " Persona che si inchina"
 
 #. Translators: (emoji) An upset person frowning with dismay.
-#, fuzzy
 msgid "Person Frowning"
-msgstr "Persona sconvolta e accigliata"
+msgstr "Persona accigliata"
 
 #. Translators: (emoji) Two hands placed firmly together.
 msgid "Folded Hands"
