@@ -1,49 +1,48 @@
 # Emotikoni #
 
-* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+* Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * preuzmi [stabilnu verziju][1]
 * preuzmi [verziju u razvoju][2]
 
-Using this add-on, spoken text containing emoticon characters will be
-replaced by its more human friendly description.
+Uz ovaj dodatak, svi emotikoni u izgovorenom tekstu biće zamenjeni
+odgovarajućim opisom.
 
-For example: the sequence ":)" will be spoken as "smiling smiley", or for
-example NVDA will recognize the meaning of each emoji.
+Na primer: ":)" će biti izgovoreno kao "osmeh", ili NVDA će reći značenje
+svakog emoji znaka
 
 Evo nekoliko osnovnih mogućnosti dodatka:
 
-## Insert Emoticon ##
+## Ubacivanje emotikona ##
 
-Sometimes an image is worth a 1000 words: use the new emoji to liven up your
-instant message and to let your friends know how you’re feeling.
+Nekada je slika vredna 1000 reči: Koristite novi emoji da oživite vaše
+poruke i kažete vašim prijateljima kako se osećate.
 
-When you are unsure of the characters for a particular smiley, this addon
-enables you to select and insert it into your text such as in a chat.
+Kada niste sigurni o znakovima za neki smajli, ovaj dodatak vam dozvoljava
+da ga izaberete i unesete u tekst kao što je ćaskanje.
 
-Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
+Pritisnite NVDA+I, ili iz menija podešavanja-> upravljanje emotikonima-> ubaci emotikon, da otvorite dijalog sa ponuđenim emotikonima ili emojima.
 
-This dialog allows you to choose an emoticon and to view the emoticons that
-interest you:
+Ovaj dijalog vam dozvoljava da izaberete emotikon i prikažete emotikone koji
+vas interesuju:
 
-*	An editable field allows you to filter the search for the desired emoticon
-  among the emoticons available.
-*	Through a set of radio buttons, you can choose to view only emoji category
-  (alt+E) or view only standard emoticon category (alt+s) or view all
-  emoticons available (alt+A).
-*	In the list of emoticons (alt+L) are displayed on three columns
-  respectively: the name of emoticon, the type of emoticon (standard
-  emoticon or emoji), the corresponding character.
+*	Polje za uređivanje vam dozvoljava da pretražujete emotikone i prikažete
+  samo one koji vas interesuju.
+*	Kroz različite radio dugmiće, možete da izaberete prikaz samo emoji
+  kategorije(alt+E) ili samo kategoriju standardnih emotikona(alt+s) ili sve
+  dostupne emotikone(alt+A).
+*	U listi emotikona(alt+L) su prikazane u tri kolone: Ime emotikona, vrsta
+  emotikona(standardan emotikon ili emoji), odgovarajući znakovi.
 
-When you press OK, the characters for the chosen emoticon will be copied to
-your clipboard, ready for pasting.
+Kada pritisnete OK, znakovi za izabran emotikon će biti kopirani u
+privremenu memoriju, spremni da se nalepe.
 
 ## Prilagođavanje emotikona ##
 
-From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can open a dialog setting to add or to edit available emoticons.
+Iz NVDA menija odaberite Podešavanja > Upravljaj emotikonima > Prilagođavanje emotikona, to će otvoriti prozor u kojem možete dodavati ili menjati postojeće emotikone.
 
-This dialog allows you to save an emoticons speech dictionary with your
-customizations.
+Ovaj dijalog vam dozvoljava da sačuvate govorni rečnik sa vašim prilagođenim
+emotikonima.
 
 Pritiskom na dugme "Sačuvaj i prenesi rečnik" biće kreiran fajl
 emoticons.dic u kome će biti rečnik emotikona, a biće smešten u folder sa
@@ -51,27 +50,27 @@ podešavanjima NVDA, podfolder speechDicts.
 
 ## Podešavanja aktivacije ##
 
-From menu Preferences -> Manage Emoticons -> Activation settings, you can choose whether to Activate speaking of emoticons when starting NVDA. By default it is disabled.
+Iz menija podešavanja-> upravljanje emotikonima-> podešavanja aktivacije, možete izabrati da li izgovor emotikona treba da se aktivira kada se NVDA pokrene. Onemogućeno je po podrazumevanim podešavanjima.
 
-It is also possible to save your choice for this setting.
+Takođe je moguće sačuvati vaš izbor za ovo podešavanje.
 
 ## Prečice ##
 
-These are the key command available by default, you can edit those or add
-new key to open Activation settings dialog or Emoticon Dictionary dialog:
+Ovo su komande koje su podrazumevano dostupne, možete ih urediti ili dodati
+nove da otvorite dijaloge za podešavanja:
 
-* NVDA+E: speaching emoticons on/off, toggles between speaking text as it is
-  written, or with the emoticons replaced by the human description.
-* NVDA+I: show a dialog to select an emoticon you want to copy.
+* NVDA+E: uključuje i isključuje opis emotikona
+* NVDA+I: otvara prozor za izbor emotikona za kopiranje u privremenu
+  memoriju
 
 
-## Changes for 5.0 ##
+## Promene u 5.0 ##
 
-* Added support for emojis.
-* Improvements for Insert Emoticon dialog with a filter field and radio
-  buttons to choose displayed emoticons.
-* Using guiHelper for Activation settings dialog and Insert Emoticon dialog:
-  requires NVDA 2016.4 or higher versions
+* Dodata podrška za emoji.
+* Poboljšanja u dijalogu za ubacivanje emotikona uključujući radio dugmiće
+  za izbor kategorije i polje za pretragu emotikona.
+* Koristi se guiHelper za dijalog za podešavanja aktivacije i ubacivanje
+  emotikona: Zahteva NVDA 2016.4 ili noviji
 
 ## Promene u 4.0 ##
 
