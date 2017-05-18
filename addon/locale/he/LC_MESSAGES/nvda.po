@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 4.2\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2015-10-23 05:00+1000\n"
-"PO-Revision-Date: 2017-02-09 21:36+0200\n"
-"Last-Translator:  <shmuel_naaman@yahoo.com>\n"
+"PO-Revision-Date: 2017-05-16 13:34+0300\n"
+"Last-Translator: shmuel_naaman@yahoo.com\n"
 "Language-Team: naaman.shmuel@gmail.com\n"
 "Language: he_IL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 2.0.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Translators: the label of a message box dialog.
@@ -195,9 +195,8 @@ msgid "Happy face with open mouth"
 msgstr "רגשון השמח עם פה פעור"
 
 #. Translators: (emoji) A smiling face with smiling eyes and rosy cheeks.
-#, fuzzy
 msgid "Smiling Face With Smiling Eyes"
-msgstr "לוויתן עם עיניים מצומצמות"
+msgstr "רגשון מחייך עם עיניים מחייכות"
 
 #. Translators: (emoji) smirking face.
 msgid "Smirking face"
@@ -252,9 +251,8 @@ msgid "Kissing face with closed eyes"
 msgstr "רגשון נשיקה עם עיניים סגורות"
 
 #. Translators: (emoji) Kissing face.
-#, fuzzy
 msgid "Kissing face"
-msgstr "רגשון קורץ"
+msgstr "רגשון נשיקות"
 
 #. Translators: (emoji) kissing face with arched eyes.
 msgid "Kissing face with arched eyes"
@@ -269,9 +267,8 @@ msgid "Face with stuck out tongue and eyes tightly closed"
 msgstr "רגשון הלשון בחוץ עם עיניים סגורות היטב"
 
 #. Translators: (emoji) A cheeky face with stuck out tongue.
-#, fuzzy
 msgid "Face with stuck out tongue"
-msgstr "רגשון הקריצה עם לשון בחוץ"
+msgstr "רגשון לשון בחוץ"
 
 #. Translators: (emoji) Hugging Face: a face displayed with an open hands gesture, offering a hug.
 msgid "Hugging face"
@@ -282,14 +279,12 @@ msgid "Flushed face"
 msgstr "רגשון סמוק לחיים"
 
 #. Translators: (emoji) Grinning face showing smiling eyes.
-#, fuzzy
 msgid "Grinning Face With Smiling Eyes"
-msgstr "לוויתן עם עיניים מצומצמות"
+msgstr "רגשון מגחך עם עיניים מחייכות"
 
 #. Translators: (emoji) A pensive, remorseful and saddened face. Quietly considering where things all went wrong.
-#, fuzzy
 msgid "Pensive Face"
-msgstr "רגשון מבולבל"
+msgstr "רגשון מהורהר"
 
 #. Translators: (emoji) devil with evil smile.
 msgid "Devil with evil smile"
@@ -308,9 +303,8 @@ msgid "Unamused face"
 msgstr "רגשון משועשע"
 
 #. Translators: (emoji) A face with scrunched up and closed eyes, frowning. Used to show helplessness in a situation.
-#, fuzzy
 msgid "Persevering Face"
-msgstr "רגשון ישן"
+msgstr "רגשון עקשן"
 
 #. Translators: (emoji) crying face.
 msgid "Crying face"
@@ -341,14 +335,12 @@ msgid "Disappointed but relieved face"
 msgstr "רגשון מאוכזב אבל עם הקלה"
 
 #. Translators: (emoji) Face with a look of concern, with a blue forehead and sweat dripping down the cheek.
-#, fuzzy
 msgid "Face With Open Mouth & Cold Sweat"
-msgstr "רגשון עם זיעה קרה"
+msgstr "רגשון פה פתוח וזיעה קרה"
 
 #. Translators: (emoji) Happy face with a single drop of sweat on one side of the face.
-#, fuzzy
 msgid "Smiling Face With Open Mouth & Cold Sweat"
-msgstr "רגשון מחייך עם פה פתוח ועיינים סגורות "
+msgstr "רגשון מחייך עם פה פתוח וזיעה קרה"
 
 #. Translators: (emoji) face with cold sweat.
 msgid "Face with cold sweat"
@@ -356,12 +348,11 @@ msgstr "רגשון עם זיעה קרה"
 
 #. Translators: (emoji) A distraught-looking face with  an open mouth and crescent shaped eyes.
 msgid "Weary Face"
-msgstr ""
+msgstr "רגשון עייפות"
 
 #. Translators: (emoji) An exhausted-looking face with an open mouth and tightly closed eyes.
-#, fuzzy
 msgid "Tired Face"
-msgstr "רגשון מותש"
+msgstr "רגשון עייף"
 
 #. Translators: (emoji) fearful face.
 msgid "Fearful face"
@@ -381,9 +372,8 @@ msgid "Pouting face"
 msgstr "רגשון פנים חמוצות"
 
 #. Translators: (emoji) A face with air coming out of its nose, huffing with anger face.
-#, fuzzy
 msgid "Face With Steam From Nose"
-msgstr "רגשון עם דמעות של שמחה"
+msgstr "רגשון עם קיטור מהאף"
 
 #. Translators: (emoji) confounded face.
 msgid "Confounded face"
@@ -407,7 +397,7 @@ msgstr "רגשון ישן"
 
 #. Translators: (emoji) A dizzy face, looking sick or confused from being spun around in circles too many times.
 msgid "Dizzy Face"
-msgstr ""
+msgstr "רגשון מסוחרר"
 
 #. Translators: (emoji) astonished face.
 msgid "Astonished face"
@@ -418,16 +408,14 @@ msgid "Worried face"
 msgstr "רגשון מוטרד"
 
 #. Translators: (emoji) Dismayed face with open eyes and open mouth, appear closer to  a frowning face.
-#, fuzzy
 msgid "Frowning Face With Open Mouth"
-msgstr "רגשון השמח עם פה פעור"
+msgstr "רגשון זעוף עם פה פעור"
 
 #. Translators: (emoji) anguished face.
 msgid "Anguished face"
 msgstr "רגשון מיוסר"
 
 #. Translators: (emoji) A face with Open Mouth, generally used to represent an element of surprise.
-#, fuzzy
 msgid "Face with Open Mouth"
 msgstr "רגשון השמח עם פה פעור"
 
@@ -440,9 +428,8 @@ msgid "Confused face"
 msgstr "רגשון מבולבל"
 
 #. Translators: (emoji) A face with high eyebrows and an open mouth, it looks more surprised than hushed.
-#, fuzzy
 msgid "Hushed Face"
-msgstr "רגשון סמוק לחיים"
+msgstr "רגשון פנים שותקות"
 
 #. Translators: (emoji) broken heart.
 msgid "Broken heart"
@@ -485,57 +472,48 @@ msgid "Blue heart"
 msgstr "לב כחול"
 
 #. Translators: (emoji) This emoji is the version of the phrase ROFL. A person lying on the floor due to an extreme amount of laughter.
-#, fuzzy
 msgid "Rolling on the Floor Laughing"
 msgstr "רגשון להתגלגל מצחוק על הרצפה"
 
 #. Translators: (emoji) A face that is a little bit sad, with a slight frown and neutral eyes.
-#, fuzzy
 msgid "Slightly Frowning Face"
-msgstr "רגשון המחייך מעט"
+msgstr "רגשון זועף"
 
 #. Translators: (emoji) A face that is upside-down.
 msgid "Upside-down Face"
-msgstr ""
+msgstr "רגשון פנים הפוכות"
 
 #. Translators: (emoji) A face displaying eyes glancing upward.
-#, fuzzy
 msgid "Face With Rolling Eyes"
-msgstr "רגשון מפריח נשיקה"
+msgstr "רגשון עיניים מתגלגלות"
 
 #. Translators: (emoji) A person with arms forming an X to indicate no or no good.
-#, fuzzy
 msgid "Person Gesturing No"
-msgstr "רגשון הזועף"
+msgstr "רגשון מסמן לא"
 
 #. Translators: (emoji) A person with arms above his head, making an OK sign with the whole body.
-#, fuzzy
 msgid "Person Gesturing OK"
-msgstr "רגשון הזועף"
+msgstr "רגשון מסמן אוקי"
 
 #. Translators: (emoji) A person bowing deeply, express a sincere apology or to request a favour.
-#, fuzzy
 msgid "Person bowing"
-msgstr "רגשון הזועף"
+msgstr "רגשון קידה"
 
 #. Translators: (emoji) An upset person frowning with dismay.
-#, fuzzy
 msgid "Person Frowning"
-msgstr "רגשון הזועף"
+msgstr "רגשון מזעיף פנים"
 
 #. Translators: (emoji) Two hands placed firmly together.
 msgid "Folded Hands"
-msgstr ""
+msgstr "רגשון ידיים משולבות"
 
 #. Translators: (emoji) A person with a surgical mask on their face.
-#, fuzzy
 msgid "Face with medical mask"
-msgstr "רגשון עם זיעה קרה"
+msgstr "רגשון עם מסיכה רפואית"
 
 #. Translators: (emoji) A black version of white smiling face.
-#, fuzzy
 msgid "Black Smiling Face"
-msgstr "רגשון נעלב"
+msgstr "רגשון פנים שחורות מחייכות"
 
 #. Translators: (emoji) happy cat face with heart shaped eyes.
 msgid "Happy cat face with heart shaped eyes"

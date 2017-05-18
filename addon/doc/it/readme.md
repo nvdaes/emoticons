@@ -31,12 +31,15 @@ le emoticon che ti interessano:
 
 *	Un campo modificabile permette di filtrare la ricerca per l'emoticon
   desiderato tra le emoticon disponibili. 
-*	Through a set of radio buttons, you can choose to view only emoji category
-  (alt+E) or view only standard emoticon category (alt+s) or view all
-  emoticons available (alt+A).
-*	In the list of emoticons (alt+L) are displayed on three columns
-  respectively: the name of emoticon, the type of emoticon (standard
-  emoticon or emoji), the corresponding character.
+*	*	Attraverso dei pulsanti radio è possibile scegliere di visualizzare solo
+  la categoria emoji (alt+E) o visualizzare solo gli emoticon standard
+  (alt+s) oppure visualizzare tutti gli emoticon disponibili (alt+A).
+  *	Nell'elenco degli emoticons (alt+E) vengono visualizzati
+  rispettivamente: il nome dell'emoticon, il tipo di emoticon (emoticon
+  standard o emoji), ed il corrispondente carattere.
+*	Nella lista di emoticon (alt+L), vi sono presenti tre colonne,
+  rispettivamente: il nome dell'emoticon, il tipo di emoticon (standard
+  emoticon o emoji), il carattere corrispondente. 
 
 Quando si preme OK, il carattere dell'emoticon scelto verrà copiato negli
 appunti, pronto per essere incollato.
