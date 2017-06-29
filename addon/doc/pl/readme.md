@@ -1,49 +1,48 @@
 # Emotikony / Emoticons #
 
-* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+* Autorzy: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Pobierz [wersja stabilna][1]
 * Pobierz [wersja rozwojowa][2]
 
-Using this add-on, spoken text containing emoticon characters will be
-replaced by its more human friendly description.
+Przy użyciu tego dodatku, wypowiadany tekst zawierający znaki emotikonów
+zostanie zastąpiony przez bardziej przyjazne opisy.
 
-For example: the sequence ":)" will be spoken as "smiling smiley", or for
-example NVDA will recognize the meaning of each emoji.
+Dla przykładu: ":)" zostanie odczytane jako "Buzia uśmiech", albo emoji
+będzie przeczytany w odpowiedni sposób, zrozumiały dla użytkownika.
 
 Możesz wykorzystać następujące funkcje:
 
-## Insert Emoticon ##
+## Wstaw uśmieszek ##
 
-Sometimes an image is worth a 1000 words: use the new emoji to liven up your
-instant message and to let your friends know how you’re feeling.
+W niektórych sytuacjach, obraz jest warty 1000 słów: użyj nowego emoji, aby
+ożywić twoje wiadomości błyskawicznei żeby pokazać swoim przyjacielom, jak
+się czujesz.
 
-When you are unsure of the characters for a particular smiley, this addon
-enables you to select and insert it into your text such as in a chat.
+Jeśli nie jesteś pewien znaku dla określonego uśmiechu, ten dodatek pozwala
+oznaczyć i dodać smajliki .
 
-Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
+Naciśnij NVDA+I, oraz z mini ustawień -> zarządzaj emotikonami -> wstaw emotykon, aby otworzyć dialog z dostępnymi emotikonami lub emoji.
 
-This dialog allows you to choose an emoticon and to view the emoticons that
-interest you:
+Ten dialog umożliwia wybór emotikonu i przegląd emotikonów interesujących
+cie:
 
 *	An editable field allows you to filter the search for the desired emoticon
   among the emoticons available.
-*	Through a set of radio buttons, you can choose to view only emoji category
-  (alt+E) or view only standard emoticon category (alt+s) or view all
-  emoticons available (alt+A).
-*	In the list of emoticons (alt+L) are displayed on three columns
-  respectively: the name of emoticon, the type of emoticon (standard
-  emoticon or emoji), the corresponding character.
+*	Poprzez przyciski opcji, można wybrać tylko emoji (alt+E) albo standardowe
+  emotykony (alt+s) oraz wszystkie emotykony (alt+A).
+*	Na liście emotikonów (alt+L) wyświetlane są trzy kolumny: nazwa emotikonu,
+  typ emotikonu (emotikon standardowy lub emoji), i odpowiedni znaczek.
 
-When you press OK, the characters for the chosen emoticon will be copied to
-your clipboard, ready for pasting.
+Po naciśnięciu "ok", znaczki dla wybranego emotikonu będą skopiowane do
+schowka, już gotowe do wklejenia.
 
 ## Dostosuj emotikony ##
 
 From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can open a dialog setting to add or to edit available emoticons.
 
-This dialog allows you to save an emoticons speech dictionary with your
-customizations.
+Ten dialog umożliwia zochowanie słownika wymowy dla emotikonów z
+dostosowaniami.
 
 Naciśnij przycisk "Zapisz i eksportuj słownik", plik słownika o nazwie
 emoticons.dic zostanie zapisany w twoim folderze konfiguracji użytkownika,
@@ -51,29 +50,29 @@ podfolderze speechDicts.
 
 ## Ustawienia aktywacji ##
 
-From menu Preferences -> Manage Emoticons -> Activation settings, you can choose whether to Activate speaking of emoticons when starting NVDA. By default it is disabled.
+Możesz ustawić aktywowanie wypowiadania emotikon po starcie NVDA. Domyślnie jest wyłączone.
 
-It is also possible to save your choice for this setting.
+Możliwe jest zachowywanie wyboru dla tego ustawienia.
 
 ## Skróty klawiszowe: ##
 
-These are the key command available by default, you can edit those or add
-new key to open Activation settings dialog or Emoticon Dictionary dialog:
+To są domyślnie dostępne skróty klawiszowe, można ich zmienić, albo dodać
+nowy skrót do wywołania dialogu aktywacji lub słownika emotikonów:
 
-* NVDA+E: speaching emoticons on/off, toggles between speaking text as it is
-  written, or with the emoticons replaced by the human description.
-* NVDA+I: show a dialog to select an emoticon you want to copy.
+* NVDA+E: przełącza między odczytem tekstu tak jak jest napisany, albo z
+  emotikonami zastąpionymi przez opisy.
+* NVDA+I: wyświetla okno dialogowe wyboru uśmieszku do skopiowania.
 
 
-## Changes for 5.0 ##
+## Zmiany dla wersji 5.0 ##
 
-* Added support for emojis.
+* Dodane wsparcie dla emoji.
 * Improvements for Insert Emoticon dialog with a filter field and radio
   buttons to choose displayed emoticons.
 * Using guiHelper for Activation settings dialog and Insert Emoticon dialog:
   requires NVDA 2016.4 or higher versions
 
-## Changes for 4.0 ##
+## Zmiany dla wersji 4.0 ##
 
 * If the Insert smiley dialog is opened when another settings dialog is
   active, NVDA will show the corresponding error message.
