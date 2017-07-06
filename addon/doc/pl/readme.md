@@ -39,7 +39,7 @@ schowka, już gotowe do wklejenia.
 
 ## Dostosuj emotikony ##
 
-From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can open a dialog setting to add or to edit available emoticons.
+Z pozycji meni NVDA, Ustawienia -> Zarządzaj emotikonami -> dostosuj emotikony, można otworzyć okno dialogowe, w którym można edytować istniejące, lub dodawać nowe emotykony.
 
 Ten dialog umożliwia zochowanie słownika wymowy dla emotikonów z
 dostosowaniami.
@@ -67,15 +67,15 @@ nowy skrót do wywołania dialogu aktywacji lub słownika emotikonów:
 ## Zmiany dla wersji 5.0 ##
 
 * Dodane wsparcie dla emoji.
-* Improvements for Insert Emoticon dialog with a filter field and radio
-  buttons to choose displayed emoticons.
-* Using guiHelper for Activation settings dialog and Insert Emoticon dialog:
-  requires NVDA 2016.4 or higher versions
+* Usprawnienia dla okna dialogowego wstaw emotikonyy z polem do filtrowania
+  i i przyciskami opcji do wyboru wyświetlanych emotek.
+* Używanie guiHelper do aktywacji okna dialogowego ustawień i okna
+  dialogowego dla wstawiania emotek: wymaga NVDA 2016.4 lub nowsze wersje
 
 ## Zmiany dla wersji 4.0 ##
 
-* If the Insert smiley dialog is opened when another settings dialog is
-  active, NVDA will show the corresponding error message.
+* Jeżeli jest otwarty dialog do wstawiania emotek, gdy się próbuje otworzyć
+  inny dialog ustawień, NVDA wyświetli odpowiednią wiadomość o błędzie.
 
 
 ## Zmiany dla wersji 3.0 ##
