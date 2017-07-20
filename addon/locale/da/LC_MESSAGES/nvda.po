@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-19 18:53+0100\n"
-"PO-Revision-Date: 2017-02-09 22:26+0100\n"
+"PO-Revision-Date: 2017-07-18 08:23+0200\n"
 "Last-Translator: Bue Vester-Andersen <bue@vester-andersen.dk>\n"
 "Language-Team: Bue Vester-Andersen <bue@vester-andersen.dk>\n"
 "Language: da\n"
@@ -197,9 +197,8 @@ msgid "Happy face with open mouth"
 msgstr "Glad ansigt med åben mund"
 
 #. Translators: (emoji) A smiling face with smiling eyes and rosy cheeks.
-#, fuzzy
 msgid "Smiling Face With Smiling Eyes"
-msgstr "Vrælende ansigt med sammenknebne øjne"
+msgstr "Smilende ansigt med smilende øjne"
 
 #. Translators: (emoji) smirking face.
 msgid "Smirking face"
@@ -254,9 +253,8 @@ msgid "Kissing face with closed eyes"
 msgstr "Kyssende ansigt med lukkede øjne"
 
 #. Translators: (emoji) Kissing face.
-#, fuzzy
 msgid "Kissing face"
-msgstr "Blinkende ansigt"
+msgstr "Kyssende ansigt"
 
 #. Translators: (emoji) kissing face with arched eyes.
 msgid "Kissing face with arched eyes"
@@ -271,9 +269,8 @@ msgid "Face with stuck out tongue and eyes tightly closed"
 msgstr "Ansigt, der rækker tunge og med lukkede øjne"
 
 #. Translators: (emoji) A cheeky face with stuck out tongue.
-#, fuzzy
 msgid "Face with stuck out tongue"
-msgstr "Blinkende ansigt, der rækker tunge"
+msgstr "Ansigt, der rækker tunge"
 
 #. Translators: (emoji) Hugging Face: a face displayed with an open hands gesture, offering a hug.
 msgid "Hugging face"
@@ -284,14 +281,12 @@ msgid "Flushed face"
 msgstr "Ansigt, der rødmer"
 
 #. Translators: (emoji) Grinning face showing smiling eyes.
-#, fuzzy
 msgid "Grinning Face With Smiling Eyes"
-msgstr "Vrælende ansigt med sammenknebne øjne"
+msgstr "Grinende ansigt med smilende øjne"
 
 #. Translators: (emoji) A pensive, remorseful and saddened face. Quietly considering where things all went wrong.
-#, fuzzy
 msgid "Pensive Face"
-msgstr "Forvirret ansigt"
+msgstr "Tænksomt ansigt"
 
 #. Translators: (emoji) devil with evil smile.
 msgid "Devil with evil smile"
@@ -310,9 +305,8 @@ msgid "Unamused face"
 msgstr "Misfornøjet ansigt"
 
 #. Translators: (emoji) A face with scrunched up and closed eyes, frowning. Used to show helplessness in a situation.
-#, fuzzy
 msgid "Persevering Face"
-msgstr "Sovende ansigt"
+msgstr "Udholdende ansigt"
 
 #. Translators: (emoji) crying face.
 msgid "Crying face"
@@ -343,14 +337,12 @@ msgid "Disappointed but relieved face"
 msgstr "Skuffet men lettet ansigt"
 
 #. Translators: (emoji) Face with a look of concern, with a blue forehead and sweat dripping down the cheek.
-#, fuzzy
 msgid "Face With Open Mouth & Cold Sweat"
-msgstr "Koldsvedende ansigt"
+msgstr "Ansigt med åben mund og koldsved"
 
 #. Translators: (emoji) Happy face with a single drop of sweat on one side of the face.
-#, fuzzy
 msgid "Smiling Face With Open Mouth & Cold Sweat"
-msgstr "Smilende ansigt med åben mund og tæt lukkede øjne"
+msgstr "Smilende ansigt med åben mund og koldsved"
 
 #. Translators: (emoji) face with cold sweat.
 msgid "Face with cold sweat"
@@ -358,10 +350,9 @@ msgstr "Koldsvedende ansigt"
 
 #. Translators: (emoji) A distraught-looking face with  an open mouth and crescent shaped eyes.
 msgid "Weary Face"
-msgstr ""
+msgstr "Træt ansigt"
 
 #. Translators: (emoji) An exhausted-looking face with an open mouth and tightly closed eyes.
-#, fuzzy
 msgid "Tired Face"
 msgstr "Træt ansigt"
 
@@ -383,9 +374,8 @@ msgid "Pouting face"
 msgstr "Surmulende ansigt"
 
 #. Translators: (emoji) A face with air coming out of its nose, huffing with anger face.
-#, fuzzy
 msgid "Face With Steam From Nose"
-msgstr "Ansigt med glædestårer"
+msgstr "Ansigt med damp ud af næsen"
 
 #. Translators: (emoji) confounded face.
 msgid "Confounded face"
@@ -409,7 +399,7 @@ msgstr "Sovende ansigt"
 
 #. Translators: (emoji) A dizzy face, looking sick or confused from being spun around in circles too many times.
 msgid "Dizzy Face"
-msgstr ""
+msgstr "Svimmelt ansigt"
 
 #. Translators: (emoji) astonished face.
 msgid "Astonished face"
@@ -420,18 +410,16 @@ msgid "Worried face"
 msgstr "Bekymret ansigt"
 
 #. Translators: (emoji) Dismayed face with open eyes and open mouth, appear closer to  a frowning face.
-#, fuzzy
 msgid "Frowning Face With Open Mouth"
-msgstr "Glad ansigt med åben mund"
+msgstr "Rynkende ansigt med åben mund"
 
 #. Translators: (emoji) anguished face.
 msgid "Anguished face"
 msgstr "Forpint ansigt"
 
 #. Translators: (emoji) A face with Open Mouth, generally used to represent an element of surprise.
-#, fuzzy
 msgid "Face with Open Mouth"
-msgstr "Glad ansigt med åben mund"
+msgstr "Ansigt med åben mund"
 
 #. Translators: (emoji) grimacing face.
 msgid "Grimacing face"
@@ -442,9 +430,8 @@ msgid "Confused face"
 msgstr "Forvirret ansigt"
 
 #. Translators: (emoji) A face with high eyebrows and an open mouth, it looks more surprised than hushed.
-#, fuzzy
 msgid "Hushed Face"
-msgstr "Ansigt, der rødmer"
+msgstr "Tavst ansigt"
 
 #. Translators: (emoji) broken heart.
 msgid "Broken heart"
@@ -487,57 +474,48 @@ msgid "Blue heart"
 msgstr "Blåt hjerte"
 
 #. Translators: (emoji) This emoji is the version of the phrase ROFL. A person lying on the floor due to an extreme amount of laughter.
-#, fuzzy
 msgid "Rolling on the Floor Laughing"
-msgstr "Ruller rundt på gulvet af grin smiley"
+msgstr "Ruller rundt på gulvet af grin"
 
 #. Translators: (emoji) A face that is a little bit sad, with a slight frown and neutral eyes.
-#, fuzzy
 msgid "Slightly Frowning Face"
-msgstr "Ansigt der smiler en smule"
+msgstr "Ansigt, der rynker en smule"
 
 #. Translators: (emoji) A face that is upside-down.
 msgid "Upside-down Face"
-msgstr ""
+msgstr "Ansigt vendt på hovedet"
 
 #. Translators: (emoji) A face displaying eyes glancing upward.
-#, fuzzy
 msgid "Face With Rolling Eyes"
-msgstr "Ansigt, der sender et kys"
+msgstr "Ansigt med rullende øjne"
 
 #. Translators: (emoji) A person with arms forming an X to indicate no or no good.
-#, fuzzy
 msgid "Person Gesturing No"
-msgstr "Person med rynket pande"
+msgstr "Håndtegn for nej"
 
 #. Translators: (emoji) A person with arms above his head, making an OK sign with the whole body.
-#, fuzzy
 msgid "Person Gesturing OK"
-msgstr "Person med rynket pande"
+msgstr "Håndtegn for OK"
 
 #. Translators: (emoji) A person bowing deeply, express a sincere apology or to request a favour.
-#, fuzzy
 msgid "Person bowing"
-msgstr "Person med rynket pande"
+msgstr "Person, der bukker"
 
 #. Translators: (emoji) An upset person frowning with dismay.
-#, fuzzy
 msgid "Person Frowning"
 msgstr "Person med rynket pande"
 
 #. Translators: (emoji) Two hands placed firmly together.
 msgid "Folded Hands"
-msgstr ""
+msgstr "Foldede hænder"
 
 #. Translators: (emoji) A person with a surgical mask on their face.
-#, fuzzy
 msgid "Face with medical mask"
-msgstr "Koldsvedende ansigt"
+msgstr "Ansigt med ansigtsmaske"
 
 #. Translators: (emoji) A black version of white smiling face.
-#, fuzzy
 msgid "Black Smiling Face"
-msgstr "Ansigt med smørret grin"
+msgstr "Sort smilende ansigt"
 
 #. Translators: (emoji) happy cat face with heart shaped eyes.
 msgid "Happy cat face with heart shaped eyes"
