@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 2.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2014-10-17 05:00+1000\n"
-"PO-Revision-Date: 2017-05-03 11:14+0100\n"
+"PO-Revision-Date: 2017-07-30 19:12+0100\n"
 "Last-Translator: Nikola Jović <wwenikola123@gmail.com>\n"
 "Language-Team: sr\n"
 "Language: sr\n"
@@ -543,7 +543,7 @@ msgstr "Smajli koji se osmehuje"
 
 #. Translators: :( Sad face.
 msgid "Sad face"
-msgstr "atužno lice"
+msgstr "tužno lice"
 
 #. Translators: :D Laugh
 msgid "Laughing smiley"
