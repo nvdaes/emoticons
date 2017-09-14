@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 18:37+0100\n"
-"PO-Revision-Date: 2017-03-31 08:58+0200\n"
+"PO-Revision-Date: 2017-09-09 11:19+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Finnish <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -34,7 +34,7 @@ msgstr "Poista yhteensopimaton lisäosa"
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them?"
-msgstr "Sinulla on tämän lisäosan aiempia asetuksia. Haluatko tuoda ne?"
+msgstr "Tämän lisäosan aiempia asetuksia löytyi. Haluatko tuoda ne?"
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
@@ -790,11 +790,11 @@ msgstr "onnellinen"
 
 #. Translators: (smirk) Smirking
 msgid "smirking smiley"
-msgstr "virnistys"
+msgstr "hymyilee typerästi"
 
 #. Translators: (nod) Nodding
 msgid "nodding smiley"
-msgstr "nyökkäys"
+msgstr "nyökkää"
 
 #. Translators: (shake) Shake
 msgid "shakeing smiley"
