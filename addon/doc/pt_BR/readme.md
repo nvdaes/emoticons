@@ -1,6 +1,6 @@
 # Emoticons #
 
-* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+* Autores: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Baixe a [versão estável][1]
 * Baixe a [versão de desenvolvimento][2]
@@ -13,7 +13,7 @@ example NVDA will recognize the meaning of each emoji.
 
 Pode tirar proveito dos seguintes recursos:
 
-## Insert Emoticon ##
+## Inserir Emoticon ##
 
 Sometimes an image is worth a 1000 words: use the new emoji to liven up your
 instant message and to let your friends know how you’re feeling.
@@ -62,12 +62,12 @@ new key to open Activation settings dialog or Emoticon Dictionary dialog:
 
 * NVDA+E: speaching emoticons on/off, toggles between speaking text as it is
   written, or with the emoticons replaced by the human description.
-* NVDA+I: show a dialog to select an emoticon you want to copy.
+* NVDA+I: mostra um diálogo para selecionar um emoticon que queira copiar.
 
 
-## Changes for 5.0 ##
+## Mudanças na 5.0 ##
 
-* Added support for emojis.
+* Adicionado suporte a emojis.
 * Improvements for Insert Emoticon dialog with a filter field and radio
   buttons to choose displayed emoticons.
 * Using guiHelper for Activation settings dialog and Insert Emoticon dialog:
