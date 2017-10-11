@@ -6,7 +6,7 @@
 
 Using this add-on, spoken text containing emoticon characters will be replaced by its more human friendly description.
 
-For example: the sequence  ":)" will be spoken as "smiling smiley", or for example NVDA will recognize  the meaning of each emoji.
+For example: the sequence ":)" will be spoken as "smiling smiley", or for example NVDA will recognize the meaning of each emoji.
 
 You can take advantage of the following features:
 
@@ -18,11 +18,11 @@ When you are unsure of the characters for a particular smiley, this addon enable
 
 Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
 
-This dialog allows you to choose an emoticon and to view  the emoticons that interest you:
+This dialog allows you to choose an emoticon and to view the emoticons that interest you:
 
 *	An editable field allows you to filter the search for the desired emoticon among the emoticons available.
-*	Through a set of radio buttons, you can choose to view    only emoji category (alt+E) or view only standard emoticon category (alt+s) or view all emoticons available (alt+A).
-*	In the list of emoticons (alt+L) are displayed  on three columns respectively: the name of emoticon, the type of emoticon (standard emoticon or emoji), the  corresponding character.
+*	Through a set of radio buttons, you can choose to view only emoji category (alt+E) or view only standard emoticon category (alt+s) or view all emoticons available (alt+A).
+*	In the list of emoticons (alt+L) are displayed on three columns respectively: the name of emoticon, the type of emoticon (standard emoticon or emoji), the corresponding character.
 
 When you press OK, the characters for the chosen emoticon will be copied to your clipboard, ready for pasting.
 
@@ -30,7 +30,7 @@ When you press OK, the characters for the chosen emoticon will be copied to your
 
 From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can open a dialog setting to add or to edit available emoticons.
 
-This dialog allows you to save an emoticons speech  dictionary  with your customizations.
+This dialog allows you to save an emoticons speech dictionary with your customizations.
 
 Pressing "Save and export dictionary" button, a file dictionary named emoticons.dic will be saved in your user config folder, speechDicts subfolder.
 

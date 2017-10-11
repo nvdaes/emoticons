@@ -1,42 +1,50 @@
 # Emoticons #
 
-* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+* Авторы: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Загрузить [Стабильную версию][1]
 * Загрузить [Разрабатываемую версию][2]
 
-Using this add-on, spoken text containing emoticon characters will be
-replaced by its more human friendly description.
+С помощью этого дополнения, в проговариваеммом тексте, содержащиеся символы
+эмоций будут заменены на их более подробное описание.
 
-For example: the sequence ":)" will be spoken as "smiling smiley", or for
-example NVDA will recognize the meaning of each emoji.
+Например: последовательность ":)" произносится как "улыбающийся смайлик",
+или, например, NVDA будет распознавать значение каждого эмодзи.
 
 Вы можете воспользоваться следующими возможностями:
 
-## Insert Emoticon ##
+## Вставить Смайлик ##
 
-When you are unsure of the characters for a particular smiley, this addon
-enables you to select and insert it into your text such as in a chat.
+Иногда одно изображение стоит тысячу слов: используйте новые смайлики, чтобы
+оживить ваши мгновенные сообщения, и пусть ваши друзья знают, что вы
+чувствуете.
 
-Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
+Когда вы не уверены в знаке для конкретного смайлика, это дополнение
+позволит выбрать и вставить его в текст, например, в чате.
 
-This dialog allows you to choose an emoticon and to view the emoticons that
-interest you:
+Нажмите NVDA+I, или из меню Параметры -> Управление смайликами -> Вставить смайлик, чтобы открыть диалог с предоставленными смайликами или эмодзи.
 
-*	An editable field allows you to filter the search for the desired emoticon
-  among the emoticons available.
-*	Through a set of radio buttons, you can choose to view    only emoji category (alt+E) or view only standard emoticon category (alt+s) or view all emoticons available (alt+A).
-*	In the list of emoticons (alt+L) are displayed  on three columns respectively: the name of emoticon, the type of emoticon (standard emoticon or emoji), the  corresponding character.
+Этот диалог позволяет выбрать смайлик и отобразить смайлики, которые Вас
+интересуют:
 
-When you press OK, the characters for the chosen emoticon will be copied to
-your clipboard, ready for pasting.
+*	Поле редактирования позволяет фильтровать поискк нужного смайлика среди
+  доступных смайликов.
+*	С помощью набора радиокнопок, вы можете выбрать для просмотра только
+  эмодзи (alt+З), только стандартные смайлики (alt+С) или все доступные
+  смайлики (alt+В).
+*	Список смайликов (alt+С) отображается тремя соответствующими столбцами:
+  Имя смайлика, тип смайлика (стандартный или эмодзи), соответствующий
+  символ.
+
+Когда Вы нажмёте ОК, символы выбранного смайлика будут скопированы в буфер
+обмена, готовые к вставке.
 
 ## Настройки смайликов ##
 
-From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can open a dialog setting to add or to edit available emoticons.
+В меню NVDA, Параметры -> Управление смайликами -> Настройка смайликов, можно открыть диалог настроек, чтобы добавить или редактировать имеющиеся смайлики.
 
-This dialog allows you to save an emoticons speech dictionary with your
-customizations.
+Этот диалог позволяет сохранять речевой словарь смайликов с вашими
+настройками.
 
 Нажатие кнопки "Сохранить и экспортировать словарь", сохранит файл словаря с
 именем emoticons.dic в вашей папке Конфигурации Пользователя, во вложенную
@@ -44,26 +52,28 @@ customizations.
 
 ## Настройки активации ##
 
-From menu Preferences -> Manage Emoticons -> Activation settings, you can choose whether to Activate speaking of emoticons when starting NVDA. By default it is disabled.
-It is also possible to save your choice for this setting.
+В меню NVDA, Параметры -> Управление смайликами -> Настройки активации, вы можете выбрать, следует ли активировать проговаривание смайликов при запуске NVDA. По умолчанию это запрещено.
+
+Также возможно сохранить ваш выбор для этой настройки.
 
 ## Комбинации клавиш: ##
 
-These are the key command available by default, you can edit those or add
-new key to open Activation settings dialog or Emoticon Dictionary dialog:
+Это основные команды клавиш, доступные по умолчанию, вы можете изменить
+существующие или добавить новые клавиши для открытия диалогов настройки
+активации и словаря смайликов:
 
-* NVDA+E: переключать между проговариванием текста как написано, или с
-  заменёнными дружескими описаниями.
-* NVDA+I: show a dialog to select an emoticon you want to copy.
+* NVDA+E: проговаривание смайликов вкл/выкл, переключает между проговаривать
+  текст, как написано, или с заменённым дружественным описанием смайликов.
+* NVDA+I: показать диалог выбора смайлика, который вы хотите скопировать.
 
 
-## Changes for 5.0 ##
+## Изменения в версии 5.0 ##
 
-* Added support for emojis.
-* Improvements for Insert Emoticon dialog with a filter field and radio
-  buttons to choose displayed emoticons.
-* Using guiHelper for Activation settings dialog and Insert Emoticon dialog:
-  requires NVDA 2016.4 or higher versions
+* Добавлена поддержка эмодзи.
+* Улучшен диалог Вставка смайлика с помощью поля фильтра и переключателей
+  для выбора отображаемых смайликов.
+* Используется guiHelper для диалогов параметры активации и Вставка
+  смайлика: требуется NVDA 2016.4 или более поздней версии
 
 ## Изменения в версии 4.0 ##
 
@@ -94,6 +104,6 @@ new key to open Activation settings dialog or Emoticon Dictionary dialog:
 
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=emo
 
-[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev

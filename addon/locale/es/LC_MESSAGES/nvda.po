@@ -5,17 +5,17 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: emoticons 5.1\n"
+"Project-Id-Version: emoticons 5.5\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
-"POT-Creation-Date: 2017-01-19 15:58+0100\n"
-"PO-Revision-Date: 2017-01-22 12:33+0100\n"
+"POT-Creation-Date: 2017-02-24 20:19+0100\n"
+"PO-Revision-Date: 2017-04-01 06:45+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: NVDA add-ons translation team <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 1.8.12\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -197,21 +197,21 @@ msgstr "Cara feliz con la boca abierta y los ojos entrecerrados"
 msgid "Happy face with open mouth"
 msgstr "Cara feliz con la boca abierta"
 
-#. Translators: (emoji) happy face with wide mouth and squinting eyes.
-msgid "Happy face with wide mouth and squinting eyes"
-msgstr "Cara feliz con la boca ancha y los ojos entrecerrados"
+#. Translators: (emoji) A smiling face with smiling eyes and rosy cheeks.
+msgid "Smiling Face With Smiling Eyes"
+msgstr "Cara Sonriente Con Los Ojos Risueños"
 
 #. Translators: (emoji) smirking face.
 msgid "Smirking face"
 msgstr "Cara sonriendo de satisfacción"
 
-#. Translators: (emoji) Slightly Smiling Face: a face that is a little bit happy, with a slight smile and neutral eyes.
+#. Translators: (emoji) Slightly Smiling Face: a face that is a little bit happy, with a slight smile and neutral eyes.
 msgid "Slightly smiling face"
 msgstr "Cara ligeramente sonriente"
 
 #. Translators: (emoji) white smiling face.
 msgid "white smiling face"
-msgstr "Cara sonriente esbozado"
+msgstr "cara sonriente blanca"
 
 #. Translators: (emoji) happy face with halo.
 msgid "Happy face with halo"
@@ -219,7 +219,7 @@ msgstr "Cara feliz con aureola"
 
 #. Translators: (emoji) white frowning face.
 msgid "White frowning face"
-msgstr "Cara ceño fruncido esbozado"
+msgstr "Cara fruncida blanca"
 
 #. Translators: (emoji) winking face.
 msgid "Winking face"
@@ -253,9 +253,9 @@ msgstr "Cara lanzando un beso"
 msgid "Kissing face with closed eyes"
 msgstr "Cara besando con los ojos cerrados"
 
-#. Translators: (emoji) kissing face with open eyes.
-msgid "Kissing face with open eyes"
-msgstr "Cara besando con los ojos abiertos"
+#. Translators: (emoji) Kissing face.
+msgid "Kissing face"
+msgstr "Cara besando"
 
 #. Translators: (emoji) kissing face with arched eyes.
 msgid "Kissing face with arched eyes"
@@ -269,9 +269,9 @@ msgstr "Cara guiñando los ojos con la lengua fuera"
 msgid "Face with stuck out tongue and eyes tightly closed"
 msgstr "Cara con la lengua fuera y los ojos firmemente cerrados"
 
-#. Translators: (emoji) face with stuck out tongue and eyes open.
-msgid "Face with stuck out tongue and eyes open"
-msgstr "Cara con la lengua fuera y los ojos abiertos"
+#. Translators: (emoji) A cheeky face with stuck out tongue.
+msgid "Face with stuck out tongue"
+msgstr "Cara con la lengua fuera"
 
 #. Translators: (emoji) Hugging Face: a face displayed with an open hands gesture, offering a hug.
 msgid "Hugging face"
@@ -281,13 +281,13 @@ msgstr "Cara dando un abrazo"
 msgid "Flushed face"
 msgstr "Cara sonrojada"
 
-#. Translators: (emoji) face with clenched teeth.
-msgid "Face with clenched teeth"
-msgstr "Cara con los dientes apretados"
+#. Translators: (emoji) Grinning face showing smiling eyes.
+msgid "Grinning Face With Smiling Eyes"
+msgstr "Cara Sonriente Con Los Ojos Risueños"
 
-#. Translators: (emoji) person frowning.
-msgid "Person frowning"
-msgstr "Persona con el ceño fruncido"
+#. Translators: (emoji) A pensive, remorseful and saddened face. Quietly considering where things all went wrong.
+msgid "Pensive Face"
+msgstr "Cara Pensativa"
 
 #. Translators: (emoji) devil with evil smile.
 msgid "Devil with evil smile"
@@ -305,9 +305,9 @@ msgstr "Cara de alivio"
 msgid "Unamused face"
 msgstr "Cara no divertida"
 
-#. Translators: (emoji) tired face.
-msgid "Tired face"
-msgstr "Cara cansada"
+#. Translators: (emoji) A face with scrunched up and closed eyes, frowning. Used to show helplessness in a situation.
+msgid "Persevering Face"
+msgstr "Cara Perseverante"
 
 #. Translators: (emoji) crying face.
 msgid "Crying face"
@@ -337,25 +337,25 @@ msgstr "Cara decepcionada"
 msgid "Disappointed but relieved face"
 msgstr "Cara decepcionada pero aliviada"
 
-#. Translators: (emoji) exasperated face.
-msgid "Exasperated face"
-msgstr "Cara exasperada"
+#. Translators: (emoji) Face with a look of concern, with a blue forehead and sweat dripping down the cheek.
+msgid "Face With Open Mouth & Cold Sweat"
+msgstr "Cara Con La Boca Abierta & Sudor Frío"
 
-#. Translators: (emoji) happy face with tear-drop.
-msgid "Happy face with teardrop"
-msgstr "Cara feliz con lágrimas"
+#. Translators: (emoji) Happy face with a single drop of sweat on one side of the face.
+msgid "Smiling Face With Open Mouth & Cold Sweat"
+msgstr "Cara Sonriente Con La Boca Abierta & Sudor Frío"
 
 #. Translators: (emoji) face with cold sweat.
 msgid "Face with cold sweat"
 msgstr "Cara con sudor frío"
 
-#. Translators: (emoji) whaling face.
-msgid "Whaling face"
-msgstr "Cara haciendo la ballena"
+#. Translators: (emoji) A distraught-looking face with  an open mouth and crescent shaped eyes.
+msgid "Weary Face"
+msgstr "Cara Hastiada"
 
-#. Translators: (emoji) whaling face with squinting eyes.
-msgid "Whaling face with squinting eyes"
-msgstr "Cara haciendo la ballena con los ojos entrecerrados"
+#. Translators: (emoji) An exhausted-looking face with an open mouth and tightly closed eyes.
+msgid "Tired Face"
+msgstr "Cara Cansada"
 
 #. Translators: (emoji) fearful face.
 msgid "Fearful face"
@@ -374,9 +374,9 @@ msgstr "Cara enfadada"
 msgid "Pouting face"
 msgstr "Cara de abucheo"
 
-#. Translators: (emoji) huffing with anger face.
-msgid "Huffing with anger face"
-msgstr "Cara sufriendo de ira"
+#. Translators: (emoji) A face with air coming out of its nose, huffing with anger face.
+msgid "Face With Steam From Nose"
+msgstr "Cara Exhalando Por La Nariz"
 
 #. Translators: (emoji) confounded face.
 msgid "Confounded face"
@@ -398,9 +398,9 @@ msgstr "Cara feliz con gafas de sol"
 msgid "Sleeping face"
 msgstr "Cara durmiente"
 
-#. Translators: (emoji) very astonished face.
-msgid "Very astonished face"
-msgstr "Cara muy asombrada"
+#. Translators: (emoji) A dizzy face, looking sick or confused from being spun around in circles too many times.
+msgid "Dizzy Face"
+msgstr "Cara Aturdida"
 
 #. Translators: (emoji) astonished face.
 msgid "Astonished face"
@@ -410,17 +410,17 @@ msgstr "Cara asombrada"
 msgid "Worried face"
 msgstr "Cara preocupada"
 
-#. Translators: (emoji) surprised and dismayed face.
-msgid "Surprised and dismayed face"
-msgstr "Cara sorprendida y consternada"
+#. Translators: (emoji) Dismayed face with open eyes and open mouth, appear closer to  a frowning face.
+msgid "Frowning Face With Open Mouth"
+msgstr "Cara Fruncida Con La Boca Abierta"
 
 #. Translators: (emoji) anguished face.
 msgid "Anguished face"
 msgstr "Cara angustiada"
 
-#. Translators: (emoji) open mouth and surprised face.
-msgid "Open mouth and surprised face"
-msgstr "Cara con la boca abierta y sorprendida"
+#. Translators: (emoji) A face with Open Mouth, generally used to represent an element of surprise.
+msgid "Face with Open Mouth"
+msgstr "Cara con la Boca Abierta"
 
 #. Translators: (emoji) grimacing face.
 msgid "Grimacing face"
@@ -430,9 +430,9 @@ msgstr "Cara haciendo una mueca"
 msgid "Confused face"
 msgstr "Cara Confundida"
 
-#. Translators: (emoji) surprised face.
-msgid "Surprised face"
-msgstr "Cara sorprendida"
+#. Translators: (emoji) A face with high eyebrows and an open mouth, it looks more surprised than hushed.
+msgid "Hushed Face"
+msgstr "Cara Enojada"
 
 #. Translators: (emoji) broken heart.
 msgid "Broken heart"
@@ -460,7 +460,7 @@ msgstr "Corazón Purpura"
 
 #. Translators: (emoji) red heart.
 msgid "Red heart"
-msgstr "Corazón rojo\v"
+msgstr "Corazón rojo"
 
 #. Translators: (emoji) yellow heart.
 msgid "Yellow heart"
@@ -473,6 +473,50 @@ msgstr "Corazón verde"
 #. Translators: (emoji) blue heart.
 msgid "Blue heart"
 msgstr "Corazón azul"
+
+#. Translators: (emoji) This emoji is the version of the phrase ROFL. A person lying on the floor due to an extreme amount of laughter.
+msgid "Rolling on the Floor Laughing"
+msgstr "¡Muerto De Risa!"
+
+#. Translators: (emoji) A face that is a little bit sad, with a slight frown and neutral eyes.
+msgid "Slightly Frowning Face"
+msgstr "Cara Ligeramente Fruncida"
+
+#. Translators: (emoji) A face that is upside-down.
+msgid "Upside-down Face"
+msgstr "Cara al Revés"
+
+#. Translators: (emoji) A face displaying eyes glancing upward.
+msgid "Face With Rolling Eyes"
+msgstr "Cara Girando Los Ojos"
+
+#. Translators: (emoji) A person with arms forming an X to indicate no or no good.
+msgid "Person Gesturing No"
+msgstr "Persona haciendo un Gesto Desaprobatorio"
+
+#. Translators: (emoji) A person with arms above his head, making an OK sign with the whole body.
+msgid "Person Gesturing OK"
+msgstr "Persona haciendo un Gesto de Aprobación"
+
+#. Translators: (emoji) A person bowing deeply, express a sincere apology or to request a favour.
+msgid "Person bowing"
+msgstr "Persona haciendo una reverencia"
+
+#. Translators: (emoji) An upset person frowning with dismay.
+msgid "Person Frowning"
+msgstr "Persona Frunciendo El Ceño"
+
+#. Translators: (emoji) Two hands placed firmly together.
+msgid "Folded Hands"
+msgstr "Manos Plegadas"
+
+#. Translators: (emoji) A person with a surgical mask on their face.
+msgid "Face with medical mask"
+msgstr "Cara con máscara médica"
+
+#. Translators: (emoji) A black version of white smiling face.
+msgid "Black Smiling Face"
+msgstr "Cara Sonriente Negra"
 
 #. Translators: (emoji) happy cat face with heart shaped eyes.
 msgid "Happy cat face with heart shaped eyes"
@@ -490,13 +534,13 @@ msgstr "Señal de pulgares hacia arriba"
 msgid "Thumbs down symbol"
 msgstr "Señal de pulgares hacia abajo"
 
-#. Translators: (emoji) Victory Hand
+#. Translators: (emoji) Victory Hand.
 msgid "Victory Hand"
-msgstr "La mano de la victoria"
+msgstr "La Mano de la Victoria"
 
 #. Translators: :) Smile
 msgid "smiling smiley"
-msgstr "cara sonriendo"
+msgstr "cara sonriente"
 
 #. Translators: :( Sad face.
 msgid "Sad face"
@@ -846,6 +890,51 @@ msgid ""
 msgstr ""
 "Habilita el anunciado de nombres de emoticonos en lugar de la representación "
 "de caracteres."
+
+#~ msgid "Happy face with wide mouth and squinting eyes"
+#~ msgstr "Cara feliz con la boca ancha y los ojos entrecerrados"
+
+#~ msgid "Kissing face with open eyes"
+#~ msgstr "Cara besando con los ojos abiertos"
+
+#~ msgid "Face with stuck out tongue and eyes open"
+#~ msgstr "Cara con la lengua fuera y los ojos abiertos"
+
+#~ msgid "Face with clenched teeth"
+#~ msgstr "Cara con los dientes apretados"
+
+#~ msgid "Person frowning"
+#~ msgstr "Persona con el ceño fruncido"
+
+#~ msgid "Tired face"
+#~ msgstr "Cara cansada"
+
+#~ msgid "Exasperated face"
+#~ msgstr "Cara exasperada"
+
+#~ msgid "Happy face with teardrop"
+#~ msgstr "Cara feliz con lágrimas"
+
+#~ msgid "Whaling face"
+#~ msgstr "Cara haciendo la ballena"
+
+#~ msgid "Whaling face with squinting eyes"
+#~ msgstr "Cara haciendo la ballena con los ojos entrecerrados"
+
+#~ msgid "Huffing with anger face"
+#~ msgstr "Cara sufriendo de ira"
+
+#~ msgid "Very astonished face"
+#~ msgstr "Cara muy asombrada"
+
+#~ msgid "Surprised and dismayed face"
+#~ msgstr "Cara sorprendida y consternada"
+
+#~ msgid "Open mouth and surprised face"
+#~ msgstr "Cara con la boca abierta y sorprendida"
+
+#~ msgid "Surprised face"
+#~ msgstr "Cara sorprendida"
 
 #~ msgid "sad smiley"
 #~ msgstr "cara triste"

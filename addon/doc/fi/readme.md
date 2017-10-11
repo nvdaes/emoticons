@@ -14,6 +14,10 @@ Voit hyödyntää seuraavia ominaisuuksia:
 
 ## Lisää hymiö ##
 
+Joskus kuva kertoo enemmän kuin 1000 sanaa: käytä uusia emojeja
+pikaviestiesi elävöittämiseen ja ilmoittaaksesi ystävillesi, miltä sinusta
+tuntuu.
+
 Kun olet epävarma jonkin tietyn hymiön merkeistä, tämän lisäosan avulla voit
 valita ja lisätä ne tekstiisi, kuten esim. chattiin.
 
@@ -24,8 +28,10 @@ sellaisia, jotka sinua kiinnostavat:
 
 *	Muokkauskentän avulla voit suodattaa hakua löytääksesi käytettävissä
   olevien hymiöiden joukosta haluamasi.
-*	Valintapainikkeilla voit valita, näytetäänkö vain emojit (Alt+E), vain tavalliset hymiöt (Alt+I) vai kaikki käytettävissä olevat hymiöt (Alt+A).
-*	Hymiöluettelossa (Alt+H) näytetään kolmessa sarakkeessa hymiön nimi, tyyppi (tavallinen tai emoji) ja vastaavat merkit.
+*	Valintapainikkeilla voit valita, näytetäänkö vain emojit (Alt+E), vain
+  tavalliset hymiöt (Alt+I) vai kaikki käytettävissä olevat hymiöt (Alt+A).
+*	Hymiöluettelossa (Alt+H) näytetään kolmessa sarakkeessa hymiön nimi,
+  tyyppi (tavallinen tai emoji) sekä vastaava merkki.
 
 Kun painat OK, valitun hymiön merkit kopioidaan leikepöydälle, josta voit
 liittää ne haluamaasi paikkaan.
@@ -43,6 +49,7 @@ speechDicts-alikansioon luodaan emoticons.dic-niminen sanastotiedosto.
 ## Käyttöönoton asetukset ##
 
 Voit valita, otetaanko hymiöiden puhuminen käyttöön NVDA:ta käynnistettäessä valitsemalla NVDA-valikosta Asetukset -> Hymiöiden hallinta -> Käyttöönoton asetukset. Tämä ei ole oletusarvoisesti käytössä.
+
 Valitsemasi asetus on myös mahdollista tallentaa.
 
 ## Näppäinkomennot: ##
@@ -50,8 +57,9 @@ Valitsemasi asetus on myös mahdollista tallentaa.
 Nämä ovat oletusnäppäinkomentoja. Voit muokata niitä tai lisätä uuden
 käyttöönottoasetusten valintaikkunan tai hymiösanaston avaamiseen:
 
-* NVDA+E: ottaa käyttöön tekstin lukemisen sellaisena kuin se on kirjoitettu
-  tai hymiöiden korvaamisen niiden kuvauksilla.
+* NVDA+E: hymiöiden puhuminen käyttöön/pois käytöstä - ottaa käyttöön
+  tekstin lukemisen sellaisena kuin se on kirjoitettu tai hymiöiden
+  korvaamisen niiden kuvauksilla.
 * NVDA+I: näyttää valintaikkunan, josta voit valita tekstiin lisättävän
   hymiön.
 
@@ -94,6 +102,6 @@ käyttöönottoasetusten valintaikkunan tai hymiösanaston avaamiseen:
 
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=emo
 
-[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev

@@ -15,6 +15,10 @@ Podes aproveitar as seguintes características:
 
 ## Insertar Emoticón ##
 
+Ás veces unha imaxen vale máis que 1000 palabras: usa o novo emoji para
+animar a túa mensaxe instantánea e para que os teus amigos sepan cómo te
+sintes.
+
 Cando non esteas seguro dos caracteres para un emoticón en particular, este
 complemento capacítache para selecionalos e insertalos no teu texto como nun
 chat.
@@ -26,8 +30,12 @@ interesen:
 
 *	Un campo editable que che permite filtrar a procura do emoticón desexado
   de entre os emoticóns dispoñibles.
-*	A través dun grupo de botóns de opción, podes escoller ver só a categoría emoji (alt+E) ou ver só a categoría de emoticóns estándar (alt+s) ou ver todos os emoticóns dispoñibles (alt+A).
-*	Na lista de emoticóns (alt+L) amósanse en tres columnas respectivamente: os nomes do emoticón, O tipo do emoticón (emoticón estándar ou emoji), e o carácter correspondente.
+*	A través dun grupo de botóns de opción, podes escoller ver só a categoría
+  emoji (alt+E) ou ver só a categoría de emoticonos estándar (alt+s) ou ver
+  todos os emoticonos dispoñibles (alt+A).
+*	Na listaxe de emoticonos (alt+L) amósanse en tres columnas
+  respectivamente: os nomes de emoticono, o tipo de emoticono (emoticono
+  estándar ou emoji), o carácter correspondente.
 
 Cando premas Aceptar, os caracteres para o emoticón escollido copiaranse no
 teu portapapeis, listos para se pegar.
@@ -45,8 +53,9 @@ usuario, subcartafol speechDicts.
 
 ## Opcións de activación ##
 
-Dende o menú Preferencias -> Xestionar Emoticóns -> Opcións de Activación, podes escoller se queres activar a fala dos emoticons ó iniciar NVDA. Por defecto, está desactivado.
-Tamén é posible gardar a túa elección para este axuste.
+Dende o menú NVDA, Preferencias -> Xestionar emoticonos -> Persoalizar emoticonos, podes abrir un diálogo para engadir ou para editar os emoticonos dispoñibles.
+
+Tamén é posible gardar a eleción desta opción.
 
 ## Ordes de teclado: ##
 
@@ -54,8 +63,9 @@ Estas son as teclas de ordes dispoñibles por omisión, podes editalas ou
 engadir teclas novas para abrir o diálogo Opcións de Activación ou o diálogo
 Diccionario de Emoticóns:
 
-* NVDA+E: conmuta entre falar texto como se escrebe, ou cos emoticóns
-  reemplazados pola descripción humána.
+* NVDA+E: activando e desactivando a difusión dos emoticonos, conmuta entre
+  falar texto segundo estea escrito, ou cos emoticonos remprazados pola
+  descripción humana.
 * NVDA+I: amosa un cadro de diálogo para seleccionar un emoticón que queras
   pegar.
 
@@ -97,6 +107,6 @@ Diccionario de Emoticóns:
 
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=emo
 
-[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
