@@ -27,7 +27,6 @@ confspec = {
 }
 
 config.conf.spec["emoticons"] = confspec
-dicFile = os.path.join(os.path.dirname(__file__), "emoticons.dic")
 
 defaultDic = speechDictHandler.SpeechDict()
 sD = speechDictHandler.SpeechDict()
@@ -46,15 +45,24 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	scriptCategory = SCRCAT_SPEECH
 
+	def loadDic(self):
+		profileName = config.conf.profiles[-1].name
+		if profileName is not None:
+			self.dicFile = os.path.join(os.path.dirname(__file__), "profiles", "%s.dic" %profileName)
+		else:
+			self.dicFile = os.path.join(os.path.dirname(__file__), "emoticons.dic")
+		sD.load(self.dicFile)
+		if not os.path.isfile(self.dicFile):
+			sD.extend(defaultDic)
+
 	def handleConfigProfileSwitch(self):
+		deactivateAnnouncement()
+		self.loadDic()
 		if config.conf["emoticons"]["announcement"]:
 			activateAnnouncement()
-		else:
-			deactivateAnnouncement()
 
 	def __init__(self):
 		super(globalPluginHandler.GlobalPlugin, self).__init__()
-		sD.load(dicFile)
 		for em in emoticons:
 			if em.isEmoji:
 				# Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
@@ -66,8 +74,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			otherReplacement = " %s; " % em.name
 			# Case and reg are always True
 			defaultDic.append(speechDictHandler.SpeechDictEntry(em.pattern, otherReplacement, comment, True, speechDictHandler.ENTRY_TYPE_REGEXP))
-		if not os.path.isfile(dicFile):
-			sD.extend(defaultDic)
+		self.loadDic()
 		# Gui
 		self.menu = gui.mainFrame.sysTrayIcon.preferencesMenu
 		self.emMenu = wx.Menu()
