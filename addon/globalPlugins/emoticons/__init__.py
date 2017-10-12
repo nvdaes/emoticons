@@ -1,17 +1,17 @@
 # -*- coding: UTF-8 -*-
-#Copyright (C) 2013-2016 Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez
+#Copyright (C) 2013-2017 Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez
 # Released under GPL 2
 
 import globalPluginHandler
 import globalVars
-import speechDictHandler
+import config
 import os
 import shutil
 import api
+import speechDictHandler
 import ui
 import wx
 import gui
-from gui import guiHelper
 import addonHandler
 from gui.settingsDialogs import SettingsDialog
 from gui.settingsDialogs import DictionaryDialog
@@ -22,50 +22,53 @@ from globalCommands import SCRCAT_SPEECH, SCRCAT_TOOLS, SCRCAT_CONFIG
 
 addonHandler.initTranslation()
 
-# Activation at start
-from logHandler import log
-from cStringIO import StringIO
-from configobj import ConfigObj
-from validate import Validator
+### Constants
+ADDON_DICTS_PATH = os.path.join(os.path.dirname(__file__), "emoticons")
+EXPORT_DICTS_PATH = os.path.join(speechDictHandler.speechDictsPath, "emoticons")
+ADDON_DIC_DEFAULT_FILE = os.path.join(ADDON_DICTS_PATH, "emoticons.dic")
 
-iniFileName = os.path.join(os.path.dirname(__file__), "emoticons.ini")
+confspec = {
+	"announcement": "integer(default=0)",
+	"cleanDicts": "boolean(default=False)",
+}
 
-confspec = ConfigObj(StringIO("""#Configuration file
+config.conf.spec["emoticons"] = confspec
 
-[Activation settings]
-	activateAtStart = integer(default=0)
-"""), encoding="UTF-8", list_values=False)
-confspec.newlines = "\r\n"
-conf = ConfigObj(iniFileName, configspec = confspec, indent_type = "\t", encoding="UTF-8")
-val = Validator()
-conf.validate(val)
-
-dicFile = os.path.join(os.path.dirname(__file__), "emoticons.dic")
 defaultDic = speechDictHandler.SpeechDict()
-sD =speechDictHandler.SpeechDict()
-emStatus = False
-shouldActivateEmoticons = False
+sD = speechDictHandler.SpeechDict()
 
-def activateEmoticons():
-	global emStatus
-	speechDictHandler.dictionaries["temp"].extend(sD)
-	emStatus = True
+def activateAnnouncement():
+	for entry in sD:
+		if not entry in speechDictHandler.dictionaries["temp"]:
+			speechDictHandler.dictionaries["temp"].append(entry)
 
-def deactivateEmoticons():
-	global emStatus
+def deactivateAnnouncement():
 	for entry in sD:
 		if entry in speechDictHandler.dictionaries["temp"]:
 			speechDictHandler.dictionaries["temp"].remove(entry)
-	emStatus = False
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	scriptCategory = SCRCAT_SPEECH
 
+	def loadDic(self):
+		profileName = config.conf.profiles[-1].name
+		if profileName is not None:
+			self.dicFile = os.path.join(ADDON_DICTS_PATH, "profiles", "%s.dic" % profileName)
+		else:
+			self.dicFile = ADDON_DIC_DEFAULT_FILE
+		sD.load(self.dicFile)
+		if not os.path.isfile(self.dicFile):
+			sD.extend(defaultDic)
+
+	def handleConfigProfileSwitch(self):
+		deactivateAnnouncement()
+		self.loadDic()
+		if config.conf["emoticons"]["announcement"]:
+			activateAnnouncement()
+
 	def __init__(self):
 		super(globalPluginHandler.GlobalPlugin, self).__init__()
-		global sD, defaultDic
-		sD.load(dicFile)
 		for em in emoticons:
 			if em.isEmoji:
 				# Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
@@ -77,8 +80,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			otherReplacement = " %s; " % em.name
 			# Case and reg are always True
 			defaultDic.append(speechDictHandler.SpeechDictEntry(em.pattern, otherReplacement, comment, True, speechDictHandler.ENTRY_TYPE_REGEXP))
-		if not os.path.isfile(dicFile):
-			sD.extend(defaultDic)
+		self.loadDic()
 		# Gui
 		self.menu = gui.mainFrame.sysTrayIcon.preferencesMenu
 		self.emMenu = wx.Menu()
@@ -105,26 +107,44 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# Translators: the tooltip text for an item of addon submenu.
 		_("Shows a dialog to choose when emoticons speaking should be activated"))
 		gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onActivateDialog, self.activateItem)
-		if conf["Activation settings"]["activateAtStart"]:
-			activateEmoticons()
+		# Config
+		if config.conf["emoticons"]["announcement"]:
+			activateAnnouncement()
+		try:
+			config.configProfileSwitched.register(self.handleConfigProfileSwitch)
+		except AttributeError:
+			pass
 
 	def terminate(self):
-		deactivateEmoticons()
-		global sD, defaultDic
-		sD = defaultDic = None
 		try:
 			self.menu.RemoveItem(self.mainItem)
-		except wx.PyDeadObjectError:
+		except:
 			pass
+		deactivateAnnouncement()
+		try:
+			config.configProfileSwitched.unregister(self.handleConfigProfileSwitch)
+		except AttributeError:
+			pass
+		if config.conf["emoticons"]["cleanDicts"]:
+			profileNames = config.conf.listProfiles()
+			for (root, dirs, files) in os.walk(os.path.join(ADDON_DICTS_PATH, "profiles")):
+				for file in files:
+					if os.path.splitext(file)[0] in profileNames:
+						continue
+					try:
+						os.remove(os.path.join(root, file))
+					except WindowsError:
+						pass
 
 	def onInsertEmoticonDialog(self, evt):
 		gui.mainFrame._popupSettingsDialog(InsertEmoticonDialog)
 
 	def onEmDicDialog(self, evt):
-		global shouldActivateEmoticons
-		shouldActivateEmoticons = emStatus
-		deactivateEmoticons()
-		gui.mainFrame._popupSettingsDialog(EmDicDialog,_("Emoticons dictionary"), sD)
+		profileName = config.conf.profiles[-1].name
+		# Adapted from NVDA's core.
+		disp = profileName if profileName else translate("(normal configuration)")
+		deactivateAnnouncement()
+		gui.mainFrame._popupSettingsDialog(EmDicDialog,_("Emoticons dictionary (%s)" % disp), sD)
 
 	def onActivateDialog(self, evt):
 		gui.mainFrame._popupSettingsDialog(ActivateEmoticonsDialog)
@@ -132,12 +152,14 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def script_toggleSpeakingEmoticons(self, gesture):
 		if not globalVars.speechDictionaryProcessing:
 			return
-		if emStatus:
-			deactivateEmoticons()
+		if config.conf["emoticons"]["announcement"]:
+			config.conf["emoticons"]["announcement"] = 0
+			deactivateAnnouncement()
 			# Translators: message presented when the dictionary for emoticons is unloaded.
 			ui.message(_("Emoticons off."))
 		else:
-			activateEmoticons()
+			config.conf["emoticons"]["announcement"] = 1
+			activateAnnouncement()
 			# Translators: message presented when the dictionary for emoticons is loaded.
 			ui.message(_("Emoticons on."))
 	# Translators: Message presented in input help mode.
@@ -359,21 +381,22 @@ class EmDicDialog(DictionaryDialog):
 
 	def onOk(self,evt):
 		super(EmDicDialog, self).onOk(evt)
-		global shouldActivateEmoticons
-		if shouldActivateEmoticons:
-			activateEmoticons()
-		shouldActivateEmoticons = False
+		if config.conf["emoticons"]["announcement"]:
+			activateAnnouncement()
 
 	def onCancel(self,evt):
 		super(EmDicDialog, self).onCancel(evt)
-		global shouldActivateEmoticons
-		if shouldActivateEmoticons:
-			activateEmoticons()
-			shouldActivateEmoticons = False
+		if config.conf["emoticons"]["announcement"]:
+			activateAnnouncement()
 
 	def OnExportClick(self, evt):
 		self.onOk(None)
-		sD.save(os.path.join(speechDictHandler.speechDictsPath, "emoticons.dic"))
+		profileName = config.conf.profiles[-1].name
+		if profileName is not None:
+			savePath = os.path.join(EXPORT_DICTS_PATH, "profiles", "%s.dic" % profileName)
+		else:
+			savePath = os.path.join(EXPORT_DICTS_PATH, "emoticons.dic")
+		sD.save(savePath)
 
 class ActivateEmoticonsDialog(SettingsDialog):
 
@@ -383,31 +406,22 @@ class ActivateEmoticonsDialog(SettingsDialog):
 	def makeSettings(self, settingsSizer):
 		sHelper = guiHelper.BoxSizerHelper(self, sizer=settingsSizer)
 		# Translators: The label for a setting in Activate emoticons dialog.
-		activateLabel = _("&Activate speaking of emoticons at start:")
+		activateLabel = _("&Activate speaking of emoticons:")
 		self.activateChoices = (translate("off"), translate("on"))
-		# Translators: a combo box in Emoticons dialog.
 		self.activateList = sHelper.addLabeledControl(activateLabel, wx.Choice, choices=self.activateChoices)
-		self.activateList.Selection = conf["Activation settings"]["activateAtStart"]
-		# Translators: The label for a setting in Activate emoticons dialog to copy activation settings.
-		self.copyActivationCheckBox = sHelper.addItem(wx.CheckBox(self, label=_("&Copy activation settings")))
-		self.copyActivationCheckBox.Value = False
+		self.activateList.Selection = config.conf["emoticons"]["announcement"]
+		# Translators: The label for a setting in Activate emoticons dialog.
+		self.removeCheckBox = sHelper.addItem(wx.CheckBox(self, label=_("&Remove not used dictionaries")))
+		self.removeCheckBox.Value = config.conf["emoticons"]["cleanDicts"]
 
 	def postInit(self):
 		self.activateList.SetFocus()
 
 	def onOk(self,evt):
 		super(ActivateEmoticonsDialog, self).onOk(evt)
-		conf["Activation settings"]["activateAtStart"] = self.activateList.GetSelection()
-		try:
-			conf.validate(val, copy=True)
-			conf.write()
-			log.info("Emoticons add-on configuration saved.")
-		except Exception, e:
-			log.warning("Could not save Emoticons add-on configuration.")
-			log.debugWarning("", exc_info=True)
-			raise e
-		if self.copyActivationCheckBox.GetValue():
-			try:
-				shutil.copy(iniFileName, globalVars.appArgs.configPath)
-			except:
-				pass
+		config.conf["emoticons"]["announcement"] = self.activateList.GetSelection()
+		if config.conf["emoticons"]["announcement"]:
+			activateAnnouncement()
+		else:
+			deactivateAnnouncement()
+		config.conf["emoticons"]["cleanDicts"] = self.removeCheckBox.Value
