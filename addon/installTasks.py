@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-#Copyright (C) 2013-2016 Noelia Ruiz Martínez, other contributors
+#Copyright (C) 2013-2017 Noelia Ruiz Martínez, other contributors
 # Released under GPL2
 
 import config
