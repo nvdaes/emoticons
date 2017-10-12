@@ -32,13 +32,13 @@ From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can 
 
 This dialog allows you to save an emoticons speech dictionary with your customizations.
 
-Pressing "Save and export dictionary" button, a file dictionary named emoticons.dic will be saved in your user config folder, speechDicts subfolder.
+Pressing "Save and export dictionary" button, a dictionary will be saved in your user config folder, speechDicts -> emoticons subfolder. The exact name and location of the dictionary file will be based on the editing configuration profile, which will be shown in the title of the Emoticons dictionary dialog.
 
 ## Activation settings ##
 
 From menu Preferences -> Manage Emoticons -> Activation settings, you can choose whether to Activate speaking of emoticons when starting NVDA. By default it is disabled.
 
-It is also possible to save your choice for this setting.
+It is also possible to choose if dictionaries not used (associated with non existing profiles) will be removed from the add-on when it is unloaded.
 
 ## Key Commands: ##
 
@@ -47,6 +47,11 @@ These are the key command available by default, you can edit those or add new ke
 * NVDA+E: speaching emoticons on/off, toggles between speaking text as it is written, or with the emoticons replaced by the human description.
 * NVDA+I: show a dialog to select an emoticon you want to copy.
 
+## Changes for 7.0 ##
+
+* Added support for configuration profiles.
+* In NVDA 2017.4 or later, the configuration settings and custom dictionaries will change automatically according with the selected profiles. In 2017.3 or earlier, you can apply changes by reloading plugins (pressing control+NVDA+f3).
+* If you choose to import settings when updating the add-on, deprecated files (emoticons.ini and emoticons.dic) will be removed or adapted to this version.
 
 ## Changes for 5.0 ##
 
