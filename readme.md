@@ -28,26 +28,36 @@ When you press OK, the characters for the chosen emoticon will be copied to your
 
 ## Customize emoticons ##
 
+Emoticons add-on allows to have differents speech-dictionaries using configuration profiles.
+
+This means that you can create or edit a specific speech-dictionary for each your custom profile.
+
 From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can open a dialog setting to add or to edit available emoticons.
 
-This dialog allows you to save an emoticons speech dictionary with your customizations.
+Saving your customizations, the new reading settings of emoticons  will only apply to the profile you are currently editing.
 
-Pressing "Save and export dictionary" button, a dictionary will be saved in your user config folder, speechDicts -> emoticons subfolder. The exact name and location of the dictionary file will be based on the editing configuration profile, which will be shown in the title of the Emoticons dictionary dialog.
+For example, you may wish that NVDA spoken custom emoticons only in XxChat program, but not in other chat programs: you can do this by creating a profile for the XxChat application and assign to it a speech  dictionary from Customize Emoticons menu. See below for activation setting in relation to the configuration profiles.
+
+You can also export each custom speech-dictionary pressing "Save and export dictionary" button: in this way your  speech-dictionaries will be saved in your user config folder, speechDicts/emoticons subfolder. 
+
+The exact name and location of the dictionary file will be based on the editing configuration profile, which will be shown in the title of the Emoticons dictionary dialog.
 
 ## Activation settings ##
 
-From menu Preferences -> Manage Emoticons -> Activation settings, you can choose whether to Activate speaking of emoticons when starting NVDA. By default it is disabled.
+From menu Preferences -> Manage Emoticons -> Activation-settings opens a dialog to configure the activation of your speech-dictionaries for each profile.
 
-It is also possible to choose if dictionaries not used (associated with non existing profiles) will be removed from the add-on when it is unloaded.
+In activation-setting dialog you can choose whether or not speech-dictionary should automatically activate when  NVDA switches to the   profile you are currently editing. By default it is disabled in normal configuration of NVDA and in all your new profiles.
+
+If you may wish to keep clean your configuration folders, in this dialog it is also possible to choose if dictionaries not used (associated with non existing profiles) will be removed from the add-on when it is unloaded.
 
 ## Key Commands: ##
 
 These are the key command available by default, you can edit those or add new key to open Activation settings dialog or Emoticon Dictionary dialog:
 
-* NVDA+E: speaching emoticons on/off, toggles between speaking text as it is written, or with the emoticons replaced by the human description.
+* NVDA+E: speaking emoticons on/off, toggles between speaking text as it is written, or with the emoticons replaced by the human description.
 * NVDA+I: show a dialog to select an emoticon you want to copy.
 
-## Changes for 7.0 ##
+## Changes for 6.0 ##
 
 * Added support for configuration profiles.
 * In NVDA 2017.4 or later, the configuration settings and custom dictionaries will change automatically according with the selected profiles. In 2017.3 or earlier, you can apply changes by reloading plugins (pressing control+NVDA+f3).
