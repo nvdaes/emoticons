@@ -54,7 +54,7 @@ If you may wish to keep clean your configuration folders, in this dialog it is a
 
 These are the key command available by default, you can edit those or add new key to open Activation settings dialog or Emoticon Dictionary dialog:
 
-* NVDA+E: speaching emoticons on/off, toggles between speaking text as it is written, or with the emoticons replaced by the human description.
+* NVDA+E: speaking emoticons on/off, toggles between speaking text as it is written, or with the emoticons replaced by the human description.
 * NVDA+I: show a dialog to select an emoticon you want to copy.
 
 ## Changes for 6.0 ##
