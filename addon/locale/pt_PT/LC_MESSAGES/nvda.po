@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 2.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2014-10-17 05:00+1000\n"
-"PO-Revision-Date: 2017-11-09 05:37-0800\n"
+"PO-Revision-Date: 2017-11-10 11:13-0000\n"
 "Last-Translator: Ângelo Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Portuguese <rui.fontes@tiflotecnia.com>\n"
 "Language: pt_PT\n"
@@ -116,7 +116,7 @@ msgstr "&Todos"
 
 #. Translators: A radio button to choose only standard emoticons.
 msgid "&Standard"
-msgstr "&Standard"
+msgstr "&Padrão"
 
 #. Translators: A radio button to choose only emojis.
 msgid "Emoj&is"
@@ -145,7 +145,7 @@ msgstr "Standard"
 
 #. Translators: Error message when none emoticon is selected or the list is empty, and title of the error dialog.
 msgid "There is not any emoticon selected."
-msgstr "Não há nenhum Emoticon seleccionado"
+msgstr "Sem Emoticon seleccionado"
 
 #. Translators: This is the message when smiley has been copied to the clipboard.
 msgid "Smiley copied to clipboard, ready for you to paste."
@@ -157,7 +157,7 @@ msgstr "Impossível copiar o Smiley"
 
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Rese&t"
-msgstr "Rese&t"
+msgstr "Res&taurar"
 
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Save and e&xport dictionary"
@@ -876,3 +876,4 @@ msgstr "Emoticons;"
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid "Enables the announcement of emoticon names instead of the character Representation."
 msgstr "Activa o anúncio dos nomes dos Emoticons em vez da representação dos caracteres;"
+

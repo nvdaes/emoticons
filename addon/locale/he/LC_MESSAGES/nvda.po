@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 4.2\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2015-10-23 05:00+1000\n"
-"PO-Revision-Date: 2017-05-16 13:34+0300\n"
+"PO-Revision-Date: 2017-11-15 12:56+0200\n"
 "Last-Translator: shmuel_naaman@yahoo.com\n"
 "Language-Team: naaman.shmuel@gmail.com\n"
 "Language: he_IL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.2\n"
+"X-Generator: Poedit 2.0.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Translators: the label of a message box dialog.
@@ -55,11 +55,11 @@ msgstr "ניהול הרגשונים"
 
 #. Translators: the tooltip text for addon submenu.
 msgid "Emoticons menu"
-msgstr ";תפריט רגשונים: "
+msgstr "תפריט רגשונים"
 
 #. Translators: the name for an item of addon submenu.
 msgid "&Insert emoticon..."
-msgstr "&הדבקת הרגשון"
+msgstr "&הדבקת הרגשון..."
 
 #. Translators: the tooltip text for an item of addon submenu.
 msgid "Shows a dialog to insert a smiley"
@@ -67,7 +67,7 @@ msgstr "פתיחת תיבת דו-שיח של רגשונים"
 
 #. Translators: the name for an item of addon submenu.
 msgid "&Customize emoticons..."
-msgstr "ה&תאמת רגשונים"
+msgstr "ה&תאמת רגשונים..."
 
 #. Translators: the tooltip text for an item of addon submenu.
 msgid "Shows a dictionary dialog to customize emoticons"
@@ -86,27 +86,27 @@ msgstr "מילון הרגשונים"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
-msgstr "רגשונים לא פעילים"
+msgstr "רגשונים לא פעילים."
 
 #. Translators: message presented when the dictionary for emoticons is loaded.
 msgid "Emoticons on."
-msgstr "רגשונים פעילים"
+msgstr "רגשונים פעילים."
 
 #. Translators: Message presented in input help mode.
 msgid "Toggles on and off the announcement of emoticons."
-msgstr "מיתוג הקראת הרגשונים"
+msgstr "מיתוג הקראת הרגשונים."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
-msgstr "פתיחת תיבת הדו-שיח המאפשר לבחור את הרגשון הרצוי"
+msgstr "פתיחת תיבת הדו-שיח המאפשר לבחור את הרגשון הרצוי."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons dictionary dialog."
-msgstr "מילון הרגשונים"
+msgstr "מילון הרגשונים."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons Activation settings dialog."
-msgstr "יבוא הגדרות תוסף Emoticons"
+msgstr "יבוא הגדרות תוסף Emoticons."
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"
@@ -115,7 +115,7 @@ msgstr "הדבקת הרגשון"
 #. Filter panel.
 #. Translators: A text field to filter emoticons.
 msgid "&Filter:"
-msgstr "מסנן"
+msgstr "מסנן:"
 
 #. Translators: A radio button to choose all types of emoticons.
 msgid "&All"
@@ -152,15 +152,15 @@ msgstr "רגיל"
 
 #. Translators: Error message when none emoticon is selected or the list is empty, and title of the error dialog.
 msgid "There is not any emoticon selected."
-msgstr "לא נבחרו רגשונים"
+msgstr "לא נבחרו רגשונים."
 
 #. Translators: This is the message when smiley has been copied to the clipboard.
 msgid "Smiley copied to clipboard, ready for you to paste."
-msgstr "הרגשון הועתק לזכרון הזמני והוא עתה זמין להדבקה"
+msgstr "הרגשון הועתק לזכרון הזמני והוא עתה זמין להדבקה."
 
 #. Translators: Message when the emoticon couldn't be copied.
 msgid "Cannot copy smiley."
-msgstr "לא ניתן להעתיק את הרגשון"
+msgstr "לא ניתן להעתיק את הרגשון."
 
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Rese&t"
@@ -176,7 +176,7 @@ msgstr "הגדרות הפעלה"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 msgid "&Activate speaking of emoticons at start:"
-msgstr "ה&פעלת הקראת הרגשונים בעת פתיחה"
+msgstr "ה&פעלת הקראת הרגשונים בעת פתיחה:"
 
 #. Translators: The label for a setting in Activate emoticons dialog to copy activation settings.
 msgid "&Copy activation settings"
@@ -188,7 +188,7 @@ msgstr "רגשון מחייך"
 
 #. Translators: (emoji) Happy face with open mouth and squinting eyes.
 msgid "Happy face with open mouth and squinting eyes"
-msgstr "רגשון השמח עם פה פעור ועיינים פוזלות "
+msgstr "רגשון השמח עם פה פעור ועיינים פוזלות"
 
 #. Translators: (emoji) happy face with open mouth.
 msgid "Happy face with open mouth"
@@ -381,11 +381,11 @@ msgstr "רגשון מבולבל"
 
 #. Translators: (emoji) Smiling Face With Open Mouth and Tightly-Closed Eyes.
 msgid "Smiling Face With Open Mouth and Tightly-Closed Eyes"
-msgstr "רגשון מחייך עם פה פתוח ועיינים סגורות "
+msgstr "רגשון מחייך עם פה פתוח ועיינים סגורות"
 
 #. Translators: (emoji) happy face licking lips.
 msgid "Happy face licking lips"
-msgstr "רגשון שמח מלקק את האצבעות "
+msgstr "רגשון שמח מלקק את האצבעות"
 
 #. Translators: (emoji) happy face with sunglasses.
 msgid "Happy face with sunglasses"
@@ -521,7 +521,7 @@ msgstr "רגשון חתול מחייך עם עיניים בצורת לב"
 
 #. Translators: (emoji) ok hand sign.
 msgid "Ok hand sign"
-msgstr "סימן יד מאשרת "
+msgstr "סימן יד מאשרת"
 
 #. Translators: (emoji) thumbs up symbol.
 msgid "Thumbs up symbol"
@@ -704,7 +704,7 @@ msgstr "רגשון מילל"
 
 #. Translators: (puke) Puking
 msgid "puking smiley"
-msgstr "רגשון puking "
+msgstr "רגשון puking"
 
 #. Translators: (doh) Doh!
 msgid "doh! smiley"
@@ -720,7 +720,7 @@ msgstr "רגשון מסיבה"
 
 #. Translators: (mm) Mmmm...
 msgid "mmmmmm... smiley"
-msgstr "רגשון mmmmmm... "
+msgstr "רגשון mmmmmm..."
 
 #. Translators: (nerd) Nerdy
 msgid "nerdy smiley"
@@ -728,7 +728,7 @@ msgstr "רגשון חיוך רחב"
 
 #. Translators: (wave) Hi
 msgid "hi smiley"
-msgstr "רגשון היי!"
+msgstr "רגשון היי"
 
 #. Translators: (facepalm) Facepalm
 msgid "facepalm smiley"
@@ -808,11 +808,11 @@ msgstr "רגשון התרגשות"
 
 #. Translators: (y) Yes
 msgid "yes smiley"
-msgstr "רגשון כן!"
+msgstr "רגשון כן"
 
 #. Translators: (n) no;
 msgid "no smiley"
-msgstr "רגשון לא!"
+msgstr "רגשון לא"
 
 #. Translators: (handshake) Handshake
 msgid "handshake smiley"
@@ -884,7 +884,7 @@ msgstr "רגשונים"
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
-msgstr "מאפשר הקראה של תיאור הרגשונים במקום צורתם הגראפית"
+msgstr "מאפשר הקראה של תיאור הרגשונים במקום צורתם הגראפית."
 
 #~ msgid "Happy face with wide mouth and squinting eyes"
 #~ msgstr "רגשון השמח עם פה חיוך רחבו"
