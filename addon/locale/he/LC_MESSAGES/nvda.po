@@ -31,9 +31,10 @@ msgid "Uninstall incompatible add-on"
 msgstr "מסיר גרסה בלתי מתאימה של תוסף זה"
 
 #. Translators: the label of a message box dialog.
+#, fuzzy
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
-"import them?"
+"import them, removing deprecated files?"
 msgstr "נראה כי קיימות הגדרות ישנות של תוסף זה. האם  ברצונך ליבבא אותן?"
 
 #. Translators: the title of a message box dialog.
@@ -81,7 +82,8 @@ msgstr "ה&גדרות הפעלה..."
 msgid "Shows a dialog to choose when emoticons speaking should be activated"
 msgstr "פתיחת תיבת דו-שיח המגדירה את התנאים להקראת הרגשונים"
 
-msgid "Emoticons dictionary"
+#, fuzzy, python-format
+msgid "Emoticons dictionary (%s)"
 msgstr "מילון הרגשונים"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
@@ -175,12 +177,13 @@ msgid "Activation settings"
 msgstr "הגדרות הפעלה"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
-msgid "&Activate speaking of emoticons at start:"
+#, fuzzy
+msgid "&Activate speaking of emoticons:"
 msgstr "ה&פעלת הקראת הרגשונים בעת פתיחה:"
 
-#. Translators: The label for a setting in Activate emoticons dialog to copy activation settings.
-msgid "&Copy activation settings"
-msgstr "ה&עתקת הגדרות הפעלה"
+#. Translators: The label for a setting in Activate emoticons dialog.
+msgid "&Remove not used dictionaries"
+msgstr ""
 
 #. Translators: (emoji) Grinning face, an happy face with normal eyes.
 msgid "Grinning face"
@@ -885,6 +888,9 @@ msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
 msgstr "מאפשר הקראה של תיאור הרגשונים במקום צורתם הגראפית."
+
+#~ msgid "&Copy activation settings"
+#~ msgstr "ה&עתקת הגדרות הפעלה"
 
 #~ msgid "Happy face with wide mouth and squinting eyes"
 #~ msgstr "רגשון השמח עם פה חיוך רחבו"

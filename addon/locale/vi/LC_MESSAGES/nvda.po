@@ -30,9 +30,10 @@ msgid "Uninstall incompatible add-on"
 msgstr "Đang gỡ add-on không tương thích"
 
 #. Translators: the label of a message box dialog.
+#, fuzzy
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
-"import them?"
+"import them, removing deprecated files?"
 msgstr ""
 "Có vẻ như bạn đã lưu các thiết lập trước đây của add-on này. Bạn có muốn nạp "
 "chúng vào không?"
@@ -84,7 +85,8 @@ msgstr ""
 "Hiển thị một hộp thoại để lựa chọn khi nào thì chế độ nói các biểu tượng cảm "
 "xúc nên được kích hoạt"
 
-msgid "Emoticons dictionary"
+#, fuzzy, python-format
+msgid "Emoticons dictionary (%s)"
 msgstr "Từ điển các biểu tượng cảm xúc"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
@@ -178,12 +180,13 @@ msgid "Activation settings"
 msgstr "Các cài đặt kích hoạt"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
-msgid "&Activate speaking of emoticons at start:"
+#, fuzzy
+msgid "&Activate speaking of emoticons:"
 msgstr "&Kích hoạt chế độ nói các biểu tượng cảm xúc khi khởi động:"
 
-#. Translators: The label for a setting in Activate emoticons dialog to copy activation settings.
-msgid "&Copy activation settings"
-msgstr "&Sao chép các cài đặt kích hoạt"
+#. Translators: The label for a setting in Activate emoticons dialog.
+msgid "&Remove not used dictionaries"
+msgstr ""
 
 #. Translators: (emoji) Grinning face, an happy face with normal eyes.
 msgid "Grinning face"
@@ -888,6 +891,9 @@ msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
 msgstr "Bật chế độ đọc tên biểu tượng cảm xúc thay cho kí tự của nó."
+
+#~ msgid "&Copy activation settings"
+#~ msgstr "&Sao chép các cài đặt kích hoạt"
 
 #~ msgid "Happy face with wide mouth and squinting eyes"
 #~ msgstr "Mặt hạnh phúc với miệng mở rộng và nheo mắt"

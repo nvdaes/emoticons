@@ -30,9 +30,10 @@ msgid "Uninstall incompatible add-on"
 msgstr "Dezinstalare supliment incompatibil"
 
 #. Translators: the label of a message box dialog.
+#, fuzzy
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
-"import them?"
+"import them, removing deprecated files?"
 msgstr ""
 "Se pare că aveți setările anterioare salvate pentru acest supliment. Doriți "
 "să le importați?"
@@ -84,7 +85,8 @@ msgstr ""
 "Arată un dialog pentru a alege când vorbirea emoticoanelor ar trebui să fie "
 "activată"
 
-msgid "Emoticons dictionary"
+#, fuzzy, python-format
+msgid "Emoticons dictionary (%s)"
 msgstr "Dicționar de emoticoane"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
@@ -178,12 +180,13 @@ msgid "Activation settings"
 msgstr "Setări de activare"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
-msgid "&Activate speaking of emoticons at start:"
+#, fuzzy
+msgid "&Activate speaking of emoticons:"
 msgstr "&Activează vorbirea emoticoanelor la pornire:"
 
-#. Translators: The label for a setting in Activate emoticons dialog to copy activation settings.
-msgid "&Copy activation settings"
-msgstr "&Copiază setările de activare"
+#. Translators: The label for a setting in Activate emoticons dialog.
+msgid "&Remove not used dictionaries"
+msgstr ""
 
 #. Translators: (emoji) Grinning face, an happy face with normal eyes.
 msgid "Grinning face"
@@ -890,6 +893,9 @@ msgid ""
 "Representation."
 msgstr ""
 "permite anunțarea numelor emoticoanelor în loc de caracterul de reprezentare."
+
+#~ msgid "&Copy activation settings"
+#~ msgstr "&Copiază setările de activare"
 
 #~ msgid "Happy face with wide mouth and squinting eyes"
 #~ msgstr "Față fericită cu gura largă și ochii cruciși"

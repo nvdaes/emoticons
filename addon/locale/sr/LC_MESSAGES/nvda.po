@@ -31,9 +31,10 @@ msgid "Uninstall incompatible add-on"
 msgstr "Deinstaliraj nekompatibilni dodatak"
 
 #. Translators: the label of a message box dialog.
+#, fuzzy
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
-"import them?"
+"import them, removing deprecated files?"
 msgstr ""
 "Imate prethodno sačuvana podešavanja za ovaj dodatak. Želite li da ih "
 "uvezete?"
@@ -83,7 +84,8 @@ msgstr "Podešavanja &aktivacije..."
 msgid "Shows a dialog to choose when emoticons speaking should be activated"
 msgstr "Prikazuje dijalog za podešavanje aktivacije emotikona"
 
-msgid "Emoticons dictionary"
+#, fuzzy, python-format
+msgid "Emoticons dictionary (%s)"
 msgstr "Spisak emotikona"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
@@ -177,12 +179,13 @@ msgid "Activation settings"
 msgstr "Podešavanja aktivacije"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
-msgid "&Activate speaking of emoticons at start:"
+#, fuzzy
+msgid "&Activate speaking of emoticons:"
 msgstr "&Aktiviraj izgovor emotikona pri pokretanju:"
 
-#. Translators: The label for a setting in Activate emoticons dialog to copy activation settings.
-msgid "&Copy activation settings"
-msgstr "&Kopiraj podešavanja aktivacije"
+#. Translators: The label for a setting in Activate emoticons dialog.
+msgid "&Remove not used dictionaries"
+msgstr ""
 
 #. Translators: (emoji) Grinning face, an happy face with normal eyes.
 msgid "Grinning face"
@@ -887,6 +890,9 @@ msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
 msgstr "Omogućava izgovor naziva emotikona umesto teksta koji ga predstavlja."
+
+#~ msgid "&Copy activation settings"
+#~ msgstr "&Kopiraj podešavanja aktivacije"
 
 #~ msgid "Face with stuck out tongue and eyes open"
 #~ msgstr "Lice koje se plazi otvorenih očiju"
