@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-19 18:53+0100\n"
-"PO-Revision-Date: 2017-07-18 08:23+0200\n"
+"PO-Revision-Date: 2017-12-14 07:02-0800\n"
 "Last-Translator: Bue Vester-Andersen <bue@vester-andersen.dk>\n"
 "Language-Team: Bue Vester-Andersen <bue@vester-andersen.dk>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 1.8.9\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -890,96 +890,3 @@ msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
 msgstr "Annoncering af humørikoner i stedet for de tilsvarende tegn"
-
-#~ msgid "&Copy activation settings"
-#~ msgstr "&Kopier indstillinger for aktivering"
-
-#~ msgid "Happy face with wide mouth and squinting eyes"
-#~ msgstr "Glad ansigt med bred mund og sammenknebne øjne"
-
-#~ msgid "Kissing face with open eyes"
-#~ msgstr "Kyssende ansigt med åbne øjne"
-
-#~ msgid "Face with stuck out tongue and eyes open"
-#~ msgstr "Ansigt, der rækker tunge og med åbne øjne"
-
-#~ msgid "Face with clenched teeth"
-#~ msgstr "Ansigt med sammenbidte tænder"
-
-#~ msgid "Exasperated face"
-#~ msgstr "Rasende ansigt"
-
-#~ msgid "Happy face with teardrop"
-#~ msgstr "Glad ansigt med tåre"
-
-#~ msgid "Whaling face"
-#~ msgstr "Vrælende ansigt"
-
-#~ msgid "Huffing with anger face"
-#~ msgstr "Vredt og fornærmet ansigt"
-
-#~ msgid "Very astonished face"
-#~ msgstr "Meget forbløffet ansigt"
-
-#~ msgid "Surprised and dismayed face"
-#~ msgstr "Overrasket og forfærdet ansigt"
-
-#~ msgid "Open mouth and surprised face"
-#~ msgstr "Overrasket ansigt med åben mund"
-
-#~ msgid "Surprised face"
-#~ msgstr "Overrasket ansigt"
-
-#~ msgid "sad smiley"
-#~ msgstr "Bedrøvet smiley"
-
-#~ msgid "Hangry face"
-#~ msgstr "Vredt ansigt"
-
-#~ msgid "Emoticon: %s"
-#~ msgstr "Humørikon: %s"
-
-#~ msgid "&Insert smiley..."
-#~ msgstr "&Indsæt smiley"
-
-#~ msgid "Available emoticons"
-#~ msgstr "Tilgængelige humørikoner"
-
-#~ msgid "Available smileys to insert:"
-#~ msgstr "Tilgængelige smileys til indsættelse:"
-
-#~ msgid "&Dictionary entries"
-#~ msgstr "Opslagsord i &ordbogen"
-
-#~ msgid "Comment"
-#~ msgstr "Kommentar"
-
-#~ msgid "Pattern"
-#~ msgstr "Mønster"
-
-#~ msgid "Replacement"
-#~ msgstr "Erstatningsord"
-
-#~ msgid "case"
-#~ msgstr "Store/små bogstaver"
-
-#~ msgid "off"
-#~ msgstr "fra"
-
-#~ msgid "on"
-#~ msgstr "til"
-
-#~ msgid "&Add"
-#~ msgstr "&Tilføj"
-
-#~ msgid "&Edit"
-#~ msgstr "&Rediger"
-
-#~ msgid "&Remove"
-#~ msgstr "&Fjern"
-
-#~ msgid "On"
-#~ msgstr "Til"
-
-#~ msgid "Activate at start"
-#~ msgstr "Aktiver ved opstart"

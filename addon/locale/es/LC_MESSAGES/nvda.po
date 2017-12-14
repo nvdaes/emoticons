@@ -5,17 +5,17 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: emoticons 5.5\n"
+"Project-Id-Version: emoticons 6.0\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
-"POT-Creation-Date: 2017-02-24 20:19+0100\n"
-"PO-Revision-Date: 2017-04-01 06:45+0200\n"
+"POT-Creation-Date: 2017-12-07 11:20+0100\n"
+"PO-Revision-Date: 2017-12-14 08:05-0800\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: NVDA add-ons translation team <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.12\n"
+"X-Generator: Poedit 1.8.9\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -30,13 +30,12 @@ msgid "Uninstall incompatible add-on"
 msgstr "Desinstalar complemento incompatible"
 
 #. Translators: the label of a message box dialog.
-#, fuzzy
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them, removing deprecated files?"
 msgstr ""
 "Parece que tienes la configuración previa guardada para este complemento. "
-"¿Quieres importarla?"
+"¿Quieres importarla eliminando los archivos obsoletos?"
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
@@ -85,9 +84,9 @@ msgstr ""
 "Muestra un diálogo para elegir cuándo debería activarse la verbalización de "
 "emoticonos"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Emoticons dictionary (%s)"
-msgstr "Diccionario de Emoticonos"
+msgstr "Diccionario de Emoticonos (%s)"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
@@ -180,13 +179,12 @@ msgid "Activation settings"
 msgstr "Opciones de Activación"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
-#, fuzzy
 msgid "&Activate speaking of emoticons:"
-msgstr "&Activar verbalización de emoticonos al iniciar:"
+msgstr "&Activar la verbalización de emoticonos:"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 msgid "&Remove not used dictionaries"
-msgstr ""
+msgstr "&Eliminar diccionarios no utilizados"
 
 #. Translators: (emoji) Grinning face, an happy face with normal eyes.
 msgid "Grinning face"
@@ -893,106 +891,3 @@ msgid ""
 msgstr ""
 "Habilita el anunciado de nombres de emoticonos en lugar de la representación "
 "de caracteres."
-
-#~ msgid "&Copy activation settings"
-#~ msgstr "&Copiar opciones de activación"
-
-#~ msgid "Happy face with wide mouth and squinting eyes"
-#~ msgstr "Cara feliz con la boca ancha y los ojos entrecerrados"
-
-#~ msgid "Kissing face with open eyes"
-#~ msgstr "Cara besando con los ojos abiertos"
-
-#~ msgid "Face with stuck out tongue and eyes open"
-#~ msgstr "Cara con la lengua fuera y los ojos abiertos"
-
-#~ msgid "Face with clenched teeth"
-#~ msgstr "Cara con los dientes apretados"
-
-#~ msgid "Person frowning"
-#~ msgstr "Persona con el ceño fruncido"
-
-#~ msgid "Tired face"
-#~ msgstr "Cara cansada"
-
-#~ msgid "Exasperated face"
-#~ msgstr "Cara exasperada"
-
-#~ msgid "Happy face with teardrop"
-#~ msgstr "Cara feliz con lágrimas"
-
-#~ msgid "Whaling face"
-#~ msgstr "Cara haciendo la ballena"
-
-#~ msgid "Whaling face with squinting eyes"
-#~ msgstr "Cara haciendo la ballena con los ojos entrecerrados"
-
-#~ msgid "Huffing with anger face"
-#~ msgstr "Cara sufriendo de ira"
-
-#~ msgid "Very astonished face"
-#~ msgstr "Cara muy asombrada"
-
-#~ msgid "Surprised and dismayed face"
-#~ msgstr "Cara sorprendida y consternada"
-
-#~ msgid "Open mouth and surprised face"
-#~ msgstr "Cara con la boca abierta y sorprendida"
-
-#~ msgid "Surprised face"
-#~ msgstr "Cara sorprendida"
-
-#~ msgid "sad smiley"
-#~ msgstr "cara triste"
-
-#, fuzzy
-#~ msgid "Hangry face"
-#~ msgstr "cara Enfadada"
-
-#~ msgid "Emoticon: %s"
-#~ msgstr "Emoticón: %s"
-
-#~ msgid "&Insert smiley..."
-#~ msgstr "&Insertar emoticono..."
-
-#~ msgid "Available emoticons"
-#~ msgstr "Emoticonos disponibles"
-
-#~ msgid "Available smileys to insert:"
-#~ msgstr "Emoticonos disponibles para insertar:"
-
-#~ msgid "&Dictionary entries"
-#~ msgstr "Entradas de &Diccionario"
-
-#~ msgid "Comment"
-#~ msgstr "Comentario"
-
-#~ msgid "Pattern"
-#~ msgstr "Patrónn"
-
-#~ msgid "Replacement"
-#~ msgstr "Reemplazo"
-
-#~ msgid "case"
-#~ msgstr "sensible a mayúsculas"
-
-#~ msgid "off"
-#~ msgstr "desactivado"
-
-#~ msgid "on"
-#~ msgstr "activado"
-
-#~ msgid "&Add"
-#~ msgstr "&Añadir"
-
-#~ msgid "&Edit"
-#~ msgstr "&Editar"
-
-#~ msgid "&Remove"
-#~ msgstr "&Borrar"
-
-#~ msgid "On"
-#~ msgstr "Activado"
-
-#~ msgid "Activate at start"
-#~ msgstr "Activar al inicio"

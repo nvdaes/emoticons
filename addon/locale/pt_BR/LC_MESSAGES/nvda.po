@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 20:13+0100\n"
-"PO-Revision-Date: 2017-09-23 19:36-0300\n"
+"PO-Revision-Date: 2017-12-14 09:07-0800\n"
 "Last-Translator: Cleverson Casarin Uliana <clever97@gmail.com>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
 "<clever97@gmail.com>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.8.9\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. Translators: the label of a message box dialog.
@@ -894,61 +894,3 @@ msgid ""
 msgstr ""
 "Abilita o anúncio dos nomes de emoticons ao invés da representação em "
 "caracteres."
-
-#~ msgid "&Copy activation settings"
-#~ msgstr "&Copiar opções de ativação"
-
-#~ msgid "sad smiley"
-#~ msgstr "triste"
-
-#, fuzzy
-#~ msgid "Hangry face"
-#~ msgstr "furioso"
-
-#~ msgid "Emoticon: %s"
-#~ msgstr "Emoticon: %s"
-
-#~ msgid "&Insert smiley..."
-#~ msgstr "&Inserir cara..."
-
-#~ msgid "Available emoticons"
-#~ msgstr "Emoticons disponíveis"
-
-#~ msgid "Available smileys to insert:"
-#~ msgstr "Caras disponíveis para inserir:"
-
-#~ msgid "&Dictionary entries"
-#~ msgstr "Entradas do &dicionário"
-
-#~ msgid "Comment"
-#~ msgstr "Comentário"
-
-#~ msgid "Pattern"
-#~ msgstr "Expressão"
-
-#~ msgid "Replacement"
-#~ msgstr "Substituto"
-
-#~ msgid "case"
-#~ msgstr "caixa"
-
-#~ msgid "off"
-#~ msgstr "desativado"
-
-#~ msgid "on"
-#~ msgstr "ativado"
-
-#~ msgid "&Add"
-#~ msgstr "&Adicionar"
-
-#~ msgid "&Edit"
-#~ msgstr "&Editar"
-
-#~ msgid "&Remove"
-#~ msgstr "&Remover"
-
-#~ msgid "On"
-#~ msgstr "Ativado"
-
-#~ msgid "Activate at start"
-#~ msgstr "Ativar ao iniciar"

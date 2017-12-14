@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 18:37+0100\n"
-"PO-Revision-Date: 2017-05-07 22:18+0100\n"
+"PO-Revision-Date: 2017-12-14 09:06-0800\n"
 "Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
 "Language-Team: Polish <killer@tyflonet.com>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.8.9\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -30,13 +30,12 @@ msgid "Uninstall incompatible add-on"
 msgstr "Odinstaluj niekompatybilny dodatek"
 
 #. Translators: the label of a message box dialog.
-#, fuzzy
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them, removing deprecated files?"
 msgstr ""
 "Prawdopodobnie posiadasz ustawienia poprzedniej wersji tego dodatku. Czy "
-"chcesz je zaimportować?"
+"chcesz je zaimportować, usuwając przestarzałe pliki?"
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
@@ -84,9 +83,9 @@ msgid "Shows a dialog to choose when emoticons speaking should be activated"
 msgstr ""
 "Wyświetla okno wyboru kiedy wypowiadanie emotikon powinno być aktywowane."
 
-#, fuzzy, python-format
+#, python-format
 msgid "Emoticons dictionary (%s)"
-msgstr "Słownik emotikon"
+msgstr "Słownik emotikonów (%s)"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
@@ -179,13 +178,12 @@ msgid "Activation settings"
 msgstr "Ustawienia aktywacji"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
-#, fuzzy
 msgid "&Activate speaking of emoticons:"
-msgstr "&Aktywuj wypowiadanie emotikon przy starcie:"
+msgstr "&aktywuj wypowiadanie emotykonów:"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 msgid "&Remove not used dictionaries"
-msgstr ""
+msgstr "&Usuń nieużywane słowniki"
 
 #. Translators: (emoji) Grinning face, an happy face with normal eyes.
 msgid "Grinning face"
@@ -890,61 +888,3 @@ msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
 msgstr "Umożliwia oznajmianie nazw emotikon zamiast tworzących je znaków."
-
-#~ msgid "&Copy activation settings"
-#~ msgstr "&Kopiuj ustawienia aktywacji"
-
-#~ msgid "sad smiley"
-#~ msgstr "Buzia smutek"
-
-#, fuzzy
-#~ msgid "Hangry face"
-#~ msgstr "Buzia złość"
-
-#~ msgid "Emoticon: %s"
-#~ msgstr "Emotikon: %s"
-
-#~ msgid "&Insert smiley..."
-#~ msgstr "&Wstaw uśmieszek..."
-
-#~ msgid "Available emoticons"
-#~ msgstr "Dostępne emotikony"
-
-#~ msgid "Available smileys to insert:"
-#~ msgstr "Buźki dostępne do wstawienia:"
-
-#~ msgid "&Dictionary entries"
-#~ msgstr "&Wpisy słownika"
-
-#~ msgid "Comment"
-#~ msgstr "Komentarz"
-
-#~ msgid "Pattern"
-#~ msgstr "Wzorzec"
-
-#~ msgid "Replacement"
-#~ msgstr "Zamiana"
-
-#~ msgid "case"
-#~ msgstr "wielkość liter"
-
-#~ msgid "off"
-#~ msgstr "Wyłączone"
-
-#~ msgid "on"
-#~ msgstr "Włączone"
-
-#~ msgid "&Add"
-#~ msgstr "&Dodaj"
-
-#~ msgid "&Edit"
-#~ msgstr "&Edytuj"
-
-#~ msgid "&Remove"
-#~ msgstr "&Usuń"
-
-#~ msgid "On"
-#~ msgstr "Włączone"
-
-#~ msgid "Activate at start"
-#~ msgstr "Aktywuj przy starcie"

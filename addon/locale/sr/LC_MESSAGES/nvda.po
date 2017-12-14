@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 2.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2014-10-17 05:00+1000\n"
-"PO-Revision-Date: 2017-07-30 19:12+0100\n"
+"PO-Revision-Date: 2017-12-14 09:10-0800\n"
 "Last-Translator: Nikola Jović <wwenikola123@gmail.com>\n"
 "Language-Team: sr\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.8.9\n"
 "X-Poedit-Bookmarks: -1,59,-1,-1,-1,-1,-1,-1,-1,-1\n"
 
 #. Translators: the label of a message box dialog.
@@ -31,13 +31,12 @@ msgid "Uninstall incompatible add-on"
 msgstr "Deinstaliraj nekompatibilni dodatak"
 
 #. Translators: the label of a message box dialog.
-#, fuzzy
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them, removing deprecated files?"
 msgstr ""
 "Imate prethodno sačuvana podešavanja za ovaj dodatak. Želite li da ih "
-"uvezete?"
+"uvezete uklanjajući zastarela podešavanja?"
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
@@ -84,9 +83,9 @@ msgstr "Podešavanja &aktivacije..."
 msgid "Shows a dialog to choose when emoticons speaking should be activated"
 msgstr "Prikazuje dijalog za podešavanje aktivacije emotikona"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Emoticons dictionary (%s)"
-msgstr "Spisak emotikona"
+msgstr "Rečnik emotikona (%s)"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
@@ -179,13 +178,12 @@ msgid "Activation settings"
 msgstr "Podešavanja aktivacije"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
-#, fuzzy
 msgid "&Activate speaking of emoticons:"
-msgstr "&Aktiviraj izgovor emotikona pri pokretanju:"
+msgstr "&Aktiviraj izgovor emotikona :"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 msgid "&Remove not used dictionaries"
-msgstr ""
+msgstr "Ukloni &rečnike koji se ne koriste"
 
 #. Translators: (emoji) Grinning face, an happy face with normal eyes.
 msgid "Grinning face"
@@ -890,75 +888,3 @@ msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
 msgstr "Omogućava izgovor naziva emotikona umesto teksta koji ga predstavlja."
-
-#~ msgid "&Copy activation settings"
-#~ msgstr "&Kopiraj podešavanja aktivacije"
-
-#~ msgid "Face with stuck out tongue and eyes open"
-#~ msgstr "Lice koje se plazi otvorenih očiju"
-
-#~ msgid "Face with clenched teeth"
-#~ msgstr "Lice sa stisnutim zubima"
-
-#~ msgid "Exasperated face"
-#~ msgstr "Ogorčeno lice"
-
-#~ msgid "Happy face with teardrop"
-#~ msgstr "Lice sa suzom"
-
-#~ msgid "Surprised face"
-#~ msgstr "Iznenađen smajli"
-
-#~ msgid "sad smiley"
-#~ msgstr "Tužan smajli"
-
-#~ msgid "Hangry face"
-#~ msgstr "Ljuti smajli"
-
-#~ msgid "Emoticon: %s"
-#~ msgstr "Emotikon: %s"
-
-#~ msgid "&Insert smiley..."
-#~ msgstr "&Ubaci smajli..."
-
-#~ msgid "Available emoticons"
-#~ msgstr "Dostupni emotikoni"
-
-#~ msgid "Available smileys to insert:"
-#~ msgstr "Dostupni smajliji za ubacivanje:"
-
-#~ msgid "&Dictionary entries"
-#~ msgstr "Unosi u &rečniku"
-
-#~ msgid "Comment"
-#~ msgstr "Komentar"
-
-#~ msgid "Pattern"
-#~ msgstr "Šablon"
-
-#~ msgid "Replacement"
-#~ msgstr "Zamena"
-
-#~ msgid "case"
-#~ msgstr "veličina slova"
-
-#~ msgid "off"
-#~ msgstr "isključen"
-
-#~ msgid "on"
-#~ msgstr "uključen"
-
-#~ msgid "&Add"
-#~ msgstr "&Dodaj"
-
-#~ msgid "&Edit"
-#~ msgstr "&Izmeni"
-
-#~ msgid "&Remove"
-#~ msgstr "&Ukloni"
-
-#~ msgid "On"
-#~ msgstr "Uključen"
-
-#~ msgid "Activate at start"
-#~ msgstr "Aktiviraj pri pokretanju"

@@ -39,19 +39,38 @@ međuspremnik, spremni da ih zalijepite.
 
 ## Prilagodi emotikone ##
 
+Dodatak Emotikoni dozvoljava vam da imate različite govorne rječnike za
+korištenje konfiguracijskih profila.
+
+This means that you can create or edit a specific speech-dictionary for each
+your custom profile.
+
 From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can open a dialog setting to add or to edit available emoticons.
 
-Ovaj dijaloški okvir dozvoljava vam da sačuvate govorni rječnik emotikona s
-vašim prilagodbama. 
+Spremanjem vaših prilagodbi, nove postavke za čitanje emotikona će se
+primjenjivati samo za profil koji trenutno uređujete.
 
-Kada pritisnete gumb spremi i uvezi rječnik, datoteka emoticons.dic će biti
-spremljena u vašoj mapi  user config, speechDicts podmapi.
+Primjerice, želite da NVDA izgovara prilagođene emotikone samo u XxChat
+programu, ali ne u drugim programima za čavrljanje: možete kreirati profil
+za XxChat aplikaciju i primijeniti govorni rječnik otvaranjem izbornika
+Prilagodi emotikone.
+
+You can also export each custom speech-dictionary pressing "Save and export
+dictionary" button: in this way your speech-dictionaries will be saved in
+your user config folder, speechDicts/emoticons subfolder.
+
+The exact name and location of the dictionary file will be based on the
+editing configuration profile, which will be shown in the title of the
+Emoticons dictionary dialog.
 
 ## Postavke aktivacije ##
 
-From menu Preferences -> Manage Emoticons -> Activation settings, you can choose whether to Activate speaking of emoticons when starting NVDA. By default it is disabled.
+From menu Preferences -> Manage Emoticons -> Activation-settings opens a dialog to configure the activation of your speech-dictionaries for each profile.
 
-Također možete spremiti svoj odabir za ovo podešenje.
+U dijaloškom okviru aktivacijskih postavki možete izabrati želite li ili ne želite da se govorni rječnik automatski aktivira kad se NVDA prebacuje u profil koji trenutno uređujete. Prema zadanim postavkima, ova opcija je isključena u uobičajenoj konfiguraciji NVDA i svim novim profilima.
+
+Ako želite izbrisati mape s konfiguracijom, možete odabrati da se rječnici
+neće koristiti (nepostojeći profili će biti uklonjeni iz dodatka).
 
 ## Prečaci na tipkovnici: ##
 
@@ -59,10 +78,20 @@ Ovo su zadane tipkovničke kratice, iste možete uređivati ili dodati novu
 kraticu za otvaranje dijaloškog okvira postavki aktivacije ili dijaloški
 okvir rječnika emotikona: 
 
-* NVDA+E: speaching emoticons on/off, toggles between speaking text as it is
+* NVDA+E: speaking emoticons on/off, toggles between speaking text as it is
   written, or with the emoticons replaced by the human description.
 * NVDA+I: show a dialog to select an emoticon you want to copy.
 
+## Changes for 6.0 ##
+
+* Added support for configuration profiles.
+* U NVDA inačici 2017.4 ili novijoj, konfiguracijske postavke i rječnici će
+  se automatski promijeniti u odnosu na odabrane profile. U NVDA inačici
+  2017.3 ili starijoj, možete primijeniti promjene ponovnim učitavanjem
+  dodataka (pritisnite kombinaciju control+NVDA+F3).
+* Ako odlučite uvesti postavke tijekom ažuriranja dodatka, obustavljene
+  datoteke (emoticons.ini i emoticon.dic) bit će obrisane ili prilagođene
+  toj verziji.
 
 ## Changes for 5.0 ##
 
@@ -102,6 +131,6 @@ okvir rječnika emotikona:
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=emo
+[1]: http://addons.nvda-project.org/files/get.php?file=emo
 
-[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev

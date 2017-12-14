@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons'5.3'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: 2017-02-21 15:25+0100\n"
-"PO-Revision-Date: 2017-03-31 10:41+0200\n"
+"PO-Revision-Date: 2017-12-14 09:02-0800\n"
 "Last-Translator: Simone Dal Maso <simone.dalmaso@gmail.com>\n"
 "Language-Team: Translators <LL@li.org>\n"
 "Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 1.8.9\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -892,105 +892,3 @@ msgid ""
 msgstr ""
 "Abilita la lettura del nome dell'emoticon invece della rappresentazione dei "
 "caratteri."
-
-#~ msgid "&Copy activation settings"
-#~ msgstr "&Copia impostazioni di attivazione;"
-
-#~ msgid "Happy face with wide mouth and squinting eyes"
-#~ msgstr " Faccina felice con ampia bocca ed occhi socchiusi"
-
-#~ msgid "Kissing face with open eyes"
-#~ msgstr " Bacio con occhi aperti"
-
-#~ msgid "Face with stuck out tongue and eyes open"
-#~ msgstr " Linguaccia con occhi aperti"
-
-#~ msgid "Face with clenched teeth"
-#~ msgstr " Faccina a denti stretti"
-
-#~ msgid "Exasperated face"
-#~ msgstr " Faccina esasperata"
-
-#~ msgid "Happy face with teardrop"
-#~ msgstr " Faccina felice con una lacrima"
-
-#~ msgid "Whaling face"
-#~ msgstr " Faccina affaticata"
-
-#~ msgid "Whaling face with squinting eyes"
-#~ msgstr "Bacio con occhi aperti"
-
-#~ msgid "Huffing with anger face"
-#~ msgstr " Faccina che sbuffa di rabbia"
-
-#~ msgid "Very astonished face"
-#~ msgstr " Faccina molto stupita"
-
-#~ msgid "Surprised and dismayed face"
-#~ msgstr " Faccina sbigottita"
-
-#~ msgid "Open mouth and surprised face"
-#~ msgstr " Faccina sorpresa a bocca aperta"
-
-#~ msgid "Surprised face"
-#~ msgstr " Faccina sorpresa"
-
-#~ msgid "Error"
-#~ msgstr "Errore"
-
-#~ msgid "sad smiley"
-#~ msgstr "Smiley Triste"
-
-#~ msgid "Hangry face"
-#~ msgstr " Faccina arrabbiata"
-
-#~ msgid "Happy face with normal eyes"
-#~ msgstr "Faccina Felice"
-
-#~ msgid "Emoticon: %s"
-#~ msgstr "Emoticon: %s"
-
-#~ msgid "&Insert smiley..."
-#~ msgstr "&Inserisci uno Smiley"
-
-#~ msgid "Available emoticons"
-#~ msgstr "Emoticon disponibili;"
-
-#~ msgid "Available smileys to insert:"
-#~ msgstr "Emoticon disponibili da inserire"
-
-#~ msgid "&Dictionary entries"
-#~ msgstr "Voci &Dizionario"
-
-#~ msgid "Comment"
-#~ msgstr "Commento:"
-
-#~ msgid "Pattern"
-#~ msgstr "Voce"
-
-#~ msgid "Replacement"
-#~ msgstr "Voce in sostituzione:"
-
-#~ msgid "case"
-#~ msgstr "Sensibile alle maiuscole"
-
-#~ msgid "off"
-#~ msgstr "disattivo"
-
-#~ msgid "on"
-#~ msgstr "attivo"
-
-#~ msgid "&Add"
-#~ msgstr "&Aggiungi"
-
-#~ msgid "&Edit"
-#~ msgstr "&Modifica"
-
-#~ msgid "&Remove"
-#~ msgstr "&Rimuovi"
-
-#~ msgid "On"
-#~ msgstr "Attivo"
-
-#~ msgid "Activate at start"
-#~ msgstr "Attiva all'avvio"

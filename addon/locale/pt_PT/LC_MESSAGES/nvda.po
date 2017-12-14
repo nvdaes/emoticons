@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 2.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2014-10-17 05:00+1000\n"
-"PO-Revision-Date: 2017-12-05 12:15+0000\n"
+"PO-Revision-Date: 2017-12-14 09:07-0800\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA <angelomiguelabrantes@gmail.com; "
 "rui.fontes@tiflotecnia.com>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.1\n"
+"X-Generator: Poedit 1.8.9\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -24,19 +24,19 @@ msgid ""
 "version with this one. Do you want to uninstall the old version?"
 msgstr ""
 "Já Tem instalado o extra de Emoticons, provavelmente uma versão antiga e "
-"incompatível com esta. Deseja remover a versão antiga?"
+"incompatível com esta. Deseja desinstalar a versão antiga?"
 
 #. Translators: the title of a message box dialog.
 msgid "Uninstall incompatible add-on"
-msgstr "Remover o extra incompatível"
+msgstr "Desinstalar o extra incompatível"
 
 #. Translators: the label of a message box dialog.
-#, fuzzy
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them, removing deprecated files?"
 msgstr ""
-"Tem guardadas configurações anteriores para este extra. Quer importá-las?"
+"Parece ter guardadas configurações anteriores para este extra. Deseja "
+"importá-las e apagar ficheiros obsoletos?"
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
@@ -85,9 +85,9 @@ msgstr ""
 "Mostra um diálogo para escolher quando devem ser activadas as verbalizações "
 "dos Emoticons"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Emoticons dictionary (%s)"
-msgstr "Dicionário de Emoticons"
+msgstr "Dicionário de Emoticons (%s)"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
@@ -180,13 +180,12 @@ msgid "Activation settings"
 msgstr "Configurações de activação;"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
-#, fuzzy
 msgid "&Activate speaking of emoticons:"
-msgstr "&Activar a verbalização de Emoticons, no início"
+msgstr "&Activar a verbalização de Emoticons."
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 msgid "&Remove not used dictionaries"
-msgstr ""
+msgstr "&Remover dicionários não utilizados"
 
 #. Translators: (emoji) Grinning face, an happy face with normal eyes.
 msgid "Grinning face"
@@ -893,6 +892,3 @@ msgid ""
 msgstr ""
 "Activa o anúncio dos nomes dos Emoticons em vez da representação dos "
 "caracteres;"
-
-#~ msgid "&Copy activation settings"
-#~ msgstr "&copiar configurações de activação;"

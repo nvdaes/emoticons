@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 4.4\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2016-02-12 05:00+1000\n"
-"PO-Revision-Date: 2017-10-20 09:32+0200\n"
+"PO-Revision-Date: 2017-12-14 09:08-0800\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.8.9\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -893,96 +893,3 @@ msgid ""
 "Representation."
 msgstr ""
 "permite anunțarea numelor emoticoanelor în loc de caracterul de reprezentare."
-
-#~ msgid "&Copy activation settings"
-#~ msgstr "&Copiază setările de activare"
-
-#~ msgid "Happy face with wide mouth and squinting eyes"
-#~ msgstr "Față fericită cu gura largă și ochii cruciși"
-
-#~ msgid "Kissing face with open eyes"
-#~ msgstr "Sărut cu ochii deschiși"
-
-#~ msgid "Face with stuck out tongue and eyes open"
-#~ msgstr "Față cu limba și ochii deschiși"
-
-#~ msgid "Face with clenched teeth"
-#~ msgstr "Față cu dinții încleștați"
-
-#~ msgid "Exasperated face"
-#~ msgstr "Față exasperată"
-
-#~ msgid "Happy face with teardrop"
-#~ msgstr "Față fericită cu teardrop"
-
-#~ msgid "Whaling face"
-#~ msgstr "Vânătoare de balene"
-
-#~ msgid "Huffing with anger face"
-#~ msgstr "Huffing cu fața furiei"
-
-#~ msgid "Very astonished face"
-#~ msgstr "Față foarte uimită"
-
-#~ msgid "Surprised and dismayed face"
-#~ msgstr "Față surprinsă și consternată"
-
-#~ msgid "Open mouth and surprised face"
-#~ msgstr "Gură deschisă și față surprinsă"
-
-#~ msgid "Surprised face"
-#~ msgstr "Surprins"
-
-#~ msgid "sad smiley"
-#~ msgstr "trist"
-
-#~ msgid "Hangry face"
-#~ msgstr "Nervos"
-
-#~ msgid "Emoticon: %s"
-#~ msgstr "Emoticon: %s"
-
-#~ msgid "&Insert smiley..."
-#~ msgstr "&Inserare zâmbet..."
-
-#~ msgid "Available emoticons"
-#~ msgstr "Emoticoane disponibile"
-
-#~ msgid "Available smileys to insert:"
-#~ msgstr "Zâmbete disponibile pentru a insera:"
-
-#~ msgid "&Dictionary entries"
-#~ msgstr "&Intrările din dicționar"
-
-#~ msgid "Comment"
-#~ msgstr "Comentariu"
-
-#~ msgid "Pattern"
-#~ msgstr "Model"
-
-#~ msgid "Replacement"
-#~ msgstr "Înlocuire"
-
-#~ msgid "case"
-#~ msgstr "caz"
-
-#~ msgid "off"
-#~ msgstr "Dezactivat"
-
-#~ msgid "on"
-#~ msgstr "Activat"
-
-#~ msgid "&Add"
-#~ msgstr "&Adaugă"
-
-#~ msgid "&Edit"
-#~ msgstr "&Editează"
-
-#~ msgid "&Remove"
-#~ msgstr "Șterge"
-
-#~ msgid "On"
-#~ msgstr "Activat"
-
-#~ msgid "Activate at start"
-#~ msgstr "Activează la pornire"

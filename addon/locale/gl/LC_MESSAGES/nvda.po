@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 5.5\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 20:13+0100\n"
-"PO-Revision-Date: 2017-04-04 22:01+0100\n"
+"PO-Revision-Date: 2017-12-14 08:57-0800\n"
 "Last-Translator: Juan C. Buño <quetzatl@eresmas.net>\n"
 "Language-Team: NVDA add-ons translation team <LL@li.org>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.11\n"
+"X-Generator: Poedit 1.8.9\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Translators: the label of a message box dialog.
@@ -893,96 +893,3 @@ msgid ""
 msgstr ""
 "Permite o anuncio dos nomes dos emoticóns en lugar da representación de "
 "caracteres."
-
-#~ msgid "&Copy activation settings"
-#~ msgstr "&Copiar opcións de activación"
-
-#~ msgid "Happy face with wide mouth and squinting eyes"
-#~ msgstr "cara leda coa boca ancha e os ollos vesgos"
-
-#~ msgid "Kissing face with open eyes"
-#~ msgstr "Cara bicando cos ollos abertos"
-
-#~ msgid "Face with stuck out tongue and eyes open"
-#~ msgstr "Cara coa lingua fora e os ollos abertos"
-
-#~ msgid "Face with clenched teeth"
-#~ msgstr "Cara cos dentes pechados"
-
-#~ msgid "Exasperated face"
-#~ msgstr "Cara exasperada"
-
-#~ msgid "Happy face with teardrop"
-#~ msgstr "Cara leda con bágoa"
-
-#~ msgid "Whaling face"
-#~ msgstr "Cara cansa"
-
-#~ msgid "Huffing with anger face"
-#~ msgstr "Cara bufando de rabia"
-
-#~ msgid "Very astonished face"
-#~ msgstr "Cara moi asombrada"
-
-#~ msgid "Surprised and dismayed face"
-#~ msgstr "Cara sorprendida e consternada"
-
-#~ msgid "Open mouth and surprised face"
-#~ msgstr "Cara sorprendida e coa boca aberta "
-
-#~ msgid "Surprised face"
-#~ msgstr "cara de sorpresa"
-
-#~ msgid "sad smiley"
-#~ msgstr "cara triste"
-
-#~ msgid "Hangry face"
-#~ msgstr "Cara irritada"
-
-#~ msgid "Emoticon: %s"
-#~ msgstr "Emoticón: %s"
-
-#~ msgid "&Insert smiley..."
-#~ msgstr "&Insertar emoticón..."
-
-#~ msgid "Available emoticons"
-#~ msgstr "Emoticóns dispoñibles"
-
-#~ msgid "Available smileys to insert:"
-#~ msgstr "Emoticóns dispoñibles para se insertar:"
-
-#~ msgid "&Dictionary entries"
-#~ msgstr "Entradas de &Diccionario"
-
-#~ msgid "Comment"
-#~ msgstr "Comentario"
-
-#~ msgid "Pattern"
-#~ msgstr "Patrónn"
-
-#~ msgid "Replacement"
-#~ msgstr "Reemplazo"
-
-#~ msgid "case"
-#~ msgstr "sensible ás maiúsculas"
-
-#~ msgid "off"
-#~ msgstr "desactivado"
-
-#~ msgid "on"
-#~ msgstr "activado"
-
-#~ msgid "&Add"
-#~ msgstr "&Engadir"
-
-#~ msgid "&Edit"
-#~ msgstr "E&ditar"
-
-#~ msgid "&Remove"
-#~ msgstr "&Borrar"
-
-#~ msgid "On"
-#~ msgstr "Activado"
-
-#~ msgid "Activate at start"
-#~ msgstr "Activar ó inicio"

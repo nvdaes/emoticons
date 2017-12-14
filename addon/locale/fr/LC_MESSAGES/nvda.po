@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Emoticons-5.5\n"
+"Project-Id-Version: emoticons 6.0\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
-"POT-Creation-Date: 2017-02-24 20:15+0100\n"
-"PO-Revision-Date: 2017-04-01 06:50+0200\n"
+"POT-Creation-Date: 2017-12-07 11:22+0100\n"
+"PO-Revision-Date: 2017-12-14 08:12-0800\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language: fr_FR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
 "X-Poedit-Basepath: .\n"
-"X-Generator: Poedit 1.8.12\n"
+"X-Generator: Poedit 1.8.9\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #. Translators: the label of a message box dialog.
@@ -29,13 +29,13 @@ msgid "Uninstall incompatible add-on"
 msgstr "Désinstaller le module complémentaire incompatible"
 
 #. Translators: the label of a message box dialog.
-#, fuzzy
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them, removing deprecated files?"
 msgstr ""
 "Vous semblez avoir des paramètres antérieurs enregistrés pour ce module "
-"complémentaire. Voulez-vous les importer ?"
+"complémentaire. Voulez-vous les importer en supprimant les fichiers "
+"obsolètes ?"
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
@@ -85,9 +85,9 @@ msgstr ""
 "Afficher un dialogue pour choisir le moment où l'annonce des frimousses doit "
 "être activée"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Emoticons dictionary (%s)"
-msgstr "Dictionnaire des frimousses"
+msgstr "Dictionnaire des frimousses (%s)"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
@@ -183,13 +183,12 @@ msgid "Activation settings"
 msgstr "Paramètres d'activation"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
-#, fuzzy
 msgid "&Activate speaking of emoticons:"
-msgstr "&Activer l'annonce des frimousses au démarrage :"
+msgstr "&Activer l'annonce des frimousses:"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 msgid "&Remove not used dictionaries"
-msgstr ""
+msgstr "&Supprimer les dictionnaires non utilisés"
 
 #. Translators: (emoji) Grinning face, an happy face with normal eyes.
 msgid "Grinning face"
@@ -896,112 +895,3 @@ msgid ""
 msgstr ""
 "Permettre l'annonce des noms des frimousses au lieu de la représentation des "
 "caractères."
-
-#~ msgid "&Copy activation settings"
-#~ msgstr "&Copier les paramètres d'activation"
-
-#~ msgid "Happy face with wide mouth and squinting eyes"
-#~ msgstr ""
-#~ "Visage content avec la bouche grande ouverte et les yeux qui louchent"
-
-#~ msgid "Kissing face with open eyes"
-#~ msgstr "Visage embrassant avec les yeux ouverts"
-
-#~ msgid "Face with stuck out tongue and eyes open"
-#~ msgstr "visage avec la langue pendante et les yeux ouverts"
-
-#~ msgid "Face with clenched teeth"
-#~ msgstr "Visage avec les dents serrées"
-
-#~ msgid "Person frowning"
-#~ msgstr "Personne fronçant les sourcils"
-
-#~ msgid "Tired face"
-#~ msgstr "Visage fatigué"
-
-#~ msgid "Exasperated face"
-#~ msgstr "Visage exaspéré"
-
-#~ msgid "Happy face with teardrop"
-#~ msgstr "Visage content avec des larmes"
-
-#~ msgid "Whaling face"
-#~ msgstr "Visage faisant la baleine"
-
-#~ msgid "Whaling face with squinting eyes"
-#~ msgstr "Visage faisant la baleine en louchant"
-
-#~ msgid "Huffing with anger face"
-#~ msgstr "Visage vexé et en colère"
-
-#~ msgid "Very astonished face"
-#~ msgstr "Visage très étonné"
-
-#~ msgid "Surprised and dismayed face"
-#~ msgstr "Visage  surpris et désespéré"
-
-#~ msgid "Open mouth and surprised face"
-#~ msgstr "Visage bouche ouverte et surpris"
-
-#~ msgid "Surprised face"
-#~ msgstr "Visage Surpris"
-
-#~ msgid "sad smiley"
-#~ msgstr "frimousse triste"
-
-#~ msgid "Hangry face"
-#~ msgstr "Visage En colère"
-
-#~ msgid "Shows a dialog to insert an smiley"
-#~ msgstr "Affiche un dialogue pour insérer une frimousse"
-
-#~ msgid "Error"
-#~ msgstr "Erreur"
-
-#~ msgid "Emoticon: %s"
-#~ msgstr "Frimousse : %s"
-
-#~ msgid "&Insert smiley..."
-#~ msgstr "&Insérer une frimousse..."
-
-#~ msgid "Available emoticons"
-#~ msgstr "Frimousses disponibles"
-
-#~ msgid "Available smileys to insert:"
-#~ msgstr "Frimousses disponibles à insérer :"
-
-#~ msgid "&Dictionary entries"
-#~ msgstr "&Entrées du dictionnaire"
-
-#~ msgid "Comment"
-#~ msgstr "Commentaire"
-
-#~ msgid "Pattern"
-#~ msgstr "Modèle"
-
-#~ msgid "Replacement"
-#~ msgstr "Remplacement"
-
-#~ msgid "case"
-#~ msgstr "casse"
-
-#~ msgid "off"
-#~ msgstr "désactivé"
-
-#~ msgid "on"
-#~ msgstr "activé"
-
-#~ msgid "&Add"
-#~ msgstr "&Ajouter"
-
-#~ msgid "&Edit"
-#~ msgstr "&Modifier"
-
-#~ msgid "&Remove"
-#~ msgstr "&Supprimer"
-
-#~ msgid "On"
-#~ msgstr "Activé"
-
-#~ msgid "Activate at start"
-#~ msgstr "Activer au démarrage"

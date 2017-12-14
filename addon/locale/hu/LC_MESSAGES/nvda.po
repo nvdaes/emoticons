@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-19 18:53+0100\n"
-"PO-Revision-Date: 2017-05-28 12:51+0100\n"
+"PO-Revision-Date: 2017-12-14 09:03-0800\n"
 "Last-Translator: Ócsvári Áron <oaron1@gmail.com>\n"
 "Language-Team: HU <LL@li.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.8.9\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -897,61 +897,3 @@ msgstr ""
 "A hangulatjel jelentés bemondásának engedélyezése, annak "
 "karakterkombinációja helyett.\n"
 "Nyomja meg az NVDA+e-t a váltáshoz."
-
-#~ msgid "&Copy activation settings"
-#~ msgstr "&Aktiválási beállítások másolása"
-
-#~ msgid "sad smiley"
-#~ msgstr "szomorú arc"
-
-#, fuzzy
-#~ msgid "Hangry face"
-#~ msgstr "mérges arc"
-
-#~ msgid "Emoticon: %s"
-#~ msgstr "Hangulatjel: %s"
-
-#~ msgid "&Insert smiley..."
-#~ msgstr "Hangulatjel b&eszúrása..."
-
-#~ msgid "Available emoticons"
-#~ msgstr "Elérhető hangulatjelek"
-
-#~ msgid "Available smileys to insert:"
-#~ msgstr "Elérhető beszúrható hangulatjelek:"
-
-#~ msgid "&Dictionary entries"
-#~ msgstr "&Szótár bejegyzések"
-
-#~ msgid "Comment"
-#~ msgstr "Megjegyzés"
-
-#~ msgid "Pattern"
-#~ msgstr "Minta"
-
-#~ msgid "Replacement"
-#~ msgstr "Csere"
-
-#~ msgid "case"
-#~ msgstr "Eset"
-
-#~ msgid "off"
-#~ msgstr "Ki"
-
-#~ msgid "on"
-#~ msgstr "Be"
-
-#~ msgid "&Add"
-#~ msgstr "&Hozzáadás"
-
-#~ msgid "&Edit"
-#~ msgstr "&Szerkeztés"
-
-#~ msgid "&Remove"
-#~ msgstr "&Eltávolítás"
-
-#~ msgid "On"
-#~ msgstr "Be"
-
-#~ msgid "Activate at start"
-#~ msgstr "Aktiválás induláskor"
