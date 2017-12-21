@@ -41,16 +41,16 @@
 
 ## Настройки смайликов ##
 
-Emoticons add-on allows to have differents speech-dictionaries using
-configuration profiles.
+Дополнение Emoticons позволяет иметь разные речевые словари, используя
+профили конфигурации.
 
-This means that you can create or edit a specific speech-dictionary for each
-your custom profile.
+Это означает, что вы можете создавать и редактировать конкретный речевой
+словарь для каждого пользовательского профиля.
 
 В меню NVDA, Параметры -> Управление смайликами -> Настройка смайликов, можно открыть диалог настроек, чтобы добавить или редактировать имеющиеся смайлики.
 
-Saving your customizations, the new reading settings of emoticons will only
-apply to the profile you are currently editing.
+При сохранении ваших настроек, новые параметры чтения смайликов будут
+применены только к редактируемому в данный момент профилю.
 
 For example, you may wish that NVDA spoken custom emoticons only in XxChat
 program, but not in other chat programs: you can do this by creating a
@@ -58,9 +58,10 @@ profile for the XxChat application and assign to it a speech dictionary from
 Customize Emoticons menu. See below for activation setting in relation to
 the configuration profiles.
 
-You can also export each custom speech-dictionary pressing "Save and export
-dictionary" button: in this way your speech-dictionaries will be saved in
-your user config folder, speechDicts/emoticons subfolder.
+Вы также можете экспортировать каждый пользовательский речевой словарь,
+нажимая кнопку "Сохранить и экспортировать словарь": в этом случае ваши
+речевые словари будут сохранены в папке конфигурации пользователя, в
+подпапку speechDicts/emoticons.
 
 The exact name and location of the dictionary file will be based on the
 editing configuration profile, which will be shown in the title of the
@@ -68,7 +69,7 @@ Emoticons dictionary dialog.
 
 ## Настройки активации ##
 
-From menu Preferences -> Manage Emoticons -> Activation-settings opens a dialog to configure the activation of your speech-dictionaries for each profile.
+Из меню Параметры -> Управление Смайликами -> Настройки активации открывается диалог для конфигурации активации вашего речевого словаря для каждого профиля.
 
 In activation-setting dialog you can choose whether or not speech-dictionary should automatically activate when  NVDA switches to the   profile you are currently editing. By default it is disabled in normal configuration of NVDA and in all your new profiles.
 
@@ -82,20 +83,20 @@ existing profiles) will be removed from the add-on when it is unloaded.
 существующие или добавить новые клавиши для открытия диалогов настройки
 активации и словаря смайликов:
 
-* NVDA+E: speaking emoticons on/off, toggles between speaking text as it is
-  written, or with the emoticons replaced by the human description.
+* NVDA+E: проговаривание смайликов вкл/выкл, переключает между проговаривать
+  текст, как написано, или с заменённым дружественным описанием смайликов.
 * NVDA+I: показать диалог выбора смайлика, который вы хотите скопировать.
 
-## Changes for 6.0 ##
+## Изменения в версии 6.0 ##
 
-* Added support for configuration profiles.
-* In NVDA 2017.4 or later, the configuration settings and custom
-  dictionaries will change automatically according with the selected
-  profiles. In 2017.3 or earlier, you can apply changes by reloading plugins
-  (pressing control+NVDA+f3).
-* If you choose to import settings when updating the add-on, deprecated
-  files (emoticons.ini and emoticons.dic) will be removed or adapted to this
-  version.
+* Добавлена поддержка профилей конфигурации.
+* В NVDA 2017.4 или позднее, параметры конфигурации и пользовательские
+  словари автоматически изменяются в соответствии с выбранными профилями. В
+  2017.3 или ранее, вам нужно применять изменения с помощью перезагрузки
+  плагинов (нажатие control+NVDA+f3).
+* Если вы выберете импортировать настройки при обновлении дополнения,
+  устаревшие файлы (emoticons.ini и emoticons.dic) будут удалены или
+  приспособлены для этой версии.
 
 ## Изменения в версии 5.0 ##
 

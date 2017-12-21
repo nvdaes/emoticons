@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 20:13+0100\n"
-"PO-Revision-Date: 2017-12-14 07:27-0800\n"
+"PO-Revision-Date: 2017-12-16 23:56+0100\n"
 "Last-Translator: Adriani Botez <adriani.botez@gmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -40,7 +40,7 @@ msgstr ""
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
-msgstr "Einstellungen zur Emoticons-Erweiterung importieren"
+msgstr "Einstellungen importieren"
 
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 #. Translators: Label for emojis in the list.
@@ -82,12 +82,12 @@ msgstr "Einstellungen &übernehmen..."
 #. Translators: the tooltip text for an item of addon submenu.
 msgid "Shows a dialog to choose when emoticons speaking should be activated"
 msgstr ""
-"Zeigt ein Dialogfeld zur Auswahl der Emoticons an, die aktiviert werden "
-"sollen."
+"Zeigt ein Dialogfeld zum Aktivieren oder Deaktivieren der Ansage für "
+"Emoticons an."
 
 #, python-format
 msgid "Emoticons dictionary (%s)"
-msgstr "Emoticons-Liste (%s)"
+msgstr "Emoticons-Wörterbuch (%s)"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
@@ -109,11 +109,11 @@ msgstr ""
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons dictionary dialog."
-msgstr "Zeigt das Dialog des Emoticon-Wörterbuchs"
+msgstr "Zeigt das Dialog des Emoticon-Wörterbuchs an"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons Activation settings dialog."
-msgstr "Zeigt das Dialog der Aktivierungseinstellungen für Emoticons"
+msgstr "Zeigt das Dialog der Aktivierungseinstellungen für Emoticons an"
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"
@@ -181,7 +181,7 @@ msgstr "Wörterbuch speichern und e&xportieren"
 
 #. Translators: this is the label for the Emoticons activate dialog.
 msgid "Activation settings"
-msgstr "Einstellungen übernehmen"
+msgstr "Aktivierungseinstellungen"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 msgid "&Activate speaking of emoticons:"
@@ -189,7 +189,7 @@ msgstr "&Ansagen der Emoticons einschalten:"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 msgid "&Remove not used dictionaries"
-msgstr "&Entferne nicht genutzte Listen"
+msgstr "&Entferne nicht genutzte Wörterbücher"
 
 #. Translators: (emoji) Grinning face, an happy face with normal eyes.
 msgid "Grinning face"
