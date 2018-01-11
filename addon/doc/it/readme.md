@@ -92,9 +92,9 @@ la finestra Personalizza Emoticons e Impostazioni di Attivazione:
 * NVDA+I: visualizza una finestra di dialogo per selezionare un emoticon che
   si desidera copiare negli appunti.
 
-## Changes for 6.0 ##
+## Novità nella versione 6.0 ##
 
-* Added support for configuration profiles.
+* Aggiunto il supporto per i profili di configurazione.
 * In NVDA 2017.4 or later, the configuration settings and custom
   dictionaries will change automatically according with the selected
   profiles. In 2017.3 or earlier, you can apply changes by reloading plugins
