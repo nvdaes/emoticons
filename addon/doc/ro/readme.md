@@ -45,30 +45,30 @@ planșetă, pregătite pentru lipire.
 
 ## Personalizați emoticoanele ##
 
-Emoticons add-on allows to have differents speech-dictionaries using
-configuration profiles.
+Suplimentul Emoticons vă permite să aveți diferite dicționare de vorbire
+folosind profiluri de configurare.
 
-This means that you can create or edit a specific speech-dictionary for each
-your custom profile.
+Aceasta înseamnă că puteți crea sau edita un dicționar de vorbire specific
+pentru fiecare profil personalizat.
 
 Din meniul NVDA, Preferințe, Administrare emoticoane, Personalizează emoticoanele, puteți să deschideți un dialog cu setările unde puteți adăuga sau edita emoticoanle disponibile.
 
-Saving your customizations, the new reading settings of emoticons will only
-apply to the profile you are currently editing.
+Salvându-vă particularizările, noile setări de citire ale emoticoanelor se
+vor aplica numai profilului pe care îl editați în prezent.
 
-For example, you may wish that NVDA spoken custom emoticons only in XxChat
-program, but not in other chat programs: you can do this by creating a
-profile for the XxChat application and assign to it a speech dictionary from
-Customize Emoticons menu. See below for activation setting in relation to
-the configuration profiles.
+De exemplu, ați putea dori ca NVDA să pronunțe emoticoane personalizate
+numai în programul XxChat, dar nu în alte programe de chat: puteți face
+acest lucru creând un profil pentru aplicația XxChat și asignați-i un
+dicționar de vorbire din meniul Personalizați emoticoane. Vedeți mai jos
+setările de activare în raport cu profilurile de configurare.
 
 You can also export each custom speech-dictionary pressing "Save and export
 dictionary" button: in this way your speech-dictionaries will be saved in
 your user config folder, speechDicts/emoticons subfolder.
 
-The exact name and location of the dictionary file will be based on the
-editing configuration profile, which will be shown in the title of the
-Emoticons dictionary dialog.
+Numele exact și locația fișierului de dicționar vor fi bazate pe editarea
+profilului de configurare, care va fi afișat în titlul dialogului dicționar
+Emoticons.
 
 ## Setări de activare ##
 
@@ -76,9 +76,10 @@ From menu Preferences -> Manage Emoticons -> Activation-settings opens a dialog 
 
 In activation-setting dialog you can choose whether or not speech-dictionary should automatically activate when  NVDA switches to the   profile you are currently editing. By default it is disabled in normal configuration of NVDA and in all your new profiles.
 
-If you may wish to keep clean your configuration folders, in this dialog it
-is also possible to choose if dictionaries not used (associated with non
-existing profiles) will be removed from the add-on when it is unloaded.
+Dacă doriți să păstrați curate folderele de configurare, în această
+fereastră de dialog este posibil de asemenea să alegeți dacă dicționarele
+care nu sunt utilizate (asociate profilurilor inexistente) vor fi eliminate
+din supliment atunci când nu sunt încărcate.
 
 ## Comenzi de tastatură ##
 
@@ -94,13 +95,13 @@ setărilor sau dialogul cu dicționarul emoticoanelor:
 ## Changes for 6.0 ##
 
 * Added support for configuration profiles.
-* In NVDA 2017.4 or later, the configuration settings and custom
-  dictionaries will change automatically according with the selected
-  profiles. In 2017.3 or earlier, you can apply changes by reloading plugins
-  (pressing control+NVDA+f3).
-* If you choose to import settings when updating the add-on, deprecated
-  files (emoticons.ini and emoticons.dic) will be removed or adapted to this
-  version.
+* În NVDA 2017.4 sau o versiune ulterioară, setările de configurare și
+  dicționarele personalizate se vor schimba automat acordându-se cu
+  profilurile selectate. În 2017.3 sau mai recent, puteți aplica modificări
+  prin reîncărcarea pluginurilor (apăsând control+ NVDA+f3).
+* Dacă alegeți să importați setări atunci când actualizați suplimentul,
+  fișierele depreciate (emoticons.ini și emoticons.dic) vor fi eliminate sau
+  adaptate la această versiune.
 
 ## Modificări aduse în 5.0 ##
 

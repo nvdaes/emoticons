@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 5.5\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 20:13+0100\n"
-"PO-Revision-Date: 2017-12-14 08:57-0800\n"
+"PO-Revision-Date: 2018-01-29 18:54+0100\n"
 "Last-Translator: Juan C. Buño <quetzatl@eresmas.net>\n"
 "Language-Team: NVDA add-ons translation team <LL@li.org>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 1.6.11\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Translators: the label of a message box dialog.
@@ -31,13 +31,12 @@ msgid "Uninstall incompatible add-on"
 msgstr "Desinstalar complemento incompatible"
 
 #. Translators: the label of a message box dialog.
-#, fuzzy
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them, removing deprecated files?"
 msgstr ""
 "Parece que tes a configuración anterior gardada para este complemento. "
-"¿Queres importala?"
+"¿Queres importala, borrando a deprecada?"
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
@@ -85,9 +84,9 @@ msgid "Shows a dialog to choose when emoticons speaking should be activated"
 msgstr ""
 "Amosa un diálogo para escoller cando debería activarse a fala de emoticóns"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Emoticons dictionary (%s)"
-msgstr "Diccionario de Emoticóns"
+msgstr "Diccionario de Emoticóns (%s)"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
@@ -180,13 +179,12 @@ msgid "Activation settings"
 msgstr "Opcións de Activación"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
-#, fuzzy
 msgid "&Activate speaking of emoticons:"
-msgstr "&Activar fala de emoticóns ó se iniciar:"
+msgstr "&Activar fala de emoticóns:"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 msgid "&Remove not used dictionaries"
-msgstr ""
+msgstr "&Borrar diccionarios non usados"
 
 #. Translators: (emoji) Grinning face, an happy face with normal eyes.
 msgid "Grinning face"
