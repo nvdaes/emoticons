@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 18:37+0100\n"
-"PO-Revision-Date: 2017-09-09 11:19+0200\n"
+"PO-Revision-Date: 2017-12-14 08:51-0800\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Finnish <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.11\n"
+"X-Generator: Poedit 1.8.9\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Translators: the label of a message box dialog.
@@ -33,8 +33,10 @@ msgstr "Poista yhteensopimaton lisäosa"
 #. Translators: the label of a message box dialog.
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
-"import them?"
-msgstr "Tämän lisäosan aiempia asetuksia löytyi. Haluatko tuoda ne?"
+"import them, removing deprecated files?"
+msgstr ""
+"Lisäosan aiempia asetuksia löytyi. Haluatko tuoda ne ja poistaa vanhentuneet "
+"tiedostot?"
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
@@ -63,7 +65,7 @@ msgstr "&Lisää hymiö..."
 
 #. Translators: the tooltip text for an item of addon submenu.
 msgid "Shows a dialog to insert a smiley"
-msgstr "Näyttää valintaikkunan hymiön lisäämiseksi"
+msgstr "Näyttää valintaikkunan hymiön lisäämiseksi."
 
 #. Translators: the name for an item of addon submenu.
 msgid "&Customize emoticons..."
@@ -71,7 +73,7 @@ msgstr "&Mukauta hymiöitä..."
 
 #. Translators: the tooltip text for an item of addon submenu.
 msgid "Shows a dictionary dialog to customize emoticons"
-msgstr "Näyttää sanastovalintaikkunan hymiöiden mukauttamiseksi"
+msgstr "Näyttää sanastovalintaikkunan hymiöiden mukauttamiseksi."
 
 #. Translators: the name for an item of addon submenu.
 msgid "&Activation settings..."
@@ -80,11 +82,12 @@ msgstr "&Käyttöönoton asetukset..."
 #. Translators: the tooltip text for an item of addon submenu.
 msgid "Shows a dialog to choose when emoticons speaking should be activated"
 msgstr ""
-"Näyttää valintaikkunan, josta voidaan valita, koska hymiöiden puhumisen "
-"tulisi olla käytössä"
+"Näyttää valintaikkunan, josta voidaan valita, milloin hymiöiden puhumisen "
+"tulisi olla käytössä."
 
-msgid "Emoticons dictionary"
-msgstr "Hymiösanasto"
+#, python-format
+msgid "Emoticons dictionary (%s)"
+msgstr "Hymiösanasto (%s)"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
@@ -154,7 +157,7 @@ msgstr "Tavallinen"
 
 #. Translators: Error message when none emoticon is selected or the list is empty, and title of the error dialog.
 msgid "There is not any emoticon selected."
-msgstr "Yhtään hymiötä ei ole valittu."
+msgstr "Hymiötä ei ole valittu."
 
 #. Translators: This is the message when smiley has been copied to the clipboard.
 msgid "Smiley copied to clipboard, ready for you to paste."
@@ -177,12 +180,12 @@ msgid "Activation settings"
 msgstr "Käyttöönoton asetukset"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
-msgid "&Activate speaking of emoticons at start:"
-msgstr "&Ota hymiöiden puhuminen käyttöön käynnistettäessä:"
+msgid "&Activate speaking of emoticons:"
+msgstr "&Ota hymiöiden puhuminen käyttöön:"
 
-#. Translators: The label for a setting in Activate emoticons dialog to copy activation settings.
-msgid "&Copy activation settings"
-msgstr "&Kopioi käyttöönoton asetukset"
+#. Translators: The label for a setting in Activate emoticons dialog.
+msgid "&Remove not used dictionaries"
+msgstr "&Poista käyttämättömät sanastot"
 
 #. Translators: (emoji) Grinning face, an happy face with normal eyes.
 msgid "Grinning face"
@@ -887,93 +890,3 @@ msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
 msgstr "Ottaa käyttöön hymiöiden nimien puhumisen niiden merkkien asemesta."
-
-#~ msgid "Happy face with wide mouth and squinting eyes"
-#~ msgstr "Iloiset kasvot suu levällään ja silmät sirrillä"
-
-#~ msgid "Kissing face with open eyes"
-#~ msgstr "suutelevat kasvot silmät auki"
-
-#~ msgid "Face with stuck out tongue and eyes open"
-#~ msgstr "Kieltä näyttävät kasvot silmät auki"
-
-#~ msgid "Face with clenched teeth"
-#~ msgstr "Kasvot yhteenpuristetuin hampain"
-
-#~ msgid "Exasperated face"
-#~ msgstr "Raivoissaan olevat kasvot"
-
-#~ msgid "Happy face with teardrop"
-#~ msgstr "Iloiset kasvot kyynelissä"
-
-#~ msgid "Whaling face"
-#~ msgstr "Valaan kasvot"
-
-#~ msgid "Huffing with anger face"
-#~ msgstr "Kiukkuiset kasvot"
-
-#~ msgid "Very astonished face"
-#~ msgstr "Erittäin hämmästyneet kasvot"
-
-#~ msgid "Surprised and dismayed face"
-#~ msgstr "Yllättyneet ja tyrmistyneet kasvot"
-
-#~ msgid "Open mouth and surprised face"
-#~ msgstr "Yllättyneet kasvot suu auki"
-
-#~ msgid "Surprised face"
-#~ msgstr "Yllättyneet kasvot"
-
-#~ msgid "sad smiley"
-#~ msgstr "surullinen"
-
-#~ msgid "Hangry face"
-#~ msgstr "Nälkäiset ja vihaiset kasvot"
-
-#~ msgid "Emoticon: %s"
-#~ msgstr "Hymiö: %s"
-
-#~ msgid "&Insert smiley..."
-#~ msgstr "&Lisää hymiö..."
-
-#~ msgid "Available emoticons"
-#~ msgstr "Käytettävissä olevat hymiöt"
-
-#~ msgid "Available smileys to insert:"
-#~ msgstr "Lisättävät hymiöt:"
-
-#~ msgid "&Dictionary entries"
-#~ msgstr "&Sanastomääritykset"
-
-#~ msgid "Comment"
-#~ msgstr "Kommentti"
-
-#~ msgid "Pattern"
-#~ msgstr "Korvattava"
-
-#~ msgid "Replacement"
-#~ msgstr "Korvaava"
-
-#~ msgid "case"
-#~ msgstr "kirjainkoko"
-
-#~ msgid "off"
-#~ msgstr "pois"
-
-#~ msgid "on"
-#~ msgstr "käytössä"
-
-#~ msgid "&Add"
-#~ msgstr "&Lisää"
-
-#~ msgid "&Edit"
-#~ msgstr "&Muokkaa"
-
-#~ msgid "&Remove"
-#~ msgstr "&Poista"
-
-#~ msgid "On"
-#~ msgstr "Käytössä"
-
-#~ msgid "Activate at start"
-#~ msgstr "Ota käyttöön käynnistettäessä"

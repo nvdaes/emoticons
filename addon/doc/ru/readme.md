@@ -41,20 +41,41 @@
 
 ## Настройки смайликов ##
 
+Дополнение Emoticons позволяет иметь разные речевые словари, используя
+профили конфигурации.
+
+Это означает, что вы можете создавать и редактировать конкретный речевой
+словарь для каждого пользовательского профиля.
+
 В меню NVDA, Параметры -> Управление смайликами -> Настройка смайликов, можно открыть диалог настроек, чтобы добавить или редактировать имеющиеся смайлики.
 
-Этот диалог позволяет сохранять речевой словарь смайликов с вашими
-настройками.
+При сохранении ваших настроек, новые параметры чтения смайликов будут
+применены только к редактируемому в данный момент профилю.
 
-Нажатие кнопки "Сохранить и экспортировать словарь", сохранит файл словаря с
-именем emoticons.dic в вашей папке Конфигурации Пользователя, во вложенную
-папку speechDicts.
+For example, you may wish that NVDA spoken custom emoticons only in XxChat
+program, but not in other chat programs: you can do this by creating a
+profile for the XxChat application and assign to it a speech dictionary from
+Customize Emoticons menu. See below for activation setting in relation to
+the configuration profiles.
+
+Вы также можете экспортировать каждый пользовательский речевой словарь,
+нажимая кнопку "Сохранить и экспортировать словарь": в этом случае ваши
+речевые словари будут сохранены в папке конфигурации пользователя, в
+подпапку speechDicts/emoticons.
+
+The exact name and location of the dictionary file will be based on the
+editing configuration profile, which will be shown in the title of the
+Emoticons dictionary dialog.
 
 ## Настройки активации ##
 
-В меню NVDA, Параметры -> Управление смайликами -> Настройки активации, вы можете выбрать, следует ли активировать проговаривание смайликов при запуске NVDA. По умолчанию это запрещено.
+Из меню Параметры -> Управление Смайликами -> Настройки активации открывается диалог для конфигурации активации вашего речевого словаря для каждого профиля.
 
-Также возможно сохранить ваш выбор для этой настройки.
+In activation-setting dialog you can choose whether or not speech-dictionary should automatically activate when  NVDA switches to the   profile you are currently editing. By default it is disabled in normal configuration of NVDA and in all your new profiles.
+
+If you may wish to keep clean your configuration folders, in this dialog it
+is also possible to choose if dictionaries not used (associated with non
+existing profiles) will be removed from the add-on when it is unloaded.
 
 ## Комбинации клавиш: ##
 
@@ -66,6 +87,16 @@
   текст, как написано, или с заменённым дружественным описанием смайликов.
 * NVDA+I: показать диалог выбора смайлика, который вы хотите скопировать.
 
+## Изменения в версии 6.0 ##
+
+* Добавлена поддержка профилей конфигурации.
+* В NVDA 2017.4 или позднее, параметры конфигурации и пользовательские
+  словари автоматически изменяются в соответствии с выбранными профилями. В
+  2017.3 или ранее, вам нужно применять изменения с помощью перезагрузки
+  плагинов (нажатие control+NVDA+f3).
+* Если вы выберете импортировать настройки при обновлении дополнения,
+  устаревшие файлы (emoticons.ini и emoticons.dic) будут удалены или
+  приспособлены для этой версии.
 
 ## Изменения в версии 5.0 ##
 
@@ -104,6 +135,6 @@
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=emo
+[1]: http://addons.nvda-project.org/files/get.php?file=emo
 
-[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev

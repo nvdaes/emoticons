@@ -45,22 +45,41 @@ planșetă, pregătite pentru lipire.
 
 ## Personalizați emoticoanele ##
 
+Suplimentul Emoticons vă permite să aveți diferite dicționare de vorbire
+folosind profiluri de configurare.
+
+Aceasta înseamnă că puteți crea sau edita un dicționar de vorbire specific
+pentru fiecare profil personalizat.
+
 Din meniul NVDA, Preferințe, Administrare emoticoane, Personalizează emoticoanele, puteți să deschideți un dialog cu setările unde puteți adăuga sau edita emoticoanle disponibile.
 
-Acest dialog vă permite să salvați un dicționar de vorbire al emoticoanelor
-cu personalizările dumneavoastră.
+Salvându-vă particularizările, noile setări de citire ale emoticoanelor se
+vor aplica numai profilului pe care îl editați în prezent.
 
-Apăsând butonul "Salvare și exportare dicționar", un fișier numit
-emoticons.dic va fi salvat în folderul de configurare al utilizatorului, în
-sub-folderul speechDicts.
+De exemplu, ați putea dori ca NVDA să pronunțe emoticoane personalizate
+numai în programul XxChat, dar nu în alte programe de chat: puteți face
+acest lucru creând un profil pentru aplicația XxChat și asignați-i un
+dicționar de vorbire din meniul Personalizați emoticoane. Vedeți mai jos
+setările de activare în raport cu profilurile de configurare.
+
+You can also export each custom speech-dictionary pressing "Save and export
+dictionary" button: in this way your speech-dictionaries will be saved in
+your user config folder, speechDicts/emoticons subfolder.
+
+Numele exact și locația fișierului de dicționar vor fi bazate pe editarea
+profilului de configurare, care va fi afișat în titlul dialogului dicționar
+Emoticons.
 
 ## Setări de activare ##
 
-Din meniul Preferințe -> Gestionare Emoticoane ->, puteți alege dacă să activați rostirea emoticonurilor la pornirea NVDA. În mod implicit este dezactivată.
-De asemenea, puteți să salvați alegerea pentru această setare.
+From menu Preferences -> Manage Emoticons -> Activation-settings opens a dialog to configure the activation of your speech-dictionaries for each profile.
 
-De asemenea este posibilă salvarea alegerii dumneavoastră pentru această
-setare.
+In activation-setting dialog you can choose whether or not speech-dictionary should automatically activate when  NVDA switches to the   profile you are currently editing. By default it is disabled in normal configuration of NVDA and in all your new profiles.
+
+Dacă doriți să păstrați curate folderele de configurare, în această
+fereastră de dialog este posibil de asemenea să alegeți dacă dicționarele
+care nu sunt utilizate (asociate profilurilor inexistente) vor fi eliminate
+din supliment atunci când nu sunt încărcate.
 
 ## Comenzi de tastatură ##
 
@@ -68,12 +87,21 @@ Acestea sunt scurtăturile disponibile în mod implicit, puteți să le editați
 sau puteți adăuga o nouă tastă pentru a deschide dialogul cu activarea
 setărilor sau dialogul cu dicționarul emoticoanelor:
 
-* NVDA + E: activarea/dezactivarea pronunțării emoticoanelor, comută între
-  pronunțarea textului așa cum este scris, sau cu emoticoanele înlocuite cu
-  descrierea umană.
+* NVDA+E: speaking emoticons on/off, toggles between speaking text as it is
+  written, or with the emoticons replaced by the human description.
 * NVDA+I: Arată un dialog pentru a selecta emoticonul pe care vreți să îl
   copiați.
 
+## Changes for 6.0 ##
+
+* Added support for configuration profiles.
+* În NVDA 2017.4 sau o versiune ulterioară, setările de configurare și
+  dicționarele personalizate se vor schimba automat acordându-se cu
+  profilurile selectate. În 2017.3 sau mai recent, puteți aplica modificări
+  prin reîncărcarea pluginurilor (apăsând control+ NVDA+f3).
+* Dacă alegeți să importați setări atunci când actualizați suplimentul,
+  fișierele depreciate (emoticons.ini și emoticons.dic) vor fi eliminate sau
+  adaptate la această versiune.
 
 ## Modificări aduse în 5.0 ##
 
@@ -112,6 +140,6 @@ setărilor sau dialogul cu dicționarul emoticoanelor:
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=emo
+[1]: http://addons.nvda-project.org/files/get.php?file=emo
 
-[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev

@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-19 18:53+0100\n"
-"PO-Revision-Date: 2017-05-28 12:51+0100\n"
+"PO-Revision-Date: 2017-12-14 09:03-0800\n"
 "Last-Translator: Ócsvári Áron <oaron1@gmail.com>\n"
 "Language-Team: HU <LL@li.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.8.9\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -31,9 +31,10 @@ msgid "Uninstall incompatible add-on"
 msgstr "A nem kompatibilis bővítmény eltávolítása"
 
 #. Translators: the label of a message box dialog.
+#, fuzzy
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
-"import them?"
+"import them, removing deprecated files?"
 msgstr ""
 "Úgy tűnik, hogy már vannak korábban elmentett beállításai ehhez a "
 "bővítményhez. Szeretné őket importálni?"
@@ -85,7 +86,8 @@ msgstr ""
 "Megjelenít egy párbeszédablakot, melyben kiválaszthatja, hogy mely "
 "hangulatjel bemondása legyen aktív"
 
-msgid "Emoticons dictionary"
+#, fuzzy, python-format
+msgid "Emoticons dictionary (%s)"
 msgstr "Hangulatjelszótár"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
@@ -181,12 +183,13 @@ msgid "Activation settings"
 msgstr "Aktiválási beállítások"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
-msgid "&Activate speaking of emoticons at start:"
+#, fuzzy
+msgid "&Activate speaking of emoticons:"
 msgstr "&Hangulatjel bemondás aktiválása induláskor:"
 
-#. Translators: The label for a setting in Activate emoticons dialog to copy activation settings.
-msgid "&Copy activation settings"
-msgstr "&Aktiválási beállítások másolása"
+#. Translators: The label for a setting in Activate emoticons dialog.
+msgid "&Remove not used dictionaries"
+msgstr ""
 
 #. Translators: (emoji) Grinning face, an happy face with normal eyes.
 msgid "Grinning face"
@@ -894,58 +897,3 @@ msgstr ""
 "A hangulatjel jelentés bemondásának engedélyezése, annak "
 "karakterkombinációja helyett.\n"
 "Nyomja meg az NVDA+e-t a váltáshoz."
-
-#~ msgid "sad smiley"
-#~ msgstr "szomorú arc"
-
-#, fuzzy
-#~ msgid "Hangry face"
-#~ msgstr "mérges arc"
-
-#~ msgid "Emoticon: %s"
-#~ msgstr "Hangulatjel: %s"
-
-#~ msgid "&Insert smiley..."
-#~ msgstr "Hangulatjel b&eszúrása..."
-
-#~ msgid "Available emoticons"
-#~ msgstr "Elérhető hangulatjelek"
-
-#~ msgid "Available smileys to insert:"
-#~ msgstr "Elérhető beszúrható hangulatjelek:"
-
-#~ msgid "&Dictionary entries"
-#~ msgstr "&Szótár bejegyzések"
-
-#~ msgid "Comment"
-#~ msgstr "Megjegyzés"
-
-#~ msgid "Pattern"
-#~ msgstr "Minta"
-
-#~ msgid "Replacement"
-#~ msgstr "Csere"
-
-#~ msgid "case"
-#~ msgstr "Eset"
-
-#~ msgid "off"
-#~ msgstr "Ki"
-
-#~ msgid "on"
-#~ msgstr "Be"
-
-#~ msgid "&Add"
-#~ msgstr "&Hozzáadás"
-
-#~ msgid "&Edit"
-#~ msgstr "&Szerkeztés"
-
-#~ msgid "&Remove"
-#~ msgstr "&Eltávolítás"
-
-#~ msgid "On"
-#~ msgstr "Be"
-
-#~ msgid "Activate at start"
-#~ msgstr "Aktiválás induláskor"

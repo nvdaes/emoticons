@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 20:13+0100\n"
-"PO-Revision-Date: 2017-04-01 10:13+0530\n"
+"PO-Revision-Date: 2017-12-16 11:38+0530\n"
 "Last-Translator: DINAKAR T.D. <td.dinkar@gmail.com>\n"
 "Language-Team: DINAKAR T.D. <td.dinkar@gmail.com>\n"
-"Language: Tamil\n"
+"Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -32,10 +32,10 @@ msgstr "பொருந்தாத கூட்டுறுப்பு நி�
 #. Translators: the label of a message box dialog.
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
-"import them?"
+"import them, removing deprecated files?"
 msgstr ""
 "இக்கூட்டுறுப்பிற்கான அமைப்புகளை தாங்கள் முன்னதாக சேமித்திருப்பது போல் தோன்றுகிறது. "
-"அவைகளை உள்ளிறக்க விரும்புகிறீர்களா?"
+"பொருந்தாதவைகளைத் தவிர்த்து, பிற அமைப்புகளை இறக்குமதிச் செய்ய விரும்புகிறீர்களா?"
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
@@ -84,8 +84,9 @@ msgstr ""
 "உணர்வுருக்களின் அறிவித்தல் எப்பொழுது செயற்படுத்தப்பட வேண்டுமென தீர்மானிக்க ஒரு உரையாடல் "
 "பெட்டியைக் காண்பிக்கும்"
 
-msgid "Emoticons dictionary"
-msgstr "உணர்வுருக்களின் அகராதி"
+#, python-format
+msgid "Emoticons dictionary (%s)"
+msgstr "உணர்வுருக்கள் அகராதி (%s)"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
@@ -180,12 +181,12 @@ msgid "Activation settings"
 msgstr "இயக்க அமைப்புகள்"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
-msgid "&Activate speaking of emoticons at start:"
-msgstr "உணர்வுருக்களின் படித்தலை துவக்கத்தில் செயற்படுத்துக (&A): "
+msgid "&Activate speaking of emoticons:"
+msgstr "உணர்வுருக்களின் படித்தலை செயற்படுத்துக (&A): "
 
-#. Translators: The label for a setting in Activate emoticons dialog to copy activation settings.
-msgid "&Copy activation settings"
-msgstr "இயக்க அமைப்புகளை படியெடுக்கவும் (&A)"
+#. Translators: The label for a setting in Activate emoticons dialog.
+msgid "&Remove not used dictionaries"
+msgstr "பயன்படுத்தப்படாத அகராதிகளை நீக்குக (&R)"
 
 #. Translators: (emoji) Grinning face, an happy face with normal eyes.
 msgid "Grinning face"
@@ -891,93 +892,3 @@ msgid ""
 "Representation."
 msgstr ""
 "வரியுருக்களுக்கு மாற்றாக உணர்வுருக்களின் பெயர்களை அறிவிக்கும் அமைப்பை மாற்றியமைக்கும். "
-
-#~ msgid "Happy face with wide mouth and squinting eyes"
-#~ msgstr "Happy face with wide mouth and squinting eyes"
-
-#~ msgid "Kissing face with open eyes"
-#~ msgstr "Kissing face with open eyes"
-
-#~ msgid "Face with stuck out tongue and eyes open"
-#~ msgstr "Face with stuck out tongue and eyes open"
-
-#~ msgid "Face with clenched teeth"
-#~ msgstr "Face with clenched teeth"
-
-#~ msgid "Exasperated face"
-#~ msgstr "Exasperated face"
-
-#~ msgid "Happy face with teardrop"
-#~ msgstr "Happy face with teardrop"
-
-#~ msgid "Whaling face"
-#~ msgstr "Whaling face"
-
-#~ msgid "Huffing with anger face"
-#~ msgstr "Huffing with anger face"
-
-#~ msgid "Very astonished face"
-#~ msgstr "Very astonished face"
-
-#~ msgid "Surprised and dismayed face"
-#~ msgstr "Surprised and dismayed face"
-
-#~ msgid "Open mouth and surprised face"
-#~ msgstr "Open mouth and surprised face"
-
-#~ msgid "Surprised face"
-#~ msgstr "Surprised face"
-
-#~ msgid "sad smiley"
-#~ msgstr "sad smiley"
-
-#~ msgid "Hangry face"
-#~ msgstr "Hangry face"
-
-#~ msgid "Emoticon: %s"
-#~ msgstr "ுணர்வுரு: %s"
-
-#~ msgid "&Insert smiley..."
-#~ msgstr "நகைமுகத்தை செருகுக... (&I)"
-
-#~ msgid "Available emoticons"
-#~ msgstr "கிடைப்பிலிருக்கும் ுணர்வுருக்கள்"
-
-#~ msgid "Available smileys to insert:"
-#~ msgstr "செருகுவதற்காக கிடைப்பிலிருக்கும் நகைமுகங்கள்"
-
-#~ msgid "&Dictionary entries"
-#~ msgstr "அகராதியின் உள்ளீடுகள் (&D)"
-
-#~ msgid "Comment"
-#~ msgstr "கருத்துரை"
-
-#~ msgid "Pattern"
-#~ msgstr "அசலுரை"
-
-#~ msgid "Replacement"
-#~ msgstr "மாற்றமர்வு"
-
-#~ msgid "case"
-#~ msgstr "முகப்பெழுத்து/சிற்றெழுத்து வேறுபாடு"
-
-#~ msgid "off"
-#~ msgstr "இயக்க நிறுத்தம்"
-
-#~ msgid "on"
-#~ msgstr "இயக்கம்"
-
-#~ msgid "&Add"
-#~ msgstr "ஏற்றுக (&A)"
-
-#~ msgid "&Edit"
-#~ msgstr "தொகுக்கவும் (&E)"
-
-#~ msgid "&Remove"
-#~ msgstr "நீக்குக (&R)"
-
-#~ msgid "On"
-#~ msgstr "இயக்கம்"
-
-#~ msgid "Activate at start"
-#~ msgstr "துவக்கத்தில் செயற்படுத்துக"

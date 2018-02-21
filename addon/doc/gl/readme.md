@@ -42,20 +42,41 @@ teu portapapeis, listos para se pegar.
 
 ## Persoalizar emoticóns ##
 
+O complemento Emoticons permite ter diferentes diccionarios da fala usando
+perfís de configuración.
+
+Esto significa que podes crear ou editar un diccionario da fala específico
+para cada perfil personalizado.
+
 Dende o menú NVDA, Preferencias -> Xestionar emoticóns -> Persoalizar emoticóns, podes abrir un diálogo para engadir ou editar os emoticóns dispoñibles.
 
-Este diálogo permíteche gardar un diccionario da fala de emoticóns coas túas
-persoalizacións.
+Gardando as túas persoalizacións, a nova lectura de configuración dos
+emoticóns só se aplicará ao perfil que estés a editar actualmente.
 
-Premendo o botón "Gardar e exportar diccionario", gardarase unn ficheiro de
-diccionario chamado emoticons.dic  no teu  cartafol de configuración de
-usuario, subcartafol speechDicts.
+Por exemplo, poderás desexar que o NVDA falara emoticóns persoalizados só no
+programa XxChat, pero non noutros programas de chat: podes facer esto
+creando un perfil para a aplicación XxChat e asignar a el un diccionario da
+fala dende o menú Persoalizar Emoticóns. Consulta arriba para opcións de
+activación en relación cos perfís de configuración.
+
+Tamén podes exportar cada diccionario personalizado da fala premendo o botón
+"Gardar e exportar diccionario": deste xeito o teu diccionario da fala
+gardarase no teu cartafol de configuración do usuario, subcartafol
+speechDicts/emoticons.
+
+O nomme e localización exacta do ficheiro de diccionario basearáse no perfil
+de configuración en edición, que se amosará no título do diálogo de
+diccionario do Emoticons.
 
 ## Opcións de activación ##
 
-Dende o menú NVDA, Preferencias -> Xestionar emoticonos -> Persoalizar emoticonos, podes abrir un diálogo para engadir ou para editar os emoticonos dispoñibles.
+Dende o menú Preferencias -> Administrar Emoticóns -> opcions de Activación abre un diálogo para configurar a activación do teu diccionario da fala para cada perfil.
 
-Tamén é posible gardar a eleción desta opción.
+No diálogo configuración de activación podes escoller se o diccionario da fala deberíasse activar ou non automáticamente cando o NVDA cambia ao perfil que estás a editar actualmente. Por defecto está deshabilitado na configuración normal do NVDA e en todos os novos perfís.
+
+Se desexases manter limpos os teus cartafois de configuración, neste diálogo
+é posible tamén escoller se os dicionarios non usados (asociados con perfís
+non existentes) borraranse do complemento cando se descargue.
 
 ## Ordes de teclado: ##
 
@@ -69,6 +90,16 @@ Diccionario de Emoticóns:
 * NVDA+I: amosa un cadro de diálogo para seleccionar un emoticón que queras
   pegar.
 
+## Cambios para 6.0 ##
+
+* Engadido o soporte para perfís de configuración.
+* No NVDA 2017.4 ou posterior, as opción de configuración e os diccionarios
+  persoalizados cambiarán automáticamente de acordó cos perfís
+  selecionados. No 2017.3 ou anteriores, podes aplicar cambios recargando
+  plugins (premendos control+NVDA+f3).
+* Se escolles importar opcións cando actualizas o complemento, os ficheiros
+  deprecados (emoticons.ini e emoticons.dic) borraranse ou adaptaránse a
+  esta versión.
 
 ## Cambios para 5.0 ##
 
@@ -107,6 +138,6 @@ Diccionario de Emoticóns:
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=emo
+[1]: http://addons.nvda-project.org/files/get.php?file=emo
 
-[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev

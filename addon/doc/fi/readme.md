@@ -38,19 +38,37 @@ liittää ne haluamaasi paikkaan.
 
 ## Mukauta hymiöitä ##
 
+Hymiöt-lisäosa mahdollistaa eri puhesanastot asetusprofiileja käyttäen.
+
+Tämä tarkoittaa, että voit luoda kullekin profiilille oman puhesanaston tai
+muokata sitä.
+
 Voit avata valintaikkunan uusien hymiöiden lisäämiseksi tai olemassa olevien muokkaamiseksi valitsemalla NVDA-valikosta Asetukset -> Hymiöiden hallinta -> Mukauta hymiöitä.
 
-Tässä valintaikkunassa voit tallentaa tekemäsi muokkaukset
-hymiöpuhesanastoon.
+Uudet hymiöiden lukuasetukset koskevat vain muokattavaa profiilia.
 
-Kun painat "Tallenna ja vie sanasto" -painiketta, asetuskansiossasi olevaan
-speechDicts-alikansioon luodaan emoticons.dic-niminen sanastotiedosto.
+Saatat esim. haluta, että NVDA puhuu muokatut hymiöt XxChatissa, muttei
+muissa chattiohjelmissa. Tämä onnistuu luomalla profiili
+XxChat-sovellukselle ja liittämällä siihen puhesanasto Mukauta hymiöitä
+-valintaikkunasta. Katso alta tietoja asetusprofiileihin liittyvästä
+käyttöönoton asetuksesta.
+
+Voit myös viedä luomasi puhesanastot painamalla "Tallenna ja vie sanastot"
+-painiketta. Sanastot tallennetaan asetuskansiossasi olevaan
+speechDicts\emoticons-alikansioon.
+
+Puhesanastotiedoston tarkka nimi ja sijainti määräytyvät muokattavan
+profiilin mukaan, joka näkyy hymiösanastovalintaikkunan nimessä.
 
 ## Käyttöönoton asetukset ##
 
-Voit valita, otetaanko hymiöiden puhuminen käyttöön NVDA:ta käynnistettäessä valitsemalla NVDA-valikosta Asetukset -> Hymiöiden hallinta -> Käyttöönoton asetukset. Tämä ei ole oletusarvoisesti käytössä.
+Määritä puhesanastojen käyttöönoton asetukset kullekin asetusprofiilille valitsemalla Asetukset-valikosta Hymiöiden hallinta -> Käyttöönoton asetukset.
 
-Valitsemasi asetus on myös mahdollista tallentaa.
+Tästä valintaikkunasta voit valita, otetaanko puhesanasto automaattisesti käyttöön NVDA:n vaihtaessa muokkaamaasi profiiliin. Asetus ei ole  oletusarvoisesti käytössä NVDA:n normaaleissa asetuksissa eikä uusissa profiileissa.
+
+Mikäli haluat pitää asetuskansiosi puhtaana, tästä valintaikkunasta on myös
+mahdollista valita, poistetaanko käyttämättömät (ei-olemassa oleviin
+profiileihin liitetyt) puhesanastot lisäosasta, kun se poistetaan muistista.
 
 ## Näppäinkomennot: ##
 
@@ -63,6 +81,16 @@ käyttöönottoasetusten valintaikkunan tai hymiösanaston avaamiseen:
 * NVDA+I: näyttää valintaikkunan, josta voit valita tekstiin lisättävän
   hymiön.
 
+## Muutokset versiossa 6.0 ##
+
+* Lisätty tuki asetusprofiileille.
+* NVDA 2017.4:ssä tai uudemmassa asetukset muuttuvat ja puhesanastot
+  vaihtuvat automaattisesti valittuna olevan profiilin
+  mukaisesti. 2017.3:ssa tai aiemmassa versiossa voit ottaa muutokset
+  käyttöön lataamalla liitännäiset uudelleen (painamalla Ctrl+NVDA+F3).
+* Mikäli valitset asetusten tuomisen lisäosaa päivitettäessä, vanhentuneet
+  tiedostot (emoticons.ini ja emoticons.dic) poistetaan tai muunnetaan tähän
+  versioon sopiviksi.
 
 ## Muutokset versiossa 5.0 ##
 
@@ -102,6 +130,6 @@ käyttöönottoasetusten valintaikkunan tai hymiösanaston avaamiseen:
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=emo
+[1]: http://addons.nvda-project.org/files/get.php?file=emo
 
-[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
