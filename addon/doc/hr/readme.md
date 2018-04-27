@@ -59,9 +59,9 @@ You can also export each custom speech-dictionary pressing "Save and export
 dictionary" button: in this way your speech-dictionaries will be saved in
 your user config folder, speechDicts/emoticons subfolder.
 
-The exact name and location of the dictionary file will be based on the
-editing configuration profile, which will be shown in the title of the
-Emoticons dictionary dialog.
+Točno ime i lokacija datoteke rječnika bit će bazirana na konfiguracijskom
+profilu koji se trenutno uređuje, koji će biti prikazan u naslovu dijaloškog
+okvira Rječnik emotikona.
 
 ## Postavke aktivacije ##
 

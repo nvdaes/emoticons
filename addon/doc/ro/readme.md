@@ -62,9 +62,10 @@ acest lucru creând un profil pentru aplicația XxChat și asignați-i un
 dicționar de vorbire din meniul Personalizați emoticoane. Vedeți mai jos
 setările de activare în raport cu profilurile de configurare.
 
-You can also export each custom speech-dictionary pressing "Save and export
-dictionary" button: in this way your speech-dictionaries will be saved in
-your user config folder, speechDicts/emoticons subfolder.
+De asemenea, puteți să exportați fiecare dicționar de vorbire apăsând
+butonul "Salvează și exportă dicționar": în felul acesta, dicționarele
+dumneavoastră de vorbire vor fi salvate în folderul de configurare al
+utilizatorului, subfolder-ul speechDicts/emoticons.
 
 Numele exact și locația fișierului de dicționar vor fi bazate pe editarea
 profilului de configurare, care va fi afișat în titlul dialogului dicționar
@@ -72,9 +73,9 @@ Emoticons.
 
 ## Setări de activare ##
 
-From menu Preferences -> Manage Emoticons -> Activation-settings opens a dialog to configure the activation of your speech-dictionaries for each profile.
+Din meniul Preferințe -> Gestionare Emoticoane deschide un dialog pentru a configura activarea dicționarelor de vorbire pentru fiecare profil.
 
-In activation-setting dialog you can choose whether or not speech-dictionary should automatically activate when  NVDA switches to the   profile you are currently editing. By default it is disabled in normal configuration of NVDA and in all your new profiles.
+Din dialogul setării de activare, puteți dacă ar trebui sau nu ca dicționarul de vorbire să se activeze automat atunci când NVDA se comută la profilul pe care actualmente îl editați. În mod implicit, este dezactivată în configurația normală a NVDA și în toate profilurile dumneavoastră.
 
 Dacă doriți să păstrați curate folderele de configurare, în această
 fereastră de dialog este posibil de asemenea să alegeți dacă dicționarele
@@ -87,14 +88,15 @@ Acestea sunt scurtăturile disponibile în mod implicit, puteți să le editați
 sau puteți adăuga o nouă tastă pentru a deschide dialogul cu activarea
 setărilor sau dialogul cu dicționarul emoticoanelor:
 
-* NVDA+E: speaking emoticons on/off, toggles between speaking text as it is
-  written, or with the emoticons replaced by the human description.
+* NVDA + E: activarea/dezactivarea pronunțării emoticoanelor, comută între
+  pronunțarea textului așa cum este scris, sau cu emoticoanele înlocuite cu
+  descrierea umană.
 * NVDA+I: Arată un dialog pentru a selecta emoticonul pe care vreți să îl
   copiați.
 
-## Changes for 6.0 ##
+## Modificări aduse în 6.0 ##
 
-* Added support for configuration profiles.
+* S-a adăugat suportul pentru configurarea profilurilor.
 * În NVDA 2017.4 sau o versiune ulterioară, setările de configurare și
   dicționarele personalizate se vor schimba automat acordându-se cu
   profilurile selectate. În 2017.3 sau mai recent, puteți aplica modificări

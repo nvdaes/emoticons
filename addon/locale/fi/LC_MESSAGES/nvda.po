@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 18:37+0100\n"
-"PO-Revision-Date: 2017-12-14 08:51-0800\n"
+"PO-Revision-Date: 2018-02-08 08:18+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Finnish <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 1.6.11\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Translators: the label of a message box dialog.
@@ -245,7 +245,7 @@ msgstr "neutraalit kasvot"
 
 #. Translators: (emoji) face without mouth.
 msgid "Face without mouth"
-msgstr "kasvot ilman suuta"
+msgstr "Kasvot ilman suuta"
 
 #. Translators: (emoji) face throwing a kiss.
 msgid "Face throwing a kiss"
@@ -329,19 +329,19 @@ msgstr "Uneliaat kasvot"
 
 #. Translators: (emoji) Shrugging: A person shrugging their shoulders to indicate a lack of knowledge about a particular topic, or a lack of care about the result of a situation.
 msgid "Shrugging emoji"
-msgstr "Olankohautus"
+msgstr "kohauttaa olkapäitään"
 
 #. Translators: (emoji) disappointed face.
 msgid "Disappointed face"
-msgstr "Pettyneet kasvot"
+msgstr "pettynyt"
 
 #. Translators: (emoji) disappointed but relieved face.
 msgid "Disappointed but relieved face"
-msgstr "Pettyneet mutta helpottuneet kasvot"
+msgstr "pettynyt mutta helpottunut"
 
 #. Translators: (emoji) Face with a look of concern, with a blue forehead and sweat dripping down the cheek.
 msgid "Face With Open Mouth & Cold Sweat"
-msgstr "Kasvot suu auki ja kylmässä hiessä"
+msgstr "suu auki ja kylmässä hiessä"
 
 #. Translators: (emoji) Happy face with a single drop of sweat on one side of the face.
 msgid "Smiling Face With Open Mouth & Cold Sweat"
@@ -478,7 +478,7 @@ msgstr "Sininen sydän"
 
 #. Translators: (emoji) This emoji is the version of the phrase ROFL. A person lying on the floor due to an extreme amount of laughter.
 msgid "Rolling on the Floor Laughing"
-msgstr "Kierii nauraen lattialla"
+msgstr "Nauraa maha kippurassa"
 
 #. Translators: (emoji) A face that is a little bit sad, with a slight frown and neutral eyes.
 msgid "Slightly Frowning Face"
@@ -781,7 +781,7 @@ msgstr "kumartaa"
 
 #. Translators: (rofl) Rolling on the floor laughing
 msgid "rolling on the floor laughing! smiley"
-msgstr "nauraa kippurassa"
+msgstr "nauraa maha kippurassa"
 
 #. Translators: (whew) Relieved
 msgid "relieved smiley"
