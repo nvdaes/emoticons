@@ -418,10 +418,10 @@ class ActivateEmoticonsDialog(SettingsDialog):
 		self.activateList.SetFocus()
 
 	def onOk(self,evt):
-		super(ActivateEmoticonsDialog, self).onOk(evt)
 		config.conf["emoticons"]["announcement"] = self.activateList.GetSelection()
 		if config.conf["emoticons"]["announcement"]:
 			activateAnnouncement()
 		else:
 			deactivateAnnouncement()
 		config.conf["emoticons"]["cleanDicts"] = self.removeCheckBox.Value
+		super(ActivateEmoticonsDialog, self).onOk(evt)
