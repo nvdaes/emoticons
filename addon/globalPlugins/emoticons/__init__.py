@@ -112,7 +112,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def terminate(self):
 		try:
-			self.toolsMenun.RemoveItem(self.insertItem)
+			self.toolsMenu.RemoveItem(self.insertItem)
 			self.dicMenu.RemoveItem(self.dicItem)
 		except:
 			pass
