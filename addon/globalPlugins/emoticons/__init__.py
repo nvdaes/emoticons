@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-#Copyright (C) 2013-2017 Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez
+#Copyright (C) 2013-2018 Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez
 # Released under GPL 2
 
 import globalPluginHandler
@@ -13,9 +13,8 @@ import ui
 import wx
 import gui
 import addonHandler
-from gui.settingsDialogs import SettingsDialog
-from gui.settingsDialogs import DictionaryDialog
 from gui import guiHelper
+from gui.settingsDialogs import NVDASettingsDialog, SettingsPanel, DictionaryDialog
 from smileysList import emoticons
 from skipTranslation import translate
 from globalCommands import SCRCAT_SPEECH, SCRCAT_TOOLS, SCRCAT_CONFIG
@@ -26,6 +25,11 @@ addonHandler.initTranslation()
 ADDON_DICTS_PATH = os.path.join(os.path.dirname(__file__), "emoticons")
 EXPORT_DICTS_PATH = os.path.join(speechDictHandler.speechDictsPath, "emoticons")
 ADDON_DIC_DEFAULT_FILE = os.path.join(ADDON_DICTS_PATH, "emoticons.dic")
+ADDON_SUMMARY = addonHandler.getCodeAddon().manifest["summary"]
+try:
+	ADDON_PANEL_TITLE = unicode(ADDON_SUMMARY)
+except NameError:
+	ADDON_PANEL_TITLE = str(ADDON_SUMMARY)
 
 confspec = {
 	"announcement": "integer(default=0)",
@@ -82,31 +86,22 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			defaultDic.append(speechDictHandler.SpeechDictEntry(em.pattern, otherReplacement, comment, True, speechDictHandler.ENTRY_TYPE_REGEXP))
 		self.loadDic()
 		# Gui
-		self.menu = gui.mainFrame.sysTrayIcon.preferencesMenu
-		self.emMenu = wx.Menu()
-		self.mainItem = self.menu.AppendSubMenu(self.emMenu,
-		# Translators: the name of addon submenu.
-		_("Manag&e emoticons"),
-		# Translators: the tooltip text for addon submenu.
-		_("Emoticons menu"))
-		self.insertItem = self.emMenu.Append(wx.ID_ANY,
-		# Translators: the name for an item of addon submenu.
+		self.toolsMenu = gui.mainFrame.sysTrayIcon.toolsMenu
+		self.insertItem = self.toolsMenu.Append(wx.ID_ANY,
+		# Translators: the name for a menu item.
 		_("&Insert emoticon..."),
-		# Translators: the tooltip text for an item of addon submenu.
+		# Translators: the tooltip text for a menu item.
 		_("Shows a dialog to insert a smiley"))
 		gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onInsertEmoticonDialog, self.insertItem)
-		self.dicItem = self.emMenu.Append(wx.ID_ANY,
-		# Translators: the name for an item of addon submenu.
-		_("&Customize emoticons..."),
-		# Translators: the tooltip text for an item of addon submenu.
+		self.dicMenu = gui.mainFrame.sysTrayIcon.preferencesMenu.GetMenuItems()[1].GetSubMenu()
+		self.dicItem = self.dicMenu.Append(wx.ID_ANY,
+		# Translators: the name for a menu item.
+		_("&Emoticons dictionary..."),
+		# Translators: the tooltip text for a menu item.
 		_("Shows a dictionary dialog to customize emoticons"))
 		gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onEmDicDialog, self.dicItem)
-		self.activateItem = self.emMenu.Append(wx.ID_ANY,
-		# Translators: the name for an item of addon submenu.
-		_("&Activation settings..."),
-		# Translators: the tooltip text for an item of addon submenu.
-		_("Shows a dialog to choose when emoticons speaking should be activated"))
-		gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onActivateDialog, self.activateItem)
+		NVDASettingsDialog.categoryClasses.append(AddonSettingsPanel)
+		
 		# Config
 		if config.conf["emoticons"]["announcement"]:
 			activateAnnouncement()
@@ -117,9 +112,11 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def terminate(self):
 		try:
-			self.menu.RemoveItem(self.mainItem)
+			self.toolsMenun.RemoveItem(self.insertItem)
+			self.dicMenu.RemoveItem(self.dicItem)
 		except:
 			pass
+		NVDASettingsDialog.categoryClasses.remove(AddonSettingsPanel)
 		deactivateAnnouncement()
 		try:
 			config.configProfileSwitched.unregister(self.handleConfigProfileSwitch)
@@ -146,8 +143,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		deactivateAnnouncement()
 		gui.mainFrame._popupSettingsDialog(EmDicDialog,_("Emoticons dictionary (%s)" % disp), sD)
 
-	def onActivateDialog(self, evt):
-		gui.mainFrame._popupSettingsDialog(ActivateEmoticonsDialog)
+	def onSettingsPanel(self, evt):
+		gui.mainFrame._popupSettingsDialog(NVDASettingsDialog, AddonSettingsPanel)
 
 	def script_toggleSpeakingEmoticons(self, gesture):
 		if not globalVars.speechDictionaryProcessing:
@@ -177,11 +174,11 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	# Translators: Message presented in input help mode.
 	script_emDicDialog.__doc__ = _("Shows the Emoticons dictionary dialog.")
 
-	def script_activateDialog(self, gesture):
-		wx.CallAfter(self.onActivateDialog, None)
-	script_activateDialog.category = SCRCAT_CONFIG
+	def script_settings(self, gesture):
+		wx.CallAfter(self.onSettingsPanel, None)
+	script_settings.category = SCRCAT_CONFIG
 	# Translators: Message presented in input help mode.
-	script_activateDialog.__doc__ = _("Shows the Emoticons Activation settings dialog.")
+	script_settings.__doc__ = _("Shows the Emoticons settings.")
 
 	__gestures = {
 		"kb:NVDA+e": "toggleSpeakingEmoticons",
@@ -398,10 +395,10 @@ class EmDicDialog(DictionaryDialog):
 			savePath = os.path.join(EXPORT_DICTS_PATH, "emoticons.dic")
 		sD.save(savePath)
 
-class ActivateEmoticonsDialog(SettingsDialog):
+class AddonSettingsPanel(SettingsPanel):
 
 # Translators: this is the label for the Emoticons activate dialog.
-	title = _("Activation settings")
+	title = ADDON_PANEL_TITLE
 
 	def makeSettings(self, settingsSizer):
 		sHelper = guiHelper.BoxSizerHelper(self, sizer=settingsSizer)
@@ -417,11 +414,10 @@ class ActivateEmoticonsDialog(SettingsDialog):
 	def postInit(self):
 		self.activateList.SetFocus()
 
-	def onOk(self,evt):
+	def onSave(self):
 		config.conf["emoticons"]["announcement"] = self.activateList.GetSelection()
 		if config.conf["emoticons"]["announcement"]:
 			activateAnnouncement()
 		else:
 			deactivateAnnouncement()
 		config.conf["emoticons"]["cleanDicts"] = self.removeCheckBox.Value
-		super(ActivateEmoticonsDialog, self).onOk(evt)
