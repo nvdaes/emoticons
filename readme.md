@@ -63,6 +63,7 @@ These are the key commands available by default, you can edit those or add new k
 * The Activation settings dialog has been moved to a panel in NVDA settings, so that the current profile will be shown in the title of the NVDA settings dialog.
 * The Manage Emoticons menu has been removed: now Insert emoticon will be found under the Tools menu, and Customize Emoticons will be shown under Speech dictionaries like Emoticons dictionary.
 * Requires NVDA 2018.2 or later.
+* If needed, you can download the [last version compatible with NVDA 2017.3][3].
 
 ## Changes for 6.0 ##
 
@@ -103,3 +104,5 @@ These are the key commands available by default, you can edit those or add new k
 [1]: http://addons.nvda-project.org/files/get.php?file=emo
 
 [2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+
+[3]: https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5.nvda-addon
