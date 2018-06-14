@@ -1,5 +1,6 @@
 # Emotikoni #
 
+
 * Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * preuzmi [stabilnu verziju][1]
@@ -21,7 +22,7 @@ poruke i kažete vašim prijateljima kako se osećate.
 Kada niste sigurni o znakovima za neki smajli, ovaj dodatak vam dozvoljava
 da ga izaberete i unesete u tekst kao što je ćaskanje.
 
-Pritisnite NVDA+I, ili iz menija podešavanja-> upravljanje emotikonima-> ubaci emotikon, da otvorite dijalog sa ponuđenim emotikonima ili emojima.
+Press NVDA+I, or from menu Tools -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
 
 Ovaj dijalog vam dozvoljava da izaberete emotikon i prikažete emotikone koji
 vas interesuju:
@@ -37,7 +38,7 @@ vas interesuju:
 Kada pritisnete OK, znakovi za izabran emotikon će biti kopirani u
 privremenu memoriju, spremni da se nalepe.
 
-## Prilagođavanje emotikona ##
+## Emoticons dictionary ##
 
 Emoticons add-on allows to have differents speech-dictionaries using
 configuration profiles.
@@ -45,7 +46,7 @@ configuration profiles.
 This means that you can create or edit a specific speech-dictionary for each
 your custom profile.
 
-Iz NVDA menija odaberite Podešavanja > Upravljaj emotikonima > Prilagođavanje emotikona, to će otvoriti prozor u kojem možete dodavati ili menjati postojeće emotikone.
+From NVDA MENU, Preferences -> Speech dictionaries -> Emoticons dictionary, you can open a dialog to add or to edit available emoticons.
 
 Saving your customizations, the new reading settings of emoticons will only
 apply to the profile you are currently editing.
@@ -53,8 +54,8 @@ apply to the profile you are currently editing.
 For example, you may wish that NVDA spoken custom emoticons only in XxChat
 program, but not in other chat programs: you can do this by creating a
 profile for the XxChat application and assign to it a speech dictionary from
-Customize Emoticons menu. See below for activation setting in relation to
-the configuration profiles.
+Speech dictionaries menu, Emoticons dictionary option. See below for
+Emoticons settings in relation to the configuration profiles.
 
 You can also export each custom speech-dictionary pressing "Save and export
 dictionary" button: in this way your speech-dictionaries will be saved in
@@ -64,11 +65,11 @@ The exact name and location of the dictionary file will be based on the
 editing configuration profile, which will be shown in the title of the
 Emoticons dictionary dialog.
 
-## Podešavanja aktivacije ##
+## Emoticons settings ##
 
-From menu Preferences -> Manage Emoticons -> Activation-settings opens a dialog to configure the activation of your speech-dictionaries for each profile.
+From menu Preferences -> Settings -> Emoticons opens a panel to configure the activation of your speech-dictionaries for each profile.
 
-In activation-setting dialog you can choose whether or not speech-dictionary should automatically activate when  NVDA switches to the   profile you are currently editing. By default it is disabled in normal configuration of NVDA and in all your new profiles.
+In Emoticons settings panel you can choose whether or not speech-dictionary should automatically activate when  NVDA switches to the   profile you are currently editing. By default it is disabled in normal configuration of NVDA and in all your new profiles.
 
 If you may wish to keep clean your configuration folders, in this dialog it
 is also possible to choose if dictionaries not used (associated with non
@@ -76,13 +77,26 @@ existing profiles) will be removed from the add-on when it is unloaded.
 
 ## Prečice ##
 
-Ovo su komande koje su podrazumevano dostupne, možete ih urediti ili dodati
-nove da otvorite dijaloge za podešavanja:
+These are the key commands available by default, you can edit those or add
+new key to open Emoticons settings panel or Emoticon Dictionary dialog:
 
 * NVDA+E: speaking emoticons on/off, toggles between speaking text as it is
   written, or with the emoticons replaced by the human description.
 * NVDA+I: otvara prozor za izbor emotikona za kopiranje u privremenu
   memoriju
+
+
+## Changes for 7.0 ##
+
+* The Activation settings dialog has been moved to a panel in NVDA settings,
+  so that the current profile will be shown in the title of the NVDA
+  settings dialog.
+* The Manage Emoticons menu has been removed: now Insert emoticon will be
+  found under the Tools menu, and Customize Emoticons will be shown under
+  Speech dictionaries like Emoticons dictionary.
+* Requires NVDA 2018.2 or later.
+* If needed, you can download the [last version compatible with NVDA
+  2017.3][3].
 
 ## Changes for 6.0 ##
 
@@ -130,8 +144,14 @@ nove da otvorite dijaloge za podešavanja:
 
 * Prva verzija
 
+
+
+
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=emo
 
 [2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+
+[3]:
+https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5.nvda-addon

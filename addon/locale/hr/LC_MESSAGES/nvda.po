@@ -52,39 +52,22 @@ msgstr "Emoji"
 msgid "Emoticon"
 msgstr "Emotikon"
 
-#. Translators: the name of addon submenu.
-msgid "Manag&e emoticons"
-msgstr "Upravljanje emotikonima"
-
-#. Translators: the tooltip text for addon submenu.
-msgid "Emoticons menu"
-msgstr "Izbornik emotikona"
-
-#. Translators: the name for an item of addon submenu.
+#. Translators: the name for a menu item.
 msgid "&Insert emoticon..."
 msgstr "Umetni emotikon"
 
-#. Translators: the tooltip text for an item of addon submenu.
+#. Translators: the tooltip text for a menu item.
 msgid "Shows a dialog to insert a smiley"
 msgstr "Prikazuje dijaloški okvir za umetanje smješka"
 
-#. Translators: the name for an item of addon submenu.
-msgid "&Customize emoticons..."
-msgstr "&Prilagoditi emotikone..."
+#. Translators: the name for a menu item.
+#, fuzzy
+msgid "&Emoticons dictionary..."
+msgstr "Riječnik emotikona"
 
-#. Translators: the tooltip text for an item of addon submenu.
+#. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
 msgstr "Prikazuje dijaloški okvir riječnika za prilagodbu emotikona"
-
-#. Translators: the name for an item of addon submenu.
-msgid "&Activation settings..."
-msgstr "&Aktivacijske postavke..."
-
-#. Translators: the tooltip text for an item of addon submenu.
-msgid "Shows a dialog to choose when emoticons speaking should be activated"
-msgstr ""
-"Prikazuje dijaloški okvir za odabir kada treba aktivirati izgovaranje "
-"emotikona"
 
 #, fuzzy, python-format
 msgid "Emoticons dictionary (%s)"
@@ -111,7 +94,8 @@ msgid "Shows the Emoticons dictionary dialog."
 msgstr "Riječnik emotikona"
 
 #. Translators: Message presented in input help mode.
-msgid "Shows the Emoticons Activation settings dialog."
+#, fuzzy
+msgid "Shows the Emoticons settings."
 msgstr "Uvoz postavki dodatka za emotikone"
 
 #. Translators: Title of the dialog.
@@ -175,10 +159,6 @@ msgstr "Rese&tiraj"
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Save and e&xport dictionary"
 msgstr "Spremiti i I&zvesti rječnik"
-
-#. Translators: this is the label for the Emoticons activate dialog.
-msgid "Activation settings"
-msgstr "Aktivacijske postavke"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 #, fuzzy
@@ -892,6 +872,26 @@ msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
 msgstr "Omogućuje najavu naziva emotikona umjesto prikazivanja znakova."
+
+#~ msgid "Manag&e emoticons"
+#~ msgstr "Upravljanje emotikonima"
+
+#~ msgid "Emoticons menu"
+#~ msgstr "Izbornik emotikona"
+
+#~ msgid "&Customize emoticons..."
+#~ msgstr "&Prilagoditi emotikone..."
+
+#~ msgid "&Activation settings..."
+#~ msgstr "&Aktivacijske postavke..."
+
+#~ msgid "Shows a dialog to choose when emoticons speaking should be activated"
+#~ msgstr ""
+#~ "Prikazuje dijaloški okvir za odabir kada treba aktivirati izgovaranje "
+#~ "emotikona"
+
+#~ msgid "Activation settings"
+#~ msgstr "Aktivacijske postavke"
 
 #~ msgid "&Copy activation settings"
 #~ msgstr "&Kopirati aktivacijske postavke"

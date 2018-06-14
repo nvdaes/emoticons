@@ -1,5 +1,6 @@
 # Emoticons #
 
+
 * Auteurs : Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Télécharger [version stable][1]
@@ -23,7 +24,7 @@ Lorsque vous n'êtes pas sûr des caractères pour une frimousse particulière,
 ce module complémentaire vous permet de sélectionner et insérer dans votre
 texte comme dans une conversation.
 
-Appuyer sur NVDA+I, ou à partir du menu Préférences -> Gérer les frimousses -> Insérer une frimousse, pour ouvrir un dialogue avec les frimousses ou emoji fournis.
+Press NVDA+I, or from menu Tools -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
 
 Ce dialogue vous permet de choisir une frimousse et d'afficher les
 frimousses qui vous intéressent :
@@ -41,7 +42,7 @@ frimousses qui vous intéressent :
 Lorsque vous appuyez sur OK, les caractères pour la frimousse choisie sont
 copiés dans le presse-papiers, prêts à être collés.
 
-## Personnaliser les frimousses ##
+## Emoticons dictionary ##
 
 Le module complémentaire emoticons permet d'avoir différents dictionnaires
 de parole en utilisant des profils de configuration.
@@ -49,18 +50,17 @@ de parole en utilisant des profils de configuration.
 Cela signifie que vous pouvez créer ou modifier un dictionnaire de parole
 spécifique pour chaque profil personnalisé.
 
-À partir du Menu NVDA, Préférences -> Gérer les frimousses -> Personnaliser les frimousses, vous pouvez ouvrir un dialogue paramètre pour ajouter ou modifier les frimousses disponibles.
+From NVDA MENU, Preferences -> Speech dictionaries -> Emoticons dictionary, you can open a dialog to add or to edit available emoticons.
 
 En sauvegardant vos personnalisations, les nouveaux paramètres de lecture
 des frimousses ne s'appliqueront qu'au profil que vous êtes en train
 d'éditer.
 
-Par exemple, vous pouvez souhaiter que NVDA ne annonce des  frimousses
-personnalisées que dans le programme XxChat, mais pas dans les autres
-programmes de conversation: vous pouvez créer un profil pour l'application
-XxChat et lui attribuer un dictionnaire de parole à partir du menu
-Personnaliser les frimousses. Voir ci-dessous pour les Paramètres
-d'activation par rapport aux profils de configuration.
+For example, you may wish that NVDA spoken custom emoticons only in XxChat
+program, but not in other chat programs: you can do this by creating a
+profile for the XxChat application and assign to it a speech dictionary from
+Speech dictionaries menu, Emoticons dictionary option. See below for
+Emoticons settings in relation to the configuration profiles.
 
 Vous pouvez également exporter chaque dictionnaire de parole personnalisé en
 appuyant sur le bouton "Enregistrer et exporter le dictionnaire": de cette
@@ -71,11 +71,11 @@ Le nom exact et l'emplacement du fichier de dictionnaire seront basés sur le
 profil de configuration d'édition, qui sera affiché dans le titre du
 dialogue Dictionnaire des frimousses.
 
-## Paramètres d'activation ##
+## Emoticons settings ##
 
-À partir du menu Préférences -> Gérer les frimousses -> Paramètres d'activation ouvre un dialogue pour configurer l'activation de vos dictionnaires de parole pour chaque profil.
+From menu Preferences -> Settings -> Emoticons opens a panel to configure the activation of your speech-dictionaries for each profile.
 
-Dans le dialogue Paramètres d'activation, vous pouvez choisir si le dictionnaire de parole doit ou non être activé automatiquement lorsque NVDA bascule sur le profil que vous êtes en train d'éditer. Par défaut, il est désactivé dans la configuration normale de NVDA et dans tous vos nouveaux profils.
+In Emoticons settings panel you can choose whether or not speech-dictionary should automatically activate when  NVDA switches to the   profile you are currently editing. By default it is disabled in normal configuration of NVDA and in all your new profiles.
 
 Si vous souhaitez garder propres vos dossiers de configuration, vous pouvez
 également choisir dans ce dialogue si les dictionnaires non utilisés
@@ -84,15 +84,27 @@ complémentaire lorsqu'il est déchargé.
 
 ## Raccourcis clavier : ##
 
-Voici les raccourcis clavier par défaut, vous pouvez les modifier ou ajouter
-un nouveau raccourci pour ouvrir le dialogue Paramètres d'activation ou le
-dialogue Dictionnaire des frimousses :
+These are the key commands available by default, you can edit those or add
+new key to open Emoticons settings panel or Emoticon Dictionary dialog:
 
 * NVDA+E : en activant/désactivant l'annonce des frimousses, permet de
   basculer entre la lecture du texte comme il est écrit, ou avec les
   frimousses remplacées par leur description humaine.
 * NVDA+I : affiche un dialogue pour choisir la frimousse que vous souhaitez
   copier.
+
+
+## Changes for 7.0 ##
+
+* The Activation settings dialog has been moved to a panel in NVDA settings,
+  so that the current profile will be shown in the title of the NVDA
+  settings dialog.
+* The Manage Emoticons menu has been removed: now Insert emoticon will be
+  found under the Tools menu, and Customize Emoticons will be shown under
+  Speech dictionaries like Emoticons dictionary.
+* Requires NVDA 2018.2 or later.
+* If needed, you can download the [last version compatible with NVDA
+  2017.3][3].
 
 ## Changements pour la version 6.0 ##
 
@@ -143,8 +155,14 @@ dialogue Dictionnaire des frimousses :
 
 * Première version.
 
+
+
+
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=emo
 
 [2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+
+[3]:
+https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5.nvda-addon

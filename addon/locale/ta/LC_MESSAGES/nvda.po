@@ -50,39 +50,22 @@ msgstr "கருத்தெழுத்துரு"
 msgid "Emoticon"
 msgstr "உணர்வுரு"
 
-#. Translators: the name of addon submenu.
-msgid "Manag&e emoticons"
-msgstr "உணர்வுருக்களின் மேலாண்மை (&E)"
-
-#. Translators: the tooltip text for addon submenu.
-msgid "Emoticons menu"
-msgstr "உணர்வுருக்களின் பட்டியல்"
-
-#. Translators: the name for an item of addon submenu.
+#. Translators: the name for a menu item.
 msgid "&Insert emoticon..."
 msgstr "ுணர்வுருவைச் செருகுக (&I)"
 
-#. Translators: the tooltip text for an item of addon submenu.
+#. Translators: the tooltip text for a menu item.
 msgid "Shows a dialog to insert a smiley"
 msgstr "நகைமுகத்தை செருகுவதற்கான உரையாடலைக் காண்பிக்கிறது"
 
-#. Translators: the name for an item of addon submenu.
-msgid "&Customize emoticons..."
-msgstr "ுணர்வுருக்களை தனிப்பயனாக்குக... (&C)"
+#. Translators: the name for a menu item.
+#, fuzzy
+msgid "&Emoticons dictionary..."
+msgstr "உணர்வுருக்கள் அகராதி (%s)"
 
-#. Translators: the tooltip text for an item of addon submenu.
+#. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
 msgstr "ுணர்வுருக்களை தனிப்பயனாக்க அகராதியின் உரையாடலைக் காண்பிக்கிறது"
-
-#. Translators: the name for an item of addon submenu.
-msgid "&Activation settings..."
-msgstr "இயக்க அமைப்புகள்... (&A)"
-
-#. Translators: the tooltip text for an item of addon submenu.
-msgid "Shows a dialog to choose when emoticons speaking should be activated"
-msgstr ""
-"உணர்வுருக்களின் அறிவித்தல் எப்பொழுது செயற்படுத்தப்பட வேண்டுமென தீர்மானிக்க ஒரு உரையாடல் "
-"பெட்டியைக் காண்பிக்கும்"
 
 #, python-format
 msgid "Emoticons dictionary (%s)"
@@ -109,7 +92,8 @@ msgid "Shows the Emoticons dictionary dialog."
 msgstr "உணர்வுருக்களின் அகராதி உரையாடலைக் காட்டுகிறது"
 
 #. Translators: Message presented in input help mode.
-msgid "Shows the Emoticons Activation settings dialog."
+#, fuzzy
+msgid "Shows the Emoticons settings."
 msgstr "உணர்வுருக்களை இயக்கும் அமைப்புகளின் உரையாடலைக் காட்டுகிறது"
 
 #. Translators: Title of the dialog.
@@ -175,10 +159,6 @@ msgstr "மறுவமைப்பு (&T)"
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Save and e&xport dictionary"
 msgstr "அகராதியை சேமித்து வெளிக்கொணர்க (&X)"
-
-#. Translators: this is the label for the Emoticons activate dialog.
-msgid "Activation settings"
-msgstr "இயக்க அமைப்புகள்"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 msgid "&Activate speaking of emoticons:"
@@ -892,3 +872,23 @@ msgid ""
 "Representation."
 msgstr ""
 "வரியுருக்களுக்கு மாற்றாக உணர்வுருக்களின் பெயர்களை அறிவிக்கும் அமைப்பை மாற்றியமைக்கும். "
+
+#~ msgid "Manag&e emoticons"
+#~ msgstr "உணர்வுருக்களின் மேலாண்மை (&E)"
+
+#~ msgid "Emoticons menu"
+#~ msgstr "உணர்வுருக்களின் பட்டியல்"
+
+#~ msgid "&Customize emoticons..."
+#~ msgstr "ுணர்வுருக்களை தனிப்பயனாக்குக... (&C)"
+
+#~ msgid "&Activation settings..."
+#~ msgstr "இயக்க அமைப்புகள்... (&A)"
+
+#~ msgid "Shows a dialog to choose when emoticons speaking should be activated"
+#~ msgstr ""
+#~ "உணர்வுருக்களின் அறிவித்தல் எப்பொழுது செயற்படுத்தப்பட வேண்டுமென தீர்மானிக்க ஒரு உரையாடல் "
+#~ "பெட்டியைக் காண்பிக்கும்"
+
+#~ msgid "Activation settings"
+#~ msgstr "இயக்க அமைப்புகள்"

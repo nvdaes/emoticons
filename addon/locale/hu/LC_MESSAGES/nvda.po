@@ -52,39 +52,22 @@ msgstr "Emodzsi"
 msgid "Emoticon"
 msgstr "Hangulatjel"
 
-#. Translators: the name of addon submenu.
-msgid "Manag&e emoticons"
-msgstr "Han&gulatjelek kezelése"
-
-#. Translators: the tooltip text for addon submenu.
-msgid "Emoticons menu"
-msgstr "Hangulatjelek menü"
-
-#. Translators: the name for an item of addon submenu.
+#. Translators: the name for a menu item.
 msgid "&Insert emoticon..."
 msgstr "Hangulatjel &beszúrása"
 
-#. Translators: the tooltip text for an item of addon submenu.
+#. Translators: the tooltip text for a menu item.
 msgid "Shows a dialog to insert a smiley"
 msgstr "Megnyitja a hangulatjel beszúrása párbeszédablakot"
 
-#. Translators: the name for an item of addon submenu.
-msgid "&Customize emoticons..."
-msgstr "Hangulatjelek &testreszabása..."
+#. Translators: the name for a menu item.
+#, fuzzy
+msgid "&Emoticons dictionary..."
+msgstr "(%s) Hangulatjelszótár"
 
-#. Translators: the tooltip text for an item of addon submenu.
+#. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
 msgstr "Megnyitja a hangulatjelek szerkeztése párbeszédablakot"
-
-#. Translators: the name for an item of addon submenu.
-msgid "&Activation settings..."
-msgstr "&Aktiválási beállítások..."
-
-#. Translators: the tooltip text for an item of addon submenu.
-msgid "Shows a dialog to choose when emoticons speaking should be activated"
-msgstr ""
-"Megjelenít egy párbeszédablakot, melyben kiválaszthatja, hogy mely "
-"hangulatjel bemondása legyen aktív"
 
 #, python-format
 msgid "Emoticons dictionary (%s)"
@@ -113,7 +96,8 @@ msgid "Shows the Emoticons dictionary dialog."
 msgstr "A Hangulatjelszótár megnyitása"
 
 #. Translators: Message presented in input help mode.
-msgid "Shows the Emoticons Activation settings dialog."
+#, fuzzy
+msgid "Shows the Emoticons settings."
 msgstr "A hangulatjelek  bővítmény aktiválási beállításainak megnyitása"
 
 #. Translators: Title of the dialog.
@@ -177,10 +161,6 @@ msgstr "&Visszaállítás"
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Save and e&xport dictionary"
 msgstr "&Szótár mentése és exportálása"
-
-#. Translators: this is the label for the Emoticons activate dialog.
-msgid "Activation settings"
-msgstr "Aktiválási beállítások"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 msgid "&Activate speaking of emoticons:"
@@ -896,3 +876,23 @@ msgstr ""
 "A hangulatjel jelentés bemondásának engedélyezése, annak "
 "karakterkombinációja helyett.\n"
 "Nyomja meg az NVDA+e-t a váltáshoz."
+
+#~ msgid "Manag&e emoticons"
+#~ msgstr "Han&gulatjelek kezelése"
+
+#~ msgid "Emoticons menu"
+#~ msgstr "Hangulatjelek menü"
+
+#~ msgid "&Customize emoticons..."
+#~ msgstr "Hangulatjelek &testreszabása..."
+
+#~ msgid "&Activation settings..."
+#~ msgstr "&Aktiválási beállítások..."
+
+#~ msgid "Shows a dialog to choose when emoticons speaking should be activated"
+#~ msgstr ""
+#~ "Megjelenít egy párbeszédablakot, melyben kiválaszthatja, hogy mely "
+#~ "hangulatjel bemondása legyen aktív"
+
+#~ msgid "Activation settings"
+#~ msgstr "Aktiválási beállítások"

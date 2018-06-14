@@ -51,39 +51,22 @@ msgstr "Emoji"
 msgid "Emoticon"
 msgstr "Hymiö"
 
-#. Translators: the name of addon submenu.
-msgid "Manag&e emoticons"
-msgstr "Hymiöi&den hallinta"
-
-#. Translators: the tooltip text for addon submenu.
-msgid "Emoticons menu"
-msgstr "Hymiöt-valikko"
-
-#. Translators: the name for an item of addon submenu.
+#. Translators: the name for a menu item.
 msgid "&Insert emoticon..."
 msgstr "&Lisää hymiö..."
 
-#. Translators: the tooltip text for an item of addon submenu.
+#. Translators: the tooltip text for a menu item.
 msgid "Shows a dialog to insert a smiley"
 msgstr "Näyttää valintaikkunan hymiön lisäämiseksi."
 
-#. Translators: the name for an item of addon submenu.
-msgid "&Customize emoticons..."
-msgstr "&Mukauta hymiöitä..."
+#. Translators: the name for a menu item.
+#, fuzzy
+msgid "&Emoticons dictionary..."
+msgstr "Hymiösanasto (%s)"
 
-#. Translators: the tooltip text for an item of addon submenu.
+#. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
 msgstr "Näyttää sanastovalintaikkunan hymiöiden mukauttamiseksi."
-
-#. Translators: the name for an item of addon submenu.
-msgid "&Activation settings..."
-msgstr "&Käyttöönoton asetukset..."
-
-#. Translators: the tooltip text for an item of addon submenu.
-msgid "Shows a dialog to choose when emoticons speaking should be activated"
-msgstr ""
-"Näyttää valintaikkunan, josta voidaan valita, milloin hymiöiden puhumisen "
-"tulisi olla käytössä."
 
 #, python-format
 msgid "Emoticons dictionary (%s)"
@@ -110,7 +93,8 @@ msgid "Shows the Emoticons dictionary dialog."
 msgstr "Näyttää hymiösanastovalintaikkunan."
 
 #. Translators: Message presented in input help mode.
-msgid "Shows the Emoticons Activation settings dialog."
+#, fuzzy
+msgid "Shows the Emoticons settings."
 msgstr "Näyttää hymiöiden käyttöönottoasetusten valintaikkunan."
 
 #. Translators: Title of the dialog.
@@ -174,10 +158,6 @@ msgstr "P&alauta oletukset"
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Save and e&xport dictionary"
 msgstr "Tallenna ja v&ie sanasto"
-
-#. Translators: this is the label for the Emoticons activate dialog.
-msgid "Activation settings"
-msgstr "Käyttöönoton asetukset"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 msgid "&Activate speaking of emoticons:"
@@ -890,3 +870,23 @@ msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
 msgstr "Ottaa käyttöön hymiöiden nimien puhumisen niiden merkkien asemesta."
+
+#~ msgid "Manag&e emoticons"
+#~ msgstr "Hymiöi&den hallinta"
+
+#~ msgid "Emoticons menu"
+#~ msgstr "Hymiöt-valikko"
+
+#~ msgid "&Customize emoticons..."
+#~ msgstr "&Mukauta hymiöitä..."
+
+#~ msgid "&Activation settings..."
+#~ msgstr "&Käyttöönoton asetukset..."
+
+#~ msgid "Shows a dialog to choose when emoticons speaking should be activated"
+#~ msgstr ""
+#~ "Näyttää valintaikkunan, josta voidaan valita, milloin hymiöiden puhumisen "
+#~ "tulisi olla käytössä."
+
+#~ msgid "Activation settings"
+#~ msgstr "Käyttöönoton asetukset"
