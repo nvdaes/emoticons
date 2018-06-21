@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 20:13+0100\n"
-"PO-Revision-Date: 2017-12-16 11:38+0530\n"
+"PO-Revision-Date: 2018-06-15 19:12+0530\n"
 "Last-Translator: DINAKAR T.D. <td.dinkar@gmail.com>\n"
 "Language-Team: DINAKAR T.D. <td.dinkar@gmail.com>\n"
 "Language: ta\n"
@@ -59,9 +59,8 @@ msgid "Shows a dialog to insert a smiley"
 msgstr "நகைமுகத்தை செருகுவதற்கான உரையாடலைக் காண்பிக்கிறது"
 
 #. Translators: the name for a menu item.
-#, fuzzy
 msgid "&Emoticons dictionary..."
-msgstr "உணர்வுருக்கள் அகராதி (%s)"
+msgstr "உணர்வுருக்கள் அகராதி (&E)"
 
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
@@ -92,9 +91,8 @@ msgid "Shows the Emoticons dictionary dialog."
 msgstr "உணர்வுருக்களின் அகராதி உரையாடலைக் காட்டுகிறது"
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid "Shows the Emoticons settings."
-msgstr "உணர்வுருக்களை இயக்கும் அமைப்புகளின் உரையாடலைக் காட்டுகிறது"
+msgstr "உணர்வுருக்கள் அமைப்புகளைக் காட்டுகிறது"
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"

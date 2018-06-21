@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 18:37+0100\n"
-"PO-Revision-Date: 2018-02-08 08:18+0200\n"
+"PO-Revision-Date: 2018-06-15 08:44+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Finnish <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -60,9 +60,8 @@ msgid "Shows a dialog to insert a smiley"
 msgstr "Näyttää valintaikkunan hymiön lisäämiseksi."
 
 #. Translators: the name for a menu item.
-#, fuzzy
 msgid "&Emoticons dictionary..."
-msgstr "Hymiösanasto (%s)"
+msgstr "&Hymiöt..."
 
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
@@ -93,9 +92,8 @@ msgid "Shows the Emoticons dictionary dialog."
 msgstr "Näyttää hymiösanastovalintaikkunan."
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid "Shows the Emoticons settings."
-msgstr "Näyttää hymiöiden käyttöönottoasetusten valintaikkunan."
+msgstr "Näyttää Hymiöt-lisäosan asetukset."
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"

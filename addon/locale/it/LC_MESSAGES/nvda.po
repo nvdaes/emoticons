@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons'5.3'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: 2017-02-21 15:25+0100\n"
-"PO-Revision-Date: 2017-12-21 14:53+0100\n"
+"PO-Revision-Date: 2018-06-15 15:56+0200\n"
 "Last-Translator: Simone Dal Maso <simone.dalmaso@gmail.com>\n"
 "Language-Team: Translators <LL@li.org>\n"
 "Language: it_IT\n"
@@ -60,9 +60,8 @@ msgstr ""
 "Visualizza l'elenco degli emoticon che è possibile copiare negli appunti"
 
 #. Translators: the name for a menu item.
-#, fuzzy
 msgid "&Emoticons dictionary..."
-msgstr "Dizionario Emoticons (%s)"
+msgstr "Dizionario &Emoticons..."
 
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
@@ -93,7 +92,6 @@ msgid "Shows the Emoticons dictionary dialog."
 msgstr "Dizionario Emoticons"
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid "Shows the Emoticons settings."
 msgstr "Mostra le impostazioni per la lettura degli emoticons"
 

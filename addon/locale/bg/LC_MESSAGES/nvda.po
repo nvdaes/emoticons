@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 18:37+0100\n"
-"PO-Revision-Date: 2018-06-13 15:08+0200\n"
+"PO-Revision-Date: 2018-06-14 22:29+0200\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: \n"
 "Language: bg\n"
@@ -58,9 +58,8 @@ msgid "Shows a dialog to insert a smiley"
 msgstr "Извежда диалог за вмъкване на емотикон"
 
 #. Translators: the name for a menu item.
-#, fuzzy
 msgid "&Emoticons dictionary..."
-msgstr "Речник на емотиконите (%s)"
+msgstr "Речник за &емотиконите..."
 
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
@@ -91,9 +90,8 @@ msgid "Shows the Emoticons dictionary dialog."
 msgstr "Извежда диалог на речника с емотиконите"
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid "Shows the Emoticons settings."
-msgstr "Извежда диалог с настройките за задействането на емотиконите"
+msgstr "Извежда настройките за емотиконите."
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"

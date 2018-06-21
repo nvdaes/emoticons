@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 4.4\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2016-02-12 05:00+1000\n"
-"PO-Revision-Date: 2018-01-21 13:35+0200\n"
+"PO-Revision-Date: 2018-06-20 11:12+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -59,9 +59,8 @@ msgid "Shows a dialog to insert a smiley"
 msgstr "Arată un dialog pentru a insera un zâmbet"
 
 #. Translators: the name for a menu item.
-#, fuzzy
 msgid "&Emoticons dictionary..."
-msgstr "Dicționar de emoticoane (%s)"
+msgstr "Dic&ționar de emoticoane..."
 
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
@@ -92,9 +91,8 @@ msgid "Shows the Emoticons dictionary dialog."
 msgstr "Afișează dialogul cu dicționarul emoticoanelor."
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid "Shows the Emoticons settings."
-msgstr "Afișează dialogul cu setările de activare ale emoticoanelor."
+msgstr "Arată setările Emoticons."
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"

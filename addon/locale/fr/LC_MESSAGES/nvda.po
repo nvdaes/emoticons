@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: emoticons 6.0\n"
+"Project-Id-Version: emoticons 7.0\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: 2017-12-07 11:22+0100\n"
-"PO-Revision-Date: 2017-12-14 08:12-0800\n"
+"PO-Revision-Date: 2018-06-15 17:53+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language: fr_FR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
 "X-Poedit-Basepath: .\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 1.8.12\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #. Translators: the label of a message box dialog.
@@ -59,9 +59,8 @@ msgid "Shows a dialog to insert a smiley"
 msgstr "Afficher un dialogue pour insérer une frimousse"
 
 #. Translators: the name for a menu item.
-#, fuzzy
 msgid "&Emoticons dictionary..."
-msgstr "Dictionnaire des frimousses (%s)"
+msgstr "Dictionnaire des &frimousses..."
 
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
@@ -95,9 +94,8 @@ msgid "Shows the Emoticons dictionary dialog."
 msgstr "Afficher le dialogue du dictionnaire des Frimousses."
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid "Shows the Emoticons settings."
-msgstr "Afficher le dialogue pour les paramètres d'Activation des Frimousses."
+msgstr "Afficher les Paramètres des Frimousses."
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"
