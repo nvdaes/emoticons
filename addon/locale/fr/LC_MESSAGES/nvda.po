@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: emoticons 6.0\n"
+"Project-Id-Version: emoticons 7.0\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: 2017-12-07 11:22+0100\n"
-"PO-Revision-Date: 2017-12-14 08:12-0800\n"
+"PO-Revision-Date: 2018-06-15 17:53+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language: fr_FR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
 "X-Poedit-Basepath: .\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 1.8.12\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #. Translators: the label of a message box dialog.
@@ -50,40 +50,22 @@ msgstr "Emoji"
 msgid "Emoticon"
 msgstr "Frimousse"
 
-#. Translators: the name of addon submenu.
-msgid "Manag&e emoticons"
-msgstr "&Gérer les frimousses"
-
-#. Translators: the tooltip text for addon submenu.
-msgid "Emoticons menu"
-msgstr "Menu Emoticons"
-
-#. Translators: the name for an item of addon submenu.
+#. Translators: the name for a menu item.
 msgid "&Insert emoticon..."
 msgstr "&Insérer une frimousse..."
 
-#. Translators: the tooltip text for an item of addon submenu.
+#. Translators: the tooltip text for a menu item.
 msgid "Shows a dialog to insert a smiley"
 msgstr "Afficher un dialogue pour insérer une frimousse"
 
-#. Translators: the name for an item of addon submenu.
-msgid "&Customize emoticons..."
-msgstr "&Personnaliser les frimousses..."
+#. Translators: the name for a menu item.
+msgid "&Emoticons dictionary..."
+msgstr "Dictionnaire des &frimousses..."
 
-#. Translators: the tooltip text for an item of addon submenu.
+#. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
 msgstr ""
 "Afficher un dialogue du dictionnaire de personnalisation des frimousses"
-
-#. Translators: the name for an item of addon submenu.
-msgid "&Activation settings..."
-msgstr "&Paramètres d'activation..."
-
-#. Translators: the tooltip text for an item of addon submenu.
-msgid "Shows a dialog to choose when emoticons speaking should be activated"
-msgstr ""
-"Afficher un dialogue pour choisir le moment où l'annonce des frimousses doit "
-"être activée"
 
 #, python-format
 msgid "Emoticons dictionary (%s)"
@@ -112,8 +94,8 @@ msgid "Shows the Emoticons dictionary dialog."
 msgstr "Afficher le dialogue du dictionnaire des Frimousses."
 
 #. Translators: Message presented in input help mode.
-msgid "Shows the Emoticons Activation settings dialog."
-msgstr "Afficher le dialogue pour les paramètres d'Activation des Frimousses."
+msgid "Shows the Emoticons settings."
+msgstr "Afficher les Paramètres des Frimousses."
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"
@@ -177,10 +159,6 @@ msgstr "Réi&nitialiser"
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Save and e&xport dictionary"
 msgstr "Enregistrer et e&xporter le dictionnaire"
-
-#. Translators: this is the label for the Emoticons activate dialog.
-msgid "Activation settings"
-msgstr "Paramètres d'activation"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 msgid "&Activate speaking of emoticons:"
@@ -895,3 +873,23 @@ msgid ""
 msgstr ""
 "Permettre l'annonce des noms des frimousses au lieu de la représentation des "
 "caractères."
+
+#~ msgid "Manag&e emoticons"
+#~ msgstr "&Gérer les frimousses"
+
+#~ msgid "Emoticons menu"
+#~ msgstr "Menu Emoticons"
+
+#~ msgid "&Customize emoticons..."
+#~ msgstr "&Personnaliser les frimousses..."
+
+#~ msgid "&Activation settings..."
+#~ msgstr "&Paramètres d'activation..."
+
+#~ msgid "Shows a dialog to choose when emoticons speaking should be activated"
+#~ msgstr ""
+#~ "Afficher un dialogue pour choisir le moment où l'annonce des frimousses "
+#~ "doit être activée"
+
+#~ msgid "Activation settings"
+#~ msgstr "Paramètres d'activation"

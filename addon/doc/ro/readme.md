@@ -1,5 +1,6 @@
 # Emoticons #
 
+
 * Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Descarcă [versiunea stabilă][1]
@@ -22,7 +23,7 @@ viață mesajului dumneavoastră instant și pentru a permite prietenilor să
 Când sunteți nesigur de caracterele pentru un zâmbet particular, add-on-ul
 vă permite să-l selectați și inserați în textul dumneavoastră.
 
-Apăsați NVDA+I, sau din meniul preferințe -> Administrare emoticonuri -> Inserare emoticon, pentru a deschide un dialog cu emoticoanele oferite sau mojiuri.
+Press NVDA+I, or from menu Tools -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
 
 Acest dialog vă permite să alegeți un emoticon și să vizualizați
 emoticoanele care vă interesează:
@@ -43,7 +44,7 @@ emoticoanele care vă interesează:
 Când apăsați OK, caracterele pentru emoticoanele alese vor fi copiate pe
 planșetă, pregătite pentru lipire.
 
-## Personalizați emoticoanele ##
+## Emoticons dictionary ##
 
 Suplimentul Emoticons vă permite să aveți diferite dicționare de vorbire
 folosind profiluri de configurare.
@@ -51,16 +52,16 @@ folosind profiluri de configurare.
 Aceasta înseamnă că puteți crea sau edita un dicționar de vorbire specific
 pentru fiecare profil personalizat.
 
-Din meniul NVDA, Preferințe, Administrare emoticoane, Personalizează emoticoanele, puteți să deschideți un dialog cu setările unde puteți adăuga sau edita emoticoanle disponibile.
+From NVDA MENU, Preferences -> Speech dictionaries -> Emoticons dictionary, you can open a dialog to add or to edit available emoticons.
 
 Salvându-vă particularizările, noile setări de citire ale emoticoanelor se
 vor aplica numai profilului pe care îl editați în prezent.
 
-De exemplu, ați putea dori ca NVDA să pronunțe emoticoane personalizate
-numai în programul XxChat, dar nu în alte programe de chat: puteți face
-acest lucru creând un profil pentru aplicația XxChat și asignați-i un
-dicționar de vorbire din meniul Personalizați emoticoane. Vedeți mai jos
-setările de activare în raport cu profilurile de configurare.
+For example, you may wish that NVDA spoken custom emoticons only in XxChat
+program, but not in other chat programs: you can do this by creating a
+profile for the XxChat application and assign to it a speech dictionary from
+Speech dictionaries menu, Emoticons dictionary option. See below for
+Emoticons settings in relation to the configuration profiles.
 
 De asemenea, puteți să exportați fiecare dicționar de vorbire apăsând
 butonul "Salvează și exportă dicționar": în felul acesta, dicționarele
@@ -71,11 +72,11 @@ Numele exact și locația fișierului de dicționar vor fi bazate pe editarea
 profilului de configurare, care va fi afișat în titlul dialogului dicționar
 Emoticons.
 
-## Setări de activare ##
+## Emoticons settings ##
 
-Din meniul Preferințe -> Gestionare Emoticoane deschide un dialog pentru a configura activarea dicționarelor de vorbire pentru fiecare profil.
+From menu Preferences -> Settings -> Emoticons opens a panel to configure the activation of your speech-dictionaries for each profile.
 
-Din dialogul setării de activare, puteți dacă ar trebui sau nu ca dicționarul de vorbire să se activeze automat atunci când NVDA se comută la profilul pe care actualmente îl editați. În mod implicit, este dezactivată în configurația normală a NVDA și în toate profilurile dumneavoastră.
+In Emoticons settings panel you can choose whether or not speech-dictionary should automatically activate when  NVDA switches to the   profile you are currently editing. By default it is disabled in normal configuration of NVDA and in all your new profiles.
 
 Dacă doriți să păstrați curate folderele de configurare, în această
 fereastră de dialog este posibil de asemenea să alegeți dacă dicționarele
@@ -84,15 +85,27 @@ din supliment atunci când nu sunt încărcate.
 
 ## Comenzi de tastatură ##
 
-Acestea sunt scurtăturile disponibile în mod implicit, puteți să le editați
-sau puteți adăuga o nouă tastă pentru a deschide dialogul cu activarea
-setărilor sau dialogul cu dicționarul emoticoanelor:
+These are the key commands available by default, you can edit those or add
+new key to open Emoticons settings panel or Emoticon Dictionary dialog:
 
 * NVDA + E: activarea/dezactivarea pronunțării emoticoanelor, comută între
   pronunțarea textului așa cum este scris, sau cu emoticoanele înlocuite cu
   descrierea umană.
 * NVDA+I: Arată un dialog pentru a selecta emoticonul pe care vreți să îl
   copiați.
+
+
+## Changes for 7.0 ##
+
+* The Activation settings dialog has been moved to a panel in NVDA settings,
+  so that the current profile will be shown in the title of the NVDA
+  settings dialog.
+* The Manage Emoticons menu has been removed: now Insert emoticon will be
+  found under the Tools menu, and Customize Emoticons will be shown under
+  Speech dictionaries like Emoticons dictionary.
+* Requires NVDA 2018.2 or later.
+* If needed, you can download the [last version compatible with NVDA
+  2017.3][3].
 
 ## Modificări aduse în 6.0 ##
 
@@ -140,8 +153,14 @@ setărilor sau dialogul cu dicționarul emoticoanelor:
 
 * Versiunea Inițială.
 
+
+
+
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=emo
 
 [2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+
+[3]:
+https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5.nvda-addon

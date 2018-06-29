@@ -51,38 +51,22 @@ msgstr "Emoji"
 msgid "Emoticon"
 msgstr "Emoticón"
 
-#. Translators: the name of addon submenu.
-msgid "Manag&e emoticons"
-msgstr "&xestionar emoticóns"
-
-#. Translators: the tooltip text for addon submenu.
-msgid "Emoticons menu"
-msgstr "Menú Emoticóns"
-
-#. Translators: the name for an item of addon submenu.
+#. Translators: the name for a menu item.
 msgid "&Insert emoticon..."
 msgstr "&Insertar emoticón"
 
-#. Translators: the tooltip text for an item of addon submenu.
+#. Translators: the tooltip text for a menu item.
 msgid "Shows a dialog to insert a smiley"
 msgstr "Amosa un diálogo para insertar un emoticón"
 
-#. Translators: the name for an item of addon submenu.
-msgid "&Customize emoticons..."
-msgstr "&Persoalizar emoticóns..."
+#. Translators: the name for a menu item.
+#, fuzzy
+msgid "&Emoticons dictionary..."
+msgstr "Diccionario de Emoticóns (%s)"
 
-#. Translators: the tooltip text for an item of addon submenu.
+#. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
 msgstr "Amosa un diálogo de diccionario para persoalizar emoticóns"
-
-#. Translators: the name for an item of addon submenu.
-msgid "&Activation settings..."
-msgstr "Opciones de &Activación..."
-
-#. Translators: the tooltip text for an item of addon submenu.
-msgid "Shows a dialog to choose when emoticons speaking should be activated"
-msgstr ""
-"Amosa un diálogo para escoller cando debería activarse a fala de emoticóns"
 
 #, python-format
 msgid "Emoticons dictionary (%s)"
@@ -109,7 +93,8 @@ msgid "Shows the Emoticons dictionary dialog."
 msgstr "Amosar o diálogo Diccionario de Emoticóns."
 
 #. Translators: Message presented in input help mode.
-msgid "Shows the Emoticons Activation settings dialog."
+#, fuzzy
+msgid "Shows the Emoticons settings."
 msgstr "Amosar o diálogo Opcións de Activación de Emoticóns."
 
 #. Translators: Title of the dialog.
@@ -173,10 +158,6 @@ msgstr "Re&iniciar"
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Save and e&xport dictionary"
 msgstr "Gardar e e&xportar diccionario"
-
-#. Translators: this is the label for the Emoticons activate dialog.
-msgid "Activation settings"
-msgstr "Opcións de Activación"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 msgid "&Activate speaking of emoticons:"
@@ -891,3 +872,22 @@ msgid ""
 msgstr ""
 "Permite o anuncio dos nomes dos emoticóns en lugar da representación de "
 "caracteres."
+
+#~ msgid "Manag&e emoticons"
+#~ msgstr "&xestionar emoticóns"
+
+#~ msgid "Emoticons menu"
+#~ msgstr "Menú Emoticóns"
+
+#~ msgid "&Customize emoticons..."
+#~ msgstr "&Persoalizar emoticóns..."
+
+#~ msgid "&Activation settings..."
+#~ msgstr "Opciones de &Activación..."
+
+#~ msgid "Shows a dialog to choose when emoticons speaking should be activated"
+#~ msgstr ""
+#~ "Amosa un diálogo para escoller cando debería activarse a fala de emoticóns"
+
+#~ msgid "Activation settings"
+#~ msgstr "Opcións de Activación"

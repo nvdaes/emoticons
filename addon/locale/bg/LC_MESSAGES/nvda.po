@@ -7,14 +7,14 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 18:37+0100\n"
-"PO-Revision-Date: 2017-12-14 06:58-0800\n"
+"PO-Revision-Date: 2018-06-14 22:29+0200\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
+"Language-Team: \n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
-"Language-Team: \n"
+"X-Generator: Poedit 1.6.11\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -49,39 +49,21 @@ msgstr "Емоджи"
 msgid "Emoticon"
 msgstr "Емотикона"
 
-#. Translators: the name of addon submenu.
-msgid "Manag&e emoticons"
-msgstr "&Управление на емотиконите"
-
-#. Translators: the tooltip text for addon submenu.
-msgid "Emoticons menu"
-msgstr "Меню на емотиконите"
-
-#. Translators: the name for an item of addon submenu.
+#. Translators: the name for a menu item.
 msgid "&Insert emoticon..."
-msgstr "&Вмъкване на емотикона..."
+msgstr "&Вмъкни емотикона..."
 
-#. Translators: the tooltip text for an item of addon submenu.
+#. Translators: the tooltip text for a menu item.
 msgid "Shows a dialog to insert a smiley"
 msgstr "Извежда диалог за вмъкване на емотикон"
 
-#. Translators: the name for an item of addon submenu.
-msgid "&Customize emoticons..."
-msgstr "&Персонализирай емотиконите..."
+#. Translators: the name for a menu item.
+msgid "&Emoticons dictionary..."
+msgstr "Речник за &емотиконите..."
 
-#. Translators: the tooltip text for an item of addon submenu.
+#. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
 msgstr "Извежда диалог на речника за персонализиране на емотиконите"
-
-#. Translators: the name for an item of addon submenu.
-msgid "&Activation settings..."
-msgstr "Настройки за &задействането..."
-
-#. Translators: the tooltip text for an item of addon submenu.
-msgid "Shows a dialog to choose when emoticons speaking should be activated"
-msgstr ""
-"Извежда диалог, от който да изберете дали прочитането на емотиконите да е "
-"включено или не"
 
 #, python-format
 msgid "Emoticons dictionary (%s)"
@@ -108,8 +90,8 @@ msgid "Shows the Emoticons dictionary dialog."
 msgstr "Извежда диалог на речника с емотиконите"
 
 #. Translators: Message presented in input help mode.
-msgid "Shows the Emoticons Activation settings dialog."
-msgstr "Извежда диалог с настройките за задействането на емотиконите"
+msgid "Shows the Emoticons settings."
+msgstr "Извежда настройките за емотиконите."
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"
@@ -172,10 +154,6 @@ msgstr "За&нули"
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Save and e&xport dictionary"
 msgstr "Запиши и е&кспортирай речника"
-
-#. Translators: this is the label for the Emoticons activate dialog.
-msgid "Activation settings"
-msgstr "Настройки за задействането"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 msgid "&Activate speaking of emoticons:"
@@ -890,3 +868,23 @@ msgid ""
 msgstr ""
 "Прави възможно прочитането на имената на емотикони вместо тяхното "
 "представяне със знаци."
+
+#~ msgid "Manag&e emoticons"
+#~ msgstr "&Управление на емотиконите"
+
+#~ msgid "Emoticons menu"
+#~ msgstr "Меню на емотиконите"
+
+#~ msgid "&Customize emoticons..."
+#~ msgstr "&Персонализирай емотиконите..."
+
+#~ msgid "&Activation settings..."
+#~ msgstr "Настройки за &задействането..."
+
+#~ msgid "Shows a dialog to choose when emoticons speaking should be activated"
+#~ msgstr ""
+#~ "Извежда диалог, от който да изберете дали прочитането на емотиконите да е "
+#~ "включено или не"
+
+#~ msgid "Activation settings"
+#~ msgstr "Настройки за задействането"
