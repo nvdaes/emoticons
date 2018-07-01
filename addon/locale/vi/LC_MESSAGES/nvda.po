@@ -51,39 +51,22 @@ msgstr "Biểu tượng cảm xúc Emoji"
 msgid "Emoticon"
 msgstr "Biểu tượng cảm xúc"
 
-#. Translators: the name of addon submenu.
-msgid "Manag&e emoticons"
-msgstr "&Quản lý các biểu tượng cảm xúc"
-
-#. Translators: the tooltip text for addon submenu.
-msgid "Emoticons menu"
-msgstr "Trình đơn biểu tượng cảm xúc"
-
-#. Translators: the name for an item of addon submenu.
+#. Translators: the name for a menu item.
 msgid "&Insert emoticon..."
 msgstr "C&hèn biểu tượng cảm xúc..."
 
-#. Translators: the tooltip text for an item of addon submenu.
+#. Translators: the tooltip text for a menu item.
 msgid "Shows a dialog to insert a smiley"
 msgstr "Hiển thị một hộp thoại để chèn biểu tượng cảm xúc"
 
-#. Translators: the name for an item of addon submenu.
-msgid "&Customize emoticons..."
-msgstr "&Tùy chỉnh các biểu tượng cảm xúc..."
+#. Translators: the name for a menu item.
+#, fuzzy
+msgid "&Emoticons dictionary..."
+msgstr "Từ điển các biểu tượng cảm xúc"
 
-#. Translators: the tooltip text for an item of addon submenu.
+#. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
 msgstr "Hiển thị hộp thoại từ điển để tùy chỉnh các biểu tượng cảm xúc"
-
-#. Translators: the name for an item of addon submenu.
-msgid "&Activation settings..."
-msgstr "&Các cài đặt kích hoạt..."
-
-#. Translators: the tooltip text for an item of addon submenu.
-msgid "Shows a dialog to choose when emoticons speaking should be activated"
-msgstr ""
-"Hiển thị một hộp thoại để lựa chọn khi nào thì chế độ nói các biểu tượng cảm "
-"xúc nên được kích hoạt"
 
 #, fuzzy, python-format
 msgid "Emoticons dictionary (%s)"
@@ -110,7 +93,8 @@ msgid "Shows the Emoticons dictionary dialog."
 msgstr "Hiển thị hộp thoại từ điển biểu tượng cảm xúc."
 
 #. Translators: Message presented in input help mode.
-msgid "Shows the Emoticons Activation settings dialog."
+#, fuzzy
+msgid "Shows the Emoticons settings."
 msgstr "Hiển thị hộp thoại cài đặt kích hoạt biểu tượng cảm xúc."
 
 #. Translators: Title of the dialog.
@@ -174,10 +158,6 @@ msgstr "Thiết lập &lại"
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Save and e&xport dictionary"
 msgstr "Lưu và &xuất từ điển"
-
-#. Translators: this is the label for the Emoticons activate dialog.
-msgid "Activation settings"
-msgstr "Các cài đặt kích hoạt"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 #, fuzzy
@@ -891,3 +871,23 @@ msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
 msgstr "Bật chế độ đọc tên biểu tượng cảm xúc thay cho kí tự của nó."
+
+#~ msgid "Manag&e emoticons"
+#~ msgstr "&Quản lý các biểu tượng cảm xúc"
+
+#~ msgid "Emoticons menu"
+#~ msgstr "Trình đơn biểu tượng cảm xúc"
+
+#~ msgid "&Customize emoticons..."
+#~ msgstr "&Tùy chỉnh các biểu tượng cảm xúc..."
+
+#~ msgid "&Activation settings..."
+#~ msgstr "&Các cài đặt kích hoạt..."
+
+#~ msgid "Shows a dialog to choose when emoticons speaking should be activated"
+#~ msgstr ""
+#~ "Hiển thị một hộp thoại để lựa chọn khi nào thì chế độ nói các biểu tượng "
+#~ "cảm xúc nên được kích hoạt"
+
+#~ msgid "Activation settings"
+#~ msgstr "Các cài đặt kích hoạt"

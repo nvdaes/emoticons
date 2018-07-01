@@ -51,37 +51,22 @@ msgstr "רגשון"
 msgid "Emoticon"
 msgstr "רגשונים"
 
-#. Translators: the name of addon submenu.
-msgid "Manag&e emoticons"
-msgstr "ניהול הרגשונים"
-
-#. Translators: the tooltip text for addon submenu.
-msgid "Emoticons menu"
-msgstr "תפריט רגשונים"
-
-#. Translators: the name for an item of addon submenu.
+#. Translators: the name for a menu item.
 msgid "&Insert emoticon..."
 msgstr "&הדבקת הרגשון..."
 
-#. Translators: the tooltip text for an item of addon submenu.
+#. Translators: the tooltip text for a menu item.
 msgid "Shows a dialog to insert a smiley"
 msgstr "פתיחת תיבת דו-שיח של רגשונים"
 
-#. Translators: the name for an item of addon submenu.
-msgid "&Customize emoticons..."
-msgstr "ה&תאמת רגשונים..."
+#. Translators: the name for a menu item.
+#, fuzzy
+msgid "&Emoticons dictionary..."
+msgstr "מילון הרגשונים (%s)"
 
-#. Translators: the tooltip text for an item of addon submenu.
+#. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
 msgstr "מציג את המילון המאפשר להגדיר את הרגשונים"
-
-#. Translators: the name for an item of addon submenu.
-msgid "&Activation settings..."
-msgstr "ה&גדרות הפעלה..."
-
-#. Translators: the tooltip text for an item of addon submenu.
-msgid "Shows a dialog to choose when emoticons speaking should be activated"
-msgstr "פתיחת תיבת דו-שיח המגדירה את התנאים להקראת הרגשונים"
 
 #, python-format
 msgid "Emoticons dictionary (%s)"
@@ -108,7 +93,8 @@ msgid "Shows the Emoticons dictionary dialog."
 msgstr "מילון הרגשונים."
 
 #. Translators: Message presented in input help mode.
-msgid "Shows the Emoticons Activation settings dialog."
+#, fuzzy
+msgid "Shows the Emoticons settings."
 msgstr "יבוא הגדרות תוסף Emoticons."
 
 #. Translators: Title of the dialog.
@@ -172,10 +158,6 @@ msgstr "&איפוס"
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Save and e&xport dictionary"
 msgstr "&שמירה ויצוא של המילון"
-
-#. Translators: this is the label for the Emoticons activate dialog.
-msgid "Activation settings"
-msgstr "הגדרות הפעלה"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 msgid "&Activate speaking of emoticons:"
@@ -888,3 +870,21 @@ msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
 msgstr "מאפשר הקראה של תיאור הרגשונים במקום צורתם הגראפית."
+
+#~ msgid "Manag&e emoticons"
+#~ msgstr "ניהול הרגשונים"
+
+#~ msgid "Emoticons menu"
+#~ msgstr "תפריט רגשונים"
+
+#~ msgid "&Customize emoticons..."
+#~ msgstr "ה&תאמת רגשונים..."
+
+#~ msgid "&Activation settings..."
+#~ msgstr "ה&גדרות הפעלה..."
+
+#~ msgid "Shows a dialog to choose when emoticons speaking should be activated"
+#~ msgstr "פתיחת תיבת דו-שיח המגדירה את התנאים להקראת הרגשונים"
+
+#~ msgid "Activation settings"
+#~ msgstr "הגדרות הפעלה"

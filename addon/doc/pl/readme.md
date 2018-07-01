@@ -1,5 +1,6 @@
 # Emotikony / Emoticons #
 
+
 * Autorzy: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Pobierz [wersja stabilna][1]
@@ -22,7 +23,7 @@ czujesz.
 Jeśli nie jesteś pewien znaku dla określonego uśmiechu, ten dodatek pozwala
 oznaczyć i dodać smajliki .
 
-Naciśnij NVDA+I, oraz z mini ustawień -> zarządzaj emotikonami -> wstaw emotikon, aby otworzyć dialog z dostępnymi emotikonami lub emoji.
+Naciśnij NVDA+I lub z menu Narzędzia-> opcję emotikonów, aby otworzyć okno dialogowe z dostarczonymi emotikonami lub emoji.
 
 Ten dialog umożliwia wybór emotikonu i przeglądanie emotikonów, które cię
 interesują:
@@ -37,7 +38,7 @@ interesują:
 Po naciśnięciu "ok", znaczki dla wybranego emotikonu będą skopiowane do
 schowka, już gotowe do wklejenia.
 
-## Dostosuj emotikony ##
+## Słownik Emotikonów ##
 
 Ten dodatek pozwala korzystać z różnych słowników wymowy używających profili
 konfiguracji.
@@ -45,7 +46,7 @@ konfiguracji.
 Można tu utworzyć lub edytować oddzielny słownik wymowy dla każdego profilu
 użytkownika.
 
-Z pozycji meni NVDA, Ustawienia -> Zarządzaj emotikonami -> dostosuj emotikony, można otworzyć okno dialogowe, w którym można edytować istniejące, lub dodawać nowe emotikony.
+Z Menu NVDA, Ustawienia -> Słowniki Wymowy -> Słownik Emotikonów, można otworzyć okno dialogowe służące do dodawania lub edycji dostępnych emotikonów.
 
 Po dostosowaniu dodatku do potrzeb użytkownika i zapisaniu zmian, nowe
 ustawienia odczytywania emotikonów będą działać jedynie w aktualnie
@@ -78,12 +79,25 @@ jego wyłączeniu.
 
 ## Skróty klawiszowe: ##
 
-To są domyślnie dostępne skróty klawiszowe, można ich zmienić, albo dodać
-nowy skrót do wywołania dialogu aktywacji lub słownika emotikonów:
+To domyślnie dostępne skróty klawiszowe, można je zmieniać, albo dodać nowy
+skrót służący do wywołania dialogu aktywacji lub słownika emotikonów:
 
 * NVDA+E: przełącza między odczytywaniem tekstu tak jak został napisany, a
   odczytywaniem tekstu z emotikonami zastąpionymi przez opisy.
 * NVDA+I: wyświetla okno dialogowe wyboru uśmieszku do skopiowania.
+
+
+## Zmiany w wersji 6.0 ##
+
+* Okno dialogowe ustawień aktywacji zostało przeniesione do oddzielnego
+  panelu w ustawieniach NVDA, więc nazwa aktualnie aktywnego profilu będzie
+  wyświetlana w tytule okna ustawień NVDA.
+* Menu Zarządzaj Emotikonami zostało zastąpione opcją Emotikony dodaną do
+  menu Narzędzia. Natomiast Dostosuj Emotikony zostało dodane do Słowników
+  Wymowy, np. Słownika Emotikonów.
+* Wymaga NVDA w wersji 2018.2 lub nowszej.
+* W razie potrzeby, można pobrać [najnowszą wersję dodatku zgodną z NVDA
+  2017.3][3].
 
 ## Zmiany w wersji 6.0 ##
 
@@ -131,8 +145,14 @@ nowy skrót do wywołania dialogu aktywacji lub słownika emotikonów:
 
 * Pierwsza wersja.
 
+
+
+
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=emo
 
 [2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+
+[3]:
+https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5.nvda-addon

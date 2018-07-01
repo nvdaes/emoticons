@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-#Copyright (C) 2013-2017 Noelia Ruiz Martínez, other contributors
+#Copyright (C) 2013-2018 Noelia Ruiz Martínez, other contributors
 # Released under GPL2
 
 import config
@@ -14,6 +14,7 @@ config.conf.spec["emoticons"] = confspec
 addonHandler.initTranslation()
 
 def onInstall():
+	from gui import SettingsPanel, NVDASettingsDialog
 	import speechDictHandler
 	import globalVars
 	import os

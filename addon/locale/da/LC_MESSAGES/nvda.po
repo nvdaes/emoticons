@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-19 18:53+0100\n"
-"PO-Revision-Date: 2017-12-26 11:17+0100\n"
-"Last-Translator: Bue Vester-Andersen <bue@vester-andersen.dk>\n"
+"PO-Revision-Date: 2018-06-15 16:27+0200\n"
+"Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
 "Language-Team: Bue Vester-Andersen <bue@vester-andersen.dk>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.5\n"
+"X-Generator: Poedit 2.0.8\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -51,37 +51,21 @@ msgstr "Emoji"
 msgid "Emoticon"
 msgstr "Emoticon"
 
-#. Translators: the name of addon submenu.
-msgid "Manag&e emoticons"
-msgstr "&Styring af humørikoner"
-
-#. Translators: the tooltip text for addon submenu.
-msgid "Emoticons menu"
-msgstr "Humørikoner-menu"
-
-#. Translators: the name for an item of addon submenu.
+#. Translators: the name for a menu item.
 msgid "&Insert emoticon..."
-msgstr "&Indsæt humørikon"
+msgstr "&Indsæt humørikon..."
 
-#. Translators: the tooltip text for an item of addon submenu.
+#. Translators: the tooltip text for a menu item.
 msgid "Shows a dialog to insert a smiley"
 msgstr "Viser en dialog til indsættelse af en smiley"
 
-#. Translators: the name for an item of addon submenu.
-msgid "&Customize emoticons..."
-msgstr "&Tilpas humørikoner"
+#. Translators: the name for a menu item.
+msgid "&Emoticons dictionary..."
+msgstr "Humørikoner-ordbog..."
 
-#. Translators: the tooltip text for an item of addon submenu.
+#. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
 msgstr "Viser en ordbogsdialog til tilpasning af humørikoner"
-
-#. Translators: the name for an item of addon submenu.
-msgid "&Activation settings..."
-msgstr "Indstillinger for &aktivering"
-
-#. Translators: the tooltip text for an item of addon submenu.
-msgid "Shows a dialog to choose when emoticons speaking should be activated"
-msgstr "Viser en dialog til valg af, hvornår humørikoner skal udtales"
 
 #, python-format
 msgid "Emoticons dictionary (%s)"
@@ -101,15 +85,15 @@ msgstr "Slår annoncering af humørikoner til og fra"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
-msgstr "Viser en dialog til valg af smiley, som skal indsættes"
+msgstr "Viser en dialog til valg af smiley, som skal indsættes."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons dictionary dialog."
 msgstr "Viser ordbog over humørikoner."
 
 #. Translators: Message presented in input help mode.
-msgid "Shows the Emoticons Activation settings dialog."
-msgstr "Viser dialog med aktiveringsindstillinger for Humørikoner."
+msgid "Shows the Emoticons settings."
+msgstr "Viser dialog med indstillinger for Humørikoner."
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"
@@ -172,10 +156,6 @@ msgstr "Nuls&til"
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Save and e&xport dictionary"
 msgstr "Gem og eksporter ordbog"
-
-#. Translators: this is the label for the Emoticons activate dialog.
-msgid "Activation settings"
-msgstr "Indstillinger for aktivering"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 msgid "&Activate speaking of emoticons:"
@@ -888,3 +868,21 @@ msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
 msgstr "Annoncering af humørikoner i stedet for de tilsvarende tegn"
+
+#~ msgid "Manag&e emoticons"
+#~ msgstr "&Styring af humørikoner"
+
+#~ msgid "Emoticons menu"
+#~ msgstr "Humørikoner-menu"
+
+#~ msgid "&Customize emoticons..."
+#~ msgstr "&Tilpas humørikoner"
+
+#~ msgid "&Activation settings..."
+#~ msgstr "Indstillinger for &aktivering"
+
+#~ msgid "Shows a dialog to choose when emoticons speaking should be activated"
+#~ msgstr "Viser en dialog til valg af, hvornår humørikoner skal udtales"
+
+#~ msgid "Activation settings"
+#~ msgstr "Indstillinger for aktivering"
