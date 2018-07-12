@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-19 18:53+0100\n"
-"PO-Revision-Date: 2018-02-04 11:12+0100\n"
+"PO-Revision-Date: 2018-07-05 22:11-0700\n"
 "Last-Translator: Ócsvári Áron <oaron1@gmail.com>\n"
 "Language-Team: HU <LL@li.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.8.9\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -61,13 +61,14 @@ msgid "Shows a dialog to insert a smiley"
 msgstr "Megnyitja a hangulatjel beszúrása párbeszédablakot"
 
 #. Translators: the name for a menu item.
-#, fuzzy
 msgid "&Emoticons dictionary..."
-msgstr "(%s) Hangulatjelszótár"
+msgstr "Hangulatjel&szótár..."
 
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
-msgstr "Megnyitja a hangulatjelek szerkeztése párbeszédablakot"
+msgstr ""
+"Megnyitja a hangulatjelek szerkeztése párbeszédablakot, amely hasonlít egy "
+"szótárra"
 
 #, python-format
 msgid "Emoticons dictionary (%s)"
@@ -96,9 +97,8 @@ msgid "Shows the Emoticons dictionary dialog."
 msgstr "A Hangulatjelszótár megnyitása"
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid "Shows the Emoticons settings."
-msgstr "A hangulatjelek  bővítmény aktiválási beállításainak megnyitása"
+msgstr "A hangulatjelek  bővítmény beállításainak megnyitása"
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"
@@ -115,7 +115,7 @@ msgstr "&Mind"
 
 #. Translators: A radio button to choose only standard emoticons.
 msgid "&Standard"
-msgstr "&Standard"
+msgstr "&Standard, alapértelmezett"
 
 #. Translators: A radio button to choose only emojis.
 msgid "Emoj&is"
@@ -140,11 +140,11 @@ msgstr "Karakterek"
 
 #. Translators: Label for standard emoticons in the list.
 msgid "Standard"
-msgstr "Standard"
+msgstr "Alapérték"
 
 #. Translators: Error message when none emoticon is selected or the list is empty, and title of the error dialog.
 msgid "There is not any emoticon selected."
-msgstr "Nem választott hangulatjelet."
+msgstr "Nincs kijelölve hangulatjel"
 
 #. Translators: This is the message when smiley has been copied to the clipboard.
 msgid "Smiley copied to clipboard, ready for you to paste."
@@ -192,7 +192,7 @@ msgstr "Önelégülten vigyorgó arc"
 
 #. Translators: (emoji) Slightly Smiling Face: a face that is a little bit happy, with a slight smile and neutral eyes.
 msgid "Slightly smiling face"
-msgstr "Mosolygó arc"
+msgstr "Láthatóan mosolygó arc"
 
 #. Translators: (emoji) white smiling face.
 msgid "white smiling face"
@@ -425,7 +425,7 @@ msgstr "Összetört szív"
 
 #. Translators: (emoji) pulsating heart.
 msgid "Pulsating heart"
-msgstr "Dobogó szív"
+msgstr "Pulzáló szív"
 
 #. Translators: (emoji) beating heart.
 msgid "Beating heart"
@@ -521,7 +521,7 @@ msgstr "Lefelé fordított hüvelykujj"
 
 #. Translators: (emoji) Victory Hand.
 msgid "Victory Hand"
-msgstr "V jelet formáló kéz"
+msgstr "Győzelmet jelző kéz"
 
 #. Translators: :) Smile
 msgid "smiling smiley"
@@ -873,26 +873,7 @@ msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
 msgstr ""
-"A hangulatjel jelentés bemondásának engedélyezése, annak "
-"karakterkombinációja helyett.\n"
-"Nyomja meg az NVDA+e-t a váltáshoz."
-
-#~ msgid "Manag&e emoticons"
-#~ msgstr "Han&gulatjelek kezelése"
-
-#~ msgid "Emoticons menu"
-#~ msgstr "Hangulatjelek menü"
-
-#~ msgid "&Customize emoticons..."
-#~ msgstr "Hangulatjelek &testreszabása..."
+"A hangulatjel jelentésének bemondása, annak karakterkombinációja helyett."
 
 #~ msgid "&Activation settings..."
 #~ msgstr "&Aktiválási beállítások..."
-
-#~ msgid "Shows a dialog to choose when emoticons speaking should be activated"
-#~ msgstr ""
-#~ "Megjelenít egy párbeszédablakot, melyben kiválaszthatja, hogy mely "
-#~ "hangulatjel bemondása legyen aktív"
-
-#~ msgid "Activation settings"
-#~ msgstr "Aktiválási beállítások"

@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 5.2\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2017-02-03 05:00+1000\n"
-"PO-Revision-Date: 2017-12-14 09:12-0800\n"
+"PO-Revision-Date: 2018-07-06 23:05+0700\n"
 "Last-Translator: Dang Hoai Phuc <danghoaiphuc@gmail.com>\n"
 "Language-Team: Sao Mai <info@saomaicenter.org>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 2.0.5\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -90,7 +90,7 @@ msgstr "Hiển thị một hộp thoại  để chọn biểu tượng cảm xú
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons dictionary dialog."
-msgstr "Hiển thị hộp thoại từ điển biểu tượng cảm xúc."
+msgstr "hiện hộp thoại từ điển biểu tượng cảm xúc."
 
 #. Translators: Message presented in input help mode.
 #, fuzzy
@@ -166,7 +166,7 @@ msgstr "&Kích hoạt chế độ nói các biểu tượng cảm xúc khi khở
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 msgid "&Remove not used dictionaries"
-msgstr ""
+msgstr "&Xóa các từ điển không dùng đến"
 
 #. Translators: (emoji) Grinning face, an happy face with normal eyes.
 msgid "Grinning face"
@@ -435,7 +435,7 @@ msgstr "Đôi tim"
 
 #. Translators: (emoji) heart with arrow.
 msgid "Heart with arrow"
-msgstr "Trái tim với mũi tên"
+msgstr "Tim với mũi tên"
 
 #. Translators: (emoji) purple heart.
 msgid "Purple heart"

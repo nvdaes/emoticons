@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 18:37+0100\n"
-"PO-Revision-Date: 2018-06-15 08:44+0200\n"
+"PO-Revision-Date: 2018-07-06 19:47+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Finnish <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -23,8 +23,8 @@ msgid ""
 "You have installed the Emoticons add-on, probably an old and incompatible "
 "version with this one. Do you want to uninstall the old version?"
 msgstr ""
-"Sinulla on asennettuna vanha Hymiöt-lisäosa, joka ei ole yhteensopiva tämän "
-"version kanssa. Haluatko poistaa vanhan version?"
+"Asennettuna on vanha Hymiöt-lisäosa, joka ei ole yhteensopiva tämän version "
+"kanssa. Haluatko poistaa vanhan version?"
 
 #. Translators: the title of a message box dialog.
 msgid "Uninstall incompatible add-on"
@@ -89,7 +89,7 @@ msgstr "Näyttää valintaikkunan, josta voit valita liitettävän hymiön."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons dictionary dialog."
-msgstr "Näyttää hymiösanastovalintaikkunan."
+msgstr "Näyttää Hymiösanasto-valintaikkunan."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons settings."
@@ -735,7 +735,7 @@ msgstr "odota"
 
 #. Translators: (hug) Hug
 msgid "hug smiley"
-msgstr "halaus"
+msgstr "hali"
 
 #. Translators: (makeup) Make-up
 msgid "make-up smiley"

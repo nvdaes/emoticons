@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 5.5\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 20:13+0100\n"
-"PO-Revision-Date: 2018-01-29 18:54+0100\n"
+"PO-Revision-Date: 2018-06-26 17:42+0100\n"
 "Last-Translator: Juan C. Buño <quetzatl@eresmas.net>\n"
 "Language-Team: NVDA add-ons translation team <LL@li.org>\n"
 "Language: gl\n"
@@ -60,9 +60,8 @@ msgid "Shows a dialog to insert a smiley"
 msgstr "Amosa un diálogo para insertar un emoticón"
 
 #. Translators: the name for a menu item.
-#, fuzzy
 msgid "&Emoticons dictionary..."
-msgstr "Diccionario de Emoticóns (%s)"
+msgstr "Diccionario de &Emoticóns..."
 
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
@@ -93,9 +92,8 @@ msgid "Shows the Emoticons dictionary dialog."
 msgstr "Amosar o diálogo Diccionario de Emoticóns."
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid "Shows the Emoticons settings."
-msgstr "Amosar o diálogo Opcións de Activación de Emoticóns."
+msgstr "Amosa a configuración de emoticóns."
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"

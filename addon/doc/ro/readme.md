@@ -23,7 +23,7 @@ viață mesajului dumneavoastră instant și pentru a permite prietenilor să
 Când sunteți nesigur de caracterele pentru un zâmbet particular, add-on-ul
 vă permite să-l selectați și inserați în textul dumneavoastră.
 
-Press NVDA+I, or from menu Tools -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
+Apăsați NVDA+I, sau din meniul instrumente -> Inserare Emoticon, pentru a deschide un dialog cu emoticoanele oferite sau mojiuri.
 
 Acest dialog vă permite să alegeți un emoticon și să vizualizați
 emoticoanele care vă interesează:
@@ -44,7 +44,7 @@ emoticoanele care vă interesează:
 Când apăsați OK, caracterele pentru emoticoanele alese vor fi copiate pe
 planșetă, pregătite pentru lipire.
 
-## Emoticons dictionary ##
+## Dicționar de emoticoane ##
 
 Suplimentul Emoticons vă permite să aveți diferite dicționare de vorbire
 folosind profiluri de configurare.
@@ -52,16 +52,17 @@ folosind profiluri de configurare.
 Aceasta înseamnă că puteți crea sau edita un dicționar de vorbire specific
 pentru fiecare profil personalizat.
 
-From NVDA MENU, Preferences -> Speech dictionaries -> Emoticons dictionary, you can open a dialog to add or to edit available emoticons.
+Din meniul NVDA, Preferințe -> Dicționare de vorbire -> Dicționar de emoticoane, puteți să deschideți un dialog cu setările unde puteți adăuga sau edita emoticoanle disponibile.
 
 Salvându-vă particularizările, noile setări de citire ale emoticoanelor se
 vor aplica numai profilului pe care îl editați în prezent.
 
-For example, you may wish that NVDA spoken custom emoticons only in XxChat
-program, but not in other chat programs: you can do this by creating a
-profile for the XxChat application and assign to it a speech dictionary from
-Speech dictionaries menu, Emoticons dictionary option. See below for
-Emoticons settings in relation to the configuration profiles.
+De exemplu, ați putea dori ca NVDA să pronunțe emoticoane personalizate
+numai în programul XxChat, dar nu în alte programe de chat: puteți face
+acest lucru creând un profil pentru aplicația XxChat și atribuiți un
+dicționar de vorbire din meniul din meniul dicționare de vorbire, opțiunea
+„Dicționar de emoticoane. Vedeți mai jos setările de activare în raport cu
+profilurile de configurare.
 
 De asemenea, puteți să exportați fiecare dicționar de vorbire apăsând
 butonul "Salvează și exportă dicționar": în felul acesta, dicționarele
@@ -72,21 +73,22 @@ Numele exact și locația fișierului de dicționar vor fi bazate pe editarea
 profilului de configurare, care va fi afișat în titlul dialogului dicționar
 Emoticons.
 
-## Emoticons settings ##
+## Setări Emoticons ##
 
-From menu Preferences -> Settings -> Emoticons opens a panel to configure the activation of your speech-dictionaries for each profile.
+Din meniul Preferințe -> Setări Emoticoane deschide un dialog pentru a configura activarea dicționarelor de vorbire pentru fiecare profil.
 
-In Emoticons settings panel you can choose whether or not speech-dictionary should automatically activate when  NVDA switches to the   profile you are currently editing. By default it is disabled in normal configuration of NVDA and in all your new profiles.
+Din panoul de setări al Emoticons, puteți dacă ar trebui sau nu ca dicționarul de vorbire să se activeze automat atunci când NVDA se comută la profilul pe care actualmente îl editați. În mod implicit, este dezactivată în configurația normală a NVDA și în toate profilurile dumneavoastră.
 
 Dacă doriți să păstrați curate folderele de configurare, în această
 fereastră de dialog este posibil de asemenea să alegeți dacă dicționarele
 care nu sunt utilizate (asociate profilurilor inexistente) vor fi eliminate
 din supliment atunci când nu sunt încărcate.
 
-## Comenzi de tastatură ##
+## Comenzi de tastatură: ##
 
-These are the key commands available by default, you can edit those or add
-new key to open Emoticons settings panel or Emoticon Dictionary dialog:
+Acestea sunt scurtăturile disponibile în mod implicit, puteți să le editați
+sau puteți adăuga o nouă tastă pentru a deschide panoul de setări al
+Emoticons sau dialogul dicționarului de emoticoane:
 
 * NVDA + E: activarea/dezactivarea pronunțării emoticoanelor, comută între
   pronunțarea textului așa cum este scris, sau cu emoticoanele înlocuite cu
@@ -95,16 +97,17 @@ new key to open Emoticons settings panel or Emoticon Dictionary dialog:
   copiați.
 
 
-## Changes for 7.0 ##
+## Modificări aduse în 7.0 ##
 
-* The Activation settings dialog has been moved to a panel in NVDA settings,
-  so that the current profile will be shown in the title of the NVDA
-  settings dialog.
-* The Manage Emoticons menu has been removed: now Insert emoticon will be
-  found under the Tools menu, and Customize Emoticons will be shown under
-  Speech dictionaries like Emoticons dictionary.
-* Requires NVDA 2018.2 or later.
-* If needed, you can download the [last version compatible with NVDA
+* Dialogul de activare al setărilor a fost mutat într-un panou din setările
+  NVDA, astfel încât profilul curent va fi afișat în titlul dialogului
+  setărilor NVDA.
+* Meniul Administrare Emoticoane a fost șters: nicio opțiune de genul
+  Inserare Emoticon nu va fi găsită în submeniul Instrumente, iar opțiunea
+  de personalizare a emoticoanelor va fi afișată sub dicționarele de
+  vorbire, la fel ca dicționarul de emoticoane.
+* Necesită NVDA 2018.2 sau mai nou.
+* Dacă e musai, puteți să descărcați [ultima versiune compatibilă cu NVDA
   2017.3][3].
 
 ## Modificări aduse în 6.0 ##
@@ -132,24 +135,24 @@ new key to open Emoticons settings panel or Emoticon Dictionary dialog:
   setări este activ, NVDA va afișa un mesaj de eroare.
 
 
-## Modificări aduse în versiunea 3.0. ##
+## Modificări aduse în versiunea 3.0 ##
 
 * În dialogul de personalizare emoticon, este acum posibil să specifici dacă
   un model trebuie să fie asemănător dacă este un cuvânt întreg, în
   acordanță cu dicționarele de vorbire versiunii NVDA 2014.4.
 
 
-## Modificări aduse în versiunea 2.0. ##
+## Modificări aduse în versiunea 2.0 ##
 
 * Ajutorul add-on-ului este disponibil din manager-ul de add-on-uri.
 
 
-## Modificări aduse în versiunea 1.1. ##
+## Modificări aduse în versiunea 1.1 ##
 
 * Au fost șterse emoticoanele duplicate.
 * Au mai fost adăugate ceva emoticoane.
 
-## Modificări aduse în versiuna 1.0. ##
+## Modificări aduse în versiuna 1.0 ##
 
 * Versiunea Inițială.
 
