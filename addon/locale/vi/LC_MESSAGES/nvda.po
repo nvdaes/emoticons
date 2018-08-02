@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 5.2\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2017-02-03 05:00+1000\n"
-"PO-Revision-Date: 2018-07-13 10:41+0700\n"
+"PO-Revision-Date: 2018-07-29 22:46+0700\n"
 "Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
 "Language-Team: Sao Mai <info@saomaicenter.org>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.9\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -30,13 +30,12 @@ msgid "Uninstall incompatible add-on"
 msgstr "Đang gỡ add-on không tương thích"
 
 #. Translators: the label of a message box dialog.
-#, fuzzy
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them, removing deprecated files?"
 msgstr ""
 "Có vẻ như bạn đã lưu các thiết lập trước đây của add-on này. Bạn có muốn nạp "
-"chúng vào không?"
+"chúng vào và xóa các tập tin thừa không?"
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
@@ -158,9 +157,8 @@ msgid "Save and e&xport dictionary"
 msgstr "Lưu và &xuất từ điển"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
-#, fuzzy
 msgid "&Activate speaking of emoticons:"
-msgstr "&Kích hoạt chế độ nói các biểu tượng cảm xúc khi khởi động:"
+msgstr "&Kích hoạt chế độ nói các biểu tượng cảm xúc:"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 msgid "&Remove not used dictionaries"
