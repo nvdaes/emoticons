@@ -68,6 +68,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def handleConfigProfileSwitch(self):
 		self.profileName = config.conf.profiles[-1].name
+		if self.profileName == self.oldProfileName:
+			return
 		if not config.conf["emoticons"]["onlyNormalConfiguration"]:
 			deactivateAnnouncement()
 			self.loadDic()
@@ -81,6 +83,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 					NVDASettingsDialog.categoryClasses.remove(AddonSettingsPanel)
 				except:
 					pass
+		self.oldProfileName = self.profileName
 
 	def __init__(self):
 		super(GlobalPlugin, self).__init__()
@@ -95,7 +98,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			otherReplacement = " %s; " % em.name
 			# Case and reg are always True
 			defaultDic.append(speechDictHandler.SpeechDictEntry(em.pattern, otherReplacement, comment, True, speechDictHandler.ENTRY_TYPE_REGEXP))
-		self.profileName = config.conf.profiles[-1].name
+		self.profileName = self.oldProfileName = config.conf.profiles[-1].name
 		self.loadDic()
 
 		# Gui
@@ -117,7 +120,11 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			NVDASettingsDialog.categoryClasses.append(AddonSettingsPanel)
 
 		# Config
-		if config.conf["emoticons"]["announcement"]:
+		if not config.conf["emoticons"]["onlyNormalConfiguration"]:
+			announcement = config.conf["emoticons"]["announcement"]
+		else:
+			announcement = config.conf.profiles[0]["emoticons"]["announcement"]
+		if announcement:
 			activateAnnouncement()
 		config.post_configProfileSwitch.register(self.handleConfigProfileSwitch)
 
