@@ -137,7 +137,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			pass
 		deactivateAnnouncement()
 		config.post_configProfileSwitch.unregister(self.handleConfigProfileSwitch)
-		self.profileName = None
+		self.profileName = self.oldProfileName = None
 		if config.conf["emoticons"]["cleanDicts"]:
 			profileNames = config.conf.listProfiles()
 			for (root, dirs, files) in os.walk(os.path.join(ADDON_DICTS_PATH, "profiles")):
