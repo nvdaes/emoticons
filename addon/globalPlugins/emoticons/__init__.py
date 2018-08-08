@@ -399,12 +399,20 @@ class EmDicDialog(DictionaryDialog):
 
 	def onOk(self,evt):
 		super(EmDicDialog, self).onOk(evt)
-		if config.conf["emoticons"]["announcement"]:
+		if not config.conf["emoticons"]["onlyNormalConfiguration"]:
+			announcement = config.conf["emoticons"]["announcement"]
+		else:
+			announcement = config.conf.profiles[0]["emoticons"]["announcement"]
+		if announcement:
 			activateAnnouncement()
 
 	def onCancel(self,evt):
 		super(EmDicDialog, self).onCancel(evt)
-		if config.conf["emoticons"]["announcement"]:
+		if not config.conf["emoticons"]["onlyNormalConfiguration"]:
+			announcement = config.conf["emoticons"]["announcement"]
+		else:
+			announcement = config.conf.profiles[0]["emoticons"]["announcement"]
+		if announcement:
 			activateAnnouncement()
 
 	def OnExportClick(self, evt):
