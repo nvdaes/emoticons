@@ -164,7 +164,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@script(
 		# Translators: Message presented in input help mode.
 		description=_("Toggles on and off the announcement of emoticons."),
-		gesture="kb:NVDA+e",
+		gesture="kb:NVDA+e"
 	)
 	def script_toggleSpeakingEmoticons(self, gesture):
 		if (not globalVars.speechDictionaryProcessing
