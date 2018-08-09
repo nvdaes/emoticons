@@ -55,7 +55,7 @@ msgstr "&Вмъкни емотикона..."
 
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dialog to insert a smiley"
-msgstr "Извежда диалог за вмъкване на емотикон"
+msgstr "Извежда диалог за вмъкване на емотикона"
 
 #. Translators: the name for a menu item.
 msgid "&Emoticons dictionary..."
@@ -83,7 +83,7 @@ msgstr "Превключва прочитането на емотиконите.
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
-msgstr "Извежда диалог за избор на емотикон за вмъкване"
+msgstr "Извежда диалог за избор на емотикона за вмъкване"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons dictionary dialog."
@@ -95,7 +95,7 @@ msgstr "Извежда настройките за емотиконите."
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"
-msgstr "Вмъкване на емотикон"
+msgstr "Вмъкване на емотикона"
 
 #. Filter panel.
 #. Translators: A text field to filter emoticons.
@@ -141,11 +141,11 @@ msgstr "Не е избрана емотикона."
 
 #. Translators: This is the message when smiley has been copied to the clipboard.
 msgid "Smiley copied to clipboard, ready for you to paste."
-msgstr "Емотиконът бе копиран в клипборда и е готов за поставяне."
+msgstr "Емотиконата бе копирана в клипборда и е готова за поставяне."
 
 #. Translators: Message when the emoticon couldn't be copied.
 msgid "Cannot copy smiley."
-msgstr "Копирането на емотикона е невъзможно."
+msgstr "Копирането на емотиконата е невъзможно."
 
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Rese&t"
@@ -518,7 +518,7 @@ msgstr "Победоносна ръка"
 
 #. Translators: :) Smile
 msgid "smiling smiley"
-msgstr "Усмихване емотикон"
+msgstr "Усмихване емотикона"
 
 #. Translators: :( Sad face.
 msgid "Sad face"
@@ -526,19 +526,19 @@ msgstr "Тъжно лице"
 
 #. Translators: :D Laugh
 msgid "Laughing smiley"
-msgstr "Разсмиване емотикон"
+msgstr "Разсмиване емотикона"
 
 #. Translators: :O Surprised
 msgid "surprised smiley"
-msgstr "Учудване емотикон"
+msgstr "Учудване емотикона"
 
 #. Translators: ;) Wink;
 msgid "winking smiley"
-msgstr "Намигане емотикон"
+msgstr "Намигане емотикона"
 
 #. Translators: ;( Crying
 msgid "crying smiley"
-msgstr "Ридание емотикон"
+msgstr "Ридание емотикона"
 
 #. Translators: :s :-S :-Q Confused face:
 msgid "Confused Face"
@@ -546,314 +546,314 @@ msgstr "Объркано лице"
 
 #. Translators: (:| Sweating
 msgid "sweating smiley"
-msgstr "Потене емотикон"
+msgstr "Потене емотикона"
 
 #. translators:  :|] Robot (a robot head)
 msgid "Robot Smiley"
-msgstr "Робот емотикон"
+msgstr "Робот емотикона"
 
 #. Translators: :| Speechless
 msgid "speechless smiley"
-msgstr "Безмълвие емотикон"
+msgstr "Безмълвие емотикона"
 
 #. Translators: :* Kiss
 msgid "kiss smiley"
-msgstr "Целувка емотикон"
+msgstr "Целувка емотикона"
 
 #. Translators: :P Cheeky
 msgid "cheeky smiley"
-msgstr "Изплезване емотикон"
+msgstr "Изплезване емотикона"
 
 #. Translators: :$ Blushing
 msgid "blushing smiley"
-msgstr "Изчервяване емотикон"
+msgstr "Изчервяване емотикона"
 
 #. Translators: :^) Wondering
 msgid "wondering smiley"
-msgstr "Изумление емотикон"
+msgstr "Изумление емотикона"
 
 #. Translators: |-) Sleepy
 msgid "sleepy smiley"
-msgstr "Заспиване емотикон"
+msgstr "Заспиване емотикона"
 
 #. Translators: |-( Dull
 msgid "dull smiley"
-msgstr "Затъпяване емотикон"
+msgstr "Затъпяване емотикона"
 
 #. Translators: :x My lips are sealed
 msgid "my lips are sealed smiley"
-msgstr "Гроб съм! емотикон"
+msgstr "Гроб съм! емотикона"
 
 #. Translators: \o/ Dancing
 msgid "dancing smiley"
-msgstr "Танц емотикон"
+msgstr "Танц емотикона"
 
 #. Translators: :'( crying a lot smiley
 msgid "crying a lot smiley"
-msgstr "Ридание емотикон"
+msgstr "Ридание емотикона"
 
 #. Translators: >:( Angry
 #. Translators: (angry) Angry
 msgid "angry smiley"
-msgstr "Вбесяване емотикон"
+msgstr "Вбесяване емотикона"
 
 #. Translators: :/ Worried
 #. Translators: (worry) Worried
 msgid "worried smiley"
-msgstr "Угриженост емотикон"
+msgstr "Угриженост емотикона"
 
 #. Translators: <3 Heart
 #. Translators: (heart) Heart
 msgid "heart smiley"
-msgstr "Сърце емотикон"
+msgstr "Сърце емотикона"
 
 #. Translators:  O:)  O:-) Angel
 msgid "Angel Smiley"
-msgstr "Ангел емотикон"
+msgstr "Ангел емотикона"
 
 #. Translators:  O.o  o.O  Confused
 msgid "Confused Smiley"
-msgstr "Объркване емотикон"
+msgstr "Объркване емотикона"
 
 #. Translators:   3:-) Devil
 msgid "Devil Smiley"
-msgstr "Дявол емотикон"
+msgstr "Дявол емотикона"
 
 #. Translators:  ^_^ Keke (This smiley is inspired by the Asian style, which is a happy face.)
 msgid "Keke Smiley"
-msgstr "Засмяно лице емотикон"
+msgstr "Засмяно лице емотикона"
 
 #. Translators: -_- Bored (This smiley face has its eyes closed and is sporting a very small grin.)
 msgid "Bored smiley"
-msgstr "Отегчение емотикон"
+msgstr "Отегчение емотикона"
 
 #. Translators:  >:O  Upset, angry or shouting...
 msgid "Angry Smiley"
-msgstr "Вбесяване емотикон"
+msgstr "Вбесяване емотикона"
 
 #. Translators:  :3  Cat (Cat faced smiley with curly lips)
 msgid "Cat Smiley"
-msgstr "Котешка усмивка емотикон"
+msgstr "Котешка усмивка емотикона"
 
 #. Translators: (-.-)ZZZ Iӭ Sleepy
 msgid "I am Sleepy smiley"
-msgstr "Сънливост емотикон"
+msgstr "Сънливост емотикона"
 
 #. Translators: 8-) Glasses
 msgid "glasses smiley"
-msgstr "Хладнокръвие емотикон"
+msgstr "Хладнокръвие емотикона"
 
 #. Translators: (^^^) shark
 msgid "shark smiley"
-msgstr "Акула емотикон"
+msgstr "Акула емотикона"
 
 #. Translators:  (cash) Cash
 msgid "cash smiley"
-msgstr "Пари емотикон"
+msgstr "Пари емотикона"
 
 #. Translators: (flex) Muscle
 msgid "muscle smiley"
-msgstr "Бабанка емотикон"
+msgstr "Бабанка емотикона"
 
 #. Translators: (beer) Beer
 msgid "beer smiley"
-msgstr "Бира емотикон"
+msgstr "Бира емотикона"
 
 #. Translators: (d) Drink
 msgid "drink smiley"
-msgstr "Питие емотикон"
+msgstr "Питие емотикона"
 
 #. Translators: (ninja) Ninja
 msgid "ninja smiley"
-msgstr "Нинджа емотикон"
+msgstr "Нинджа емотикона"
 
 #. Translators: (cool) Cool
 msgid "cool smiley"
-msgstr "Хладнокръвие емотикон"
+msgstr "Хладнокръвие емотикона"
 
 #. Translators: (inlove) In Love
 msgid "in love smiley"
-msgstr "Влюбване емотикон"
+msgstr "Влюбване емотикона"
 
 #. Translators: (yn) Fingers crossed
 msgid "fingers crossed smiley"
-msgstr "Стискане на палци емотикон"
+msgstr "Стискане на палци емотикона"
 
 #. Translators: (yawn) Yawn
 msgid "yawning smiley"
-msgstr "Прозяване емотикон"
+msgstr "Прозяване емотикона"
 
 #. Translators: (puke) Puking
 msgid "puking smiley"
-msgstr "Избълване емотикон"
+msgstr "Избълване емотикона"
 
 #. Translators: (doh) Doh!
 msgid "doh! smiley"
-msgstr "Уфф! емотикон"
+msgstr "Уфф! емотикона"
 
 #. Translators: (wasntme) It wasn't me!
 msgid "it wasn't me! smiley"
-msgstr "Не бях аз! емотикон"
+msgstr "Не бях аз! емотикона"
 
 #. Translators: (party) Party
 msgid "party smiley"
-msgstr "Купон емотикон"
+msgstr "Купон емотикона"
 
 #. Translators: (mm) Mmmm...
 msgid "mmmmmm... smiley"
-msgstr "Ммм... емотикон"
+msgstr "Ммм... емотикона"
 
 #. Translators: (nerd) Nerdy
 msgid "nerdy smiley"
-msgstr "Пристрастяване емотикон"
+msgstr "Пристрастяване емотикона"
 
 #. Translators: (wave) Hi
 msgid "hi smiley"
-msgstr "Привет емотикон"
+msgstr "Привет емотикона"
 
 #. Translators: (facepalm) Facepalm
 msgid "facepalm smiley"
-msgstr "Безсилие емотикон"
+msgstr "Безсилие емотикона"
 
 #. Translators: (devil) Devil
 msgid "devil smiley"
-msgstr "Дявол емотикон"
+msgstr "Дявол емотикона"
 
 #. Translators: (angel) Angel
 msgid "angel smiley"
-msgstr "Ангел емотикон"
+msgstr "Ангел емотикона"
 
 #. Translators: (envy) Envy
 msgid "envy smiley"
-msgstr "Завист емотикон"
+msgstr "Завист емотикона"
 
 #. Translators: (wait) Wait
 msgid "wait smiley"
-msgstr "Изчакване емотикон"
+msgstr "Изчакване емотикона"
 
 #. Translators: (hug) Hug
 msgid "hug smiley"
-msgstr "Гушкане емотикон"
+msgstr "Гушкане емотикона"
 
 #. Translators: (makeup) Make-up
 msgid "make-up smiley"
-msgstr "Разкрасяване емотикон"
+msgstr "Разкрасяване емотикона"
 
 #. Translators: (chuckle) Giggle
 msgid "giggle smiley"
-msgstr "Хихикане емотикон"
+msgstr "Хихикане емотикона"
 
 #. Translators: (clap) Clapping
 msgid "clapping smiley"
-msgstr "Ръкопляскане емотикон"
+msgstr "Ръкопляскане емотикона"
 
 #. Translators: (think) Thinking
 msgid "thinking smiley"
-msgstr "Мислене емотикон"
+msgstr "Мислене емотикона"
 
 #. Translators: (bow) Bowing
 msgid "bowing smiley"
-msgstr "Покланяне емотикон"
+msgstr "Покланяне емотикона"
 
 #. Translators: (rofl) Rolling on the floor laughing
 msgid "rolling on the floor laughing! smiley"
-msgstr "Търкаляне от смях на пода! емотикон"
+msgstr "Търкаляне от смях на пода! емотикона"
 
 #. Translators: (whew) Relieved
 msgid "relieved smiley"
-msgstr "Пуфтене емотикон"
+msgstr "Пуфтене емотикона"
 
 #. Translators: (happy) Happy
 msgid "happy smiley"
-msgstr "Удовлетворение емотикон"
+msgstr "Удовлетворение емотикона"
 
 #. Translators: (smirk) Smirking
 msgid "smirking smiley"
-msgstr "Самодоволство емотикон"
+msgstr "Самодоволство емотикона"
 
 #. Translators: (nod) Nodding
 msgid "nodding smiley"
-msgstr "Кимане емотикон"
+msgstr "Кимане емотикона"
 
 #. Translators: (shake) Shake
 msgid "shakeing smiley"
-msgstr "Стряскане емотикон"
+msgstr "Стряскане емотикона"
 
 #. Translators: (waiting) Waiting
 msgid "waiting smiley"
-msgstr "Изчакване емотикон"
+msgstr "Изчакване емотикона"
 
 #. Translators: (emo) Emo;
 msgid "Emo smiley"
-msgstr "Емо емотикон"
+msgstr "Емо емотикона"
 
 #. Translators: (y) Yes
 msgid "yes smiley"
-msgstr "Да, емотикон"
+msgstr "Да, емотикона"
 
 #. Translators: (n) no;
 msgid "no smiley"
-msgstr "Не, емотикон"
+msgstr "Не, емотикона"
 
 #. Translators: (handshake) Handshake
 msgid "handshake smiley"
-msgstr "Ръкостискане емотикон"
+msgstr "Ръкостискане емотикона"
 
 #. Translators: (highfive) High five
 msgid "high five smiley"
-msgstr "Дай ми пет! емотикон"
+msgstr "Дай ми пет! емотикона"
 
 #. Translators: (lalala) Lalala;
 msgid "lalala smiley"
-msgstr "Тралала емотикон"
+msgstr "Тралала емотикона"
 
 #. Translators: (heidy) Heidy;
 msgid "heidy smiley"
-msgstr "Катерица емотикон"
+msgstr "Катерица емотикона"
 
 #. Translators: (F) Flower
 msgid "flower smiley"
-msgstr "Цвете емотикон"
+msgstr "Цвете емотикона"
 
 #. Translators: (rain) Raining
 msgid "raining smiley"
-msgstr "Дъжд емотикон"
+msgstr "Дъжд емотикона"
 
 #. Translators: (sun) Sun
 msgid "sunny smiley"
-msgstr "Слънце емотикон"
+msgstr "Слънце емотикона"
 
 #. Translators: (tumbleweed) Tumbleweed
 msgid "tumbleweed smiley"
-msgstr "Развейпрах емотикон"
+msgstr "Развейпрах емотикона"
 
 #. Translators: (music) Music
 msgid "music smiley"
-msgstr "Музика емотикон"
+msgstr "Музика емотикона"
 
 #. Translators: (bandit) Bandit
 msgid "bandit smiley"
-msgstr "Бандит емотикон"
+msgstr "Бандит емотикона"
 
 #. Translators: (tmi) Too much information
 msgid "too much information smiley"
-msgstr "Твърде много информация емотикон"
+msgstr "Твърде много информация емотикона"
 
 #. Translators: (coffee) Coffee
 msgid "coffee smiley"
-msgstr "Кафе емотикон"
+msgstr "Кафе емотикона"
 
 #. Translators: (pi) Pizza
 msgid "pizza smiley"
-msgstr "Пица емотикон"
+msgstr "Пица емотикона"
 
 #. Translators: (^) Cake
 msgid "cake smiley"
-msgstr "Торта емотикон"
+msgstr "Торта емотикона"
 
 #. Translators: (*) Star
 msgid "star smiley"
-msgstr "Звезда емотикон"
+msgstr "Звезда емотикона"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.

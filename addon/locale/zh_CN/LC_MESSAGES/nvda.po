@@ -5,17 +5,22 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: emoticons 1.1-dev\n"
+"Project-Id-Version: emoticons 7.1\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2014-04-11 05:05+0100\n"
-"PO-Revision-Date: 2016-02-26 02:39-0800\n"
+"POT-Creation-Date: 2018-08-08 18:51+0800\n"
+"PO-Revision-Date: 2018-08-08 23:20+0800\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.5\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SearchPath-0: globalPlugins/emoticons/__init__.py\n"
+"X-Poedit-SearchPath-1: globalPlugins/emoticons/skipTranslation.py\n"
+"X-Poedit-SearchPath-2: globalPlugins/emoticons/smileysList.py\n"
+"X-Poedit-SearchPath-3: installTasks.py\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -30,52 +35,41 @@ msgstr "正在卸载不兼容的插件"
 #. Translators: the label of a message box dialog.
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
-"import them?"
-msgstr "您似乎拥有此插件的上次保存的配置。您希望导入他们吗？"
+"import them, removing deprecated files?"
+msgstr "您似乎拥有此插件的上次保存的配置。您希望导入他们并删除当前的设置吗？"
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
 msgstr "导入表情插件设置"
 
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
-#, python-format
-msgid "Emoticon: %s"
-msgstr "表情： %s"
+#. Translators: Label for emojis in the list.
+msgid "Emoji"
+msgstr "表情符号"
 
-#. Translators: the name of addon submenu.
-msgid "Manage emoticons"
-msgstr "管理表情"
+#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
+msgid "Emoticon"
+msgstr "表情"
 
-#. Translators: the tooltip text for addon submenu.
-msgid "Emoticons menu"
-msgstr "表情菜单"
-
-#. Translators: the name for an item of addon submenu.
-msgid "&Insert smiley..."
+#. Translators: the name for a menu item.
+msgid "&Insert emoticon..."
 msgstr "插入表情(&I)..."
 
-#. Translators: the tooltip text for an item of addon submenu.
+#. Translators: the tooltip text for a menu item.
 msgid "Shows a dialog to insert a smiley"
 msgstr "显示一个对话框来插入表情"
 
-#. Translators: the name for an item of addon submenu.
-msgid "&Customize emoticons..."
-msgstr "自定义表情(&C)..."
+#. Translators: the name for a menu item.
+msgid "&Emoticons dictionary..."
+msgstr "表情词典(&B)..."
 
-#. Translators: the tooltip text for an item of addon submenu.
+#. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
 msgstr "显示一个词典对话框来自定义表情"
 
-#. Translators: the name for an item of addon submenu.
-msgid "&Activation settings..."
-msgstr "激活设置(&A)..."
-
-#. Translators: the tooltip text for an item of addon submenu.
-msgid "Shows a dialog to choose when emoticons speaking should be activated"
-msgstr "显示一个对话框来定义核实启用表情朗读"
-
-msgid "Emoticons dictionary"
-msgstr "表情字典"
+#, python-format
+msgid "Emoticons dictionary (%s)"
+msgstr "表情词典 (%s)"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
@@ -91,437 +85,783 @@ msgstr "在表情朗读的开关之间切换。"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
-msgstr "显示一个对话框来选择您希望粘贴的表情"
+msgstr "显示一个对话框来选择您希望粘贴的表情。"
 
-#. Translators: This is the label for the InsertEmoticon dialog.
+#. Translators: Message presented in input help mode.
+msgid "Shows the Emoticons dictionary dialog."
+msgstr "显示表情字典对话框。"
+
+#. Translators: Message presented in input help mode.
+msgid "Shows the Emoticons settings."
+msgstr "显示表情设置。"
+
+#. Translators: Title of the dialog.
 msgid "Insert emoticon"
 msgstr "插入表情"
 
-#. Translators: The label for a setting in Insert emoticons to select a smiley.
-msgid "Available emoticons"
-msgstr "可用的表情"
+#. Filter panel.
+#. Translators: A text field to filter emoticons.
+msgid "&Filter:"
+msgstr "&过滤字符:"
 
-#. Translators: A combo box to choose a smiley.
-msgid "Available smileys to insert:"
-msgstr "允许插入的表情："
+#. Translators: A radio button to choose all types of emoticons.
+msgid "&All"
+msgstr "&所有"
+
+#. Translators: A radio button to choose only standard emoticons.
+msgid "&Standard"
+msgstr "&标准"
+
+#. Translators: A radio button to choose only emojis.
+msgid "Emoj&is"
+msgstr "&表情"
+
+#. List of emoticons.
+#. Translators: Label for the smileys list.
+msgid "&List of smilies"
+msgstr "&表情列表"
+
+#. Translators: Column which specifies the name  of emoticon.
+msgid "Name"
+msgstr "名称"
+
+#. Translators: Column which specifies the type of emoticon (standard or emoji).
+msgid "Type"
+msgstr "类型"
+
+#. Translators: The column which contains the characters of the emoticon.
+msgid "Characters"
+msgstr "字符"
+
+#. Translators: Label for standard emoticons in the list.
+msgid "Standard"
+msgstr "标准"
+
+#. Translators: Error message when none emoticon is selected or the list is empty, and title of the error dialog.
+msgid "There is not any emoticon selected."
+msgstr "没有选择任何表情。"
 
 #. Translators: This is the message when smiley has been copied to the clipboard.
 msgid "Smiley copied to clipboard, ready for you to paste."
 msgstr "表情已经拷贝到剪贴板，已经为您准备好粘贴。"
 
+#. Translators: Message when the emoticon couldn't be copied.
 msgid "Cannot copy smiley."
 msgstr "无法复制表情。"
 
-#. Translators: The label for the combo box of dictionary entries in speech dictionary dialog.
-msgid "&Dictionary entries"
-msgstr "字典条目(&D)"
-
-#. Translators: The label for a column in dictionary entries list used to identify comments for the entry.
-msgid "Comment"
-msgstr "注释"
-
-#. Translators: The label for a column in dictionary entries list used to identify pattern (original word or a pattern).
-msgid "Pattern"
-msgstr "样式"
-
-#. Translators: The label for a column in dictionary entries list and in a list of symbols from symbol pronunciation dialog used to identify replacement for a pattern or a symbol
-msgid "Replacement"
-msgstr "替换为"
-
-#. Translators: The label for a column in dictionary entries list used to identify whether the entry is case sensitive or not.
-msgid "case"
-msgstr "事件"
-
-#. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression, matches whole words, or matches anywhere.
-msgid "Type"
-msgstr "类型"
-
-#. Translators: a choice of Activateemoticons dialog.
-msgid "off"
-msgstr "关闭"
-
-msgid "on"
-msgstr "打开"
-
-#. Translators: The label for a button in speech dictionaries dialog to add new entries.
-msgid "&Add"
-msgstr "添加(&A)"
-
-#. Translators: The label for a button in speech dictionaries dialog to edit existing entries.
-msgid "&Edit"
-msgstr "编辑(&E)"
-
-msgid "&Remove"
-msgstr "删除(&R)"
-
+#. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Rese&t"
 msgstr "重置(&T)"
 
-#. Translators: The label for a button in speech dictionaries dialog to add new entries.
+#. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Save and e&xport dictionary"
-msgstr "保存并输出到词典(&X)"
-
-#. Translators: this is the label for the Emoticons activate dialog.
-msgid "Activation settings"
-msgstr "激活设置"
+msgstr "&保存并导出字典"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
-msgid "&Activate speaking of emoticons at start:"
-msgstr "启动时启用表情朗读(&A):"
+msgid "&Activate speaking of emoticons:"
+msgstr "&打开或关闭朗读表情符号："
 
-#. Translators: a choice of Activateemoticons dialog.
-msgid "On"
-msgstr "启用"
+#. Translators: The label for a setting in Activate emoticons dialog.
+msgid "&Remove not used dictionaries"
+msgstr "&删除未使用的词典"
 
-#. Translators: a combo box in Emoticons dialog.
-msgid "Activate at start"
-msgstr "启动时激活"
+#. Translators: (emoji) Grinning face, an happy face with normal eyes.
+msgid "Grinning face"
+msgstr "露齿而笑的表情"
 
-#. Translators: The label for a setting in Activate emoticons dialog to copy activation settings.
-msgid "&Copy activation settings"
-msgstr "复制激活设置(&A)"
+#. Translators: (emoji) Happy face with open mouth and squinting eyes.
+msgid "Happy face with open mouth and squinting eyes"
+msgstr "张开嘴眯着眼睛的表情"
+
+#. Translators: (emoji) happy face with open mouth.
+msgid "Happy face with open mouth"
+msgstr "张开嘴幸福的表情"
+
+#. Translators: (emoji) A smiling face with smiling eyes and rosy cheeks.
+msgid "Smiling Face With Smiling Eyes"
+msgstr "微笑的脸与微笑的表情"
+
+#. Translators: (emoji) smirking face.
+msgid "Smirking face"
+msgstr "表情傻笑"
+
+#. Translators: (emoji) Slightly Smiling Face: a face that is a little bit happy, with a slight smile and neutral eyes.
+msgid "Slightly smiling face"
+msgstr "微笑的脸表情"
+
+#. Translators: (emoji) white smiling face.
+msgid "white smiling face"
+msgstr "表情白色的微笑"
+
+#. Translators: (emoji) happy face with halo.
+msgid "Happy face with halo"
+msgstr "光环幸福的表情"
+
+#. Translators: (emoji) white frowning face.
+msgid "White frowning face"
+msgstr "白皱着眉头的表情"
+
+#. Translators: (emoji) winking face.
+msgid "Winking face"
+msgstr "眨眼的表情"
+
+#. Translators: (emoji) smiling face with heart shaped eyes.
+msgid "Smiling face with heart shaped eyes"
+msgstr "与心形的眼睛微笑的表情"
+
+#. Translators: (emoji)  Rose: a single red rose.
+msgid "Rose"
+msgstr "表情玫瑰"
+
+#. Translators: (emoji) Expressionless face: a face with straight lined eyes and mouth. A deliberate display of no comment...
+msgid "Expressionless face"
+msgstr "无表情的表情"
+
+#. Translators: (emoji) neutral face.
+msgid "Neutral face"
+msgstr "中性表情"
+
+#. Translators: (emoji) face without mouth.
+msgid "Face without mouth"
+msgstr "表情无嘴"
+
+#. Translators: (emoji) face throwing a kiss.
+msgid "Face throwing a kiss"
+msgstr "表情扔了一个吻"
+
+#. Translators: (emoji) kissing face with closed eyes.
+msgid "Kissing face with closed eyes"
+msgstr "表情闭着眼睛亲吻"
+
+#. Translators: (emoji) Kissing face.
+msgid "Kissing face"
+msgstr "表情亲吻"
+
+#. Translators: (emoji) kissing face with arched eyes.
+msgid "Kissing face with arched eyes"
+msgstr "表情拱形的眼睛亲吻"
+
+#. Translators: (emoji) winking face with stuck out tongue.
+msgid "Winking face with stuck out tongue"
+msgstr "伸出舌头眨眼的表情"
+
+#. Translators: (emoji) face with stuck out tongue and eyes tightly closed.
+msgid "Face with stuck out tongue and eyes tightly closed"
+msgstr "闭着眼睛伸出舌头的表情"
+
+#. Translators: (emoji) A cheeky face with stuck out tongue.
+msgid "Face with stuck out tongue"
+msgstr "伸出舌头的表情"
+
+#. Translators: (emoji) Hugging Face: a face displayed with an open hands gesture, offering a hug.
+msgid "Hugging face"
+msgstr "表情拥抱"
+
+#. Translators: (emoji) flushed face.
+msgid "Flushed face"
+msgstr "脸红的表情"
+
+#. Translators: (emoji) Grinning face showing smiling eyes.
+msgid "Grinning Face With Smiling Eyes"
+msgstr "与微笑的眼睛咧嘴笑的表情"
+
+#. Translators: (emoji) A pensive, remorseful and saddened face. Quietly considering where things all went wrong.
+msgid "Pensive Face"
+msgstr "表情忧郁"
+
+#. Translators: (emoji) devil with evil smile.
+msgid "Devil with evil smile"
+msgstr "恶魔邪恶的表情"
+
+#. Translators: (emoji) devil.
+msgid "Devil"
+msgstr "表情魔鬼"
+
+#. Translators: (emoji) relieved face.
+msgid "Relieved face"
+msgstr "表情放心"
+
+#. Translators: (emoji) unamused face.
+msgid "Unamused face"
+msgstr "表情没用"
+
+#. Translators: (emoji) A face with scrunched up and closed eyes, frowning. Used to show helplessness in a situation.
+msgid "Persevering Face"
+msgstr "坚持不懈的表情"
+
+#. Translators: (emoji) crying face.
+msgid "Crying face"
+msgstr "表情哭"
+
+#. Translators: (emoji) face with tears of joy.
+msgid "Face with tears of joy"
+msgstr "表情欢乐的泪水"
+
+#. Translators: (emoji) loudly crying face.
+msgid "Loudly crying face"
+msgstr "大声哭泣的表情"
+
+#. Translators: (emoji) sleepy face.
+msgid "Sleepy face"
+msgstr "表情困了"
+
+#. Translators: (emoji) Shrugging: A person shrugging their shoulders to indicate a lack of knowledge about a particular topic, or a lack of care about the result of a situation.
+msgid "Shrugging emoji"
+msgstr "耸耸肩的表情"
+
+#. Translators: (emoji) disappointed face.
+msgid "Disappointed face"
+msgstr "表情失望"
+
+#. Translators: (emoji) disappointed but relieved face.
+msgid "Disappointed but relieved face"
+msgstr "失望但放心的表情"
+
+#. Translators: (emoji) Face with a look of concern, with a blue forehead and sweat dripping down the cheek.
+msgid "Face With Open Mouth & Cold Sweat"
+msgstr "&张嘴冷汗的表情"
+
+#. Translators: (emoji) Happy face with a single drop of sweat on one side of the face.
+msgid "Smiling Face With Open Mouth & Cold Sweat"
+msgstr "张嘴冷汗微笑的表情"
+
+#. Translators: (emoji) face with cold sweat.
+msgid "Face with cold sweat"
+msgstr "表情冷汗"
+
+#. Translators: (emoji) A distraught-looking face with  an open mouth and crescent shaped eyes.
+msgid "Weary Face"
+msgstr "表情疲惫"
+
+#. Translators: (emoji) An exhausted-looking face with an open mouth and tightly closed eyes.
+msgid "Tired Face"
+msgstr "表情累了"
+
+#. Translators: (emoji) fearful face.
+msgid "Fearful face"
+msgstr "表情可怕"
+
+#. Translators: (emoji) face screaming in fear.
+msgid "Face screaming in fear"
+msgstr "恐惧尖叫的表情"
+
+#. Translators: (emoji) angry face.
+#. Translators: :@ angry face.
+msgid "Angry face"
+msgstr "表情愤怒"
+
+#. Translators: (emoji) pouting face.
+msgid "Pouting face"
+msgstr "表情噘嘴"
+
+#. Translators: (emoji) A face with air coming out of its nose, huffing with anger face.
+msgid "Face With Steam From Nose"
+msgstr "表情从鼻子的蒸汽"
+
+#. Translators: (emoji) confounded face.
+msgid "Confounded face"
+msgstr "表情困惑"
+
+#. Translators: (emoji) Smiling Face With Open Mouth and Tightly-Closed Eyes.
+msgid "Smiling Face With Open Mouth and Tightly-Closed Eyes"
+msgstr "表情微笑的脸张开嘴和紧闭的眼睛"
+
+#. Translators: (emoji) happy face licking lips.
+msgid "Happy face licking lips"
+msgstr "幸福的表情舔着嘴唇"
+
+#. Translators: (emoji) happy face with sunglasses.
+msgid "Happy face with sunglasses"
+msgstr "戴着太阳镜的快乐的表情"
+
+#. Translators: (emoji) sleeping face.
+msgid "Sleeping face"
+msgstr "表情睡"
+
+#. Translators: (emoji) A dizzy face, looking sick or confused from being spun around in circles too many times.
+msgid "Dizzy Face"
+msgstr "表情晕"
+
+#. Translators: (emoji) astonished face.
+msgid "Astonished face"
+msgstr "表情惊讶"
+
+#. Translators: (emoji) worried face.
+msgid "Worried face"
+msgstr "表情担心"
+
+#. Translators: (emoji) Dismayed face with open eyes and open mouth, appear closer to  a frowning face.
+msgid "Frowning Face With Open Mouth"
+msgstr "张开嘴皱眉的表情"
+
+#. Translators: (emoji) anguished face.
+msgid "Anguished face"
+msgstr "表情痛苦"
+
+#. Translators: (emoji) A face with Open Mouth, generally used to represent an element of surprise.
+msgid "Face with Open Mouth"
+msgstr "表情张嘴"
+
+#. Translators: (emoji) grimacing face.
+msgid "Grimacing face"
+msgstr "表情鬼脸"
+
+#. Translators: (emoji) confused face.
+msgid "Confused face"
+msgstr "表情困惑"
+
+#. Translators: (emoji) A face with high eyebrows and an open mouth, it looks more surprised than hushed.
+msgid "Hushed Face"
+msgstr "表情安静"
+
+#. Translators: (emoji) broken heart.
+msgid "Broken heart"
+msgstr "表情破碎的心"
+
+#. Translators: (emoji) pulsating heart.
+msgid "Pulsating heart"
+msgstr "表情搏动的心"
+
+#. Translators: (emoji) beating heart.
+msgid "Beating heart"
+msgstr "表情跳动的心"
+
+#. Translators: (emoji) two hearts.
+msgid "Two hearts"
+msgstr "表情两颗心"
+
+#. Translators: (emoji) heart with arrow.
+msgid "Heart with arrow"
+msgstr "表情带箭头的心"
+
+#. Translators: (emoji) purple heart.
+msgid "Purple heart"
+msgstr "表情紫心勋章"
+
+#. Translators: (emoji) red heart.
+msgid "Red heart"
+msgstr "表情红心"
+
+#. Translators: (emoji) yellow heart.
+msgid "Yellow heart"
+msgstr "表情黄心"
+
+#. Translators: (emoji) green heart.
+msgid "Green heart"
+msgstr "表情绿心"
+
+#. Translators: (emoji) blue heart.
+msgid "Blue heart"
+msgstr "表情蓝心"
+
+#. Translators: (emoji) This emoji is the version of the phrase ROFL. A person lying on the floor due to an extreme amount of laughter.
+msgid "Rolling on the Floor Laughing"
+msgstr "表情滚蛋笑"
+
+#. Translators: (emoji) A face that is a little bit sad, with a slight frown and neutral eyes.
+msgid "Slightly Frowning Face"
+msgstr "略微皱眉的表情"
+
+#. Translators: (emoji) A face that is upside-down.
+msgid "Upside-down Face"
+msgstr "表情颠倒"
+
+#. Translators: (emoji) A face displaying eyes glancing upward.
+msgid "Face With Rolling Eyes"
+msgstr "表情滚动的眼睛"
+
+#. Translators: (emoji) A person with arms forming an X to indicate no or no good.
+msgid "Person Gesturing No"
+msgstr "表情打手势的人"
+
+#. Translators: (emoji) A person with arms above his head, making an OK sign with the whole body.
+msgid "Person Gesturing OK"
+msgstr "表情打手势OK的人"
+
+#. Translators: (emoji) A person bowing deeply, express a sincere apology or to request a favour.
+msgid "Person bowing"
+msgstr "表情鞠躬"
+
+#. Translators: (emoji) An upset person frowning with dismay.
+msgid "Person Frowning"
+msgstr "表情皱眉的人"
+
+#. Translators: (emoji) Two hands placed firmly together.
+msgid "Folded Hands"
+msgstr "表情双手合十"
+
+#. Translators: (emoji) A person with a surgical mask on their face.
+msgid "Face with medical mask"
+msgstr "表情口罩"
+
+#. Translators: (emoji) A black version of white smiling face.
+msgid "Black Smiling Face"
+msgstr "表情黑色"
+
+#. Translators: (emoji) happy cat face with heart shaped eyes.
+msgid "Happy cat face with heart shaped eyes"
+msgstr "心形眼睛的愉快的猫表情"
+
+#. Translators: (emoji) ok hand sign.
+msgid "Ok hand sign"
+msgstr "表情OK的手势"
+
+#. Translators: (emoji) thumbs up symbol.
+msgid "Thumbs up symbol"
+msgstr "符号竖起大拇指"
+
+#. Translators: (emoji) thumbs down symbol.
+msgid "Thumbs down symbol"
+msgstr "符号"
+
+#. Translators: (emoji) Victory Hand.
+msgid "Victory Hand"
+msgstr "胜利之手"
 
 #. Translators: :) Smile
 msgid "smiling smiley"
-msgstr "微笑，表情"
+msgstr "微笑的表情"
 
-#. Translators: :( Sad
-msgid "sad smiley"
-msgstr "痛苦，表情"
+#. Translators: :( Sad face.
+msgid "Sad face"
+msgstr "表情悲伤"
 
 #. Translators: :D Laugh
 msgid "Laughing smiley"
-msgstr "笑，表情"
+msgstr "表情笑"
 
 #. Translators: :O Surprised
 msgid "surprised smiley"
-msgstr "吃惊，表情"
+msgstr "表情惊讶"
 
 #. Translators: ;) Wink;
 msgid "winking smiley"
-msgstr "眨眼，表情"
+msgstr "表情眨眼"
 
 #. Translators: ;( Crying
 msgid "crying smiley"
-msgstr "哭，表情"
+msgstr "表情哭"
+
+#. Translators: :s :-S :-Q Confused face:
+msgid "Confused Face"
+msgstr "表情困惑"
 
 #. Translators: (:| Sweating
 msgid "sweating smiley"
-msgstr "流汗，表情"
+msgstr "表情流汗"
 
 #. translators:  :|] Robot (a robot head)
 msgid "Robot Smiley"
-msgstr "机器人，表情"
+msgstr "表情机器人"
 
 #. Translators: :| Speechless
 msgid "speechless smiley"
-msgstr "惊讶，表情"
+msgstr "表情惊讶"
 
 #. Translators: :* Kiss
 msgid "kiss smiley"
-msgstr "亲，表情"
+msgstr "表情亲"
 
 #. Translators: :P Cheeky
 msgid "cheeky smiley"
-msgstr "无耻，表情"
+msgstr "表情无耻"
 
 #. Translators: :$ Blushing
 msgid "blushing smiley"
-msgstr "脸红，表情"
+msgstr "表情脸红"
 
 #. Translators: :^) Wondering
 msgid "wondering smiley"
-msgstr "惊奇，表情"
+msgstr "表情惊奇"
 
 #. Translators: |-) Sleepy
 msgid "sleepy smiley"
-msgstr "睡，表情"
+msgstr "表情睡"
 
 #. Translators: |-( Dull
 msgid "dull smiley"
-msgstr "发呆，表情"
+msgstr "表情发呆"
 
 #. Translators: :x My lips are sealed
 msgid "my lips are sealed smiley"
-msgstr "合上嘴，表情"
+msgstr "表情合上嘴"
 
 #. Translators: \o/ Dancing
 msgid "dancing smiley"
-msgstr "跳舞，表情"
+msgstr "表情跳舞"
 
 #. Translators: :'( crying a lot smiley
 msgid "crying a lot smiley"
-msgstr "大哭，表情"
+msgstr "表情大哭"
 
 #. Translators: >:( Angry
 #. Translators: (angry) Angry
 msgid "angry smiley"
-msgstr "生气，表情"
+msgstr "表情生气"
 
 #. Translators: :/ Worried
 #. Translators: (worry) Worried
 msgid "worried smiley"
-msgstr "担心，表情"
+msgstr "表情担心"
 
 #. Translators: <3 Heart
 #. Translators: (heart) Heart
 msgid "heart smiley"
-msgstr "心，表情"
+msgstr "表情心"
 
 #. Translators:  O:)  O:-) Angel
 msgid "Angel Smiley"
-msgstr "天使，表情"
+msgstr "表情天使"
 
 #. Translators:  O.o  o.O  Confused
 msgid "Confused Smiley"
-msgstr "困惑，表情"
+msgstr "表情困惑"
 
 #. Translators:   3:-) Devil
 msgid "Devil Smiley"
-msgstr "折磨，表情"
+msgstr "表情折磨"
 
 #. Translators:  ^_^ Keke (This smiley is inspired by the Asian style, which is a happy face.)
 msgid "Keke Smiley"
-msgstr "咳咳，表情"
+msgstr "表情咳咳"
 
 #. Translators: -_- Bored (This smiley face has its eyes closed and is sporting a very small grin.)
 msgid "Bored smiley"
-msgstr "无聊，表情"
+msgstr "表情无聊"
 
 #. Translators:  >:O  Upset, angry or shouting...
 msgid "Angry Smiley"
-msgstr "生气，表情"
+msgstr "表情生气"
 
 #. Translators:  :3  Cat (Cat faced smiley with curly lips)
 msgid "Cat Smiley"
-msgstr "扁嘴，表情"
+msgstr "表情扁嘴"
 
-#. Translators: (-.-)ZZZ I�m Sleepy
+#. Translators: (-.-)ZZZ Iӭ Sleepy
 msgid "I am Sleepy smiley"
-msgstr "我正在睡觉，表情"
+msgstr "表情我正在睡觉"
 
 #. Translators: 8-) Glasses
 msgid "glasses smiley"
-msgstr "眼镜，表情"
+msgstr "表情眼镜"
 
 #. Translators: (^^^) shark
 msgid "shark smiley"
-msgstr "鲨鱼，表情"
+msgstr "表情鲨鱼"
 
 #. Translators:  (cash) Cash
 msgid "cash smiley"
-msgstr "钱，表情"
+msgstr "表情钱"
 
 #. Translators: (flex) Muscle
 msgid "muscle smiley"
-msgstr "力量，表情"
+msgstr "表情力量"
 
 #. Translators: (beer) Beer
 msgid "beer smiley"
-msgstr "啤酒，表情"
+msgstr "表情啤酒"
 
 #. Translators: (d) Drink
 msgid "drink smiley"
-msgstr "喝，表情"
+msgstr "表情喝"
 
 #. Translators: (ninja) Ninja
 msgid "ninja smiley"
-msgstr "忍者，表情"
+msgstr "表情忍者"
 
 #. Translators: (cool) Cool
 msgid "cool smiley"
-msgstr "酷，表情"
+msgstr "表情酷"
 
 #. Translators: (inlove) In Love
 msgid "in love smiley"
-msgstr "爱，表情"
+msgstr "表情爱"
 
 #. Translators: (yn) Fingers crossed
 msgid "fingers crossed smiley"
-msgstr "手指相扣，表情"
+msgstr "表情手指相扣"
 
 #. Translators: (yawn) Yawn
 msgid "yawning smiley"
-msgstr "哈欠，表情"
+msgstr "表情哈欠"
 
 #. Translators: (puke) Puking
 msgid "puking smiley"
-msgstr "呕吐，表情"
+msgstr "表情呕吐"
 
 #. Translators: (doh) Doh!
 msgid "doh! smiley"
-msgstr "doh!，表情"
+msgstr "doh! 表情"
 
 #. Translators: (wasntme) It wasn't me!
 msgid "it wasn't me! smiley"
-msgstr "不是我，表情"
+msgstr "表情不是我"
 
 #. Translators: (party) Party
 msgid "party smiley"
-msgstr "聚会，表情"
+msgstr "表情聚会"
 
 #. Translators: (mm) Mmmm...
 msgid "mmmmmm... smiley"
-msgstr "咬，表情"
+msgstr "表情咬"
 
 #. Translators: (nerd) Nerdy
 msgid "nerdy smiley"
-msgstr "讨厌，表情"
+msgstr "表情讨厌"
 
 #. Translators: (wave) Hi
 msgid "hi smiley"
-msgstr "嗨，表情"
+msgstr "表情嗨"
 
 #. Translators: (facepalm) Facepalm
 msgid "facepalm smiley"
-msgstr "捂脸，表情"
+msgstr "表情捂脸"
 
 #. Translators: (devil) Devil
 msgid "devil smiley"
-msgstr "折磨，表情"
+msgstr "表情折磨"
 
 #. Translators: (angel) Angel
 msgid "angel smiley"
-msgstr "天使，表情"
+msgstr "表情天使"
 
 #. Translators: (envy) Envy
 msgid "envy smiley"
-msgstr "羡慕，表情"
+msgstr "表情羡慕"
 
 #. Translators: (wait) Wait
 msgid "wait smiley"
-msgstr "等，表情"
+msgstr "表情等"
 
 #. Translators: (hug) Hug
 msgid "hug smiley"
-msgstr "拥抱，表情"
+msgstr "表情拥抱"
 
 #. Translators: (makeup) Make-up
 msgid "make-up smiley"
-msgstr "虚构，表情"
+msgstr "表情虚构"
 
 #. Translators: (chuckle) Giggle
 msgid "giggle smiley"
-msgstr "傻笑，表情"
+msgstr "表情傻笑"
 
 #. Translators: (clap) Clapping
 msgid "clapping smiley"
-msgstr "鼓掌，表情"
+msgstr "表情鼓掌"
 
 #. Translators: (think) Thinking
 msgid "thinking smiley"
-msgstr "思考，表情"
+msgstr "表情思考"
 
 #. Translators: (bow) Bowing
 msgid "bowing smiley"
-msgstr "鞠躬，表情"
+msgstr "表情鞠躬"
 
 #. Translators: (rofl) Rolling on the floor laughing
 msgid "rolling on the floor laughing! smiley"
-msgstr "滚蛋笑，表情"
+msgstr "表情滚蛋笑"
 
 #. Translators: (whew) Relieved
 msgid "relieved smiley"
-msgstr "放心，表情"
+msgstr "表情放心"
 
 #. Translators: (happy) Happy
 msgid "happy smiley"
-msgstr "愉快，表情"
+msgstr "表情愉快"
 
 #. Translators: (smirk) Smirking
 msgid "smirking smiley"
-msgstr "傻笑，表情"
+msgstr "表情傻笑"
 
 #. Translators: (nod) Nodding
 msgid "nodding smiley"
-msgstr "点头，表情"
+msgstr "表情点头"
 
 #. Translators: (shake) Shake
 msgid "shakeing smiley"
-msgstr "握手，表情"
+msgstr "表情握手"
 
 #. Translators: (waiting) Waiting
 msgid "waiting smiley"
-msgstr "等，表情"
+msgstr "表情等"
 
 #. Translators: (emo) Emo;
 msgid "Emo smiley"
-msgstr "负荷，表情"
+msgstr "表情负荷"
 
 #. Translators: (y) Yes
 msgid "yes smiley"
-msgstr "是，表情"
+msgstr "表情是"
 
 #. Translators: (n) no;
 msgid "no smiley"
-msgstr "否，表情"
+msgstr "表情否"
 
 #. Translators: (handshake) Handshake
 msgid "handshake smiley"
-msgstr "握手，表情"
+msgstr "表情握手"
 
 #. Translators: (highfive) High five
 msgid "high five smiley"
-msgstr "击掌，表情"
+msgstr "表情击掌"
 
 #. Translators: (lalala) Lalala;
 msgid "lalala smiley"
-msgstr "啦啦啦，表情"
+msgstr "表情啦啦啦"
 
 #. Translators: (heidy) Heidy;
 msgid "heidy smiley"
-msgstr "松鼠，表情"
+msgstr "表情松鼠"
 
 #. Translators: (F) Flower
 msgid "flower smiley"
-msgstr "花，表情"
+msgstr "表情花"
 
 #. Translators: (rain) Raining
 msgid "raining smiley"
-msgstr "下雨，表情"
+msgstr "表情下雨"
 
 #. Translators: (sun) Sun
 msgid "sunny smiley"
-msgstr "太阳，"
+msgstr "表情太阳"
 
 #. Translators: (tumbleweed) Tumbleweed
 msgid "tumbleweed smiley"
-msgstr "植物，表情"
+msgstr "表情植物"
 
 #. Translators: (music) Music
 msgid "music smiley"
-msgstr "音乐，表情"
+msgstr "表情音乐"
 
 #. Translators: (bandit) Bandit
 msgid "bandit smiley"
-msgstr "强盗，表情"
+msgstr "表情强盗"
 
 #. Translators: (tmi) Too much information
 msgid "too much information smiley"
-msgstr "太多信息，表情"
+msgstr "表情太多信息"
 
 #. Translators: (coffee) Coffee
 msgid "coffee smiley"
-msgstr "咖啡，表情"
+msgstr "表情咖啡"
 
 #. Translators: (pi) Pizza
 msgid "pizza smiley"
-msgstr "比萨饼，表情"
+msgstr "表情比萨饼"
 
 #. Translators: (^) Cake
 msgid "cake smiley"
-msgstr "蛋糕，表情"
+msgstr "表情蛋糕"
 
 #. Translators: (*) Star
 msgid "star smiley"
-msgstr "星星，表情"
+msgstr "表情星星"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
+#, fuzzy
 msgid "Emoticons"
-msgstr ""
-"表情\n"
-"翻译者：雪岭冰龙"
+msgstr "表情"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -529,3 +869,75 @@ msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
 msgstr "启用表情名称朗读来代替原字符朗读。"
+
+#~ msgid "Emoticon: %s"
+#~ msgstr "表情： %s"
+
+#~ msgid "Manage emoticons"
+#~ msgstr "管理表情"
+
+#~ msgid "Emoticons menu"
+#~ msgstr "表情菜单"
+
+#~ msgid "&Insert smiley..."
+#~ msgstr "插入表情(&I)..."
+
+#~ msgid "&Customize emoticons..."
+#~ msgstr "自定义表情(&C)..."
+
+#~ msgid "&Activation settings..."
+#~ msgstr "激活设置(&A)..."
+
+#~ msgid "Shows a dialog to choose when emoticons speaking should be activated"
+#~ msgstr "显示一个对话框来定义核实启用表情朗读"
+
+#~ msgid "Available emoticons"
+#~ msgstr "可用的表情"
+
+#~ msgid "Available smileys to insert:"
+#~ msgstr "允许插入的表情："
+
+#~ msgid "&Dictionary entries"
+#~ msgstr "字典条目(&D)"
+
+#~ msgid "Comment"
+#~ msgstr "注释"
+
+#~ msgid "Pattern"
+#~ msgstr "样式"
+
+#~ msgid "Replacement"
+#~ msgstr "替换为"
+
+#~ msgid "case"
+#~ msgstr "事件"
+
+#~ msgid "off"
+#~ msgstr "关闭"
+
+#~ msgid "on"
+#~ msgstr "打开"
+
+#~ msgid "&Add"
+#~ msgstr "添加(&A)"
+
+#~ msgid "&Edit"
+#~ msgstr "编辑(&E)"
+
+#~ msgid "&Remove"
+#~ msgstr "删除(&R)"
+
+#~ msgid "Activation settings"
+#~ msgstr "激活设置"
+
+#~ msgid "On"
+#~ msgstr "启用"
+
+#~ msgid "Activate at start"
+#~ msgstr "启动时激活"
+
+#~ msgid "&Copy activation settings"
+#~ msgstr "复制激活设置(&A)"
+
+#~ msgid "sad smiley"
+#~ msgstr "痛苦，表情"
