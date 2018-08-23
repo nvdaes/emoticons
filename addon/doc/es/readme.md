@@ -23,7 +23,7 @@ Cuando no estés seguro de los caracteres para un emoticono en particular,
 este complemento te capacita para seleccionarlos e insertarlos en tu texto
 tal como en un chat.
 
-Press NVDA+I, or from menu Tools -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
+Pulsa NVDA+I, o desde el menú Herramientas -> Insertar emoticono, para abrir un diálogo con los emoticonos o emojis proporcionados.
 
 Este diálogo te permite elegir un emoticono y ver los emoticonos que te
 interesen:
@@ -40,7 +40,7 @@ interesen:
 Cuando pulses Aceptar, los caracteres para el emoticono elegido se copiarán
 en tu portapapeles, listos para pegarse.
 
-## Emoticons dictionary ##
+## Diccionario de emoticonos ##
 
 El complemento emoticons permite tener diferentes diccionarios de habla
 usando los perfiles de configuración.
@@ -48,16 +48,17 @@ usando los perfiles de configuración.
 Esto significa que puedes crear o editar un diccionario de habla específico
 para cada uno de tus perfiles personalizados.
 
-From NVDA MENU, Preferences -> Speech dictionaries -> Emoticons dictionary, you can open a dialog to add or to edit available emoticons.
+Desde el menú NVDA, Preferencias -> Diccionarios del Habla -> Diccionario de emoticonos, puedes abrir un diálogo para añadir o para editar los emoticonos disponibles.
 
 Al guardar tus personalizaciones, la nueva configuración de lectura de
 emoticonos solo se aplicará al perfil que estás editando actualmente.
 
-For example, you may wish that NVDA spoken custom emoticons only in XxChat
-program, but not in other chat programs: you can do this by creating a
-profile for the XxChat application and assign to it a speech dictionary from
-Speech dictionaries menu, Emoticons dictionary option. See below for
-Emoticons settings in relation to the configuration profiles.
+Por ejemplo, puedes desear que NVDA anuncie los emoticonos personalizados
+solo en el programa XxChat, pero no en otros programas de chat: puedes
+hacerlo creando un perfil para la aplicación XxChat y asignándole un
+diccionario de habla desde el menú Diccionarios del Habla, opción
+Diccionario de Emoticonos. Consulta a continuación las Opciones de
+activación en relación con los perfiles de configuración.
 
 También puedes exportar cada diccionario de habla personalizado pulsando el
 botón "Guardar y exportar diccionario": de esta manera tus diccionarios de
@@ -68,11 +69,11 @@ El nombre exacto y la ubicación del archivo de diccionario se basarán en el
 perfil de configuración de edición, que se mostrará en el título del diálogo
 del Diccionario de Emoticonos.
 
-## Emoticons settings ##
+## Opciones de emoticonos ##
 
-From menu Preferences -> Settings -> Emoticons opens a panel to configure the activation of your speech-dictionaries for each profile.
+Desde el menú Preferencias -> Opciones -> Emoticonos abre un diálogo para configurar la activación de tus diccionarios de habla para cada perfil.
 
-In Emoticons settings panel you can choose whether or not speech-dictionary should automatically activate when  NVDA switches to the   profile you are currently editing. By default it is disabled in normal configuration of NVDA and in all your new profiles.
+En el panel Opciones de Emoticonos puedes elegir si el diccionario de habla se activará o no automáticamente cuando NVDA conmute al perfil que estás editando actualmente. de manera predeterminada está desactivado en la configuración normal de NVDA y en todos tus nuevos perfiles.
 
 Si deseas mantener limpias tus carpetas de configuración, en este diálogo
 también es posible elegir si los diccionarios no utilizados (asociados a
@@ -80,8 +81,9 @@ perfiles no existentes) se eliminarán del complemento cuando se descarguen.
 
 ## Órdenes de teclado: ##
 
-These are the key commands available by default, you can edit those or add
-new key to open Emoticons settings panel or Emoticon Dictionary dialog:
+Estas son las teclas de órdenes disponibles por omisión, puedes editarlas o
+añadir teclas nuevas para abrir el panel Opciones de Emoticonos o el diálogo
+Diccionario de Emoticonos:
 
 * NVDA+E: activando/desactivando la verbalización de los emoticonos, conmuta
   entre verbalizar texto tal Como está escrito:, o con los emoticonos
@@ -90,17 +92,17 @@ new key to open Emoticons settings panel or Emoticon Dictionary dialog:
   quieras pegar.
 
 
-## Changes for 7.0 ##
+## Cambios para 7.0 ##
 
-* The Activation settings dialog has been moved to a panel in NVDA settings,
-  so that the current profile will be shown in the title of the NVDA
-  settings dialog.
-* The Manage Emoticons menu has been removed: now Insert emoticon will be
-  found under the Tools menu, and Customize Emoticons will be shown under
-  Speech dictionaries like Emoticons dictionary.
-* Requires NVDA 2018.2 or later.
-* If needed, you can download the [last version compatible with NVDA
-  2017.3][3].
+* El diálogo Opciones de activación se ha movido a un panel en las opciones
+  de NVDA, tal que el perfil actual se mostrará en el título del diálogo
+  Opciones de NVDA.
+* Se ha eliminado el menú Gestionar emoticonos: Ahora Insertar emoticón se
+  encontrará en el menú Herramientas, y Personalizar Emoticonos se mostrará
+  en Diccionarios del Habla como Diccionario de emoticonos.
+* Se requiere NVDA 2018.2 o posterior.
+* Si fuese necesario, puedes descargar la [última versión compatible con
+  NVDA 2017.3][3].
 
 ## Cambios para 6.0 ##
 

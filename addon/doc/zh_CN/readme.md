@@ -1,73 +1,123 @@
 # 表情符号 #
 
-* 作者：Chris Leo, Noelia Ruiz Martínez, Mesar Hameed
+
+* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+  Estrada Martínez
 * 下载[稳定版][1]
 * 下载[开发版][2]
 
 Using this add-on, spoken text containing emoticon characters will be
-replaced by its more human friendly description.  86 emoticons are defined.
+replaced by its more human friendly description.
 
-例如：":)" 将被朗读为 "微笑表情"， ":D" 被朗读为 "大笑表情"
+For example: the sequence ":)" will be spoken as "smiling smiley", or for
+example NVDA will recognize the meaning of each emoji.
 
 您可以享受以下功能特性：
 
-## 插入表情 ##
+## Insert Emoticon ##
 
-您确定某个特定的字符是表情符号此插件允许您选择并且插入其到您的文本中去，例如聊天的时候。
-按下“NVDA加I”或者从“选项”菜单中点击“管理表情符号”，选择“插入表情”来打开一个对话框。
-在这里包含许多表情符号。
-当您点击“OK”按钮，您选择的字符就会被拷贝到剪贴板，您可以随时进行粘贴。
+有时一张图片胜过1000字：使用新的表情符号来激活你的即时消息并让你的朋友知道你的感受。
 
+如果您不确定特定的表情字符，可以使用此插件选择并将其插入到文本中，例如聊天中。
 
-## 自定义表情 ##
+按NVDA + I，或从菜单工具 - >插入表情符号，打开带有提供的表情符号或表情符号的对话框。
 
-从 NVDA 的菜单中，点击“选项”，点击“管理插件”，点击“自定义表情”，您可以打开一个对话框来添加或者对现有的表情符号进行编辑。
-您的自定义表情符号将被保存在 emoticons 字典之内。
+此对话框允许您选择表情符号并浏览您感兴趣的表情符号：
 
-Pressing "Save and export dictionary" button, a file dictionary named
-emoticons.dic will be saved in your user config folder, speechDicts
-subfolder.
+*	可编辑字段允许您在可用的表情符号中过滤搜索所需表情符号。
+*	通过一组单选按钮，您可以选择仅查看表情符号类别（alt + E）或仅查看标准表情符号类别（alt + s）或查看所有可用的表情符号（alt +
+  A）。
+*	表情符号列表（alt + L）分别显示在三列上：表情符号的名称，表情符号的类型（标准表情符号或表情符号），相应的字符。
 
+按确认后，所选表情符号的字符将被复制到剪贴板，准备粘贴。
 
-## 激活设置 ##
+## 表情词典 ##
 
-您可以选择在 NVDA 启动时，是否启用表情朗读，默认情况下它是被禁用的，您可以根据自己的需要进行选择保存。
+表情符号插件允许使用配置文件使用不同的语音词典。
+
+这意味着您可以为每个自定义配置文件创建或编辑特定的语音字典。
+
+From NVDA MENU, Preferences -> Speech dictionaries -> Emoticons dictionary, you can open a dialog to add or to edit available emoticons.
+
+保存自定义项，表情符号的新阅读设置仅适用于您当前正在编辑的配置文件。
+
+例如，您可能希望NVDA仅在XxChat程序中使用自定义表情符号，而不是在其他聊天程序中：您可以通过为XxChat应用程序创建配置文件并从语音词典菜单中分配语音词典，表情符号词典选项来完成此操作。请参阅下面有关配置配置文件的表情符号设置。
+
+您还可以按“保存并导出词典”按钮导出每个自定义语音词典：这样您的语音词典将保存在您的用户配置文件夹，speechDicts /
+emoticons子文件夹中。
+
+字典文件的确切名称和位置将基于编辑配置配置文件，该配置文件将显示在“表情符号”字典对话框的标题中。
+
+## 表情符号设置 ##
+
+从菜单首选项 - >设置 - >表情符号打开一个面板，为每个配置文件配置语音词典的激活。
+
+在“表情符号设置”面板中，您可以选择在NVDA切换到当前正在编辑的配置文件时是否应自动激活语音字典。默认情况下，它在NVDA的正常配置和所有新配置文件中都被禁用。
+
+如果您可能希望保持清洁配置文件夹，则在此对话框中还可以选择是否在卸载时从加载项中删除未使用的字典（与非现有配置文件关联）。
 
 ## 快捷键 ##
 
-*	NVDA加E：在直接读取元字符和使用有好的字符描述之间切换。
-*	NVDA加I:显示一个对话框，让您选择需要粘贴的表情。
+这些是默认情况下可用的常见快捷键，您可以编辑这些快捷键或添加新键以打开“表情符号”设置面板或“表情词典”对话框：
+
+* NVDA+E: speaking emoticons on/off, toggles between speaking text as it is
+  written, or with the emoticons replaced by the human description.
+* NVDA+I: show a dialog to select an emoticon you want to copy.
 
 
-## Changes for 4.0 ##
+## 版本7.0 ##
 
-* If the Insert smiley dialog is opened when another settings dialog is
-  active, NVDA will show the corresponding error message.
+* 激活设置对话框已移至NVDA设置，现在配置文件将显示在NVDA设置对话框的标题中。
+* 管理表情符号菜单已被删除：现在可以在“工具”菜单下找到“插入表情符号”，“自定义表情符号”将显示在“表情词典”下的“语音词典”中。
+* 现在需要NVDA 2018.2或更高版本。
+* 如果需要使用旧版本，您可以下载[与NVDA 2017.3兼容的最新版本] [3]。
+
+## 版本6.0 ##
+
+* 添加了对配置文件的支持。
+* 在NVDA
+  2017.4或更高版本中，配置设置和自定义词典将根据所选配置文件自动更改。在2017.3或更早版本中，您可以通过重新加载插件来应用更改（按下ctrl+
+  NVDA + f3）。
+* 如果您在更新插件时选择导入设置，则会删除或已弃用此版本的（emoticons.ini和emoticons.dic）文件。
+
+## 版本5.0 ##
+
+* 添加了对表情符号的支持。
+* Insert Emoticon对话框的改进，带有过滤器字段和单选按钮，用于选择显示的表情符号。
+* 使用guiHelper激活设置对话框和插入表情符号对话框：需要NVDA 2016.4或更高版本
+
+## 版本4.0 ##
+
+* 如果在另一个设置对话框处于活动状态时打开了“插入表情”对话框，NVDA将显示相应的错误消息。
 
 
-## Changes for 3.0 ##
+## 版本3.0 ##
 
-* In the Customize emoticons dialog, it is now possible to specify that a
-  pattern should only match if it is a whole word, according to speech
-  dictionaries of NVDA 2014.4.
+* 根据NVDA 2014.4的语音词典，在“自定义表情符号”对话框中，现在可以指定模式只应匹配，如果它是一个完整的单词。
 
 
-## Changes for 2.0 ##
+## 版本2.0 ##
 
-* Add-on help is available from the Add-ons Manager.
+* 插件管理器现在提供了插件帮助。
 
 
-## Changes for 1.1 ##
+## 版本1.1 ##
 
-* Removed duplicated emoticon.
-* Added some smileys.
+* 删除了重复的表情符号。
+* 添加了一些表情。
 
 ## 版本1.0 ##
 
 * 初始版本
+
+
+
 
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=emo
 
 [2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+
+[3]:
+https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5.nvda-addon
