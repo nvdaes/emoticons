@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 20:13+0100\n"
-"PO-Revision-Date: 2018-06-21 21:54+0200\n"
+"PO-Revision-Date: 2018-08-20 23:35+0200\n"
 "Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -40,7 +40,7 @@ msgstr ""
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
-msgstr "Einstellungen importieren"
+msgstr "Emoticons-Einstellungen importieren"
 
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 #. Translators: Label for emojis in the list.
@@ -73,11 +73,11 @@ msgstr "Emoticons-Wörterbuch (%s)"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
-msgstr "Emoticons aus."
+msgstr "Emoticons aus"
 
 #. Translators: message presented when the dictionary for emoticons is loaded.
 msgid "Emoticons on."
-msgstr "Emoticons ein."
+msgstr "Emoticons ein"
 
 #. Translators: Message presented in input help mode.
 msgid "Toggles on and off the announcement of emoticons."
@@ -108,7 +108,7 @@ msgstr "&Filter:"
 
 #. Translators: A radio button to choose all types of emoticons.
 msgid "&All"
-msgstr "&alle"
+msgstr "&Alle"
 
 #. Translators: A radio button to choose only standard emoticons.
 msgid "&Standard"
@@ -129,7 +129,7 @@ msgstr "Name"
 
 #. Translators: Column which specifies the type of emoticon (standard or emoji).
 msgid "Type"
-msgstr "Tüp"
+msgstr "Typ"
 
 #. Translators: The column which contains the characters of the emoticon.
 msgid "Characters"
@@ -141,7 +141,7 @@ msgstr "Standard"
 
 #. Translators: Error message when none emoticon is selected or the list is empty, and title of the error dialog.
 msgid "There is not any emoticon selected."
-msgstr "Es ist kein Emoticon ausgewählt."
+msgstr "Kein Emoticon ausgewählt."
 
 #. Translators: This is the message when smiley has been copied to the clipboard.
 msgid "Smiley copied to clipboard, ready for you to paste."
@@ -155,11 +155,11 @@ msgstr "Das Smiley konnte nicht kopiert werden."
 
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Rese&t"
-msgstr "Zurückse&tzen"
+msgstr "Zu&rücksetzen"
 
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Save and e&xport dictionary"
-msgstr "Wörterbuch speichern und e&xportieren"
+msgstr "Wörterbuch &speichern und exportieren"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 msgid "&Activate speaking of emoticons:"
@@ -223,7 +223,7 @@ msgstr "Ausdrucksloses Gesicht"
 
 #. Translators: (emoji) neutral face.
 msgid "Neutral face"
-msgstr "neutrales Gesicht"
+msgstr "Neutrales Gesicht"
 
 #. Translators: (emoji) face without mouth.
 msgid "Face without mouth"
@@ -231,11 +231,11 @@ msgstr "Gesicht ohne Mund"
 
 #. Translators: (emoji) face throwing a kiss.
 msgid "Face throwing a kiss"
-msgstr "Kusszuwerfend"
+msgstr "Kuss zuwerfend"
 
 #. Translators: (emoji) kissing face with closed eyes.
 msgid "Kissing face with closed eyes"
-msgstr "küssendes Gesicht mit geschlossenen Augen"
+msgstr "Küssendes Gesicht mit geschlossenen Augen"
 
 #. Translators: (emoji) Kissing face.
 msgid "Kissing face"
@@ -247,7 +247,7 @@ msgstr "Küssendes Gesicht mit gewölbten Augen"
 
 #. Translators: (emoji) winking face with stuck out tongue.
 msgid "Winking face with stuck out tongue"
-msgstr "zwinkerndes Gesicht mit herausgestreckter Zunge"
+msgstr "Zwinkerndes Gesicht mit herausgestreckter Zunge"
 
 #. Translators: (emoji) face with stuck out tongue and eyes tightly closed.
 msgid "Face with stuck out tongue and eyes tightly closed"
@@ -259,7 +259,7 @@ msgstr "Gesicht mit herausgestreckter Zunge"
 
 #. Translators: (emoji) Hugging Face: a face displayed with an open hands gesture, offering a hug.
 msgid "Hugging face"
-msgstr "Umarmend"
+msgstr "Umarmendes Smiley"
 
 #. Translators: (emoji) flushed face.
 msgid "Flushed face"
@@ -283,19 +283,19 @@ msgstr "Teufel"
 
 #. Translators: (emoji) relieved face.
 msgid "Relieved face"
-msgstr "Erleichtert Gesicht"
+msgstr "Erleichtertes Gesicht"
 
 #. Translators: (emoji) unamused face.
 msgid "Unamused face"
-msgstr "unzufriedenes Gesicht"
+msgstr "Unzufriedenes Gesicht"
 
 #. Translators: (emoji) A face with scrunched up and closed eyes, frowning. Used to show helplessness in a situation.
 msgid "Persevering Face"
-msgstr "Bestehe darauf"
+msgstr "Ausdauerndes Gesicht"
 
 #. Translators: (emoji) crying face.
 msgid "Crying face"
-msgstr "weinendes Gesicht"
+msgstr "Weinendes Gesicht"
 
 #. Translators: (emoji) face with tears of joy.
 msgid "Face with tears of joy"
@@ -311,7 +311,7 @@ msgstr "Schläfriges Gesicht"
 
 #. Translators: (emoji) Shrugging: A person shrugging their shoulders to indicate a lack of knowledge about a particular topic, or a lack of care about the result of a situation.
 msgid "Shrugging emoji"
-msgstr "Achselzucken"
+msgstr "Achselzuckendes Emoji"
 
 #. Translators: (emoji) disappointed face.
 msgid "Disappointed face"
@@ -323,11 +323,11 @@ msgstr "Enttäuschtes, aber erleichtertes Gesicht"
 
 #. Translators: (emoji) Face with a look of concern, with a blue forehead and sweat dripping down the cheek.
 msgid "Face With Open Mouth & Cold Sweat"
-msgstr "Gesicht mit offenem Mund & und kaltem Angstschweiß"
+msgstr "Gesicht mit offenem Mund und kaltem Angstschweiß"
 
 #. Translators: (emoji) Happy face with a single drop of sweat on one side of the face.
 msgid "Smiling Face With Open Mouth & Cold Sweat"
-msgstr "Lächelndes Gesicht mit offenem Mund & kaltem Schweiß"
+msgstr "Lächelndes Gesicht mit offenem Mund und kaltem Schweiß"
 
 #. Translators: (emoji) face with cold sweat.
 msgid "Face with cold sweat"
@@ -347,7 +347,7 @@ msgstr "Ängstliches Gesicht"
 
 #. Translators: (emoji) face screaming in fear.
 msgid "Face screaming in fear"
-msgstr "Vor Angst schreiend"
+msgstr "Vor Angst schreiendes Gesicht"
 
 #. Translators: (emoji) angry face.
 #. Translators: :@ angry face.
@@ -356,11 +356,11 @@ msgstr "Wütendes Gesicht"
 
 #. Translators: (emoji) pouting face.
 msgid "Pouting face"
-msgstr "Abstoßend"
+msgstr "Abstoßendes Gesicht"
 
 #. Translators: (emoji) A face with air coming out of its nose, huffing with anger face.
 msgid "Face With Steam From Nose"
-msgstr "Nasendampfgesicht"
+msgstr "Gesicht mit Dampf aus der Nase"
 
 #. Translators: (emoji) confounded face.
 msgid "Confounded face"
@@ -372,7 +372,7 @@ msgstr "Lächelndes Gesicht mit offenem Mund und fest geschlossenen Augen"
 
 #. Translators: (emoji) happy face licking lips.
 msgid "Happy face licking lips"
-msgstr "Fröhliches, lippen leckendes gesicht"
+msgstr "Fröhliches, lippen leckendes Gesicht"
 
 #. Translators: (emoji) happy face with sunglasses.
 msgid "Happy face with sunglasses"
@@ -380,7 +380,7 @@ msgstr "Fröhliches Gesicht mit Sonnenbrille"
 
 #. Translators: (emoji) sleeping face.
 msgid "Sleeping face"
-msgstr "schlafendes Gesicht"
+msgstr "Schlafendes Gesicht"
 
 #. Translators: (emoji) A dizzy face, looking sick or confused from being spun around in circles too many times.
 msgid "Dizzy Face"
@@ -392,11 +392,11 @@ msgstr "Erstauntes Gesicht"
 
 #. Translators: (emoji) worried face.
 msgid "Worried face"
-msgstr "besorgtes Smiley"
+msgstr "Besorgtes Gesicht"
 
 #. Translators: (emoji) Dismayed face with open eyes and open mouth, appear closer to  a frowning face.
 msgid "Frowning Face With Open Mouth"
-msgstr "überraschtes  Gesicht mit offenem Mund"
+msgstr "Überraschtes Gesicht mit offenem Mund"
 
 #. Translators: (emoji) anguished face.
 msgid "Anguished face"
@@ -408,7 +408,7 @@ msgstr "Gesicht mit offenem Mund"
 
 #. Translators: (emoji) grimacing face.
 msgid "Grimacing face"
-msgstr "Grimassengesicht"
+msgstr "Grimassenschneidenes Gesicht"
 
 #. Translators: (emoji) confused face.
 msgid "Confused face"
@@ -416,23 +416,23 @@ msgstr "Verwirrtes Gesicht"
 
 #. Translators: (emoji) A face with high eyebrows and an open mouth, it looks more surprised than hushed.
 msgid "Hushed Face"
-msgstr "Stillschweigend"
+msgstr "Schweigendes Gesicht"
 
 #. Translators: (emoji) broken heart.
 msgid "Broken heart"
-msgstr "gebrochenes Herz"
+msgstr "Gebrochenes Herz"
 
 #. Translators: (emoji) pulsating heart.
 msgid "Pulsating heart"
-msgstr "pulsierendes Herz"
+msgstr "Pulsierendes Herz"
 
 #. Translators: (emoji) beating heart.
 msgid "Beating heart"
-msgstr "pulsierendes Herz"
+msgstr "Schlagenes Herz"
 
 #. Translators: (emoji) two hearts.
 msgid "Two hearts"
-msgstr "zwei Herzen"
+msgstr "Zwei Herzen"
 
 #. Translators: (emoji) heart with arrow.
 msgid "Heart with arrow"
@@ -440,15 +440,15 @@ msgstr "Herz mit Pfeil"
 
 #. Translators: (emoji) purple heart.
 msgid "Purple heart"
-msgstr "lilanes Herz"
+msgstr "lilafarbenes Herz"
 
 #. Translators: (emoji) red heart.
 msgid "Red heart"
-msgstr "rotes Herz"
+msgstr "Rotes Herz"
 
 #. Translators: (emoji) yellow heart.
 msgid "Yellow heart"
-msgstr "gelbes Herz"
+msgstr "Gelbes Herz"
 
 #. Translators: (emoji) green heart.
 msgid "Green heart"
@@ -456,7 +456,7 @@ msgstr "Grünes Herz"
 
 #. Translators: (emoji) blue heart.
 msgid "Blue heart"
-msgstr "blaues Herz"
+msgstr "Blaues Herz"
 
 #. Translators: (emoji) This emoji is the version of the phrase ROFL. A person lying on the floor due to an extreme amount of laughter.
 msgid "Rolling on the Floor Laughing"
@@ -468,7 +468,7 @@ msgstr "Leicht überraschtes Gesicht"
 
 #. Translators: (emoji) A face that is upside-down.
 msgid "Upside-down Face"
-msgstr "Herablassend"
+msgstr "Umgedrehtes Gesicht"
 
 #. Translators: (emoji) A face displaying eyes glancing upward.
 msgid "Face With Rolling Eyes"
@@ -476,15 +476,15 @@ msgstr "Gesicht mit rollenden Augen"
 
 #. Translators: (emoji) A person with arms forming an X to indicate no or no good.
 msgid "Person Gesturing No"
-msgstr "Handzeichen für nein"
+msgstr "Handzeichen für Nein"
 
 #. Translators: (emoji) A person with arms above his head, making an OK sign with the whole body.
 msgid "Person Gesturing OK"
-msgstr "Handzeichen für OK"
+msgstr "Handzeichen für Okay"
 
 #. Translators: (emoji) A person bowing deeply, express a sincere apology or to request a favour.
 msgid "Person bowing"
-msgstr "sich verbeugende person"
+msgstr "Sich verbeugende Person"
 
 #. Translators: (emoji) An upset person frowning with dismay.
 msgid "Person Frowning"
@@ -500,7 +500,7 @@ msgstr "Gesicht mit medizinischer Maske"
 
 #. Translators: (emoji) A black version of white smiling face.
 msgid "Black Smiling Face"
-msgstr "Dunkles lächelndes Gesicht"
+msgstr "Dunkel lächelndes Gesicht"
 
 #. Translators: (emoji) happy cat face with heart shaped eyes.
 msgid "Happy cat face with heart shaped eyes"
@@ -508,7 +508,7 @@ msgstr "Fröhliches Katzengesicht mit herzförmigen Augen"
 
 #. Translators: (emoji) ok hand sign.
 msgid "Ok hand sign"
-msgstr "Handzeichen für OK"
+msgstr "Handzeichen für Okay"
 
 #. Translators: (emoji) thumbs up symbol.
 msgid "Thumbs up symbol"
@@ -540,11 +540,11 @@ msgstr "Überraschtes Smiley"
 
 #. Translators: ;) Wink;
 msgid "winking smiley"
-msgstr "zwinkerndes Smiley"
+msgstr "Winkendes Smiley"
 
 #. Translators: ;( Crying
 msgid "crying smiley"
-msgstr "weinendes Smiley"
+msgstr "Weinendes Smiley"
 
 #. Translators: :s :-S :-Q Confused face:
 msgid "Confused Face"
@@ -552,7 +552,7 @@ msgstr "Verwirrtes Gesicht"
 
 #. Translators: (:| Sweating
 msgid "sweating smiley"
-msgstr "schwitzendes Smiley"
+msgstr "Schwitzendes Smiley"
 
 #. translators:  :|] Robot (a robot head)
 msgid "Robot Smiley"
@@ -584,7 +584,7 @@ msgstr "Schläfriges Smiley"
 
 #. Translators: |-( Dull
 msgid "dull smiley"
-msgstr "gelangweiltes Smiley"
+msgstr "Gelangweiltes Smiley"
 
 #. Translators: :x My lips are sealed
 msgid "my lips are sealed smiley"
@@ -606,7 +606,7 @@ msgstr "Verärgertes Smiley"
 #. Translators: :/ Worried
 #. Translators: (worry) Worried
 msgid "worried smiley"
-msgstr "besorgtes Smiley"
+msgstr "Besorgtes Smiley"
 
 #. Translators: <3 Heart
 #. Translators: (heart) Heart
@@ -615,7 +615,7 @@ msgstr "Herzliches Smiley"
 
 #. Translators:  O:)  O:-) Angel
 msgid "Angel Smiley"
-msgstr "Engelssmiley"
+msgstr "Engels-Smiley"
 
 #. Translators:  O.o  o.O  Confused
 msgid "Confused Smiley"
@@ -643,7 +643,7 @@ msgstr "Smiley mit grinsendem Katzengesicht"
 
 #. Translators: (-.-)ZZZ Iӭ Sleepy
 msgid "I am Sleepy smiley"
-msgstr "Schläfriges Smiley"
+msgstr "Schlafendes Smiley"
 
 #. Translators: 8-) Glasses
 msgid "glasses smiley"
@@ -651,7 +651,7 @@ msgstr "Smiley mit Brille"
 
 #. Translators: (^^^) shark
 msgid "shark smiley"
-msgstr "trügerisches Smiley"
+msgstr "Trügerisches Smiley"
 
 #. Translators:  (cash) Cash
 msgid "cash smiley"
@@ -683,7 +683,7 @@ msgstr "Verliebtes Smiley"
 
 #. Translators: (yn) Fingers crossed
 msgid "fingers crossed smiley"
-msgstr "verschwörerisches Smiley"
+msgstr "Verschwörerisches Smiley"
 
 #. Translators: (yawn) Yawn
 msgid "yawning smiley"
@@ -695,7 +695,7 @@ msgstr "Kotzendes Smiley"
 
 #. Translators: (doh) Doh!
 msgid "doh! smiley"
-msgstr "doh! smiley"
+msgstr "Doh!-Smiley"
 
 #. Translators: (wasntme) It wasn't me!
 msgid "it wasn't me! smiley"
@@ -715,7 +715,7 @@ msgstr "Trotteliges Smiley"
 
 #. Translators: (wave) Hi
 msgid "hi smiley"
-msgstr "Hi sagendes und winkendes Smiley"
+msgstr "\"Hi!\"-Smiley"
 
 #. Translators: (facepalm) Facepalm
 msgid "facepalm smiley"
@@ -727,7 +727,7 @@ msgstr "Teuflisches Smiley"
 
 #. Translators: (angel) Angel
 msgid "angel smiley"
-msgstr "Engelssmiley"
+msgstr "Engels-Smiley"
 
 #. Translators: (envy) Envy
 msgid "envy smiley"
@@ -735,7 +735,7 @@ msgstr "Neidisches Smiley"
 
 #. Translators: (wait) Wait
 msgid "wait smiley"
-msgstr "Warte Smiley"
+msgstr "Wartendes Smiley"
 
 #. Translators: (hug) Hug
 msgid "hug smiley"
@@ -743,7 +743,7 @@ msgstr "Umarmendes Smiley"
 
 #. Translators: (makeup) Make-up
 msgid "make-up smiley"
-msgstr "Schminkendes Smiley"
+msgstr "Geschminktes Smiley"
 
 #. Translators: (chuckle) Giggle
 msgid "giggle smiley"
@@ -807,7 +807,7 @@ msgstr "Händeschüttelndes Smiley"
 
 #. Translators: (highfive) High five
 msgid "high five smiley"
-msgstr "Hi5-Smiley"
+msgstr "\"High Five\"-Smiley"
 
 #. Translators: (lalala) Lalala;
 msgid "lalala smiley"
@@ -815,11 +815,11 @@ msgstr "Lalala-Smiley"
 
 #. Translators: (heidy) Heidy;
 msgid "heidy smiley"
-msgstr "heidy smiley"
+msgstr "Heidy-Smiley"
 
 #. Translators: (F) Flower
 msgid "flower smiley"
-msgstr "Smiley mit Rose"
+msgstr "Smiley mit Blume"
 
 #. Translators: (rain) Raining
 msgid "raining smiley"
@@ -872,8 +872,8 @@ msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
 msgstr ""
-"Aktiviert die Ansage der Smiley-Namen anstatt deren Zeichen, durch die sie "
-"repräsentiert werden."
+"Aktiviert die Ansage der Namen der Smiley anstatt deren Zeichen, durch die "
+"sie repräsentiert werden."
 
 #~ msgid "Manag&e emoticons"
 #~ msgstr "Emoticons &verwalten"
