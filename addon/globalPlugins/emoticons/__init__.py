@@ -44,9 +44,8 @@ defaultDic = speechDictHandler.SpeechDict()
 sD = speechDictHandler.SpeechDict()
 
 def activateAnnouncement():
-	for entry in sD:
-		if not entry in speechDictHandler.dictionaries["temp"]:
-			speechDictHandler.dictionaries["temp"].append(entry)
+	speechDictHandler.dictionaries["temp"].extend(sD)
+
 
 def deactivateAnnouncement():
 	for entry in sD:
