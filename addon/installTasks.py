@@ -41,10 +41,7 @@ def onInstall():
 			_("Import Emoticons add-on settings"),
 			wx.YES|wx.NO|wx.ICON_WARNING)==wx.YES:
 				try:
-					shutil.copy(os.path.join(speechDictHandler.speechDictsPath, "emoticons.dic"), ADDON_DICTS_PATH)
-				except:
-					pass
-				try:
+					os.makedirs(EXPORT_DICTS_PATH)
 					shutil.copy(os.path.join(speechDictHandler.speechDictsPath, "emoticons.dic"), EXPORT_DICTS_PATH)
 				except:
 					pass
