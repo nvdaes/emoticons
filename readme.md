@@ -63,8 +63,7 @@ These are the key commands available by default, you can edit those or add new k
 
 ## Changes for 8.0 ##
 
-* Added the possibility of enabling settings changes just for normal configuration.
-* Requires NVDA 2018.3.
+* Compatible with NVDA 2018.3 (required).
 
 ## Changes for 7.0 ##
 

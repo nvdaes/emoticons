@@ -35,7 +35,6 @@ except NameError:
 confspec = {
 	"announcement": "integer(default=0)",
 	"cleanDicts": "boolean(default=False)",
-	"onlyNormalConfiguration": "boolean(default=False)",
 }
 
 config.conf.spec["emoticons"] = confspec
@@ -45,7 +44,6 @@ sD = speechDictHandler.SpeechDict()
 
 def activateAnnouncement():
 	speechDictHandler.dictionaries["temp"].extend(sD)
-
 
 def deactivateAnnouncement():
 	for entry in sD:
@@ -57,7 +55,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	scriptCategory = SCRCAT_SPEECH
 
 	def loadDic(self):
-		if (config.conf["emoticons"]["onlyNormalConfiguration"] or self.profileName is None):
+		if self.profileName is None:
 			self.dicFile = ADDON_DIC_DEFAULT_FILE
 		else:
 			self.dicFile = os.path.join(ADDON_DICTS_PATH, "profiles", "%s.dic" % self.profileName)
@@ -69,19 +67,10 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		self.profileName = config.conf.profiles[-1].name
 		if self.profileName == self.oldProfileName:
 			return
-		if not config.conf["emoticons"]["onlyNormalConfiguration"]:
-			deactivateAnnouncement()
-			self.loadDic()
-			if config.conf["emoticons"]["announcement"]:
-				activateAnnouncement()
-		else:
-			if AddonSettingsPanel not in NVDASettingsDialog.categoryClasses and self.profileName is None:
-				NVDASettingsDialog.categoryClasses.append(AddonSettingsPanel)
-			else:
-				try:
-					NVDASettingsDialog.categoryClasses.remove(AddonSettingsPanel)
-				except:
-					pass
+		deactivateAnnouncement()
+		self.loadDic()
+		if config.conf["emoticons"]["announcement"]:
+			activateAnnouncement()
 		self.oldProfileName = self.profileName
 
 	def __init__(self):
@@ -115,14 +104,10 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			# Translators: the tooltip text for a menu item.
 			_("Shows a dictionary dialog to customize emoticons"))
 		gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onEmDicDialog, self.dicItem)
-		if not config.conf["emoticons"]["onlyNormalConfiguration"] or self.profileName is None:
-			NVDASettingsDialog.categoryClasses.append(AddonSettingsPanel)
+		NVDASettingsDialog.categoryClasses.append(AddonSettingsPanel)
 
 		# Config
-		if not config.conf["emoticons"]["onlyNormalConfiguration"]:
-			announcement = config.conf["emoticons"]["announcement"]
-		else:
-			announcement = config.conf.profiles[0]["emoticons"]["announcement"]
+		announcement = config.conf["emoticons"]["announcement"]
 		if announcement:
 			activateAnnouncement()
 		config.post_configProfileSwitch.register(self.handleConfigProfileSwitch)
@@ -166,8 +151,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		gesture="kb:NVDA+e"
 	)
 	def script_toggleSpeakingEmoticons(self, gesture):
-		if (not globalVars.speechDictionaryProcessing
-			or (config.conf["emoticons"]["onlyNormalConfiguration"] and self.profileName is not None)):
+		if not globalVars.speechDictionaryProcessing:
 			return
 		if config.conf["emoticons"]["announcement"]:
 			config.conf["emoticons"]["announcement"] = 0
@@ -179,7 +163,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			activateAnnouncement()
 			# Translators: message presented when the dictionary for emoticons is loaded.
 			ui.message(_("Emoticons on."))
-
 
 	@script(
 		# Translators: Message presented in input help mode.
@@ -204,8 +187,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		category=SCRCAT_CONFIG
 	)
 	def script_settings(self, gesture):
-		if config.conf["emoticons"]["onlyNormalConfiguration"] and self.profileName is not None:
-			return
 		wx.CallAfter(self.onSettingsPanel, None)
 
 
@@ -405,19 +386,13 @@ class EmDicDialog(DictionaryDialog):
 
 	def onOk(self,evt):
 		super(EmDicDialog, self).onOk(evt)
-		if not config.conf["emoticons"]["onlyNormalConfiguration"]:
-			announcement = config.conf["emoticons"]["announcement"]
-		else:
-			announcement = config.conf.profiles[0]["emoticons"]["announcement"]
+		announcement = config.conf["emoticons"]["announcement"]
 		if announcement:
 			activateAnnouncement()
 
 	def onCancel(self,evt):
 		super(EmDicDialog, self).onCancel(evt)
-		if not config.conf["emoticons"]["onlyNormalConfiguration"]:
-			announcement = config.conf["emoticons"]["announcement"]
-		else:
-			announcement = config.conf.profiles[0]["emoticons"]["announcement"]
+		announcement = config.conf["emoticons"]["announcement"]
 		if announcement:
 			activateAnnouncement()
 
@@ -445,20 +420,12 @@ class AddonSettingsPanel(SettingsPanel):
 		# Translators: The label for a setting in Emoticons panel.
 		self.removeCheckBox = sHelper.addItem(wx.CheckBox(self, label=_("&Remove not used dictionaries")))
 		self.removeCheckBox.Value = config.conf["emoticons"]["cleanDicts"]
-		# Translators: The label for a setting in Emoticons panel.
-		self.onlyNormalCheckBox = sHelper.addItem(wx.CheckBox(self, label=_("&Settings only in normal configuration (not recommended)")))
-		self.onlyNormalCheckBox.Value = config.conf["emoticons"]["onlyNormalConfiguration"]
-		profileName = config.conf.profiles[-1].name		
-		self.onlyNormalCheckBox.Enabled = profileName is None
-
-	def postInit(self):
-		self.activateList.SetFocus()
 
 	def onSave(self):
+		announcement = config.conf["emoticons"]["announcement"]
 		config.conf["emoticons"]["announcement"] = self.activateList.GetSelection()
-		if config.conf["emoticons"]["announcement"]:
+		if config.conf["emoticons"]["announcement"] and not announcement:
 			activateAnnouncement()
-		else:
+		elif not config.conf["emoticons"]["announcement"] and announcement:
 			deactivateAnnouncement()
 		config.conf["emoticons"]["cleanDicts"] = self.removeCheckBox.Value
-		config.conf["emoticons"]["onlyNormalConfiguration"] = self.onlyNormalCheckBox.Value
