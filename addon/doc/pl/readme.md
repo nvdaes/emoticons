@@ -1,4 +1,4 @@
-# Emotikony / Emoticons #
+# Emoticons #
 
 
 * Autorzy: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
