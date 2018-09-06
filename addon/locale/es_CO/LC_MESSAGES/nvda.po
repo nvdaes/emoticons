@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 20:13+0100\n"
-"PO-Revision-Date: 2016-02-25 23:51-0800\n"
-"Last-Translator: Juan C. Buño <quetzatl@eresmas.net>\n"
+"PO-Revision-Date: 2018-09-03 22:23-0500\n"
+"Last-Translator: Slann Tonic <reydelasmaquinas@outlook.com>\n"
+"Language-Team: \n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.5\n"
-"Language-Team: \n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -30,9 +30,10 @@ msgid "Uninstall incompatible add-on"
 msgstr "Desinstalar complemento incompatible"
 
 #. Translators: the label of a message box dialog.
+#, fuzzy
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
-"import them?"
+"import them, removing deprecated files?"
 msgstr ""
 "Parece que tienes la configuración previa guardada para este complemento. "
 "¿Quieres importarla?"
@@ -42,12 +43,18 @@ msgid "Import Emoticons add-on settings"
 msgstr "Importar configuración del complemento Emoticons"
 
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
-#, python-format
-msgid "Emoticon: %s"
-msgstr "Emoticón: %s"
+#. Translators: Label for emojis in the list.
+msgid "Emoji"
+msgstr "Emoji"
+
+#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
+#, fuzzy
+msgid "Emoticon"
+msgstr "Emoticonos"
 
 #. Translators: the name of addon submenu.
-msgid "Manage emoticons"
+#, fuzzy
+msgid "Manag&e emoticons"
 msgstr "Administrar emoticonos"
 
 #. Translators: the tooltip text for addon submenu.
@@ -55,8 +62,9 @@ msgid "Emoticons menu"
 msgstr "Menú Emoticonos"
 
 #. Translators: the name for an item of addon submenu.
-msgid "&Insert smiley..."
-msgstr "&Insertar emoticono..."
+#, fuzzy
+msgid "&Insert emoticon..."
+msgstr "Insertar emoticono"
 
 #. Translators: the tooltip text for an item of addon submenu.
 msgid "Shows a dialog to insert a smiley"
@@ -80,7 +88,8 @@ msgstr ""
 "Muestra un diálogo para elegir cuando debería activarse la verbalización de "
 "emoticonos"
 
-msgid "Emoticons dictionary"
+#, fuzzy, python-format
+msgid "Emoticons dictionary (%s)"
 msgstr "Diccionario de Emoticonos"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
@@ -99,71 +108,76 @@ msgstr "Activa y desactiva el anuncio de emoticonos."
 msgid "Shows a dialog to select a smiley you want to paste."
 msgstr "Muestra un diálogo para seleccionar un emoticono que quieras pegar."
 
-#. Translators: This is the label for the InsertEmoticon dialog.
+#. Translators: Message presented in input help mode.
+#, fuzzy
+msgid "Shows the Emoticons dictionary dialog."
+msgstr "Diccionario de Emoticonos"
+
+#. Translators: Message presented in input help mode.
+#, fuzzy
+msgid "Shows the Emoticons Activation settings dialog."
+msgstr "Importar configuración del complemento Emoticons"
+
+#. Translators: Title of the dialog.
 msgid "Insert emoticon"
 msgstr "Insertar emoticono"
 
-#. Translators: The label for a setting in Insert emoticons to select a smiley.
-msgid "Available emoticons"
-msgstr "Emoticonos disponibles"
+#. Filter panel.
+#. Translators: A text field to filter emoticons.
+msgid "&Filter:"
+msgstr "&Filtrar:"
 
-#. Translators: A combo box to choose a smiley.
-msgid "Available smileys to insert:"
-msgstr "Emoticonos disponibles para insertar:"
+#. Translators: A radio button to choose all types of emoticons.
+msgid "&All"
+msgstr "&Todo"
+
+#. Translators: A radio button to choose only standard emoticons.
+msgid "&Standard"
+msgstr "&Standard"
+
+#. Translators: A radio button to choose only emojis.
+msgid "Emoj&is"
+msgstr "Emoj&is"
+
+#. List of emoticons.
+#. Translators: Label for the smileys list.
+#, fuzzy
+msgid "&List of smilies"
+msgstr "Enamorado"
+
+#. Translators: Column which specifies the name  of emoticon.
+msgid "Name"
+msgstr "Nombre"
+
+#. Translators: Column which specifies the type of emoticon (standard or emoji).
+msgid "Type"
+msgstr "TIPO"
+
+#. Translators: The column which contains the characters of the emoticon.
+msgid "Characters"
+msgstr "Caracteres"
+
+#. Translators: Label for standard emoticons in the list.
+msgid "Standard"
+msgstr "Estándar"
+
+#. Translators: Error message when none emoticon is selected or the list is empty, and title of the error dialog.
+msgid "There is not any emoticon selected."
+msgstr "No se ha seleccionado ningún emoticono."
 
 #. Translators: This is the message when smiley has been copied to the clipboard.
 msgid "Smiley copied to clipboard, ready for you to paste."
 msgstr "Emoticono copiado al portapapeles, listo para pegar."
 
+#. Translators: Message when the emoticon couldn't be copied.
 msgid "Cannot copy smiley."
 msgstr "No se puede copiar el emoticono."
 
-#. Translators: The label for the combo box of dictionary entries in speech dictionary dialog.
-msgid "&Dictionary entries"
-msgstr "Entradas de &Diccionario"
-
-#. Translators: The label for a column in dictionary entries list used to identify comments for the entry.
-msgid "Comment"
-msgstr "Comentario"
-
-#. Translators: The label for a column in dictionary entries list used to identify pattern (original word or a pattern).
-msgid "Pattern"
-msgstr "Patrónn"
-
-#. Translators: The label for a column in dictionary entries list and in a list of symbols from symbol pronunciation dialog used to identify replacement for a pattern or a symbol
-msgid "Replacement"
-msgstr "Reemplazo"
-
-#. Translators: The label for a column in dictionary entries list used to identify whether the entry is case sensitive or not.
-msgid "case"
-msgstr "sensible a mayúsculas"
-
-#. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression, matches whole words, or matches anywhere.
-msgid "Type"
-msgstr "TIPO"
-
-#. Translators: a choice of Activateemoticons dialog.
-msgid "off"
-msgstr "desactivado"
-
-msgid "on"
-msgstr "activado"
-
-#. Translators: The label for a button in speech dictionaries dialog to add new entries.
-msgid "&Add"
-msgstr "&Añadir"
-
-#. Translators: The label for a button in speech dictionaries dialog to edit existing entries.
-msgid "&Edit"
-msgstr "&Editar"
-
-msgid "&Remove"
-msgstr "&eLIMINAR"
-
+#. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Rese&t"
 msgstr "Reinicia&r"
 
-#. Translators: The label for a button in speech dictionaries dialog to add new entries.
+#. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Save and e&xport dictionary"
 msgstr "Guardar y e&xportar diccionario"
 
@@ -172,28 +186,390 @@ msgid "Activation settings"
 msgstr "Opciones de Activación"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
-msgid "&Activate speaking of emoticons at start:"
+#, fuzzy
+msgid "&Activate speaking of emoticons:"
 msgstr "&Activar verbalización de emoticonos al iniciar:"
 
-#. Translators: a choice of Activateemoticons dialog.
-msgid "On"
-msgstr "Activado"
+#. Translators: The label for a setting in Activate emoticons dialog.
+msgid "&Remove not used dictionaries"
+msgstr "&Quitar los diccionarios no utilizados"
 
-#. Translators: a combo box in Emoticons dialog.
-msgid "Activate at start"
-msgstr "Activar al inicio"
+#. Translators: (emoji) Grinning face, an happy face with normal eyes.
+msgid "Grinning face"
+msgstr "Cara sonriente"
 
-#. Translators: The label for a setting in Activate emoticons dialog to copy activation settings.
-msgid "&Copy activation settings"
-msgstr "&Copiar opciones de activación"
+#. Translators: (emoji) Happy face with open mouth and squinting eyes.
+msgid "Happy face with open mouth and squinting eyes"
+msgstr "Cara feliz con la boca abierta y ojos entrecerrados"
+
+#. Translators: (emoji) happy face with open mouth.
+msgid "Happy face with open mouth"
+msgstr "Cara feliz con la boca abierta"
+
+#. Translators: (emoji) A smiling face with smiling eyes and rosy cheeks.
+msgid "Smiling Face With Smiling Eyes"
+msgstr "Cara sonriente con ojos risueños"
+
+#. Translators: (emoji) smirking face.
+#, fuzzy
+msgid "Smirking face"
+msgstr "cara sonriendo de satisfacción"
+
+#. Translators: (emoji) Slightly Smiling Face: a face that is a little bit happy, with a slight smile and neutral eyes.
+msgid "Slightly smiling face"
+msgstr "Cara con sonrisa leve"
+
+#. Translators: (emoji) white smiling face.
+#, fuzzy
+msgid "white smiling face"
+msgstr "esperando"
+
+#. Translators: (emoji) happy face with halo.
+msgid "Happy face with halo"
+msgstr "cara feliz con aureola"
+
+#. Translators: (emoji) white frowning face.
+msgid "White frowning face"
+msgstr "Cara tímida frunciendo el ceño"
+
+#. Translators: (emoji) winking face.
+#, fuzzy
+msgid "Winking face"
+msgstr "guiño"
+
+#. Translators: (emoji) smiling face with heart shaped eyes.
+msgid "Smiling face with heart shaped eyes"
+msgstr "Cara sonriente con ojos en forma de corazón"
+
+#. Translators: (emoji)  Rose: a single red rose.
+msgid "Rose"
+msgstr "Rosa"
+
+#. Translators: (emoji) Expressionless face: a face with straight lined eyes and mouth. A deliberate display of no comment...
+msgid "Expressionless face"
+msgstr "Cara inexpresiva"
+
+#. Translators: (emoji) neutral face.
+msgid "Neutral face"
+msgstr "Cara neutral"
+
+#. Translators: (emoji) face without mouth.
+msgid "Face without mouth"
+msgstr "Cara sin Boca"
+
+#. Translators: (emoji) face throwing a kiss.
+msgid "Face throwing a kiss"
+msgstr "Cara lanzando un beso"
+
+#. Translators: (emoji) kissing face with closed eyes.
+msgid "Kissing face with closed eyes"
+msgstr "cara besando con ojos cerrados"
+
+#. Translators: (emoji) Kissing face.
+#, fuzzy
+msgid "Kissing face"
+msgstr "guiño"
+
+#. Translators: (emoji) kissing face with arched eyes.
+msgid "Kissing face with arched eyes"
+msgstr "Cara besando con ojos arqueados"
+
+#. Translators: (emoji) winking face with stuck out tongue.
+msgid "Winking face with stuck out tongue"
+msgstr "Cara guiñando el ojo con la lengua fuera"
+
+#. Translators: (emoji) face with stuck out tongue and eyes tightly closed.
+msgid "Face with stuck out tongue and eyes tightly closed"
+msgstr "Cara con la lengua fuera y ojos muy cerrados"
+
+#. Translators: (emoji) A cheeky face with stuck out tongue.
+msgid "Face with stuck out tongue"
+msgstr "Cara con la lengua fuera"
+
+#. Translators: (emoji) Hugging Face: a face displayed with an open hands gesture, offering a hug.
+msgid "Hugging face"
+msgstr "Cara abrazando"
+
+#. Translators: (emoji) flushed face.
+msgid "Flushed face"
+msgstr "Cara ruborizada"
+
+#. Translators: (emoji) Grinning face showing smiling eyes.
+msgid "Grinning Face With Smiling Eyes"
+msgstr "Cara sonriente y ojos sonrientes"
+
+#. Translators: (emoji) A pensive, remorseful and saddened face. Quietly considering where things all went wrong.
+#, fuzzy
+msgid "Pensive Face"
+msgstr "Confundido"
+
+#. Translators: (emoji) devil with evil smile.
+#, fuzzy
+msgid "Devil with evil smile"
+msgstr "cara de alivio"
+
+#. Translators: (emoji) devil.
+msgid "Devil"
+msgstr "Diablo"
+
+#. Translators: (emoji) relieved face.
+#, fuzzy
+msgid "Relieved face"
+msgstr "cara de alivio"
+
+#. Translators: (emoji) unamused face.
+msgid "Unamused face"
+msgstr "Cara poco divertida"
+
+#. Translators: (emoji) A face with scrunched up and closed eyes, frowning. Used to show helplessness in a situation.
+msgid "Persevering Face"
+msgstr "Cara perseverante"
+
+#. Translators: (emoji) crying face.
+msgid "Crying face"
+msgstr "Cara llorando"
+
+#. Translators: (emoji) face with tears of joy.
+msgid "Face with tears of joy"
+msgstr "Cara con lágrimas de alegría"
+
+#. Translators: (emoji) loudly crying face.
+msgid "Loudly crying face"
+msgstr "Cara llorando Desconsoladamente"
+
+#. Translators: (emoji) sleepy face.
+msgid "Sleepy face"
+msgstr "Cara con sueño"
+
+#. Translators: (emoji) Shrugging: A person shrugging their shoulders to indicate a lack of knowledge about a particular topic, or a lack of care about the result of a situation.
+msgid "Shrugging emoji"
+msgstr "Emogi encogiéndose de hombros"
+
+#. Translators: (emoji) disappointed face.
+msgid "Disappointed face"
+msgstr "Cara decepcionada"
+
+#. Translators: (emoji) disappointed but relieved face.
+msgid "Disappointed but relieved face"
+msgstr "Cara decepcionada pero aliviada"
+
+#. Translators: (emoji) Face with a look of concern, with a blue forehead and sweat dripping down the cheek.
+msgid "Face With Open Mouth & Cold Sweat"
+msgstr "Cara con boca abierta y sudor frío"
+
+#. Translators: (emoji) Happy face with a single drop of sweat on one side of the face.
+msgid "Smiling Face With Open Mouth & Cold Sweat"
+msgstr "cara sonriente con boca abierta y sudor frío"
+
+#. Translators: (emoji) face with cold sweat.
+msgid "Face with cold sweat"
+msgstr "cara con sudor frío"
+
+#. Translators: (emoji) A distraught-looking face with  an open mouth and crescent shaped eyes.
+msgid "Weary Face"
+msgstr "Cara cansada"
+
+#. Translators: (emoji) An exhausted-looking face with an open mouth and tightly closed eyes.
+#, fuzzy
+msgid "Tired Face"
+msgstr "Confundido"
+
+#. Translators: (emoji) fearful face.
+msgid "Fearful face"
+msgstr "cara atemorizada"
+
+#. Translators: (emoji) face screaming in fear.
+msgid "Face screaming in fear"
+msgstr "Cara gritando de miedo"
+
+#. Translators: (emoji) angry face.
+#. Translators: :@ angry face.
+#, fuzzy
+msgid "Angry face"
+msgstr "Grito de rabia"
+
+#. Translators: (emoji) pouting face.
+msgid "Pouting face"
+msgstr "Cara haciendo pucheros"
+
+#. Translators: (emoji) A face with air coming out of its nose, huffing with anger face.
+msgid "Face With Steam From Nose"
+msgstr "Cara con aire de la nariz"
+
+#. Translators: (emoji) confounded face.
+#, fuzzy
+msgid "Confounded face"
+msgstr "Confundido"
+
+#. Translators: (emoji) Smiling Face With Open Mouth and Tightly-Closed Eyes.
+msgid "Smiling Face With Open Mouth and Tightly-Closed Eyes"
+msgstr "Cara sonriente con boca abierta y ojos muy cerrados"
+
+#. Translators: (emoji) happy face licking lips.
+msgid "Happy face licking lips"
+msgstr "Cara Saboreándose"
+
+#. Translators: (emoji) happy face with sunglasses.
+msgid "Happy face with sunglasses"
+msgstr "Cara con gafas de sol"
+
+#. Translators: (emoji) sleeping face.
+msgid "Sleeping face"
+msgstr "Cara durmiendo"
+
+#. Translators: (emoji) A dizzy face, looking sick or confused from being spun around in circles too many times.
+msgid "Dizzy Face"
+msgstr "cara mareada"
+
+#. Translators: (emoji) astonished face.
+msgid "Astonished face"
+msgstr "cara de asombro"
+
+#. Translators: (emoji) worried face.
+#, fuzzy
+msgid "Worried face"
+msgstr "Preocupado"
+
+#. Translators: (emoji) Dismayed face with open eyes and open mouth, appear closer to  a frowning face.
+msgid "Frowning Face With Open Mouth"
+msgstr "Cara con el ceño fruncido y la boca abierta"
+
+#. Translators: (emoji) anguished face.
+msgid "Anguished face"
+msgstr "Cara angustiada"
+
+#. Translators: (emoji) A face with Open Mouth, generally used to represent an element of surprise.
+msgid "Face with Open Mouth"
+msgstr "cara con boca abierta"
+
+#. Translators: (emoji) grimacing face.
+msgid "Grimacing face"
+msgstr "Cara haciendo mueca"
+
+#. Translators: (emoji) confused face.
+#, fuzzy
+msgid "Confused face"
+msgstr "Confundido"
+
+#. Translators: (emoji) A face with high eyebrows and an open mouth, it looks more surprised than hushed.
+#, fuzzy
+msgid "Hushed Face"
+msgstr "Confundido"
+
+#. Translators: (emoji) broken heart.
+msgid "Broken heart"
+msgstr "Corazón roto"
+
+#. Translators: (emoji) pulsating heart.
+msgid "Pulsating heart"
+msgstr "Corazón creciente"
+
+#. Translators: (emoji) beating heart.
+msgid "Beating heart"
+msgstr "Corazón que late"
+
+#. Translators: (emoji) two hearts.
+msgid "Two hearts"
+msgstr "dos corazones"
+
+#. Translators: (emoji) heart with arrow.
+msgid "Heart with arrow"
+msgstr "Corazón con flecha"
+
+#. Translators: (emoji) purple heart.
+msgid "Purple heart"
+msgstr "Corazón morado"
+
+#. Translators: (emoji) red heart.
+msgid "Red heart"
+msgstr "corazón rojo"
+
+#. Translators: (emoji) yellow heart.
+msgid "Yellow heart"
+msgstr "Corazón amarillo"
+
+#. Translators: (emoji) green heart.
+msgid "Green heart"
+msgstr "Corazón verde"
+
+#. Translators: (emoji) blue heart.
+msgid "Blue heart"
+msgstr "Corazón azul"
+
+#. Translators: (emoji) This emoji is the version of the phrase ROFL. A person lying on the floor due to an extreme amount of laughter.
+#, fuzzy
+msgid "Rolling on the Floor Laughing"
+msgstr "¡muerto de risa!"
+
+#. Translators: (emoji) A face that is a little bit sad, with a slight frown and neutral eyes.
+msgid "Slightly Frowning Face"
+msgstr "Cara frunciendo el ceño levemente"
+
+#. Translators: (emoji) A face that is upside-down.
+msgid "Upside-down Face"
+msgstr "Cara al revez"
+
+#. Translators: (emoji) A face displaying eyes glancing upward.
+msgid "Face With Rolling Eyes"
+msgstr "Cara con ojos rodantes"
+
+#. Translators: (emoji) A person with arms forming an X to indicate no or no good.
+msgid "Person Gesturing No"
+msgstr "cara de desaprobación"
+
+#. Translators: (emoji) A person with arms above his head, making an OK sign with the whole body.
+msgid "Person Gesturing OK"
+msgstr "Cara de aprobación"
+
+#. Translators: (emoji) A person bowing deeply, express a sincere apology or to request a favour.
+msgid "Person bowing"
+msgstr "Persona haciendo reverencia"
+
+#. Translators: (emoji) An upset person frowning with dismay.
+msgid "Person Frowning"
+msgstr "persona frunciendo el ceño"
+
+#. Translators: (emoji) Two hands placed firmly together.
+msgid "Folded Hands"
+msgstr "Manos en oración"
+
+#. Translators: (emoji) A person with a surgical mask on their face.
+msgid "Face with medical mask"
+msgstr "Cara con mascarilla médica"
+
+#. Translators: (emoji) A black version of white smiling face.
+#, fuzzy
+msgid "Black Smiling Face"
+msgstr "cara sonriendo de satisfacción"
+
+#. Translators: (emoji) happy cat face with heart shaped eyes.
+msgid "Happy cat face with heart shaped eyes"
+msgstr ""
+
+#. Translators: (emoji) ok hand sign.
+msgid "Ok hand sign"
+msgstr ""
+
+#. Translators: (emoji) thumbs up symbol.
+msgid "Thumbs up symbol"
+msgstr ""
+
+#. Translators: (emoji) thumbs down symbol.
+msgid "Thumbs down symbol"
+msgstr ""
+
+#. Translators: (emoji) Victory Hand.
+msgid "Victory Hand"
+msgstr ""
 
 #. Translators: :) Smile
 msgid "smiling smiley"
 msgstr "Sonrisa"
 
-#. Translators: :( Sad
-msgid "sad smiley"
-msgstr "Tristesa"
+#. Translators: :( Sad face.
+#, fuzzy
+msgid "Sad face"
+msgstr "sorpresa"
 
 #. Translators: :D Laugh
 msgid "Laughing smiley"
@@ -210,6 +586,11 @@ msgstr "guiño"
 #. Translators: ;( Crying
 msgid "crying smiley"
 msgstr "Llanto"
+
+#. Translators: :s :-S :-Q Confused face:
+#, fuzzy
+msgid "Confused Face"
+msgstr "Confundido"
 
 #. Translators: (:| Sweating
 msgid "sweating smiley"
@@ -302,7 +683,7 @@ msgstr "Grito de rabia"
 msgid "Cat Smiley"
 msgstr "Cara de gato "
 
-#. Translators: (-.-)ZZZ I�m Sleepy
+#. Translators: (-.-)ZZZ Iӭ Sleepy
 msgid "I am Sleepy smiley"
 msgstr "Tengo sueño"
 
