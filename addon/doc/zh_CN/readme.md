@@ -1,26 +1,24 @@
 # 表情符号 #
 
 
-* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
-  Estrada Martínez
+* 作者：Chris Leo，NoeliaRuizMartínez，Mesar Hameed，Francisco
+  JavierEstradaMartínez
 * 下载[稳定版][1]
 * 下载[开发版][2]
 
-Using this add-on, spoken text containing emoticon characters will be
-replaced by its more human friendly description.
+启用表情名称朗读来代替原字符朗读。
 
-For example: the sequence ":)" will be spoken as "smiling smiley", or for
-example NVDA will recognize the meaning of each emoji.
+例如：序列“:)”将被称为“微笑表情”，或者例如NVDA将识别每个表情符号的正确含意。
 
-您可以享受以下功能特性：
+您可以利用以下功能：
 
-## Insert Emoticon ##
+## 插入表情 ##
 
-有时一张图片胜过1000字：使用新的表情符号来激活你的即时消息并让你的朋友知道你的感受。
+有时一张图片胜过千言万语：使用表情符号来加入到你的即时消息并让你的朋友知道你现在的想法吧。
 
-如果您不确定特定的表情字符，可以使用此插件选择并将其插入到文本中，例如聊天中。
+如果您不确定特定表情的字符，可以使用此插件选择并将其插入到你的文本，例如聊天编辑框。
 
-按NVDA + I，或从菜单工具 - >插入表情符号，打开带有提供的表情符号或表情符号的对话框。
+按快捷键NVDA + I，或从菜单工具 - >插入表情符号，打开带有提供的表情符号或表情符号的对话框。
 
 此对话框允许您选择表情符号并浏览您感兴趣的表情符号：
 
@@ -37,7 +35,7 @@ example NVDA will recognize the meaning of each emoji.
 
 这意味着您可以为每个自定义配置文件创建或编辑特定的语音字典。
 
-From NVDA MENU, Preferences -> Speech dictionaries -> Emoticons dictionary, you can open a dialog to add or to edit available emoticons.
+从NVDA菜单，首选项 - >语音词典 - >表情词典，您可以打开一个对话框来添加或编辑可用的表情。
 
 保存自定义项，表情符号的新阅读设置仅适用于您当前正在编辑的配置文件。
 
@@ -54,15 +52,14 @@ emoticons子文件夹中。
 
 在“表情符号设置”面板中，您可以选择在NVDA切换到当前正在编辑的配置文件时是否应自动激活语音字典。默认情况下，它在NVDA的正常配置和所有新配置文件中都被禁用。
 
-如果您可能希望保持清洁配置文件夹，则在此对话框中还可以选择是否在卸载时从加载项中删除未使用的字典（与非现有配置文件关联）。
+如果您可能希望保持清洁配置目录，则在此对话框中还可以选择是否在卸载时从插件中删除未使用的字典（与非现有配置文件关联）。
 
-## 快捷键 ##
+## 快捷键： ##
 
 这些是默认情况下可用的常见快捷键，您可以编辑这些快捷键或添加新键以打开“表情符号”设置面板或“表情词典”对话框：
 
-* NVDA+E: speaking emoticons on/off, toggles between speaking text as it is
-  written, or with the emoticons replaced by the human description.
-* NVDA+I: show a dialog to select an emoticon you want to copy.
+* NVDA + E：开启/关闭表情符号朗读。
+* NVDA + I：显示对话框，用于选择要复制的表情。
 
 
 ## 版本7.0 ##
@@ -108,7 +105,7 @@ emoticons子文件夹中。
 
 ## 版本1.0 ##
 
-* 初始版本
+* 发布初始版本。
 
 
 

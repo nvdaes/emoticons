@@ -4,7 +4,7 @@
 * Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Download [versione stabile][1]
-* Download [versione in sviluppo][1]
+* Download [versione in sviluppo][2]
 
 L'utilizzo di questo componente aggiuntivo consente di leggere la
 descrizione degli emoticons quando si incontrano caratteri che rappresentano
