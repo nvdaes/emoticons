@@ -63,7 +63,7 @@ These are the key commands available by default, you can edit those or add new k
 
 ## Changes for 8.0 ##
 
-* Compatible with NVDA 2018.3 (required).
+* Compatible with NVDA 2018.3 or later (required).
 
 ## Changes for 7.0 ##
 
