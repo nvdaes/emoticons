@@ -1,6 +1,5 @@
 # Emoticons #
 
-
 * Auteurs : Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Télécharger [version stable][1]
@@ -84,6 +83,10 @@ Si vous souhaitez garder propres vos dossiers de configuration, vous pouvez
 (associés à des profils non existants) seront supprimés du module
 complémentaire lorsqu'il est déchargé.
 
+Also, it's possible to enable Settings only in normal configuration (not
+recommended). This is intended to disable settings changes in case of speed
+issues when switching profiles.
+
 ## Raccourcis clavier : ##
 
 Voici les raccourcis clavier par défaut, vous pouvez les modifier ou ajouter
@@ -96,6 +99,11 @@ dialogue Dictionnaire des frimousses :
 * NVDA+I : affiche un dialogue pour choisir la frimousse que vous souhaitez
   copier.
 
+
+
+## Changes for 8.0 ##
+
+* Compatible with NVDA 2018.3 or later (required).
 
 ## Changements pour la version 7.0 ##
 
@@ -158,9 +166,6 @@ dialogue Dictionnaire des frimousses :
 ## Changements pour la version 1.0 ##
 
 * Première version.
-
-
-
 
 [[!tag dev stable]]
 

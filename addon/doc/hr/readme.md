@@ -1,6 +1,5 @@
 # Emotikoni #
 
-
 * Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Preuzmite [stabilnu inačicu][1]
@@ -74,6 +73,10 @@ In Emoticons settings panel you can choose whether or not speech-dictionary shou
 Ako želite izbrisati mape s konfiguracijom, možete odabrati da se rječnici
 neće koristiti (nepostojeći profili će biti uklonjeni iz dodatka).
 
+Also, it's possible to enable Settings only in normal configuration (not
+recommended). This is intended to disable settings changes in case of speed
+issues when switching profiles.
+
 ## Prečaci na tipkovnici: ##
 
 These are the key commands available by default, you can edit those or add
@@ -83,6 +86,11 @@ new key to open Emoticons settings panel or Emoticon Dictionary dialog:
   written, or with the emoticons replaced by the human description.
 * NVDA+I: show a dialog to select an emoticon you want to copy.
 
+
+
+## Changes for 8.0 ##
+
+* Compatible with NVDA 2018.3 or later (required).
 
 ## Changes for 7.0 ##
 
@@ -142,9 +150,6 @@ new key to open Emoticons settings panel or Emoticon Dictionary dialog:
 ## Promjene u inačici 1.0 ##
 
 * prva inačica.
-
-
-
 
 [[!tag dev stable]]
 

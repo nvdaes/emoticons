@@ -1,6 +1,5 @@
 # Emoticons #
 
-
 * Autores: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Baixar [versão estável] [1]
@@ -80,6 +79,10 @@ diálogo também é possível escolher se os dicionários não utilizados
 (associados a perfis não existentes) serão removidos do extra quando
 estiverem descarregados.
 
+Also, it's possible to enable Settings only in normal configuration (not
+recommended). This is intended to disable settings changes in case of speed
+issues when switching profiles.
+
 ## Teclas de Comando: ##
 
 Estas são as teclas de comando disponíveis por padrão, pode editá-las ou
@@ -91,6 +94,11 @@ diálogo do dicionário do Emoticon:
 * NVDA + I: mostra uma caixa de diálogo para seleccionar um emoticon que
   deseja copiar.
 
+
+
+## Changes for 8.0 ##
+
+* Compatible with NVDA 2018.3 or later (required).
 
 ## Alterações para 7.0 ##
 
@@ -150,9 +158,6 @@ diálogo do dicionário do Emoticon:
 ## Alterações para 1.0 ##
 
 * Versão inicial.
-
-
-
 
 [[!tag dev stable]]
 

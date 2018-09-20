@@ -1,6 +1,5 @@
 # Emoticons #
 
-
 * Tác giả: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Tải về [phiên bản chính thức][1]
@@ -78,6 +77,10 @@ Nếu bạn muốn giữ sạch thư mục cấu hình của mình, trong hộp 
 thể chọn nếu từ điển không còn được dùng (tích hợp vào một hồ sơ không tồn
 tại) sẽ bị xóa khỏi add-on khi nó bị tắt.
 
+Cũng có thể chỉ bật thiết lập trong cấu hình bình thường (không khuyến
+khích). Điều này nhằm vô hiệu hóa các thay đổi thiết lập trong trường hợp
+xảy ra vấn đề về tốc độ đọc khi chuyển hồ sơ.
+
 ## Các phím lệnh: ##
 
 Đây là những phím lệnh mặc định hoạt động, bạn có thể chỉnh sửa chúng hay
@@ -88,6 +91,11 @@ biểu tượng cảm xúc:
   đã được viết hay thay thế bằng biểu tượng cảm xúc.
 * NVDA+I: hiển thị hộp thoại  để chọn biểu tượng muốn sao chép.
 
+
+
+## Các thay đổi cho phiên bản 8.0 ##
+
+* Tương thích với NVDA 2018.3 hay cao hơn (yêu cầu).
 
 ## Các thay đổi cho phiên bản 7.0 ##
 
@@ -145,9 +153,6 @@ biểu tượng cảm xúc:
 ## Các thay đổi cho phiên bản 1.0 ##
 
 * Phiên bản đầu tiên.
-
-
-
 
 [[!tag dev stable]]
 

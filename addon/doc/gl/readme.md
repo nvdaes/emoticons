@@ -1,6 +1,5 @@
 # Emoticons #
 
-
 * Autores: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Descargar [versión estable][1]
@@ -80,6 +79,10 @@ Se desexases manter limpos os teus cartafois de configuración, neste diálogo
 é posible tamén escoller se os dicionarios non usados (asociados con perfís
 non existentes) borraranse do complemento cando se descargue.
 
+Tamén, é posible activar Opcións só en configuración normal (non
+recomendado). Esto serve para desactivar os cambios de opcións en caso de
+problemas de velocidade ao cambiar perfís.
+
 ## Ordes de teclado: ##
 
 Estas son as teclas de ordes dispoñibles por omisión, podes editalas ou
@@ -92,6 +95,11 @@ Diccionario de Emoticóns:
 * NVDA+I: amosa un cadro de diálogo para seleccionar un emoticón que queras
   pegar.
 
+
+
+## Cambios para 8.0 ##
+
+* Compatible co NVDA 2018.3 ou posterior (requerido).
 
 ## Cambios para 7.0 ##
 
@@ -149,9 +157,6 @@ Diccionario de Emoticóns:
 ## Cambios para 1.0 ##
 
 * Versión inicial.
-
-
-
 
 [[!tag dev stable]]
 

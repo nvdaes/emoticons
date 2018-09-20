@@ -1,6 +1,5 @@
 # Emotikoni #
 
-
 * Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * preuzmi [stabilnu verziju][1]
@@ -75,6 +74,10 @@ If you may wish to keep clean your configuration folders, in this dialog it
 is also possible to choose if dictionaries not used (associated with non
 existing profiles) will be removed from the add-on when it is unloaded.
 
+Also, it's possible to enable Settings only in normal configuration (not
+recommended). This is intended to disable settings changes in case of speed
+issues when switching profiles.
+
 ## Prečice ##
 
 These are the key commands available by default, you can edit those or add
@@ -85,6 +88,11 @@ new key to open Emoticons settings panel or Emoticon Dictionary dialog:
 * NVDA+I: otvara prozor za izbor emotikona za kopiranje u privremenu
   memoriju
 
+
+
+## Changes for 8.0 ##
+
+* Compatible with NVDA 2018.3 or later (required).
 
 ## Changes for 7.0 ##
 
@@ -143,9 +151,6 @@ new key to open Emoticons settings panel or Emoticon Dictionary dialog:
 ## Promene u 1.0 ##
 
 * Prva verzija
-
-
-
 
 [[!tag dev stable]]
 

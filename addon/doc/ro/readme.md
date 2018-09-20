@@ -1,6 +1,5 @@
 # Emoticons #
 
-
 * Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Descarcă [versiunea stabilă][1]
@@ -84,6 +83,10 @@ fereastră de dialog este posibil de asemenea să alegeți dacă dicționarele
 care nu sunt utilizate (asociate profilurilor inexistente) vor fi eliminate
 din supliment atunci când nu sunt încărcate.
 
+Also, it's possible to enable Settings only in normal configuration (not
+recommended). This is intended to disable settings changes in case of speed
+issues when switching profiles.
+
 ## Comenzi de tastatură: ##
 
 Acestea sunt scurtăturile disponibile în mod implicit, puteți să le editați
@@ -96,6 +99,11 @@ Emoticons sau dialogul dicționarului de emoticoane:
 * NVDA+I: Arată un dialog pentru a selecta emoticonul pe care vreți să îl
   copiați.
 
+
+
+## Changes for 8.0 ##
+
+* Compatible with NVDA 2018.3 or later (required).
 
 ## Modificări aduse în 7.0 ##
 
@@ -155,9 +163,6 @@ Emoticons sau dialogul dicționarului de emoticoane:
 ## Modificări aduse în versiuna 1.0 ##
 
 * Versiunea Inițială.
-
-
-
 
 [[!tag dev stable]]
 
