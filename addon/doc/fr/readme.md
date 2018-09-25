@@ -83,9 +83,10 @@ Si vous souhaitez garder propres vos dossiers de configuration, vous pouvez
 (associés à des profils non existants) seront supprimés du module
 complémentaire lorsqu'il est déchargé.
 
-Also, it's possible to enable Settings only in normal configuration (not
-recommended). This is intended to disable settings changes in case of speed
-issues when switching profiles.
+De plus, il est possible d'activer les Paramètres uniquement en
+configuration normale (non recommandé). Ceci est destiné à désactiver les
+changements de paramètres en cas de problèmes de vitesse lors de la
+commutation de profils.
 
 ## Raccourcis clavier : ##
 
@@ -101,9 +102,9 @@ dialogue Dictionnaire des frimousses :
 
 
 
-## Changes for 8.0 ##
+## Changements pour la version 8.0 ##
 
-* Compatible with NVDA 2018.3 or later (required).
+* Compatible avec NVDA 2018.3 ou version ultérieure (requis).
 
 ## Changements pour la version 7.0 ##
 
@@ -169,9 +170,8 @@ dialogue Dictionnaire des frimousses :
 
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=emo
 
-[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
 
-[3]:
-https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5.nvda-addon
+[3]: https://addons.nvda-project.org/files/get.php?file=emo-o

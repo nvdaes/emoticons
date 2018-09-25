@@ -79,9 +79,9 @@ diálogo também é possível escolher se os dicionários não utilizados
 (associados a perfis não existentes) serão removidos do complemento quando
 ele for descarregado.
 
-Also, it's possible to enable Settings only in normal configuration (not
-recommended). This is intended to disable settings changes in case of speed
-issues when switching profiles.
+Além disso, é possível ativar as configurações apenas na configuração normal
+(não recomendado). Isso destina-se a desabilitar as alterações de
+configurações em caso de problemas de velocidade ao alternar perfis.
 
 ## Teclas de comando: ##
 
@@ -95,9 +95,9 @@ Emoticons ou o diálogo Dicionário de Emoticons:
 
 
 
-## Changes for 8.0 ##
+## Mudanças na 8.0 ##
 
-* Compatible with NVDA 2018.3 or later (required).
+* Compatível com o NVDA 2018.3 ou posterior (requerido).
 
 ## Mudanças na 7.0 ##
 
@@ -159,9 +159,8 @@ Emoticons ou o diálogo Dicionário de Emoticons:
 
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=emo
 
-[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
 
-[3]:
-https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5.nvda-addon
+[3]: https://addons.nvda-project.org/files/get.php?file=emo-o
