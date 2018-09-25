@@ -112,4 +112,4 @@ These are the key commands available by default, you can edit those or add new k
 
 [2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
 
-[3]: https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5.nvda-addon
+[3]: http://addons.nvda-project.org/files/get.php?file=emo-o
