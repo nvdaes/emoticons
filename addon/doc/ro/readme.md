@@ -83,9 +83,9 @@ fereastră de dialog este posibil de asemenea să alegeți dacă dicționarele
 care nu sunt utilizate (asociate profilurilor inexistente) vor fi eliminate
 din supliment atunci când nu sunt încărcate.
 
-Also, it's possible to enable Settings only in normal configuration (not
-recommended). This is intended to disable settings changes in case of speed
-issues when switching profiles.
+De asemenea, puteți activa setări numai în configurația normală
+(nerecomandat). Aceasta e făcută cu scopul de a dezactiva modificările de
+setări în cazul problemelor de viteză la comutarea profilurilor.
 
 ## Comenzi de tastatură: ##
 
@@ -101,9 +101,9 @@ Emoticons sau dialogul dicționarului de emoticoane:
 
 
 
-## Changes for 8.0 ##
+## Modificări aduse în 8.0 ##
 
-* Compatible with NVDA 2018.3 or later (required).
+* Compatibil cu NVDA 2018.3 (necesar).
 
 ## Modificări aduse în 7.0 ##
 
