@@ -1,6 +1,5 @@
 # Hymiöt #
 
-
 * Tekijät: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Lataa [vakaa versio][1]
@@ -71,6 +70,11 @@ Mikäli haluat pitää asetuskansiosi puhtaana, tästä valintaikkunasta on myö
 mahdollista valita, poistetaanko käyttämättömät (ei-olemassa oleviin
 profiileihin liitetyt) puhesanastot lisäosasta, kun se poistetaan muistista.
 
+Asetukset on lisäksi mahdollista ottaa käyttöön vain NVDA:n normaalissa
+kokoonpanossa (ei suositella). Tämän tarkoituksena on asetusten käytöstä
+poistaminen siinä tapauksessa, että profiilia vaihdettaessa ilmenee
+hidastumista.
+
 ## Näppäinkomennot: ##
 
 Nämä ovat oletusnäppäinkomentoja. Voit muokata niitä tai lisätä uuden
@@ -82,6 +86,11 @@ Hymiöt-asetuspaneelin tai hymiösanastovalintaikkunan avaamiseen:
 * NVDA+I: näyttää valintaikkunan, josta voit valita tekstiin lisättävän
   hymiön.
 
+
+
+## Muutokset versiossa 8.0 ##
+
+* Yhteensopiva NVDA 2018.3:n tai uudemman kanssa (vaaditaan).
 
 ## Muutokset versiossa 7.0 ##
 
@@ -141,14 +150,10 @@ Hymiöt-asetuspaneelin tai hymiösanastovalintaikkunan avaamiseen:
 
 * Ensimmäinen versio.
 
-
-
-
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=emo
 
-[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
 
-[3]:
-https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5.nvda-addon
+[3]: https://addons.nvda-project.org/files/get.php?file=emo-o

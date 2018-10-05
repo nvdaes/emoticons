@@ -1,6 +1,5 @@
 # Emoticons #
 
-
 * Tác giả: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Tải về [phiên bản chính thức][1]
@@ -78,6 +77,10 @@ Nếu bạn muốn giữ sạch thư mục cấu hình của mình, trong hộp 
 thể chọn nếu từ điển không còn được dùng (tích hợp vào một hồ sơ không tồn
 tại) sẽ bị xóa khỏi add-on khi nó bị tắt.
 
+Cũng có thể chỉ bật thiết lập trong cấu hình bình thường (không khuyến
+khích). Điều này nhằm vô hiệu hóa các thay đổi thiết lập trong trường hợp
+xảy ra vấn đề về tốc độ đọc khi chuyển hồ sơ.
+
 ## Các phím lệnh: ##
 
 Đây là những phím lệnh mặc định hoạt động, bạn có thể chỉnh sửa chúng hay
@@ -89,7 +92,12 @@ biểu tượng cảm xúc:
 * NVDA+I: hiển thị hộp thoại  để chọn biểu tượng muốn sao chép.
 
 
-## Các thay đổi cho 7.0 ##
+
+## Các thay đổi cho phiên bản 8.0 ##
+
+* Tương thích với NVDA 2018.3 hay cao hơn (yêu cầu).
+
+## Các thay đổi cho phiên bản 7.0 ##
 
 * Hộp thoại cài đặt kích hoạt đã được chuyển vào bảng trong cấu hình NVDA,
   vậy nên hồ sơ hiện tại sẽ hiện trong tên của hộp thoại cấu hình NVDA.
@@ -101,7 +109,7 @@ biểu tượng cảm xúc:
 * Nếu cần, bạn có thể tải về [phiên bản cuối cùng tương thích với NVDA
   2017.3][3].
 
-## Các thay đổi cho 6.0 ##
+## Các thay đổi cho phiên bản 6.0 ##
 
 * Đã hỗ trợ cho hồ sơ cấu hình.
 * Từ NVDA 2017.4 trở đi, các thiết lập và từ điển người dùng sẽ tự thay đổi
@@ -111,7 +119,7 @@ biểu tượng cảm xúc:
   dụng (emoticons.ini và emoticons.dic) sẽ bị gỡ bỏ hoặc tích hợp vào phiên
   bản này.
 
-## Các thay đổi cho 5.0 ##
+## Các thay đổi cho phiên bản 5.0 ##
 
 * Đã hỗ trợ cho emojis.
 * Cải thiện hộp thoại chèn biểu tượng cảm xúc với một trường bộ lọc và các
@@ -119,41 +127,37 @@ biểu tượng cảm xúc:
 * Dùng guiHelper cho hộp thoại thiết lập kích hoạt và chèn biểu tượng cảm
   xúc: yêu cầu NVDA 2016.4 trở lên
 
-## Các thay đổi cho 4.0 ##
+## Các thay đổi cho phiên bản 4.0 ##
 
 * Nếu hộp thoại chèn biểu tượng cảm xúc được mở khi có một hộp thoại cài đặt
   khác đang hoạt động, NVDA sẽ hiển thị thông báo lỗi tương ứng.
 
 
-## Các thay đổi cho 3.0 ##
+## Các thay đổi cho phiên bản 3.0 ##
 
 * Trong hộp thoại tùy chỉnh biểu tượng cảm xúc, đã có thể quy định rằng một
   mẫu chỉ được xác định khi nó là một từ đầy đủ, căn cứ theo từ điển phát âm
   của NVDA 2014.4.
 
 
-## Các thay đổi cho 2.0 ##
+## Các thay đổi cho phiên bản 2.0 ##
 
 * Phần giúp đỡ cho Add-on đã có trong trình quản lý Add-ons.
 
 
-## Các thay đổi cho 1.1 ##
+## Các thay đổi cho phiên bản 1.1 ##
 
 * Gỡ bỏ các biểu tượng trùng nhau.
 * Đã thêm vào một vài biểu tượng.
 
-## Các thay đổi cho 1.0 ##
+## Các thay đổi cho phiên bản 1.0 ##
 
 * Phiên bản đầu tiên.
 
-
-
-
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=emo
 
-[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
 
-[3]:
-https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5.nvda-addon
+[3]: https://addons.nvda-project.org/files/get.php?file=emo-o

@@ -1,6 +1,5 @@
 # Emoticons #
 
-
 * Autores: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Baixar [versão estável] [1]
@@ -80,6 +79,11 @@ diálogo também é possível escolher se os dicionários não utilizados
 (associados a perfis não existentes) serão removidos do extra quando
 estiverem descarregados.
 
+Além disso, é possível activar apenas as Configurações em configuração
+normal (não recomendado). Este destina-se a desactivar alterações de
+configurações no caso de problemas de velocidade quando alternar entre
+perfis. 
+
 ## Teclas de Comando: ##
 
 Estas são as teclas de comando disponíveis por padrão, pode editá-las ou
@@ -91,6 +95,11 @@ diálogo do dicionário do Emoticon:
 * NVDA + I: mostra uma caixa de diálogo para seleccionar um emoticon que
   deseja copiar.
 
+
+
+## Alterações para 8.0 ##
+
+* Compatível com o NVDA 2018.3 ou posterior
 
 ## Alterações para 7.0 ##
 
@@ -151,14 +160,10 @@ diálogo do dicionário do Emoticon:
 
 * Versão inicial.
 
-
-
-
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=emo
 
-[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
 
-[3]:
-https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5.nvda-addon
+[3]: https://addons.nvda-project.org/files/get.php?file=emo-o

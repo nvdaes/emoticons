@@ -50,8 +50,6 @@ In Emoticons settings panel you can choose whether or not speech-dictionary shou
 
 If you may wish to keep clean your configuration folders, in this dialog it is also possible to choose if dictionaries not used (associated with non existing profiles) will be removed from the add-on when it is unloaded.
 
-Also, it's possible to enable Settings only in normal configuration (not recommended). This is intended to disable settings changes in case of speed issues when switching profiles.
-
 ## Key Commands: ##
 
 These are the key commands available by default, you can edit those or add new key to open Emoticons settings panel or Emoticon Dictionary dialog:
@@ -63,8 +61,7 @@ These are the key commands available by default, you can edit those or add new k
 
 ## Changes for 8.0 ##
 
-* Added the possibility of enabling settings changes just for normal configuration.
-* Requires NVDA 2018.3.
+* Compatible with NVDA 2018.3 or later (required).
 
 ## Changes for 7.0 ##
 
@@ -113,4 +110,4 @@ These are the key commands available by default, you can edit those or add new k
 
 [2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
 
-[3]: https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5.nvda-addon
+[3]: http://addons.nvda-project.org/files/get.php?file=emo-o

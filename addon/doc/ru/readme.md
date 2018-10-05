@@ -1,6 +1,5 @@
 # Emoticons #
 
-
 * Авторы: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Загрузить [Стабильную версию][1]
@@ -78,6 +77,10 @@ If you may wish to keep clean your configuration folders, in this dialog it
 is also possible to choose if dictionaries not used (associated with non
 existing profiles) will be removed from the add-on when it is unloaded.
 
+Also, it's possible to enable Settings only in normal configuration (not
+recommended). This is intended to disable settings changes in case of speed
+issues when switching profiles.
+
 ## Комбинации клавиш: ##
 
 These are the key commands available by default, you can edit those or add
@@ -87,6 +90,11 @@ new key to open Emoticons settings panel or Emoticon Dictionary dialog:
   текст, как написано, или с заменённым дружественным описанием смайликов.
 * NVDA+I: показать диалог выбора смайлика, который вы хотите скопировать.
 
+
+
+## Changes for 8.0 ##
+
+* Compatible with NVDA 2018.3 or later (required).
 
 ## Changes for 7.0 ##
 
@@ -146,14 +154,10 @@ new key to open Emoticons settings panel or Emoticon Dictionary dialog:
 
 * Начальная версия.
 
-
-
-
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=emo
 
-[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
 
-[3]:
-https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5.nvda-addon
+[3]: https://addons.nvda-project.org/files/get.php?file=emo-o

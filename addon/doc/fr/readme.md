@@ -1,6 +1,5 @@
 # Emoticons #
 
-
 * Auteurs : Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Télécharger [version stable][1]
@@ -84,6 +83,11 @@ Si vous souhaitez garder propres vos dossiers de configuration, vous pouvez
 (associés à des profils non existants) seront supprimés du module
 complémentaire lorsqu'il est déchargé.
 
+De plus, il est possible d'activer les Paramètres uniquement en
+configuration normale (non recommandé). Ceci est destiné à désactiver les
+changements de paramètres en cas de problèmes de vitesse lors de la
+commutation de profils.
+
 ## Raccourcis clavier : ##
 
 Voici les raccourcis clavier par défaut, vous pouvez les modifier ou ajouter
@@ -96,6 +100,11 @@ dialogue Dictionnaire des frimousses :
 * NVDA+I : affiche un dialogue pour choisir la frimousse que vous souhaitez
   copier.
 
+
+
+## Changements pour la version 8.0 ##
+
+* Compatible avec NVDA 2018.3 ou version ultérieure (requis).
 
 ## Changements pour la version 7.0 ##
 
@@ -159,14 +168,10 @@ dialogue Dictionnaire des frimousses :
 
 * Première version.
 
-
-
-
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=emo
 
-[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
 
-[3]:
-https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5.nvda-addon
+[3]: https://addons.nvda-project.org/files/get.php?file=emo-o

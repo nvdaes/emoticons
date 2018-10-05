@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 18:37+0100\n"
-"PO-Revision-Date: 2018-06-14 21:17+0100\n"
+"PO-Revision-Date: 2018-08-21 19:00+0100\n"
 "Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
 "Language-Team: Polish <killer@tyflonet.com>\n"
 "Language: pl\n"
@@ -22,7 +22,7 @@ msgid ""
 "You have installed the Emoticons add-on, probably an old and incompatible "
 "version with this one. Do you want to uninstall the old version?"
 msgstr ""
-"Zainstalowałeś dodatek Emotykony, prawdopodobnie w starej wersji, "
+"Zainstalowałeś dodatek Emotikony, prawdopodobnie w starej wersji, "
 "niekompatybilnej z obecną. Czy chcesz odinstalować starą wersję?"
 
 #. Translators: the title of a message box dialog.
@@ -39,7 +39,7 @@ msgstr ""
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
-msgstr "Importuj ustawienia dodatku Emotykony"
+msgstr "Importuj ustawienia dodatku Emotikony"
 
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 #. Translators: Label for emojis in the list.
@@ -48,55 +48,55 @@ msgstr "emoji"
 
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 msgid "Emoticon"
-msgstr "emotykon"
+msgstr "emotikon"
 
 #. Translators: the name for a menu item.
 msgid "&Insert emoticon..."
-msgstr "&Wstaw emotykon..."
+msgstr "&Wstaw emotikon.."
 
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dialog to insert a smiley"
-msgstr "Wyświetla okno wstawiania emotykonów"
+msgstr "Wyświetla okno wstawiania emotikonów"
 
 #. Translators: the name for a menu item.
 msgid "&Emoticons dictionary..."
-msgstr "&słownik emotykonów..."
+msgstr "&słownik emotikonów..."
 
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
-msgstr "Wyświetla okno zarządzania emotykonami"
+msgstr "Wyświetla okno zarządzania emotikonami"
 
 #, python-format
 msgid "Emoticons dictionary (%s)"
-msgstr "Słownik emotykonów (%s)"
+msgstr "Słownik emotikonów (%s)"
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
-msgstr "Emotykony wyłączone."
+msgstr "Emotikony wyłączone."
 
 #. Translators: message presented when the dictionary for emoticons is loaded.
 msgid "Emoticons on."
-msgstr "Emotykony włączone."
+msgstr "Emotikony włączone."
 
 #. Translators: Message presented in input help mode.
 msgid "Toggles on and off the announcement of emoticons."
-msgstr "Włącza lub wyłącza oznajmianie emotykonów."
+msgstr "Włącza lub wyłącza oznajmianie emotikonów."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
-msgstr "Wyświetla okno wyboru emotykonów do wklejenia."
+msgstr "Wyświetla okno wyboru emotikonów do wklejenia."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons dictionary dialog."
-msgstr "Wyświetla dialog słownika emotykonów."
+msgstr "Wyświetla dialog słownika emotikonów."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons settings."
-msgstr "Wyświetla ustawienia emotykonów."
+msgstr "Wyświetla ustawienia emotikonów."
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"
-msgstr "Wstaw emotykon"
+msgstr "Wstaw emotikon"
 
 #. Filter panel.
 #. Translators: A text field to filter emoticons.
@@ -138,7 +138,7 @@ msgstr "Standardowe"
 
 #. Translators: Error message when none emoticon is selected or the list is empty, and title of the error dialog.
 msgid "There is not any emoticon selected."
-msgstr "żaden emotykon nie jest zaznaczony."
+msgstr "żaden emotikon nie jest zaznaczony."
 
 #. Translators: This is the message when smiley has been copied to the clipboard.
 msgid "Smiley copied to clipboard, ready for you to paste."
@@ -158,7 +158,7 @@ msgstr "Zapisz i &eksportuj słownik"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 msgid "&Activate speaking of emoticons:"
-msgstr "&aktywuj wypowiadanie emotykonów:"
+msgstr "&aktywuj wypowiadanie emotikonów:"
 
 #. Translators: The label for a setting in Activate emoticons dialog.
 msgid "&Remove not used dictionaries"
@@ -859,14 +859,14 @@ msgstr "Buzia gwiazda"
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Emoticons"
-msgstr "Emotykony / Emoticons"
+msgstr "Emotikony / Emoticons"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
-msgstr "Umożliwia oznajmianie nazw emotikon zamiast tworzących je znaków."
+msgstr "Umożliwia oznajmianie nazw emotikonów zamiast tworzących je znaków."
 
 #~ msgid "Manag&e emoticons"
 #~ msgstr "&Zarządzaj emotykonami"

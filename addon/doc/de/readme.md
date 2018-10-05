@@ -1,6 +1,5 @@
 # Emoticons #
 
-
 * Autoren: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * [Stabile Version herunterladen][1]
@@ -77,6 +76,10 @@ In den Einstellungen von Emoticons können Sie auswählen, ob das Sprachwörterb
 Wenn Sie Ihre Konfigurationsordner sauber halten möchten, können Sie in
 diesem Dialog nicht genutzte Wörterbücher von gelöschten Profilen entfernen.
 
+Außerdem ist es möglich, Einstellungen nur in der normalen Konfiguration zu
+aktivieren (nicht empfohlen). Dies ist dazu gedacht, Einstellungsänderungen
+bei Geschwindigkeitsproblemen beim Profilwechsel zu deaktivieren.
+
 ## Tastenkombinationen: ##
 
 Dies sind die standardmäßig verfügbaren Tastenbefehle. Sie können diese
@@ -89,6 +92,11 @@ oder den Emoticon-Wörterbuch-Dialog zu öffnen:
 * NVDA+I: Zeigt ein Dialogfeld an, aus dem Sie ein Emoticon zum Einfügen
   auswählen können.
 
+
+
+## Änderungen für 8.0 ##
+
+* Kompatibel mit NVDA 2018.3 oder neuer (erforderlich).
 
 ## Änderungen für 7.0 ##
 
@@ -149,14 +157,10 @@ oder den Emoticon-Wörterbuch-Dialog zu öffnen:
 
 * Ehrstveröffentlichung
 
-
-
-
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=emo
 
-[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
 
-[3]:
-https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5.nvda-addon
+[3]: https://addons.nvda-project.org/files/get.php?file=emo-o

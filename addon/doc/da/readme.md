@@ -1,6 +1,5 @@
 # Emoticons (Humørikoner) #
 
-
 * Forfattere: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco
   Javier Estrada Martínez
 * Download [stabil version][1]
@@ -77,6 +76,10 @@ Hvis du ønsker at holde konfigurationsmapperne rene, vil det også være
 muligt i denne dialog at vælge om ubrugte ordbøger (tilhørende
 ikke-eksisterende profiler) skal fjernes fra tilføjelsen når den udlæses.
 
+Also, it's possible to enable Settings only in normal configuration (not
+recommended). This is intended to disable settings changes in case of speed
+issues when switching profiles.
+
 ## Tastaturkommandoer: ##
 
 Disse er de vigtigste kommandoer tilgængelige som standard, du kan redigere
@@ -87,6 +90,11 @@ Emoticons eller dialogen til styrelse af Emoticons-ordbøger.
   humørikonerne erstattet med den brugervenlige beskrivelse.
 * NVDA+i: Viser en dialog, hvor du kan vælge et humørikon, du vil kopiere.
 
+
+
+## Changes for 8.0 ##
+
+* Compatible with NVDA 2018.3 or later (required).
 
 ## Ændringer i7.0 ##
 
@@ -147,14 +155,10 @@ Emoticons eller dialogen til styrelse af Emoticons-ordbøger.
 
 * Første version.
 
-
-
-
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=emo
 
-[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
 
-[3]:
-https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5.nvda-addon
+[3]: https://addons.nvda-project.org/files/get.php?file=emo-o

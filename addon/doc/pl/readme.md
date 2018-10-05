@@ -1,5 +1,4 @@
-# Emotikony / Emoticons #
-
+# Emoticons #
 
 * Autorzy: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
@@ -77,6 +76,10 @@ możesz określić w tym samym oknie dialogowym, czy nieużywane słowniki
 (przypisane do nieistniejących profili) mają zostać usunięte z dodatku po
 jego wyłączeniu.
 
+Also, it's possible to enable Settings only in normal configuration (not
+recommended). This is intended to disable settings changes in case of speed
+issues when switching profiles.
+
 ## Skróty klawiszowe: ##
 
 To domyślnie dostępne skróty klawiszowe, można je zmieniać, albo dodać nowy
@@ -86,6 +89,11 @@ skrót służący do wywołania dialogu aktywacji lub słownika emotikonów:
   odczytywaniem tekstu z emotikonami zastąpionymi przez opisy.
 * NVDA+I: wyświetla okno dialogowe wyboru uśmieszku do skopiowania.
 
+
+
+## Changes for 8.0 ##
+
+* Compatible with NVDA 2018.3 or later (required).
 
 ## Zmiany w wersji 6.0 ##
 
@@ -145,14 +153,10 @@ skrót służący do wywołania dialogu aktywacji lub słownika emotikonów:
 
 * Pierwsza wersja.
 
-
-
-
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=emo
 
-[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
 
-[3]:
-https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5.nvda-addon
+[3]: https://addons.nvda-project.org/files/get.php?file=emo-o

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 2.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2014-10-17 05:00+1000\n"
-"PO-Revision-Date: 2018-06-14 21:51+0100\n"
+"PO-Revision-Date: 2018-09-06 21:57+0100\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA <angelomiguelabrantes@gmail.com; "
 "rui.fontes@tiflotecnia.com>\n"
@@ -61,7 +61,7 @@ msgstr "Mostra uma caixa de diálogo para inserir um smiley"
 
 #. Translators: the name for a menu item.
 msgid "&Emoticons dictionary..."
-msgstr "Dicionário de &Emoticons..."
+msgstr "&Emoticons..."
 
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
