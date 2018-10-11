@@ -77,9 +77,6 @@ Nếu bạn muốn giữ sạch thư mục cấu hình của mình, trong hộp 
 thể chọn nếu từ điển không còn được dùng (tích hợp vào một hồ sơ không tồn
 tại) sẽ bị xóa khỏi add-on khi nó bị tắt.
 
-Cũng có thể chỉ bật thiết lập trong cấu hình bình thường (không khuyến
-khích). Điều này nhằm vô hiệu hóa các thay đổi thiết lập trong trường hợp
-xảy ra vấn đề về tốc độ đọc khi chuyển hồ sơ.
 
 ## Các phím lệnh: ##
 

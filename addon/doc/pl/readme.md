@@ -76,9 +76,6 @@ możesz określić w tym samym oknie dialogowym, czy nieużywane słowniki
 (przypisane do nieistniejących profili) mają zostać usunięte z dodatku po
 jego wyłączeniu.
 
-Also, it's possible to enable Settings only in normal configuration (not
-recommended). This is intended to disable settings changes in case of speed
-issues when switching profiles.
 
 ## Skróty klawiszowe: ##
 

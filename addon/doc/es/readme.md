@@ -78,9 +78,6 @@ Si deseas mantener limpias tus carpetas de configuración, en este diálogo
 también es posible elegir si los diccionarios no utilizados (asociados a
 perfiles no existentes) se eliminarán del complemento cuando se descarguen.
 
-También, es posible habilitar Opciones sólo en configuración normal (no
-recomendado). Esto sirve para desactivar los cambios de opciones en caso de
-problemas de velocidad al cambiar perfiles.
 
 ## Órdenes de teclado: ##
 

@@ -76,9 +76,6 @@ Hvis du ønsker at holde konfigurationsmapperne rene, vil det også være
 muligt i denne dialog at vælge om ubrugte ordbøger (tilhørende
 ikke-eksisterende profiler) skal fjernes fra tilføjelsen når den udlæses.
 
-Also, it's possible to enable Settings only in normal configuration (not
-recommended). This is intended to disable settings changes in case of speed
-issues when switching profiles.
 
 ## Tastaturkommandoer: ##
 

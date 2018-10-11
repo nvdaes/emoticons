@@ -74,9 +74,6 @@ If you may wish to keep clean your configuration folders, in this dialog it
 is also possible to choose if dictionaries not used (associated with non
 existing profiles) will be removed from the add-on when it is unloaded.
 
-Also, it's possible to enable Settings only in normal configuration (not
-recommended). This is intended to disable settings changes in case of speed
-issues when switching profiles.
 
 ## Prečice ##
 

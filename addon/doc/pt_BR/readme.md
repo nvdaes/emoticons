@@ -79,9 +79,6 @@ diálogo também é possível escolher se os dicionários não utilizados
 (associados a perfis não existentes) serão removidos do complemento quando
 ele for descarregado.
 
-Além disso, é possível ativar as configurações apenas na configuração normal
-(não recomendado). Isso destina-se a desabilitar as alterações de
-configurações em caso de problemas de velocidade ao alternar perfis.
 
 ## Teclas de comando: ##
 

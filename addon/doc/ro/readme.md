@@ -83,9 +83,6 @@ fereastră de dialog este posibil de asemenea să alegeți dacă dicționarele
 care nu sunt utilizate (asociate profilurilor inexistente) vor fi eliminate
 din supliment atunci când nu sunt încărcate.
 
-De asemenea, puteți activa setări numai în configurația normală
-(nerecomandat). Aceasta e făcută cu scopul de a dezactiva modificările de
-setări în cazul problemelor de viteză la comutarea profilurilor.
 
 ## Comenzi de tastatură: ##
 
