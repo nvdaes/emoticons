@@ -79,10 +79,6 @@ diálogo também é possível escolher se os dicionários não utilizados
 (associados a perfis não existentes) serão removidos do extra quando
 estiverem descarregados.
 
-Além disso, é possível activar apenas as Configurações em configuração
-normal (não recomendado). Este destina-se a desactivar alterações de
-configurações no caso de problemas de velocidade quando alternar entre
-perfis. 
 
 ## Teclas de Comando: ##
 

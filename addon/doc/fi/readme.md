@@ -70,10 +70,6 @@ Mikäli haluat pitää asetuskansiosi puhtaana, tästä valintaikkunasta on myö
 mahdollista valita, poistetaanko käyttämättömät (ei-olemassa oleviin
 profiileihin liitetyt) puhesanastot lisäosasta, kun se poistetaan muistista.
 
-Asetukset on lisäksi mahdollista ottaa käyttöön vain NVDA:n normaalissa
-kokoonpanossa (ei suositella). Tämän tarkoituksena on asetusten käytöstä
-poistaminen siinä tapauksessa, että profiilia vaihdettaessa ilmenee
-hidastumista.
 
 ## Näppäinkomennot: ##
 

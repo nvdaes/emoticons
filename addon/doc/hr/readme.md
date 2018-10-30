@@ -73,9 +73,6 @@ In Emoticons settings panel you can choose whether or not speech-dictionary shou
 Ako želite izbrisati mape s konfiguracijom, možete odabrati da se rječnici
 neće koristiti (nepostojeći profili će biti uklonjeni iz dodatka).
 
-Also, it's possible to enable Settings only in normal configuration (not
-recommended). This is intended to disable settings changes in case of speed
-issues when switching profiles.
 
 ## Prečaci na tipkovnici: ##
 

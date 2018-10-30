@@ -83,10 +83,6 @@ Si vous souhaitez garder propres vos dossiers de configuration, vous pouvez
 (associés à des profils non existants) seront supprimés du module
 complémentaire lorsqu'il est déchargé.
 
-De plus, il est possible d'activer les Paramètres uniquement en
-configuration normale (non recommandé). Ceci est destiné à désactiver les
-changements de paramètres en cas de problèmes de vitesse lors de la
-commutation de profils.
 
 ## Raccourcis clavier : ##
 

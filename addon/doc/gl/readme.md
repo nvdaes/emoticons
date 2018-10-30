@@ -79,9 +79,6 @@ Se desexases manter limpos os teus cartafois de configuración, neste diálogo
 é posible tamén escoller se os dicionarios non usados (asociados con perfís
 non existentes) borraranse do complemento cando se descargue.
 
-Tamén, é posible activar Opcións só en configuración normal (non
-recomendado). Esto serve para desactivar os cambios de opcións en caso de
-problemas de velocidade ao cambiar perfís.
 
 ## Ordes de teclado: ##
 

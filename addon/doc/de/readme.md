@@ -76,9 +76,6 @@ In den Einstellungen von Emoticons können Sie auswählen, ob das Sprachwörterb
 Wenn Sie Ihre Konfigurationsordner sauber halten möchten, können Sie in
 diesem Dialog nicht genutzte Wörterbücher von gelöschten Profilen entfernen.
 
-Außerdem ist es möglich, Einstellungen nur in der normalen Konfiguration zu
-aktivieren (nicht empfohlen). Dies ist dazu gedacht, Einstellungsänderungen
-bei Geschwindigkeitsproblemen beim Profilwechsel zu deaktivieren.
 
 ## Tastenkombinationen: ##
 
