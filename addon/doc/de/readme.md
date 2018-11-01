@@ -3,7 +3,7 @@
 * Autoren: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * [Stabile Version herunterladen][1]
-* [Testversion herunterladen][2]
+* [Entwicklungsversion herunterladen][2]
 
 Diese Erweiterung ersetzt Emoticons durch besser verständliche
 Beschreibungen.
