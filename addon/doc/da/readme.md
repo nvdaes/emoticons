@@ -89,9 +89,9 @@ Emoticons eller dialogen til styrelse af Emoticons-ordbøger.
 
 
 
-## Changes for 8.0 ##
+## ændringer i 8.0 ##
 
-* Compatible with NVDA 2018.3 or later (required).
+* Kompatibel med NVDA 2018.3 eller nyere (påkrævet).
 
 ## Ændringer i7.0 ##
 
