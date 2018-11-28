@@ -58,7 +58,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		if self.profileName is None:
 			self.dicFile = ADDON_DIC_DEFAULT_FILE
 		else:
-			self.dicFile = os.path.join(ADDON_DICTS_PATH, "profiles", "%s.dic" % self.profileName)
+			self.dicFile = os.path.join(ADDON_DICTS_PATH, "profiles", "%s.dic" % self.profileName.encode("mbcs"))
 		sD.load(self.dicFile)
 		if not os.path.isfile(self.dicFile):
 			sD.extend(defaultDic)
