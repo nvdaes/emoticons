@@ -59,6 +59,8 @@ These are the key commands available by default, you can edit those or add new k
 * NVDA+E: speaking emoticons on/off, toggles between speaking text as it is written, or with the emoticons replaced by the human description.
 * NVDA+I: show a dialog to select an emoticon you want to copy.
 
+Note: On Windows 10, it's also possible to use the built-in emoji panel. Focus any edit control, press Windows. period and use arrow and tab keys to type the desired emoji.
+
 ## Changes for 9.0 ##
 
 * Added the possibility of choosing if add-on emojis should be spoken.
