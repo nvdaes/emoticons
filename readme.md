@@ -62,6 +62,9 @@ These are the key commands available by default, you can edit those or add new k
 ## Changes for 9.0 ##
 
 * Added the possibility of choosing if add-on emojis should be spoken.
+* Used appropiate encoding for dictionary names, fixing errors when they contain certain characters.
+* The translated summary of the add-on is properly used for the title presented in add-on help, accessible from the add-on manager.
+* Added a note mentioning the emoji panel available on Windows 10.
 
 ## Changes for 8.0 ##
 

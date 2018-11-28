@@ -50,7 +50,7 @@ def loadDic():
 	if profileName is None:
 		dicFile = ADDON_DIC_DEFAULT_FILE
 	else:
-		dicFile = os.path.join(ADDON_DICTS_PATH, "profiles", "%s.dic" % profileName)
+		dicFile = os.path.join(ADDON_DICTS_PATH, "profiles", "%s.dic" % profileName.encode("mbcs"))
 	sD.load(dicFile)
 	if not os.path.isfile(dicFile):
 		if config.conf["emoticons"]["speakAddonEmojis"]:
