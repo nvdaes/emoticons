@@ -90,7 +90,9 @@ Emoticons ou o diálogo Dicionário de Emoticons:
   está escrito ou com os emoticons substituídos por descrições amigáveis.
 * NVDA+I: mostra um diálogo para selecionar um emoticon que queira copiar.
 
-
+Nota: No Windows 10, também é possível usar o painel de emojis
+integrado. Foque em qualquer controle de edição, pressione Windows. ponto e
+use as teclas de seta e tab para digitar o emoji desejado.
 
 ## Mudanças na 8.0 ##
 

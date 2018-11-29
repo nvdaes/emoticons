@@ -86,7 +86,9 @@ skrót służący do wywołania dialogu aktywacji lub słownika emotikonów:
   odczytywaniem tekstu z emotikonami zastąpionymi przez opisy.
 * NVDA+I: wyświetla okno dialogowe wyboru uśmieszku do skopiowania.
 
-
+Note: On Windows 10, it's also possible to use the built-in emoji
+panel. Focus any edit control, press Windows. period and use arrow and tab
+keys to type the desired emoji.
 
 ## Changes for 8.0 ##
 

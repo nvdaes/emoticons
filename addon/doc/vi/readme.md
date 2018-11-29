@@ -88,7 +88,9 @@ biểu tượng cảm xúc:
   đã được viết hay thay thế bằng biểu tượng cảm xúc.
 * NVDA+I: hiển thị hộp thoại  để chọn biểu tượng muốn sao chép.
 
-
+Lưu ý: trên Windows 10, cũng có thể dùng bản biểu tượng cảm xúc có sẵn. Đứng
+tại bất cứ ô nhập liệu nào, bấm Windows. dấu chấm rồi dùng các phím mũi tên
+và tab để nhập biểu tượng.
 
 ## Các thay đổi cho phiên bản 8.0 ##
 

@@ -92,7 +92,9 @@ new key to open Emoticons settings panel or Emoticon Dictionary dialog:
 * NVDA+I: visualizza una finestra di dialogo per selezionare un emoticon che
   si desidera copiare negli appunti.
 
-
+Note: On Windows 10, it's also possible to use the built-in emoji
+panel. Focus any edit control, press Windows. period and use arrow and tab
+keys to type the desired emoji.
 
 ## Changes for 8.0 ##
 
