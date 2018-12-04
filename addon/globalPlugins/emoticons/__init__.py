@@ -10,6 +10,7 @@ import shutil
 import api
 import speechDictHandler
 import ui
+import core
 import wx
 import gui
 import addonHandler
@@ -330,10 +331,10 @@ class InsertEmoticonDialog(wx.Dialog):
 			iconToInsert = icon.chars.decode("utf-8")
 		if api.copyToClip(iconToInsert):
 			# Translators: This is the message when smiley has been copied to the clipboard.
-			wx.CallLater(100, ui.message, _("Smiley copied to clipboard, ready for you to paste."))
+			core.callLater(100, ui.message, _("Smiley copied to clipboard, ready for you to paste."))
 		else:
 			# Translators: Message when the emoticon couldn't be copied.
-			wx.CallLater(100, ui.message, _("Cannot copy smiley."))
+			core.callLater(100, ui.message, _("Cannot copy smiley."))
 		self.Destroy()
 		InsertEmoticonDialog._instance = None
 
