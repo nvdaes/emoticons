@@ -96,9 +96,7 @@ Emoticons sau dialogul dicționarului de emoticoane:
 * NVDA+I: Arată un dialog pentru a selecta emoticonul pe care vreți să îl
   copiați.
 
-Note: On Windows 10, it's also possible to use the built-in emoji
-panel. Focus any edit control, press Windows. period and use arrow and tab
-keys to type the desired emoji.
+Note: On Windows 10, it's also possible to use the built-in emoji panel.
 
 ## Modificări aduse în 8.0 ##
 

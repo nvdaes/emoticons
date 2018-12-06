@@ -91,9 +91,7 @@ Diccionario de Emoticonos:
 * NVDA+I: muestra un cuadro de diálogo para seleccionar un emoticono que
   quieras pegar.
 
-Nota: en Windows 10, también es posible usar el panel de emojis
-incorporado. Enfoca cualquier control de edición, pulsa windows+punto y usa
-las teclas de tabulador y flechas para escribir el emoji deseado.
+Note: On Windows 10, it's also possible to use the built-in emoji panel.
 
 ## Cambios para 8.0 ##
 

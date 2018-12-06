@@ -96,10 +96,8 @@ dialogue Dictionnaire des frimousses :
 * NVDA+I : affiche un dialogue pour choisir la frimousse que vous souhaitez
   copier.
 
-Note: Sous Windows 10, il est également possible d'utiliser le panneau emoji
-intégré. Placez le focus dans n’importe quelle zone de texte, appuyez sur
-Windows. point et utilisez les flèches et la touche de tabulation pour taper
-l’emoji désiré.
+Note : Sous Windows 10, il est également possible d’utiliser le panneau
+emoji intégré.
 
 ## Changements pour la version 8.0 ##
 

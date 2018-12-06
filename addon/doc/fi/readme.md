@@ -83,9 +83,7 @@ Hymiöt-asetuspaneelin tai hymiösanastovalintaikkunan avaamiseen:
   hymiön.
 
 Huom: Windows 10:ssä on mahdollista käyttää myös sisäänrakennettua
-emojipaneelia. Siirrä kohdistus mihin tahansa muokkaussäätimeen, paina
-Win+piste ja käytä nuoli- sekä Sarkain-näppäimiä syöttääksesi halutun
-emojin.
+emojipaneelia.
 
 ## Muutokset versiossa 8.0 ##
 
