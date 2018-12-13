@@ -92,7 +92,7 @@ Diccionario de Emoticóns:
 * NVDA+I: amosa un cadro de diálogo para seleccionar un emoticón que queras
   pegar.
 
-Note: On Windows 10, it's also possible to use the built-in emoji panel.
+Nota: En Windows 10, tamén é posible utilizar o panel de emoji integrado.
 
 ## Cambios para 8.0 ##
 

@@ -91,7 +91,7 @@ diálogo do dicionário do Emoticon:
 * NVDA + I: mostra uma caixa de diálogo para seleccionar um emoticon que
   deseja copiar.
 
-Note: On Windows 10, it's also possible to use the built-in emoji panel.
+Nota: No Windows 10, também é possível usar o painel de emojis nativo.
 
 ## Alterações para 8.0 ##
 
