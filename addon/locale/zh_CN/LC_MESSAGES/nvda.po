@@ -67,6 +67,10 @@ msgstr "显示一个词典对话框来自定义表情"
 msgid "Emoticons dictionary (%s)"
 msgstr "表情字典 (%s)"
 
+#. Translators: Message presented in input help mode.
+msgid "Toggles on and off the announcement of emoticons."
+msgstr "在表情朗读的开关之间切换。"
+
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
 msgstr "表情朗读关闭。"
@@ -74,10 +78,6 @@ msgstr "表情朗读关闭。"
 #. Translators: message presented when the dictionary for emoticons is loaded.
 msgid "Emoticons on."
 msgstr "表情朗读开启。"
-
-#. Translators: Message presented in input help mode.
-msgid "Toggles on and off the announcement of emoticons."
-msgstr "在表情朗读的开关之间切换。"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
@@ -153,11 +153,15 @@ msgstr "重置(&T)"
 msgid "Save and e&xport dictionary"
 msgstr "保存并输出到词典(&X)"
 
-#. Translators: The label for a setting in Activate emoticons dialog.
+#. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"
 msgstr "&打开或关闭朗读表情符号："
 
-#. Translators: The label for a setting in Activate emoticons dialog.
+#. Translators: The label for a setting in Emoticons panel.
+msgid "Speak add-on emojis"
+msgstr ""
+
+#. Translators: The label for a setting in Emoticons panel.
 msgid "&Remove not used dictionaries"
 msgstr "&删除未使用的词典"
 

@@ -71,6 +71,10 @@ msgstr ""
 msgid "Emoticons dictionary (%s)"
 msgstr "Dictionnaire des frimousses (%s)"
 
+#. Translators: Message presented in input help mode.
+msgid "Toggles on and off the announcement of emoticons."
+msgstr "Activer ou désactiver l'annonce des frimousses."
+
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
 msgstr "Frimousses désactivées."
@@ -78,10 +82,6 @@ msgstr "Frimousses désactivées."
 #. Translators: message presented when the dictionary for emoticons is loaded.
 msgid "Emoticons on."
 msgstr "Frimousses activées."
-
-#. Translators: Message presented in input help mode.
-msgid "Toggles on and off the announcement of emoticons."
-msgstr "Activer ou désactiver l'annonce des frimousses."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
@@ -160,11 +160,15 @@ msgstr "Réi&nitialiser"
 msgid "Save and e&xport dictionary"
 msgstr "Enregistrer et e&xporter le dictionnaire"
 
-#. Translators: The label for a setting in Activate emoticons dialog.
+#. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"
 msgstr "&Activer l'annonce des frimousses:"
 
-#. Translators: The label for a setting in Activate emoticons dialog.
+#. Translators: The label for a setting in Emoticons panel.
+msgid "Speak add-on emojis"
+msgstr ""
+
+#. Translators: The label for a setting in Emoticons panel.
 msgid "&Remove not used dictionaries"
 msgstr "&Supprimer les dictionnaires non utilisés"
 

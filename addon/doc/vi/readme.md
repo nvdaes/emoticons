@@ -1,7 +1,8 @@
-# Emoticons #
+# Các biểu tượng cảm xúc #
 
 * Tác giả: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
+* NVDA tương thích: 2018.3 đến 2019.1
 * Tải về [phiên bản chính thức][1]
 * Tải về [phiên bản thử nghiệm][2]
 

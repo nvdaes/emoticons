@@ -71,6 +71,10 @@ msgstr "Viser en ordbogsdialog til tilpasning af humørikoner"
 msgid "Emoticons dictionary (%s)"
 msgstr "Humørikoner-ordbog (%s)"
 
+#. Translators: Message presented in input help mode.
+msgid "Toggles on and off the announcement of emoticons."
+msgstr "Slår annoncering af humørikoner til og fra"
+
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
 msgstr "Humørikoner fra"
@@ -78,10 +82,6 @@ msgstr "Humørikoner fra"
 #. Translators: message presented when the dictionary for emoticons is loaded.
 msgid "Emoticons on."
 msgstr "Humørikoner til"
-
-#. Translators: Message presented in input help mode.
-msgid "Toggles on and off the announcement of emoticons."
-msgstr "Slår annoncering af humørikoner til og fra"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
@@ -157,11 +157,15 @@ msgstr "Nuls&til"
 msgid "Save and e&xport dictionary"
 msgstr "Gem og eksporter ordbog"
 
-#. Translators: The label for a setting in Activate emoticons dialog.
+#. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"
 msgstr "&Aktiver udtale af humørikoner"
 
-#. Translators: The label for a setting in Activate emoticons dialog.
+#. Translators: The label for a setting in Emoticons panel.
+msgid "Speak add-on emojis"
+msgstr ""
+
+#. Translators: The label for a setting in Emoticons panel.
 msgid "&Remove not used dictionaries"
 msgstr "&Fjern ubenyttede ordbøger"
 

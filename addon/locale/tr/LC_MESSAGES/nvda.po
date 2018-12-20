@@ -72,6 +72,11 @@ msgstr "Ifade özelleştirmeniz için bir sözlük iletişim kutusu gösterir"
 msgid "Emoticons dictionary (%s)"
 msgstr "İfadeler sözlüğü (%s)"
 
+#. Translators: Message presented in input help mode.
+msgid "Toggles on and off the announcement of emoticons."
+msgstr ""
+"İfadelerin konuşma sözlüğü kullanılarak okunmasıyla ilgili ayarı açıp kapatır"
+
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
 msgstr "İfadeler kapalı."
@@ -79,11 +84,6 @@ msgstr "İfadeler kapalı."
 #. Translators: message presented when the dictionary for emoticons is loaded.
 msgid "Emoticons on."
 msgstr "İfadeler açık."
-
-#. Translators: Message presented in input help mode.
-msgid "Toggles on and off the announcement of emoticons."
-msgstr ""
-"İfadelerin konuşma sözlüğü kullanılarak okunmasıyla ilgili ayarı açıp kapatır"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
@@ -159,11 +159,15 @@ msgstr "Sı&fırla"
 msgid "Save and e&xport dictionary"
 msgstr "S&özlüğü kaydet ve dışa aktar"
 
-#. Translators: The label for a setting in Activate emoticons dialog.
+#. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"
 msgstr "İfadelerin seslendirilmesini &etkinleştir:"
 
-#. Translators: The label for a setting in Activate emoticons dialog.
+#. Translators: The label for a setting in Emoticons panel.
+msgid "Speak add-on emojis"
+msgstr ""
+
+#. Translators: The label for a setting in Emoticons panel.
 msgid "&Remove not used dictionaries"
 msgstr "Kullanılmayan sözlükle&ri sil"
 

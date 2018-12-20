@@ -71,6 +71,10 @@ msgstr "Näyttää sanastovalintaikkunan hymiöiden mukauttamiseksi."
 msgid "Emoticons dictionary (%s)"
 msgstr "Hymiösanasto (%s)"
 
+#. Translators: Message presented in input help mode.
+msgid "Toggles on and off the announcement of emoticons."
+msgstr "Ottaa käyttöön hymiöiden puhumisen tai poistaa sen käytöstä."
+
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
 msgstr "Hymiöt pois."
@@ -78,10 +82,6 @@ msgstr "Hymiöt pois."
 #. Translators: message presented when the dictionary for emoticons is loaded.
 msgid "Emoticons on."
 msgstr "Hymiöt käytössä."
-
-#. Translators: Message presented in input help mode.
-msgid "Toggles on and off the announcement of emoticons."
-msgstr "Ottaa käyttöön hymiöiden puhumisen tai poistaa sen käytöstä."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
@@ -157,11 +157,15 @@ msgstr "P&alauta oletukset"
 msgid "Save and e&xport dictionary"
 msgstr "Tallenna ja v&ie sanasto"
 
-#. Translators: The label for a setting in Activate emoticons dialog.
+#. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"
 msgstr "&Ota hymiöiden puhuminen käyttöön:"
 
-#. Translators: The label for a setting in Activate emoticons dialog.
+#. Translators: The label for a setting in Emoticons panel.
+msgid "Speak add-on emojis"
+msgstr ""
+
+#. Translators: The label for a setting in Emoticons panel.
 msgid "&Remove not used dictionaries"
 msgstr "&Poista käyttämättömät sanastot"
 

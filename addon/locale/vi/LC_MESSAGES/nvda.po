@@ -70,6 +70,10 @@ msgstr "Hiển thị hộp thoại từ điển để tùy chỉnh biểu tượ
 msgid "Emoticons dictionary (%s)"
 msgstr "Từ điển biểu tượng cảm xúc (%s)"
 
+#. Translators: Message presented in input help mode.
+msgid "Toggles on and off the announcement of emoticons."
+msgstr "Bật và tắt thông báo của các biểu tượng cảm xúc."
+
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
 msgstr "Tắt đọc biểu tượng cảm xúc."
@@ -77,10 +81,6 @@ msgstr "Tắt đọc biểu tượng cảm xúc."
 #. Translators: message presented when the dictionary for emoticons is loaded.
 msgid "Emoticons on."
 msgstr "Bật đọc biểu tượng cảm xúc."
-
-#. Translators: Message presented in input help mode.
-msgid "Toggles on and off the announcement of emoticons."
-msgstr "Bật và tắt thông báo của các biểu tượng cảm xúc."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
@@ -156,11 +156,15 @@ msgstr "Thiết lập &lại"
 msgid "Save and e&xport dictionary"
 msgstr "Lưu và &xuất từ điển"
 
-#. Translators: The label for a setting in Activate emoticons dialog.
+#. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"
 msgstr "&Kích hoạt chế độ nói các biểu tượng cảm xúc:"
 
-#. Translators: The label for a setting in Activate emoticons dialog.
+#. Translators: The label for a setting in Emoticons panel.
+msgid "Speak add-on emojis"
+msgstr ""
+
+#. Translators: The label for a setting in Emoticons panel.
 msgid "&Remove not used dictionaries"
 msgstr "&Xóa các từ điển không dùng đến"
 

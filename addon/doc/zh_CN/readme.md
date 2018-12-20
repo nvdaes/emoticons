@@ -2,6 +2,7 @@
 
 * 作者：Chris Leo，NoeliaRuizMartínez，Mesar Hameed，Francisco
   JavierEstradaMartínez
+* NVDA兼容版本: 2018.3至2019.1
 * 下载[稳定版][1]
 * 下载[开发版][2]
 

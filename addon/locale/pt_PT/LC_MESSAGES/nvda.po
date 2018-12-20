@@ -71,6 +71,10 @@ msgstr "Mostra um diálogo de dicionário para personalizar os Emoticons"
 msgid "Emoticons dictionary (%s)"
 msgstr "Dicionário de Emoticons (%s)"
 
+#. Translators: Message presented in input help mode.
+msgid "Toggles on and off the announcement of emoticons."
+msgstr "Activa ou desactiva o anúncio de Emoticons"
+
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
 msgstr "Emoticons desactivados"
@@ -78,10 +82,6 @@ msgstr "Emoticons desactivados"
 #. Translators: message presented when the dictionary for emoticons is loaded.
 msgid "Emoticons on."
 msgstr "Emoticons activados"
-
-#. Translators: Message presented in input help mode.
-msgid "Toggles on and off the announcement of emoticons."
-msgstr "Activa ou desactiva o anúncio de Emoticons"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
@@ -157,11 +157,15 @@ msgstr "Res&taurar"
 msgid "Save and e&xport dictionary"
 msgstr "Guardar e exportar o dicionário;"
 
-#. Translators: The label for a setting in Activate emoticons dialog.
+#. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"
 msgstr "&Activar a verbalização de Emoticons."
 
-#. Translators: The label for a setting in Activate emoticons dialog.
+#. Translators: The label for a setting in Emoticons panel.
+msgid "Speak add-on emojis"
+msgstr ""
+
+#. Translators: The label for a setting in Emoticons panel.
 msgid "&Remove not used dictionaries"
 msgstr "&Remover dicionários não utilizados"
 

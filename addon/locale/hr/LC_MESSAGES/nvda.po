@@ -73,6 +73,10 @@ msgstr "Prikazuje dijaloški okvir riječnika za prilagodbu emotikona"
 msgid "Emoticons dictionary (%s)"
 msgstr "Riječnik emotikona"
 
+#. Translators: Message presented in input help mode.
+msgid "Toggles on and off the announcement of emoticons."
+msgstr "Naizmjence uključuje i isključuje najavu emotikona."
+
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
 msgstr "Emotikoni su isključeni."
@@ -80,10 +84,6 @@ msgstr "Emotikoni su isključeni."
 #. Translators: message presented when the dictionary for emoticons is loaded.
 msgid "Emoticons on."
 msgstr "Emotikoni su uključeni."
-
-#. Translators: Message presented in input help mode.
-msgid "Toggles on and off the announcement of emoticons."
-msgstr "Naizmjence uključuje i isključuje najavu emotikona."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
@@ -160,12 +160,16 @@ msgstr "Rese&tiraj"
 msgid "Save and e&xport dictionary"
 msgstr "Spremiti i I&zvesti rječnik"
 
-#. Translators: The label for a setting in Activate emoticons dialog.
+#. Translators: The label for a setting in Emoticons panel.
 #, fuzzy
 msgid "&Activate speaking of emoticons:"
 msgstr "&Aktivirati izgovaranje emotikona pri pokretanju:"
 
-#. Translators: The label for a setting in Activate emoticons dialog.
+#. Translators: The label for a setting in Emoticons panel.
+msgid "Speak add-on emojis"
+msgstr ""
+
+#. Translators: The label for a setting in Emoticons panel.
 msgid "&Remove not used dictionaries"
 msgstr ""
 

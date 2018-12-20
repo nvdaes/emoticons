@@ -69,6 +69,10 @@ msgstr "Извежда диалог на речника за персонали�
 msgid "Emoticons dictionary (%s)"
 msgstr "Речник на емотиконите (%s)"
 
+#. Translators: Message presented in input help mode.
+msgid "Toggles on and off the announcement of emoticons."
+msgstr "Превключва прочитането на емотиконите."
+
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
 msgstr "Прочитането на емотикони е изключено."
@@ -76,10 +80,6 @@ msgstr "Прочитането на емотикони е изключено."
 #. Translators: message presented when the dictionary for emoticons is loaded.
 msgid "Emoticons on."
 msgstr "Прочитането на емотикони е включено."
-
-#. Translators: Message presented in input help mode.
-msgid "Toggles on and off the announcement of emoticons."
-msgstr "Превключва прочитането на емотиконите."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
@@ -155,11 +155,15 @@ msgstr "За&нули"
 msgid "Save and e&xport dictionary"
 msgstr "Запиши и е&кспортирай речника"
 
-#. Translators: The label for a setting in Activate emoticons dialog.
+#. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"
 msgstr "&Задействай прочитането на емотиконите:"
 
-#. Translators: The label for a setting in Activate emoticons dialog.
+#. Translators: The label for a setting in Emoticons panel.
+msgid "Speak add-on emojis"
+msgstr ""
+
+#. Translators: The label for a setting in Emoticons panel.
 msgid "&Remove not used dictionaries"
 msgstr "&Премахвай неизползваните речници"
 
