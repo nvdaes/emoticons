@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 5.2\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2017-02-03 05:00+1000\n"
-"PO-Revision-Date: 2018-07-29 22:46+0700\n"
-"Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
+"PO-Revision-Date: 2018-12-21 09:45+0700\n"
+"Last-Translator: Dang Manh Cuong <dangmanhcuong@gmail.com>\n"
 "Language-Team: Sao Mai <info@saomaicenter.org>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -162,7 +162,7 @@ msgstr "&Kích hoạt chế độ nói các biểu tượng cảm xúc:"
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "Speak add-on emojis"
-msgstr ""
+msgstr "Đọc add-on emojis"
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Remove not used dictionaries"

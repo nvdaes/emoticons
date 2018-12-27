@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: emoticons 7.0\n"
+"Project-Id-Version: emoticons 8.0\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: 2017-12-07 11:22+0100\n"
-"PO-Revision-Date: 2018-06-15 17:53+0200\n"
+"PO-Revision-Date: 2018-12-20 22:03+0100\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language: fr_FR\n"
@@ -166,7 +166,7 @@ msgstr "&Activer l'annonce des frimousses:"
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "Speak add-on emojis"
-msgstr ""
+msgstr "Verbaliser emojis du module complémentaire"
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Remove not used dictionaries"
