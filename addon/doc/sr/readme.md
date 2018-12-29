@@ -85,7 +85,7 @@ new key to open Emoticons settings panel or Emoticon Dictionary dialog:
 * NVDA+I: otvara prozor za izbor emotikona za kopiranje u privremenu
   memoriju
 
-
+Note: On Windows 10, it's also possible to use the built-in emoji panel.
 
 ## Changes for 8.0 ##
 

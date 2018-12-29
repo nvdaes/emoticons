@@ -87,7 +87,7 @@ new key to open Emoticons settings panel or Emoticon Dictionary dialog:
   текст, как написано, или с заменённым дружественным описанием смайликов.
 * NVDA+I: показать диалог выбора смайлика, который вы хотите скопировать.
 
-
+Note: On Windows 10, it's also possible to use the built-in emoji panel.
 
 ## Changes for 8.0 ##
 

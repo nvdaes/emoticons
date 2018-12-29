@@ -96,7 +96,7 @@ Emoticons sau dialogul dicționarului de emoticoane:
 * NVDA+I: Arată un dialog pentru a selecta emoticonul pe care vreți să îl
   copiați.
 
-
+Notă: În Windows 10, este posibil să folosiți și panoul de emoji.
 
 ## Modificări aduse în 8.0 ##
 

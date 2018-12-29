@@ -26,7 +26,7 @@ auswählen und es in Ihren Text einfügen.
 Drücken Sie NVDA+I oder aus dem Menü "Extras" -> "Emoticon einfügen", um einen Dialog mit den bereitgestellten Emoticons oder Emoji zu öffnen.
 
 Dieser Dialog zeigt Ihnen eine Liste aller Emoticons an. Dort könnenSie ein
-Emoticon auswählen und seine zugehörige Beschreibung lesen.
+Emoticon auswählen und seine zugehörige Beschreibung lesen:
 
 *	Ein Eingabefeld ermöglicht es Ihnen, die Suche nach dem gewünschten
   Emoticon unter den verfügbaren Emoticons zu filtern.
@@ -89,7 +89,8 @@ oder den Emoticon-Wörterbuch-Dialog zu öffnen:
 * NVDA+I: Zeigt ein Dialogfeld an, aus dem Sie ein Emoticon zum Einfügen
   auswählen können.
 
-
+Hinweis: Unter Windows 10 ist es auch möglich, das integrierte Emoji-Panel
+zu verwenden.
 
 ## Änderungen für 8.0 ##
 
@@ -152,7 +153,7 @@ oder den Emoticon-Wörterbuch-Dialog zu öffnen:
 
 ## Änderungen in 1.0 ##
 
-* Ehrstveröffentlichung
+* Ehrstveröffentlichung.
 
 [[!tag dev stable]]
 

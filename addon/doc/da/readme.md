@@ -87,11 +87,11 @@ Emoticons eller dialogen til styrelse af Emoticons-ordbøger.
   humørikonerne erstattet med den brugervenlige beskrivelse.
 * NVDA+i: Viser en dialog, hvor du kan vælge et humørikon, du vil kopiere.
 
+Note: On Windows 10, it's also possible to use the built-in emoji panel.
 
+## ændringer i 8.0 ##
 
-## Changes for 8.0 ##
-
-* Compatible with NVDA 2018.3 or later (required).
+* Kompatibel med NVDA 2018.3 eller nyere (påkrævet).
 
 ## Ændringer i7.0 ##
 

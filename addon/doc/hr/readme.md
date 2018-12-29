@@ -83,7 +83,7 @@ new key to open Emoticons settings panel or Emoticon Dictionary dialog:
   written, or with the emoticons replaced by the human description.
 * NVDA+I: show a dialog to select an emoticon you want to copy.
 
-
+Note: On Windows 10, it's also possible to use the built-in emoji panel.
 
 ## Changes for 8.0 ##
 

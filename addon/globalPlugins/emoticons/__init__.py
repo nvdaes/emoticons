@@ -10,6 +10,7 @@ import shutil
 import api
 import speechDictHandler
 import ui
+import core
 import wx
 import gui
 import addonHandler
@@ -34,13 +35,29 @@ except NameError:
 
 confspec = {
 	"announcement": "integer(default=0)",
+	"speakAddonEmojis": "boolean(default=False)",
 	"cleanDicts": "boolean(default=False)",
 }
 
 config.conf.spec["emoticons"] = confspec
 
 defaultDic = speechDictHandler.SpeechDict()
+noEmojisDic = speechDictHandler.SpeechDict()
 sD = speechDictHandler.SpeechDict()
+
+profileName = oldProfileName = None
+
+def loadDic():
+	if profileName is None:
+		dicFile = ADDON_DIC_DEFAULT_FILE
+	else:
+		dicFile = os.path.join(ADDON_DICTS_PATH, "profiles", "%s.dic" % profileName.encode("mbcs"))
+	sD.load(dicFile)
+	if not os.path.isfile(dicFile):
+		if config.conf["emoticons"]["speakAddonEmojis"]:
+			sD.extend(defaultDic)
+		else:
+			sD.extend(noEmojisDic)
 
 def activateAnnouncement():
 	speechDictHandler.dictionaries["temp"].extend(sD)
@@ -58,20 +75,21 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		if self.profileName is None:
 			self.dicFile = ADDON_DIC_DEFAULT_FILE
 		else:
-			self.dicFile = os.path.join(ADDON_DICTS_PATH, "profiles", "%s.dic" % self.profileName)
+			self.dicFile = os.path.join(ADDON_DICTS_PATH, "profiles", "%s.dic" % self.profileName.encode("mbcs"))
 		sD.load(self.dicFile)
 		if not os.path.isfile(self.dicFile):
 			sD.extend(defaultDic)
 
 	def handleConfigProfileSwitch(self):
-		self.profileName = config.conf.profiles[-1].name
-		if self.profileName == self.oldProfileName:
+		global profileName, oldProfileName
+		profileName = config.conf.profiles[-1].name
+		if profileName == oldProfileName:
 			return
 		deactivateAnnouncement()
-		self.loadDic()
+		loadDic()
 		if config.conf["emoticons"]["announcement"]:
 			activateAnnouncement()
-		self.oldProfileName = self.profileName
+		oldProfileName = profileName
 
 	def __init__(self):
 		super(GlobalPlugin, self).__init__()
@@ -86,8 +104,11 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			otherReplacement = " %s; " % em.name
 			# Case and reg are always True
 			defaultDic.append(speechDictHandler.SpeechDictEntry(em.pattern, otherReplacement, comment, True, speechDictHandler.ENTRY_TYPE_REGEXP))
-		self.profileName = self.oldProfileName = config.conf.profiles[-1].name
-		self.loadDic()
+			if not em.isEmoji:
+				noEmojisDic.append(speechDictHandler.SpeechDictEntry(em.pattern, otherReplacement, comment, True, speechDictHandler.ENTRY_TYPE_REGEXP))
+		global profileName, oldProfileName
+		profileName = oldProfileName = config.conf.profiles[-1].name
+		loadDic()
 
 		# Gui
 		self.toolsMenu = gui.mainFrame.sysTrayIcon.toolsMenu
@@ -121,7 +142,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			pass
 		deactivateAnnouncement()
 		config.post_configProfileSwitch.unregister(self.handleConfigProfileSwitch)
-		self.profileName = self.oldProfileName = None
+		global profileName, oldProfileName
+		profileName = oldProfileName = None
 		if config.conf["emoticons"]["cleanDicts"]:
 			profileNames = config.conf.listProfiles()
 			for (root, dirs, files) in os.walk(os.path.join(ADDON_DICTS_PATH, "profiles")):
@@ -138,7 +160,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def onEmDicDialog(self, evt):
 		# Adapted from NVDA's core.
-		disp = self.profileName if self.profileName and not config.conf["emoticons"]["onlyNormalConfiguration"] else translate("(normal configuration)")
+		disp = profileName if profileName else translate("(normal configuration)")
 		deactivateAnnouncement()
 		gui.mainFrame._popupSettingsDialog(EmDicDialog,_("Emoticons dictionary (%s)" % disp), sD)
 
@@ -330,10 +352,10 @@ class InsertEmoticonDialog(wx.Dialog):
 			iconToInsert = icon.chars.decode("utf-8")
 		if api.copyToClip(iconToInsert):
 			# Translators: This is the message when smiley has been copied to the clipboard.
-			wx.CallLater(100, ui.message, _("Smiley copied to clipboard, ready for you to paste."))
+			core.callLater(100, ui.message, _("Smiley copied to clipboard, ready for you to paste."))
 		else:
 			# Translators: Message when the emoticon couldn't be copied.
-			wx.CallLater(100, ui.message, _("Cannot copy smiley."))
+			core.callLater(100, ui.message, _("Cannot copy smiley."))
 		self.Destroy()
 		InsertEmoticonDialog._instance = None
 
@@ -379,8 +401,13 @@ class EmDicDialog(DictionaryDialog):
 	def OnResetClick(self, evt):
 		self.dictList.DeleteAllItems()
 		self.tempSpeechDict = []
-		self.tempSpeechDict.extend(defaultDic)
-		for entry in defaultDic:
+		self.dic = speechDictHandler.SpeechDict()
+		if config.conf["emoticons"]["speakAddonEmojis"]:
+			self.dic = defaultDic
+		else:
+			self.dic = noEmojisDic
+		self.tempSpeechDict.extend(self.dic)
+		for entry in self.dic:
 			self.dictList.Append((entry.comment,entry.pattern,entry.replacement,True,speechDictHandler.ENTRY_TYPE_REGEXP))
 		self.dictList.SetFocus()
 
@@ -418,13 +445,23 @@ class AddonSettingsPanel(SettingsPanel):
 		self.activateList = sHelper.addLabeledControl(activateLabel, wx.Choice, choices=self.activateChoices)
 		self.activateList.Selection = config.conf["emoticons"]["announcement"]
 		# Translators: The label for a setting in Emoticons panel.
+		self.emojiCheckBox = sHelper.addItem(wx.CheckBox(self, label=_("Speak add-on emojis")))
+		self.emojiCheckBox.Value = config.conf["emoticons"]["speakAddonEmojis"]
+		# Translators: The label for a setting in Emoticons panel.
 		self.removeCheckBox = sHelper.addItem(wx.CheckBox(self, label=_("&Remove not used dictionaries")))
 		self.removeCheckBox.Value = config.conf["emoticons"]["cleanDicts"]
 
 	def onSave(self):
 		announcement = config.conf["emoticons"]["announcement"]
 		config.conf["emoticons"]["announcement"] = self.activateList.GetSelection()
-		if config.conf["emoticons"]["announcement"] and not announcement:
+		speakAddonEmojis = config.conf["emoticons"]["speakAddonEmojis"]
+		config.conf["emoticons"]["speakAddonEmojis"] = self.emojiCheckBox.Value
+		if config.conf["emoticons"]["speakAddonEmojis"] != speakAddonEmojis:
+			deactivateAnnouncement()
+			loadDic()
+			if config.conf["emoticons"]["announcement"]:
+				activateAnnouncement()
+		elif config.conf["emoticons"]["announcement"] and not announcement:
 			activateAnnouncement()
 		elif not config.conf["emoticons"]["announcement"] and announcement:
 			deactivateAnnouncement()

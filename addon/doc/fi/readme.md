@@ -82,7 +82,8 @@ Hymiöt-asetuspaneelin tai hymiösanastovalintaikkunan avaamiseen:
 * NVDA+I: näyttää valintaikkunan, josta voit valita tekstiin lisättävän
   hymiön.
 
-
+Huom: Windows 10:ssä on mahdollista käyttää myös sisäänrakennettua
+emojipaneelia.
 
 ## Muutokset versiossa 8.0 ##
 
