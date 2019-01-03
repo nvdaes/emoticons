@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 8.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2014-04-11 05:05+0100\n"
-"PO-Revision-Date: 2018-12-21 04:16+0800\n"
+"PO-Revision-Date: 2019-01-02 10:58+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid ""
 "You have installed the Emoticons add-on, probably an old and incompatible "
 "version with this one. Do you want to uninstall the old version?"
-msgstr "您已经安装了“表情”的不兼容的旧版本，您希望卸载此旧版本吗？"
+msgstr "您已经安装了“表情插件”的不兼容的旧版本，您希望卸载此旧版本吗？"
 
 #. Translators: the title of a message box dialog.
 msgid "Uninstall incompatible add-on"
@@ -159,7 +159,7 @@ msgstr "&打开或关闭朗读表情符号："
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "Speak add-on emojis"
-msgstr "读出插件表情符号"
+msgstr "在朗读前提示为“表情”"
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Remove not used dictionaries"
