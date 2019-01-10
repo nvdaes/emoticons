@@ -2,9 +2,9 @@
 
 * Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* NVDA compatibility: 2018.3 to 2019.1
-* Download [versione stabile][1]
-* Download [versione in sviluppo][2]
+* Compatibilità con NVDA: dalla 2018.3 alla 2019.1
+* Scarica la [versione stabile][1]
+* Scarica la[versione in sviluppo][2]
 
 L'utilizzo di questo componente aggiuntivo consente di leggere la
 descrizione degli emoticons quando si incontrano caratteri che rappresentano
@@ -25,19 +25,16 @@ aggiuntivo ti da la possibilità di riconoscere e sceglierne uno e copiarlo
 negli appunti per poi inserirlo in campi di editazione, come per esempio in
 una chat.
 
-Press NVDA+I, or from menu Tools -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
+Con la combinazione di tasti NVDA+I, o dal menu Strumenti->  Inserisci emoticon, è possibile aprire una finestra di dialogo con le emoticon o emoji.
 
 Questa finestra di dialogo consente di scegliere un emoticon e visualizzare
 le emoticon che ti interessano:
 
 *	Un campo modificabile permette di filtrare la ricerca per l'emoticon
   desiderato tra le emoticon disponibili. 
-*	*	Attraverso dei pulsanti radio è possibile scegliere di visualizzare solo
-  la categoria emoji (alt+E) o visualizzare solo gli emoticon standard
-  (alt+s) oppure visualizzare tutti gli emoticon disponibili (alt+A).
-  *	Nell'elenco degli emoticons (alt+E) vengono visualizzati
-  rispettivamente: il nome dell'emoticon, il tipo di emoticon (emoticon
-  standard o emoji), ed il corrispondente carattere.
+*	Tramite dei pulsanti radio è possibile scegliere di visualizzare solo la
+  categoria emoji (alt+E) o visualizzare solo gli emoticon standard (alt+s)
+  oppure visualizzare tutti gli emoticon disponibili (alt+A).
 *	Nella lista di emoticon (alt+L), vi sono presenti tre colonne,
   rispettivamente: il nome dell'emoticon, il tipo di emoticon (standard
   emoticon o emoji), il carattere corrispondente. 
@@ -45,82 +42,83 @@ le emoticon che ti interessano:
 Quando si preme OK, il carattere dell'emoticon scelto verrà copiato negli
 appunti, pronto per essere incollato.
 
-## Emoticons dictionary ##
+## Dizionario Emoticons ##
 
 Il componente aggiuntivo Emoticons permette di avere più dizionari
 servendosi dei profili di configurazione.
 
-This means that you can create or edit a specific speech-dictionary for each
-your custom profile.
+Ciò significa che   è possibile creare o modificare un dizionario di voce
+per ogni profilo personale.
 
-From NVDA MENU, Preferences -> Speech dictionaries -> Emoticons dictionary, you can open a dialog to add or to edit available emoticons.
+Dal menu di NVDA, Preferenze -> Dizionario Emoticons, è possibile aprire una finestra di dialogo per aggiungere o modificare gli emoticon disponibili.
 
-Saving your customizations, the new reading settings of emoticons will only
-apply to the profile you are currently editing.
+Quando si salva la configurazione, le nuove impostazioni di lettura si
+applicano solo al profilo personale in uso.
 
-For example, you may wish that NVDA spoken custom emoticons only in XxChat
-program, but not in other chat programs: you can do this by creating a
-profile for the XxChat application and assign to it a speech dictionary from
-Speech dictionaries menu, Emoticons dictionary option. See below for
-Emoticons settings in relation to the configuration profiles.
+Per esempio, se si preferisce che NVDA legga le classiche emoticons solo in
+uno specifico programma di chat, ma non in altre applicazioni di chat, si
+può creare un profilo personale per lo specifico programma ed assegnargli
+un dizionario di voce dal menu Dizionari, Dizionario Emoticons. Vedi di
+seguito per le impostazioni in relazione alla configurazione  di un profilo
+personale.
 
-You can also export each custom speech-dictionary pressing "Save and export
-dictionary" button: in this way your speech-dictionaries will be saved in
-your user config folder, speechDicts/emoticons subfolder.
+Con il pulsante "Salva ed esporta dizionario" è possibile salvare il
+dizionario chiamato emoticons.dic nella cartella di configurazione personale
+speechDicts.
 
-The exact name and location of the dictionary file will be based on the
-editing configuration profile, which will be shown in the title of the
-Emoticons dictionary dialog.
+Il nome ed il percorso del dizionario deriva dal nome dell'attuale profilo
+in fase di modifica, questo verrà indicato nel titolo della finestra del
+dizionario.
 
-## Emoticons settings ##
+## Impostazioni Emoticons ##
 
-From menu Preferences -> Settings -> Emoticons opens a panel to configure the activation of your speech-dictionaries for each profile.
+Dal menu preferenze > Impostazioni, è possibile visualizzare le impostazioni Emoticons e scegliere se Attivare la lettura di emoticon per ogni profilo. Di default è disattivato.
 
-In Emoticons settings panel you can choose whether or not speech-dictionary should automatically activate when  NVDA switches to the   profile you are currently editing. By default it is disabled in normal configuration of NVDA and in all your new profiles.
+Nel pannello impostazioni Emoticons è possibile scegliere se attivare o meno il dizionario per il profilo in fase di modifica. Di default è disattivato sia per la configurazione normale che per tutti i nuovi profili.
 
-If you may wish to keep clean your configuration folders, in this dialog it
-is also possible to choose if dictionaries not used (associated with non
-existing profiles) will be removed from the add-on when it is unloaded.
+Se si preferisce tenere  pulita la cartella di configurazione, è possibile
+rimuovere i dizionari non utilizzati (quelli associati ad un profilo
+eliminato) e che non vengono caricati.
 
 
 ## Comandi rapidi: ##
 
-These are the key commands available by default, you can edit those or add
-new key to open Emoticons settings panel or Emoticon Dictionary dialog:
+Di seguito i comandi rapidi disponibili di default: E' possibile modificarli
+o aggiungerne di nuovi per aprire le impostazioni o la finestra Dizionario
+Emoticons:
 
-* NVDA+E: speaking emoticons on/off, toggles between speaking text as it is
-  written, or with the emoticons replaced by the human description.
+* NVDA+E: Attiva o disattiva la lettura degli emoticon.
 * NVDA+I: visualizza una finestra di dialogo per selezionare un emoticon che
   si desidera copiare negli appunti.
 
-Note: On Windows 10, it's also possible to use the built-in emoji panel.
+Nota: In Windows 10 è possibile utilizzare la finestra per inserire emoji. 
 
 ## Changes for 8.0 ##
 
-* Compatible with NVDA 2018.3 or later (required).
+* Compatibile con NVDA 2018.3 o superiori.
 
 ## Changes for 7.0 ##
 
-* The Activation settings dialog has been moved to a panel in NVDA settings,
-  so that the current profile will be shown in the title of the NVDA
-  settings dialog.
-* The Manage Emoticons menu has been removed: now Insert emoticon will be
-  found under the Tools menu, and Customize Emoticons will be shown under
-  Speech dictionaries like Emoticons dictionary.
-* Requires NVDA 2018.2 or later.
-* If needed, you can download the [last version compatible with NVDA
+* La finestra per impostare l'ttivazione è stato spostato nel pannello delle
+  impostazioni di NVDA, in modo che il profilo corrente verrà visualizzato
+  nel titolo della finestra di dialogo.
+* IL menu emoticons è stato rimosso, la voce Inserisci Emoticons è stata
+  spostata nel menu Strumenti e la finestra per creare un dizionario nel
+  menu Personalizza,Dizionari,Dizionario Emoticons.
+* Richiesto NVDA 2018.2 o superiore.
+* Se è necessario è possibile scaricare la [versione compatibile con NVDA
   2017.3][3].
 
 ## Novità nella versione 6.0 ##
 
 * Aggiunto il supporto per i profili di configurazione.
-* In NVDA 2017.4 or later, the configuration settings and custom
-  dictionaries will change automatically according with the selected
-  profiles. In 2017.3 or earlier, you can apply changes by reloading plugins
-  (pressing control+NVDA+f3).
-* If you choose to import settings when updating the add-on, deprecated
-  files (emoticons.ini and emoticons.dic) will be removed or adapted to this
-  version.
+* In NVDA 2017.4 o superiori, le impostazioni ed i dizionari personali
+  cambiano automaticamente rispetto al profilo in uso. Nella versione 2017.3
+  o precedenti per aplicare la configurazione è necessario ricaricare i
+  componenti aggiuntivi (premere nvda+control+F3).
+* Se si sceglie di importare le impostazioni del componente aggiuntivo
+  durante l'installazione , i file obsoleti (emoticon.ini ed emoticon.dic)
+  saranno rimossi e adattati alla nuova versione. 
 
 ## Novità nella versione 5.0 ##
 

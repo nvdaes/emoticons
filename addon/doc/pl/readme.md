@@ -2,7 +2,7 @@
 
 * Autorzy: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* NVDA compatibility: 2018.3 to 2019.1
+* Zgodność z NVDA: 2018.3 do 2019.1
 * Pobierz [wersja stabilna][1]
 * Pobierz [wersja rozwojowa][2]
 
@@ -87,11 +87,11 @@ skrót służący do wywołania dialogu aktywacji lub słownika emotikonów:
   odczytywaniem tekstu z emotikonami zastąpionymi przez opisy.
 * NVDA+I: wyświetla okno dialogowe wyboru uśmieszku do skopiowania.
 
-Note: On Windows 10, it's also possible to use the built-in emoji panel.
+Uwaga: w  Windowsie 10, jest także możliwe używanie panelu emoji.
 
-## Changes for 8.0 ##
+## Zmiany w wersji 8.0 ##
 
-* Compatible with NVDA 2018.3 or later (required).
+* zgodne z wersjami NVDA 2018.3 lub nowszymi (wymagane).
 
 ## Zmiany w wersji 6.0 ##
 
