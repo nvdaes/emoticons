@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 'emoticons' '1.0-dev'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: 2013-11-16 17:06+0400\n"
-"PO-Revision-Date: 2018-12-16 11:15+0100\n"
+"PO-Revision-Date: 2019-02-02 15:37+0100\n"
 "Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
 "Language-Team: Translators <LL@li.org>\n"
 "Language: ru_RU\n"
@@ -162,7 +162,7 @@ msgstr "&Активировать проговаривание смайлико�
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "Speak add-on emojis"
-msgstr ""
+msgstr "Проговаривать Эможзи дополнения"
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Remove not used dictionaries"
