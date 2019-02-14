@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: 'emoticons' '1.0-dev'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: 2013-11-16 17:06+0400\n"
-"PO-Revision-Date: 2017-12-14 09:08-0800\n"
-"Last-Translator: Ruslan Kolodyazhni <eye0@rambler.ru>\n"
+"PO-Revision-Date: 2018-12-16 11:15+0100\n"
+"Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
 "Language-Team: Translators <LL@li.org>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -59,9 +59,8 @@ msgid "Shows a dialog to insert a smiley"
 msgstr "Показывает диалог вставки смайлика"
 
 #. Translators: the name for a menu item.
-#, fuzzy
 msgid "&Emoticons dictionary..."
-msgstr "Словарь смайликов (%s)"
+msgstr "&Словарь смайликов..."
 
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
@@ -70,6 +69,10 @@ msgstr "Показывает диалог словаря для настройк
 #, python-format
 msgid "Emoticons dictionary (%s)"
 msgstr "Словарь смайликов (%s)"
+
+#. Translators: Message presented in input help mode.
+msgid "Toggles on and off the announcement of emoticons."
+msgstr "Включает и выключает Объявление смайликов."
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
@@ -80,10 +83,6 @@ msgid "Emoticons on."
 msgstr "Смайлики включены."
 
 #. Translators: Message presented in input help mode.
-msgid "Toggles on and off the announcement of emoticons."
-msgstr "Включает и выключает Объявление смайликов."
-
-#. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
 msgstr "Показывает диалог выбора смайликов для вставки."
 
@@ -92,9 +91,8 @@ msgid "Shows the Emoticons dictionary dialog."
 msgstr "Показывает диалог словаря смайликов."
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid "Shows the Emoticons settings."
-msgstr "Показывает диалог настроек активации смайликов."
+msgstr "Показывает диалоговое окно настроек смайликов."
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"
@@ -158,11 +156,15 @@ msgstr "Сброси&ть"
 msgid "Save and e&xport dictionary"
 msgstr "Сохранить и э&кспортировать словарь"
 
-#. Translators: The label for a setting in Activate emoticons dialog.
+#. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"
 msgstr "&Активировать проговаривание смайликов:"
 
-#. Translators: The label for a setting in Activate emoticons dialog.
+#. Translators: The label for a setting in Emoticons panel.
+msgid "Speak add-on emojis"
+msgstr ""
+
+#. Translators: The label for a setting in Emoticons panel.
 msgid "&Remove not used dictionaries"
 msgstr "&Удалить не используемые словари"
 

@@ -2,6 +2,7 @@
 
 * Tekijät: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
+* NVDA-yhteensopivuus: 2018.3-2019.1
 * Lataa [vakaa versio][1]
 * Lataa [kehitysversio][2]
 

@@ -74,6 +74,10 @@ msgstr ""
 msgid "Emoticons dictionary (%s)"
 msgstr "(%s) Hangulatjelszótár"
 
+#. Translators: Message presented in input help mode.
+msgid "Toggles on and off the announcement of emoticons."
+msgstr "A hangulatjelek bemondásának be, és kikapcsolása közötti váltás."
+
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
 msgstr "Hangulatjelek kikapcsolva"
@@ -81,10 +85,6 @@ msgstr "Hangulatjelek kikapcsolva"
 #. Translators: message presented when the dictionary for emoticons is loaded.
 msgid "Emoticons on."
 msgstr "Hangulatjelek bekapcsolva"
-
-#. Translators: Message presented in input help mode.
-msgid "Toggles on and off the announcement of emoticons."
-msgstr "A hangulatjelek bemondásának be, és kikapcsolása közötti váltás."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
@@ -162,11 +162,15 @@ msgstr "&Visszaállítás"
 msgid "Save and e&xport dictionary"
 msgstr "&Szótár mentése és exportálása"
 
-#. Translators: The label for a setting in Activate emoticons dialog.
+#. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"
 msgstr "&Hangulatjel bemondás aktiválása:"
 
-#. Translators: The label for a setting in Activate emoticons dialog.
+#. Translators: The label for a setting in Emoticons panel.
+msgid "Speak add-on emojis"
+msgstr ""
+
+#. Translators: The label for a setting in Emoticons panel.
 msgid "&Remove not used dictionaries"
 msgstr "Nem használt szótárak eltávolítása"
 

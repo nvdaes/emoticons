@@ -2,6 +2,7 @@
 
 * Autoren: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
+* NVDA-Kompatibilität: 2018.3 bis 2019.1
 * [Stabile Version herunterladen][1]
 * [Entwicklungsversion herunterladen][2]
 

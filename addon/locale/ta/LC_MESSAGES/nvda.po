@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 20:13+0100\n"
-"PO-Revision-Date: 2018-06-15 19:12+0530\n"
+"PO-Revision-Date: 2018-12-23 19:34+0530\n"
 "Last-Translator: DINAKAR T.D. <td.dinkar@gmail.com>\n"
 "Language-Team: DINAKAR T.D. <td.dinkar@gmail.com>\n"
 "Language: ta\n"
@@ -44,7 +44,7 @@ msgstr "உணர்வுரு கூட்டுறுப்பின் அ�
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 #. Translators: Label for emojis in the list.
 msgid "Emoji"
-msgstr "கருத்தெழுத்துரு"
+msgstr "முகவடி"
 
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 msgid "Emoticon"
@@ -70,6 +70,10 @@ msgstr "ுணர்வுருக்களை தனிப்பயனாக�
 msgid "Emoticons dictionary (%s)"
 msgstr "உணர்வுருக்கள் அகராதி (%s)"
 
+#. Translators: Message presented in input help mode.
+msgid "Toggles on and off the announcement of emoticons."
+msgstr "உணர்வுருக்களின் பெயர்களை அறிவிக்கும் வசதியை இயக்கவோ, நிறுத்தவோ செய்கிறது"
+
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
 msgstr "உணர்வுருக்களின் பெயர்களை அறிவிக்காது"
@@ -77,10 +81,6 @@ msgstr "உணர்வுருக்களின் பெயர்களை �
 #. Translators: message presented when the dictionary for emoticons is loaded.
 msgid "Emoticons on."
 msgstr "உணர்வுருக்களின் பெயர்களை அறிவிக்கும்"
-
-#. Translators: Message presented in input help mode.
-msgid "Toggles on and off the announcement of emoticons."
-msgstr "உணர்வுருக்களின் பெயர்களை அறிவிக்கும் வசதியை இயக்கவோ, நிறுத்தவோ செய்கிறது"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
@@ -113,7 +113,7 @@ msgstr "தகுதரம் (&S)"
 
 #. Translators: A radio button to choose only emojis.
 msgid "Emoj&is"
-msgstr "கருத்தெழுத்துருக்கள் (&I)"
+msgstr "முகவடிகள் (&I)"
 
 #. List of emoticons.
 #. Translators: Label for the smileys list.
@@ -158,11 +158,15 @@ msgstr "மறுவமைப்பு (&T)"
 msgid "Save and e&xport dictionary"
 msgstr "அகராதியை சேமித்து வெளிக்கொணர்க (&X)"
 
-#. Translators: The label for a setting in Activate emoticons dialog.
+#. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"
 msgstr "உணர்வுருக்களின் படித்தலை செயற்படுத்துக (&A): "
 
-#. Translators: The label for a setting in Activate emoticons dialog.
+#. Translators: The label for a setting in Emoticons panel.
+msgid "Speak add-on emojis"
+msgstr "கூட்டுக் கூறின் முகவடிகளை பேசுக"
+
+#. Translators: The label for a setting in Emoticons panel.
 msgid "&Remove not used dictionaries"
 msgstr "பயன்படுத்தப்படாத அகராதிகளை நீக்குக (&R)"
 

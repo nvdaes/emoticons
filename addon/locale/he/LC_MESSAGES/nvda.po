@@ -71,6 +71,10 @@ msgstr "מציג את המילון המאפשר להגדיר את הרגשוני
 msgid "Emoticons dictionary (%s)"
 msgstr "מילון הרגשונים (%s)"
 
+#. Translators: Message presented in input help mode.
+msgid "Toggles on and off the announcement of emoticons."
+msgstr "מיתוג הקראת הרגשונים."
+
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
 msgstr "רגשונים לא פעילים."
@@ -78,10 +82,6 @@ msgstr "רגשונים לא פעילים."
 #. Translators: message presented when the dictionary for emoticons is loaded.
 msgid "Emoticons on."
 msgstr "רגשונים פעילים."
-
-#. Translators: Message presented in input help mode.
-msgid "Toggles on and off the announcement of emoticons."
-msgstr "מיתוג הקראת הרגשונים."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
@@ -157,11 +157,15 @@ msgstr "&איפוס"
 msgid "Save and e&xport dictionary"
 msgstr "&שמירה ויצוא של המילון"
 
-#. Translators: The label for a setting in Activate emoticons dialog.
+#. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"
 msgstr "ה&פעלת הקראת הרגשונים בעת פתיחה:"
 
-#. Translators: The label for a setting in Activate emoticons dialog.
+#. Translators: The label for a setting in Emoticons panel.
+msgid "Speak add-on emojis"
+msgstr ""
+
+#. Translators: The label for a setting in Emoticons panel.
 msgid "&Remove not used dictionaries"
 msgstr "&הסר מילונים שאינם בשימוש"
 

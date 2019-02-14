@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons' '5.3\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-19 18:53+0100\n"
-"PO-Revision-Date: 2018-06-18 10:00+0300\n"
+"PO-Revision-Date: 2018-12-24 09:35+0300\n"
 "Last-Translator: Çağrı Doğan <cagrid@hotmail.com>\n"
 "Language-Team: Translators <cagrid@hotmail.com>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../../globalPlugins\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -72,6 +72,11 @@ msgstr "Ifade özelleştirmeniz için bir sözlük iletişim kutusu gösterir"
 msgid "Emoticons dictionary (%s)"
 msgstr "İfadeler sözlüğü (%s)"
 
+#. Translators: Message presented in input help mode.
+msgid "Toggles on and off the announcement of emoticons."
+msgstr ""
+"İfadelerin konuşma sözlüğü kullanılarak okunmasıyla ilgili ayarı açıp kapatır"
+
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
 msgstr "İfadeler kapalı."
@@ -79,11 +84,6 @@ msgstr "İfadeler kapalı."
 #. Translators: message presented when the dictionary for emoticons is loaded.
 msgid "Emoticons on."
 msgstr "İfadeler açık."
-
-#. Translators: Message presented in input help mode.
-msgid "Toggles on and off the announcement of emoticons."
-msgstr ""
-"İfadelerin konuşma sözlüğü kullanılarak okunmasıyla ilgili ayarı açıp kapatır"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
@@ -159,11 +159,15 @@ msgstr "Sı&fırla"
 msgid "Save and e&xport dictionary"
 msgstr "S&özlüğü kaydet ve dışa aktar"
 
-#. Translators: The label for a setting in Activate emoticons dialog.
+#. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"
 msgstr "İfadelerin seslendirilmesini &etkinleştir:"
 
-#. Translators: The label for a setting in Activate emoticons dialog.
+#. Translators: The label for a setting in Emoticons panel.
+msgid "Speak add-on emojis"
+msgstr "Eklenti emojilerini seslendir"
+
+#. Translators: The label for a setting in Emoticons panel.
 msgid "&Remove not used dictionaries"
 msgstr "Kullanılmayan sözlükle&ri sil"
 
