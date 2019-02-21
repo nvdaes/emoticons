@@ -2,7 +2,7 @@
 
 * Forfattere: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco
   Javier Estrada Martínez
-* NVDA compatibility: 2018.3 to 2019.1
+* NVDA-kompatibilitet: 2018.3 til 2019.1
 * Download [stabil version][1]
 * Download [udviklingsversion][2]
 
@@ -88,7 +88,7 @@ Emoticons eller dialogen til styrelse af Emoticons-ordbøger.
   humørikonerne erstattet med den brugervenlige beskrivelse.
 * NVDA+i: Viser en dialog, hvor du kan vælge et humørikon, du vil kopiere.
 
-Note: On Windows 10, it's also possible to use the built-in emoji panel.
+Bemærk: I Windows 10 er det også muligt at bruge det indbyggede emoji-panel.
 
 ## ændringer i 8.0 ##
 

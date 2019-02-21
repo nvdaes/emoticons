@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-19 18:53+0100\n"
-"PO-Revision-Date: 2019-01-14 12:36+0100\n"
+"PO-Revision-Date: 2019-02-14 19:10+0100\n"
 "Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
 "Language-Team: Dansk NVDA <dansk@nvda.dk>\n"
 "Language: da\n"
@@ -22,8 +22,8 @@ msgid ""
 "You have installed the Emoticons add-on, probably an old and incompatible "
 "version with this one. Do you want to uninstall the old version?"
 msgstr ""
-"Du har installeret tilføjelsesprogrammet Emoticons. Det er sandsynligvis en "
-"gammel version, som ikke er kompatibel med denne version. Vil du "
+"Du har installeret tilføjelsesprogrammet Humørikoner. Det er sandsynligvis "
+"en gammel version, som ikke er kompatibel med denne version. Vil du "
 "afinstallere den gamle version?"
 
 #. Translators: the title of a message box dialog.
@@ -40,7 +40,7 @@ msgstr ""
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
-msgstr "Importer indstillinger til Emoticons"
+msgstr "Importer indstillinger til Humørikoner"
 
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 #. Translators: Label for emojis in the list.
@@ -49,7 +49,7 @@ msgstr "Emoji"
 
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 msgid "Emoticon"
-msgstr "Emoticon"
+msgstr "Humørikon"
 
 #. Translators: the name for a menu item.
 msgid "&Insert emoticon..."
@@ -102,7 +102,7 @@ msgstr "Indsæt humørikon"
 #. Filter panel.
 #. Translators: A text field to filter emoticons.
 msgid "&Filter:"
-msgstr "&Filter:"
+msgstr "&Filtrér:"
 
 #. Translators: A radio button to choose all types of emoticons.
 msgid "&All"
@@ -155,7 +155,7 @@ msgstr "Nuls&til"
 
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Save and e&xport dictionary"
-msgstr "Gem og eksporter ordbog"
+msgstr "Gem og eksportér ordbog"
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"
@@ -163,7 +163,7 @@ msgstr "&Aktiver udtale af humørikoner"
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "Speak add-on emojis"
-msgstr ""
+msgstr "Udtal emojis fra tilføjelsespakken"
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Remove not used dictionaries"
@@ -707,7 +707,7 @@ msgstr "party smiley"
 
 #. Translators: (mm) Mmmm...
 msgid "mmmmmm... smiley"
-msgstr "Hmmmmmm... smiley"
+msgstr "mmmmmm... smiley"
 
 #. Translators: (nerd) Nerdy
 msgid "nerdy smiley"
@@ -859,19 +859,19 @@ msgstr "Kage-smiley"
 
 #. Translators: (*) Star
 msgid "star smiley"
-msgstr "Stjerne-smil"
+msgstr "Stjerne-smiley"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Emoticons"
-msgstr "Emoticons"
+msgstr "Humørikoner"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
-msgstr "Annoncering af humørikoner i stedet for de tilsvarende tegn"
+msgstr "Annoncering af humørikoner i stedet for de tilsvarende tegn."
 
 #~ msgid "Manag&e emoticons"
 #~ msgstr "&Styring af humørikoner"
