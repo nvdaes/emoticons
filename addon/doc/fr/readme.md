@@ -6,8 +6,8 @@
 * Télécharger [version stable][1]
 * Télécharger [version de développement][2]
 
-En utilisant ce module complémentaire, la verbalisation du texte contenant
-les caractères de la frimousse seront remplacés par leur description humaine
+En utilisant cette extension, la verbalisation du texte contenant les
+caractères de la frimousse seront remplacés par leur description humaine
 plus conviviale.
 
 Par exemple : la séquence ":)" sera prononcé comme "Frimousse Sourire", ou
@@ -44,8 +44,8 @@ copiés dans le presse-papiers, prêts à être collés.
 
 ## Dictionnaire des frimousses ##
 
-Le module complémentaire emoticons permet d'avoir différents dictionnaires
-de parole en utilisant des profils de configuration.
+L'extension emoticons permet d'avoir différents dictionnaires de parole en
+utilisant des profils de configuration.
 
 Cela signifie que vous pouvez créer ou modifier un dictionnaire de parole
 spécifique pour chaque profil personnalisé.
@@ -81,8 +81,8 @@ Dans le panneau  Paramètres des Frimousses, vous pouvez choisir si le dictionna
 
 Si vous souhaitez garder propres vos dossiers de configuration, vous pouvez
 également choisir dans ce dialogue si les dictionnaires non utilisés
-(associés à des profils non existants) seront supprimés du module
-complémentaire lorsqu'il est déchargé.
+(associés à des profils non existants) seront supprimés de l'extension
+lorsqu'il est déchargé.
 
 
 ## Raccourcis clavier : ##
@@ -125,9 +125,9 @@ emoji intégré.
   profils sélectionnés. Dans la  2017.3 ou précédente, vous pouvez appliquer
   les modifications en rechargeant les modules complémentaires  (en appuyant
   sur  contrôle+NVDA+f3).
-* Si vous choisissez d'importer les paramètres lors de la mise à jour du
-  module complémentaire, les fichiers obsolètes (emoticons.ini et
-  emoticons.dic) seront supprimés ou adaptés à cette version.
+* Si vous choisissez d'importer les paramètres lors de la mise à jour de
+  l'extension, les fichiers obsolètes (emoticons.ini et emoticons.dic)
+  seront supprimés ou adaptés à cette version.
 
 ## Changements pour la version 5.0 ##
 
@@ -153,8 +153,8 @@ emoji intégré.
 
 ## Changements pour la version 2.0 ##
 
-* L'aide du module complémentaire est disponible à partir du Gestionnaire de
-  modules complémentaires.
+* L'aide de l'extension est disponible à partir du Gestionnaire
+  d'Extensions.
 
 
 ## Changements pour la version 1.1 ##
