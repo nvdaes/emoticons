@@ -59,8 +59,15 @@ These are the key commands available by default, you can edit those or add new k
 
 * NVDA+E: speaking emoticons on/off, toggles between speaking text as it is written, or with the emoticons replaced by the human description.
 * NVDA+I: show a dialog to select an emoticon you want to copy.
+* Not assigned: open a browseable message showing the symbol where the review cursor is positioned, so that the whole description can be reviewed in browse mode.
+* Not assigned: open a browseable message showing the symbol where the caret is positioned, so that the whole description can be reviewed in browse mode.
 
 Note: On Windows 10, it's also possible to use the built-in emoji panel.
+
+
+## Changes for 10.0 ##
+
+* Added commands to show the symbol where the review cursor or caret are positioned. Gestures for these commands can be assigned from the Input gestures dialog, Text review category.
 
 ## Changes for 9.0 ##
 
