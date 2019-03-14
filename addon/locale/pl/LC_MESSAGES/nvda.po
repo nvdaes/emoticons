@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 18:37+0100\n"
-"PO-Revision-Date: 2018-08-21 19:00+0100\n"
+"PO-Revision-Date: 2019-03-11 21:19+0100\n"
 "Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
 "Language-Team: Polish <killer@tyflonet.com>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -170,39 +170,39 @@ msgstr "&Usuń nieużywane słowniki"
 
 #. Translators: (emoji) Grinning face, an happy face with normal eyes.
 msgid "Grinning face"
-msgstr "Uśmiechnięta twarz"
+msgstr "Uśmiechnięta buźka"
 
 #. Translators: (emoji) Happy face with open mouth and squinting eyes.
 msgid "Happy face with open mouth and squinting eyes"
-msgstr "śczęśliwa twarz z otwartymi ustami i zaciśniętymi oczami"
+msgstr "śczęśliwa buźka z otwartymi ustami i zaciśniętymi oczami"
 
 #. Translators: (emoji) happy face with open mouth.
 msgid "Happy face with open mouth"
-msgstr "szczęśliwa twarz z otwartymi ustami"
+msgstr "szczęśliwa buźka z otwartymi ustami"
 
 #. Translators: (emoji) A smiling face with smiling eyes and rosy cheeks.
 msgid "Smiling Face With Smiling Eyes"
-msgstr "Uśmiechnięta twarz z uśmiechniętymi oczami"
+msgstr "Uśmiechnięta buźka z uśmiechniętymi oczami"
 
 #. Translators: (emoji) smirking face.
 msgid "Smirking face"
-msgstr "znaczący uśmiech"
+msgstr "ironiczny uśmiech"
 
 #. Translators: (emoji) Slightly Smiling Face: a face that is a little bit happy, with a slight smile and neutral eyes.
 msgid "Slightly smiling face"
-msgstr "Nieco uśmiechnięta twarz"
+msgstr "Nieznacznie uśmiechnięta buźka"
 
 #. Translators: (emoji) white smiling face.
 msgid "white smiling face"
-msgstr "biała uśmiechnięta twarz"
+msgstr "biała uśmiechnięta buźka"
 
 #. Translators: (emoji) happy face with halo.
 msgid "Happy face with halo"
-msgstr "szczęśliwa twarz z aureolą"
+msgstr "szczęśliwa buźka z aureolą"
 
 #. Translators: (emoji) white frowning face.
 msgid "White frowning face"
-msgstr "Biała zrospaczona twarz"
+msgstr "Biała chmurna buźka"
 
 #. Translators: (emoji) winking face.
 msgid "Winking face"
@@ -210,7 +210,7 @@ msgstr "Mrugnięcie"
 
 #. Translators: (emoji) smiling face with heart shaped eyes.
 msgid "Smiling face with heart shaped eyes"
-msgstr "Uśmiechnięta twarz z oczami w kształcie serca"
+msgstr "Uśmiechnięta buźka z oczami w kształcie serc"
 
 #. Translators: (emoji)  Rose: a single red rose.
 msgid "Rose"
@@ -218,19 +218,19 @@ msgstr "Róża"
 
 #. Translators: (emoji) Expressionless face: a face with straight lined eyes and mouth. A deliberate display of no comment...
 msgid "Expressionless face"
-msgstr "Bezwyrazista twarz"
+msgstr "buźka bez wyrazu"
 
 #. Translators: (emoji) neutral face.
 msgid "Neutral face"
-msgstr "Neutralna twarz"
+msgstr "Neutralna buźka"
 
 #. Translators: (emoji) face without mouth.
 msgid "Face without mouth"
-msgstr "Twarz bez ust"
+msgstr "Buźka bez ust"
 
 #. Translators: (emoji) face throwing a kiss.
 msgid "Face throwing a kiss"
-msgstr "Twarz wysyłająca pocałunek"
+msgstr "Buźka markująca pocałunek"
 
 #. Translators: (emoji) kissing face with closed eyes.
 msgid "Kissing face with closed eyes"
@@ -242,19 +242,19 @@ msgstr "Pocałunek"
 
 #. Translators: (emoji) kissing face with arched eyes.
 msgid "Kissing face with arched eyes"
-msgstr "całująca twarz z łukowatymi oczami"
+msgstr "całująca buźka z łukowatymi oczami"
 
 #. Translators: (emoji) winking face with stuck out tongue.
 msgid "Winking face with stuck out tongue"
-msgstr "Twarz z wystawionym językiem"
+msgstr "Mrugająca buźka z wystawionym językiem"
 
 #. Translators: (emoji) face with stuck out tongue and eyes tightly closed.
 msgid "Face with stuck out tongue and eyes tightly closed"
-msgstr "Twarz z wyciągniętym językiem i lekko zamkniętymi oczami"
+msgstr "buźka z wyciągniętym językiem i lekko zamkniętymi oczami"
 
 #. Translators: (emoji) A cheeky face with stuck out tongue.
 msgid "Face with stuck out tongue"
-msgstr "Twarz z wyciągniętym językiem"
+msgstr "Buźka z wyciągniętym językiem"
 
 #. Translators: (emoji) Hugging Face: a face displayed with an open hands gesture, offering a hug.
 msgid "Hugging face"
@@ -262,7 +262,7 @@ msgstr "Przytulenie"
 
 #. Translators: (emoji) flushed face.
 msgid "Flushed face"
-msgstr "Zarumieniona twarz"
+msgstr "Zarumieniona buźka"
 
 #. Translators: (emoji) Grinning face showing smiling eyes.
 msgid "Grinning Face With Smiling Eyes"
@@ -270,11 +270,11 @@ msgstr "Uśmiechnięte oczy"
 
 #. Translators: (emoji) A pensive, remorseful and saddened face. Quietly considering where things all went wrong.
 msgid "Pensive Face"
-msgstr "Zadumana twarz"
+msgstr "Zamyślona buźka"
 
 #. Translators: (emoji) devil with evil smile.
 msgid "Devil with evil smile"
-msgstr "Diabełski uśmiech"
+msgstr "Diabelski uśmiech"
 
 #. Translators: (emoji) devil.
 msgid "Devil"
@@ -282,140 +282,140 @@ msgstr "Diabeł"
 
 #. Translators: (emoji) relieved face.
 msgid "Relieved face"
-msgstr "Wyluzowana twarz"
+msgstr "Wyluzowana buźka"
 
 #. Translators: (emoji) unamused face.
 msgid "Unamused face"
-msgstr "Niezabawna twarz"
+msgstr "Nic śmiesznego"
 
 #. Translators: (emoji) A face with scrunched up and closed eyes, frowning. Used to show helplessness in a situation.
 msgid "Persevering Face"
-msgstr "wytrwała twarz"
+msgstr "wytrwała buźka"
 
 #. Translators: (emoji) crying face.
 msgid "Crying face"
-msgstr "płacząca twarz"
+msgstr "płacząca buźka"
 
 #. Translators: (emoji) face with tears of joy.
 msgid "Face with tears of joy"
-msgstr "twarz płacząca ze śmiechu"
+msgstr "łzy radości"
 
 #. Translators: (emoji) loudly crying face.
 msgid "Loudly crying face"
-msgstr "Głośno płacząca twarz"
+msgstr "głośny płacz"
 
 #. Translators: (emoji) sleepy face.
 msgid "Sleepy face"
-msgstr "śpiąca twarz"
+msgstr "śpiąca buźka"
 
 #. Translators: (emoji) Shrugging: A person shrugging their shoulders to indicate a lack of knowledge about a particular topic, or a lack of care about the result of a situation.
 msgid "Shrugging emoji"
-msgstr "emotikon wzruszający ramionami"
+msgstr "Wzruszenie ramionami"
 
 #. Translators: (emoji) disappointed face.
 msgid "Disappointed face"
-msgstr "Niezadowolona twarz"
+msgstr "Rozczarowana buźka"
 
 #. Translators: (emoji) disappointed but relieved face.
 msgid "Disappointed but relieved face"
-msgstr "Rozczarowana twarz"
+msgstr "Rozczarowanie i ulga"
 
 #. Translators: (emoji) Face with a look of concern, with a blue forehead and sweat dripping down the cheek.
 msgid "Face With Open Mouth & Cold Sweat"
-msgstr "twarz z otwartymi ustanmi i zimnym potem"
+msgstr "twarz z otwartymi ustami i zimnym potem"
 
 #. Translators: (emoji) Happy face with a single drop of sweat on one side of the face.
 msgid "Smiling Face With Open Mouth & Cold Sweat"
-msgstr "Uśmiechnięta twarz z otwartymi ustami i zimnym potem"
+msgstr "Uśmiechnięta buźka z otwartymi ustami i zimnym potem"
 
 #. Translators: (emoji) face with cold sweat.
 msgid "Face with cold sweat"
-msgstr "Twarz oblana zimnym potem"
+msgstr "buźka oblana zimnym potem"
 
 #. Translators: (emoji) A distraught-looking face with  an open mouth and crescent shaped eyes.
 msgid "Weary Face"
-msgstr "Zmordowana twarz"
+msgstr "Zmordowana buźka"
 
 #. Translators: (emoji) An exhausted-looking face with an open mouth and tightly closed eyes.
 msgid "Tired Face"
-msgstr "zmęczona twarz"
+msgstr "zmęczona buźka"
 
 #. Translators: (emoji) fearful face.
 msgid "Fearful face"
-msgstr "Przerażona twarz"
+msgstr "Przerażona buźka"
 
 #. Translators: (emoji) face screaming in fear.
 msgid "Face screaming in fear"
-msgstr "twarz krzycząca ze strachu"
+msgstr "buźka krzycząca ze strachu"
 
 #. Translators: (emoji) angry face.
 #. Translators: :@ angry face.
 msgid "Angry face"
-msgstr "Buzia gniew"
+msgstr "Rozgniewana buźka"
 
 #. Translators: (emoji) pouting face.
 msgid "Pouting face"
-msgstr "nadąsana twarz"
+msgstr "nadąsana buźka"
 
 #. Translators: (emoji) A face with air coming out of its nose, huffing with anger face.
 msgid "Face With Steam From Nose"
-msgstr "twarz z buchającą parą z nosa"
+msgstr "buźka z buchającą z nosa parą"
 
 #. Translators: (emoji) confounded face.
 msgid "Confounded face"
-msgstr "buzia zkonfundowana"
+msgstr "zkonfundowana buźka"
 
 #. Translators: (emoji) Smiling Face With Open Mouth and Tightly-Closed Eyes.
 msgid "Smiling Face With Open Mouth and Tightly-Closed Eyes"
-msgstr "uśmiechnięta twarz z trochę zamkniętymi oczami"
+msgstr "uśmiechnięta buźka z lekko zamkniętymi oczami"
 
 #. Translators: (emoji) happy face licking lips.
 msgid "Happy face licking lips"
-msgstr "szczęśliwa twarz oblizująca wargi"
+msgstr "Uśmiech i oblizywanie ust"
 
 #. Translators: (emoji) happy face with sunglasses.
 msgid "Happy face with sunglasses"
-msgstr "szczęśliwa twarz z okularami przeciwsłonecznymi"
+msgstr "Uśmiech z okularami przeciwsłonecznymi"
 
 #. Translators: (emoji) sleeping face.
 msgid "Sleeping face"
-msgstr "śpiąca twarz"
+msgstr "śpiąca buźka"
 
 #. Translators: (emoji) A dizzy face, looking sick or confused from being spun around in circles too many times.
 msgid "Dizzy Face"
-msgstr "oszołomiona twarz"
+msgstr "oszołomiona buźka"
 
 #. Translators: (emoji) astonished face.
 msgid "Astonished face"
-msgstr "Zaskoczona twarz"
+msgstr "Zaskoczona buźka"
 
 #. Translators: (emoji) worried face.
 msgid "Worried face"
-msgstr "Buzia zmartwienie"
+msgstr "Buźka zmartwienie"
 
 #. Translators: (emoji) Dismayed face with open eyes and open mouth, appear closer to  a frowning face.
 msgid "Frowning Face With Open Mouth"
-msgstr "nachmurzona twarz z otwartymi ustami"
+msgstr "nachmurzona buźka z otwartymi ustami"
 
 #. Translators: (emoji) anguished face.
 msgid "Anguished face"
-msgstr "Udręczona twarz"
+msgstr "Udręczona buźka"
 
 #. Translators: (emoji) A face with Open Mouth, generally used to represent an element of surprise.
 msgid "Face with Open Mouth"
-msgstr "Twarz z otwartymi ustami"
+msgstr "buźka z otwartymi ustami"
 
 #. Translators: (emoji) grimacing face.
 msgid "Grimacing face"
-msgstr "twarz z grymasem"
+msgstr "grymaśna buźka"
 
 #. Translators: (emoji) confused face.
 msgid "Confused face"
-msgstr "Buzia zmieszanie"
+msgstr "zmieszanie"
 
 #. Translators: (emoji) A face with high eyebrows and an open mouth, it looks more surprised than hushed.
 msgid "Hushed Face"
-msgstr "Oniemiała twarz"
+msgstr "Oniemiała buźka"
 
 #. Translators: (emoji) broken heart.
 msgid "Broken heart"
@@ -459,23 +459,23 @@ msgstr "Niebieskie serce"
 
 #. Translators: (emoji) This emoji is the version of the phrase ROFL. A person lying on the floor due to an extreme amount of laughter.
 msgid "Rolling on the Floor Laughing"
-msgstr "Buzia ze śmiechu turlam się po podłodze"
+msgstr "Buźka tarzająca się ze śmiechu"
 
 #. Translators: (emoji) A face that is a little bit sad, with a slight frown and neutral eyes.
 msgid "Slightly Frowning Face"
-msgstr "nieco ziewająca twarz"
+msgstr "nieco ziewająca buźka"
 
 #. Translators: (emoji) A face that is upside-down.
 msgid "Upside-down Face"
-msgstr "Twarz do góry nogami"
+msgstr "buźka do góry nogami"
 
 #. Translators: (emoji) A face displaying eyes glancing upward.
 msgid "Face With Rolling Eyes"
-msgstr "twarz z mrugającymi oczami"
+msgstr "mrugające oczy"
 
 #. Translators: (emoji) A person with arms forming an X to indicate no or no good.
 msgid "Person Gesturing No"
-msgstr "Osoba pokazująca Tak"
+msgstr "Osoba pokazująca nie"
 
 #. Translators: (emoji) A person with arms above his head, making an OK sign with the whole body.
 msgid "Person Gesturing OK"
@@ -495,15 +495,15 @@ msgstr "Złożone ręce"
 
 #. Translators: (emoji) A person with a surgical mask on their face.
 msgid "Face with medical mask"
-msgstr "Twarz z maską medyczną"
+msgstr "buźka z maską medyczną"
 
 #. Translators: (emoji) A black version of white smiling face.
 msgid "Black Smiling Face"
-msgstr "czarna uśmiechnięta buzia"
+msgstr "czarna uśmiechnięta buźka"
 
 #. Translators: (emoji) happy cat face with heart shaped eyes.
 msgid "Happy cat face with heart shaped eyes"
-msgstr "Szczęśliwa kocia twarz z oczami w kształcie serca"
+msgstr "Szczęśliwy koci pyszczek z oczami w kształcie serc"
 
 #. Translators: (emoji) ok hand sign.
 msgid "Ok hand sign"
@@ -523,39 +523,39 @@ msgstr "Ręka zwycięscy"
 
 #. Translators: :) Smile
 msgid "smiling smiley"
-msgstr "Buzia uśmiech"
+msgstr "uśmiech"
 
 #. Translators: :( Sad face.
 msgid "Sad face"
-msgstr "Buzia smutek"
+msgstr "smutek"
 
 #. Translators: :D Laugh
 msgid "Laughing smiley"
-msgstr "Buzia śmiech"
+msgstr "śmiech"
 
 #. Translators: :O Surprised
 msgid "surprised smiley"
-msgstr "Buzia zdziwienie"
+msgstr "zdziwienie"
 
 #. Translators: ;) Wink;
 msgid "winking smiley"
-msgstr "Buzia mrugnięcie"
+msgstr "mrugnięcie"
 
 #. Translators: ;( Crying
 msgid "crying smiley"
-msgstr "Buzia płacz"
+msgstr "płacz"
 
 #. Translators: :s :-S :-Q Confused face:
 msgid "Confused Face"
-msgstr "Buzia zmieszanie"
+msgstr "zmieszanie"
 
 #. Translators: (:| Sweating
 msgid "sweating smiley"
-msgstr "Buzia poci się"
+msgstr "poci się"
 
 #. translators:  :|] Robot (a robot head)
 msgid "Robot Smiley"
-msgstr "Buzia robot"
+msgstr "robot"
 
 #. Translators: :| Speechless
 msgid "speechless smiley"
@@ -563,7 +563,7 @@ msgstr "buzia oniemiały"
 
 #. Translators: :* Kiss
 msgid "kiss smiley"
-msgstr "buzia pocałunek"
+msgstr "pocałunek"
 
 #. Translators: :P Cheeky
 msgid "cheeky smiley"
@@ -571,118 +571,118 @@ msgstr "buzia pokazanie języka"
 
 #. Translators: :$ Blushing
 msgid "blushing smiley"
-msgstr "Buzia zawstydzenie"
+msgstr "zawstydzenie"
 
 #. Translators: :^) Wondering
 msgid "wondering smiley"
-msgstr "Buzia zdumienie"
+msgstr "zdumienie"
 
 #. Translators: |-) Sleepy
 msgid "sleepy smiley"
-msgstr "Buzia senność"
+msgstr "senność"
 
 #. Translators: |-( Dull
 msgid "dull smiley"
-msgstr "Buzia znudzenie"
+msgstr "znudzenie"
 
 #. Translators: :x My lips are sealed
 msgid "my lips are sealed smiley"
-msgstr "Buzia moje usta są zamknięte"
+msgstr "moje usta są zamknięte"
 
 #. Translators: \o/ Dancing
 msgid "dancing smiley"
-msgstr "Buzia taniec"
+msgstr "taniec"
 
 #. Translators: :'( crying a lot smiley
 msgid "crying a lot smiley"
-msgstr "Buzia płacz"
+msgstr "płacz"
 
 #. Translators: >:( Angry
 #. Translators: (angry) Angry
 msgid "angry smiley"
-msgstr "Buzia złość"
+msgstr "złość"
 
 #. Translators: :/ Worried
 #. Translators: (worry) Worried
 msgid "worried smiley"
-msgstr "Buzia zmartwienie"
+msgstr "zmartwienie"
 
 #. Translators: <3 Heart
 #. Translators: (heart) Heart
 msgid "heart smiley"
-msgstr "Buzia serce"
+msgstr "serce"
 
 #. Translators:  O:)  O:-) Angel
 msgid "Angel Smiley"
-msgstr "Buzia anielska"
+msgstr "Anioł"
 
 #. Translators:  O.o  o.O  Confused
 msgid "Confused Smiley"
-msgstr "Buzia zmieszanie"
+msgstr "zmieszanie"
 
 #. Translators:   3:-) Devil
 msgid "Devil Smiley"
-msgstr "Buzia diabelska"
+msgstr "diabeł"
 
 #. Translators:  ^_^ Keke (This smiley is inspired by the Asian style, which is a happy face.)
 msgid "Keke Smiley"
-msgstr "Buzia Keke"
+msgstr "Keke"
 
 #. Translators: -_- Bored (This smiley face has its eyes closed and is sporting a very small grin.)
 msgid "Bored smiley"
-msgstr "Buzia znudzenie"
+msgstr "znudzenie"
 
 #. Translators:  >:O  Upset, angry or shouting...
 msgid "Angry Smiley"
-msgstr "Buzia gniew"
+msgstr "gniew"
 
 #. Translators:  :3  Cat (Cat faced smiley with curly lips)
 msgid "Cat Smiley"
-msgstr "Buzia kocia"
+msgstr "koci pyszczek"
 
 #. Translators: (-.-)ZZZ Iӭ Sleepy
 msgid "I am Sleepy smiley"
-msgstr "Buzia Jestem śpiący "
+msgstr "Jestem śpiący "
 
 #. Translators: 8-) Glasses
 msgid "glasses smiley"
-msgstr "Buzia okulary"
+msgstr "okulary"
 
 #. Translators: (^^^) shark
 msgid "shark smiley"
-msgstr "Buzia rekin"
+msgstr "rekin"
 
 #. Translators:  (cash) Cash
 msgid "cash smiley"
-msgstr "Buzia pieniądze"
+msgstr "pieniądze"
 
 #. Translators: (flex) Muscle
 msgid "muscle smiley"
-msgstr "Buzia mięśniak"
+msgstr "mięśniak"
 
 #. Translators: (beer) Beer
 msgid "beer smiley"
-msgstr "Buzia piwo"
+msgstr "piwo"
 
 #. Translators: (d) Drink
 msgid "drink smiley"
-msgstr "Buzia drink"
+msgstr "drink"
 
 #. Translators: (ninja) Ninja
 msgid "ninja smiley"
-msgstr "Buzia ninja "
+msgstr "ninja "
 
 #. Translators: (cool) Cool
 msgid "cool smiley"
-msgstr "Buzia cool"
+msgstr "cool"
 
 #. Translators: (inlove) In Love
 msgid "in love smiley"
-msgstr "Buzia zakochanie"
+msgstr "zakochanie"
 
 #. Translators: (yn) Fingers crossed
 msgid "fingers crossed smiley"
-msgstr "Buzia skrzyżowane palce"
+msgstr "skrzyżowane palce"
 
 #. Translators: (yawn) Yawn
 msgid "yawning smiley"
@@ -690,115 +690,115 @@ msgstr "Buzia ziewa"
 
 #. Translators: (puke) Puking
 msgid "puking smiley"
-msgstr "Buzia wymioty"
+msgstr "wymioty"
 
 #. Translators: (doh) Doh!
 msgid "doh! smiley"
-msgstr "Buzia fu!"
+msgstr "fu!"
 
 #. Translators: (wasntme) It wasn't me!
 msgid "it wasn't me! smiley"
-msgstr "Buzia to nie byłem ja"
+msgstr "to nie byłem ja"
 
 #. Translators: (party) Party
 msgid "party smiley"
-msgstr "Buzia impreza"
+msgstr "impreza"
 
 #. Translators: (mm) Mmmm...
 msgid "mmmmmm... smiley"
-msgstr "Buzia mmmm..."
+msgstr "mmmm..."
 
 #. Translators: (nerd) Nerdy
 msgid "nerdy smiley"
-msgstr "Buzia frajer"
+msgstr "Nerd"
 
 #. Translators: (wave) Hi
 msgid "hi smiley"
-msgstr "Buzia Witam"
+msgstr "Witam"
 
 #. Translators: (facepalm) Facepalm
 msgid "facepalm smiley"
-msgstr "Buzia o nie!"
+msgstr "facepalm"
 
 #. Translators: (devil) Devil
 msgid "devil smiley"
-msgstr "Buzia diabeł"
+msgstr "diabeł"
 
 #. Translators: (angel) Angel
 msgid "angel smiley"
-msgstr "Buzia anioł"
+msgstr "anioł"
 
 #. Translators: (envy) Envy
 msgid "envy smiley"
-msgstr "Buzia zazdrość"
+msgstr "zazdrość"
 
 #. Translators: (wait) Wait
 msgid "wait smiley"
-msgstr "Buzia czekaj"
+msgstr "czekaj"
 
 #. Translators: (hug) Hug
 msgid "hug smiley"
-msgstr "Buzia przytulenie"
+msgstr "przytulenie"
 
 #. Translators: (makeup) Make-up
 msgid "make-up smiley"
-msgstr "Buzia makijarz"
+msgstr "makijarz"
 
 #. Translators: (chuckle) Giggle
 msgid "giggle smiley"
-msgstr "Buzia chichot"
+msgstr "chichot"
 
 #. Translators: (clap) Clapping
 msgid "clapping smiley"
-msgstr "Buzia oklaski"
+msgstr "oklaski"
 
 #. Translators: (think) Thinking
 msgid "thinking smiley"
-msgstr "Buzia myślenie"
+msgstr "myślenie"
 
 #. Translators: (bow) Bowing
 msgid "bowing smiley"
-msgstr "Buzia ukłon"
+msgstr "ukłon"
 
 #. Translators: (rofl) Rolling on the floor laughing
 msgid "rolling on the floor laughing! smiley"
-msgstr "Buzia ze śmiechu turlam się po podłodze"
+msgstr "ze śmiechu turlam się po podłodze"
 
 #. Translators: (whew) Relieved
 msgid "relieved smiley"
-msgstr "Buzia ulga"
+msgstr "ulga"
 
 #. Translators: (happy) Happy
 msgid "happy smiley"
-msgstr "Buzia szczęście"
+msgstr "szczęście"
 
 #. Translators: (smirk) Smirking
 msgid "smirking smiley"
-msgstr "Buzia głupi uśmiech"
+msgstr "ironiczny uśmiech"
 
 #. Translators: (nod) Nodding
 msgid "nodding smiley"
-msgstr "Buzia skinięcie"
+msgstr "skinięcie"
 
 #. Translators: (shake) Shake
 msgid "shakeing smiley"
-msgstr "Buzia potrząśnięcie"
+msgstr "emotka potrząśnięcie"
 
 #. Translators: (waiting) Waiting
 msgid "waiting smiley"
-msgstr "Buzia czekanie"
+msgstr "emotka czekanie"
 
 #. Translators: (emo) Emo;
 msgid "Emo smiley"
-msgstr "Buzia EMO"
+msgstr "EMO"
 
 #. Translators: (y) Yes
 msgid "yes smiley"
-msgstr "Buzia tak"
+msgstr "emotka tak"
 
 #. Translators: (n) no;
 msgid "no smiley"
-msgstr "Buzia nie"
+msgstr "emotka nie"
 
 #. Translators: (handshake) Handshake
 msgid "handshake smiley"
@@ -806,59 +806,59 @@ msgstr "Buzia uścisk ręki"
 
 #. Translators: (highfive) High five
 msgid "high five smiley"
-msgstr "Buzia piąteczka"
+msgstr "piąteczka"
 
 #. Translators: (lalala) Lalala;
 msgid "lalala smiley"
-msgstr "Buzia lalala"
+msgstr "emotka lalala"
 
 #. Translators: (heidy) Heidy;
 msgid "heidy smiley"
-msgstr "Buzia wiewiórka"
+msgstr "emotka wiewiórka"
 
 #. Translators: (F) Flower
 msgid "flower smiley"
-msgstr "Buzia kwiat"
+msgstr "emotka kwiat"
 
 #. Translators: (rain) Raining
 msgid "raining smiley"
-msgstr "Buzia deszcz"
+msgstr "emotkadeszcz"
 
 #. Translators: (sun) Sun
 msgid "sunny smiley"
-msgstr "Buzia słońce"
+msgstr "emotka słońce"
 
 #. Translators: (tumbleweed) Tumbleweed
 msgid "tumbleweed smiley"
-msgstr "Buzia cisza przed burzą"
+msgstr "emotka cisza przed burzą"
 
 #. Translators: (music) Music
 msgid "music smiley"
-msgstr "Buzia muzyka"
+msgstr "emotka muzyka"
 
 #. Translators: (bandit) Bandit
 msgid "bandit smiley"
-msgstr "Buzia bandyta"
+msgstr "emotka  bandyta"
 
 #. Translators: (tmi) Too much information
 msgid "too much information smiley"
-msgstr "Buzia za dużo informacji"
+msgstr "emotka za dużo informacji"
 
 #. Translators: (coffee) Coffee
 msgid "coffee smiley"
-msgstr "Buzia kawa"
+msgstr "emotka kawa"
 
 #. Translators: (pi) Pizza
 msgid "pizza smiley"
-msgstr "Buzia pizza"
+msgstr "emotka pizza"
 
 #. Translators: (^) Cake
 msgid "cake smiley"
-msgstr "Buzia ciastko"
+msgstr "emotka ciastko"
 
 #. Translators: (*) Star
 msgid "star smiley"
-msgstr "Buzia gwiazda"
+msgstr "emotkagwiazda"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
