@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-#Copyright (C) 2013-2018 Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez
+#Copyright (C) 2013-2019 Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez
 # Released under GPL 2
 
 import globalPluginHandler
@@ -10,6 +10,13 @@ import shutil
 import api
 import speechDictHandler
 import ui
+import characterProcessing
+import languageHandler
+import speech
+import braille
+import treeInterceptorHandler
+import textInfos
+import controlTypes
 import core
 import wx
 import gui
@@ -18,7 +25,7 @@ from gui import guiHelper
 from gui.settingsDialogs import NVDASettingsDialog, SettingsPanel, DictionaryDialog
 from smileysList import emoticons
 from skipTranslation import translate
-from globalCommands import SCRCAT_SPEECH, SCRCAT_TOOLS, SCRCAT_CONFIG
+from globalCommands import SCRCAT_SPEECH, SCRCAT_TOOLS, SCRCAT_CONFIG, SCRCAT_TEXTREVIEW
 from scriptHandler import script
 
 addonHandler.initTranslation()
@@ -211,6 +218,62 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def script_settings(self, gesture):
 		wx.CallAfter(self.onSettingsPanel, None)
 
+	@script(
+		# Translators: Message presented in input help mode.
+		description=_("Shows the symbol positioned where the review cursor is located."),
+		category=SCRCAT_TEXTREVIEW
+	)
+	def script_showReviewCursorSymbol(self, gesture):
+		info=api.getReviewPosition().copy()
+		info.expand(textInfos.UNIT_CHARACTER)
+		text = info.text
+		curLanguage = None
+		if config.conf['speech']['autoLanguageSwitching']:
+			for field in info.getTextWithFields({}):
+				if isinstance(field,textInfos.FieldCommand) and field.command=="formatChange":
+					curLanguage=field.field.get('language')
+		if curLanguage is None:
+			curLanguage = speech.getCurrentLanguage()
+		symbolReplacement = characterProcessing.processSpeechSymbol(curLanguage, text)
+		if symbolReplacement == text:
+			# Explicitly tether here (borrowed from NVDA's core)
+			braille.handler.setTether(braille.handler.TETHER_REVIEW, auto=True)
+			speech.speakTextInfo(info,unit=textInfos.UNIT_CHARACTER,reason=controlTypes.REASON_CARET)
+		else:
+			# Translators: title for a browseable message.
+			ui.browseableMessage("%s\n%s" % (text, symbolReplacement), _("Symbol at the review cursor position (%s)" % languageHandler.getLanguageDescription(curLanguage)))
+
+	@script(
+		# Translators: Message presented in input help mode.
+		description=_("Shows the symbol positioned where the caret is located."),
+		category=SCRCAT_TEXTREVIEW
+	)
+	def script_showCaretSymbol(self, gesture):
+		obj=api.getFocusObject()
+		treeInterceptor=obj.treeInterceptor
+		if isinstance(treeInterceptor,treeInterceptorHandler.DocumentTreeInterceptor) and not treeInterceptor.passThrough:
+			obj=treeInterceptor
+		try:
+			info= obj.makeTextInfo(textInfos.POSITION_CARET)
+		except:
+			info = obj.makeTextInfo(textInfos.POSITION_FIRST)
+		info.expand(textInfos.UNIT_CHARACTER)
+		text = info.text
+		curLanguage = None
+		if config.conf['speech']['autoLanguageSwitching']:
+			for field in info.getTextWithFields({}):
+				if isinstance(field,textInfos.FieldCommand) and field.command=="formatChange":
+					curLanguage=field.field.get('language')
+		if curLanguage is None:
+			curLanguage = speech.getCurrentLanguage()
+		symbolReplacement = characterProcessing.processSpeechSymbol(curLanguage, text)
+		if symbolReplacement == text:
+			# Explicitly tether here (borrowed from NVDA's core)
+			braille.handler.setTether(braille.handler.TETHER_REVIEW, auto=True)
+			speech.speakTextInfo(info,unit=textInfos.UNIT_CHARACTER,reason=controlTypes.REASON_CARET)
+		else:
+			# Translators: title for a browseable message.
+			ui.browseableMessage("%s\n%s" % (text, symbolReplacement), _("Symbol at the caret position (%s)" % languageHandler.getLanguageDescription(curLanguage)))
 
 class EmoticonFilter(object):
 	"""Filter for all emoticons."""
