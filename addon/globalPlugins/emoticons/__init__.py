@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-#Copyright (C) 2013-2018 Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez
+#Copyright (C) 2013-2019 Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez
 # Released under GPL 2
 
 import globalPluginHandler
