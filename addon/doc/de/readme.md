@@ -74,9 +74,12 @@ Konfigurationsprofil, das im Titel des Emoticons-Dialogs angezeigt wird.
 
 In den Einstellungen von Emoticons können Sie auswählen, ob das Sprachwörterbuch automatisch aktiviert werden soll, wenn NVDA zu dem Profil wechselt, das Sie gerade bearbeiten. Standardmäßig ist es in der normalen Konfiguration von NVDA und in allen Ihren neuen Profilen deaktiviert.
 
+Moreover, it's possible to determine if the add-on emojis should be
+spoken. This could be useful to preserve symbols speaking if emojis are
+included in NVDA's configuration.
+
 Wenn Sie Ihre Konfigurationsordner sauber halten möchten, können Sie in
 diesem Dialog nicht genutzte Wörterbücher von gelöschten Profilen entfernen.
-
 
 ## Tastenkombinationen: ##
 
@@ -89,9 +92,31 @@ oder den Emoticon-Wörterbuch-Dialog zu öffnen:
   Beschreibungen ersetzt werden sollen.
 * NVDA+I: Zeigt ein Dialogfeld an, aus dem Sie ein Emoticon zum Einfügen
   auswählen können.
+* Not assigned: open a browseable message showing the symbol where the
+  review cursor is positioned, so that the whole description can be reviewed
+  in browse mode.
+* Not assigned: open a browseable message showing the symbol where the caret
+  is positioned, so that the whole description can be reviewed in browse
+  mode.
 
 Hinweis: Unter Windows 10 ist es auch möglich, das integrierte Emoji-Panel
 zu verwenden.
+
+
+## Changes for 10.0 ##
+
+* Added commands to show the symbol where the review cursor or caret are
+  positioned. Gestures for these commands can be assigned from the Input
+  gestures dialog, Text review category.
+
+## Changes for 9.0 ##
+
+* Added the possibility of choosing if add-on emojis should be spoken.
+* Used appropiate encoding for dictionary names, fixing errors when they
+  contain certain characters.
+* The translated summary of the add-on is properly used for the title
+  presented in add-on help, accessible from the add-on manager.
+* Added a note mentioning the emoji panel available on Windows 10.
 
 ## Änderungen für 8.0 ##
 

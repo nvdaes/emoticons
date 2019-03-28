@@ -95,6 +95,24 @@ msgstr "Amosar o diálogo Diccionario de Emoticóns."
 msgid "Shows the Emoticons settings."
 msgstr "Amosa a configuración de emoticóns."
 
+#. Translators: Message presented in input help mode.
+msgid "Shows the symbol positioned where the review cursor is located."
+msgstr ""
+
+#. Translators: title for a browseable message.
+#, python-format
+msgid "Symbol at the review cursor position (%s)"
+msgstr ""
+
+#. Translators: Message presented in input help mode.
+msgid "Shows the symbol positioned where the caret is located."
+msgstr ""
+
+#. Translators: title for a browseable message.
+#, python-format
+msgid "Symbol at the caret position (%s)"
+msgstr ""
+
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"
 msgstr "Insertar emoticón"

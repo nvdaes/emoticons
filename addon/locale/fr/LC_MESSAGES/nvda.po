@@ -97,6 +97,24 @@ msgstr "Afficher le dialogue du dictionnaire des Frimousses."
 msgid "Shows the Emoticons settings."
 msgstr "Afficher les Paramètres des Frimousses."
 
+#. Translators: Message presented in input help mode.
+msgid "Shows the symbol positioned where the review cursor is located."
+msgstr ""
+
+#. Translators: title for a browseable message.
+#, python-format
+msgid "Symbol at the review cursor position (%s)"
+msgstr ""
+
+#. Translators: Message presented in input help mode.
+msgid "Shows the symbol positioned where the caret is located."
+msgstr ""
+
+#. Translators: title for a browseable message.
+#, python-format
+msgid "Symbol at the caret position (%s)"
+msgstr ""
+
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"
 msgstr "Insérer une frimousse"

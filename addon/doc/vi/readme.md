@@ -74,10 +74,13 @@ Từ trình đơn tùy chỉnh của nvda
 
 Trong bảng cài đặt biểu tượng cảm xúc bạn có thể chọn tự động hay không tự động kích hoạt từ điển biểu tượng cảm xúc khi NVDA chuyển đến hồ sơ đang hoạt động. Mặc định, nó bị vô hiệu hóa trong cấu hình bình thường của NVDA và trong tất cả hồ sơ mới của bạn.
 
+Moreover, it's possible to determine if the add-on emojis should be
+spoken. This could be useful to preserve symbols speaking if emojis are
+included in NVDA's configuration.
+
 Nếu bạn muốn giữ sạch thư mục cấu hình của mình, trong hộp thoại này cũng có
 thể chọn nếu từ điển không còn được dùng (tích hợp vào một hồ sơ không tồn
 tại) sẽ bị xóa khỏi add-on khi nó bị tắt.
-
 
 ## Các phím lệnh: ##
 
@@ -88,8 +91,30 @@ biểu tượng cảm xúc:
 * NVDA+E: bật / tắt đọc biểu tượng cảm xúc, chuyển giữa dọc văn bản như nó
   đã được viết hay thay thế bằng biểu tượng cảm xúc.
 * NVDA+I: hiển thị hộp thoại  để chọn biểu tượng muốn sao chép.
+* Not assigned: open a browseable message showing the symbol where the
+  review cursor is positioned, so that the whole description can be reviewed
+  in browse mode.
+* Not assigned: open a browseable message showing the symbol where the caret
+  is positioned, so that the whole description can be reviewed in browse
+  mode.
 
 Lưu ý: trên Windows 10, có thể sử dụng bản nhập biểu tượng cảm xúc dựng sẵn.
+
+
+## Changes for 10.0 ##
+
+* Added commands to show the symbol where the review cursor or caret are
+  positioned. Gestures for these commands can be assigned from the Input
+  gestures dialog, Text review category.
+
+## Changes for 9.0 ##
+
+* Added the possibility of choosing if add-on emojis should be spoken.
+* Used appropiate encoding for dictionary names, fixing errors when they
+  contain certain characters.
+* The translated summary of the add-on is properly used for the title
+  presented in add-on help, accessible from the add-on manager.
+* Added a note mentioning the emoji panel available on Windows 10.
 
 ## Các thay đổi cho phiên bản 8.0 ##
 

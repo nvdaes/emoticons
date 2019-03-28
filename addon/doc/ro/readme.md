@@ -79,11 +79,14 @@ Din meniul Preferințe -> Setări Emoticoane deschide un dialog pentru a configu
 
 Din panoul de setări al Emoticons, puteți dacă ar trebui sau nu ca dicționarul de vorbire să se activeze automat atunci când NVDA se comută la profilul pe care actualmente îl editați. În mod implicit, este dezactivată în configurația normală a NVDA și în toate profilurile dumneavoastră.
 
+Moreover, it's possible to determine if the add-on emojis should be
+spoken. This could be useful to preserve symbols speaking if emojis are
+included in NVDA's configuration.
+
 Dacă doriți să păstrați curate folderele de configurare, în această
 fereastră de dialog este posibil de asemenea să alegeți dacă dicționarele
 care nu sunt utilizate (asociate profilurilor inexistente) vor fi eliminate
 din supliment atunci când nu sunt încărcate.
-
 
 ## Comenzi de tastatură: ##
 
@@ -96,8 +99,30 @@ Emoticons sau dialogul dicționarului de emoticoane:
   descrierea umană.
 * NVDA+I: Arată un dialog pentru a selecta emoticonul pe care vreți să îl
   copiați.
+* Not assigned: open a browseable message showing the symbol where the
+  review cursor is positioned, so that the whole description can be reviewed
+  in browse mode.
+* Not assigned: open a browseable message showing the symbol where the caret
+  is positioned, so that the whole description can be reviewed in browse
+  mode.
 
 Notă: În Windows 10, este posibil să folosiți și panoul de emoji.
+
+
+## Changes for 10.0 ##
+
+* Added commands to show the symbol where the review cursor or caret are
+  positioned. Gestures for these commands can be assigned from the Input
+  gestures dialog, Text review category.
+
+## Changes for 9.0 ##
+
+* Added the possibility of choosing if add-on emojis should be spoken.
+* Used appropiate encoding for dictionary names, fixing errors when they
+  contain certain characters.
+* The translated summary of the add-on is properly used for the title
+  presented in add-on help, accessible from the add-on manager.
+* Added a note mentioning the emoji panel available on Windows 10.
 
 ## Modificări aduse în 8.0 ##
 

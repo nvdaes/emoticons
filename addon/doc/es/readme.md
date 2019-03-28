@@ -75,10 +75,13 @@ Desde el menú Preferencias -> Opciones -> Emoticonos abre un diálogo para conf
 
 En el panel Opciones de Emoticonos puedes elegir si el diccionario de habla se activará o no automáticamente cuando NVDA conmute al perfil que estás editando actualmente. de manera predeterminada está desactivado en la configuración normal de NVDA y en todos tus nuevos perfiles.
 
+Moreover, it's possible to determine if the add-on emojis should be
+spoken. This could be useful to preserve symbols speaking if emojis are
+included in NVDA's configuration.
+
 Si deseas mantener limpias tus carpetas de configuración, en este diálogo
 también es posible elegir si los diccionarios no utilizados (asociados a
 perfiles no existentes) se eliminarán del complemento cuando se descarguen.
-
 
 ## Órdenes de teclado: ##
 
@@ -91,8 +94,30 @@ Diccionario de Emoticonos:
   reemplazados por la descripción humana.
 * NVDA+I: muestra un cuadro de diálogo para seleccionar un emoticono que
   quieras pegar.
+* Not assigned: open a browseable message showing the symbol where the
+  review cursor is positioned, so that the whole description can be reviewed
+  in browse mode.
+* Not assigned: open a browseable message showing the symbol where the caret
+  is positioned, so that the whole description can be reviewed in browse
+  mode.
 
 Nota: en Windows 10, también es posible usar el panel de emojis incorporado.
+
+
+## Changes for 10.0 ##
+
+* Added commands to show the symbol where the review cursor or caret are
+  positioned. Gestures for these commands can be assigned from the Input
+  gestures dialog, Text review category.
+
+## Changes for 9.0 ##
+
+* Added the possibility of choosing if add-on emojis should be spoken.
+* Used appropiate encoding for dictionary names, fixing errors when they
+  contain certain characters.
+* The translated summary of the add-on is properly used for the title
+  presented in add-on help, accessible from the add-on manager.
+* Added a note mentioning the emoji panel available on Windows 10.
 
 ## Cambios para 8.0 ##
 

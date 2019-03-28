@@ -71,10 +71,13 @@ From menu Preferences -> Settings -> Emoticons opens a panel to configure the ac
 
 In Emoticons settings panel you can choose whether or not speech-dictionary should automatically activate when  NVDA switches to the   profile you are currently editing. By default it is disabled in normal configuration of NVDA and in all your new profiles.
 
+Moreover, it's possible to determine if the add-on emojis should be
+spoken. This could be useful to preserve symbols speaking if emojis are
+included in NVDA's configuration.
+
 If you may wish to keep clean your configuration folders, in this dialog it
 is also possible to choose if dictionaries not used (associated with non
 existing profiles) will be removed from the add-on when it is unloaded.
-
 
 ## Prečice ##
 
@@ -85,8 +88,30 @@ new key to open Emoticons settings panel or Emoticon Dictionary dialog:
   written, or with the emoticons replaced by the human description.
 * NVDA+I: otvara prozor za izbor emotikona za kopiranje u privremenu
   memoriju
+* Not assigned: open a browseable message showing the symbol where the
+  review cursor is positioned, so that the whole description can be reviewed
+  in browse mode.
+* Not assigned: open a browseable message showing the symbol where the caret
+  is positioned, so that the whole description can be reviewed in browse
+  mode.
 
 Note: On Windows 10, it's also possible to use the built-in emoji panel.
+
+
+## Changes for 10.0 ##
+
+* Added commands to show the symbol where the review cursor or caret are
+  positioned. Gestures for these commands can be assigned from the Input
+  gestures dialog, Text review category.
+
+## Changes for 9.0 ##
+
+* Added the possibility of choosing if add-on emojis should be spoken.
+* Used appropiate encoding for dictionary names, fixing errors when they
+  contain certain characters.
+* The translated summary of the add-on is properly used for the title
+  presented in add-on help, accessible from the add-on manager.
+* Added a note mentioning the emoji panel available on Windows 10.
 
 ## Changes for 8.0 ##
 

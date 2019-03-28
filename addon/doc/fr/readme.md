@@ -79,11 +79,14 @@ dialogue Dictionnaire des frimousses.
 
 Dans le panneau  Paramètres des Frimousses, vous pouvez choisir si le dictionnaire de parole doit ou non être activé automatiquement lorsque NVDA bascule sur le profil que vous êtes en train d'éditer. Par défaut, il est désactivé dans la configuration normale de NVDA et dans tous vos nouveaux profils.
 
+Moreover, it's possible to determine if the add-on emojis should be
+spoken. This could be useful to preserve symbols speaking if emojis are
+included in NVDA's configuration.
+
 Si vous souhaitez garder propres vos dossiers de configuration, vous pouvez
 également choisir dans ce dialogue si les dictionnaires non utilisés
 (associés à des profils non existants) seront supprimés de l'extension
 lorsqu'il est déchargé.
-
 
 ## Raccourcis clavier : ##
 
@@ -96,9 +99,31 @@ dialogue Dictionnaire des frimousses :
   frimousses remplacées par leur description humaine.
 * NVDA+I : affiche un dialogue pour choisir la frimousse que vous souhaitez
   copier.
+* Not assigned: open a browseable message showing the symbol where the
+  review cursor is positioned, so that the whole description can be reviewed
+  in browse mode.
+* Not assigned: open a browseable message showing the symbol where the caret
+  is positioned, so that the whole description can be reviewed in browse
+  mode.
 
 Note : Sous Windows 10, il est également possible d’utiliser le panneau
 emoji intégré.
+
+
+## Changes for 10.0 ##
+
+* Added commands to show the symbol where the review cursor or caret are
+  positioned. Gestures for these commands can be assigned from the Input
+  gestures dialog, Text review category.
+
+## Changes for 9.0 ##
+
+* Added the possibility of choosing if add-on emojis should be spoken.
+* Used appropiate encoding for dictionary names, fixing errors when they
+  contain certain characters.
+* The translated summary of the add-on is properly used for the title
+  presented in add-on help, accessible from the add-on manager.
+* Added a note mentioning the emoji panel available on Windows 10.
 
 ## Changements pour la version 8.0 ##
 
