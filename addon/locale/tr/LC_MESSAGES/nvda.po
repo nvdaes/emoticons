@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons' '5.3\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-19 18:53+0100\n"
-"PO-Revision-Date: 2018-12-24 09:35+0300\n"
+"PO-Revision-Date: 2019-04-03 16:25+0300\n"
 "Last-Translator: Çağrı Doğan <cagrid@hotmail.com>\n"
 "Language-Team: Translators <cagrid@hotmail.com>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.2.1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../../globalPlugins\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -99,21 +99,23 @@ msgstr "İfadeler ayarlarını gösterir."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the review cursor is located."
-msgstr ""
+msgstr "İnceleme imlecinin bulunduğu konumdaki sembolü gösterir."
 
 #. Translators: title for a browseable message.
 #, python-format
 msgid "Symbol at the review cursor position (%s)"
-msgstr ""
+msgstr "İnceleme imleci konumundaki sembol (%s)"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the caret is located."
 msgstr ""
+"Düzenleme imlecinin bulunduğu konumdaki sembolü gösterir.Shows the symbol "
+"positioned where the caret is located."
 
 #. Translators: title for a browseable message.
 #, python-format
 msgid "Symbol at the caret position (%s)"
-msgstr ""
+msgstr "Düzenleme imleci konumundaki sembol (%s)"
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"

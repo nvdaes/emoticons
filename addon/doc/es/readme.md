@@ -75,9 +75,9 @@ Desde el menú Preferencias -> Opciones -> Emoticonos abre un diálogo para conf
 
 En el panel Opciones de Emoticonos puedes elegir si el diccionario de habla se activará o no automáticamente cuando NVDA conmute al perfil que estás editando actualmente. de manera predeterminada está desactivado en la configuración normal de NVDA y en todos tus nuevos perfiles.
 
-Moreover, it's possible to determine if the add-on emojis should be
-spoken. This could be useful to preserve symbols speaking if emojis are
-included in NVDA's configuration.
+Aún más, es posible determinar si los emojis del complemento deberían
+hablarse. Esto podría ser útil para preservar el habla de símbolos si los
+emojis se incluyen en la configuración de NVDA.
 
 Si deseas mantener limpias tus carpetas de configuración, en este diálogo
 también es posible elegir si los diccionarios no utilizados (asociados a
@@ -94,30 +94,32 @@ Diccionario de Emoticonos:
   reemplazados por la descripción humana.
 * NVDA+I: muestra un cuadro de diálogo para seleccionar un emoticono que
   quieras pegar.
-* Not assigned: open a browseable message showing the symbol where the
-  review cursor is positioned, so that the whole description can be reviewed
-  in browse mode.
-* Not assigned: open a browseable message showing the symbol where the caret
-  is positioned, so that the whole description can be reviewed in browse
-  mode.
+* Sin asignar: Abrir un mensaje navegable mostrando el símbolo donde el
+  cursor de revisión está posicionado, de forma que se pueda revisar la
+  descripción completa en modo exploración.
+* Sin asignar: Abrir un mensaje navegable mostrando el símbolo donde el
+  cursor está posicionado, de forma que se pueda revisar la descripción
+  completa en modo exploración.
 
 Nota: en Windows 10, también es posible usar el panel de emojis incorporado.
 
 
-## Changes for 10.0 ##
+## Cambios para 10.0 ##
 
-* Added commands to show the symbol where the review cursor or caret are
-  positioned. Gestures for these commands can be assigned from the Input
-  gestures dialog, Text review category.
+* Añadido comando para mostrar el símbolo donde el cursor de revisión o del
+  sistema están posicionados. Se pueden asignar gestos a estos comandos
+  desde el diálogo Gestos de entrada, categoría Revisión de texto.
 
-## Changes for 9.0 ##
+## Cambios para 9.0 ##
 
-* Added the possibility of choosing if add-on emojis should be spoken.
-* Used appropiate encoding for dictionary names, fixing errors when they
-  contain certain characters.
-* The translated summary of the add-on is properly used for the title
-  presented in add-on help, accessible from the add-on manager.
-* Added a note mentioning the emoji panel available on Windows 10.
+* Añadida la posibilidad de elegir si se hablarán los emojis del
+  complemento.
+* Se usa la codificación apropiada para nombres de diccionario, solucionando
+  errores cuando contienen ciertos caracteres.
+* El resumen traducido del complemento se usa adecuadamente para el título
+  presentado en la ayuda del complemento, accesible desde el administrador
+  de complementos.
+* Añadida una nota mencionando el panel de emoji disponible en Windows 10.
 
 ## Cambios para 8.0 ##
 

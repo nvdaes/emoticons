@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 18:37+0100\n"
-"PO-Revision-Date: 2018-12-21 08:24+0200\n"
+"PO-Revision-Date: 2019-03-29 08:01+0200\n"
 "Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
 "Language-Team: Finnish <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -97,21 +97,21 @@ msgstr "Näyttää Hymiöt-lisäosan asetukset."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the review cursor is located."
-msgstr ""
+msgstr "Näyttää tarkastelukohdistimen kohdalla olevan symbolin."
 
 #. Translators: title for a browseable message.
 #, python-format
 msgid "Symbol at the review cursor position (%s)"
-msgstr ""
+msgstr "Symboli tarkastelukohdistimen kohdalla (%s)"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the caret is located."
-msgstr ""
+msgstr "Näyttää järjestelmäkohdistimen kohdalla olevan symbolin."
 
 #. Translators: title for a browseable message.
 #, python-format
 msgid "Symbol at the caret position (%s)"
-msgstr ""
+msgstr "Symboli järjestelmäkohdistimen kohdalla (%s)"
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"

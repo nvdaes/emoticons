@@ -52,9 +52,7 @@ emoticons子文件夹中。
 
 在“表情符号设置”面板中，您可以选择在NVDA切换到当前正在编辑的配置文件时是否应自动激活语音字典。默认情况下，它在NVDA的正常配置和所有新配置文件中都被禁用。
 
-Moreover, it's possible to determine if the add-on emojis should be
-spoken. This could be useful to preserve symbols speaking if emojis are
-included in NVDA's configuration.
+此外, 还可以确定是否应该读出插件内的表情。如果在 NVDA 的配置中包含表情符号, 这可能会很有用。
 
 如果您可能希望保持清洁配置目录，则在此对话框中还可以选择是否在卸载时从插件中删除未使用的字典（与非现有配置文件关联）。
 
@@ -64,43 +62,35 @@ included in NVDA's configuration.
 
 * NVDA + E：开启/关闭表情符号朗读。
 * NVDA + I：显示对话框，用于选择要复制的表情。
-* Not assigned: open a browseable message showing the symbol where the
-  review cursor is positioned, so that the whole description can be reviewed
-  in browse mode.
-* Not assigned: open a browseable message showing the symbol where the caret
-  is positioned, so that the whole description can be reviewed in browse
-  mode.
+* 未分配: 打开显示浏览光标所在位置的符号的可浏览消息, 以便可以在浏览模式下浏览整个描述。
+* 未分配: 打开显示插入符号所在位置的符号的可浏览消息, 以便可以在浏览模式下查看整个描述。
 
 注意：在Windows 10上，也可以使用内置表情符号面板。
 
 
-## Changes for 10.0 ##
+## 10.0更新日志 ##
 
-* Added commands to show the symbol where the review cursor or caret are
-  positioned. Gestures for these commands can be assigned from the Input
-  gestures dialog, Text review category.
+* 添加了命令, 以显示浏览光标或插入符号所在的符号。可以从 "输入手势" 对话框 "文本浏览分类分配这些命令的手势。
 
-## Changes for 9.0 ##
+## 9.0更新日志 ##
 
-* Added the possibility of choosing if add-on emojis should be spoken.
-* Used appropiate encoding for dictionary names, fixing errors when they
-  contain certain characters.
-* The translated summary of the add-on is properly used for the title
-  presented in add-on help, accessible from the add-on manager.
-* Added a note mentioning the emoji panel available on Windows 10.
+* 新增选择是否应该朗读插件内的表情。
+* 对字典名称使用适当的编码, 在错误包含某些字符时修复错误。
+* 插件的翻译摘要被正确地用于插件帮助中提供的标题, 可从插件管理器访问。
+* 添加了一个提示, 其中提到了 Windows 10 上提供的表情符号面板。
 
-## 版本8.0 ##
+## 8.0更新日志 ##
 
 * 兼容NVDA 2018.3或更高版本（必需）。
 
-## 版本7.0 ##
+## 7.0更新日志 ##
 
 * 激活设置对话框已移至NVDA设置，现在配置文件将显示在NVDA设置对话框的标题中。
 * 管理表情符号菜单已被删除：现在可以在“工具”菜单下找到“插入表情符号”，“自定义表情符号”将显示在“表情词典”下的“语音词典”中。
 * 现在需要NVDA 2018.2或更高版本。
 * 如果需要使用旧版本，您可以下载[与NVDA 2017.3兼容的最新版本] [3]。
 
-## 版本6.0 ##
+## 6.0更新日志 ##
 
 * 添加了对配置文件的支持。
 * 在NVDA
@@ -108,33 +98,33 @@ included in NVDA's configuration.
   NVDA + f3）。
 * 如果您在更新插件时选择导入设置，则会删除或已弃用此版本的（emoticons.ini和emoticons.dic）文件。
 
-## 版本5.0 ##
+## 5.0更新日志 ##
 
 * 添加了对表情符号的支持。
 * Insert Emoticon对话框的改进，带有过滤器字段和单选按钮，用于选择显示的表情符号。
 * 使用guiHelper激活设置对话框和插入表情符号对话框：需要NVDA 2016.4或更高版本
 
-## 版本4.0 ##
+## 4.0更新日志 ##
 
 * 如果在另一个设置对话框处于活动状态时打开了“插入表情”对话框，NVDA将显示相应的错误消息。
 
 
-## 版本3.0 ##
+## 3.0更新日志 ##
 
 * 根据NVDA 2014.4的语音词典，在“自定义表情符号”对话框中，现在可以指定模式只应匹配，如果它是一个完整的单词。
 
 
-## 版本2.0 ##
+## 2.0更新日志 ##
 
 * 插件管理器现在提供了插件帮助。
 
 
-## 版本1.1 ##
+## 1.1更新日志 ##
 
 * 删除了重复的表情符号。
 * 添加了一些表情。
 
-## 版本1.0 ##
+## 1.0更新日志 ##
 
 * 发布初始版本。
 

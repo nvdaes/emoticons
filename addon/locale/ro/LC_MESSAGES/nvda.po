@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 4.4\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2016-02-12 05:00+1000\n"
-"PO-Revision-Date: 2018-12-22 11:06+0200\n"
+"PO-Revision-Date: 2019-03-29 22:42+0200\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -96,21 +96,21 @@ msgstr "Arată setările Emoticons."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the review cursor is located."
-msgstr ""
+msgstr "Arată simbolul poziționat la locația cursorului de examinare."
 
 #. Translators: title for a browseable message.
 #, python-format
 msgid "Symbol at the review cursor position (%s)"
-msgstr ""
+msgstr "Simbol la poziția cursorului de scriere (%s)"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the caret is located."
-msgstr ""
+msgstr "Arată simboluul poziționat la locația cursorului de scriere."
 
 #. Translators: title for a browseable message.
 #, python-format
 msgid "Symbol at the caret position (%s)"
-msgstr ""
+msgstr "Simbol la poziția cursorului de scriere (%s)"
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"
