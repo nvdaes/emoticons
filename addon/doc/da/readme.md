@@ -73,9 +73,9 @@ Fra menuen Præferencer>Indstillinger>Emoticons åbnes et panel, hvor du konfigu
 
 I indstillingspanelet for Emoticons kan du vælge, om NVDA automatisk skal aktivere udtaleordbøger, når du skifter til den profil du er i færd med at redigere. Som standard er dette slået fra i den normale konfiguration af NVDA og alle dine nyoprettede indstillingsprofiler.
 
-Moreover, it's possible to determine if the add-on emojis should be
-spoken. This could be useful to preserve symbols speaking if emojis are
-included in NVDA's configuration.
+Desuden er det muligt at afgøre, om emojis der genkendes af tilføjelsen skal
+oplyses. Dette kan være nyttigt at bevare symboler, hvis emojis er
+inkluderet i NVDAs konfiguration.
 
 Hvis du ønsker at holde konfigurationsmapperne rene, vil det også være
 muligt i denne dialog at vælge om ubrugte ordbøger (tilhørende
@@ -90,30 +90,30 @@ Emoticons eller dialogen til styrelse af Emoticons-ordbøger.
 * NVDA+e: Skifter mellem at udtale tekst, som den er skrevet, eller med
   humørikonerne erstattet med den brugervenlige beskrivelse.
 * NVDA+i: Viser en dialog, hvor du kan vælge et humørikon, du vil kopiere.
-* Not assigned: open a browseable message showing the symbol where the
-  review cursor is positioned, so that the whole description can be reviewed
-  in browse mode.
-* Not assigned: open a browseable message showing the symbol where the caret
-  is positioned, so that the whole description can be reviewed in browse
-  mode.
+* Ikke tildelt: Åbn et vindue, der viser symbolet, hvor læsemarkøren er
+  placeret, så hele beskrivelsen kan gennemgås i gennemsynstilstand.
+* Ikke tildelt: Åbn et vindue, der viser symbolet, hvor systemmarkøren er
+  placeret, så hele beskrivelsen kan gennemgås i gennemsynstilstand.
 
 Bemærk: I Windows 10 er det også muligt at bruge det indbyggede emoji-panel.
 
 
-## Changes for 10.0 ##
+## Ændringer for 10.0 ##
 
-* Added commands to show the symbol where the review cursor or caret are
-  positioned. Gestures for these commands can be assigned from the Input
-  gestures dialog, Text review category.
+* Tilføjede kommandoer for at vise symbolet, hvor system- eller læsemarkøren
+  er placeret. Kommandoer for disse kan tildeles fra dialogboksen
+  Inputbevægelser, kategorien Tekstlæsning.
 
-## Changes for 9.0 ##
+## Ændringer for 9.0 ##
 
-* Added the possibility of choosing if add-on emojis should be spoken.
-* Used appropiate encoding for dictionary names, fixing errors when they
-  contain certain characters.
-* The translated summary of the add-on is properly used for the title
-  presented in add-on help, accessible from the add-on manager.
-* Added a note mentioning the emoji panel available on Windows 10.
+* Tilføjet muligheden for at vælge, om emojis genkendt af tilføjelsen skal
+  oplyses.
+* Brugt passende kodning for ordbognavne, retttede  fejl, når de indeholder
+  bestemte tegn.
+* Den oversatte beskrivelse af tilføjelsen bruges korrekt til titlen, der
+  præsenteres i tilføjelseshjælp, tilgængelig fra styringen af
+  tilføjelsespakker.
+* Tilføjet en bemærkning der nævner emoji-panelet tilgængeligt i Windows 10.
 
 ## ændringer i 8.0 ##
 

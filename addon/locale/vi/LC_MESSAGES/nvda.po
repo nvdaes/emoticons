@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 5.2\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2017-02-03 05:00+1000\n"
-"PO-Revision-Date: 2018-12-21 09:45+0700\n"
+"PO-Revision-Date: 2019-04-03 14:30+0700\n"
 "Last-Translator: Dang Manh Cuong <dangmanhcuong@gmail.com>\n"
 "Language-Team: Sao Mai <info@saomaicenter.org>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 1.6.11\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -60,7 +60,7 @@ msgstr "Hiển thị một hộp thoại để chèn biểu tượng cảm xúc"
 
 #. Translators: the name for a menu item.
 msgid "&Emoticons dictionary..."
-msgstr "&Từ điển biểu tượng cảm xúc"
+msgstr "&Từ điển biểu tượng cảm xúc..."
 
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
@@ -88,7 +88,7 @@ msgstr "Hiển thị một hộp thoại  để chọn biểu tượng cảm xú
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons dictionary dialog."
-msgstr "hiện hộp thoại từ điển biểu tượng cảm xúc."
+msgstr "Hiện hộp thoại từ điển biểu tượng cảm xúc."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons settings."
@@ -96,30 +96,30 @@ msgstr "Hiển thị hộp thoại cài đặt biểu tượng cảm xúc."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the review cursor is located."
-msgstr ""
+msgstr "Chỉ ra vị trí kí hiệu mà con trỏ duyệt đã xác định."
 
 #. Translators: title for a browseable message.
 #, python-format
 msgid "Symbol at the review cursor position (%s)"
-msgstr ""
+msgstr "Kí hiệu ở vị trí con trỏ duyệt (%s)"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the caret is located."
-msgstr ""
+msgstr "Chỉ ra vị trí kí hiệu mà dấu nhay đã xác định."
 
 #. Translators: title for a browseable message.
 #, python-format
 msgid "Symbol at the caret position (%s)"
-msgstr ""
+msgstr "Kí hiệu ở vị trí dấu nháy (%s)"
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"
-msgstr "Chèn biểu tượng cảm xúc..."
+msgstr "Chèn biểu tượng cảm xúc"
 
 #. Filter panel.
 #. Translators: A text field to filter emoticons.
 msgid "&Filter:"
-msgstr "&lọc"
+msgstr "&lọc:"
 
 #. Translators: A radio button to choose all types of emoticons.
 msgid "&All"
@@ -164,7 +164,7 @@ msgstr "Đã chép biểu tượng cảm xúc vào bộ nhớ tạm, sẵn sàng
 
 #. Translators: Message when the emoticon couldn't be copied.
 msgid "Cannot copy smiley."
-msgstr "Không thể chép biểu tượng cảm xúc"
+msgstr "Không thể chép biểu tượng cảm xúc."
 
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Rese&t"
@@ -200,7 +200,7 @@ msgstr "Mặt hạnh phúc mở miệng"
 
 #. Translators: (emoji) A smiling face with smiling eyes and rosy cheeks.
 msgid "Smiling Face With Smiling Eyes"
-msgstr "mặt vui với mắt cười"
+msgstr "Mặt vui với mắt cười"
 
 #. Translators: (emoji) smirking face.
 msgid "Smirking face"
@@ -256,7 +256,7 @@ msgstr "Hôn khuôn mặt với đôi mắt khép kín"
 
 #. Translators: (emoji) Kissing face.
 msgid "Kissing face"
-msgstr "mặt đang hôn"
+msgstr "Mặt đang hôn"
 
 #. Translators: (emoji) kissing face with arched eyes.
 msgid "Kissing face with arched eyes"
@@ -477,7 +477,7 @@ msgstr "Tim xanh dương"
 
 #. Translators: (emoji) This emoji is the version of the phrase ROFL. A person lying on the floor due to an extreme amount of laughter.
 msgid "Rolling on the Floor Laughing"
-msgstr "cười bò ra sàn"
+msgstr "Cười bò ra sàn"
 
 #. Translators: (emoji) A face that is a little bit sad, with a slight frown and neutral eyes.
 msgid "Slightly Frowning Face"
@@ -485,7 +485,7 @@ msgstr "Mặt hơi cau mày"
 
 #. Translators: (emoji) A face that is upside-down.
 msgid "Upside-down Face"
-msgstr "mặt phân vân"
+msgstr "Mặt phân vân"
 
 #. Translators: (emoji) A face displaying eyes glancing upward.
 msgid "Face With Rolling Eyes"
@@ -660,7 +660,7 @@ msgstr "Mèo"
 
 #. Translators: (-.-)ZZZ Iӭ Sleepy
 msgid "I am Sleepy smiley"
-msgstr "tôi buồn ngủ"
+msgstr "Tôi buồn ngủ"
 
 #. Translators: 8-) Glasses
 msgid "glasses smiley"
@@ -712,7 +712,7 @@ msgstr "nôn"
 
 #. Translators: (doh) Doh!
 msgid "doh! smiley"
-msgstr "doh!"
+msgstr "doh! smiley"
 
 #. Translators: (wasntme) It wasn't me!
 msgid "it wasn't me! smiley"
@@ -724,7 +724,7 @@ msgstr "bữa tiệc"
 
 #. Translators: (mm) Mmmm...
 msgid "mmmmmm... smiley"
-msgstr "ngập ngừng..."
+msgstr "ngập ngừng... biểu tượn"
 
 #. Translators: (nerd) Nerdy
 msgid "nerdy smiley"
@@ -784,7 +784,7 @@ msgstr "cười bò ra sàn nhà"
 
 #. Translators: (whew) Relieved
 msgid "relieved smiley"
-msgstr "an tâm"
+msgstr "bỉu tượng an tâm"
 
 #. Translators: (happy) Happy
 msgid "happy smiley"
