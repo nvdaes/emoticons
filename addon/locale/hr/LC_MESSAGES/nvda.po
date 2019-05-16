@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 1.1-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2014-04-11 05:05+0100\n"
-"PO-Revision-Date: 2019-03-22 12:59+0100\n"
+"PO-Revision-Date: 2019-05-16 16:02+0100\n"
 "Last-Translator: tea turkovic <tturkovi@gmail.com>\n"
 "Language-Team: HR <hrvojekatic@gmail.com>\n"
 "Language: hr\n"
@@ -97,21 +97,21 @@ msgstr "Prikazuje postavke dodatka."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the review cursor is located."
-msgstr ""
+msgstr "Prikazuje lokaciju simbola pod preglednim kursorom."
 
 #. Translators: title for a browseable message.
 #, python-format
 msgid "Symbol at the review cursor position (%s)"
-msgstr ""
+msgstr "simbol pod preglednik kursorom (%s)"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the caret is located."
-msgstr ""
+msgstr "Prikazuje simbol tamo gdje se nalazi sustavski kursor."
 
 #. Translators: title for a browseable message.
 #, python-format
 msgid "Symbol at the caret position (%s)"
-msgstr ""
+msgstr "znak na poziciji sustavskog pokazivača (%s)"
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"
