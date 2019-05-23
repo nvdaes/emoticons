@@ -4,7 +4,7 @@
   Estrada Martínez
 * NVDA-Kompatibilität: 2018.3 bis 2019.1
 * [Stabile Version herunterladen][1]
-* [Entwicklungsversion herunterladen][2]
+* [Entwicklerversion herunterladen][2]
 
 Diese Erweiterung ersetzt Emoticons durch besser verständliche
 Beschreibungen.
