@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 20:13+0100\n"
-"PO-Revision-Date: 2018-12-23 19:34+0530\n"
+"PO-Revision-Date: 2019-05-26 10:18+0530\n"
 "Last-Translator: DINAKAR T.D. <td.dinkar@gmail.com>\n"
 "Language-Team: DINAKAR T.D. <td.dinkar@gmail.com>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.6.11\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -96,21 +96,21 @@ msgstr "உணர்வுருக்கள் அமைப்புகளை�
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the review cursor is located."
-msgstr ""
+msgstr "சீராய்வுச் சுட்டி இருக்குமிடத்தில் அமைந்திருக்கும் குறியீட்டினைக் காட்டுகிறது."
 
 #. Translators: title for a browseable message.
 #, python-format
 msgid "Symbol at the review cursor position (%s)"
-msgstr ""
+msgstr "சீராய்வுச் சுட்டி இருக்குமிடத்தில் அமைந்திருக்கும் குறியீடு: %s"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the caret is located."
-msgstr ""
+msgstr "கணினிச் சுட்டி இருக்குமிடத்தில் அமைந்திருக்கும் குறியீட்டினைக் காட்டுகிறது."
 
 #. Translators: title for a browseable message.
 #, python-format
 msgid "Symbol at the caret position (%s)"
-msgstr ""
+msgstr "கணினிச் சுட்டி இருக்குமிடத்தில் அமைந்திருக்கும் குறியீடு: %s"
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"
