@@ -103,20 +103,23 @@ Hinweis: Unter Windows 10 ist es auch möglich, das integrierte Emoji-Panel
 zu verwenden.
 
 
-## Changes for 10.0 ##
+## Änderungen in 10.0 ##
 
 * Added commands to show the symbol where the review cursor or caret are
   positioned. Gestures for these commands can be assigned from the Input
   gestures dialog, Text review category.
 
-## Changes for 9.0 ##
+## Änderungen für 9.0 ##
 
-* Added the possibility of choosing if add-on emojis should be spoken.
+* Man kann nun zu wählen, ob Emojis (die in der Erweiterung enthalten sind)
+  gesprochen werden sollen.
 * Used appropiate encoding for dictionary names, fixing errors when they
   contain certain characters.
-* The translated summary of the add-on is properly used for the title
-  presented in add-on help, accessible from the add-on manager.
-* Added a note mentioning the emoji panel available on Windows 10.
+* Die übersetzte Zusammenfassung der Erweiterung wird ordnungsgemäß für den
+  Titel verwendet, der in der Erweiterungshilfe angezeigt wird und auf den
+  über den Erweiterungs-Verwalter zugegriffen werden kann.
+* Es wurde eine Notiz hinzugefügt, in der das Emoji-Panel unter Windows 10
+  erwähnt wird.
 
 ## Änderungen für 8.0 ##
 
