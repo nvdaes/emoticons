@@ -64,6 +64,9 @@ These are the key commands available by default, you can edit those or add new k
 
 Note: On Windows 10, it's also possible to use the built-in emoji panel.
 
+## Changes for 11.0 ##
+
+* When the add-on is updated, dictionaries saved in the previous version of the add-on will be automatically copied to the new version, unless you prefer to import dictionaries saved in the main dictionaries folder of NVDA.
 
 ## Changes for 10.0 ##
 

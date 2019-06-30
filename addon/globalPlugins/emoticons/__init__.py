@@ -218,6 +218,18 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def script_settings(self, gesture):
 		wx.CallAfter(self.onSettingsPanel, None)
 
+
+	# Borrowed from NVDA's code.
+	def _getCurrentLanguageForTextInfo(self, info):
+		curLanguage = None
+		if config.conf['speech']['autoLanguageSwitching']:
+			for field in info.getTextWithFields({}):
+				if isinstance(field, textInfos.FieldCommand) and field.command == "formatChange":
+					curLanguage = field.field.get('language')
+		if curLanguage is None:
+			curLanguage = speech.getCurrentLanguage()
+		return curLanguage
+
 	@script(
 		# Translators: Message presented in input help mode.
 		description=_("Shows the symbol positioned where the review cursor is located."),
@@ -226,22 +238,19 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def script_showReviewCursorSymbol(self, gesture):
 		info=api.getReviewPosition().copy()
 		info.expand(textInfos.UNIT_CHARACTER)
+		curLanguage = self._getCurrentLanguageForTextInfo(info)
 		text = info.text
-		curLanguage = None
-		if config.conf['speech']['autoLanguageSwitching']:
-			for field in info.getTextWithFields({}):
-				if isinstance(field,textInfos.FieldCommand) and field.command=="formatChange":
-					curLanguage=field.field.get('language')
-		if curLanguage is None:
-			curLanguage = speech.getCurrentLanguage()
-		symbolReplacement = characterProcessing.processSpeechSymbol(curLanguage, text)
-		if symbolReplacement == text:
-			# Explicitly tether here (borrowed from NVDA's core)
-			braille.handler.setTether(braille.handler.TETHER_REVIEW, auto=True)
-			speech.speakTextInfo(info,unit=textInfos.UNIT_CHARACTER,reason=controlTypes.REASON_CARET)
-		else:
-			# Translators: title for a browseable message.
-			ui.browseableMessage("%s\n%s" % (text, symbolReplacement), _("Symbol at the review cursor position (%s)" % languageHandler.getLanguageDescription(curLanguage)))
+		expandedSymbol = characterProcessing.processSpeechSymbol(curLanguage, text)
+		if expandedSymbol == text:
+			# Translators: Reported when there is no replacement for the symbol at the position of the review cursor.
+			ui.message(_("No symbol replacement"))
+			return
+		# Translators: Character and its replacement used from the "Review current Symbol" command. Example: "Character: ? Replacement: question"
+		message = _("Character: {}\nReplacement: {}").format(text, expandedSymbol)
+		languageDescription = languageHandler.getLanguageDescription(curLanguage)
+		# Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
+		title = _("Expanded symbol at the review cursor ({})").format(languageDescription)
+		ui.browseableMessage(message, title)
 
 	@script(
 		# Translators: Message presented in input help mode.
@@ -258,22 +267,21 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		except:
 			info = obj.makeTextInfo(textInfos.POSITION_FIRST)
 		info.expand(textInfos.UNIT_CHARACTER)
+		curLanguage = self._getCurrentLanguageForTextInfo(info)
 		text = info.text
-		curLanguage = None
-		if config.conf['speech']['autoLanguageSwitching']:
-			for field in info.getTextWithFields({}):
-				if isinstance(field,textInfos.FieldCommand) and field.command=="formatChange":
-					curLanguage=field.field.get('language')
-		if curLanguage is None:
-			curLanguage = speech.getCurrentLanguage()
-		symbolReplacement = characterProcessing.processSpeechSymbol(curLanguage, text)
-		if symbolReplacement == text:
-			# Explicitly tether here (borrowed from NVDA's core)
-			braille.handler.setTether(braille.handler.TETHER_REVIEW, auto=True)
-			speech.speakTextInfo(info,unit=textInfos.UNIT_CHARACTER,reason=controlTypes.REASON_CARET)
-		else:
-			# Translators: title for a browseable message.
-			ui.browseableMessage("%s\n%s" % (text, symbolReplacement), _("Symbol at the caret position (%s)" % languageHandler.getLanguageDescription(curLanguage)))
+		expandedSymbol = characterProcessing.processSpeechSymbol(curLanguage, text)
+		if expandedSymbol == text:
+			# Translators: Reported when there is no replacement for the symbol at the position of the caret.
+			ui.message(_("No symbol replacement"))
+			return
+		# Translators: Character and its replacement used from the "Review current Symbol" command. Example: "Character: ? Replacement: question"
+		message = _("Character: {}\nReplacement: {}").format(text, expandedSymbol)
+		languageDescription = languageHandler.getLanguageDescription(curLanguage)
+		# Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
+		title = _("Expanded symbol at the caret position({})").format(languageDescription)
+		ui.browseableMessage(message, title)
+
+
 
 class EmoticonFilter(object):
 	"""Filter for all emoticons."""
