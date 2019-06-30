@@ -249,7 +249,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		message = _("Character: {}\nReplacement: {}").format(text, expandedSymbol)
 		languageDescription = languageHandler.getLanguageDescription(curLanguage)
 		# Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
-		title = _("Expanded symbol at the review cursor ({})").format(languageDescription)
+		title = _("Symbol at the review cursor position ({})").format(languageDescription)
 		ui.browseableMessage(message, title)
 
 	@script(
@@ -278,7 +278,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		message = _("Character: {}\nReplacement: {}").format(text, expandedSymbol)
 		languageDescription = languageHandler.getLanguageDescription(curLanguage)
 		# Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
-		title = _("Expanded symbol at the caret position({})").format(languageDescription)
+		title = _("Symbol at the caret position ({})").format(languageDescription)
 		ui.browseableMessage(message, title)
 
 
