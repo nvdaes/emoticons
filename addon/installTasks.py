@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-#Copyright (C) 2013-2018 Noelia Ruiz Martínez, other contributors
+#Copyright (C) 2013-2019 Noelia Ruiz Martínez, other contributors
 # Released under GPL2
 
 import config
@@ -21,7 +21,7 @@ def onInstall():
 	import shutil
 	import gui
 	import wx
-	ADDON_DICTS_PATH = os.path.join(os.path.dirname(__file__), "globalPlugins", "emoticons", "emoticons")
+	ADDON_DICTS_PATH = os.path.join(os.path.dirname(__file__), "globalPlugins", "emoticons", "emoticons").decode("mbcs")
 	EXPORT_DICTS_PATH = os.path.join(speechDictHandler.speechDictsPath, "emoticons")
 	for addon in addonHandler.getAvailableAddons():
 		if addon.manifest['name'] == "Emoticons":
@@ -59,3 +59,7 @@ def onInstall():
 						os.remove(os.path.join(globalVars.appArgs.configPath, "emoticons.ini"))
 					except:
 						pass
+				return
+	previousDictsPath = os.path.join(globalVars.appArgs.configPath, "addons", "emoticons", "globalPlugins", "emoticons", "emoticons")
+	if os.path.isdir(previousDictsPath):
+		shutil.copytree(previousDictsPath, ADDON_DICTS_PATH)
