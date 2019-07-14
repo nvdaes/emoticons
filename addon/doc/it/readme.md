@@ -76,10 +76,13 @@ Dal menu preferenze > Impostazioni, è possibile visualizzare le impostazioni Em
 
 Nel pannello impostazioni Emoticons è possibile scegliere se attivare o meno il dizionario per il profilo in fase di modifica. Di default è disattivato sia per la configurazione normale che per tutti i nuovi profili.
 
+È inoltre possibile decidere se far leggere gli emoji dal componente
+aggiuntivo, oppure mantenere la lettura degli emoji dalla configurazione di
+NVDA.
+
 Se si preferisce tenere  pulita la cartella di configurazione, è possibile
 rimuovere i dizionari non utilizzati (quelli associati ad un profilo
 eliminato) e che non vengono caricati.
-
 
 ## Comandi rapidi: ##
 
@@ -90,8 +93,30 @@ Emoticons:
 * NVDA+E: Attiva o disattiva la lettura degli emoticon.
 * NVDA+I: visualizza una finestra di dialogo per selezionare un emoticon che
   si desidera copiare negli appunti.
+* Non assegnato: apre un messaggio visualizzabile con il carattere alla
+  posizione del cursore di controllo e la sua descrizione per esteso.
+* Non assegnato: apre un messaggio visualizzato con il carattere alla
+  posizione del cursore  e la sua descrizione per esteso.
 
 Nota: In Windows 10 è possibile utilizzare la finestra per inserire emoji. 
+
+
+## Changes for 10.0 ##
+
+* Aggiunti scrit per mostrare il carattere e la sua descrizione alla
+  posizione del cursore di sistema o del cursore di controllo. È possibile
+  assegnare un comando dalla finestra Gesti e tasti di immissione sotto la
+  categoria Revisione del Testo.
+
+## Changes for 9.0 ##
+
+* Aggiunta la possibilità di scegliere se gli emoji devono esser letti dal
+  componente aggiuntivo.
+* Introdotta una più appropriata codifica per i nomi dei dizionari che evita
+  errori in caso di specifici caratteri. 
+* Viene usata in modo corretta la traduzione del Summary nella finestra
+  Aiuto per il componente, raggiungibile dal Gestore componenti aggiuntivi.
+* Nella guida viene menzionato il pannello emoji presente in Windows 10.
 
 ## Changes for 8.0 ##
 

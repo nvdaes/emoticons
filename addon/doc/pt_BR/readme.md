@@ -75,11 +75,14 @@ No menu Preferências -> Configurações -> Emoticons abre um painel para config
 
 No painel de configurações de Emoticons, você pode escolher se o dicionário de fala deve ou não ser ativado automaticamente quando o NVDA alterna para o perfil que você está editando no momento. Por padrão está desativado na configuração normal do NVDA e em todos os seus novos perfis.
 
+Moreover, it's possible to determine if the add-on emojis should be
+spoken. This could be useful to preserve symbols speaking if emojis are
+included in NVDA's configuration.
+
 Se você desejar manter limpas suas pastas de configuração, nesta caixa de
 diálogo também é possível escolher se os dicionários não utilizados
 (associados a perfis não existentes) serão removidos do complemento quando
 ele for descarregado.
-
 
 ## Teclas de comando: ##
 
@@ -90,8 +93,30 @@ Emoticons ou o diálogo Dicionário de Emoticons:
 * NVDA+E: Liga/desliga a fala de emoticons, alterna entre falar o texto como
   está escrito ou com os emoticons substituídos por descrições amigáveis.
 * NVDA+I: mostra um diálogo para selecionar um emoticon que queira copiar.
+* Not assigned: open a browseable message showing the symbol where the
+  review cursor is positioned, so that the whole description can be reviewed
+  in browse mode.
+* Not assigned: open a browseable message showing the symbol where the caret
+  is positioned, so that the whole description can be reviewed in browse
+  mode.
 
 Nota: No Windows 10, também é possível usar o painel de emojis integrado.
+
+
+## Changes for 10.0 ##
+
+* Added commands to show the symbol where the review cursor or caret are
+  positioned. Gestures for these commands can be assigned from the Input
+  gestures dialog, Text review category.
+
+## Changes for 9.0 ##
+
+* Added the possibility of choosing if add-on emojis should be spoken.
+* Used appropiate encoding for dictionary names, fixing errors when they
+  contain certain characters.
+* The translated summary of the add-on is properly used for the title
+  presented in add-on help, accessible from the add-on manager.
+* Added a note mentioning the emoji panel available on Windows 10.
 
 ## Mudanças na 8.0 ##
 

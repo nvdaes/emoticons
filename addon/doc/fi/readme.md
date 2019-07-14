@@ -67,10 +67,13 @@ Asetukset-valikon kohdasta Asetukset -> Hymiöt avautuu paneeli, josta voit mä�
 
 Hymiöt-asetuspaneelissa voit valita, otetaanko puhesanasto automaattisesti käyttöön NVDA:n vaihtaessa muokkaamaasi profiiliin. Asetus ei ole  oletusarvoisesti käytössä NVDA:n normaaleissa asetuksissa eikä uusissa profiileissa.
 
+Lisäksi on mahdollista määrittää, puhutaanko lisäosan emojit. Tästä voi olla
+hyötyä symbolien puhumisen säilyttämisessä, jos NVDA:n asetuksiin sisältyy
+emojeita.
+
 Mikäli haluat pitää asetuskansiosi puhtaana, tästä valintaikkunasta on myös
 mahdollista valita, poistetaanko käyttämättömät (ei-olemassa oleviin
 profiileihin liitetyt) puhesanastot lisäosasta, kun se poistetaan muistista.
-
 
 ## Näppäinkomennot: ##
 
@@ -82,9 +85,32 @@ Hymiöt-asetuspaneelin tai hymiösanastovalintaikkunan avaamiseen:
   korvaamisen niiden kuvauksilla.
 * NVDA+I: näyttää valintaikkunan, josta voit valita tekstiin lisättävän
   hymiön.
+* Ei määritetty: Avaa selattavan viestin, jossa näytetään
+  tarkastelukohdistimen kohdalla oleva symboli, jotta sen koko kuvausta
+  voidaan tarkastella selaustilassa.
+* Ei määritetty: Avaa selattavan viestin, jossa näytetään kohdistimen
+  kohdalla oleva symboli, jotta sen koko kuvausta voidaan tarkastella
+  selaustilassa.
 
 Huom: Windows 10:ssä on mahdollista käyttää myös sisäänrakennettua
 emojipaneelia.
+
+
+## Muutokset versiossa 10.0 ##
+
+* Lisätty komennot, joilla voidaan näyttää tarkastelukohdistimen tai
+  järjestelmäkohdistimen kohdalla oleva symboli. Näiden komentojen
+  syötekomennot on mahdollista määrittää Syötekomennot-valintaikkunan
+  Tekstin tarkastelu -kategoriasta.
+
+## Muutokset versiossa 9.0 ##
+
+* Lisätty mahdollisuus valita, puhutaanko lisäosan emojit.
+* Sanastojen nimissä käytetään nyt asianmukaista merkistöä, mikä korjaa
+  virheitä, joita ilmeni, kun nimissä oli tiettyjä merkkejä.
+* Lisäosan käännettyä yhteenvetoa käytetään asianmukaisesti Lisäosien
+  hallinnasta löytyvän lisäosaohjeen nimenä.
+* Lisätty maininta Windows 10:n emojipaneelista.
 
 ## Muutokset versiossa 8.0 ##
 

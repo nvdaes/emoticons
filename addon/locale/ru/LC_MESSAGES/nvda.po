@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 'emoticons' '1.0-dev'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: 2013-11-16 17:06+0400\n"
-"PO-Revision-Date: 2018-12-16 11:15+0100\n"
+"PO-Revision-Date: 2019-02-02 15:37+0100\n"
 "Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
 "Language-Team: Translators <LL@li.org>\n"
 "Language: ru_RU\n"
@@ -94,6 +94,24 @@ msgstr "Показывает диалог словаря смайликов."
 msgid "Shows the Emoticons settings."
 msgstr "Показывает диалоговое окно настроек смайликов."
 
+#. Translators: Message presented in input help mode.
+msgid "Shows the symbol positioned where the review cursor is located."
+msgstr ""
+
+#. Translators: title for a browseable message.
+#, python-format
+msgid "Symbol at the review cursor position (%s)"
+msgstr ""
+
+#. Translators: Message presented in input help mode.
+msgid "Shows the symbol positioned where the caret is located."
+msgstr ""
+
+#. Translators: title for a browseable message.
+#, python-format
+msgid "Symbol at the caret position (%s)"
+msgstr ""
+
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"
 msgstr "Вставить смайлик"
@@ -162,7 +180,7 @@ msgstr "&Активировать проговаривание смайлико�
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "Speak add-on emojis"
-msgstr ""
+msgstr "Проговаривать Эможзи дополнения"
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Remove not used dictionaries"

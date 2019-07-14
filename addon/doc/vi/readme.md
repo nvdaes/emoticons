@@ -74,10 +74,13 @@ Từ trình đơn tùy chỉnh của nvda
 
 Trong bảng cài đặt biểu tượng cảm xúc bạn có thể chọn tự động hay không tự động kích hoạt từ điển biểu tượng cảm xúc khi NVDA chuyển đến hồ sơ đang hoạt động. Mặc định, nó bị vô hiệu hóa trong cấu hình bình thường của NVDA và trong tất cả hồ sơ mới của bạn.
 
+Ngoài ra, cũng có thể quy định rằng các biểu tượng cảm xúc dạng emoji của
+add-on phải được đọc lên. Điều này có thể hữu dụng để đảm bảo việc đọc các
+kí hiệu nếu emoji được ao gồm trong cấu hình của NVDA.
+
 Nếu bạn muốn giữ sạch thư mục cấu hình của mình, trong hộp thoại này cũng có
 thể chọn nếu từ điển không còn được dùng (tích hợp vào một hồ sơ không tồn
 tại) sẽ bị xóa khỏi add-on khi nó bị tắt.
-
 
 ## Các phím lệnh: ##
 
@@ -88,8 +91,30 @@ biểu tượng cảm xúc:
 * NVDA+E: bật / tắt đọc biểu tượng cảm xúc, chuyển giữa dọc văn bản như nó
   đã được viết hay thay thế bằng biểu tượng cảm xúc.
 * NVDA+I: hiển thị hộp thoại  để chọn biểu tượng muốn sao chép.
+* Chưa gán: mở của sổ thông điệp có thể duyệt, hiển thị vị trí kí hiệu mà
+  con trỏ duyệt đã được xác định để có thể xem phần mô tả đầy đủ trong chế
+  độ duyệt.
+* Chưa gán: mở cửa sổ thông điệp có thể duyệt, hiển thị vị trí kí hiệu mà
+  con trỏ nháy được xác định, để có thể xem phần mô tả đầy đủ trong chế độ
+  duyệt.
 
 Lưu ý: trên Windows 10, có thể sử dụng bản nhập biểu tượng cảm xúc dựng sẵn.
+
+
+## Các thay đổi cho phiên bản 10.0 ##
+
+* Thêm phím lệnh để hiển thị vị trí kí hiệu mà con trỏ nháy hay con trỏ
+  duyệt được xác định. Có thể gán thao tác cho các lệnh này từ hộp thoại
+  quản lý các cử chỉ, phân loại Duyệt nội dung.
+
+## Các thay đổi cho phiên bản 9.0 ##
+
+* Thêm khả năng chọn đọc các biểu tượng dạng  emoji.
+* Dụng kiểu mã hóa phù hợp cho các tên từ điển, Sửa các lỗi khi chúng chứa
+  một số kí tự nhất định.
+* Phần tóm tắt của add-on đã được dùng đúng cách cho tiêu đề được hiển thị
+  trong trợ giúp add-on, truy cập từ trình quản lý add-on.
+* Thêm một ghi chú để nhắc đến bảng biểu tượn cảm xúc có trong Windows 10.
 
 ## Các thay đổi cho phiên bản 8.0 ##
 

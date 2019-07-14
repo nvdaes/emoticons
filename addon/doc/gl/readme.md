@@ -76,10 +76,13 @@ Dende o menú Preferencias -> Opciones -> Emoticóns abre un diálogo para confi
 
 No panel Opcións de emoticóns podes escoller se o diccionario da fala deberíasse activar ou non automáticamente cando o NVDA cambia ao perfil que estás a editar actualmente. Por defecto está deshabilitado na configuración normal do NVDA e en todos os novos perfís.
 
+Aínda máis, é posible determinar se se deberían falar os emojis do
+complemento. Isto podería ser útil para preservar a fala de símbolos se os
+emojis están incluídos na configuración do NVDA.
+
 Se desexases manter limpos os teus cartafois de configuración, neste diálogo
 é posible tamén escoller se os dicionarios non usados (asociados con perfís
 non existentes) borraranse do complemento cando se descargue.
-
 
 ## Ordes de teclado: ##
 
@@ -92,8 +95,32 @@ Diccionario de Emoticóns:
   descripción humana.
 * NVDA+I: amosa un cadro de diálogo para seleccionar un emoticón que queras
   pegar.
+* Non asignada: abrir unha mensaxe de modo exploración amosando o símbolo
+  onde o cursor de revisión está posicionado, de modo que se poida examinar
+  en modo exploración a descrición completa.
+* Non asignada: abrir mensaxe de modo exploración amosando o símbolo onde o
+  cursor está posicionado, de modo que se poida revisar en modo exploración
+  a descrición completa.
 
 Nota: En Windows 10, tamén é posible utilizar o panel de emoji integrado.
+
+
+## Cambios para 10.0 ##
+
+* Engadidos atallos para amosar o símbolo onde estea posicionado o cursor de
+  revisión ou do sistema. Os xestos para estes atallos pódense asignar dende
+  o diálogo Xestos de entrada, categoría Revisión de texto.
+
+## Cambios para 9.0 ##
+
+* Engadida a posibilidad de elixir se se falarán os emojis do omplemento.
+* Utilízase a codificación apropiada para nomes de dicionario, arranxando
+  errores cando conteñen certos caracteres.
+* O resumo do complemento traducido úsase adecuadamente para o título
+  presentado na axuda do complemento, accesible dende o administrador de
+  complementos.
+* Engadida unha nota mencionando que está dispoñible o panel de emoji en
+  Windows 10.
 
 ## Cambios para 8.0 ##
 

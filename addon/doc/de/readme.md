@@ -4,7 +4,7 @@
   Estrada Martínez
 * NVDA-Kompatibilität: 2018.3 bis 2019.1
 * [Stabile Version herunterladen][1]
-* [Entwicklungsversion herunterladen][2]
+* [Entwicklerversion herunterladen][2]
 
 Diese Erweiterung ersetzt Emoticons durch besser verständliche
 Beschreibungen.
@@ -74,9 +74,12 @@ Konfigurationsprofil, das im Titel des Emoticons-Dialogs angezeigt wird.
 
 In den Einstellungen von Emoticons können Sie auswählen, ob das Sprachwörterbuch automatisch aktiviert werden soll, wenn NVDA zu dem Profil wechselt, das Sie gerade bearbeiten. Standardmäßig ist es in der normalen Konfiguration von NVDA und in allen Ihren neuen Profilen deaktiviert.
 
+Moreover, it's possible to determine if the add-on emojis should be
+spoken. This could be useful to preserve symbols speaking if emojis are
+included in NVDA's configuration.
+
 Wenn Sie Ihre Konfigurationsordner sauber halten möchten, können Sie in
 diesem Dialog nicht genutzte Wörterbücher von gelöschten Profilen entfernen.
-
 
 ## Tastenkombinationen: ##
 
@@ -89,9 +92,35 @@ oder den Emoticon-Wörterbuch-Dialog zu öffnen:
   Beschreibungen ersetzt werden sollen.
 * NVDA+I: Zeigt ein Dialogfeld an, aus dem Sie ein Emoticon zum Einfügen
   auswählen können.
+* Nicht zugewiesen: Öffnet eine (wie im Internet) lesbare Meldung, die das
+  Symbol anzeigt, an dem sich der NVDA-cursor befindet, damit die gesamte
+  Beschreibung Lese-Modus gelesen werden kann.
+* Nicht zugewiesen: Öffnet eine (wie im Internet) lesbare Meldung, die das
+  Symbol anzeigt, an dem sich die Schreibmarke befindet, damit die gesamte
+  Beschreibung im Lese-Modus gelesen werden kann.
 
 Hinweis: Unter Windows 10 ist es auch möglich, das integrierte Emoji-Panel
 zu verwenden.
+
+
+## Änderungen in 10.0 ##
+
+* Es wurden Befehle hinzugefügt, um das Symbol anzuzeigen, an dem sich der
+  NVDA-cursor oder die Schreibmarke befinden. Gesten für diese Befehle
+  können im Dialogfeld Eingaben, Kategorie "Befehle zum Betrachten von
+  Text", zugewiesen werden.
+
+## Änderungen für 9.0 ##
+
+* Man kann nun zu wählen, ob Emojis (die in der Erweiterung enthalten sind)
+  gesprochen werden sollen.
+* Adäquates encoding für Wörterbuchnamen verwendet, dies behebt Fehler, wenn
+  diese bestimmte Zeichen enthalten.
+* Die übersetzte Zusammenfassung der Erweiterung wird ordnungsgemäß für den
+  Titel verwendet, der in der Erweiterungshilfe angezeigt wird und auf den
+  über den Erweiterungs-Verwalter zugegriffen werden kann.
+* Es wurde eine Notiz hinzugefügt, in der das Emoji-Panel unter Windows 10
+  erwähnt wird.
 
 ## Änderungen für 8.0 ##
 

@@ -75,11 +75,14 @@ A partir do menu de Preferências -> Gerenciar Emoticons -> Configurações de a
 
 No painel de configurações do extra, pode escolher se o dicionário de descrição deve ou não ser activado automaticamente quando o NVDA muda para o perfil que está a editar no momento. Por padrão, está desactivado na configuração normal do NVDA e em todos os seus novos perfis.
 
+Além disso, é possível determinar se os emojis complementares devem ser
+falados. Isto pode ser útil para preservar os símbolos falados, se os emojis
+estiverem incluídos na configuração do NVDA.
+
 Se quiser manter limpas as suas pastas de configuração, nesta caixa de
 diálogo também é possível escolher se os dicionários não utilizados
 (associados a perfis não existentes) serão removidos do extra quando
 estiverem descarregados.
-
 
 ## Teclas de Comando: ##
 
@@ -91,8 +94,33 @@ diálogo do dicionário do Emoticon:
   escrito, ou com os emoticons substituídos pela descrição humana.
 * NVDA + I: mostra uma caixa de diálogo para seleccionar um emoticon que
   deseja copiar.
+* Não atribuído: abre uma mensagem navegável mostrando o símbolo onde o
+  cursor de revisão está posicionado, para que toda a descrição possa ser
+  revisada no modo de navegação.
+* Não atribuído: abre uma mensagem navegável mostrando o símbolo onde o
+  cursor está posicionado, para que toda a descrição possa ser revisada no
+  modo de navegação.
 
 Nota: No Windows 10, também é possível usar o painel de emojis nativo.
+
+
+## Alterações para 10.0 ##
+
+* Adicionados comandos para mostrar o símbolo onde o cursor de revisão ou o
+  cursor estão posicionados. Teclas para esses comandos podem ser atribuídas
+  a partir da caixa de diálogo definir comandos, na categoria Revisão de
+  texto.
+
+## Alterações para 9.0 ##
+
+* Adicionada a possibilidade de escolher se os emojis do extra devem ser
+  falados.
+* Usada a codificação apropriada para nomes de dicionários, corrigindo erros
+  quando eles contêm certos caracteres.
+* O resumo traduzido do extra é, agora,  usado correctamente para o título
+  apresentado na ajuda do extra, acessível a partir do gestor de extras.
+* Adicionada uma nota mencionando o painel de emojis disponível no Windows
+  10.
 
 ## Alterações para 8.0 ##
 

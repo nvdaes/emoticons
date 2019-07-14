@@ -2,7 +2,7 @@
 
 * Forfattere: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco
   Javier Estrada Martínez
-* NVDA compatibility: 2018.3 to 2019.1
+* NVDA-kompatibilitet: 2018.3 til 2019.1
 * Download [stabil version][1]
 * Download [udviklingsversion][2]
 
@@ -73,10 +73,13 @@ Fra menuen Præferencer>Indstillinger>Emoticons åbnes et panel, hvor du konfigu
 
 I indstillingspanelet for Emoticons kan du vælge, om NVDA automatisk skal aktivere udtaleordbøger, når du skifter til den profil du er i færd med at redigere. Som standard er dette slået fra i den normale konfiguration af NVDA og alle dine nyoprettede indstillingsprofiler.
 
+Desuden er det muligt at afgøre, om emojis der genkendes af tilføjelsen skal
+oplyses. Dette kan være nyttigt at bevare symboler, hvis emojis er
+inkluderet i NVDAs konfiguration.
+
 Hvis du ønsker at holde konfigurationsmapperne rene, vil det også være
 muligt i denne dialog at vælge om ubrugte ordbøger (tilhørende
 ikke-eksisterende profiler) skal fjernes fra tilføjelsen når den udlæses.
-
 
 ## Tastaturkommandoer: ##
 
@@ -87,8 +90,30 @@ Emoticons eller dialogen til styrelse af Emoticons-ordbøger.
 * NVDA+e: Skifter mellem at udtale tekst, som den er skrevet, eller med
   humørikonerne erstattet med den brugervenlige beskrivelse.
 * NVDA+i: Viser en dialog, hvor du kan vælge et humørikon, du vil kopiere.
+* Ikke tildelt: Åbn et vindue, der viser symbolet, hvor læsemarkøren er
+  placeret, så hele beskrivelsen kan gennemgås i gennemsynstilstand.
+* Ikke tildelt: Åbn et vindue, der viser symbolet, hvor systemmarkøren er
+  placeret, så hele beskrivelsen kan gennemgås i gennemsynstilstand.
 
-Note: On Windows 10, it's also possible to use the built-in emoji panel.
+Bemærk: I Windows 10 er det også muligt at bruge det indbyggede emoji-panel.
+
+
+## Ændringer for 10.0 ##
+
+* Tilføjede kommandoer for at vise symbolet, hvor system- eller læsemarkøren
+  er placeret. Kommandoer for disse kan tildeles fra dialogboksen
+  Inputbevægelser, kategorien Tekstlæsning.
+
+## Ændringer for 9.0 ##
+
+* Tilføjet muligheden for at vælge, om emojis genkendt af tilføjelsen skal
+  oplyses.
+* Brugt passende kodning for ordbognavne, retttede  fejl, når de indeholder
+  bestemte tegn.
+* Den oversatte beskrivelse af tilføjelsen bruges korrekt til titlen, der
+  præsenteres i tilføjelseshjælp, tilgængelig fra styringen af
+  tilføjelsespakker.
+* Tilføjet en bemærkning der nævner emoji-panelet tilgængeligt i Windows 10.
 
 ## ændringer i 8.0 ##
 
