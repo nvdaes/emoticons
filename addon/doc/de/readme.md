@@ -92,12 +92,12 @@ oder den Emoticon-Wörterbuch-Dialog zu öffnen:
   Beschreibungen ersetzt werden sollen.
 * NVDA+I: Zeigt ein Dialogfeld an, aus dem Sie ein Emoticon zum Einfügen
   auswählen können.
-* Not assigned: open a browseable message showing the symbol where the
-  review cursor is positioned, so that the whole description can be reviewed
-  in browse mode.
-* Not assigned: open a browseable message showing the symbol where the caret
-  is positioned, so that the whole description can be reviewed in browse
-  mode.
+* Nicht zugewiesen: Öffnet eine (wie im Internet) lesbare Meldung, die das
+  Symbol anzeigt, an dem sich der NVDA-cursor befindet, damit die gesamte
+  Beschreibung Lese-Modus gelesen werden kann.
+* Nicht zugewiesen: Öffnet eine (wie im Internet) lesbare Meldung, die das
+  Symbol anzeigt, an dem sich die Schreibmarke befindet, damit die gesamte
+  Beschreibung im Lese-Modus gelesen werden kann.
 
 Hinweis: Unter Windows 10 ist es auch möglich, das integrierte Emoji-Panel
 zu verwenden.
@@ -105,16 +105,17 @@ zu verwenden.
 
 ## Änderungen in 10.0 ##
 
-* Added commands to show the symbol where the review cursor or caret are
-  positioned. Gestures for these commands can be assigned from the Input
-  gestures dialog, Text review category.
+* Es wurden Befehle hinzugefügt, um das Symbol anzuzeigen, an dem sich der
+  NVDA-cursor oder die Schreibmarke befinden. Gesten für diese Befehle
+  können im Dialogfeld Eingaben, Kategorie "Befehle zum Betrachten von
+  Text", zugewiesen werden.
 
 ## Änderungen für 9.0 ##
 
 * Man kann nun zu wählen, ob Emojis (die in der Erweiterung enthalten sind)
   gesprochen werden sollen.
-* Used appropiate encoding for dictionary names, fixing errors when they
-  contain certain characters.
+* Adäquates encoding für Wörterbuchnamen verwendet, dies behebt Fehler, wenn
+  diese bestimmte Zeichen enthalten.
 * Die übersetzte Zusammenfassung der Erweiterung wird ordnungsgemäß für den
   Titel verwendet, der in der Erweiterungshilfe angezeigt wird und auf den
   über den Erweiterungs-Verwalter zugegriffen werden kann.
