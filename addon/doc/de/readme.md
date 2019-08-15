@@ -1,8 +1,7 @@
 # Emoticons #
-
 * Autoren: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* NVDA-Kompatibilität: 2018.3 bis 2019.1
+* NVDA-Kompatibilität: 2018.3 bis 2019.2
 * [Stabile Version herunterladen][1]
 * [Entwicklerversion herunterladen][2]
 
@@ -102,6 +101,18 @@ oder den Emoticon-Wörterbuch-Dialog zu öffnen:
 Hinweis: Unter Windows 10 ist es auch möglich, das integrierte Emoji-Panel
 zu verwenden.
 
+## Änderungen in 11.0 ##
+
+* Bei der Aktualisierung dieser Erweiterung werden die in der vorherigen
+  Version gespeicherten Wörterbücher automatisch in die neue Version
+  kopiert, es sei denn, Sie möchten ausdrücklich, dass diese aus dem
+  Hauptkonfigurationsordner von NVDA importiert werden.
+* Beim Anzeigen eines Symbols, auf dem sich der Systemcursor oder der
+  NVDA-Cursor befindet, werden die Wörter, Zeichen und die Ersetzung
+  verwendet, um zwischen dem Symbol selbst und seiner Beschreibung im
+  Lesemodus zu unterscheiden. Dies ist nützlich für Anwender, die
+  ausschließlich mit Sprachausgabe arbeiten, i.e. keine Braillezeile
+  verwenden.
 
 ## Änderungen in 10.0 ##
 

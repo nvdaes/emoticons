@@ -101,18 +101,29 @@ msgstr "Zeigt die Emoticons-Einstellungen an."
 msgid "Shows the symbol positioned where the review cursor is located."
 msgstr "Zeigt das Symbol an der Stelle des NVDA-Cursors an."
 
-#. Translators: title for a browseable message.
-#, python-format
-msgid "Symbol at the review cursor position (%s)"
+#. Translators: Reported when there is no replacement for the symbol at the position of the review cursor.
+#. Translators: Reported when there is no replacement for the symbol at the position of the caret.
+msgid "No symbol replacement"
+msgstr ""
+
+#. Translators: Character and its replacement used from the "Review current Symbol" command. Example: "Character: ? Replacement: question"
+msgid ""
+"Character: {}\n"
+"Replacement: {}"
+msgstr ""
+
+#. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
+#, fuzzy
+msgid "Symbol at the review cursor position ({})"
 msgstr "Symbol am NVDA-Cursor (%s)"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the caret is located."
 msgstr "Zeigt das Symbol an der Stelle der Schreibmarke an."
 
-#. Translators: title for a browseable message.
-#, python-format
-msgid "Symbol at the caret position (%s)"
+#. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
+#, fuzzy
+msgid "Symbol at the caret position ({})"
 msgstr "Symbol an der Schreibmarke (%s)"
 
 #. Translators: Title of the dialog.

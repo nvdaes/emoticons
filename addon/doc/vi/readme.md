@@ -1,8 +1,7 @@
 # Các biểu tượng cảm xúc #
-
 * Tác giả: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* NVDA tương thích: 2018.3 đến 2019.1
+* NVDA tương thích: 2018.3 đến 2019.2
 * Tải về [phiên bản chính thức][1]
 * Tải về [phiên bản thử nghiệm][2]
 
@@ -100,6 +99,14 @@ biểu tượng cảm xúc:
 
 Lưu ý: trên Windows 10, có thể sử dụng bản nhập biểu tượng cảm xúc dựng sẵn.
 
+## Các thay đổi cho phiên bản 11.0 ##
+
+* Khi cập nhật add-on, các từ điển đã lưu trong phiên bản trước sẽ tự được
+  chép vào phiên bản mới, trừ khi bạn chọn nạp các từ điển đã lưu trong thư
+  mục từ điển chính của NVDA.
+* Khi hiển thị kí hiệu tại vị trí con trỏ nháy hay con trỏ duyệt, các từ Kí
+  tự và Thay thế được dùng để phân biệt giữa chính kí hiệu đó và mô tả của
+  nó trong chế độ duyệt, có ích cho người dùng bộ đọc.
 
 ## Các thay đổi cho phiên bản 10.0 ##
 

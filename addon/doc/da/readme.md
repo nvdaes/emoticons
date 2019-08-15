@@ -1,8 +1,7 @@
 # Emoticons (Humørikoner) #
-
 * Forfattere: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco
   Javier Estrada Martínez
-* NVDA-kompatibilitet: 2018.3 til 2019.1
+* NVDA compatibility: 2018.3 to 2019.2
 * Download [stabil version][1]
 * Download [udviklingsversion][2]
 
@@ -97,6 +96,16 @@ Emoticons eller dialogen til styrelse af Emoticons-ordbøger.
 
 Bemærk: I Windows 10 er det også muligt at bruge det indbyggede emoji-panel.
 
+## Changes for 11.0 ##
+
+* When the add-on is updated, dictionaries saved in the previous version of
+  the add-on will be automatically copied to the new version, unless you
+  prefer to import dictionaries saved in the main dictionaries folder of
+  NVDA.
+* When showing the symbol where the caret or the review cursor are
+  positioned, the words Character and Replacement are used to distinguish
+  between the symbol itself and its description in browse mode, useful for
+  speech users.
 
 ## Ændringer for 10.0 ##
 

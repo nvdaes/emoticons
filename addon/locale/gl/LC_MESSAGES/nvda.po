@@ -99,18 +99,29 @@ msgstr "Amosa a configuración de emoticóns."
 msgid "Shows the symbol positioned where the review cursor is located."
 msgstr "Amosa o símbolo posicionado onde se atopa o cursor de revisión."
 
-#. Translators: title for a browseable message.
-#, python-format
-msgid "Symbol at the review cursor position (%s)"
+#. Translators: Reported when there is no replacement for the symbol at the position of the review cursor.
+#. Translators: Reported when there is no replacement for the symbol at the position of the caret.
+msgid "No symbol replacement"
+msgstr ""
+
+#. Translators: Character and its replacement used from the "Review current Symbol" command. Example: "Character: ? Replacement: question"
+msgid ""
+"Character: {}\n"
+"Replacement: {}"
+msgstr ""
+
+#. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
+#, fuzzy
+msgid "Symbol at the review cursor position ({})"
 msgstr "Símbolo en la posición del cursor de revisión (%s)"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the caret is located."
 msgstr "Amosa o símbolo posicionado onde se atopa o cursor."
 
-#. Translators: title for a browseable message.
-#, python-format
-msgid "Symbol at the caret position (%s)"
+#. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
+#, fuzzy
+msgid "Symbol at the caret position ({})"
 msgstr "Símbolo na posición do cursor (%s)"
 
 #. Translators: Title of the dialog.

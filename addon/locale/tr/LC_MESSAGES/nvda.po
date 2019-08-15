@@ -101,9 +101,20 @@ msgstr "İfadeler ayarlarını gösterir."
 msgid "Shows the symbol positioned where the review cursor is located."
 msgstr "İnceleme imlecinin bulunduğu konumdaki sembolü gösterir."
 
-#. Translators: title for a browseable message.
-#, python-format
-msgid "Symbol at the review cursor position (%s)"
+#. Translators: Reported when there is no replacement for the symbol at the position of the review cursor.
+#. Translators: Reported when there is no replacement for the symbol at the position of the caret.
+msgid "No symbol replacement"
+msgstr ""
+
+#. Translators: Character and its replacement used from the "Review current Symbol" command. Example: "Character: ? Replacement: question"
+msgid ""
+"Character: {}\n"
+"Replacement: {}"
+msgstr ""
+
+#. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
+#, fuzzy
+msgid "Symbol at the review cursor position ({})"
 msgstr "İnceleme imleci konumundaki sembol (%s)"
 
 #. Translators: Message presented in input help mode.
@@ -112,9 +123,9 @@ msgstr ""
 "Düzenleme imlecinin bulunduğu konumdaki sembolü gösterir.Shows the symbol "
 "positioned where the caret is located."
 
-#. Translators: title for a browseable message.
-#, python-format
-msgid "Symbol at the caret position (%s)"
+#. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
+#, fuzzy
+msgid "Symbol at the caret position ({})"
 msgstr "Düzenleme imleci konumundaki sembol (%s)"
 
 #. Translators: Title of the dialog.

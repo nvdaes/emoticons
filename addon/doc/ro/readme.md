@@ -1,8 +1,7 @@
 # Emoticons #
-
 * Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Compatibilitate NVDA: 2018.3 - 2019.1
+* Compatibilitate NVDA: 2018.3 - 2019.2
 * Descarcă [versiunea stabilă][1]
 * Descarcă [versiunea în dezvoltare][2]
 
@@ -79,9 +78,9 @@ Din meniul Preferințe -> Setări Emoticoane deschide un dialog pentru a configu
 
 Din panoul de setări al Emoticons, puteți dacă ar trebui sau nu ca dicționarul de vorbire să se activeze automat atunci când NVDA se comută la profilul pe care actualmente îl editați. În mod implicit, este dezactivată în configurația normală a NVDA și în toate profilurile dumneavoastră.
 
-Moreover, it's possible to determine if the add-on emojis should be
-spoken. This could be useful to preserve symbols speaking if emojis are
-included in NVDA's configuration.
+În plus, e posibil să se determine dacă emoji-urile suplimentului trebuie să
+fie pronunțate. Această funcție poate fi utilă în menținerea pronunțării
+simbolurilor dacă emoji-urile sunt incluse în configurația NVDA.
 
 Dacă doriți să păstrați curate folderele de configurare, în această
 fereastră de dialog este posibil de asemenea să alegeți dacă dicționarele
@@ -99,30 +98,40 @@ Emoticons sau dialogul dicționarului de emoticoane:
   descrierea umană.
 * NVDA+I: Arată un dialog pentru a selecta emoticonul pe care vreți să îl
   copiați.
-* Not assigned: open a browseable message showing the symbol where the
-  review cursor is positioned, so that the whole description can be reviewed
-  in browse mode.
-* Not assigned: open a browseable message showing the symbol where the caret
-  is positioned, so that the whole description can be reviewed in browse
-  mode.
+* Neatribuită: deschide un mesaj de navigare care arată simbolul la care
+  este poziționat cursorul de scriere, astfel încât descrierea să fie
+  parcursă în modul de navigare.
+* Neatribuită: deschide un mesaj de navigare care arată simbolul la care
+  este poziționat cursorul de scriere, astfel încât descrierea să fie
+  parcursă în modul de navigare.
 
 Notă: În Windows 10, este posibil să folosiți și panoul de emoji.
 
+## Modificări aduse în versiuna 11.0 ##
 
-## Changes for 10.0 ##
+* Când suplimentul este actualizat, dicționarele folosite în versiunile
+  anterioare vor fi copiate automat pentru a putea fi folosite în noua
+  versiune, asta dacă nu preferați să importați dicționarele salvate în
+  dosarul principal al dicționarelor NVDA.
+* La afișarea simbolului la care este poziționat cursorul de scriere sau cel
+  de examinare, cuvintele, caracterele și înlocuirile sunt folosite cu
+  scopul de a face o diferență între simbolul în sine și descrierea sa din
+  modul de navigare, util pentru cei care folosesc sinteza vocală.
 
-* Added commands to show the symbol where the review cursor or caret are
-  positioned. Gestures for these commands can be assigned from the Input
-  gestures dialog, Text review category.
+## Modificări aduse în versiuna 10.0 ##
 
-## Changes for 9.0 ##
+* S-au adăugat comenzi care arată simbolul la care este poziționat cursorul
+  de scriere.
 
-* Added the possibility of choosing if add-on emojis should be spoken.
-* Used appropiate encoding for dictionary names, fixing errors when they
-  contain certain characters.
-* The translated summary of the add-on is properly used for the title
-  presented in add-on help, accessible from the add-on manager.
-* Added a note mentioning the emoji panel available on Windows 10.
+## Modificări aduse în 9.0 ##
+
+* Acum, puteți să alegeți dacă emoji-urile suplimentelor vor fi sau nu
+  pronunțate.
+* S-a utilizat encoding apropiat pentru nnumele de dicționar și s-au reparat
+  erori pe care le aveau anumite caractere.
+* Cuprinsul tradus al suplimentului este folosit pentru titlul prezentat în
+  documentația acestuia, disponibilă în administratorul suplimentelor.
+* S-a adăugat o notă care menționează panoul de emoji din Windows 10.
 
 ## Modificări aduse în 8.0 ##
 

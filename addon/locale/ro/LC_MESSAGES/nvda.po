@@ -98,18 +98,29 @@ msgstr "Arată setările Emoticons."
 msgid "Shows the symbol positioned where the review cursor is located."
 msgstr "Arată simbolul poziționat la locația cursorului de examinare."
 
-#. Translators: title for a browseable message.
-#, python-format
-msgid "Symbol at the review cursor position (%s)"
+#. Translators: Reported when there is no replacement for the symbol at the position of the review cursor.
+#. Translators: Reported when there is no replacement for the symbol at the position of the caret.
+msgid "No symbol replacement"
+msgstr ""
+
+#. Translators: Character and its replacement used from the "Review current Symbol" command. Example: "Character: ? Replacement: question"
+msgid ""
+"Character: {}\n"
+"Replacement: {}"
+msgstr ""
+
+#. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
+#, fuzzy
+msgid "Symbol at the review cursor position ({})"
 msgstr "Simbol la poziția cursorului de scriere (%s)"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the caret is located."
 msgstr "Arată simboluul poziționat la locația cursorului de scriere."
 
-#. Translators: title for a browseable message.
-#, python-format
-msgid "Symbol at the caret position (%s)"
+#. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
+#, fuzzy
+msgid "Symbol at the caret position ({})"
 msgstr "Simbol la poziția cursorului de scriere (%s)"
 
 #. Translators: Title of the dialog.

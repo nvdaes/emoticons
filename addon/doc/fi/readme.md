@@ -1,8 +1,7 @@
 # Hymiöt #
-
 * Tekijät: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* NVDA-yhteensopivuus: 2018.3-2019.1
+* Yhteensopivuus: NVDA 2018.3-2019.2
 * Lataa [vakaa versio][1]
 * Lataa [kehitysversio][2]
 
@@ -95,6 +94,15 @@ Hymiöt-asetuspaneelin tai hymiösanastovalintaikkunan avaamiseen:
 Huom: Windows 10:ssä on mahdollista käyttää myös sisäänrakennettua
 emojipaneelia.
 
+## Muutokset versiossa 11.0 ##
+
+* Kun lisäosa päivitetään, iaemmassa versiossa tallennetut sanastot
+  kopioidaan automaattisesti uuteen versioon, paitsi jos haluat tuoda ne
+  NVDA:n sanastojen pääkansiosta.
+* Kun järjestelmä- tai tarkastelukohdistimen kohdalla oleva symboli
+  näytetään, sanoja "merkki" ja "korvaava teksti" käytetään erottamaan
+  toisistaan varsinainen symboli ja sen kuvaus, mistä on hyötyä pelkän
+  puheen käyttäjille.
 
 ## Muutokset versiossa 10.0 ##
 
