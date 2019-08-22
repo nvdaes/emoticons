@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 5.2\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2017-02-03 05:00+1000\n"
-"PO-Revision-Date: 2019-04-03 14:30+0700\n"
+"PO-Revision-Date: 2019-08-16 09:43+0700\n"
 "Last-Translator: Dang Manh Cuong <dangmanhcuong@gmail.com>\n"
 "Language-Team: Sao Mai <info@saomaicenter.org>\n"
 "Language: vi\n"
@@ -101,27 +101,27 @@ msgstr "Chỉ ra vị trí kí hiệu mà con trỏ duyệt đã xác định."
 #. Translators: Reported when there is no replacement for the symbol at the position of the review cursor.
 #. Translators: Reported when there is no replacement for the symbol at the position of the caret.
 msgid "No symbol replacement"
-msgstr ""
+msgstr "Không có kí hiệu thay thế"
 
 #. Translators: Character and its replacement used from the "Review current Symbol" command. Example: "Character: ? Replacement: question"
 msgid ""
 "Character: {}\n"
 "Replacement: {}"
 msgstr ""
+"Kí tự: {}\n"
+"Thay thế: {}"
 
 #. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
-#, fuzzy
 msgid "Symbol at the review cursor position ({})"
-msgstr "Kí hiệu ở vị trí con trỏ duyệt (%s)"
+msgstr "Kí hiệu ở vị trí con trỏ duyệt ({})"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the caret is located."
 msgstr "Chỉ ra vị trí kí hiệu mà dấu nhay đã xác định."
 
 #. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
-#, fuzzy
 msgid "Symbol at the caret position ({})"
-msgstr "Kí hiệu ở vị trí dấu nháy (%s)"
+msgstr "Kí hiệu ở vị trí dấu nháy ({})"
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"

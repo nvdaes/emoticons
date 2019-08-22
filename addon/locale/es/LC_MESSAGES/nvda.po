@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 6.0\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: 2017-12-07 11:20+0100\n"
-"PO-Revision-Date: 2019-03-29 09:23+0100\n"
-"Last-Translator: Iván Novegil <ivan.novegil.cancelas@gmail.com>\n"
+"PO-Revision-Date: 2019-08-16 10:45+0200\n"
+"Last-Translator: José Manuel Delicado <jmdaweb@hotmail.com>\n"
 "Language-Team: NVDA add-ons translation team <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.2.3\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -102,27 +102,27 @@ msgstr ""
 #. Translators: Reported when there is no replacement for the symbol at the position of the review cursor.
 #. Translators: Reported when there is no replacement for the symbol at the position of the caret.
 msgid "No symbol replacement"
-msgstr ""
+msgstr "No hay símbolo de reemplazo"
 
 #. Translators: Character and its replacement used from the "Review current Symbol" command. Example: "Character: ? Replacement: question"
 msgid ""
 "Character: {}\n"
 "Replacement: {}"
 msgstr ""
+"Carácter: {}\n"
+"Reemplazo: {}"
 
 #. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
-#, fuzzy
 msgid "Symbol at the review cursor position ({})"
-msgstr "Símbolo en la posición del cursor de revisión (%s)"
+msgstr "Símbolo en la posición del cursor de revisión ({})"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the caret is located."
 msgstr "Muestra el símbolo posicionado donde se encuentra el cursor."
 
 #. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
-#, fuzzy
 msgid "Symbol at the caret position ({})"
-msgstr "Símbolo en la posición del cursor (%s)"
+msgstr "Símbolo en la posición del cursor ({})"
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"
@@ -489,7 +489,7 @@ msgstr "Corazón azul"
 
 #. Translators: (emoji) This emoji is the version of the phrase ROFL. A person lying on the floor due to an extreme amount of laughter.
 msgid "Rolling on the Floor Laughing"
-msgstr "¡Muerto De Risa!"
+msgstr "Muerto De Risa"
 
 #. Translators: (emoji) A face that is a little bit sad, with a slight frown and neutral eyes.
 msgid "Slightly Frowning Face"
@@ -533,7 +533,7 @@ msgstr "Cara Sonriente Negra"
 
 #. Translators: (emoji) happy cat face with heart shaped eyes.
 msgid "Happy cat face with heart shaped eyes"
-msgstr "cara de gato feliz con ojos en forma de corazón"
+msgstr "Cara de gato feliz con ojos en forma de corazón"
 
 #. Translators: (emoji) ok hand sign.
 msgid "Ok hand sign"
@@ -561,7 +561,7 @@ msgstr "Cara triste"
 
 #. Translators: :D Laugh
 msgid "Laughing smiley"
-msgstr "cara riéndose"
+msgstr "Cara riéndose"
 
 #. Translators: :O Surprised
 msgid "surprised smiley"
@@ -581,7 +581,7 @@ msgstr "Cara Confundida"
 
 #. Translators: (:| Sweating
 msgid "sweating smiley"
-msgstr "Cara sudando"
+msgstr "cara sudando"
 
 #. translators:  :|] Robot (a robot head)
 msgid "Robot Smiley"
@@ -593,11 +593,11 @@ msgstr "cara estupefacta"
 
 #. Translators: :* Kiss
 msgid "kiss smiley"
-msgstr "Cara besando"
+msgstr "cara besando"
 
 #. Translators: :P Cheeky
 msgid "cheeky smiley"
-msgstr "Cara Descarada"
+msgstr "cara Descarada"
 
 #. Translators: :$ Blushing
 msgid "blushing smiley"
@@ -621,7 +621,7 @@ msgstr "cara con los labios sellados"
 
 #. Translators: \o/ Dancing
 msgid "dancing smiley"
-msgstr "Cara bailando"
+msgstr "cara bailando"
 
 #. Translators: :'( crying a lot smiley
 msgid "crying a lot smiley"
@@ -648,7 +648,7 @@ msgstr "Emoticono Ángel"
 
 #. Translators:  O.o  o.O  Confused
 msgid "Confused Smiley"
-msgstr "cara Confundida"
+msgstr "Cara Confundida"
 
 #. Translators:   3:-) Devil
 msgid "Devil Smiley"
@@ -664,11 +664,11 @@ msgstr "Cara sonriente con los ojos cerrados"
 
 #. Translators:  >:O  Upset, angry or shouting...
 msgid "Angry Smiley"
-msgstr "cara gritando"
+msgstr "Cara gritando"
 
 #. Translators:  :3  Cat (Cat faced smiley with curly lips)
 msgid "Cat Smiley"
-msgstr "Cara de gato sonriendo "
+msgstr "Cara de gato sonriendo"
 
 #. Translators: (-.-)ZZZ Iӭ Sleepy
 msgid "I am Sleepy smiley"
@@ -676,15 +676,15 @@ msgstr "Cara Estoy dormido"
 
 #. Translators: 8-) Glasses
 msgid "glasses smiley"
-msgstr "Emoticono Gafas"
+msgstr "emoticono Gafas"
 
 #. Translators: (^^^) shark
 msgid "shark smiley"
-msgstr "Emoticono Tiburón"
+msgstr "emoticono Tiburón"
 
 #. Translators:  (cash) Cash
 msgid "cash smiley"
-msgstr "Emoticono Dinero"
+msgstr "emoticono Dinero"
 
 #. Translators: (flex) Muscle
 msgid "muscle smiley"
@@ -700,11 +700,11 @@ msgstr "cara bebiendo"
 
 #. Translators: (ninja) Ninja
 msgid "ninja smiley"
-msgstr "Emoticono Ninja"
+msgstr "emoticono Ninja"
 
 #. Translators: (cool) Cool
 msgid "cool smiley"
-msgstr "Emoticono Cool"
+msgstr "emoticono Cool"
 
 #. Translators: (inlove) In Love
 msgid "in love smiley"
@@ -740,11 +740,11 @@ msgstr "emoticono mmmmmm..."
 
 #. Translators: (nerd) Nerdy
 msgid "nerdy smiley"
-msgstr "Emoticono Empollón"
+msgstr "emoticono Empollón"
 
 #. Translators: (wave) Hi
 msgid "hi smiley"
-msgstr "Emoticono ¡Hola!"
+msgstr "emoticono Hola"
 
 #. Translators: (facepalm) Facepalm
 msgid "facepalm smiley"
@@ -780,7 +780,7 @@ msgstr "emoticono risita"
 
 #. Translators: (clap) Clapping
 msgid "clapping smiley"
-msgstr "emoticono ¡aplausos!"
+msgstr "emoticono aplausos"
 
 #. Translators: (think) Thinking
 msgid "thinking smiley"

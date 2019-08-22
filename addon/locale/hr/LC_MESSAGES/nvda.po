@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 1.1-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2014-04-11 05:05+0100\n"
-"PO-Revision-Date: 2019-05-16 16:02+0100\n"
+"PO-Revision-Date: 2019-08-16 10:10+0100\n"
 "Last-Translator: tea turkovic <tturkovi@gmail.com>\n"
 "Language-Team: HR <hrvojekatic@gmail.com>\n"
 "Language: hr\n"
@@ -102,27 +102,27 @@ msgstr "Prikazuje lokaciju simbola pod preglednim kursorom."
 #. Translators: Reported when there is no replacement for the symbol at the position of the review cursor.
 #. Translators: Reported when there is no replacement for the symbol at the position of the caret.
 msgid "No symbol replacement"
-msgstr ""
+msgstr "Nema zamjene znaka"
 
 #. Translators: Character and its replacement used from the "Review current Symbol" command. Example: "Character: ? Replacement: question"
 msgid ""
 "Character: {}\n"
 "Replacement: {}"
 msgstr ""
+"Znak: {}\n"
+"zamjena: {}"
 
 #. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
-#, fuzzy
 msgid "Symbol at the review cursor position ({})"
-msgstr "simbol pod preglednik kursorom (%s)"
+msgstr "Znak pod predlednim kursorom ({})"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the caret is located."
 msgstr "Prikazuje simbol tamo gdje se nalazi sustavski kursor."
 
 #. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
-#, fuzzy
 msgid "Symbol at the caret position ({})"
-msgstr "znak na poziciji sustavskog pokazivača (%s)"
+msgstr "Znak pod pozicijom kursora sustava ({})"
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"
