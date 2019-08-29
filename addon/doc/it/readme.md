@@ -1,7 +1,7 @@
 # Emoticons #
 * Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* NVDA compatibility: 2018.3 to 2019.2
+* Compatibilità con NVDA: dalla 2018.3 alla 2019.2
 * Scarica la [versione stabile][1]
 * Scarica la[versione in sviluppo][2]
 
@@ -101,14 +101,13 @@ Nota: In Windows 10 è possibile utilizzare la finestra per inserire emoji.
 
 ## Changes for 11.0 ##
 
-* When the add-on is updated, dictionaries saved in the previous version of
-  the add-on will be automatically copied to the new version, unless you
-  prefer to import dictionaries saved in the main dictionaries folder of
-  NVDA.
-* When showing the symbol where the caret or the review cursor are
-  positioned, the words Character and Replacement are used to distinguish
-  between the symbol itself and its description in browse mode, useful for
-  speech users.
+* Quando il componente aggiuntivo viene aggiornato, i dizionari salvati
+  nella versione precedente del componente aggiuntivo verranno
+  automaticamente copiati nella nuova versione, a meno che non si preferisca
+  importare i dizionari salvati dalla cartella principale speechDitc.
+* Quando si visualizza il carattere alla posizione dei cursori, vengono
+  indicati con le diciture carattere e In sostituzione per distinguere
+  meglio il carattere e la sua descrizione in caso si usi sintesi vocale.
 
 ## Changes for 10.0 ##
 
