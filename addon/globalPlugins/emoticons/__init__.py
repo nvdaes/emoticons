@@ -95,7 +95,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			else:
 				# Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 				emType = _("Emoticon")
-			comment = u"{type}: {name}".format(type=emType, name=em.name)
+			comment = "{type}: {name}".format(type=emType, name=em.name)
 			otherReplacement = " %s; " % em.name
 			# Case and reg are always True
 			defaultDic.append(speechDictHandler.SpeechDictEntry(em.pattern, otherReplacement, comment, True, speechDictHandler.ENTRY_TYPE_REGEXP))
@@ -108,17 +108,21 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# Gui
 		self.toolsMenu = gui.mainFrame.sysTrayIcon.toolsMenu
 		self.dicMenu = gui.mainFrame.sysTrayIcon.preferencesMenu.GetMenuItems()[1].GetSubMenu()
-		self.insertItem = self.toolsMenu.Append(wx.ID_ANY,
+		self.insertItem = self.toolsMenu.Append(
+			wx.ID_ANY,
 			# Translators: the name for a menu item.
 			_("&Insert emoticon..."),
 			# Translators: the tooltip text for a menu item.
-			_("Shows a dialog to insert a smiley"))
+			_("Shows a dialog to insert a smiley")
+		)
 		gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onInsertEmoticonDialog, self.insertItem)
-		self.dicItem = self.dicMenu.Append(wx.ID_ANY,
+		self.dicItem = self.dicMenu.Append(
+			wx.ID_ANY,
 			# Translators: the name for a menu item.
 			_("&Emoticons dictionary..."),
 			# Translators: the tooltip text for a menu item.
-			_("Shows a dictionary dialog to customize emoticons"))
+			_("Shows a dictionary dialog to customize emoticons")
+		)
 		gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onEmDicDialog, self.dicItem)
 		NVDASettingsDialog.categoryClasses.append(AddonSettingsPanel)
 
