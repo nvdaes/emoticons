@@ -74,9 +74,9 @@ Konfigurationsprofil, das im Titel des Emoticons-Dialogs angezeigt wird.
 
 In den Einstellungen von Emoticons können Sie auswählen, ob das Sprachwörterbuch automatisch aktiviert werden soll, wenn NVDA zu dem Profil wechselt, das Sie gerade bearbeiten. Standardmäßig ist es in der normalen Konfiguration von NVDA und in allen Ihren neuen Profilen deaktiviert.
 
-Moreover, it's possible to determine if the add-on emojis should be
-spoken. This could be useful to preserve symbols speaking if emojis are
-included in NVDA's configuration.
+Darüberhinaus kann ebenfalls festgelegt werden, ob die Emojis der
+Erweiterung angesagt werden soll. Dies ist nützlich, wenn in der
+NVDA-Konfiguration Symbole vorkommen.
 
 Wenn Sie Ihre Konfigurationsordner sauber halten möchten, können Sie in
 diesem Dialog nicht genutzte Wörterbücher von gelöschten Profilen entfernen.
