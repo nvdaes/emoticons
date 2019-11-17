@@ -21,7 +21,7 @@ def onInstall():
 	import shutil
 	import gui
 	import wx
-	ADDON_DICTS_PATH = os.path.join(os.path.dirname(__file__), "globalPlugins", "emoticons", "emoticons").decode("mbcs")
+	ADDON_DICTS_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "globalPlugins", "emoticons", "emoticons"))
 	EXPORT_DICTS_PATH = os.path.join(speechDictHandler.speechDictsPath, "emoticons")
 	for addon in addonHandler.getAvailableAddons():
 		if addon.manifest['name'] == "Emoticons":
