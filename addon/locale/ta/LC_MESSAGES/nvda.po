@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 20:13+0100\n"
-"PO-Revision-Date: 2019-05-26 10:18+0530\n"
+"PO-Revision-Date: 2019-11-17 09:55+0530\n"
 "Last-Translator: DINAKAR T.D. <td.dinkar@gmail.com>\n"
 "Language-Team: DINAKAR T.D. <td.dinkar@gmail.com>\n"
 "Language: ta\n"
@@ -101,27 +101,27 @@ msgstr "சீராய்வுச் சுட்டி இருக்கு�
 #. Translators: Reported when there is no replacement for the symbol at the position of the review cursor.
 #. Translators: Reported when there is no replacement for the symbol at the position of the caret.
 msgid "No symbol replacement"
-msgstr ""
+msgstr "குறியெழுத்திற்கான மாற்றமர்வு ஏதுமில்லை"
 
 #. Translators: Character and its replacement used from the "Review current Symbol" command. Example: "Character: ? Replacement: question"
 msgid ""
 "Character: {}\n"
 "Replacement: {}"
 msgstr ""
+"வரியுரு: {}\n"
+"மாற்றமர்வு: {}"
 
 #. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
-#, fuzzy
 msgid "Symbol at the review cursor position ({})"
-msgstr "சீராய்வுச் சுட்டி இருக்குமிடத்தில் அமைந்திருக்கும் குறியீடு: %s"
+msgstr "சீராய்வுச் சுட்டி இருக்குமிடத்தில் அமைந்திருக்கும் குறியெழுத்து ({}) "
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the caret is located."
 msgstr "கணினிச் சுட்டி இருக்குமிடத்தில் அமைந்திருக்கும் குறியீட்டினைக் காட்டுகிறது."
 
 #. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
-#, fuzzy
 msgid "Symbol at the caret position ({})"
-msgstr "கணினிச் சுட்டி இருக்குமிடத்தில் அமைந்திருக்கும் குறியீடு: %s"
+msgstr "கணினிச் சுட்டி இருக்குமிடத்தில் அமைந்திருக்கும் குறியெழுத்து ({})"
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"
