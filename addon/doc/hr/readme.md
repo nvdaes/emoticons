@@ -21,7 +21,7 @@ oživili vaše poruke i kažete prijateljima kako se osjećate.
 Kada niste sigurni za neki smješko, ovaj dodatak dozvoljava, odabrati i
 umetnuti ga u tekst kao što je chat.
 
-Pritisnite NVDA+I ili iz izbornika Alati→Umetni emotikon, da biste otvorili dijaloški okvir dostupnih emotikona ili emojia.
+Pritisnite NVDA+I ili iz izbornika Alati>Umetni emotikon, da biste otvorili dijaloški okvir dostupnih emotikona ili emojia.
 
 Ovaj dijaloški okvir dozvoljava biranje emotikona i pregledavanje emotikona
 koji vas zanimaju:
@@ -44,7 +44,7 @@ konfiguracijskih profila.
 To znači da možete stvoriti ili urediti poseban govorni rječnik za svaki
 svoj prilagođeni profil.
 
-U NVDA izborniku, Postavke→Govorni rječnici→Rječnik emotikona, možete otvoriti dijaloški okvir za dodavanje ili uređivanje dostupnih emotikona.
+U NVDA izborniku, Postavke>Govorni rječnici>Rječnik emotikona, možete otvoriti dijaloški okvir za dodavanje ili uređivanje dostupnih emotikona.
 
 Spremanjem vaših prilagodbi, nove postavke za čitanje emotikona će se
 primjenjivati samo za profil koji trenutačno uređujete.
@@ -65,7 +65,7 @@ dijaloškog okvira Rječnik emotikona.
 
 ## Postavke Emotikona ##
 
-Iz izbornika Postavke→Postavke→Emotikoni otvara ploču za konfiguriranje aktiviranja vaših govornih rječnika za svaki profil.
+Iz izbornika Postavke>Postavke>Emotikoni otvara ploču za konfiguriranje aktiviranja vaših govornih rječnika za svaki profil.
 
 U dijaloškom okviru aktivacijskih postavki možete izabrati želite li da se govorni rječnik automatski aktivira kad se NVDA prebaci u profil koji trenutačno uređujete. Prema zadanim postavkima, ova opcija je isključena u uobičajenoj NVDA konfiguraciji i svim novim profilima.
 
