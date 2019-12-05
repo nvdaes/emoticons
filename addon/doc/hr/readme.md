@@ -70,7 +70,7 @@ Iz izbornika Postavke>Postavke>Emotikoni otvara ploču za konfiguriranje aktivir
 U dijaloškom okviru aktivacijskih postavki možete izabrati želite li da se govorni rječnik automatski aktivira kad se NVDA prebaci u profil koji trenutačno uređujete. Prema zadanim postavkima, ova opcija je isključena u uobičajenoj NVDA konfiguraciji i svim novim profilima.
 
 Pored toga, moguće je odrediti treba li se govoriti o dodatak emojis. Ovo bi
-moglo biti korisno za očuvanje izgovora simbola ako su emojii uključeni u
+moglo biti korisno za očuvanje izgovaranja simbola ako su emojii uključeni u
 NVDA konfiguraciju.
 
 Ako želite izbrisati mape s konfiguracijom, možete odabrati da se rječnici
@@ -82,8 +82,8 @@ Ovo su zadani tipkovnički prečaci. Možete ih urediti ili dodati novi prečac
 za otvaranje dijaloškog okvira za Postavke emotikona ili dijaloškog okvira
 za Rječnik emotikona:
 
-* NVDA+E: uključuje i isključuje izgovor emotikona. Prebacuje između čitanja
-  teksta kako je napisan i opisa emotikona.
+* NVDA+E: uključuje i isključuje izgovaranje emotikona. Prebacuje između
+  izgovaranja teksta kako je napisan i opisa emotikona.
 * NVDA+I: Prikazuje dijaloški okvir za biranje emotikona koji želite
   kopirati.
 * Nije dodijeljeno: otvorite poruku koja se može čitati i koja pokazuje
