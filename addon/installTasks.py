@@ -14,7 +14,6 @@ config.conf.spec["emoticons"] = confspec
 addonHandler.initTranslation()
 
 def onInstall():
-	from gui import SettingsPanel, NVDASettingsDialog
 	import speechDictHandler
 	import globalVars
 	import os
@@ -23,16 +22,6 @@ def onInstall():
 	import wx
 	ADDON_DICTS_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "globalPlugins", "emoticons", "emoticons"))
 	EXPORT_DICTS_PATH = os.path.join(speechDictHandler.speechDictsPath, "emoticons")
-	for addon in addonHandler.getAvailableAddons():
-		if addon.manifest['name'] == "Emoticons":
-			if gui.messageBox(
-				# Translators: the label of a message box dialog.
-				_("You have installed the Emoticons add-on, probably an old and incompatible version with this one. Do you want to uninstall the old version?"),
-				# Translators: the title of a message box dialog.
-				_("Uninstall incompatible add-on"),
-				wx.YES|wx.NO|wx.ICON_WARNING)==wx.YES:
-					addon.requestRemove()
-					break
 	if os.path.isfile(os.path.join(speechDictHandler.speechDictsPath, "emoticons.dic")) or os.path.isfile(os.path.join(globalVars.appArgs.configPath, "emoticons.ini")) or os.path.isdir(EXPORT_DICTS_PATH):
 		if gui.messageBox(
 			# Translators: the label of a message box dialog.
