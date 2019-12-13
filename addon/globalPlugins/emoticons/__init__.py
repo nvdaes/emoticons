@@ -281,7 +281,7 @@ class EmoticonFilter(object):
 	def filter(self, emoticonsList, pattern):
 		"""Filters the input list with the specified pattern."""
 		if pattern == "": return emoticonsList
-		else: return filter(lambda emoticon: pattern.upper() in emoticon.name.upper(), emoticonsList)
+		else: return list(filter(lambda emoticon: pattern.upper() in emoticon.name.upper(), emoticonsList))
 
 class FilterStandard(EmoticonFilter):
 	"""Filter just for standard emoticons."""
