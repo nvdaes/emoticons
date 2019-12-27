@@ -96,18 +96,30 @@ msgstr "显示表情设置。"
 msgid "Shows the symbol positioned where the review cursor is located."
 msgstr "显示位于审阅光标所在位置的符号。"
 
-#. Translators: title for a browseable message.
-#, python-format
-msgid "Symbol at the review cursor position (%s)"
+#. Translators: Reported when there is no replacement for the symbol at the position of the review cursor.
+#. Translators: Reported when there is no replacement for the symbol at the position of the caret.
+#, fuzzy
+msgid "No symbol replacement"
+msgstr "替换为"
+
+#. Translators: Character and its replacement used from the "Review current Symbol" command. Example: "Character: ? Replacement: question"
+msgid ""
+"Character: {}\n"
+"Replacement: {}"
+msgstr ""
+
+#. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
+#, fuzzy
+msgid "Symbol at the review cursor position ({})"
 msgstr "审阅光标位置 ( %s) 处的符号"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the caret is located."
 msgstr "显示光标所在位置的符号。"
 
-#. Translators: title for a browseable message.
-#, python-format
-msgid "Symbol at the caret position (%s)"
+#. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
+#, fuzzy
+msgid "Symbol at the caret position ({})"
 msgstr "光标的符号是(%s)"
 
 #. Translators: Title of the dialog.
@@ -923,9 +935,6 @@ msgstr "用表情名称朗读表情符号。"
 
 #~ msgid "Pattern"
 #~ msgstr "样式"
-
-#~ msgid "Replacement"
-#~ msgstr "替换为"
 
 #~ msgid "case"
 #~ msgstr "事件"

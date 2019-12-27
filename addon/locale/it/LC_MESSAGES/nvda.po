@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons'5.3'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: 2017-02-21 15:25+0100\n"
-"PO-Revision-Date: 2019-04-01 11:17+0100\n"
+"PO-Revision-Date: 2019-08-23 15:55+0100\n"
 "Last-Translator: Chris Leo Mameli <llajta2012@gmail.com>\n"
 "Language-Team: Translators <LL@li.org>\n"
 "Language: it_IT\n"
@@ -22,8 +22,8 @@ msgid ""
 "You have installed the Emoticons add-on, probably an old and incompatible "
 "version with this one. Do you want to uninstall the old version?"
 msgstr ""
-"Probabilmente hai installato Una vecchia versione di Emoticons add-on. Vuoi "
-"rimuovere la vecchia versione?"
+"Probabilmente hai installato Una vecchia versione del componente  Emoticons. "
+"Vuoi rimuovere la vecchia versione?"
 
 #. Translators: the title of a message box dialog.
 msgid "Uninstall incompatible add-on"
@@ -100,20 +100,31 @@ msgid "Shows the symbol positioned where the review cursor is located."
 msgstr ""
 "Emoticons: visualizza il carattere alla posizione del cursore di controllo."
 
-#. Translators: title for a browseable message.
-#, python-format
-msgid "Symbol at the review cursor position (%s)"
-msgstr "Carattere alla posizione del cursore di controllo (%s). "
+#. Translators: Reported when there is no replacement for the symbol at the position of the review cursor.
+#. Translators: Reported when there is no replacement for the symbol at the position of the caret.
+msgid "No symbol replacement"
+msgstr "Nessuna voce in sostituzione per questo carattere."
+
+#. Translators: Character and its replacement used from the "Review current Symbol" command. Example: "Character: ? Replacement: question"
+msgid ""
+"Character: {}\n"
+"Replacement: {}"
+msgstr ""
+"Carattere: {}\n"
+"In sostituzione: {}"
+
+#. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
+msgid "Symbol at the review cursor position ({})"
+msgstr "Carattere alla posizione del cursore di controllo ({}). "
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the caret is located."
 msgstr ""
 "Emoticons: visualizza il carattere alla posizione del cursore di sistema."
 
-#. Translators: title for a browseable message.
-#, python-format
-msgid "Symbol at the caret position (%s)"
-msgstr "Carattere alla posizione del cursore (%s)"
+#. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
+msgid "Symbol at the caret position ({})"
+msgstr "Carattere alla posizione del cursore ({})"
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"

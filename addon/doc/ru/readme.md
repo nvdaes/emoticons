@@ -1,8 +1,7 @@
 # Emoticons #
-
 * Авторы: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* NVDA compatibility: 2018.3 to 2019.1
+* NVDA compatibility: 2018.3 to 2019.2
 * Загрузить [Стабильную версию][1]
 * Загрузить [Разрабатываемую версию][2]
 
@@ -99,6 +98,16 @@ new key to open Emoticons settings panel or Emoticon Dictionary dialog:
 
 Note: On Windows 10, it's also possible to use the built-in emoji panel.
 
+## Changes for 11.0 ##
+
+* When the add-on is updated, dictionaries saved in the previous version of
+  the add-on will be automatically copied to the new version, unless you
+  prefer to import dictionaries saved in the main dictionaries folder of
+  NVDA.
+* When showing the symbol where the caret or the review cursor are
+  positioned, the words Character and Replacement are used to distinguish
+  between the symbol itself and its description in browse mode, useful for
+  speech users.
 
 ## Changes for 10.0 ##
 

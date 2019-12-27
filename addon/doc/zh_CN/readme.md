@@ -1,8 +1,7 @@
-# 表情符号 #
-
+# Emoticons #
 * 作者：Chris Leo，NoeliaRuizMartínez，Mesar Hameed，Francisco
   JavierEstradaMartínez
-* NVDA兼容版本: 2018.3至2019.1
+* NVDA兼容版本: 2018.3至2019.2
 * 下载[稳定版][1]
 * 下载[开发版][2]
 
@@ -67,6 +66,10 @@ emoticons子文件夹中。
 
 注意：在Windows 10上，也可以使用内置表情符号面板。
 
+## 版本 11.0 ##
+
+* 更新插件后，保存在以前版本插件中的词典将自动复制到新版本，除非您更喜欢导入保存在NVDA主词典文件夹中的词典。
+* 当显示插入符号或浏览光标所在的符号时，单词Character和Replacement用于区分符号本身及其在浏览模式下的描述，对语音用户有用。
 
 ## 10.0更新日志 ##
 

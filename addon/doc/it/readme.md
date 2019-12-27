@@ -1,8 +1,7 @@
 # Emoticons #
-
 * Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Compatibilità con NVDA: dalla 2018.3 alla 2019.1
+* Compatibilità con NVDA: dalla 2018.3 alla 2019.2
 * Scarica la [versione stabile][1]
 * Scarica la[versione in sviluppo][2]
 
@@ -100,6 +99,15 @@ Emoticons:
 
 Nota: In Windows 10 è possibile utilizzare la finestra per inserire emoji. 
 
+## Changes for 11.0 ##
+
+* Quando il componente aggiuntivo viene aggiornato, i dizionari salvati
+  nella versione precedente del componente aggiuntivo verranno
+  automaticamente copiati nella nuova versione, a meno che non si preferisca
+  importare i dizionari salvati dalla cartella principale speechDitc.
+* Quando si visualizza il carattere alla posizione dei cursori, vengono
+  indicati con le diciture carattere e In sostituzione per distinguere
+  meglio il carattere e la sua descrizione in caso si usi sintesi vocale.
 
 ## Changes for 10.0 ##
 

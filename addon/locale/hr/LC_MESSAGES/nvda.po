@@ -1,34 +1,36 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Hrvatska lokalizacija za NVDA.
+# Copyright (C) 2006-2019 NVDA contributors <https://www.nvda-project.org>
+# This file is distributed under the same license as the virtualRevision package.
+# Tea Turković <tturkovi@gmail.com>, 2019.
+# Milo Ivir <mail@milotype.de>, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: emoticons 1.1-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2014-04-11 05:05+0100\n"
-"PO-Revision-Date: 2019-05-16 16:02+0100\n"
-"Last-Translator: tea turkovic <tturkovi@gmail.com>\n"
+"PO-Revision-Date: 2019-11-19 22:56+0100\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: HR <hrvojekatic@gmail.com>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
-"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.2.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
 "You have installed the Emoticons add-on, probably an old and incompatible "
 "version with this one. Do you want to uninstall the old version?"
 msgstr ""
-"Instalirali ste dodatak za emotikone, ali vjerojatno staru i nekompatibilnu "
-"inačicu zajedno s ovom. Želite li deinstalirati staru inačicu?"
+"Dodatak za emotikone je instaliran, ali je vjerojatno star i nekompatibilan "
+"s ovom verzijom. Želite li deinstalirati staru verziju?"
 
 #. Translators: the title of a message box dialog.
 msgid "Uninstall incompatible add-on"
-msgstr "Deinstalirati nekompatibilan dodatak"
+msgstr "Deinstaliraj nekompatibilni dodatak"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -36,11 +38,11 @@ msgid ""
 "import them, removing deprecated files?"
 msgstr ""
 "Čini se da su prethodne postavke spremljene za ovaj dodatak. Želite li ih "
-"uvesti, pri čemu će zastarjele datoteke biti uklonjene?"
+"uvesti, pri čemu će se ukloniti zastarjele datoteke?"
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
-msgstr "Uvoz postavki dodatka za emotikone"
+msgstr "Uvezi postavke dodatka za emotikone"
 
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 #. Translators: Label for emojis in the list.
@@ -53,7 +55,7 @@ msgstr "Emotikon"
 
 #. Translators: the name for a menu item.
 msgid "&Insert emoticon..."
-msgstr "Umetni emotikon"
+msgstr "&Umetni emotikon …"
 
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dialog to insert a smiley"
@@ -61,19 +63,19 @@ msgstr "Prikazuje dijaloški okvir za umetanje smješka"
 
 #. Translators: the name for a menu item.
 msgid "&Emoticons dictionary..."
-msgstr "&Rječnik emotikona..."
+msgstr "&Rječnik emotikona …"
 
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
-msgstr "Prikazuje dijaloški okvir riječnika za prilagodbu emotikona"
+msgstr "Prikazuje dijaloški okvir rječnika za prilagođavanje emotikona"
 
 #, python-format
 msgid "Emoticons dictionary (%s)"
-msgstr "Rječnik emotikona(%s)"
+msgstr "Rječnik emotikona (%s)"
 
 #. Translators: Message presented in input help mode.
 msgid "Toggles on and off the announcement of emoticons."
-msgstr "Naizmjence uključuje i isključuje najavu emotikona."
+msgstr "Uključuje i isključuje najavu emotikona."
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
@@ -85,11 +87,11 @@ msgstr "Emotikoni su uključeni."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
-msgstr "Prikazuje dijalog za odabir smješka koji želite prilijepiti."
+msgstr "Prikazuje dijaloški okvir za odabir smješka kojeg želite prilijepiti."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons dictionary dialog."
-msgstr "Riječnik emotikona"
+msgstr "Prikazuje dijaloški okvir rječnika za emotikone."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons settings."
@@ -97,21 +99,32 @@ msgstr "Prikazuje postavke dodatka."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the review cursor is located."
-msgstr "Prikazuje lokaciju simbola pod preglednim kursorom."
+msgstr "Prikazuje simbol na mjestu preglednog kursora."
 
-#. Translators: title for a browseable message.
-#, python-format
-msgid "Symbol at the review cursor position (%s)"
-msgstr "simbol pod preglednik kursorom (%s)"
+#. Translators: Reported when there is no replacement for the symbol at the position of the review cursor.
+#. Translators: Reported when there is no replacement for the symbol at the position of the caret.
+msgid "No symbol replacement"
+msgstr "Nema zamjene simbola"
+
+#. Translators: Character and its replacement used from the "Review current Symbol" command. Example: "Character: ? Replacement: question"
+msgid ""
+"Character: {}\n"
+"Replacement: {}"
+msgstr ""
+"Znak: {}\n"
+"zamjena: {}"
+
+#. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
+msgid "Symbol at the review cursor position ({})"
+msgstr "Simbol na mjestu preglednog kursora ({})"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the caret is located."
-msgstr "Prikazuje simbol tamo gdje se nalazi sustavski kursor."
+msgstr "Prikazuje simbol na mjestu sustavskog kursora."
 
-#. Translators: title for a browseable message.
-#, python-format
-msgid "Symbol at the caret position (%s)"
-msgstr "znak na poziciji sustavskog pokazivača (%s)"
+#. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
+msgid "Symbol at the caret position ({})"
+msgstr "Simbol na mjestu sustavskog kursora ({})"
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"
@@ -124,20 +137,20 @@ msgstr "&Filtriraj:"
 
 #. Translators: A radio button to choose all types of emoticons.
 msgid "&All"
-msgstr "&Svi"
+msgstr "&Sve"
 
 #. Translators: A radio button to choose only standard emoticons.
 msgid "&Standard"
-msgstr "&Standardni"
+msgstr "&Standardne"
 
 #. Translators: A radio button to choose only emojis.
 msgid "Emoj&is"
-msgstr "Emo&tikoni"
+msgstr "Emoj&ije"
 
 #. List of emoticons.
 #. Translators: Label for the smileys list.
 msgid "&List of smilies"
-msgstr "Zaljubljen smješko"
+msgstr "&Popis smješaka"
 
 #. Translators: Column which specifies the name  of emoticon.
 msgid "Name"
@@ -145,7 +158,7 @@ msgstr "Naziv"
 
 #. Translators: Column which specifies the type of emoticon (standard or emoji).
 msgid "Type"
-msgstr "Tip"
+msgstr "Vrsta"
 
 #. Translators: The column which contains the characters of the emoticon.
 msgid "Characters"
@@ -153,19 +166,19 @@ msgstr "Znakovi"
 
 #. Translators: Label for standard emoticons in the list.
 msgid "Standard"
-msgstr "Standardan"
+msgstr "Standardni"
 
 #. Translators: Error message when none emoticon is selected or the list is empty, and title of the error dialog.
 msgid "There is not any emoticon selected."
-msgstr "Nema označenog emotikona."
+msgstr "Niti jedan emotikon nije označen."
 
 #. Translators: This is the message when smiley has been copied to the clipboard.
 msgid "Smiley copied to clipboard, ready for you to paste."
-msgstr "Smješko je kopiran u međuspremnik, spreman da ga zalijepite."
+msgstr "Smješko je kopiran u međuspremnik, spreman za upotrebu."
 
 #. Translators: Message when the emoticon couldn't be copied.
 msgid "Cannot copy smiley."
-msgstr "Smajli se ne može kopirati."
+msgstr "Smješko se ne može kopirati."
 
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Rese&t"
@@ -173,7 +186,7 @@ msgstr "Rese&tiraj"
 
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Save and e&xport dictionary"
-msgstr "Spremiti i I&zvesti rječnik"
+msgstr "Spremi i i&zvezi rječnik"
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"
@@ -189,7 +202,7 @@ msgstr "&Ukloni nekorištene rječnike"
 
 #. Translators: (emoji) Grinning face, an happy face with normal eyes.
 msgid "Grinning face"
-msgstr "Ceri se smješko "
+msgstr "Ceri se smješko"
 
 #. Translators: (emoji) Happy face with open mouth and squinting eyes.
 msgid "Happy face with open mouth and squinting eyes"
@@ -197,11 +210,11 @@ msgstr "Sretan smješko s otvorenim ustima koji škilji"
 
 #. Translators: (emoji) happy face with open mouth.
 msgid "Happy face with open mouth"
-msgstr "Sretan smješko s otvorenim ustima "
+msgstr "Sretan smješko s otvorenim ustima"
 
 #. Translators: (emoji) A smiling face with smiling eyes and rosy cheeks.
 msgid "Smiling Face With Smiling Eyes"
-msgstr "Nasmijan smješko "
+msgstr "Nasmijan smješko s nasmijanim očima"
 
 #. Translators: (emoji) smirking face.
 msgid "Smirking face"
@@ -209,19 +222,19 @@ msgstr "Zlobno se smješka smješko"
 
 #. Translators: (emoji) Slightly Smiling Face: a face that is a little bit happy, with a slight smile and neutral eyes.
 msgid "Slightly smiling face"
-msgstr "Blago nasmijan smješko "
+msgstr "Blago nasmijan smješko"
 
 #. Translators: (emoji) white smiling face.
 msgid "white smiling face"
-msgstr "Čeka smješko"
+msgstr "bijeli nasmijan smješko"
 
 #. Translators: (emoji) happy face with halo.
 msgid "Happy face with halo"
-msgstr "Sretan smješko "
+msgstr "Sretan smješko"
 
 #. Translators: (emoji) white frowning face.
 msgid "White frowning face"
-msgstr "Namršten smješko "
+msgstr "Bijeli namršten smješko"
 
 #. Translators: (emoji) winking face.
 msgid "Winking face"
@@ -233,23 +246,23 @@ msgstr "Nasmijan smješko s očima u obliku srca"
 
 #. Translators: (emoji)  Rose: a single red rose.
 msgid "Rose"
-msgstr "Ruža "
+msgstr "Ruža"
 
 #. Translators: (emoji) Expressionless face: a face with straight lined eyes and mouth. A deliberate display of no comment...
 msgid "Expressionless face"
-msgstr "Smješko bez emocija "
+msgstr "Smješko bez emocija"
 
 #. Translators: (emoji) neutral face.
 msgid "Neutral face"
-msgstr "Neutralan smješko "
+msgstr "Neutralan smješko"
 
 #. Translators: (emoji) face without mouth.
 msgid "Face without mouth"
-msgstr "Smješko bez usana "
+msgstr "Smješko bez usta"
 
 #. Translators: (emoji) face throwing a kiss.
 msgid "Face throwing a kiss"
-msgstr "Smješko šalje pusu "
+msgstr "Smješko šalje pusu"
 
 #. Translators: (emoji) kissing face with closed eyes.
 msgid "Kissing face with closed eyes"
@@ -257,47 +270,47 @@ msgstr "Ljubi se smješko sa zatvorenim očima"
 
 #. Translators: (emoji) Kissing face.
 msgid "Kissing face"
-msgstr "Ljubi se smješko "
+msgstr "Ljubi se smješko"
 
 #. Translators: (emoji) kissing face with arched eyes.
 msgid "Kissing face with arched eyes"
-msgstr "Ljubi se smješko s izbočenim očima "
+msgstr "Ljubi se smješko s izbočenim očima"
 
 #. Translators: (emoji) winking face with stuck out tongue.
 msgid "Winking face with stuck out tongue"
-msgstr "Namiguje smješko"
+msgstr "Namiguje smješko s isplaženim jezikom"
 
 #. Translators: (emoji) face with stuck out tongue and eyes tightly closed.
 msgid "Face with stuck out tongue and eyes tightly closed"
-msgstr "Smješko zatvorenih očiju "
+msgstr "Smješko s isplaženim jezikom i zatvorenih očiju"
 
 #. Translators: (emoji) A cheeky face with stuck out tongue.
 msgid "Face with stuck out tongue"
-msgstr "Smješko s isplaženim jezikom "
+msgstr "Smješko s isplaženim jezikom"
 
 #. Translators: (emoji) Hugging Face: a face displayed with an open hands gesture, offering a hug.
 msgid "Hugging face"
-msgstr "Grli se smješko "
+msgstr "Grli se smješko"
 
 #. Translators: (emoji) flushed face.
 msgid "Flushed face"
-msgstr "Zajapuren smješko "
+msgstr "Zajapuren smješko"
 
 #. Translators: (emoji) Grinning face showing smiling eyes.
 msgid "Grinning Face With Smiling Eyes"
-msgstr "Ceri se smješko s otvorenim očima "
+msgstr "Ceri se smješko s nasmijanim očima"
 
 #. Translators: (emoji) A pensive, remorseful and saddened face. Quietly considering where things all went wrong.
 msgid "Pensive Face"
-msgstr "Zamišljen smješko "
+msgstr "Zamišljen smješko"
 
 #. Translators: (emoji) devil with evil smile.
 msgid "Devil with evil smile"
-msgstr "Olakšanje smješko"
+msgstr "Vrag s vražjim osmijehom"
 
 #. Translators: (emoji) devil.
 msgid "Devil"
-msgstr "Vrag smješko "
+msgstr "Vrag smješko"
 
 #. Translators: (emoji) relieved face.
 msgid "Relieved face"
@@ -309,76 +322,76 @@ msgstr "Tužan, zamišljen smješko"
 
 #. Translators: (emoji) A face with scrunched up and closed eyes, frowning. Used to show helplessness in a situation.
 msgid "Persevering Face"
-msgstr "Ustrajan smješko "
+msgstr "Ustrajan smješko"
 
 #. Translators: (emoji) crying face.
 msgid "Crying face"
-msgstr "Plače smješko "
+msgstr "Plače smješko"
 
 #. Translators: (emoji) face with tears of joy.
 msgid "Face with tears of joy"
-msgstr "Smješko sa suzama radosnicama "
+msgstr "Smješko sa suzama radosnicama"
 
 #. Translators: (emoji) loudly crying face.
 msgid "Loudly crying face"
-msgstr "Glasno plaće smješko "
+msgstr "Glasno plaće smješko"
 
 #. Translators: (emoji) sleepy face.
 msgid "Sleepy face"
-msgstr "Pospan smješko "
+msgstr "Pospan smješko"
 
 #. Translators: (emoji) Shrugging: A person shrugging their shoulders to indicate a lack of knowledge about a particular topic, or a lack of care about the result of a situation.
 msgid "Shrugging emoji"
-msgstr "Slijeganje "
+msgstr "Slijeganje"
 
 #. Translators: (emoji) disappointed face.
 msgid "Disappointed face"
-msgstr "Razočaran smješko "
+msgstr "Razočaran smješko"
 
 #. Translators: (emoji) disappointed but relieved face.
 msgid "Disappointed but relieved face"
-msgstr "Razočaran smješko "
+msgstr "Razočaran smješko s izrazom olakšanja"
 
 #. Translators: (emoji) Face with a look of concern, with a blue forehead and sweat dripping down the cheek.
 msgid "Face With Open Mouth & Cold Sweat"
-msgstr "Smješko s otvorenim ustima & hladnim znojem "
+msgstr "Smješko s otvorenim ustima i hladnim znojem"
 
 #. Translators: (emoji) Happy face with a single drop of sweat on one side of the face.
 msgid "Smiling Face With Open Mouth & Cold Sweat"
-msgstr "Nasmijan smješko s otvorenim ustima & hladnim znojem "
+msgstr "Nasmijan smješko s otvorenim ustima i hladnim znojem"
 
 #. Translators: (emoji) face with cold sweat.
 msgid "Face with cold sweat"
-msgstr "Smješko oblijan hladnim znojem "
+msgstr "Smješko obliven hladnim znojem"
 
 #. Translators: (emoji) A distraught-looking face with  an open mouth and crescent shaped eyes.
 msgid "Weary Face"
-msgstr "Umoran smješko "
+msgstr "Iscrpljen smješko"
 
 #. Translators: (emoji) An exhausted-looking face with an open mouth and tightly closed eyes.
 msgid "Tired Face"
-msgstr "Umoran smješko "
+msgstr "Umoran smješko"
 
 #. Translators: (emoji) fearful face.
 msgid "Fearful face"
-msgstr "Prestrašen smješko "
+msgstr "Prestrašen smješko"
 
 #. Translators: (emoji) face screaming in fear.
 msgid "Face screaming in fear"
-msgstr "Vrišti smješko "
+msgstr "Vrišti smješko"
 
 #. Translators: (emoji) angry face.
 #. Translators: :@ angry face.
 msgid "Angry face"
-msgstr "Ljutito viče smješko"
+msgstr "Ljuti se smješko"
 
 #. Translators: (emoji) pouting face.
 msgid "Pouting face"
-msgstr "Duri se smješko "
+msgstr "Duri se smješko"
 
 #. Translators: (emoji) A face with air coming out of its nose, huffing with anger face.
 msgid "Face With Steam From Nose"
-msgstr "Smješko kojem para ide iz nosa "
+msgstr "Smješko kojem para ide iz nosa"
 
 #. Translators: (emoji) confounded face.
 msgid "Confounded face"
@@ -386,27 +399,27 @@ msgstr "Zbunjen smješko"
 
 #. Translators: (emoji) Smiling Face With Open Mouth and Tightly-Closed Eyes.
 msgid "Smiling Face With Open Mouth and Tightly-Closed Eyes"
-msgstr "Nasmijan smješko otvorenih usta i čvrsto zatvorenih očiju "
+msgstr "Nasmijan smješko otvorenih usta i čvrsto zatvorenih očiju"
 
 #. Translators: (emoji) happy face licking lips.
 msgid "Happy face licking lips"
-msgstr "Sretan smješko koji oblizuje usne "
+msgstr "Sretan smješko oblizuje usne"
 
 #. Translators: (emoji) happy face with sunglasses.
 msgid "Happy face with sunglasses"
-msgstr "Sretan smješko sa sunčanim naočalama "
+msgstr "Sretan smješko sa sunčanim naočalama"
 
 #. Translators: (emoji) sleeping face.
 msgid "Sleeping face"
-msgstr "Spava smješko "
+msgstr "Spava smješko"
 
 #. Translators: (emoji) A dizzy face, looking sick or confused from being spun around in circles too many times.
 msgid "Dizzy Face"
-msgstr "Ošamućen smješko "
+msgstr "Ošamućen smješko"
 
 #. Translators: (emoji) astonished face.
 msgid "Astonished face"
-msgstr "Zapanjen smješko "
+msgstr "Zapanjen smješko"
 
 #. Translators: (emoji) worried face.
 msgid "Worried face"
@@ -414,19 +427,19 @@ msgstr "Zabrinut smješko"
 
 #. Translators: (emoji) Dismayed face with open eyes and open mouth, appear closer to  a frowning face.
 msgid "Frowning Face With Open Mouth"
-msgstr "Namršten smješko s otvorenim ustima "
+msgstr "Namršten smješko s otvorenim ustima"
 
 #. Translators: (emoji) anguished face.
 msgid "Anguished face"
-msgstr "Izmučen smješko "
+msgstr "Izmučen smješko"
 
 #. Translators: (emoji) A face with Open Mouth, generally used to represent an element of surprise.
 msgid "Face with Open Mouth"
-msgstr "Smješko s otvorenim ustima "
+msgstr "Smješko s otvorenim ustima"
 
 #. Translators: (emoji) grimacing face.
 msgid "Grimacing face"
-msgstr "Grimasa "
+msgstr "Smješko s grimasom"
 
 #. Translators: (emoji) confused face.
 msgid "Confused face"
@@ -434,47 +447,47 @@ msgstr "Zbunjen smješko"
 
 #. Translators: (emoji) A face with high eyebrows and an open mouth, it looks more surprised than hushed.
 msgid "Hushed Face"
-msgstr "Tih smješko "
+msgstr "Tih smješko"
 
 #. Translators: (emoji) broken heart.
 msgid "Broken heart"
-msgstr "Slomljeno srce "
+msgstr "Slomljeno srce"
 
 #. Translators: (emoji) pulsating heart.
 msgid "Pulsating heart"
-msgstr "Pulsirajuće srce "
+msgstr "Pulsirajuće srce"
 
 #. Translators: (emoji) beating heart.
 msgid "Beating heart"
-msgstr "Jako lupa srce "
+msgstr "Jako lupajuće srce"
 
 #. Translators: (emoji) two hearts.
 msgid "Two hearts"
-msgstr "Dva srca "
+msgstr "Dva srca"
 
 #. Translators: (emoji) heart with arrow.
 msgid "Heart with arrow"
-msgstr "Srce sa strijelom "
+msgstr "Srce sa strijelom"
 
 #. Translators: (emoji) purple heart.
 msgid "Purple heart"
-msgstr "Ljubičasto srce "
+msgstr "Ljubičasto srce"
 
 #. Translators: (emoji) red heart.
 msgid "Red heart"
-msgstr "Crveno srce "
+msgstr "Crveno srce"
 
 #. Translators: (emoji) yellow heart.
 msgid "Yellow heart"
-msgstr "Žuto srce "
+msgstr "Žuto srce"
 
 #. Translators: (emoji) green heart.
 msgid "Green heart"
-msgstr "Zeleno srce "
+msgstr "Zeleno srce"
 
 #. Translators: (emoji) blue heart.
 msgid "Blue heart"
-msgstr "Plavo srce "
+msgstr "Plavo srce"
 
 #. Translators: (emoji) This emoji is the version of the phrase ROFL. A person lying on the floor due to an extreme amount of laughter.
 msgid "Rolling on the Floor Laughing"
@@ -482,39 +495,39 @@ msgstr "Valjam se po podu od smijeha! smješko"
 
 #. Translators: (emoji) A face that is a little bit sad, with a slight frown and neutral eyes.
 msgid "Slightly Frowning Face"
-msgstr "Blago namršten smješko "
+msgstr "Blago namršten smješko"
 
 #. Translators: (emoji) A face that is upside-down.
 msgid "Upside-down Face"
-msgstr "Naglavce okrenut smješko "
+msgstr "Naglavce okrenut smješko"
 
 #. Translators: (emoji) A face displaying eyes glancing upward.
 msgid "Face With Rolling Eyes"
-msgstr "Smješko koluta očima "
+msgstr "Smješko koluta očima"
 
 #. Translators: (emoji) A person with arms forming an X to indicate no or no good.
 msgid "Person Gesturing No"
-msgstr "Osoba Pokazuje Ne "
+msgstr "Osoba pokazuje Ne"
 
 #. Translators: (emoji) A person with arms above his head, making an OK sign with the whole body.
 msgid "Person Gesturing OK"
-msgstr "Osoba Pokazuje U redu "
+msgstr "Osoba pokazuje U redu"
 
 #. Translators: (emoji) A person bowing deeply, express a sincere apology or to request a favour.
 msgid "Person bowing"
-msgstr "Osoba se klanja "
+msgstr "Osoba se klanja"
 
 #. Translators: (emoji) An upset person frowning with dismay.
 msgid "Person Frowning"
-msgstr "Namrštena osoba "
+msgstr "Namrštena osoba"
 
 #. Translators: (emoji) Two hands placed firmly together.
 msgid "Folded Hands"
-msgstr "Savijene ruke "
+msgstr "Sklopljene ruke"
 
 #. Translators: (emoji) A person with a surgical mask on their face.
 msgid "Face with medical mask"
-msgstr "Smješko s medicinskom maskom "
+msgstr "Smješko s medicinskom maskom"
 
 #. Translators: (emoji) A black version of white smiling face.
 msgid "Black Smiling Face"
@@ -522,23 +535,23 @@ msgstr "Zlobno se smješka smješko"
 
 #. Translators: (emoji) happy cat face with heart shaped eyes.
 msgid "Happy cat face with heart shaped eyes"
-msgstr "Sretan mačka smješko s očima u obliku srca "
+msgstr "Sretna mačka smješko s očima u obliku srca"
 
 #. Translators: (emoji) ok hand sign.
 msgid "Ok hand sign"
-msgstr "Ruka pokazuje znak OK "
+msgstr "Ruka pokazuje znak OK"
 
 #. Translators: (emoji) thumbs up symbol.
 msgid "Thumbs up symbol"
-msgstr "Palac gore "
+msgstr "Palac gore"
 
 #. Translators: (emoji) thumbs down symbol.
 msgid "Thumbs down symbol"
-msgstr "Palac dolje "
+msgstr "Palac dolje"
 
 #. Translators: (emoji) Victory Hand.
 msgid "Victory Hand"
-msgstr "Znak pobjede "
+msgstr "Znak pobjede"
 
 #. Translators: :) Smile
 msgid "smiling smiley"
@@ -546,11 +559,11 @@ msgstr "nasmijan smješko"
 
 #. Translators: :( Sad face.
 msgid "Sad face"
-msgstr "Tužan smješko "
+msgstr "Tužan smješko"
 
 #. Translators: :D Laugh
 msgid "Laughing smiley"
-msgstr "smije se smješko"
+msgstr "Smije se smješko"
 
 #. Translators: :O Surprised
 msgid "surprised smiley"
@@ -582,7 +595,7 @@ msgstr "bez riječi smješko"
 
 #. Translators: :* Kiss
 msgid "kiss smiley"
-msgstr "Pusa smješko"
+msgstr "pusa smješko"
 
 #. Translators: :P Cheeky
 msgid "cheeky smiley"
@@ -633,27 +646,27 @@ msgstr "srce smješko"
 
 #. Translators:  O:)  O:-) Angel
 msgid "Angel Smiley"
-msgstr "anđeo smješko"
+msgstr "Anđeo smješko"
 
 #. Translators:  O.o  o.O  Confused
 msgid "Confused Smiley"
-msgstr "zbunjen smješko"
+msgstr "Zbunjen smješko"
 
 #. Translators:   3:-) Devil
 msgid "Devil Smiley"
-msgstr "vrag smješko"
+msgstr "Vrag smješko"
 
 #. Translators:  ^_^ Keke (This smiley is inspired by the Asian style, which is a happy face.)
 msgid "Keke Smiley"
-msgstr "sretno lice smješko"
+msgstr "Sretno lice smješko"
 
 #. Translators: -_- Bored (This smiley face has its eyes closed and is sporting a very small grin.)
 msgid "Bored smiley"
-msgstr "dosađuje se smješko"
+msgstr "Dosađuje se smješko"
 
 #. Translators:  >:O  Upset, angry or shouting...
 msgid "Angry Smiley"
-msgstr "Ljutito viče smješko"
+msgstr "Ljuti se smješko"
 
 #. Translators:  :3  Cat (Cat faced smiley with curly lips)
 msgid "Cat Smiley"
@@ -685,7 +698,7 @@ msgstr "pivo smješko"
 
 #. Translators: (d) Drink
 msgid "drink smiley"
-msgstr "pije smješko"
+msgstr "piće smješko"
 
 #. Translators: (ninja) Ninja
 msgid "ninja smiley"
@@ -737,7 +750,7 @@ msgstr "pozdrav smješko"
 
 #. Translators: (facepalm) Facepalm
 msgid "facepalm smiley"
-msgstr "O, kuku meni... smješko"
+msgstr "o, kuku meni... smješko"
 
 #. Translators: (devil) Devil
 msgid "devil smiley"
@@ -769,19 +782,19 @@ msgstr "cereka se smješko"
 
 #. Translators: (clap) Clapping
 msgid "clapping smiley"
-msgstr "pljesak smješko"
+msgstr "plješće smješko"
 
 #. Translators: (think) Thinking
 msgid "thinking smiley"
-msgstr "mislim smješko"
+msgstr "razmišlja smješko"
 
 #. Translators: (bow) Bowing
 msgid "bowing smiley"
-msgstr "vještina ili umjetnost sviranja gudalom smješko"
+msgstr "gudač smješko"
 
 #. Translators: (rofl) Rolling on the floor laughing
 msgid "rolling on the floor laughing! smiley"
-msgstr "Valjam se po podu od smijeha! smješko"
+msgstr "valjam se po podu od smijeha! smješko"
 
 #. Translators: (whew) Relieved
 msgid "relieved smiley"
@@ -805,19 +818,19 @@ msgstr "drma smješko"
 
 #. Translators: (waiting) Waiting
 msgid "waiting smiley"
-msgstr "čekam smješko"
+msgstr "čeka smješko"
 
 #. Translators: (emo) Emo;
 msgid "Emo smiley"
-msgstr "trese smješko"
+msgstr "Emo smješko"
 
 #. Translators: (y) Yes
 msgid "yes smiley"
-msgstr "DA smješko"
+msgstr "da smješko"
 
 #. Translators: (n) no;
 msgid "no smiley"
-msgstr "NE smješko"
+msgstr "ne smješko"
 
 #. Translators: (handshake) Handshake
 msgid "handshake smiley"
@@ -825,7 +838,7 @@ msgstr "rukuje se smješko"
 
 #. Translators: (highfive) High five
 msgid "high five smiley"
-msgstr "visoka petica smješko"
+msgstr "daj mi pet smješko"
 
 #. Translators: (lalala) Lalala;
 msgid "lalala smiley"
@@ -833,7 +846,7 @@ msgstr "lalala smješko"
 
 #. Translators: (heidy) Heidy;
 msgid "heidy smiley"
-msgstr "heidy smješko"
+msgstr "vjeverica smješko"
 
 #. Translators: (F) Flower
 msgid "flower smiley"
@@ -849,7 +862,7 @@ msgstr "sunčano smješko"
 
 #. Translators: (tumbleweed) Tumbleweed
 msgid "tumbleweed smiley"
-msgstr "kiša smješko"
+msgstr "kotrljajuća trava smješko"
 
 #. Translators: (music) Music
 msgid "music smiley"
@@ -890,26 +903,3 @@ msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
 msgstr "Omogućuje najavu naziva emotikona umjesto prikazivanja znakova."
-
-#~ msgid "Manag&e emoticons"
-#~ msgstr "Upravljanje emotikonima"
-
-#~ msgid "Emoticons menu"
-#~ msgstr "Izbornik emotikona"
-
-#~ msgid "&Customize emoticons..."
-#~ msgstr "&Prilagoditi emotikone..."
-
-#~ msgid "&Activation settings..."
-#~ msgstr "&Aktivacijske postavke..."
-
-#~ msgid "Shows a dialog to choose when emoticons speaking should be activated"
-#~ msgstr ""
-#~ "Prikazuje dijaloški okvir za odabir kada treba aktivirati izgovaranje "
-#~ "emotikona"
-
-#~ msgid "Activation settings"
-#~ msgstr "Aktivacijske postavke"
-
-#~ msgid "&Copy activation settings"
-#~ msgstr "&Kopirati aktivacijske postavke"

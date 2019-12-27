@@ -1,8 +1,7 @@
 # Emoticons #
-
 * Autores: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Compatibilidad con NVDA: de 2018.3 a 2019.1
+* Compatibilidad con NVDA: de 2018.3 a 2019.2
 * Descargar [versión estable][1]
 * Descargar [versión de desarrollo][2]
 
@@ -103,6 +102,16 @@ Diccionario de Emoticonos:
 
 Nota: en Windows 10, también es posible usar el panel de emojis incorporado.
 
+## Cambios para 11.0 ##
+
+* Cuando se actualiza el complemento, los diccionarios guardados de la
+  versión anterior se copiarán a la nueva versión, a menos que prefieras
+  importar los diccionarios guardados en la carpeta principal de
+  diccionarios de NVDA.
+* Al mostrar el símbolo en el que se encuentran situados el cursor del
+  sistema o el cursor de revisión, las palabras carácter y reemplazo se usan
+  para distinguir el propio símbolo de su descripción en el modo
+  exploración, útil para usuarios de voz.
 
 ## Cambios para 10.0 ##
 
