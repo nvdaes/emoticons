@@ -1,7 +1,7 @@
 # Emoticons #
 * Autorzy: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* NVDA compatibility: 2018.3 to 2019.2
+* Zgodność z wersjami NVDA: 2018.3 do 2019.2
 * Pobierz [wersja stabilna][1]
 * Pobierz [wersja rozwojowa][2]
 
@@ -97,7 +97,7 @@ skrót służący do wywołania dialogu aktywacji lub słownika emotikonów:
 
 Uwaga: w  Windowsie 10, jest także możliwe używanie panelu emoji.
 
-## Changes for 11.0 ##
+## Zmiany w wersji 11.0 ##
 
 * When the add-on is updated, dictionaries saved in the previous version of
   the add-on will be automatically copied to the new version, unless you
@@ -108,13 +108,13 @@ Uwaga: w  Windowsie 10, jest także możliwe używanie panelu emoji.
   between the symbol itself and its description in browse mode, useful for
   speech users.
 
-## Changes for 10.0 ##
+## Zmiany w wersji 10.0 ##
 
 * Added commands to show the symbol where the review cursor or caret are
   positioned. Gestures for these commands can be assigned from the Input
   gestures dialog, Text review category.
 
-## Changes for 9.0 ##
+## Zmiany w wersji 9.0 ##
 
 * Added the possibility of choosing if add-on emojis should be spoken.
 * Used appropiate encoding for dictionary names, fixing errors when they
