@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 8.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2014-04-11 05:05+0100\n"
-"PO-Revision-Date: 2019-04-04 12:31+0800\n"
+"PO-Revision-Date: 2020-01-29 13:11+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: NVDASimplified Chinese team All volunteers <Copyright (C) "
 "2010-2019>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.2.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. Translators: the label of a message box dialog.
@@ -94,33 +94,32 @@ msgstr "显示表情设置。"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the review cursor is located."
-msgstr "显示位于审阅光标所在位置的符号。"
+msgstr "显示位于浏览光标所在位置的符号。"
 
 #. Translators: Reported when there is no replacement for the symbol at the position of the review cursor.
 #. Translators: Reported when there is no replacement for the symbol at the position of the caret.
-#, fuzzy
 msgid "No symbol replacement"
-msgstr "替换为"
+msgstr "没有可替换的符号"
 
 #. Translators: Character and its replacement used from the "Review current Symbol" command. Example: "Character: ? Replacement: question"
 msgid ""
 "Character: {}\n"
 "Replacement: {}"
 msgstr ""
+"字符: {}\n"
+"替换: {}"
 
 #. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
-#, fuzzy
 msgid "Symbol at the review cursor position ({})"
-msgstr "审阅光标位置 ( %s) 处的符号"
+msgstr "在此光标位置插入符号 ({})"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the caret is located."
 msgstr "显示光标所在位置的符号。"
 
 #. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
-#, fuzzy
 msgid "Symbol at the caret position ({})"
-msgstr "光标的符号是(%s)"
+msgstr "在此位置需要插入的符号 ({})"
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"
