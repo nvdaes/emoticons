@@ -1,7 +1,7 @@
 # Emoticons #
 * Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Compatibilità con NVDA: dalla 2018.3 alla 2019.2
+* NVDA compatibility: 2019.3 or later
 * Scarica la [versione stabile][1]
 * Scarica la[versione in sviluppo][2]
 
@@ -99,6 +99,10 @@ Emoticons:
 
 Nota: In Windows 10 è possibile utilizzare la finestra per inserire emoji. 
 
+## Changes for 12.0 ##
+
+* Requires NVDA 2019.3 or later.
+
 ## Changes for 11.0 ##
 
 * Quando il componente aggiuntivo viene aggiornato, i dizionari salvati
@@ -189,6 +193,7 @@ Nota: In Windows 10 è possibile utilizzare la finestra per inserire emoji.
 ## Cambiamenti per 1.0 ##
 
 * Versione iniziale
+
 
 [[!tag dev stable]]
 

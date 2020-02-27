@@ -1,7 +1,7 @@
 # Emotikoni #
 * Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* NVDA kompatibilnost: 2018.3 do 2019.2
+* NVDA kompatibilnost: 2019.3 i novije
 * Preuzmi [stabilnu verziju][1]
 * Preuzmi [razvojnu verziju][2]
 
@@ -95,6 +95,10 @@ za Rječnik emotikona:
 
 Napomena: Na Windows 10 je moguće koristiti i ugrađenu ploču emojija.
 
+## Promjene u verziji 12.0 ##
+
+* Zahtijeva NVDA 2019.3 i novije verzije.
+
 ## Promjene u verziji 11.0 ##
 
 * Kad se dodatak nadogradi, rječnici spremljeni u prethodnoj verziji dodatka
@@ -183,6 +187,7 @@ Napomena: Na Windows 10 je moguće koristiti i ugrađenu ploču emojija.
 ## Promjene u verziji 1.0 ##
 
 * Prvo izdanje.
+
 
 [[!tag dev stable]]
 

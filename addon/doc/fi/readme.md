@@ -1,7 +1,7 @@
 # Hymiöt #
 * Tekijät: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Yhteensopivuus: NVDA 2018.3-2019.2
+* Yhteensopivuus: NVDA 2019.3 tai uudempi
 * Lataa [vakaa versio][1]
 * Lataa [kehitysversio][2]
 
@@ -94,6 +94,10 @@ Hymiöt-asetuspaneelin tai hymiösanastovalintaikkunan avaamiseen:
 Huom: Windows 10:ssä on mahdollista käyttää myös sisäänrakennettua
 emojipaneelia.
 
+## Muutokset versiossa 12.0 ##
+
+* Edellyttää NVDA 2019.3:a tai uudempaa.
+
 ## Muutokset versiossa 11.0 ##
 
 * Kun lisäosa päivitetään, iaemmassa versiossa tallennetut sanastot
@@ -181,6 +185,7 @@ emojipaneelia.
 ## Muutokset versiossa 1.0 ##
 
 * Ensimmäinen versio.
+
 
 [[!tag dev stable]]
 

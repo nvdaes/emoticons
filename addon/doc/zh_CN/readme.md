@@ -1,7 +1,7 @@
 # Emoticons #
 * 作者：Chris Leo，NoeliaRuizMartínez，Mesar Hameed，Francisco
   JavierEstradaMartínez
-* NVDA兼容版本: 2018.3至2019.2
+* NVDA兼容版本: 2019.3或更高版本
 * 下载[稳定版][1]
 * 下载[开发版][2]
 
@@ -65,6 +65,10 @@ emoticons子文件夹中。
 * 未分配: 打开显示插入符号所在位置的符号的可浏览消息, 以便可以在浏览模式下查看整个描述。
 
 注意：在Windows 10上，也可以使用内置表情符号面板。
+
+## 版本 12.0 ##
+
+* 需要NVDA 2019.3或更高版本。
 
 ## 版本 11.0 ##
 
@@ -130,6 +134,7 @@ emoticons子文件夹中。
 ## 1.0更新日志 ##
 
 * 发布初始版本。
+
 
 [[!tag dev stable]]
 

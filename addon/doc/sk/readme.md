@@ -1,88 +1,148 @@
 # Emotikony #
-
-* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+* Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* stiahnuť [stabilná verzia][1]
-* Stiahnuť [Vývojová verzia][2]
+* Funguje s NVDA od verzie 2019.3
+* stiahnuť [stabilnú verziu][1]
+* Stiahnuť [Vývojovú verzia][2]
 
-Using this add-on, spoken text containing emoticon characters will be
-replaced by its more human friendly description.
+Tento doplnok interpretuje grafické emotikony slovným popisom.
 
-For example: the sequence ":)" will be spoken as "smiling smiley", or for
-example NVDA will recognize the meaning of each emoji.
+napríklad: ":)" bude prečítané ako "úsmev". NVDA navyše bude rozpoznávať aj
+emoji.
 
 Ďalšie vlastnosti:
 
-## Insert Emoticon ##
+## Vloženie emotikonu ##
 
-Sometimes an image is worth a 1000 words: use the new emoji to liven up your
-instant message and to let your friends know how you’re feeling.
+Namiesto tisíc slov môžete použiť jediný obrázok. Použite emoji a dajte
+vašim priateľom vedieť, ako sa cítite a čo robíte.
 
-When you are unsure of the characters for a particular smiley, this addon
-enables you to select and insert it into your text such as in a chat.
+Ak si nie ste istý, ako napísať správne smailíka, tento doplnok vám umožní
+vybrať požadovaný symbol zo zoznamu.
 
-Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
+Emotikony môžete vložiť z menu nvda > nástroje alebo skratkou nvda+i.
 
-This dialog allows you to choose an emoticon and to view the emoticons that
-interest you:
+V dialógu uvidíte emotikony na vloženie a tiež tie, ktoré často vkladáte:
 
-*	An editable field allows you to filter the search for the desired emoticon
-  among the emoticons available.
-*	Through a set of radio buttons, you can choose to view only emoji category
-  (alt+E) or view only standard emoticon category (alt+s) or view all
-  emoticons available (alt+A).
-*	In the list of emoticons (alt+L) are displayed on three columns
-  respectively: the name of emoticon, the type of emoticon (standard
-  emoticon or emoji), the corresponding character.
+*	Pomocou editačného poľa filter môžete rýchlo vyhľadať príslušný emotikon.
+*	Pomocou prepínača môžete zvoliť všetky emotikony (alt+v), emoji (alt+i)
+  alebo len štandardné emotikony (alt+š).
+*	V zozname (alt+z) sa pri každej položke zobrazuje textový popis, tip a
+  symbol.
 
-When you press OK, the characters for the chosen emoticon will be copied to
-your clipboard, ready for pasting.
+Stlačením OK sa príslušný emotikon uloží do schránky. Následne ho môžete
+kamkoľvek prilepiť.
 
-## vlastné emotikony ##
+## Slovník emotikonov ##
 
-From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can open a dialog setting to add or to edit available emoticons.
+Môžete mať rôzne slovníky pre rôzne konfiguračné profily.
 
-This dialog allows you to save an emoticons speech dictionary with your
-customizations.
+V každom konfiguračnom profile NVDA tak môžete mať vlastný slovník
+emotikonov.
+
+V menu NVDA >možnosti >emotikony >pridať /upraviť môžete vytvoriť nové, alebo upraviť existujúce emotikony.
+V tomto dialógu môžete uložiť vlastný používateľský slovník s emotikonmi.
+
+Keď uložíte zmeny v doplnku pri aktivovanom konfiguračnom profile, zmeny sa
+prejavia len v práve aktívnom profile.
+
+Napríklad: Chceme, aby NVDA oznamovalo emotikony v programe Miranda, ale nie
+v ostatných aplikáciách. Vytvoríme preto profil pre Mirandu a priradíme k
+nemu slovník z rečových slovníkov.
 
 po stlačení tlačidla "Ulož a exportuj slovník" sa používateľský slovník
-uloží v priečinku s nastaveniami NVDA, v podpriečinku speechDicts pod názvom
-emoticons.dic.
+uloží v priečinku s nastaveniami NVDA, v priečinku speechDicts/emoticons.
 
-## Aktivácia ##
+Názov slovníka sa určí podľa názvu profilu. Názov sa zobrazí aj v názve okna
+pri úprave slovníka.
 
-From menu Preferences -> Manage Emoticons -> Activation settings, you can choose whether to Activate speaking of emoticons when starting NVDA. By default it is disabled.
+## Nastavenia ##
 
-It is also possible to save your choice for this setting.
+Aktiváciu slovníka aktivujete v strome s nastaveniami NVDA, vetva emotikony.
+
+Tu môžete určiť, či sa použije slovník s emotikonmi pre práve upravovaný profil. Predvolene je toto nastavenie vypnuté.
+
+Takisto môžete zapnúť a vypnúť oznamovanie emoji. Toto je užitočné v
+prípade, že sú emoji súčasťou NVDA.
+
+Tiež môžete z tohto dialógu odstrániť slovníky, ktoré sa viac nepoužívajú a
+nie ú asociované so žiadnym profilom.
 
 ## Klávesové skratky: ##
 
-These are the key command available by default, you can edit those or add
-new key to open Activation settings dialog or Emoticon Dictionary dialog:
+Klávesové skratky môžete upraviť v dialógu klávesové skratky, vetva
+prezeranie textu. Dostupné sú tieto možnosti:
 
-* NVDA+E: speaching emoticons on/off, toggles between speaking text as it is
-  written, or with the emoticons replaced by the human description.
-* NVDA+I: show a dialog to select an emoticon you want to copy.
+* NVDA+E: prepína medzi vyslovovaním znakov a popisov emotikonov. Určuje, či
+  budú oznamované jednotlivé časti emotikonu alebo slovný popis.
+* NVDA+I: zobrazí dialóg na vloženie požadovaného emotikonu.
+* Nedefinované: Zobraz emotikon pod prezeracím kurzorom režime prehliadania.
+* Nedefinované: Zobraz emotikon pod systémovým kurzorom v režime
+  prehliadania.
 
+Upozorňujeme, že na vkladanie emotikonov môžete v systéme Windows 10 použiť
+vstavaný panel emotikonov.
 
-## Changes for 5.0 ##
+## Zmeny vo verzii 12.0 ##
 
-* Added support for emojis.
-* Improvements for Insert Emoticon dialog with a filter field and radio
-  buttons to choose displayed emoticons.
-* Using guiHelper for Activation settings dialog and Insert Emoticon dialog:
-  requires NVDA 2016.4 or higher versions
+* Vyžaduje NVDA od verzie 2019.3.
 
-## Changes for 4.0 ##
+## Zmeny vo verzii 11.0 ##
 
-* If the Insert smiley dialog is opened when another settings dialog is
-  active, NVDA will show the corresponding error message.
+* Slovníky z predošlých verzií sa automaticky importujú pri aktualizácii do
+  novej verzie, ak nepreferujete ukladanie slovníkov do hlavného adresára s
+  nastaveniami NVDA.
+* V režime prehliadania sa pri popise symbolu zobrazujú aj slová znak a
+  popis, aby bolo možné ľahšie rozlíšiť reprezentáciu a popis symbolov.
+
+## Zmeny vo verzii 10.0 ##
+
+* Pridané skratky na zobrazenie symbolov v režime prehliadania. Nastavujú sa
+  v dialógu klávesové skratky, vetva prezeranie textu.
+
+## Zmeny vo verzii 9.0 ##
+
+* Pridaná možnosť zapnúť a vypnúť oznamovanie emotikonov.
+* Prerobené kódovanie a odstránené problémy s kódovaním.
+* Odteraz je možné preložiť popis doplnku.
+* Pridaná informácia o panely emoji v systéme Windows 10.
+
+## Zmeny vo verzii 8.0 ##
+
+* Vyžaduje NVDA od verzie 2018.3.
+
+## Zmeny vo verzii 7.0 ##
+
+* Dialóg s nastaveniami presunutý do nastavení NVDA.
+* Odstránené menu doplnku: Pridanie emotikonu vykonáte z menu nástroje,
+  slovníky sú v menu rečové slovníky.
+* Vyžaduje NVDA od verzie 2018.2.
+* Môžete si [stiahnuť verziu pre NVDA 2017.3][3].
+
+## Zmeny vo verzii 6.0 ##
+
+* Pridaná podpora pre konfiguračné profily.
+* Od NVDA 2017.4 sa nastavenia načítavajú podľa použitého profilu. V
+  starších verziách je potrebné načítať pluginy (ctrl+nvda+F3).
+* Pri aktualizácii na novú verziu sa odstránia nepoužívané súbory
+  (emoticons.ini a emoticons.dic).
+
+## Zmeny vo verzii 5.0 ##
+
+* Pridaná podpora emoji.
+* Do dialógu na vloženie emotikonu pridaný filter a kategórie.
+* Vyžaduje NVDA 2016.4. Pridaný modul guiHelper na zobrazenie dialógov.
+
+## Zmeny vo verzii 4.0 ##
+
+* Nie je viac možné otvoriť dialóg na vkladanie emotikonov, ak je už
+  otvorený iný dialóg NVDA.
 
 
 ## Zmeny vo verzii 3.0 ##
 
 * v dialógu s nastavením emotikonov môžete odteraz určiť, či sa má reťazec
-  zmeniť len ak je ako celeé slovo, alebo v ľubovoľnom knotexte (rovnako ako
+  zmeniť len ak je ako celé slovo, alebo v ľubovoľnom kontexte (rovnako ako
   v rečových slovníkoch NVDA od verzie 2014.4).
 
 
@@ -100,8 +160,11 @@ new key to open Activation settings dialog or Emoticon Dictionary dialog:
 
 * prvé vydanie.
 
+
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=emo
 
 [2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
+
+[3]: https://addons.nvda-project.org/files/get.php?file=emo-o

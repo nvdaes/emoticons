@@ -1,7 +1,7 @@
 # Các biểu tượng cảm xúc #
 * Tác giả: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* NVDA tương thích: 2018.3 đến 2019.2
+* NVDA tương thích: 2019.3 trở lên
 * Tải về [phiên bản chính thức][1]
 * Tải về [phiên bản thử nghiệm][2]
 
@@ -99,6 +99,10 @@ biểu tượng cảm xúc:
 
 Lưu ý: trên Windows 10, có thể sử dụng bản nhập biểu tượng cảm xúc dựng sẵn.
 
+## Các thay đổi cho phiên bản 12.0 ##
+
+* Yêu cầu NVDA 2019.3 trở lên.
+
 ## Các thay đổi cho phiên bản 11.0 ##
 
 * Khi cập nhật add-on, các từ điển đã lưu trong phiên bản trước sẽ tự được
@@ -183,6 +187,7 @@ Lưu ý: trên Windows 10, có thể sử dụng bản nhập biểu tượng c�
 ## Các thay đổi cho phiên bản 1.0 ##
 
 * Phiên bản đầu tiên.
+
 
 [[!tag dev stable]]
 

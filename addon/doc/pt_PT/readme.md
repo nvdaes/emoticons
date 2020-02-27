@@ -1,7 +1,7 @@
 # Emoticons #
 * Autores: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* NVDA compatibility: 2018.3 to 2019.2
+* NVDA compatibility: 2019.3 or later
 * Baixar [versão estável] [1]
 * Baixar [versão de desenvolvimento] [2]
 
@@ -102,6 +102,10 @@ diálogo do dicionário do Emoticon:
 
 Nota: No Windows 10, também é possível usar o painel de emojis nativo.
 
+## Changes for 12.0 ##
+
+* Requires NVDA 2019.3 or later.
+
 ## Changes for 11.0 ##
 
 * When the add-on is updated, dictionaries saved in the previous version of
@@ -193,6 +197,7 @@ Nota: No Windows 10, também é possível usar o painel de emojis nativo.
 ## Alterações para 1.0 ##
 
 * Versão inicial.
+
 
 [[!tag dev stable]]
 

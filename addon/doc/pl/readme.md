@@ -1,7 +1,7 @@
 # Emoticons #
 * Autorzy: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Zgodność z wersjami NVDA: 2018.3 do 2019.2
+* Zgodność z wersjami NVDA: 2019.3 lub nowszymi
 * Pobierz [wersja stabilna][1]
 * Pobierz [wersja rozwojowa][2]
 
@@ -71,9 +71,8 @@ Menu Ustawienia -> Zarządzaj Emotikonami -> Ustawienia Aktywacji otwiera okno d
 
 W oknie dialogowym ustawień aktywacji, można określić, czy słownik wymowy powinien/niepowinien aktywować się automatycznie, gdy NVDA przełącza się na aktualnie edytowany profil. Jest to domyślnie wyłączone w standardowej konfiguracji NVDA i we wszystkich nowych profilach dodanych przez użytkownika.
 
-Moreover, it's possible to determine if the add-on emojis should be
-spoken. This could be useful to preserve symbols speaking if emojis are
-included in NVDA's configuration.
+Przede wszystkim, można regulować wymowę emoji dodatku. To jest użyteczne
+gdy chcemy zachować wymowe emoji przez NVDA.
 
 Jeżeli wolisz nie wprowadzać do swoich folderów konfiguracji żadnych zmian,
 możesz określić w tym samym oknie dialogowym, czy nieużywane słowniki
@@ -88,40 +87,38 @@ skrót służący do wywołania dialogu aktywacji lub słownika emotikonów:
 * NVDA+E: przełącza między odczytywaniem tekstu tak jak został napisany, a
   odczytywaniem tekstu z emotikonami zastąpionymi przez opisy.
 * NVDA+I: wyświetla okno dialogowe wyboru uśmieszku do skopiowania.
-* Not assigned: open a browseable message showing the symbol where the
-  review cursor is positioned, so that the whole description can be reviewed
-  in browse mode.
-* Not assigned: open a browseable message showing the symbol where the caret
-  is positioned, so that the whole description can be reviewed in browse
-  mode.
+* Nieprzydzielone: Otwiera opis znaku pod kursorem przeglądu jako wiadomość
+  HTML, aby było możliwe przeczytanie opisu znaku w trybie przeglądania.
+* Nieprzydzielone: otwiera wiadomość w oknie HTML, aby było możliwe
+  przeczytanie opisu znaku w trybie przeglądania.
 
 Uwaga: w  Windowsie 10, jest także możliwe używanie panelu emoji.
 
+## Zmiany dla wersji 12.0 ##
+
+* Wymaga NVDA w wersji 2019.3 lub nowszej.
+
 ## Zmiany w wersji 11.0 ##
 
-* When the add-on is updated, dictionaries saved in the previous version of
-  the add-on will be automatically copied to the new version, unless you
-  prefer to import dictionaries saved in the main dictionaries folder of
-  NVDA.
-* When showing the symbol where the caret or the review cursor are
-  positioned, the words Character and Replacement are used to distinguish
-  between the symbol itself and its description in browse mode, useful for
-  speech users.
+* Przy aktualizacji dodatku, stare słowniki będą kopiowane do nowej wersji,
+  jednak użytkownik może używać głównych słowników w folderze.
+* Przy pokazywaniu znaku, słowa znak i zamiana są korzystane aby pokazać
+  różnice w trybie czytania, przydatne dla użytkowników którzy używają mowy.
 
 ## Zmiany w wersji 10.0 ##
 
-* Added commands to show the symbol where the review cursor or caret are
-  positioned. Gestures for these commands can be assigned from the Input
-  gestures dialog, Text review category.
+* Dodano polecenie które pokazuje gdzie znajduje się określony znak. Gesty
+  dla tego polecenia można zmienić z poziomu dialogu zdarzenia wejścia,
+  kategoria przegląd tekstu.
 
 ## Zmiany w wersji 9.0 ##
 
-* Added the possibility of choosing if add-on emojis should be spoken.
-* Used appropiate encoding for dictionary names, fixing errors when they
-  contain certain characters.
-* The translated summary of the add-on is properly used for the title
-  presented in add-on help, accessible from the add-on manager.
-* Added a note mentioning the emoji panel available on Windows 10.
+* Dodano możliwość wymawiania emoji dodatku.
+* Używane oczekiwane kodowanie dla słowników, poprawiając błąd przy
+  napotkanych znakach niewspieranych.
+* Opis dodatku jest prawidłowo wykorzystywany dla pokazywanego tytułu w
+  pomocy dodatku, dostępnej z menedżera dodatku.
+* Dodano notatkę uwzględniającą emoji panel w Windowsie 10.
 
 ## Zmiany w wersji 8.0 ##
 
@@ -184,6 +181,7 @@ Uwaga: w  Windowsie 10, jest także możliwe używanie panelu emoji.
 ## Zmiany dla wersji 1.0 ##
 
 * Pierwsza wersja.
+
 
 [[!tag dev stable]]
 

@@ -1,7 +1,7 @@
 # Emoticons #
 * Авторы: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* NVDA compatibility: 2018.3 to 2019.2
+* NVDA compatibility: 2019.3 or later
 * Загрузить [Стабильную версию][1]
 * Загрузить [Разрабатываемую версию][2]
 
@@ -98,6 +98,10 @@ new key to open Emoticons settings panel or Emoticon Dictionary dialog:
 
 Note: On Windows 10, it's also possible to use the built-in emoji panel.
 
+## Changes for 12.0 ##
+
+* Requires NVDA 2019.3 or later.
+
 ## Changes for 11.0 ##
 
 * When the add-on is updated, dictionaries saved in the previous version of
@@ -185,6 +189,7 @@ Note: On Windows 10, it's also possible to use the built-in emoji panel.
 ## Изменения в версии 1.0 ##
 
 * Начальная версия.
+
 
 [[!tag dev stable]]
 

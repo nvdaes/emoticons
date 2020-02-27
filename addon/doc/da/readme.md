@@ -1,7 +1,7 @@
 # Emoticons (Humørikoner) #
 * Forfattere: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco
   Javier Estrada Martínez
-* NVDA compatibility: 2018.3 to 2019.2
+* NVDA compatibility: 2019.3 or later
 * Download [stabil version][1]
 * Download [udviklingsversion][2]
 
@@ -96,6 +96,10 @@ Emoticons eller dialogen til styrelse af Emoticons-ordbøger.
 
 Bemærk: I Windows 10 er det også muligt at bruge det indbyggede emoji-panel.
 
+## Changes for 12.0 ##
+
+* Requires NVDA 2019.3 or later.
+
 ## Changes for 11.0 ##
 
 * When the add-on is updated, dictionaries saved in the previous version of
@@ -186,6 +190,7 @@ Bemærk: I Windows 10 er det også muligt at bruge det indbyggede emoji-panel.
 ## Ændringer i 1.0 ##
 
 * Første version.
+
 
 [[!tag dev stable]]
 

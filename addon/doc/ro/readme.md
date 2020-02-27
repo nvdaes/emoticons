@@ -1,7 +1,7 @@
 # Emoticons #
 * Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Compatibilitate NVDA: 2018.3 - 2019.2
+* NVDA compatibility: 2019.3 or later
 * Descarcă [versiunea stabilă][1]
 * Descarcă [versiunea în dezvoltare][2]
 
@@ -107,6 +107,10 @@ Emoticons sau dialogul dicționarului de emoticoane:
 
 Notă: În Windows 10, este posibil să folosiți și panoul de emoji.
 
+## Changes for 12.0 ##
+
+* Requires NVDA 2019.3 or later.
+
 ## Modificări aduse în versiuna 11.0 ##
 
 * Când suplimentul este actualizat, dicționarele folosite în versiunile
@@ -195,6 +199,7 @@ Notă: În Windows 10, este posibil să folosiți și panoul de emoji.
 ## Modificări aduse în versiuna 1.0 ##
 
 * Versiunea Inițială.
+
 
 [[!tag dev stable]]
 
