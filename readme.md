@@ -64,6 +64,10 @@ These are the key commands available by default, you can edit those or add new k
 
 Note: On Windows 10, it's also possible to use the built-in emoji panel.
 
+## Changes for 13.0 ##
+
+* Fixed errors in Insert Emoticon dialog.
+
 ## Changes for 12.0 ##
 
 * Requires NVDA 2019.3 or later.
