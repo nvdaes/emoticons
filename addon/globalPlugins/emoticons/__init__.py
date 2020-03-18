@@ -281,21 +281,21 @@ class EmoticonFilter(object):
 	def filter(self, emoticonsList, pattern):
 		"""Filters the input list with the specified pattern."""
 		if pattern == "": return emoticonsList
-		else: return list(filter(lambda emoticon: pattern.upper() in emoticon.name.upper(), emoticonsList))
+		else: return [emoticon for emoticon in emoticonsList if pattern.upper() in emoticon.name.upper()]
 
 class FilterStandard(EmoticonFilter):
 	"""Filter just for standard emoticons."""
 
 	def filter(self, emoticonsList, pattern):
 		filtered = super(FilterStandard, self).filter(emoticonsList, pattern)
-		return filter(lambda emoticon: not(emoticon.isEmoji), filtered)
+		return [emoticon for emoticon in filtered if not emoticon.isEmoji]
 
 class FilterEmoji(EmoticonFilter):
 	"""Filter just for emojis."""
 
 	def filter(self, emoticonsList, pattern):
 		filtered = super(FilterEmoji, self).filter(emoticonsList, pattern)
-		return filter(lambda emoticon: emoticon.isEmoji, filtered)
+		return [emoticon for emoticon in filtered if emoticon.isEmoji]
 
 class InsertEmoticonDialog(wx.Dialog):
 	""" A dialog  to insert emoticons from a list. """
