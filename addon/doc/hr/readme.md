@@ -147,7 +147,7 @@ Napomena: Na Windows 10 je moguće koristiti i ugrađenu ploču emojija.
 * U NVDA verziji 2017.4 ili novijoj, konfiguracijske postavke i prilagođeni
   rječnici će se automatski promijeniti u odnosu na odabrane profile. U NVDA
   verziji 2017.3 ili starijoj, možete primijeniti promjene ponovnim
-  učitavanjem dodataka (pritisnite kombinaciju control+NVDA+F3).
+  učitavanjem dodataka (pritisnite kombinaciju kontrol+NVDA+F3).
 * Ako odlučite uvesti postavke tijekom ažuriranja dodatka, zastarjele
   datoteke (emoticons.ini i emoticon.dic) će se ukloniti ili prilagoditi toj
   verziji.

@@ -1,7 +1,7 @@
 # Emoticons (Humørikoner) #
 * Forfattere: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco
   Javier Estrada Martínez
-* NVDA compatibility: 2019.3 or later
+* NVDA-kompatibilitet: 2019.3 eller nyere
 * Download [stabil version][1]
 * Download [udviklingsversion][2]
 
@@ -82,9 +82,9 @@ ikke-eksisterende profiler) skal fjernes fra tilføjelsen når den udlæses.
 
 ## Tastaturkommandoer: ##
 
-Disse er de vigtigste kommandoer tilgængelige som standard, du kan redigere
+Disse er de vigtigste kommandoer tilgængelige som standard. Du kan redigere
 dem eller tilføje nye tastetryk for at åbne indstillingspanelet for
-Emoticons eller dialogen til styrelse af Emoticons-ordbøger.
+Humørikoner eller dialogen til styrelse af Humørikoner-ordbøger.
 
 * NVDA+e: Skifter mellem at udtale tekst, som den er skrevet, eller med
   humørikonerne erstattet med den brugervenlige beskrivelse.
@@ -96,20 +96,19 @@ Emoticons eller dialogen til styrelse af Emoticons-ordbøger.
 
 Bemærk: I Windows 10 er det også muligt at bruge det indbyggede emoji-panel.
 
-## Changes for 12.0 ##
+## Ændringer for 12.0 ##
 
-* Requires NVDA 2019.3 or later.
+* Kræver NVDA 2019.3 eller nyere.
 
-## Changes for 11.0 ##
+## Ændringer i 11.0 ##
 
-* When the add-on is updated, dictionaries saved in the previous version of
-  the add-on will be automatically copied to the new version, unless you
-  prefer to import dictionaries saved in the main dictionaries folder of
-  NVDA.
-* When showing the symbol where the caret or the review cursor are
-  positioned, the words Character and Replacement are used to distinguish
-  between the symbol itself and its description in browse mode, useful for
-  speech users.
+* Når tilføjelsen opdateres, kopieres ordbøger, der er gemt i den forrige
+  version af tilføjelsen automatisk til den nye version, medmindre du
+  foretrækker at importere ordbøger, der er gemt i NVDAs hovedordbøger.
+* Når symbolet, der viser hvor systemmarkøren eller gennemsynsmarkøren er
+  placeret, bruges ordene Tegn og erstatning til at skelne mellem selve
+  symbolet og dets beskrivelse i gennemsynstilstand, hvilket er nyttigt for
+  brugere af tale.
 
 ## Ændringer for 10.0 ##
 
