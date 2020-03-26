@@ -1,7 +1,7 @@
 # Emoticons #
 * Autoren: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* NVDA compatibility: 2019.3 or later
+* NVDA-Kompatibilität: 2019.3 oder neuer
 * [Stabile Version herunterladen][1]
 * [Entwicklerversion herunterladen][2]
 
@@ -101,9 +101,9 @@ oder den Emoticon-Wörterbuch-Dialog zu öffnen:
 Hinweis: Unter Windows 10 ist es auch möglich, das integrierte Emoji-Panel
 zu verwenden.
 
-## Changes for 12.0 ##
+## Änderungen für 12.0 ##
 
-* Requires NVDA 2019.3 or later.
+* Erfordert NVDA 2019.3 oder höher.
 
 ## Änderungen in 11.0 ##
 
