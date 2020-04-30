@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 2.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2014-10-17 05:00+1000\n"
-"PO-Revision-Date: 2019-12-15 18:58+0100\n"
+"PO-Revision-Date: 2020-04-25 16:57+0100\n"
 "Last-Translator: Nikola Jović <wwenikola123@gmail.com>\n"
 "Language-Team: sr\n"
 "Language: sr\n"
@@ -509,7 +509,7 @@ msgstr "Osoba koja pokazuje ne"
 
 #. Translators: (emoji) A person with arms above his head, making an OK sign with the whole body.
 msgid "Person Gesturing OK"
-msgstr "Osoba koja pokazuje uredu"
+msgstr "Osoba koja pokazuje u redu"
 
 #. Translators: (emoji) A person bowing deeply, express a sincere apology or to request a favour.
 msgid "Person bowing"
@@ -537,7 +537,7 @@ msgstr "Mačka sa osmehom i očima u obliku srca"
 
 #. Translators: (emoji) ok hand sign.
 msgid "Ok hand sign"
-msgstr "Znak rukama uredu"
+msgstr "Znak rukama u redu"
 
 #. Translators: (emoji) thumbs up symbol.
 msgid "Thumbs up symbol"
