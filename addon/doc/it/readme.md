@@ -1,13 +1,12 @@
 # Emoticons #
 * Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* NVDA compatibility: 2019.3 or later
+* Versioni di NVDA compatibili: 2019.3 o superiori
 * Scarica la [versione stabile][1]
 * Scarica la[versione in sviluppo][2]
 
-L'utilizzo di questo componente aggiuntivo consente di leggere la
-descrizione degli emoticons quando si incontrano caratteri che rappresentano
-emoticons.
+Utilizzando questo componente aggiuntivo, la lettura dei caratteri che
+compongono una emoticon verrà sostituita con una sua descrizione.
 
 Per esempio: la sequenza ":)" sarà pronunciata "Smiley Sorriso", ed inoltre
 NVDA potrà riconoscere il nome degli emoji quando presenti nel testo.
@@ -19,26 +18,26 @@ NVDA potrà riconoscere il nome degli emoji quando presenti nel testo.
 A volte un'immagine vale più di mille parole: usa i nuovi emoji per
 vivacizzare i tuoi messaggi, e per far sapere ai tuoi amici come ti senti.
 
-Se non sai quale carattere usare per il tuo emoticon, il componente
-aggiuntivo ti da la possibilità di riconoscere e sceglierne uno e copiarlo
-negli appunti per poi inserirlo in campi di editazione, come per esempio in
-una chat.
+Se non sai quale carattere usare per un emoticon, questo componente
+aggiuntivo ti permette di riconoscere e sceglierne uno e copiarlo negli
+appunti per poi inserirlo in campi di editazione, come per esempio in una
+chat.
 
-Con la combinazione di tasti NVDA+I, o dal menu Strumenti->  Inserisci emoticon, è possibile aprire una finestra di dialogo con le emoticon o emoji.
+Premi NVDA+I, o scegli Strumenti->  Inserisci emoticon dal menu di NVDA, per aprire una finestra di dialogo contenente  le emoticon o emoji disponibili.
 
 Questa finestra di dialogo consente di scegliere un emoticon e visualizzare
 le emoticon che ti interessano:
 
-*	Un campo modificabile permette di filtrare la ricerca per l'emoticon
-  desiderato tra le emoticon disponibili. 
+*	Un campo editabile permette di filtrare la ricerca per l'emoticon
+  desiderato tra le emoticon disponibili.
 *	Tramite dei pulsanti radio è possibile scegliere di visualizzare solo la
   categoria emoji (alt+E) o visualizzare solo gli emoticon standard (alt+s)
   oppure visualizzare tutti gli emoticon disponibili (alt+A).
-*	Nella lista di emoticon (alt+L), vi sono presenti tre colonne,
+*	Nella lista delle emoticon (alt+L),, su tre colonne, sono mostrati
   rispettivamente: il nome dell'emoticon, il tipo di emoticon (standard
-  emoticon o emoji), il carattere corrispondente. 
+  emoticon o emoji) e il carattere corrispondente.
 
-Quando si preme OK, il carattere dell'emoticon scelto verrà copiato negli
+Quando si preme OK, i caratteri dell'emoticon scelto verranno copiati negli
 appunti, pronto per essere incollato.
 
 ## Dizionario Emoticons ##
@@ -49,39 +48,40 @@ servendosi dei profili di configurazione.
 Ciò significa che   è possibile creare o modificare un dizionario di voce
 per ogni profilo personale.
 
-Dal menu di NVDA, Preferenze -> Dizionario Emoticons, è possibile aprire una finestra di dialogo per aggiungere o modificare gli emoticon disponibili.
+Scegliendo Preferenze -> Dizionario Emoticons dal menu di NVDA, , è possibile aprire una finestra di dialogo per aggiungere o modificare gli emoticon disponibili.
 
-Quando si salva la configurazione, le nuove impostazioni di lettura si
-applicano solo al profilo personale in uso.
+Quando si salva la configurazione, le nuove impostazioni di lettura saranno
+applicate solo al profilo personale in uso.
 
-Per esempio, se si preferisce che NVDA legga le classiche emoticons solo in
-uno specifico programma di chat, ma non in altre applicazioni di chat, si
-può creare un profilo personale per lo specifico programma ed assegnargli
-un dizionario di voce dal menu Dizionari, Dizionario Emoticons. Vedi di
-seguito per le impostazioni in relazione alla configurazione  di un profilo
-personale.
+Per esempio, se si preferisce che NVDA legga le emoticons solo in uno
+specifico programma di chat, ma non in altre applicazioni di chat, si può
+creare un profilo personale per lo specifico programma ed assegnargli  un
+dizionario di voce dal menu Dizionari -> Dizionario Emoticons. Vedi di
+seguito per le impostazioni di Emoticons in relazione alla configurazione
+di un profilo personale.
 
 Con il pulsante "Salva ed esporta dizionario" è possibile salvare il
 dizionario chiamato emoticons.dic nella cartella di configurazione personale
 speechDicts.
 
-Il nome ed il percorso del dizionario deriva dal nome dell'attuale profilo
-in fase di modifica, questo verrà indicato nel titolo della finestra del
-dizionario.
+Il nome ed il percorso del dizionario derivano dal profilo di configurazione
+corrente, che verrà indicato nel titolo della finestra del dizionario di
+Emoticons.
 
 ## Impostazioni Emoticons ##
 
-Dal menu preferenze > Impostazioni, è possibile visualizzare le impostazioni Emoticons e scegliere se Attivare la lettura di emoticon per ogni profilo. Di default è disattivato.
+Scegliendo Preferenze -> Impostazioni -> Emoticons dal menu di NVDA, è possibile aprire una finestra per scegliere se Attivare la lettura delle emoticon per ogni profilo. Di default è disattivato.
 
-Nel pannello impostazioni Emoticons è possibile scegliere se attivare o meno il dizionario per il profilo in fase di modifica. Di default è disattivato sia per la configurazione normale che per tutti i nuovi profili.
+Nel pannello impostazioni di Emoticons è possibile scegliere se attivare o meno il dizionario per il profilo che si sta modificando. Per default, questa impostazione è disattivata nella configurazione normale di NVDA e in tutti i nuovi profili.
 
 È inoltre possibile decidere se far leggere gli emoji dal componente
 aggiuntivo, oppure mantenere la lettura degli emoji dalla configurazione di
 NVDA.
 
-Se si preferisce tenere  pulita la cartella di configurazione, è possibile
-rimuovere i dizionari non utilizzati (quelli associati ad un profilo
-eliminato) e che non vengono caricati.
+Se si preferisce tenere  pulite le cartelle di configurazione, in questa
+finestra è anche possibile scegliere se i dizionari non utilizzati (quelli
+associati ad un profilo non più esistnete) verranno rimossi quando il
+componente agguintivo viene terminato.
 
 ## Comandi rapidi: ##
 
@@ -89,108 +89,114 @@ Di seguito i comandi rapidi disponibili di default: E' possibile modificarli
 o aggiungerne di nuovi per aprire le impostazioni o la finestra Dizionario
 Emoticons:
 
-* NVDA+E: Attiva o disattiva la lettura degli emoticon.
+* NVDA+E: Attiva o disattiva la lettura delle emoticon. Passa dalla lettura
+  del testo delle emoticons così com'è scritto alla lettura della loro
+  descrizione completa.
 * NVDA+I: visualizza una finestra di dialogo per selezionare un emoticon che
   si desidera copiare negli appunti.
-* Non assegnato: apre un messaggio visualizzabile con il carattere alla
-  posizione del cursore di controllo e la sua descrizione per esteso.
-* Non assegnato: apre un messaggio visualizzato con il carattere alla
-  posizione del cursore  e la sua descrizione per esteso.
+* Non assegnato: apre un messaggio leggibile in modalità navigazione, che
+  mostra il simbolo presente alla posizione del cursore di controllo e la
+  sua descrizione per esteso.
+* Non assegnato: apre un messaggio leggibile in modalità navigazione, che
+  mostra il simbolo presente alla posizione del cursore di sistema e la sua
+  descrizione per esteso.
 
-Nota: In Windows 10 è possibile utilizzare la finestra per inserire emoji. 
+Nota: In Windows 10 è possibile utilizzare la finestra emoji nativa.
 
-## Changes for 12.0 ##
+## Novità nella versione 12.0 ##
 
-* Requires NVDA 2019.3 or later.
+* Richiede NVDA 2019.3 o superiore.
 
-## Changes for 11.0 ##
+## Novità nella versione 11.0 ##
 
 * Quando il componente aggiuntivo viene aggiornato, i dizionari salvati
-  nella versione precedente del componente aggiuntivo verranno
-  automaticamente copiati nella nuova versione, a meno che non si preferisca
-  importare i dizionari salvati dalla cartella principale speechDitc.
-* Quando si visualizza il carattere alla posizione dei cursori, vengono
-  indicati con le diciture carattere e In sostituzione per distinguere
-  meglio il carattere e la sua descrizione in caso si usi sintesi vocale.
+  nella versione precedente verranno automaticamente copiati nella nuova
+  versione, a meno che non si preferisca importare i dizionari salvati nella
+  cartella principale dei dizionari di NVDA.
+* Quando si visualizza il carattere alla posizione dei cursori, si
+  utilizzano le diciture carattere e In sostituzione per distinguere meglio
+  il carattere e la sua descrizione, cosa utile per chi usa una sintesi
+  vocale.
 
-## Changes for 10.0 ##
+## Novità nella versione 10.0 ##
 
-* Aggiunti scrit per mostrare il carattere e la sua descrizione alla
-  posizione del cursore di sistema o del cursore di controllo. È possibile
-  assegnare un comando dalla finestra Gesti e tasti di immissione sotto la
-  categoria Revisione del Testo.
+* Aggiunti comandi per mostrare il carattere alla posizione del cursore di
+  sistema o del cursore di controllo e la sua descrizione. È possibile
+  assegnare tasti per questi comandi dalla finestra Gesti e tasti di
+  immissione sotto la categoria Revisione del Testo.
 
-## Changes for 9.0 ##
+## Novità nella versione 9.0 ##
 
 * Aggiunta la possibilità di scegliere se gli emoji devono esser letti dal
   componente aggiuntivo.
-* Introdotta una più appropriata codifica per i nomi dei dizionari che evita
-  errori in caso di specifici caratteri. 
-* Viene usata in modo corretta la traduzione del Summary nella finestra
-  Aiuto per il componente, raggiungibile dal Gestore componenti aggiuntivi.
+* Introdotta una più appropriata codifica per i nomi dei dizionari, che
+  evita errori quando questi contengono di specifici caratteri.
+* Il riepilogo tradotto dell'addon viene usato correttamente per il titolo
+  mostrato nella guida per il componente, raggiungibile dal Gestore
+  componenti aggiuntivi.
 * Nella guida viene menzionato il pannello emoji presente in Windows 10.
 
-## Changes for 8.0 ##
+## Novità nella versione 8.0 ##
 
 * Compatibile con NVDA 2018.3 o superiori.
 
-## Changes for 7.0 ##
+## Novità nella versione 7.0 ##
 
-* La finestra per impostare l'ttivazione è stato spostato nel pannello delle
-  impostazioni di NVDA, in modo che il profilo corrente verrà visualizzato
-  nel titolo della finestra di dialogo.
-* IL menu emoticons è stato rimosso, la voce Inserisci Emoticons è stata
-  spostata nel menu Strumenti e la finestra per creare un dizionario nel
-  menu Personalizza,Dizionari,Dizionario Emoticons.
-* Richiesto NVDA 2018.2 o superiore.
-* Se è necessario è possibile scaricare la [versione compatibile con NVDA
+* La finestra delle impostazioni di attivazione è stata spostata in un
+  pannello delle impostazioni di NVDA, in modo che il profilo corrente verrà
+  visualizzato nel titolo della finestra di dialogo Impostazioni di NVDA.
+* IL menu Gestisci Emoticons è stato rimosso, la voce Inserisci Emoticons è
+  stata spostata nel menu Strumenti e la finestra per creare un dizionario
+  nel menu Personalizza -> Dizionari -> Dizionario Emoticons.
+* Richiede NVDA 2018.2 o superiore.
+* Se è necessario, è possibile scaricare la [versione compatibile con NVDA
   2017.3][3].
 
 ## Novità nella versione 6.0 ##
 
 * Aggiunto il supporto per i profili di configurazione.
-* In NVDA 2017.4 o superiori, le impostazioni ed i dizionari personali
-  cambiano automaticamente rispetto al profilo in uso. Nella versione 2017.3
-  o precedenti per aplicare la configurazione è necessario ricaricare i
-  componenti aggiuntivi (premere nvda+control+F3).
-* Se si sceglie di importare le impostazioni del componente aggiuntivo
-  durante l'installazione , i file obsoleti (emoticon.ini ed emoticon.dic)
-  saranno rimossi e adattati alla nuova versione. 
+* In NVDA 2017.4 o versioni successive, le impostazioni ed i dizionari
+  personali cambiano automaticamente a seconda del profilo in uso. Nella
+  versione 2017.3 o precedenti, è possibile aplicare le modifiche
+  ricaricando i componenti aggiuntivi (premere nvda+control+F3).
+* Se si sceglie di importare le impostazioni quando si aggiorna il
+  componente aggiuntivo, i file obsoleti (emoticon.ini ed emoticon.dic)
+  saranno rimossi o adattati alla nuova versione.
 
 ## Novità nella versione 5.0 ##
 
-* Aggiunto il supporto per emoji caratteri UNICODE.
-* Aggiunto un campo di ricerca con filtro e i pulsanti radio per scegliere
-  quali emoticon visualizzare.
+* Aggiunto il supporto per le emoji.
+* Miglioramenti alla finestra Inserisci Emoticon, con un campo di ricerca e
+  pulsanti radio per scegliere quali emoticon visualizzare.
 * Viene usato il metodo guiHelper nelle finestre Inserisci Emoticon e
-  Impostazioni di Attivazione, il componente aggiuntivo richiede NVDA 2016.4
-  o versioni successive.
+  Impostazioni di Attivazione: richiede NVDA 2016.4 o versioni successive
 
-## Changes for 4.0 ##
+## Novità nella versione 4.0 ##
 
-* If the Insert smiley dialog is opened when another settings dialog is
-  active, NVDA will show the corresponding error message.
-
-
-## Changes for 3.0 ##
-
-* In the Customize emoticons dialog, it is now possible to specify that a
-  pattern should only match if it is a whole word, according to speech
-  dictionaries of NVDA 2014.4.
+* Se la finestra Inserisci Faccina è aperta quando un'altra finestra di
+  impostazioni è attiva, NVDA mostrerà il corrispondente messaggio di errore
+  .
 
 
-## Cambiamenti per la 2.0 ##
+## Novità nella versione 3.0 ##
 
-* L'aiuto del componente aggiuntivo è disponibile dal menu gestore
-  componenti aggiuntivi.
+* Nella finestra Personalizza Emoticons, è ora possibile effettuare una
+  ricerca per sole parole intere, in analogia con i dizionari di NVDA
+  2014.4.
 
 
-## Cambiamenti per 1.1 ##
+## Novità nella versione 2.0 ##
 
-* Rimosse emoticons duplicate
-* Aggiunte alcune faccine
+* La guida di questo add-on è disponibile dal menu gestore componenti
+  aggiuntivi.
 
-## Cambiamenti per 1.0 ##
+
+## Novità nella versione 1.1 ##
+
+* Rimosse emoticons duplicate.
+* Aggiunte alcune faccine.
+
+## Novità nella versione 1.0 ##
 
 * Versione iniziale
 
