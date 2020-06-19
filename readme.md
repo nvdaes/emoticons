@@ -1,7 +1,7 @@
 # Emoticons #
 
 * Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez
-* NVDA compatibility: 2018.3 to 2019.2
+* NVDA compatibility: 2019.3 or later
 * Download [stable version][1]
 * Download [development version][2]
 
@@ -63,6 +63,14 @@ These are the key commands available by default, you can edit those or add new k
 * Not assigned: open a browseable message showing the symbol where the caret is positioned, so that the whole description can be reviewed in browse mode.
 
 Note: On Windows 10, it's also possible to use the built-in emoji panel.
+
+## Changes for 13.0 ##
+
+* Fixed errors in Insert Emoticon dialog.
+
+## Changes for 12.0 ##
+
+* Requires NVDA 2019.3 or later.
 
 ## Changes for 11.0 ##
 

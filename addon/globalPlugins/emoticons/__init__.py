@@ -23,22 +23,19 @@ import gui
 import addonHandler
 from gui import guiHelper
 from gui.settingsDialogs import NVDASettingsDialog, SettingsPanel, DictionaryDialog
-from smileysList import emoticons
-from skipTranslation import translate
+from .smileysList import emoticons
+from .skipTranslation import translate
 from globalCommands import SCRCAT_SPEECH, SCRCAT_TOOLS, SCRCAT_CONFIG, SCRCAT_TEXTREVIEW
 from scriptHandler import script
 
 addonHandler.initTranslation()
 
 ### Constants
-ADDON_DICTS_PATH = os.path.join(os.path.dirname(__file__), "emoticons")
+ADDON_DICTS_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "emoticons"))
 EXPORT_DICTS_PATH = os.path.join(speechDictHandler.speechDictsPath, "emoticons")
 ADDON_DIC_DEFAULT_FILE = os.path.join(ADDON_DICTS_PATH, "emoticons.dic")
 ADDON_SUMMARY = addonHandler.getCodeAddon().manifest["summary"]
-try:
-	ADDON_PANEL_TITLE = unicode(ADDON_SUMMARY)
-except NameError:
-	ADDON_PANEL_TITLE = str(ADDON_SUMMARY)
+ADDON_PANEL_TITLE = ADDON_SUMMARY
 
 confspec = {
 	"announcement": "integer(default=0)",
@@ -58,7 +55,7 @@ def loadDic():
 	if profileName is None:
 		dicFile = ADDON_DIC_DEFAULT_FILE
 	else:
-		dicFile = os.path.join(ADDON_DICTS_PATH, "profiles", "%s.dic" % profileName.encode("mbcs"))
+		dicFile = os.path.abspath(os.path.join(ADDON_DICTS_PATH, "profiles", "%s.dic" % profileName))
 	sD.load(dicFile)
 	if not os.path.isfile(dicFile):
 		if config.conf["emoticons"]["speakAddonEmojis"]:
@@ -77,15 +74,6 @@ def deactivateAnnouncement():
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	scriptCategory = SCRCAT_SPEECH
-
-	def loadDic(self):
-		if self.profileName is None:
-			self.dicFile = ADDON_DIC_DEFAULT_FILE
-		else:
-			self.dicFile = os.path.join(ADDON_DICTS_PATH, "profiles", "%s.dic" % self.profileName.encode("mbcs"))
-		sD.load(self.dicFile)
-		if not os.path.isfile(self.dicFile):
-			sD.extend(defaultDic)
 
 	def handleConfigProfileSwitch(self):
 		global profileName, oldProfileName
@@ -107,7 +95,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			else:
 				# Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 				emType = _("Emoticon")
-			comment = u"{type}: {name}".format(type=emType, name=em.name)
+			comment = "{type}: {name}".format(type=emType, name=em.name)
 			otherReplacement = " %s; " % em.name
 			# Case and reg are always True
 			defaultDic.append(speechDictHandler.SpeechDictEntry(em.pattern, otherReplacement, comment, True, speechDictHandler.ENTRY_TYPE_REGEXP))
@@ -120,17 +108,21 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# Gui
 		self.toolsMenu = gui.mainFrame.sysTrayIcon.toolsMenu
 		self.dicMenu = gui.mainFrame.sysTrayIcon.preferencesMenu.GetMenuItems()[1].GetSubMenu()
-		self.insertItem = self.toolsMenu.Append(wx.ID_ANY,
+		self.insertItem = self.toolsMenu.Append(
+			wx.ID_ANY,
 			# Translators: the name for a menu item.
 			_("&Insert emoticon..."),
 			# Translators: the tooltip text for a menu item.
-			_("Shows a dialog to insert a smiley"))
+			_("Shows a dialog to insert a smiley")
+		)
 		gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onInsertEmoticonDialog, self.insertItem)
-		self.dicItem = self.dicMenu.Append(wx.ID_ANY,
+		self.dicItem = self.dicMenu.Append(
+			wx.ID_ANY,
 			# Translators: the name for a menu item.
 			_("&Emoticons dictionary..."),
 			# Translators: the tooltip text for a menu item.
-			_("Shows a dictionary dialog to customize emoticons"))
+			_("Shows a dictionary dialog to customize emoticons")
+		)
 		gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onEmDicDialog, self.dicItem)
 		NVDASettingsDialog.categoryClasses.append(AddonSettingsPanel)
 
@@ -289,21 +281,21 @@ class EmoticonFilter(object):
 	def filter(self, emoticonsList, pattern):
 		"""Filters the input list with the specified pattern."""
 		if pattern == "": return emoticonsList
-		else: return filter(lambda emoticon: pattern.upper() in emoticon.name.upper(), emoticonsList)
+		else: return [emoticon for emoticon in emoticonsList if pattern.upper() in emoticon.name.upper()]
 
 class FilterStandard(EmoticonFilter):
 	"""Filter just for standard emoticons."""
 
 	def filter(self, emoticonsList, pattern):
 		filtered = super(FilterStandard, self).filter(emoticonsList, pattern)
-		return filter(lambda emoticon: not(emoticon.isEmoji), filtered)
+		return [emoticon for emoticon in filtered if not emoticon.isEmoji]
 
 class FilterEmoji(EmoticonFilter):
 	"""Filter just for emojis."""
 
 	def filter(self, emoticonsList, pattern):
 		filtered = super(FilterEmoji, self).filter(emoticonsList, pattern)
-		return filter(lambda emoticon: emoticon.isEmoji, filtered)
+		return [emoticon for emoticon in filtered if emoticon.isEmoji]
 
 class InsertEmoticonDialog(wx.Dialog):
 	""" A dialog  to insert emoticons from a list. """
@@ -391,10 +383,7 @@ class InsertEmoticonDialog(wx.Dialog):
 		"""Reload the emoticons list."""
 		self.smileysList.DeleteAllItems()
 		for emoticon in self._filteredEmoticons:
-			if not emoticon.isEmoji:
-				self.smileysList.Append([emoticon.name, self._formatIsEmoji(emoticon.isEmoji), unicode(emoticon.chars)])
-			else:
-				self.smileysList.Append([emoticon.name, self._formatIsEmoji(emoticon.isEmoji), emoticon.chars.decode("utf-8")])
+			self.smileysList.Append([emoticon.name, self._formatIsEmoji(emoticon.isEmoji), emoticon.chars])
 
 	def onFilterChange(self, event):
 		"""Updates the emoticon list when the filter field changes its content."""
@@ -417,10 +406,7 @@ class InsertEmoticonDialog(wx.Dialog):
 				gui.messageBox(_("There is not any emoticon selected."), translate("Error"), parent=self, style=wx.OK | wx.ICON_ERROR)
 				return
 		icon = self._filteredEmoticons[focusedItem]
-		if not icon.isEmoji:
-			iconToInsert = unicode(icon.chars)
-		else:
-			iconToInsert = icon.chars.decode("utf-8")
+		iconToInsert = icon.chars
 		if api.copyToClip(iconToInsert):
 			# Translators: This is the message when smiley has been copied to the clipboard.
 			core.callLater(100, ui.message, _("Smiley copied to clipboard, ready for you to paste."))
