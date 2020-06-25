@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: emoticons 2.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2014-10-17 05:00+1000\n"
-"PO-Revision-Date: 2019-03-28 22:39+0000\n"
-"Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
+"PO-Revision-Date: 2020-06-23 15:24+0100\n"
+"Last-Translator: Ângelo Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA <angelomiguelabrantes@gmail.com; "
 "rui.fontes@tiflotecnia.com>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.1\n"
+"X-Generator: Poedit 2.3.1\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -102,27 +102,27 @@ msgstr "Mostra o símbolo posicionado onde o cursor de revisão está localizado
 #. Translators: Reported when there is no replacement for the symbol at the position of the review cursor.
 #. Translators: Reported when there is no replacement for the symbol at the position of the caret.
 msgid "No symbol replacement"
-msgstr ""
+msgstr "Sem substituição de símbolo"
 
 #. Translators: Character and its replacement used from the "Review current Symbol" command. Example: "Character: ? Replacement: question"
 msgid ""
 "Character: {}\n"
 "Replacement: {}"
 msgstr ""
+"Caracter: {}\n"
+"Substituição: {}"
 
 #. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
-#, fuzzy
 msgid "Symbol at the review cursor position ({})"
-msgstr "Símbolo na posição do cursor de revisão (%s)"
+msgstr "Símbolo na posição do cursor de revisão ({})"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the caret is located."
 msgstr "Mostra o símbolo posicionado onde o cursor está localizado"
 
 #. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
-#, fuzzy
 msgid "Symbol at the caret position ({})"
-msgstr "Símbolo na posição do cursor (%s)"
+msgstr "Símbolo na posição do cursor ({})"
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"
