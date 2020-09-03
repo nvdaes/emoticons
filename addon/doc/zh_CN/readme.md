@@ -1,4 +1,4 @@
-# Emoticons #
+# 表情符号插件 #
 * 作者：Chris Leo，NoeliaRuizMartínez，Mesar Hameed，Francisco
   JavierEstradaMartínez
 * NVDA兼容版本: 2019.3或更高版本
