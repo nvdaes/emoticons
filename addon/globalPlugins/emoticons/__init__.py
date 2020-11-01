@@ -557,10 +557,18 @@ class InsertSymbolDialog(SpeechSymbolsDialog):
 		self.filterEdit.Bind(wx.EVT_TEXT, self.onFilterEditTextChange)
 		self.filter()
 
+	def onFilterEditTextChange(self, evt):
+		try:
+			super(InsertSymbolDialog, self).onFilterEditTextChange(evt)
+		except:
+			pass
+
 	def onOk(self, evt):
 		index = self.symbolsList.GetFirstSelected()
-		symbol = self.filteredSymbols[index]
-		if api.copyToClip(symbol.identifier):
+		symbol = None
+		if index >= 0:
+			symbol = self.filteredSymbols[index]
+		if symbol is not None and api.copyToClip(symbol.identifier):
 			# Translators: This is the message when symbol has been copied to the clipboard.
 			core.callLater(100, ui.message, _("Symbol copied to clipboard, ready for you to paste."))
 		else:
