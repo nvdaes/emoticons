@@ -203,7 +203,7 @@ emoticons = [
 	Smiley(r'(\s|^)(:([\-]|)([sSQ$])(\b|\s|$))', _("Confused Face"), r':s', False),
 	# Translators: (:| Sweating
 	Smiley(r'(\s|^)\((:[\|])(\B|\s|$)', _("sweating smiley"), r'(:|', False),
-	# translators:  :|] Robot (a robot head)
+	# Translators: :|] Robot (a robot head)
 	Smiley(r'(\s|^)(:[\|][\]])(\W|\s|$)', _("Robot Smiley"), r':|]', False),
 	# Translators: :| Speechless
 	Smiley(r'(\s|^)(:[\|])(\B|\s|$)', _("speechless smiley"), r':|', False),

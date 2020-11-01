@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-#Copyright (C) 2013-2019 Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez
+# Copyright (C) 2013-2020 Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez
 # Released under GPL 2
 
 import globalPluginHandler
@@ -11,6 +11,7 @@ import api
 import speechDictHandler
 import ui
 import characterProcessing
+import copy
 import languageHandler
 import speech
 import braille
@@ -21,8 +22,8 @@ import core
 import wx
 import gui
 import addonHandler
-from gui import guiHelper
-from gui.settingsDialogs import NVDASettingsDialog, SettingsPanel, DictionaryDialog
+from gui import guiHelper, nvdaControls
+from gui.settingsDialogs import NVDASettingsDialog, SettingsPanel, DictionaryDialog, SpeechSymbolsDialog
 from .smileysList import emoticons
 from .skipTranslation import translate
 from globalCommands import SCRCAT_SPEECH, SCRCAT_TOOLS, SCRCAT_CONFIG, SCRCAT_TEXTREVIEW
@@ -107,8 +108,11 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 		# Gui
 		self.toolsMenu = gui.mainFrame.sysTrayIcon.toolsMenu
+		self.emoticonsMenu = wx.Menu()
+		# Translators: the name of a submenu.
+		self.mainItem = self.toolsMenu.AppendSubMenu(self.emoticonsMenu, _("&Emoticons"))
 		self.dicMenu = gui.mainFrame.sysTrayIcon.preferencesMenu.GetMenuItems()[1].GetSubMenu()
-		self.insertItem = self.toolsMenu.Append(
+		self.insertItem = self.emoticonsMenu.Append(
 			wx.ID_ANY,
 			# Translators: the name for a menu item.
 			_("&Insert emoticon..."),
@@ -116,6 +120,14 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			_("Shows a dialog to insert a smiley")
 		)
 		gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onInsertEmoticonDialog, self.insertItem)
+		self.insertSymbolItem = self.emoticonsMenu.Append(
+			wx.ID_ANY,
+			# Translators: the name for a menu item.
+			_("In&sert symbol..."),
+			# Translators: the tooltip text for a menu item.
+			_("Shows a dialog to insert a symbol")
+		)
+		gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onInsertSymbolDialog, self.insertSymbolItem)
 		self.dicItem = self.dicMenu.Append(
 			wx.ID_ANY,
 			# Translators: the name for a menu item.
@@ -134,7 +146,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def terminate(self):
 		try:
-			self.toolsMenu.Remove(self.insertItem)
+			self.toolsMenu.Remove(self.mainItem)
 			self.dicMenu.Remove(self.dicItem)
 			NVDASettingsDialog.categoryClasses.remove(AddonSettingsPanel)
 		except:
@@ -157,10 +169,14 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def onInsertEmoticonDialog(self, evt):
 		gui.mainFrame._popupSettingsDialog(InsertEmoticonDialog)
 
+	def onInsertSymbolDialog(self, evt):
+		gui.mainFrame._popupSettingsDialog(InsertSymbolDialog)
+
 	def onEmDicDialog(self, evt):
 		# Adapted from NVDA's core.
 		disp = profileName if profileName else translate("(normal configuration)")
 		deactivateAnnouncement()
+		# Translators: Title of a dialog.
 		gui.mainFrame._popupSettingsDialog(EmDicDialog,_("Emoticons dictionary (%s)" % disp), sD)
 
 	def onSettingsPanel(self, evt):
@@ -188,11 +204,19 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@script(
 		# Translators: Message presented in input help mode.
 		description=_("Shows a dialog to select a smiley you want to paste."),
-		category = SCRCAT_TOOLS,
+		category=SCRCAT_TOOLS,
 		gesture="kb:NVDA+i"
 	)
 	def script_insertEmoticon(self, gesture):
 		wx.CallAfter(self.onInsertEmoticonDialog, None)
+
+	@script(
+		# Translators: Message presented in input help mode.
+		description=_("Shows a dialog to select a symbol you want to paste."),
+		category=SCRCAT_TOOLS,
+	)
+	def script_insertSymbol(self, gesture):
+		wx.CallAfter(self.onInsertSymbolDialog, None)
 
 	@script(
 		# Translators: Message presented in input help mode.
@@ -488,6 +512,62 @@ class EmDicDialog(DictionaryDialog):
 		else:
 			savePath = os.path.join(EXPORT_DICTS_PATH, "emoticons.dic")
 		sD.save(savePath)
+
+
+class InsertSymbolDialog(SpeechSymbolsDialog):
+
+	helpId = ""
+
+	def __init__(self, parent):
+		super(InsertSymbolDialog, self).__init__(
+			parent,
+		)
+		# Translators: This is the label for the Insert Symbol dialog.
+		# %s is replaced by the language for which symbol pronunciation is being edited.
+		self.SetTitle(_("Insert Symbol (%s)") % languageHandler.getLanguageDescription(self.symbolProcessor.locale))
+
+	def makeSettings(self, settingsSizer):
+		self.filteredSymbols = self.symbols = [
+			copy.copy(symbol) for symbol in self.symbolProcessor.computedSymbols.values()
+		]
+		sHelper = guiHelper.BoxSizerHelper(self, sizer=settingsSizer)
+		# Translators: The label of a text field to search for symbols in the Insert Symbol dialog.
+		filterText = _("&Filter:")
+		self.filterEdit = sHelper.addLabeledControl(
+			labelText=filterText,
+			wxCtrlClass=wx.TextCtrl,
+			size=(self.scaleSize(310), -1),
+		)
+
+		# Translators: The label for symbols list in Insert Symbol dialog.
+		symbolsText = translate("&Symbols")
+		self.symbolsList = sHelper.addLabeledControl(
+			symbolsText,
+			nvdaControls.AutoWidthColumnListCtrl,
+			autoSizeColumn=2,  # The replacement column is likely to need the most space
+			itemTextCallable=self.getItemTextForList,
+			style=wx.LC_REPORT | wx.LC_SINGLE_SEL | wx.LC_VIRTUAL
+		)
+
+		# Translators: The label for a column in symbols list used to identify a symbol.
+		self.symbolsList.InsertColumn(0, translate("Symbol"), width=self.scaleSize(150))
+		# Translators: The label for a column in symbols list used to identify a replacement.
+		self.symbolsList.InsertColumn(1, translate("Replacement"))
+
+		self.filterEdit.Bind(wx.EVT_TEXT, self.onFilterEditTextChange)
+		self.filter()
+
+	def onOk(self, evt):
+		index = self.symbolsList.GetFirstSelected()
+		symbol = self.filteredSymbols[index]
+		if api.copyToClip(symbol.identifier):
+			# Translators: This is the message when symbol has been copied to the clipboard.
+			core.callLater(100, ui.message, _("Symbol copied to clipboard, ready for you to paste."))
+		else:
+			# Translators: Message when the symbol couldn't be copied.
+			core.callLater(100, ui.message, _("Cannot copy symbol."))
+		self.Destroy()
+
 
 class AddonSettingsPanel(SettingsPanel):
 
