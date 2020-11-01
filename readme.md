@@ -17,7 +17,7 @@ Sometimes an image is worth a 1000 words: use the new emoji to liven up your ins
 
 When you are unsure of the characters for a particular smiley, this addon enables you to select and insert it into your text such as in a chat.
 
-Press NVDA+I, or from menu Tools -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
+Press NVDA+I, or from menu Tools -> Emoticons > Insert emoticon, to open a dialog with the provided emoticons or emoji.
 
 This dialog allows you to choose an emoticon and to view the emoticons that interest you:
 
@@ -26,6 +26,10 @@ This dialog allows you to choose an emoticon and to view the emoticons that inte
 *	In the list of emoticons (alt+L) are displayed on three columns respectively: the name of emoticon, the type of emoticon (standard emoticon or emoji), the corresponding character.
 
 When you press OK, the characters for the chosen emoticon will be copied to your clipboard, ready for pasting.
+
+## Insert symbol ##
+
+This dialog allows you to choose one of the symbols available in the Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit box or the arrow keys to select an item from the symbols list. Then, press OK and the selected emoji or symbol will be copied to your clipboard, ready for pasting.
 
 ## Emoticons dictionary ##
 
@@ -59,6 +63,7 @@ These are the key commands available by default, you can edit those or add new k
 
 * NVDA+E: speaking emoticons on/off, toggles between speaking text as it is written, or with the emoticons replaced by the human description.
 * NVDA+I: show a dialog to select an emoticon you want to copy.
+* Not assigned: show a dialog to select an NVDA's symbol you want to copy.
 * Not assigned: open a browseable message showing the symbol where the review cursor is positioned, so that the whole description can be reviewed in browse mode.
 * Not assigned: open a browseable message showing the symbol where the caret is positioned, so that the whole description can be reviewed in browse mode.
 
@@ -67,6 +72,7 @@ Note: On Windows 10, it's also possible to use the built-in emoji panel.
 ## Changes for 13.0 ##
 
 * Fixed errors in Insert Emoticon dialog.
+* Added a dialog to insert a symbol available in the Punctuation/symbol pronunciation of NVDA.
 
 ## Changes for 12.0 ##
 
