@@ -176,6 +176,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# Adapted from NVDA's core.
 		disp = profileName if profileName else translate("(normal configuration)")
 		deactivateAnnouncement()
+		# Translators: Title of a dialog.
 		gui.mainFrame._popupSettingsDialog(EmDicDialog,_("Emoticons dictionary (%s)" % disp), sD)
 
 	def onSettingsPanel(self, evt):
@@ -203,7 +204,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@script(
 		# Translators: Message presented in input help mode.
 		description=_("Shows a dialog to select a smiley you want to paste."),
-		category = SCRCAT_TOOLS,
+		category=SCRCAT_TOOLS,
 		gesture="kb:NVDA+i"
 	)
 	def script_insertEmoticon(self, gesture):
@@ -212,7 +213,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@script(
 		# Translators: Message presented in input help mode.
 		description=_("Shows a dialog to select a symbol you want to paste."),
-		category = SCRCAT_TOOLS,
+		category=SCRCAT_TOOLS,
 	)
 	def script_insertSymbol(self, gesture):
 		wx.CallAfter(self.onInsertSymbolDialog, None)
@@ -517,14 +518,13 @@ class InsertSymbolDialog(SpeechSymbolsDialog):
 
 	helpId = ""
 
-	def __init__(self,parent):
+	def __init__(self, parent):
 		super(InsertSymbolDialog, self).__init__(
 			parent,
-			#resizeable=True,
 		)
 		# Translators: This is the label for the Insert Symbol dialog.
 		# %s is replaced by the language for which symbol pronunciation is being edited.
-		self.SetTitle(_("Insert Symbol (%s)")%languageHandler.getLanguageDescription(self.symbolProcessor.locale))
+		self.SetTitle(_("Insert Symbol (%s)") % languageHandler.getLanguageDescription(self.symbolProcessor.locale))
 
 	def makeSettings(self, settingsSizer):
 		self.filteredSymbols = self.symbols = [
@@ -534,7 +534,7 @@ class InsertSymbolDialog(SpeechSymbolsDialog):
 		# Translators: The label of a text field to search for symbols in the Insert Symbol dialog.
 		filterText = _("&Filter:")
 		self.filterEdit = sHelper.addLabeledControl(
-			labelText = filterText,
+			labelText=filterText,
 			wxCtrlClass=wx.TextCtrl,
 			size=(self.scaleSize(310), -1),
 		)
