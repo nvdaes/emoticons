@@ -563,6 +563,9 @@ class InsertSymbolDialog(SpeechSymbolsDialog):
 		except:
 			pass
 
+	def postInit(self):
+		self.filterEdit.SetFocus()
+
 	def onOk(self, evt):
 		index = self.symbolsList.GetFirstSelected()
 		symbol = None
