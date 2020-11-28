@@ -19,7 +19,7 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description" : _("Enables the announcement of emoticon names instead of the character Representation."),
 	# version
-	"addon_version" : "13.2-dev",
+	"addon_version" : "13.0",
 	# Author(s)
 	"addon_author" : u"Chris Leo <llajta2012@gmail.com>, Noelia Ruiz Martínez <nrm1977@gmail.com>, Mesar Hameed <mhameed@src.gnome.org>, Francisco Javier Estrada Martínez <Fjestrad@hotmail.com>",
 	# URL for the add-on documentation support
