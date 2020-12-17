@@ -19,18 +19,6 @@ msgstr ""
 
 #. Translators: the label of a message box dialog.
 msgid ""
-"You have installed the Emoticons add-on, probably an old and incompatible "
-"version with this one. Do you want to uninstall the old version?"
-msgstr ""
-"Našla sa staršia verzia tohto doplnku, ktorá nie je kompatibilná s novou "
-"verziou. chcete starú verziu odinštalovať?"
-
-#. Translators: the title of a message box dialog.
-msgid "Uninstall incompatible add-on"
-msgstr "odstrániť starú verziu"
-
-#. Translators: the label of a message box dialog.
-msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them, removing deprecated files?"
 msgstr ""
@@ -50,12 +38,27 @@ msgstr "Emoji"
 msgid "Emoticon"
 msgstr "Emotikon"
 
+#. Translators: the name of a submenu.
+#, fuzzy
+msgid "&Emoticons"
+msgstr "Emotikony"
+
 #. Translators: the name for a menu item.
 msgid "&Insert emoticon..."
 msgstr "&Vložiť emotikon..."
 
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dialog to insert a smiley"
+msgstr "Zobrazí dialóg na vloženie emotikonu a smajlíka"
+
+#. Translators: the name for a menu item.
+#, fuzzy
+msgid "In&sert symbol..."
+msgstr "&Vložiť emotikon..."
+
+#. Translators: the tooltip text for a menu item.
+#, fuzzy
+msgid "Shows a dialog to insert a symbol"
 msgstr "Zobrazí dialóg na vloženie emotikonu a smajlíka"
 
 #. Translators: the name for a menu item.
@@ -66,6 +69,7 @@ msgstr "&slovník s emotikonmi..."
 msgid "Shows a dictionary dialog to customize emoticons"
 msgstr "Zobrazí užívateľský slovník s emotikonmi"
 
+#. Translators: Title of a dialog.
 #, python-format
 msgid "Emoticons dictionary (%s)"
 msgstr "Slovník s emotikonmi (%s)"
@@ -84,6 +88,12 @@ msgstr "Oznamovať emotikony."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
+msgstr ""
+"Zobrazí dialóg, v ktorom môžete vybrať smajlíka, ktorého chcete vložiť."
+
+#. Translators: Message presented in input help mode.
+#, fuzzy
+msgid "Shows a dialog to select a symbol you want to paste."
 msgstr ""
 "Zobrazí dialóg, v ktorom môžete vybrať smajlíka, ktorého chcete vložiť."
 
@@ -130,6 +140,7 @@ msgstr "Vložiť emotikon"
 
 #. Filter panel.
 #. Translators: A text field to filter emoticons.
+#. Translators: The label of a text field to search for symbols in the Insert Symbol dialog.
 msgid "&Filter:"
 msgstr "&Filter:"
 
@@ -185,6 +196,22 @@ msgstr "&Obnoviť"
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Save and e&xport dictionary"
 msgstr "Uložiť a e&xportovať slovník"
+
+#. Translators: This is the label for the Insert Symbol dialog.
+#. %s is replaced by the language for which symbol pronunciation is being edited.
+#, python-format
+msgid "Insert Symbol (%s)"
+msgstr ""
+
+#. Translators: This is the message when symbol has been copied to the clipboard.
+#, fuzzy
+msgid "Symbol copied to clipboard, ready for you to paste."
+msgstr "Skopírované do schránky."
+
+#. Translators: Message when the symbol couldn't be copied.
+#, fuzzy
+msgid "Cannot copy symbol."
+msgstr "Nepodarilo sa skopírovať emotikon."
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"
@@ -583,7 +610,7 @@ msgstr "Zmetená tvár"
 msgid "sweating smiley"
 msgstr "potím sa"
 
-#. translators:  :|] Robot (a robot head)
+#. Translators: :|] Robot (a robot head)
 msgid "Robot Smiley"
 msgstr "robot"
 
@@ -901,6 +928,16 @@ msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
 msgstr "Namiesto znakov popisuje emotikony slovne."
+
+#~ msgid ""
+#~ "You have installed the Emoticons add-on, probably an old and incompatible "
+#~ "version with this one. Do you want to uninstall the old version?"
+#~ msgstr ""
+#~ "Našla sa staršia verzia tohto doplnku, ktorá nie je kompatibilná s novou "
+#~ "verziou. chcete starú verziu odinštalovať?"
+
+#~ msgid "Uninstall incompatible add-on"
+#~ msgstr "odstrániť starú verziu"
 
 #, fuzzy
 #~ msgid "Manag&e emoticons"

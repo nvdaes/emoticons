@@ -17,7 +17,7 @@
 
 如果您不确定特定表情的字符，可以使用此插件选择并将其插入到你的文本，例如聊天编辑框。
 
-按快捷键NVDA + I，或从菜单工具 - >插入表情符号，打开带有提供的表情符号或表情符号的对话框。
+Press NVDA+I, or from menu Tools -> Emoticons > Insert emoticon, to open a dialog with the provided emoticons or emoji.
 
 此对话框允许您选择表情符号并浏览您感兴趣的表情符号：
 
@@ -27,6 +27,14 @@
 *	表情符号列表（alt + L）分别显示在三列上：表情符号的名称，表情符号的类型（标准表情符号或表情符号），相应的字符。
 
 按确认后，所选表情符号的字符将被复制到剪贴板，准备粘贴。
+
+## Insert symbol ##
+
+This dialog allows you to choose one of the symbols available in the
+Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
+box or the arrow keys to select an item from the symbols list. Then, press
+OK and the selected emoji or symbol will be copied to your clipboard, ready
+for pasting.
 
 ## 表情词典 ##
 
@@ -61,10 +69,17 @@ emoticons子文件夹中。
 
 * NVDA + E：开启/关闭表情符号朗读。
 * NVDA + I：显示对话框，用于选择要复制的表情。
+* Not assigned: show a dialog to select an NVDA's symbol you want to copy.
 * 未分配: 打开显示浏览光标所在位置的符号的可浏览消息, 以便可以在浏览模式下浏览整个描述。
 * 未分配: 打开显示插入符号所在位置的符号的可浏览消息, 以便可以在浏览模式下查看整个描述。
 
 注意：在Windows 10上，也可以使用内置表情符号面板。
+
+## Changes for 13.0 ##
+
+* Fixed errors in Insert Emoticon dialog.
+* Added a dialog to insert a symbol available in the Punctuation/symbol
+  pronunciation of NVDA.
 
 ## 版本 12.0 ##
 
@@ -134,7 +149,6 @@ emoticons子文件夹中。
 ## 1.0更新日志 ##
 
 * 发布初始版本。
-
 
 [[!tag dev stable]]
 

@@ -21,7 +21,7 @@ venner vide, hvordan du føler, og til at sætte fut i dine chatbeskeder.
 Når du er usikker på tegn for en særlig smiley, giver denne tilføjelse dig
 mulighed for at vælge og indsætte den i din tekst som i en chat.
 
-Tryk på NVDA + I, eller fra menuen værktøjer-> Indsæt humørikon, kan du åbne en dialog med de medfølgende humørikoner eller emoji.
+Press NVDA+I, or from menu Tools -> Emoticons > Insert emoticon, to open a dialog with the provided emoticons or emoji.
 
 Denne dialog lader dig vælge et humørikon og vise de humørikoner, der
 interesserer dig:
@@ -37,6 +37,14 @@ interesserer dig:
 
 Når du trykker på OK, vil det valge humørikon blive indsat i
 udklipsholderen, klar til at indsætte.
+
+## Insert symbol ##
+
+This dialog allows you to choose one of the symbols available in the
+Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
+box or the arrow keys to select an item from the symbols list. Then, press
+OK and the selected emoji or symbol will be copied to your clipboard, ready
+for pasting.
 
 ## Humørikonordbog ##
 
@@ -89,12 +97,19 @@ Humørikoner eller dialogen til styrelse af Humørikoner-ordbøger.
 * NVDA+e: Skifter mellem at udtale tekst, som den er skrevet, eller med
   humørikonerne erstattet med den brugervenlige beskrivelse.
 * NVDA+i: Viser en dialog, hvor du kan vælge et humørikon, du vil kopiere.
+* Not assigned: show a dialog to select an NVDA's symbol you want to copy.
 * Ikke tildelt: Åbn et vindue, der viser symbolet, hvor læsemarkøren er
   placeret, så hele beskrivelsen kan gennemgås i gennemsynstilstand.
 * Ikke tildelt: Åbn et vindue, der viser symbolet, hvor systemmarkøren er
   placeret, så hele beskrivelsen kan gennemgås i gennemsynstilstand.
 
 Bemærk: I Windows 10 er det også muligt at bruge det indbyggede emoji-panel.
+
+## Changes for 13.0 ##
+
+* Fixed errors in Insert Emoticon dialog.
+* Added a dialog to insert a symbol available in the Punctuation/symbol
+  pronunciation of NVDA.
 
 ## Ændringer for 12.0 ##
 
@@ -189,7 +204,6 @@ Bemærk: I Windows 10 er det også muligt at bruge det indbyggede emoji-panel.
 ## Ændringer i 1.0 ##
 
 * Første version.
-
 
 [[!tag dev stable]]
 

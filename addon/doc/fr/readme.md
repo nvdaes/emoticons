@@ -23,7 +23,7 @@ Lorsque vous n'êtes pas sûr des caractères pour une émoticône particulière
 cette extension vous permet de sélectionner et insérer dans votre texte
 comme dans une conversation.
 
-Appuyer sur NVDA+I, ou à partir du menu Outils ->Insérer une émoticône, pour ouvrir un dialogue avec les émoticônes et emoji fournis.
+Press NVDA+I, or from menu Tools -> Emoticons > Insert emoticon, to open a dialog with the provided emoticons or emoji.
 
 Ce dialogue vous permet de choisir une émoticône et d'afficher les
 émoticônes qui vous intéressent :
@@ -40,6 +40,14 @@ Ce dialogue vous permet de choisir une émoticône et d'afficher les
 
 Lorsque vous appuyez sur OK, les caractères pour l'émoticône choisie sont
 copiés dans le presse-papiers, prêts à être collés.
+
+## Insert symbol ##
+
+This dialog allows you to choose one of the symbols available in the
+Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
+box or the arrow keys to select an item from the symbols list. Then, press
+OK and the selected emoji or symbol will be copied to your clipboard, ready
+for pasting.
 
 ## Dictionnaire des émoticônes ##
 
@@ -98,6 +106,7 @@ dialogue Dictionnaire des émoticônes :
   émoticônes remplacées par leur description humaine.
 * NVDA+I : affiche un dialogue pour choisir l'émoticône que vous souhaitez
   copier.
+* Not assigned: show a dialog to select an NVDA's symbol you want to copy.
 * Not assigned: open a browseable message showing the symbol where the
   review cursor is positioned, so that the whole description can be reviewed
   in browse mode.
@@ -107,6 +116,12 @@ dialogue Dictionnaire des émoticônes :
 
 Note : Sous Windows 10, il est également possible d’utiliser le panneau
 emoji intégré.
+
+## Changes for 13.0 ##
+
+* Fixed errors in Insert Emoticon dialog.
+* Added a dialog to insert a symbol available in the Punctuation/symbol
+  pronunciation of NVDA.
 
 ## Changes for 12.0 ##
 
@@ -203,7 +218,6 @@ emoji intégré.
 ## Changements pour la version 1.0 ##
 
 * Première version.
-
 
 [[!tag dev stable]]
 

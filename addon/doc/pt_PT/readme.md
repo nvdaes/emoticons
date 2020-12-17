@@ -23,7 +23,7 @@ Quando não tiver a certeza dos caracteres para um determinado smiley, este
 extra permite-lhe seleccioná-lo e inseri-lo no seu texto, como numa
 conversa.
 
-Pressione NVDA + I, ou a partir do menu ferramentas -> Gerir emoticons -> Inserir emoticon, abra uma caixa de diálogo com os emoticons ou emoji fornecidos.
+Press NVDA+I, or from menu Tools -> Emoticons > Insert emoticon, to open a dialog with the provided emoticons or emoji.
 
 Esta caixa de diálogo permite-lhe escolher um emoticon e ver os emoticons
 que o interessam:
@@ -39,6 +39,14 @@ que o interessam:
 
 Quando pressiona OK, os caracteres do emoticon escolhido serão copiados para
 a área de transferência, ficando prontos para colar na sua conversa.
+
+## Insert symbol ##
+
+This dialog allows you to choose one of the symbols available in the
+Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
+box or the arrow keys to select an item from the symbols list. Then, press
+OK and the selected emoji or symbol will be copied to your clipboard, ready
+for pasting.
 
 ## Dicionário de emoticons ##
 
@@ -93,6 +101,7 @@ diálogo do dicionário do Emoticon:
   escrito, ou com os emoticons substituídos pela descrição humana.
 * NVDA + I: mostra uma caixa de diálogo para seleccionar um emoticon que
   deseja copiar.
+* Not assigned: show a dialog to select an NVDA's symbol you want to copy.
 * Não atribuído: abre uma mensagem navegável mostrando o símbolo onde o
   cursor de revisão está posicionado, para que toda a descrição possa ser
   revisada no modo de navegação.
@@ -101,6 +110,12 @@ diálogo do dicionário do Emoticon:
   modo de navegação.
 
 Nota: No Windows 10, também é possível usar o painel de emojis nativo.
+
+## Changes for 13.0 ##
+
+* Fixed errors in Insert Emoticon dialog.
+* Added a dialog to insert a symbol available in the Punctuation/symbol
+  pronunciation of NVDA.
 
 ## Changes for 12.0 ##
 
@@ -197,7 +212,6 @@ Nota: No Windows 10, também é possível usar o painel de emojis nativo.
 ## Alterações para 1.0 ##
 
 * Versão inicial.
-
 
 [[!tag dev stable]]
 

@@ -22,18 +22,6 @@ msgstr ""
 
 #. Translators: the label of a message box dialog.
 msgid ""
-"You have installed the Emoticons add-on, probably an old and incompatible "
-"version with this one. Do you want to uninstall the old version?"
-msgstr ""
-"Dodatak za emotikone je instaliran, ali je vjerojatno star i nekompatibilan "
-"s ovom verzijom. Želite li deinstalirati staru verziju?"
-
-#. Translators: the title of a message box dialog.
-msgid "Uninstall incompatible add-on"
-msgstr "Deinstaliraj nekompatibilni dodatak"
-
-#. Translators: the label of a message box dialog.
-msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them, removing deprecated files?"
 msgstr ""
@@ -53,12 +41,27 @@ msgstr "Emoji"
 msgid "Emoticon"
 msgstr "Emotikon"
 
+#. Translators: the name of a submenu.
+#, fuzzy
+msgid "&Emoticons"
+msgstr "Emotikoni"
+
 #. Translators: the name for a menu item.
 msgid "&Insert emoticon..."
 msgstr "&Umetni emotikon …"
 
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dialog to insert a smiley"
+msgstr "Prikazuje dijaloški okvir za umetanje smješka"
+
+#. Translators: the name for a menu item.
+#, fuzzy
+msgid "In&sert symbol..."
+msgstr "&Umetni emotikon …"
+
+#. Translators: the tooltip text for a menu item.
+#, fuzzy
+msgid "Shows a dialog to insert a symbol"
 msgstr "Prikazuje dijaloški okvir za umetanje smješka"
 
 #. Translators: the name for a menu item.
@@ -69,6 +72,7 @@ msgstr "&Rječnik emotikona …"
 msgid "Shows a dictionary dialog to customize emoticons"
 msgstr "Prikazuje dijaloški okvir rječnika za prilagođavanje emotikona"
 
+#. Translators: Title of a dialog.
 #, python-format
 msgid "Emoticons dictionary (%s)"
 msgstr "Rječnik emotikona (%s)"
@@ -87,6 +91,11 @@ msgstr "Emotikoni su uključeni."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
+msgstr "Prikazuje dijaloški okvir za odabir smješka kojeg želite prilijepiti."
+
+#. Translators: Message presented in input help mode.
+#, fuzzy
+msgid "Shows a dialog to select a symbol you want to paste."
 msgstr "Prikazuje dijaloški okvir za odabir smješka kojeg želite prilijepiti."
 
 #. Translators: Message presented in input help mode.
@@ -132,6 +141,7 @@ msgstr "Umetni emotikon"
 
 #. Filter panel.
 #. Translators: A text field to filter emoticons.
+#. Translators: The label of a text field to search for symbols in the Insert Symbol dialog.
 msgid "&Filter:"
 msgstr "&Filtriraj:"
 
@@ -187,6 +197,22 @@ msgstr "Rese&tiraj"
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Save and e&xport dictionary"
 msgstr "Spremi i i&zvezi rječnik"
+
+#. Translators: This is the label for the Insert Symbol dialog.
+#. %s is replaced by the language for which symbol pronunciation is being edited.
+#, python-format
+msgid "Insert Symbol (%s)"
+msgstr ""
+
+#. Translators: This is the message when symbol has been copied to the clipboard.
+#, fuzzy
+msgid "Symbol copied to clipboard, ready for you to paste."
+msgstr "Smješko je kopiran u međuspremnik, spreman za upotrebu."
+
+#. Translators: Message when the symbol couldn't be copied.
+#, fuzzy
+msgid "Cannot copy symbol."
+msgstr "Smješko se ne može kopirati."
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"
@@ -585,7 +611,7 @@ msgstr "Zbunjen smješko"
 msgid "sweating smiley"
 msgstr "znoji se smješko"
 
-#. translators:  :|] Robot (a robot head)
+#. Translators: :|] Robot (a robot head)
 msgid "Robot Smiley"
 msgstr "Robot smješko"
 
@@ -903,3 +929,13 @@ msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
 msgstr "Omogućuje najavu naziva emotikona umjesto prikazivanja znakova."
+
+#~ msgid ""
+#~ "You have installed the Emoticons add-on, probably an old and incompatible "
+#~ "version with this one. Do you want to uninstall the old version?"
+#~ msgstr ""
+#~ "Dodatak za emotikone je instaliran, ali je vjerojatno star i "
+#~ "nekompatibilan s ovom verzijom. Želite li deinstalirati staru verziju?"
+
+#~ msgid "Uninstall incompatible add-on"
+#~ msgstr "Deinstaliraj nekompatibilni dodatak"

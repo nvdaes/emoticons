@@ -23,7 +23,7 @@ Quando você não tiver certeza dos caracteres para uma carinha em particular,
 este complemento lhe possibilita selecionar e inseri-lo no texto, por
 exemplo num chat.
 
-Pressione NVDA+I, ou no menu Ferramentas -> Inserir emoticon, para abrir um diálogo com os emoticons ou emojis fornecidos.
+Press NVDA+I, or from menu Tools -> Emoticons > Insert emoticon, to open a dialog with the provided emoticons or emoji.
 
 Este diálogo possibilita você escolher um emoticon e ver os emoticons que
 lhe interessem:
@@ -39,6 +39,14 @@ lhe interessem:
 
 Ao pressionar OK, os caracteres do emoticon escolhido serão copiados para a
 área de transferência, prontos para colar.
+
+## Insert symbol ##
+
+This dialog allows you to choose one of the symbols available in the
+Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
+box or the arrow keys to select an item from the symbols list. Then, press
+OK and the selected emoji or symbol will be copied to your clipboard, ready
+for pasting.
 
 ## Dicionário de emoticons ##
 
@@ -92,6 +100,7 @@ Emoticons ou o diálogo Dicionário de Emoticons:
 * NVDA+E: Liga/desliga a fala de emoticons, alterna entre falar o texto como
   está escrito ou com os emoticons substituídos por descrições amigáveis.
 * NVDA+I: mostra um diálogo para selecionar um emoticon que queira copiar.
+* Not assigned: show a dialog to select an NVDA's symbol you want to copy.
 * Não atribuído: Abre uma mensagem navegável mostrando o símbolo onde o
   cursor de exploração está posicionado, de modo que a descrição inteira
   possa ser explorada em modo de navegação.
@@ -100,6 +109,12 @@ Emoticons ou o diálogo Dicionário de Emoticons:
   explorada em modo de navegação.
 
 Nota: No Windows 10, também é possível usar o painel de emojis integrado.
+
+## Changes for 13.0 ##
+
+* Fixed errors in Insert Emoticon dialog.
+* Added a dialog to insert a symbol available in the Punctuation/symbol
+  pronunciation of NVDA.
 
 ## Mudanças na 12.0 ##
 
@@ -194,7 +209,6 @@ Nota: No Windows 10, também é possível usar o painel de emojis integrado.
 ## Mudanças na 1.0 ##
 
 * Versão inicial.
-
 
 [[!tag dev stable]]
 

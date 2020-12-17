@@ -21,7 +21,7 @@ tuntuu.
 Kun olet epävarma jonkin tietyn hymiön merkeistä, tämän lisäosan avulla voit
 valita ja lisätä ne tekstiisi, kuten esim. chattiin.
 
-Paina NVDA+I tai valitse Työkalut-valikosta Lisää hymiö avataksesi valintaikkunan, jossa näkyvät käytettävissä olevat hymiöt ja emojit.
+Paina NVDA+I tai valitse Työkalut / Hymiöt / Lisää hymiö avataksesi valintaikkunan, jossa näkyvät käytettävissä olevat hymiöt ja emojit.
 
 Tästä valintaikkunasta voit valita haluamasi hymiön ja tarkastella
 sellaisia, jotka sinua kiinnostavat:
@@ -35,6 +35,14 @@ sellaisia, jotka sinua kiinnostavat:
 
 Kun painat OK, valitun hymiön merkit kopioidaan leikepöydälle, josta voit
 liittää ne haluamaasi paikkaan.
+
+## Lisää symboli ##
+
+Tästä valintaikkunasta voit valita jonkin Välimerkkien ja symboleiden
+puhuminen -valintaikkunassa olevista symboleista. Voit käyttää
+Suodata-muokkauskenttää tai nuolinäppäimiä symbolin valitsemiseen
+luettelosta. Paina sitten OK, jonka jälkeen  valittu emoji tai symboli
+kopioidaan leikepöydälle.
 
 ## Hymiösanasto ##
 
@@ -84,6 +92,8 @@ Hymiöt-asetuspaneelin tai hymiösanastovalintaikkunan avaamiseen:
   korvaamisen niiden kuvauksilla.
 * NVDA+I: näyttää valintaikkunan, josta voit valita tekstiin lisättävän
   hymiön.
+* Ei määritetty: näyttää valintaikkunan, josta voit valita kopioitavan
+  NVDA:n symbolin.
 * Ei määritetty: Avaa selattavan viestin, jossa näytetään
   tarkastelukohdistimen kohdalla oleva symboli, jotta sen koko kuvausta
   voidaan tarkastella selaustilassa.
@@ -93,6 +103,12 @@ Hymiöt-asetuspaneelin tai hymiösanastovalintaikkunan avaamiseen:
 
 Huom: Windows 10:ssä on mahdollista käyttää myös sisäänrakennettua
 emojipaneelia.
+
+## Muutokset versiossa 13.0 ##
+
+* Korjattu Lisää hymiö -valintaikkunan virheitä.
+* Lisätty valintaikkuna, josta voidaan lisätä jokin NVDA:n Välimerkkien ja
+  symboleiden puhuminen -valintaikkunassa olevista symboleista.
 
 ## Muutokset versiossa 12.0 ##
 
@@ -185,7 +201,6 @@ emojipaneelia.
 ## Muutokset versiossa 1.0 ##
 
 * Ensimmäinen versio.
-
 
 [[!tag dev stable]]
 

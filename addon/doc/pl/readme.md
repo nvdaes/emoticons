@@ -22,7 +22,7 @@ czujesz.
 Jeśli nie jesteś pewien znaku dla określonego uśmiechu, ten dodatek pozwala
 oznaczyć i dodać smajliki .
 
-Naciśnij NVDA+I lub z menu Narzędzia-> opcję emotikonów, aby otworzyć okno dialogowe z dostarczonymi emotikonami lub emoji.
+Press NVDA+I, or from menu Tools -> Emoticons > Insert emoticon, to open a dialog with the provided emoticons or emoji.
 
 Ten dialog umożliwia wybór emotikonu i przeglądanie emotikonów, które cię
 interesują:
@@ -36,6 +36,14 @@ interesują:
 
 Po naciśnięciu "ok", znaczki dla wybranego emotikonu będą skopiowane do
 schowka, już gotowe do wklejenia.
+
+## Insert symbol ##
+
+This dialog allows you to choose one of the symbols available in the
+Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
+box or the arrow keys to select an item from the symbols list. Then, press
+OK and the selected emoji or symbol will be copied to your clipboard, ready
+for pasting.
 
 ## Słownik Emotikonów ##
 
@@ -87,12 +95,19 @@ skrót służący do wywołania dialogu aktywacji lub słownika emotikonów:
 * NVDA+E: przełącza między odczytywaniem tekstu tak jak został napisany, a
   odczytywaniem tekstu z emotikonami zastąpionymi przez opisy.
 * NVDA+I: wyświetla okno dialogowe wyboru uśmieszku do skopiowania.
+* Not assigned: show a dialog to select an NVDA's symbol you want to copy.
 * Nieprzydzielone: Otwiera opis znaku pod kursorem przeglądu jako wiadomość
   HTML, aby było możliwe przeczytanie opisu znaku w trybie przeglądania.
 * Nieprzydzielone: otwiera wiadomość w oknie HTML, aby było możliwe
   przeczytanie opisu znaku w trybie przeglądania.
 
 Uwaga: w  Windowsie 10, jest także możliwe używanie panelu emoji.
+
+## Changes for 13.0 ##
+
+* Fixed errors in Insert Emoticon dialog.
+* Added a dialog to insert a symbol available in the Punctuation/symbol
+  pronunciation of NVDA.
 
 ## Zmiany dla wersji 12.0 ##
 
@@ -181,7 +196,6 @@ Uwaga: w  Windowsie 10, jest także możliwe używanie panelu emoji.
 ## Zmiany dla wersji 1.0 ##
 
 * Pierwsza wersja.
-
 
 [[!tag dev stable]]
 

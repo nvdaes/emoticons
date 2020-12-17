@@ -21,16 +21,6 @@ msgstr ""
 
 #. Translators: the label of a message box dialog.
 msgid ""
-"You have installed the Emoticons add-on, probably an old and incompatible "
-"version with this one. Do you want to uninstall the old version?"
-msgstr "您已经安装了“表情插件”的不兼容的旧版本，您希望卸载此旧版本吗？"
-
-#. Translators: the title of a message box dialog.
-msgid "Uninstall incompatible add-on"
-msgstr "正在卸载不兼容的插件"
-
-#. Translators: the label of a message box dialog.
-msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them, removing deprecated files?"
 msgstr "您似乎拥有此插件的上次保存的配置。您希望导入他们并删除当前的设置吗？"
@@ -48,12 +38,27 @@ msgstr "表情符号"
 msgid "Emoticon"
 msgstr "表情"
 
+#. Translators: the name of a submenu.
+#, fuzzy
+msgid "&Emoticons"
+msgstr "表情符号插件"
+
 #. Translators: the name for a menu item.
 msgid "&Insert emoticon..."
 msgstr "插入表情(&I)..."
 
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dialog to insert a smiley"
+msgstr "显示一个对话框来插入表情"
+
+#. Translators: the name for a menu item.
+#, fuzzy
+msgid "In&sert symbol..."
+msgstr "插入表情(&I)..."
+
+#. Translators: the tooltip text for a menu item.
+#, fuzzy
+msgid "Shows a dialog to insert a symbol"
 msgstr "显示一个对话框来插入表情"
 
 #. Translators: the name for a menu item.
@@ -64,6 +69,7 @@ msgstr "&表情字典..."
 msgid "Shows a dictionary dialog to customize emoticons"
 msgstr "显示一个词典对话框来自定义表情"
 
+#. Translators: Title of a dialog.
 #, python-format
 msgid "Emoticons dictionary (%s)"
 msgstr "表情字典 (%s)"
@@ -82,6 +88,11 @@ msgstr "表情朗读开启。"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
+msgstr "显示一个对话框来选择您希望粘贴的表情。"
+
+#. Translators: Message presented in input help mode.
+#, fuzzy
+msgid "Shows a dialog to select a symbol you want to paste."
 msgstr "显示一个对话框来选择您希望粘贴的表情。"
 
 #. Translators: Message presented in input help mode.
@@ -127,6 +138,7 @@ msgstr "插入表情"
 
 #. Filter panel.
 #. Translators: A text field to filter emoticons.
+#. Translators: The label of a text field to search for symbols in the Insert Symbol dialog.
 msgid "&Filter:"
 msgstr "过滤字符(&F)："
 
@@ -182,6 +194,22 @@ msgstr "重置(&T)"
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Save and e&xport dictionary"
 msgstr "保存并输出到词典(&X)"
+
+#. Translators: This is the label for the Insert Symbol dialog.
+#. %s is replaced by the language for which symbol pronunciation is being edited.
+#, python-format
+msgid "Insert Symbol (%s)"
+msgstr ""
+
+#. Translators: This is the message when symbol has been copied to the clipboard.
+#, fuzzy
+msgid "Symbol copied to clipboard, ready for you to paste."
+msgstr "表情已经拷贝到剪贴板，已经为您准备好粘贴。"
+
+#. Translators: Message when the symbol couldn't be copied.
+#, fuzzy
+msgid "Cannot copy symbol."
+msgstr "无法复制表情。"
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"
@@ -580,7 +608,7 @@ msgstr "表情，困惑"
 msgid "sweating smiley"
 msgstr "表情，流汗"
 
-#. translators:  :|] Robot (a robot head)
+#. Translators: :|] Robot (a robot head)
 msgid "Robot Smiley"
 msgstr "表情，机器人"
 
@@ -899,6 +927,14 @@ msgid ""
 "Representation."
 msgstr "用表情名称朗读表情符号。"
 
+#~ msgid ""
+#~ "You have installed the Emoticons add-on, probably an old and incompatible "
+#~ "version with this one. Do you want to uninstall the old version?"
+#~ msgstr "您已经安装了“表情插件”的不兼容的旧版本，您希望卸载此旧版本吗？"
+
+#~ msgid "Uninstall incompatible add-on"
+#~ msgstr "正在卸载不兼容的插件"
+
 #~ msgid "Emoticon: %s"
 #~ msgstr "表情： %s"
 
@@ -907,9 +943,6 @@ msgstr "用表情名称朗读表情符号。"
 
 #~ msgid "Emoticons menu"
 #~ msgstr "表情菜单"
-
-#~ msgid "&Insert smiley..."
-#~ msgstr "插入表情(&I)..."
 
 #~ msgid "&Customize emoticons..."
 #~ msgstr "自定义表情(&C)..."

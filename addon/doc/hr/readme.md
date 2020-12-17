@@ -21,7 +21,7 @@ oživili vaše poruke i kažete prijateljima kako se osjećate.
 Kada niste sigurni za neki smješko, ovaj dodatak dozvoljava, odabrati i
 umetnuti ga u tekst kao što je chat.
 
-Pritisnite NVDA+I ili iz izbornika Alati>Umetni emotikon, da biste otvorili dijaloški okvir dostupnih emotikona ili emojia.
+Pritisnite NVDA+I ili iz izbornika Alati>Emotikoni>Umetni emotikon, da biste otvorili dijaloški okvir dostupnih emotikona ili emojia.
 
 Ovaj dijaloški okvir dozvoljava biranje emotikona i pregledavanje emotikona
 koji vas zanimaju:
@@ -35,6 +35,14 @@ koji vas zanimaju:
 
 Kad pritisnete U redu, znakovi za odabrani emotikon će se kopirati u
 međuspremnik, spremni da ih zalijepite.
+
+## Umetni znak ##
+
+Ovaj dijaloški okvir omogućuje odabir jednog od znakova dostupnih u
+dijaloškom okviru izgovora interpunkcija/znakova. Pomoću okvira za
+uređivanje filtra ili tipki sa strelicama možete odabrati stavku s popisa
+znakova. Zatim pritisnite U redu i odabrani emojiji ili znak kopirat će se u
+međuspremnik i spreman je za umetanje.
 
 ## Rječnik emotikona ##
 
@@ -86,6 +94,8 @@ za Rječnik emotikona:
   izgovaranja teksta kako je napisan i opisa emotikona.
 * NVDA+I: Prikazuje dijaloški okvir za biranje emotikona koji želite
   kopirati.
+* Nije dodijeljeno: Prikazuje dijaloški okvir za biranje znaka koji želite
+  kopirati.
 * Nije dodijeljeno: otvorite poruku koja se može čitati i koja pokazuje
   simbol na kojem se nalazi pregledni kursor, tako da se čitav opis može
   pregledati u modusu čitanja.
@@ -94,6 +104,12 @@ za Rječnik emotikona:
   modusu čitanja.
 
 Napomena: Na Windows 10 je moguće koristiti i ugrađenu ploču emojija.
+
+## Promjene u verziji 13.0 ##
+
+* Ispravljene greške u dijaloškom okviru za umetanje emotikona.
+* Dodan je dijaloški okvir za umetanje jednog znaka dostupan u izgovoru
+  interpunkcija/znakova.
 
 ## Promjene u verziji 12.0 ##
 
@@ -187,7 +203,6 @@ Napomena: Na Windows 10 je moguće koristiti i ugrađenu ploču emojija.
 ## Promjene u verziji 1.0 ##
 
 * Prvo izdanje.
-
 
 [[!tag dev stable]]
 

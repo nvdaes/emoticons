@@ -22,7 +22,7 @@ nào.
 Khi không chắc chắn các kí tự cho một biểu tượng cụ thể, addon này giúp bạn
 chọn và chèn nó vào văn bản như chèn vào một dòng chat.
 
-Bấm NVDA+I hoặc từ trình đơn công cụ -> chèn biểu tượng cảm xúc mở hộp thoại cung cấp các biểu tượng cảm xúc.
+Bấm NVDA+I hoặc từ trình đơn công cụ -> Biểu tượng cảm xúc -> chèn biểu tượng cảm xúc để mở hộp thoại cung cấp các biểu tượng cảm xúc.
 
 Hộp thoại này cho phép  bạn chọn một biểu tượng cảm xúc và xem những biểu
 tượng làm bạn thích:
@@ -38,6 +38,14 @@ tượng làm bạn thích:
 
 Khi bấm OK, các kí tự cho biểu tượng đã chọn sẽ được sao chép vào bộ nhớ
 tạm, sẵn sàng để dán vào.
+
+## Chèn kí hiệu ##
+
+Hộp thoại này cho phép bạn chọn một trong những kí hiệu có trong hộp thoại
+phát âm kí hiệu và dấu câu của NVDA. Bạn có thể dùng hộp chỉnh sửa lọc theo
+hay các phím mũi tên để chọn một mục trong danh sách các kí hiệu. Sau đó,
+bấm Đồng ý, và biểu tượng hay kí hiệu đã chọn sẽ được chép vào bộ nhớ tạm,
+sẵn sàng để dán.
 
 ## Từ điển các biểu tượng cảm xúc ##
 
@@ -90,6 +98,8 @@ biểu tượng cảm xúc:
 * NVDA+E: bật / tắt đọc biểu tượng cảm xúc, chuyển giữa dọc văn bản như nó
   đã được viết hay thay thế bằng biểu tượng cảm xúc.
 * NVDA+I: hiển thị hộp thoại  để chọn biểu tượng muốn sao chép.
+* Chưa gán: hiển thị hộp thoại để chọn một kí hiệu của NVDA mà bạn muốn sao
+  chép.
 * Chưa gán: mở của sổ thông điệp có thể duyệt, hiển thị vị trí kí hiệu mà
   con trỏ duyệt đã được xác định để có thể xem phần mô tả đầy đủ trong chế
   độ duyệt.
@@ -98,6 +108,12 @@ biểu tượng cảm xúc:
   duyệt.
 
 Lưu ý: trên Windows 10, có thể sử dụng bản nhập biểu tượng cảm xúc dựng sẵn.
+
+## Các thay đổi cho phiên bản 13.0 ##
+
+* Sửa các lỗi ở hộp thoại chèn biểu tượng cảm xúc.
+* Thêm một hộp thoại để chèn kí hiệu có trong phần phát âm kí hiệu và dấu
+  câu của NVDA.
 
 ## Các thay đổi cho phiên bản 12.0 ##
 
@@ -187,7 +203,6 @@ Lưu ý: trên Windows 10, có thể sử dụng bản nhập biểu tượng c�
 ## Các thay đổi cho phiên bản 1.0 ##
 
 * Phiên bản đầu tiên.
-
 
 [[!tag dev stable]]
 

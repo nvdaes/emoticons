@@ -19,19 +19,6 @@ msgstr ""
 
 #. Translators: the label of a message box dialog.
 msgid ""
-"You have installed the Emoticons add-on, probably an old and incompatible "
-"version with this one. Do you want to uninstall the old version?"
-msgstr ""
-"Sie haben möglicherweise eine veraltete und inkompatible Version der "
-"Emoticons-Erweiterung installiert. Möchten Sie die alte Version "
-"deinstallieren?"
-
-#. Translators: the title of a message box dialog.
-msgid "Uninstall incompatible add-on"
-msgstr "Inkompatible Erweiterung deinstallieren"
-
-#. Translators: the label of a message box dialog.
-msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them, removing deprecated files?"
 msgstr ""
@@ -51,12 +38,27 @@ msgstr "Emoji"
 msgid "Emoticon"
 msgstr "Emoticon"
 
+#. Translators: the name of a submenu.
+#, fuzzy
+msgid "&Emoticons"
+msgstr "Emoticons"
+
 #. Translators: the name for a menu item.
 msgid "&Insert emoticon..."
 msgstr "Emoticon e&infügen"
 
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dialog to insert a smiley"
+msgstr "Zeigt ein Dialogfeld zum Einfügen eines Smileys."
+
+#. Translators: the name for a menu item.
+#, fuzzy
+msgid "In&sert symbol..."
+msgstr "Emoticon e&infügen"
+
+#. Translators: the tooltip text for a menu item.
+#, fuzzy
+msgid "Shows a dialog to insert a symbol"
 msgstr "Zeigt ein Dialogfeld zum Einfügen eines Smileys."
 
 #. Translators: the name for a menu item.
@@ -67,6 +69,7 @@ msgstr "&Emoticons-Wörterbuch..."
 msgid "Shows a dictionary dialog to customize emoticons"
 msgstr "Zeigt ein Dialogfeld zur Anpassung der Emoticons an."
 
+#. Translators: Title of a dialog.
 #, python-format
 msgid "Emoticons dictionary (%s)"
 msgstr "Emoticons-Wörterbuch (%s)"
@@ -85,6 +88,13 @@ msgstr "Emoticons ein"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
+msgstr ""
+"Zeigt ein Dialogfeld zum Auswählen eines Smileys an, das Sie einfügen "
+"möchten."
+
+#. Translators: Message presented in input help mode.
+#, fuzzy
+msgid "Shows a dialog to select a symbol you want to paste."
 msgstr ""
 "Zeigt ein Dialogfeld zum Auswählen eines Smileys an, das Sie einfügen "
 "möchten."
@@ -132,6 +142,7 @@ msgstr "Emoticon einfügen"
 
 #. Filter panel.
 #. Translators: A text field to filter emoticons.
+#. Translators: The label of a text field to search for symbols in the Insert Symbol dialog.
 msgid "&Filter:"
 msgstr "&Filter:"
 
@@ -189,6 +200,24 @@ msgstr "Zu&rücksetzen"
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Save and e&xport dictionary"
 msgstr "Wörterbuch &speichern und exportieren"
+
+#. Translators: This is the label for the Insert Symbol dialog.
+#. %s is replaced by the language for which symbol pronunciation is being edited.
+#, python-format
+msgid "Insert Symbol (%s)"
+msgstr ""
+
+#. Translators: This is the message when symbol has been copied to the clipboard.
+#, fuzzy
+msgid "Symbol copied to clipboard, ready for you to paste."
+msgstr ""
+"Das Smiley wurde in die Zwischenablage kopiert und jetzt können Sie es an "
+"gewünschter Stelle einfügen."
+
+#. Translators: Message when the symbol couldn't be copied.
+#, fuzzy
+msgid "Cannot copy symbol."
+msgstr "Das Smiley konnte nicht kopiert werden."
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"
@@ -587,7 +616,7 @@ msgstr "Verwirrtes Gesicht"
 msgid "sweating smiley"
 msgstr "Schwitzendes Smiley"
 
-#. translators:  :|] Robot (a robot head)
+#. Translators: :|] Robot (a robot head)
 msgid "Robot Smiley"
 msgstr "Robotter-Smiley"
 
@@ -907,6 +936,17 @@ msgid ""
 msgstr ""
 "Aktiviert die Ansage der Namen der Smiley anstatt deren Zeichen, durch die "
 "sie repräsentiert werden."
+
+#~ msgid ""
+#~ "You have installed the Emoticons add-on, probably an old and incompatible "
+#~ "version with this one. Do you want to uninstall the old version?"
+#~ msgstr ""
+#~ "Sie haben möglicherweise eine veraltete und inkompatible Version der "
+#~ "Emoticons-Erweiterung installiert. Möchten Sie die alte Version "
+#~ "deinstallieren?"
+
+#~ msgid "Uninstall incompatible add-on"
+#~ msgstr "Inkompatible Erweiterung deinstallieren"
 
 #~ msgid "Manag&e emoticons"
 #~ msgstr "Emoticons &verwalten"

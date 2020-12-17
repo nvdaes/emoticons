@@ -22,7 +22,7 @@ viață mesajului dumneavoastră instant și pentru a permite prietenilor să
 Când sunteți nesigur de caracterele pentru un zâmbet particular, add-on-ul
 vă permite să-l selectați și inserați în textul dumneavoastră.
 
-Apăsați NVDA+I, sau din meniul instrumente -> Inserare Emoticon, pentru a deschide un dialog cu emoticoanele oferite sau mojiuri.
+Press NVDA+I, or from menu Tools -> Emoticons > Insert emoticon, to open a dialog with the provided emoticons or emoji.
 
 Acest dialog vă permite să alegeți un emoticon și să vizualizați
 emoticoanele care vă interesează:
@@ -42,6 +42,14 @@ emoticoanele care vă interesează:
 
 Când apăsați OK, caracterele pentru emoticoanele alese vor fi copiate pe
 planșetă, pregătite pentru lipire.
+
+## Insert symbol ##
+
+This dialog allows you to choose one of the symbols available in the
+Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
+box or the arrow keys to select an item from the symbols list. Then, press
+OK and the selected emoji or symbol will be copied to your clipboard, ready
+for pasting.
 
 ## Dicționar de emoticoane ##
 
@@ -98,6 +106,7 @@ Emoticons sau dialogul dicționarului de emoticoane:
   descrierea umană.
 * NVDA+I: Arată un dialog pentru a selecta emoticonul pe care vreți să îl
   copiați.
+* Not assigned: show a dialog to select an NVDA's symbol you want to copy.
 * Neatribuită: deschide un mesaj de navigare care arată simbolul la care
   este poziționat cursorul de scriere, astfel încât descrierea să fie
   parcursă în modul de navigare.
@@ -106,6 +115,12 @@ Emoticons sau dialogul dicționarului de emoticoane:
   parcursă în modul de navigare.
 
 Notă: În Windows 10, este posibil să folosiți și panoul de emoji.
+
+## Changes for 13.0 ##
+
+* Fixed errors in Insert Emoticon dialog.
+* Added a dialog to insert a symbol available in the Punctuation/symbol
+  pronunciation of NVDA.
 
 ## Changes for 12.0 ##
 
@@ -199,7 +214,6 @@ Notă: În Windows 10, este posibil să folosiți și panoul de emoji.
 ## Modificări aduse în versiuna 1.0 ##
 
 * Versiunea Inițială.
-
 
 [[!tag dev stable]]
 

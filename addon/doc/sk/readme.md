@@ -20,7 +20,7 @@ vašim priateľom vedieť, ako sa cítite a čo robíte.
 Ak si nie ste istý, ako napísať správne smailíka, tento doplnok vám umožní
 vybrať požadovaný symbol zo zoznamu.
 
-Emotikony môžete vložiť z menu nvda > nástroje alebo skratkou nvda+i.
+Press NVDA+I, or from menu Tools -> Emoticons > Insert emoticon, to open a dialog with the provided emoticons or emoji.
 
 V dialógu uvidíte emotikony na vloženie a tiež tie, ktoré často vkladáte:
 
@@ -32,6 +32,14 @@ V dialógu uvidíte emotikony na vloženie a tiež tie, ktoré často vkladáte:
 
 Stlačením OK sa príslušný emotikon uloží do schránky. Následne ho môžete
 kamkoľvek prilepiť.
+
+## Insert symbol ##
+
+This dialog allows you to choose one of the symbols available in the
+Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
+box or the arrow keys to select an item from the symbols list. Then, press
+OK and the selected emoji or symbol will be copied to your clipboard, ready
+for pasting.
 
 ## Slovník emotikonov ##
 
@@ -76,12 +84,19 @@ prezeranie textu. Dostupné sú tieto možnosti:
 * NVDA+E: prepína medzi vyslovovaním znakov a popisov emotikonov. Určuje, či
   budú oznamované jednotlivé časti emotikonu alebo slovný popis.
 * NVDA+I: zobrazí dialóg na vloženie požadovaného emotikonu.
+* Not assigned: show a dialog to select an NVDA's symbol you want to copy.
 * Nedefinované: Zobraz emotikon pod prezeracím kurzorom režime prehliadania.
 * Nedefinované: Zobraz emotikon pod systémovým kurzorom v režime
   prehliadania.
 
 Upozorňujeme, že na vkladanie emotikonov môžete v systéme Windows 10 použiť
 vstavaný panel emotikonov.
+
+## Changes for 13.0 ##
+
+* Fixed errors in Insert Emoticon dialog.
+* Added a dialog to insert a symbol available in the Punctuation/symbol
+  pronunciation of NVDA.
 
 ## Zmeny vo verzii 12.0 ##
 
@@ -159,7 +174,6 @@ vstavaný panel emotikonov.
 ## Zmeny vo verzii 1.0 ##
 
 * prvé vydanie.
-
 
 [[!tag dev stable]]
 
