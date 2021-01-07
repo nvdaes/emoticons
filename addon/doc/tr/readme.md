@@ -1,88 +1,107 @@
-# eMule #
+# İfadeler #
 
-*	Yazarlar: Noelia, Chris, Alberto.
-*	NVDA compatibility: 2019.3 or later.
-*	İndir [kararlı versiyon][1]
-*	İndir [geliştirme sürümü][3]
-*	download [version compatible with NVDA 2017.3][4]
+* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+  Estrada Martínez
+* İndir [kararlı sürüm][1]
+* İndir [geliştirme sürümü][2]
 
-This add-on helps to improve accessibility of eMule with nVDA.  It also
-provides additional keyboard commands for moving in different windows and
-gives Useful information about eMule.
+Using this add-on, spoken text containing emoticon characters will be
+replaced by its more human friendly description.
 
-It's based on the eMuleNVDASupport add-on, developed by the same author. You
-should uninstall that old add-on to use this one, since both have common
-keystrokes and features.
+For example: the sequence ":)" will be spoken as "smiling smiley", or for
+example NVDA will recognize the meaning of each emoji.
 
-[EMule] [2] 0.50a test edilmiştir.
+Aşağıdaki özelliklerden yararlanabilirsiniz:
 
-## Tuş komutları: ##
+## Insert Emoticon ##
 
-*	control+shift+h: odak ve fareyi Ana araç çubuğuna  taşır.
-*	kontrol + shift + t: Geçerli pencereyi okur.
-*	kontrol + shift + n: Bul penceresinde odağı Ad alanınna taşır.
-*	kontrol + shift + p: Arama penceresinde, odağı ve fareyi arama
-  parametreleri listesine  veya alan düzenleme seçeneklerine taşır.
-*	control+shift+b: Move the focus to the list in the current window. For
-  example usable in the Search window, downloads in Transfer window, etc.
-*	control+shift+o: Move the focus to read-only edit boxes in the current
-  window. For example the IRC received messages, available Servers, etc.
-*	control+NVDA+f: If the caret is located in a read only edit box, opens a
-  find dialog to use the commands for searching text available in NVDA.
-*	kontrol + shift + l: Fare ve nesne sunucusunu Mevcut listenin başlıkları
-  üzerine taşır.
-*	kontrol + shift + q: durum çubuğunda ilk nesneyi okur; son etkinlik
-  hakkında bilgi verir.
-*	kontrol + shift + w: geçerli sunucu üzerinde dosya ve kullanıcılar
-  hakkında bilgi içeren durum çubuğunun ikinci nesnesini okur.
-*	kontrol + shift + e: yükleme ve indirme hızıyla ilgili bilgi veren durum
-  çubuğunun üçüncü nesnesini okur.
-*	kontrol + shift + r: eD2K ve Kad ağ bağlantı raporlarıyla ilgili durum
-  çubuğunun dördüncü nesnesini okur.
+Sometimes an image is worth a 1000 words: use the new emoji to liven up your
+instant message and to let your friends know how you’re feeling.
 
-## Sütunların yönetimi. ##
+When you are unsure of the characters for a particular smiley, this addon
+enables you to select and insert it into your text such as in a chat.
 
-Bir liste içindeyken, alt + kontrol + yön tuşlarıyla satır ve sütunlar
-arasında dolaşabilirsiniz. Eklenti aşağıdaki tuş komutlarını da sağlar:
+Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
 
-*	NVDA + kontrol 1-0: ilk 10 sütunu okur.
-*	NVDA + shift 1-0: 11-20 sütunları okur.
-*	NVDA + shift + C: son okunan sütunun içeriğini panoya kopyalar .
+This dialog allows you to choose an emoticon and to view the emoticons that
+interest you:
+
+*	An editable field allows you to filter the search for the desired emoticon
+  among the emoticons available.
+*	Through a set of radio buttons, you can choose to view only emoji category
+  (alt+E) or view only standard emoticon category (alt+s) or view all
+  emoticons available (alt+A).
+*	In the list of emoticons (alt+L) are displayed on three columns
+  respectively: the name of emoticon, the type of emoticon (standard
+  emoticon or emoji), the corresponding character.
+
+When you press OK, the characters for the chosen emoticon will be copied to
+your clipboard, ready for pasting.
+
+## İfadeleri özelleştir ##
+
+From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can open a dialog setting to add or to edit available emoticons.
+
+This dialog allows you to save an emoticons speech dictionary with your
+customizations.
+
+"Sözlüğü kaydet ve dışa aktar" düğmesine basarsanız, Kullanıcı konfigürasyon
+klasöründe, speechDicts alt klasörüne emoticons.dic adlı bir sözlük dosyası
+kaydedilir.
+
+## Etkinleştirme ayarları ##
+
+From menu Preferences -> Manage Emoticons -> Activation settings, you can choose whether to Activate speaking of emoticons when starting NVDA. By default it is disabled.
+
+It is also possible to save your choice for this setting.
+
+## Tuş Komutları: ##
+
+These are the key command available by default, you can edit those or add
+new key to open Activation settings dialog or Emoticon Dictionary dialog:
+
+* NVDA+E: speaching emoticons on/off, toggles between speaking text as it is
+  written, or with the emoticons replaced by the human description.
+* NVDA+I: show a dialog to select an emoticon you want to copy.
+
+
+## Changes for 5.0 ##
+
+* Added support for emojis.
+* Improvements for Insert Emoticon dialog with a filter field and radio
+  buttons to choose displayed emoticons.
+* Using guiHelper for Activation settings dialog and Insert Emoticon dialog:
+  requires NVDA 2016.4 or higher versions
 
 ## Changes for 4.0 ##
-*	Requires NVDA 2019.3 or later.
 
-## Changes for 3.0 ##
-*	 To search text in the readonly edit boxes,  the find dialog  can be used,
-   such as nvda+control+f to activate the find dialog.
+* If the Insert smiley dialog is opened when another settings dialog is
+  active, NVDA will show the corresponding error message.
 
-## Changes for 2.0 ##
-*	 Add-on help is available from the Add-ons Manager.
 
-## 1.2 için Değişiklikler ##
-*	 IRC mesajları arasında dolaşılırken, seçilen metin düzgün bildiriliyor.
-*	 The keystroke used for moving to the Search results list has been
-   generalized to be able to move focus to any available list in the current
-   window.
-*	 The command used to focus the IRC messages has been generalized to move
-   to any read-only edit box, making it possible to review connection
-   information in the Servers window.
-*	 When moving mouse and focus to the toolbar, in some cases it was
-   announced twice. This has been fixed.
+## 3.0 için değişiklikler ##
 
-## 1.1 Değişiklikler ##
-*	 NVDA yardım menüsü altındaki EMule ögesiyle ilgili sorun giderildi.
-*	 Kısayollar şimdi NVDA girdi hareketleri iletişim kutusu kullanılarak
-   yeniden atanabilir.
+* In the Customize emoticons dialog, it is now possible to specify that a
+  pattern should only match if it is a whole word, according to speech
+  dictionaries of NVDA 2014.4.
 
-## 1.0 Değişiklikler ##
-*	 İlk versiyon.
 
+## 2.0 için değişiklikler ##
+
+* Eklenti yardımına Eklenti Yöneticisi altından ulaşılabilir.
+
+
+## 1.1 için değişiklikler ##
+
+* Tekrar eden ifade silindi.
+* Bazı smileyler eklendi.
+
+## 1.0 için değişiklikler ##
+
+* İlk sürüm.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=em
+[1]: http://addons.nvda-project.org/files/get.php?file=emo
 
-[2]: https://www.emule-project.net
-
-[3]: https://addons.nvda-project.org/files/get.php?file=em-dev
+[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
