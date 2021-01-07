@@ -1,105 +1,89 @@
-# Emoticons #
+# eMule #
 
-* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
-  Estrada Martínez
-* تحميل [الإصدار النهائي][1]
-* تحميل [الإصدار التجريبي][2]
+*	مطورو الإضافة: Noelia, Chris, Alberto
+*	NVDA compatibility: 2019.3 or later.
+*	تحميل [الإصدار النهائي][1]
+*	تحميل [الإصدار التجريبي][3]
+*	download [version compatible with NVDA 2017.3][4]
 
-Using this add-on, spoken text containing emoticon characters will be
-replaced by its more human friendly description.
+This add-on helps to improve accessibility of eMule with nVDA.  It also
+provides additional keyboard commands for moving in different windows and
+gives Useful information about eMule.
 
-For example: the sequence ":)" will be spoken as "smiling smiley", or for
-example NVDA will recognize the meaning of each emoji.
+It's based on the eMuleNVDASupport add-on, developed by the same author. You
+should uninstall that old add-on to use this one, since both have common
+keystrokes and features.
 
-يمكنك الاستفادة من هذه الميزات:
+وقد تم تجربة الإضافة مع الإصدار  [eMule][2] 0.50a.
 
-## Insert Emoticon ##
+## الأوامر والمفاتيح المختصرة ##
 
-Sometimes an image is worth a 1000 words: use the new emoji to liven up your
-instant message and to let your friends know how you’re feeling.
+*	control+shift+h: تحريك مؤشر الفأرة ومؤشر النظام تجاه شريط الأدوات
+  الرئيسي. 
+*	control+shift+t: لقراءة النافذة الحالية
+*	control+shift+n: لتحريك مؤشر النظام إلى حقل الاسم في نافذة البحث.
+*	control+shift+p: في نافذة البحث يحرك مؤشر الفأرة ومؤشر النظام تجاه قائمة
+  معطيات البحث أو خيارات حقول التحرير. 
+*	control+shift+b: لتحريك مؤشر النظام تجاه القائمة الموجودة بالنافذة
+  الحالية. كالانتقال إلى قوائم نتائج البحث, أو التحميلات بنافذة نقل الملفات,
+  وهكذا.
+*	control+shift+o: لتحريك مؤشر النظام تجاه مربعات التحرير المخصصة للقراءة
+  فقط في النافذة الحالية.  كمربعات تحرير استلام رسائل بروتوكول IRC, أو
+  الخوادم المتاحة, وهكذا.
+*	control+NVDA+f: If the caret is located in a read only edit box, opens a
+  find dialog to use the commands for searching text available in NVDA.
+*	control+shift+l: لتحريك مؤشر NVDA ومؤشر الفأرة تجاه رأس القائمة الحالية. 
+*	control+shift+q: لقراءة أول كائن في شريط الحالة. يعطي معلومات عن أحدث أمر
+  تم تنفيذه. 
+*	control+shift+w: لقراءة الكائن الثاني في شريط الحالة. ويحتوي على معلومات
+  عن الملفات والمستخدمين الحاليين على الخادم الحالي. 
+*	control+shift+e: لقراءة الكائن الثالث في شريط الحالة. مفيد في معرفة سرعة
+  الرفع والتنزيل. 
+*	control+shift+r: لقراءة الكائن الرابع في شريط الحالة. يستخدم للإعلام عن
+  الاتصال بشبكة eD2K و CAD
 
-When you are unsure of the characters for a particular smiley, this addon
-enables you to select and insert it into your text such as in a chat.
+## إدارة العماويد ##
 
-Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
+إذا كنت داخل القائمة يمكنك التنقل بين الصفوف والأعمدة باستخدام alt+control
+مع الأسهم.  وفي هذه الإضافة تتوفر أيضا مفاتيح الاختصار التالية:
 
-This dialog allows you to choose an emoticon and to view the emoticons that
-interest you:
+*	nvda+control+1-0: لقراءة الأعمدة العشر الأولى. 
+*	nvda+shift+1-0: لقراءة الأعمدة من 11-20.
+*	nvda+shift+C: لنسخ محتوى آخر عمود تمت قراءته إلى الحافظة.
 
-*	An editable field allows you to filter the search for the desired emoticon
-  among the emoticons available.
-*	Through a set of radio buttons, you can choose to view only emoji category
-  (alt+E) or view only standard emoticon category (alt+s) or view all
-  emoticons available (alt+A).
-*	In the list of emoticons (alt+L) are displayed on three columns
-  respectively: the name of emoticon, the type of emoticon (standard
-  emoticon or emoji), the corresponding character.
+## Changes for 4.0 ##
+*	Requires NVDA 2019.3 or later.
 
-When you press OK, the characters for the chosen emoticon will be copied to
-your clipboard, ready for pasting.
+## Changes for 3.0 ##
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
-## تخصيص رموز المشاعر ##
+## مستجدات الإصدار  1.0 ##
+*	 إتاحة ملف المساعدة بمدير الإضافات البرمجية.
 
-From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can open a dialog setting to add or to edit available emoticons.
+## مستجدات الإصدار 1.2 ##
+*	 عند التحرك على رسائل ال IRC, فإنه سيتم الإعلان عنها بشكل صحيح
+*	 لقد تم تعميم الاختصار الذي كان منوط بالانتقال إلى نتائج البحث حيث أصبح
+   ينتقل لأي قائمة موجودة بالنافذة الحالية.
+*	 لقد تم تعميم الأمر المخصص للانتقال للرسائل المستلمة ببروتوكول IRC حيث
+   أصبح ينتقل إلى أي مربع تحرير للقراءة فقط, وذلك أدى إلى إمكانية مراجعة
+   معلومات الاتصال بنافذة الخوادم.
+*	 معالجة نطق شريط الأدوات مرتين في بعض الأحوال عند تحريك الفأرة أو مؤشر
+   النظام إليه.
 
-This dialog allows you to save an emoticons speech dictionary with your
-customizations.
+## تعديلات الإصدار  1.1 ##
+*	 إصلاح خطأ برمجي بعنصر eMule بقائمة المساعدة ب NVDA, عندما يحتوي اسم ملف
+   إعدادات المستخدم على أحرف غير لاتينية.
+*	 يمكن إعادة تخصيص اختصارات الإضافة من خلال محاورة تخصيص اختصارات NVDA.
 
-بالضغط على زر "حفظ وتصدير المعجم" سيتم حفظ ملف باسم emoticons.dic داخل مجلد
-إعدادات المستخدم ثم مجلد معاجم النطق المتفرع عنه.
+## تعديلات الإصدار  1.0 ##
+*	 نسخة أولية
 
-## إعدادات التفعيل ##
-
-From menu Preferences -> Manage Emoticons -> Activation settings, you can choose whether to Activate speaking of emoticons when starting NVDA. By default it is disabled.
-
-It is also possible to save your choice for this setting.
-
-## مفاتيح الاختصار: ##
-
-These are the key command available by default, you can edit those or add
-new key to open Activation settings dialog or Emoticon Dictionary dialog:
-
-* NVDA+E: speaching emoticons on/off, toggles between speaking text as it is
-  written, or with the emoticons replaced by the human description.
-* NVDA+I: show a dialog to select an emoticon you want to copy.
-
-
-## Changes for 5.0 ##
-
-* Added support for emojis.
-* Improvements for Insert Emoticon dialog with a filter field and radio
-  buttons to choose displayed emoticons.
-* Using guiHelper for Activation settings dialog and Insert Emoticon dialog:
-  requires NVDA 2016.4 or higher versions
-
-## مستجدات الإصدار 4.0 ##
-
-* إذا كانت محاورة إدراج رموز المشاعر مفتوحة بالتزامن مع تنشيط محاورة أخرى,
-  ستظهر رسالة الخطأ التي تفيد بذلك.
-
-
-## مستجدات الإصدار 3.0 ##
-
-* أصبح من الممكن تخصيص نطق الكلمة الأصلية عندما تتطابق مع الكلمة البديلة,
-  طبقا لمعاجم النطق ب NVDA2014.4. بمحاورة تخصيص رموز المشاعر.
-
-
-## مستجدات الإصدار 2.0 ##
-
-* توافر ملف المساعدة بمدير الإضافات البرمجية.
-
-
-## مستجدات الإصدار 1.1 ##
-
-* حذف رموز المشاعر المكررة.
-* تمت إضافة المزيد من رموز المشاعر.
-
-## مستجدات الإصدار 1.0 ##
-
-* إصدار بدائي
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=em
 
-[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://www.emule-project.net
+
+[3]: https://addons.nvda-project.org/files/get.php?file=em-dev

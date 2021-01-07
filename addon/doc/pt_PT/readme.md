@@ -1,222 +1,97 @@
-# Emoticons #
-* Autores: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
-  Estrada Martínez
-* NVDA compatibility: 2019.3 or later
-* Baixar [versão estável] [1]
-* Baixar [versão de desenvolvimento] [2]
+# eMule #
 
-Ao usar este extra, o texto do emoticon que contenha caracteres será
-substituído por uma descrição mais humana e amigável.
+*	Autores: Noelia, Chris, Alberto.
+*	NVDA compatibility: 2019.3 or later.
+*	baixar [versão estável] [1]
+*	baixar [versão de desenvolvimento] [3]
+*	download [version compatible with NVDA 2017.3][4]
 
-Por exemplo: a seqüência ":)" será falada como "smiley sorridente", ou, por
-exemplo, o NVDA reconhecerá o significado de cada emoji.
+This add-on helps to improve accessibility of eMule with nVDA.  It also
+provides additional keyboard commands for moving in different windows and
+gives Useful information about eMule.
 
-Neste extra, pode aproveitar os seguintes recursos:
+It's based on the eMuleNVDASupport add-on, developed by the same author. You
+should uninstall that old add-on to use this one, since both have common
+keystrokes and features.
 
-## Inserir Emoticon ##
+Testado no [eMule][2] 0.50a.
 
-Por vezes, uma imagem vale 1000 palavras: use o novo emoji para animar a sua
-mensagem instantânea e deixar os seus amigos saberem como se está a sentir,
-naquele momento.
+## Comandos: ##
 
-Quando não tiver a certeza dos caracteres para um determinado smiley, este
-extra permite-lhe seleccioná-lo e inseri-lo no seu texto, como numa
-conversa.
+*	control+shift+h: move o foco e o rato para a barra de ferramentas
+  principal.
+*	control+shift+t: lê a janela actual.
+*	control+shift+n: move o foco para o campo Nome na janela Localizar.
+*	control+shift+p: na janela Pesquisar, move o foco e o rato para a lista de
+  parâmetros de pesquisa ou edita as opções de campo.
+*	control+shift+b: move o foco para a lista na janela atual. Por exemplo,
+  utilizável na janela de pesquisa, downloads na janela de transferência,
+  etc.
+*	control+shift+o: move o foco para caixas de edição somente leitura na
+  janela actual. Por exemplo, o IRC recebeu mensagens, Servidores
+  disponíveis, etc.
+*	control+NVDA+f: se o cursor estiver localizado numa caixa de edição
+  somente leitura, abre uma caixa de diálogo de pesquisa para usar os
+  comandos para pesquisar texto disponível no NVDA.
+*	control+shift+l: move o objecto do navegador e o rato para os cabeçalhos
+  da lista actual.
+*	control+shift+q: lê o primeiro objecto na barra de status; fornece
+  informações sobre actividades recentes.
+*	control+shift+w: lê o segundo objecto da barra de status; contém
+  informações sobre ficheiros e utilizadores no servidor actual.
+*	control+shift+e: lê o terceiro objecto da barra de status; útil para
+  conhecer a velocidade de UpLoad / DownLoad.
+*	control+shift+r: lê o quarto objecto da barra de status; relatórios sobre
+  a conexão da rede eD2K e Kad.
 
-Press NVDA+I, or from menu Tools -> Emoticons > Insert emoticon, to open a dialog with the provided emoticons or emoji.
+## Gerir colunas: ##
 
-Esta caixa de diálogo permite-lhe escolher um emoticon e ver os emoticons
-que o interessam:
+Quando numa lista, pode mover o cursor entre as linhas e colunas usando alt
++ control + Setas. Neste extra, os seguintes comandos de teclas também estão
+disponíveis:
 
-*	Um campo de edição permite-lhe filtrar a busca do emoticon desejado entre
-  os emoticons disponíveis.
-*	Através de um conjunto de botões de rádio, pode optar por ver apenas a
-  categoria emoji (alt + E) ou visualizar apenas a categoria padrão de
-  emoticon (alt + s) ou visualizar todos os emoticons disponíveis (alt + A).
-*	Na lista de emoticons (alt + L) cada Emoticom é mostrado em três colunas
-  respectivamente: o nome do emoticon, o tipo de emoticon (emoticon padrão
-  ou emoji) e o conjunto de caracteres que o representam.
+*	Control+nvda+1-0: lê as 10 primeiras colunas.
+*	nvda+shift+1-0: lê as colunas de 11 a 20.
+*	nvda+shift+C: Copia o conteúdo da última coluna lida para a área de
+  transferência.
 
-Quando pressiona OK, os caracteres do emoticon escolhido serão copiados para
-a área de transferência, ficando prontos para colar na sua conversa.
-
-## Insert symbol ##
-
-This dialog allows you to choose one of the symbols available in the
-Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
-box or the arrow keys to select an item from the symbols list. Then, press
-OK and the selected emoji or symbol will be copied to your clipboard, ready
-for pasting.
-
-## Dicionário de emoticons ##
-
-Este extra permite-lhe ter diferentes dicionários de descrição de Emoticons,
-para usar com diferentes perfis.
-
-Isto significa que pode criar ou editar um dicionário de descrição
-específico para cada perfil personalizado.
-
-A partir do menu do NVDA, Preferências -> dicionários de fala -> dicionário de emoticons, pode abrir uma caixa de diálogo para adicionar ou editar emoticons disponíveis.
-
-Guardar as suas personalizações, as novas configurações de leitura dos
-emoticons só se aplicam ao perfil que está a editar no momento.
-
-Por exemplo, pode desejar que o NVDA fale os emoticons personalizados apenas
-no programa XxChat, mas não em outros programas de chat: pode fazer isso
-criando um perfil para o aplicativo XxChat e atribuindo-lhe um dicionário no
-menu Personalizar Emoticons. Veja abaixo a configuração de activação em
-relação aos perfis de configuração.
-
-Neste extra, também pode exportar cada dicionário personalizado pressionando
-o botão "Guardar e exportar dicionário": desta forma, os seus dicionários
-serão salvos na sua pasta de configuração do utilizador, subpasta
-speechDicts / emoticons.
-
-O nome exacto e a localização do ficheiro de dicionário serão baseados no
-perfil de configuração de edição, que será mostrado no título da caixa de
-diálogo do dicionário de Emoticons.
-
-## Configurações de emoticons ##
-
-A partir do menu de Preferências -> Gerenciar Emoticons -> Configurações de activação abra uma caixa de diálogo para configurar a activação dos seus dicionários de voz para cada perfil.
-
-No painel de configurações do extra, pode escolher se o dicionário de descrição deve ou não ser activado automaticamente quando o NVDA muda para o perfil que está a editar no momento. Por padrão, está desactivado na configuração normal do NVDA e em todos os seus novos perfis.
-
-Além disso, é possível determinar se os emojis complementares devem ser
-falados. Isto pode ser útil para preservar os símbolos falados, se os emojis
-estiverem incluídos na configuração do NVDA.
-
-Se quiser manter limpas as suas pastas de configuração, nesta caixa de
-diálogo também é possível escolher se os dicionários não utilizados
-(associados a perfis não existentes) serão removidos do extra quando
-estiverem descarregados.
-
-## Teclas de Comando: ##
-
-Estas são as teclas de comando disponíveis por padrão, pode editá-las ou
-adicionar uma nova tecla para abrir o painel de configurações do extra ou o
-diálogo do dicionário do Emoticon:
-
-* NVDA + E: falar emoticons on / off, alterna entre o texto falar como está
-  escrito, ou com os emoticons substituídos pela descrição humana.
-* NVDA + I: mostra uma caixa de diálogo para seleccionar um emoticon que
-  deseja copiar.
-* Not assigned: show a dialog to select an NVDA's symbol you want to copy.
-* Não atribuído: abre uma mensagem navegável mostrando o símbolo onde o
-  cursor de revisão está posicionado, para que toda a descrição possa ser
-  revisada no modo de navegação.
-* Não atribuído: abre uma mensagem navegável mostrando o símbolo onde o
-  cursor está posicionado, para que toda a descrição possa ser revisada no
-  modo de navegação.
-
-Nota: No Windows 10, também é possível usar o painel de emojis nativo.
-
-## Changes for 13.0 ##
-
-* Fixed errors in Insert Emoticon dialog.
-* Added a dialog to insert a symbol available in the Punctuation/symbol
-  pronunciation of NVDA.
-
-## Changes for 12.0 ##
-
-* Requires NVDA 2019.3 or later.
-
-## Changes for 11.0 ##
-
-* When the add-on is updated, dictionaries saved in the previous version of
-  the add-on will be automatically copied to the new version, unless you
-  prefer to import dictionaries saved in the main dictionaries folder of
-  NVDA.
-* When showing the symbol where the caret or the review cursor are
-  positioned, the words Character and Replacement are used to distinguish
-  between the symbol itself and its description in browse mode, useful for
-  speech users.
-
-## Alterações para 10.0 ##
-
-* Adicionados comandos para mostrar o símbolo onde o cursor de revisão ou o
-  cursor estão posicionados. Teclas para esses comandos podem ser atribuídas
-  a partir da caixa de diálogo definir comandos, na categoria Revisão de
-  texto.
-
-## Alterações para 9.0 ##
-
-* Adicionada a possibilidade de escolher se os emojis do extra devem ser
-  falados.
-* Usada a codificação apropriada para nomes de dicionários, corrigindo erros
-  quando eles contêm certos caracteres.
-* O resumo traduzido do extra é, agora,  usado correctamente para o título
-  apresentado na ajuda do extra, acessível a partir do gestor de extras.
-* Adicionada uma nota mencionando o painel de emojis disponível no Windows
-  10.
-
-## Alterações para 8.0 ##
-
-* Compatível com o NVDA 2018.3 ou posterior
-
-## Alterações para 7.0 ##
-
-* A caixa de diálogo Configurações de ativação foi movida para um painel nas
-  configurações do NVDA, para que o perfil actual seja mostrado no título da
-  caixa de diálogo de configurações do NVDA.
-* O menu Gerir Emoticons foi removido: agora o extra foi Inserido no menu
-  Ferramentas e os Emoticons Personalizados serão exibidos em dicionários de
-  fala, como o dicionário de Emoticons.
-* Requer o NVDA 2018.2 ou posterior.
-* Se for necessário, pode fazer o download da [última versão compatível com
-  o NVDA 2017.3] [3].
-
-## Alterações para 6.0 ##
-
-* Adicionado suporte para perfis de configuração.
-* No NVDA 2017.4 ou posterior, as configurações e os dicionários
-  personalizados serão alterados automaticamente de acordo com os perfis
-  seleccionados. No 2017.3 ou anteriores, pode aplicar alterações
-  recarregando plugins (pressionando controle + NVDA + f3).
-* Se optar por importar configurações ao actualizar o extra, os ficheiros
-  obsoletos (emoticons.ini e emoticons.dic) serão removidos ou adaptados a
-  esta versão.
-
-## Alterações para 5.0 ##
-
-* Adicionado suporte para emojis.
-* Melhorias para o diálogo inserir Emoticon com um campo de filtro e botões
-  de rádio para escolher os emoticons a mostrar.
-* Usar o guiHelper para o diálogo Configurações de Activação e diálogo
-  Inserir Emoticon: requer versões do NVDA 2016.4 ou superiores
-
-## Alterações para 4.0 ##
-
-* Se a caixa de diálogo inserir smiley for aberta quando outra caixa de
-  diálogo de configurações estiver activa, o NVDA mostrará a mensagem de
-  erro correspondente.
-
+## Changes for 4.0 ##
+*	Requires NVDA 2019.3 or later.
 
 ## Alterações para 3.0 ##
-
-* Na caixa de diálogo Personalizar emoticons, agora é possível especificar
-  que um padrão deve corresponder apenas se for uma palavra inteira, de
-  acordo com os dicionários do NVDA 2014.4.
-
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
 ## Mudanças para 2.0 ##
+*	 A ajuda adicional está disponível no Gestor de extras.
 
-* A ajuda adicional está disponível no Gestor de extras.
-
+## Alterações para 1.2 ##
+*	 Ao mudar para as mensagens do IRC, o texto seleccionado é lido
+   corretamente.
+*	 O comando de tecla usado para mover para a lista de resultados da
+   Pesquisa foi generalizado para poder mover o foco para qualquer lista
+   disponível na janela actual.
+*	 O comando usado para focar as mensagens do IRC foi generalizado para
+   mover para qualquer caixa de edição somente leitura, possibilitando a
+   revisão de informações de conexão na janela de Servidores.
+*	 Ao mover o rato e focar a barra de ferramentas, em alguns casos,  era
+   anunciado duas vezes. esse aspecto foi corrigido.
 
 ## Alterações para 1.1 ##
-
-* O emoticon duplicado foi removido.
-* Adicionados alguns smileys.
+*	 Foi corrigido um bug no item do eMule no menu de ajuda do NVDA, quando o
+   nome da pasta de configuração do utilizador contém caracteres não
+   latinos.
+*	 Os atalhos agora podem ser reatribuídos usando a caixa de diálogo de
+   entrada de comandos do NVDA.
 
 ## Alterações para 1.0 ##
+*	 Versão inicial.
 
-* Versão inicial.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=em
 
-[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://www.emule-project.net
 
-[3]: https://addons.nvda-project.org/files/get.php?file=emo-o
+[3]: https://addons.nvda-project.org/files/get.php?file=em-dev

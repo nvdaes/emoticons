@@ -1,213 +1,94 @@
-# Emotikoni #
-* Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
-  Estrada Martínez
-* NVDA kompatibilnost: 2019.3 i novije
-* Preuzmi [stabilnu verziju][1]
-* Preuzmi [razvojnu verziju][2]
+# eMule #
 
-Kad se koristi ovaj dodatak, emotikoni će se izgovoriti riječima ljudskog
-jezika.
+*	Autori: Noelia, Chris, Alberto.
+*	NVDA kompatibilnost: 2019.3 i novija.
+*	Preuzmi [stabilnu verziju][1]
+*	Preuzmi [razvojnu verziju][3]
+*	Preuzmi [kompatibilna verzija s NVDA 2017.3][4]
 
-Na primjer, znakovni niz „:)” će se izgovoriti kao „smješkajući smješko” ili
-npr. NVDA će prepoznati značenje svakog emojija.
+Ovaj dodatak poboljšava pristupačnostof eMule programa uz pomoć NVDA
+čitača. Također pruža dodatne tipkovničke prečace za premještanje po
+različitim prozorima i daje korisne informacije u eMuleu.
 
-Moguće je koristiti sljedeće funkcije:
+Ovaj je dodatak baziran na dodatku eMuleNVDASupport, kojeg je razvio isti
+autor. Stari se dodatak mora deinstalirati, kako bi se mogao koristiti ovaj
+dodatak, jer oba dodatka imaju zajedničke tipkovničke prečace i značajke.
 
-## Umetni emotikon ##
-
-Ponekad je slika vrijedna tisuću riječi: koristite novi emoji da biste
-oživili vaše poruke i kažete prijateljima kako se osjećate.
-
-Kada niste sigurni za neki smješko, ovaj dodatak dozvoljava, odabrati i
-umetnuti ga u tekst kao što je chat.
-
-Pritisnite NVDA+I ili iz izbornika Alati>Emotikoni>Umetni emotikon, da biste otvorili dijaloški okvir dostupnih emotikona ili emojia.
-
-Ovaj dijaloški okvir dozvoljava biranje emotikona i pregledavanje emotikona
-koji vas zanimaju:
-
-*	Uredivo polje, koje omogućuje pretraživanje emotikona koji vas zanimaju.
-*	Pomoću različitih izbornih gumba, možete izabrati prikaz emoji kategorije
-  (Alt+E), prikaz kategorije standarnih emotikona (alt+S) ili sve dostupne
-  emotikone (Alt+A).
-*	U popisu emotikona (Alt+L) prikazana su u tri stupca: ime emotikona, vrsta
-  emotikona (standardni emotikon ili emoji) te odgovarajući znak.
-
-Kad pritisnete U redu, znakovi za odabrani emotikon će se kopirati u
-međuspremnik, spremni da ih zalijepite.
-
-## Umetni znak ##
-
-Ovaj dijaloški okvir omogućuje odabir jednog od znakova dostupnih u
-dijaloškom okviru izgovora interpunkcija/znakova. Pomoću okvira za
-uređivanje filtra ili tipki sa strelicama možete odabrati stavku s popisa
-znakova. Zatim pritisnite U redu i odabrani emojiji ili znak kopirat će se u
-međuspremnik i spreman je za umetanje.
-
-## Rječnik emotikona ##
-
-Dodatak Emotikoni dozvoljava različite govorne rječnike korištenjem
-konfiguracijskih profila.
-
-To znači da možete stvoriti ili urediti poseban govorni rječnik za svaki
-svoj prilagođeni profil.
-
-U NVDA izborniku, Postavke>Govorni rječnici>Rječnik emotikona, možete otvoriti dijaloški okvir za dodavanje ili uređivanje dostupnih emotikona.
-
-Spremanjem vaših prilagodbi, nove postavke za čitanje emotikona će se
-primjenjivati samo za profil koji trenutačno uređujete.
-
-Primjerice, želite da NVDA izgovara prilagođene emotikone samo u XxChat
-programu, ali ne u drugim programima za čavrljanje: možete kreirati profil
-za XxChat aplikaciju i dodijeliti je govornom rječniku otvaranjem izbornika
-Govorni rječnik, opcija za Rječnik emotikona. Vidi niže dolje o postavkama
-za Emotikone u odnosu na konfiguracijski profil.
-
-Također možete izvesti svaki prilagođeni govorni rječnik pritiskom tipke
-„Spremi i izvezi rječnik”: na taj način će se vaši govorni rječnici spremiti
-u mapu vaše korisničke konfiguracije, u podmapu „speechDicts/emoticons”.
-
-Točno ime i lokacija datoteke rječnika bit će bazirana na konfiguracijskom
-profilu koji se trenutačno uređuje, koji će biti prikazan u naslovu
-dijaloškog okvira Rječnik emotikona.
-
-## Postavke Emotikona ##
-
-Iz izbornika Postavke>Postavke>Emotikoni otvara ploču za konfiguriranje aktiviranja vaših govornih rječnika za svaki profil.
-
-U dijaloškom okviru aktivacijskih postavki možete izabrati želite li da se govorni rječnik automatski aktivira kad se NVDA prebaci u profil koji trenutačno uređujete. Prema zadanim postavkima, ova opcija je isključena u uobičajenoj NVDA konfiguraciji i svim novim profilima.
-
-Pored toga, moguće je odrediti treba li se govoriti o dodatak emojis. Ovo bi
-moglo biti korisno za očuvanje izgovaranja simbola ako su emojii uključeni u
-NVDA konfiguraciju.
-
-Ako želite izbrisati mape s konfiguracijom, možete odabrati da se rječnici
-neće koristiti (nepostojeći profili će biti uklonjeni iz dodatka).
+Testirano na [eMule][2] 0.50a.
 
 ## Tipkovnički prečaci: ##
 
-Ovo su zadani tipkovnički prečaci. Možete ih urediti ili dodati novi prečac
-za otvaranje dijaloškog okvira za Postavke emotikona ili dijaloškog okvira
-za Rječnik emotikona:
+*	kontrol+šift+h: Premješta fokus i miša na glavnu alatnu traku.
+*	kontrol+šift+t: Čita trenutačni prozor.
+*	kontrol+šift+n: Premješta fokus na polje za ime u prozoru pretrage.
+*	kontrol+šift+p: U prozoru pretrage, premješta fokus i miša na popis
+  parametara pretrage ili na opcije uređivačkog polja.
+*	kontrol+šift+b: Premješta fokus na popis u trenutačnom prozoru. Na
+  primjer, korisno u prozoru pretrage, preuzimanja u prozoru transfera, itd.
+*	kontrol+šift+o: Premješta fokus na polja za uređivanje koja su samo za
+  čitanje u trenutačnom prozoru. Na primjer, IRC primljene poruke, dostupni
+  poslužitelji, itd.
+*	kontrol+NVDA+f: Ako se kursor nalazi u polju za uređivanje koje je samo za
+  čitanje, otvara se dijalog za pretragu s NVDA naredbama za traženje
+  teksta.
+*	kontrol+šift+l: Premješta navigacijski objekt i miša na zaglavlja
+  trenutačnog popisa.
+*	kontrol+šift+q: Šita prvi objekt u statusnoj traci; pruža informacije o
+  nedavnoj aktivnosti.
+*	kontrol+šift+w: Čita drugi objekt statusne trake; sadrži informacije o
+  datotekama i korisnicima na trenutačnom poslužitelju.
+*	kontrol+šift+e: Čita treći objekt statusne trake; korisno, kad se želi
+  doznati brzina slanja/preuzimanja.
+*	kontrol+šift+r: Čita četvrti objekt statusne trake; izvještava o
+  povezivosti ed2k i Kad mreže.
 
-* NVDA+E: uključuje i isključuje izgovaranje emotikona. Prebacuje između
-  izgovaranja teksta kako je napisan i opisa emotikona.
-* NVDA+I: Prikazuje dijaloški okvir za biranje emotikona koji želite
-  kopirati.
-* Nije dodijeljeno: Prikazuje dijaloški okvir za biranje znaka koji želite
-  kopirati.
-* Nije dodijeljeno: otvorite poruku koja se može čitati i koja pokazuje
-  simbol na kojem se nalazi pregledni kursor, tako da se čitav opis može
-  pregledati u modusu čitanja.
-* Nije dodijeljeno: otvorite poruku koja se može čitati i koja pokazuje
-  simbol na kojem se nalazi kursor, tako da se čitav opis može pregledati u
-  modusu čitanja.
+## Upravljanje stupcima. ##
 
-Napomena: Na Windows 10 je moguće koristiti i ugrađenu ploču emojija.
+Kad se nalaziš unutar popisa, možeš premještati kursor između stupaca i
+redaka pomoću alt+control+strelice. U ovom dodatku su dostupni i slijedeći
+prečaci:
 
-## Promjene u verziji 13.0 ##
-
-* Ispravljene greške u dijaloškom okviru za umetanje emotikona.
-* Dodan je dijaloški okvir za umetanje jednog znaka dostupan u izgovoru
-  interpunkcija/znakova.
-
-## Promjene u verziji 12.0 ##
-
-* Zahtijeva NVDA 2019.3 i novije verzije.
-
-## Promjene u verziji 11.0 ##
-
-* Kad se dodatak nadogradi, rječnici spremljeni u prethodnoj verziji dodatka
-  automatski će se kopirati u novu verziju, osim ako više ne želite uvesti
-  rječnike spremljene u glavnoj NVDA mapi rječnika.
-* Kad prikazuju simbol na kojem se nalaze kursor ili pregledni kusor, riječi
-  Znak i Zamjena koriste se za razlikovanje samog simbola od njegovog opisa
-  u modusu čitanja, što je korisno za korisnike govora.
-
-## Promjene u verziji 10.0 ##
-
-* Dodane su naredbe za prikaz simbola na kojem se nalaze kursor ili
-  pregledni kursor. Geste za ove naredbe je moguće dodijeliti u dijaloškom
-  okviru Ulazne geste, u kategoriji Pregled teksta.
-
-## Promjene u verziji 9.0 ##
-
-* Dodana je mogućnost za odlučivanje o tome, trebaju li se govoriti emojii
-  dodatka.
-* Koristi se odgovarajuće kodiranje za nazive rječnika, ispravljajući
-  greške, kad sadrže određene znakove.
-* Prevedeni sažetak dodatka pravilno se koristi za naslov koji se prikazuje
-  u pomoći dodatka, dostupna u upravljaču za dodatke.
-* Dodana je napomena u kojoj se spominje ploča s emojijima, koja je dostupna
-  u sustavu Windows 10.
-
-## Promjene u verziji 8.0 ##
-
-* Kompatibilno s NVDA 2018.3 i novijim verzijama (obavezno).
-
-## Promjene u verziji 7.0 ##
-
-* Dijaloški okvir postavki za Aktiviranje je premješten na ploču u NVDA
-  postavkama, tako da će se trenutačni profil prikazati u naslovu dijaloškog
-  okvira NVDA postavki.
-* Izbornik „Upravljaj emotikonima” je uklonjen: sada se „Umetni emotikon”
-  nalazi u izborniku Alati, a „Prilagodi emotikone” će se prikazati pod
-  „Govorni rječnici” kao što je „Rječnik emotikona”.
-* Zahtijeva NVDA inačicu 2018.2 ili noviju.
-* Ako treba, moguće je preuzeti [zadnju inačicu kompatibilnu s NVDA
-  2017.3][3].
-
-## Promjene u verziji 6.0 ##
-
-* Dodana podrška za profile konfiguracije.
-* U NVDA verziji 2017.4 ili novijoj, konfiguracijske postavke i prilagođeni
-  rječnici će se automatski promijeniti u odnosu na odabrane profile. U NVDA
-  verziji 2017.3 ili starijoj, možete primijeniti promjene ponovnim
-  učitavanjem dodataka (pritisnite kombinaciju kontrol+NVDA+F3).
-* Ako odlučite uvesti postavke tijekom ažuriranja dodatka, zastarjele
-  datoteke (emoticons.ini i emoticon.dic) će se ukloniti ili prilagoditi toj
-  verziji.
-
-## Promjene u verziji 5.0 ##
-
-* Dodana podrška za emojie.
-* Poboljšanja u dijaloškom okviru za umetanje emotikona uključujući i
-  odabirne gumbe za izbor kategorije i polje za pretragu emotikona.
-* Koristi se guiHelper za dijaloški okvir postavki aktivacije i dijaloški
-  okvir za umetanje emotikona: zahtijeva NVDA verziju 2016.4 ili noviju
+*	nvda+kontrol+1-0: Čita prvih deset stupaca.
+*	nvda+šift+1-0: Čita jedamaesti do dvadeseti stupac.
+*	nvda+šift+C: Kopira sadržaj zadnje pročitanog stupca u međuspremnik.
 
 ## Promjene u verziji 4.0 ##
-
-* Ako je dijaloški okvir za umetanje emotikona otvoren u isto vrijeme, kad
-  je aktivan i drugi dijaloški okvir postavki, NVDA će prikazati
-  odgovarajuću poruku pogreške.
-
-
-## Promjene u verziji 3.0 ##
-
-* U dijaloškom okviru Prilagodi emotikone, sada je moguće odrediti da se
-  uzorak poklapa samo, ako se nađe kao cijela riječ, prema govornim
-  riječnicima u NVDA 2014.4.
-
+*	Zahtijeva NVDA 2019.3 ili noviju verziju.
 
 ## Promjene u verziji 2.0 ##
+*	 Za pretraživanje teksta u poljima koja su samo za čitanje, moguće je
+   koristiti dijaloški okvir pretrage, odnosno aktivirati ga pomoću tipki
+   nvda+kontrol+f.
 
-* Pomoć dodatka je dostupna iz upravljača za dodatke.
+## Promjene u verziji 2.0 ##
+*	 Pomoć za dodatak je dostupna unutar upravljača dodataka.
 
+## Promjene u verziji 1.2 ##
+*	 Prilikom premještanja na IRC poruke, označeni se tekst čita ispravno.
+*	 Tipkovnički prečac za prijelaz na popis rezultata pretraživanja je sada
+   poopćen, kako bi se fokus mogao premjestiti na bilo koji dostupni popis u
+   trenutačnom prozoru.
+*	 Prečac koji se koristi za fokusiranje IRC poruka je sada poopćen, kako bi
+   se omogućilo premještanje na bilo koje polje za uređivanje koje je samo
+   za čitanje, čime se omogućuje pregled informacija o povezivosti u prozoru
+   Poslužitelji.
+*	 Prilikom premještanja miša ili fokusa na alatnu traku, u nekim se
+   slučajevima ovo izgovaralo dvaput. To je sada ispravljeno.
 
 ## Promjene u verziji 1.1 ##
+*	 Ispravljena greška u e mule stavci izbornika unutar  NVDA izbornika
+   pomoć, kada korisnička mapa konfiguracije sadrži nelatinične znakove.
+*	 Prečace je sada moguće prenamijeniti, koristeći dijaloški okvir ulazne
+   geste u NVDA izborniku.
 
-* Izbrisan dupli emotikon.
-* Dodano nekoliko smješaka.
+## Promjene u verziji1.0 ##
+*	 Prva verzija.
 
-## Promjene u verziji 1.0 ##
-
-* Prvo izdanje.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=em
 
-[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://www.emule-project.net
 
-[3]: https://addons.nvda-project.org/files/get.php?file=emo-o
+[3]: https://addons.nvda-project.org/files/get.php?file=em-dev
