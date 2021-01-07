@@ -1,86 +1,184 @@
-# eMule #
+# Emotikony #
+* Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+  Estrada Martínez
+* Funguje s NVDA od verzie 2019.3
+* stiahnuť [stabilnú verziu][1]
+* Stiahnuť [Vývojovú verzia][2]
 
-*	Autori: Noelia, Chris, Alberto.
-*	Funguje s NVDA od verzie 2019.3.
-*	Stiahnuť [stabilnú verzia][1]
-*	Stiahnuť [Vývojovú verzia][3]
-*	Stiahnuť [Verziu pre NVDA 2017.3][4]
+Tento doplnok interpretuje grafické emotikony slovným popisom.
 
-Tento doplnok zlepšuje prístupnosť programu eMule s NVDA. Poskytuje užitočné
-klávesové skratky a informácie z okien a prostredia Emule.
+napríklad: ":)" bude prečítané ako "úsmev". NVDA navyše bude rozpoznávať aj
+emoji.
 
-Je postavený na staršom aplikačnom module pre eMule od toho istého
-autora. odporúčame vám starý aplikačný modul odstrániť, keďže majú spoločné
-klávesové skratky a funkcie.
+Ďalšie vlastnosti:
 
-Testované s [eMule][2] 0.50a.
+## Vloženie emotikonu ##
 
-## klávesové skratky: ##
+Namiesto tisíc slov môžete použiť jediný obrázok. Použite emoji a dajte
+vašim priateľom vedieť, ako sa cítite a čo robíte.
 
-*	ctrl+shift+h: Presunie myš a fokus do hlavného panela nástrojov.
-*	ctrl+shift+t: prečíta aktuálne okno.
-*	ctrl+shift+n: Presunie fokus do poľa názov v okne hľadania.
-*	ctrl+shift+p: Presunie fokus na zoznam parametrov alebo do editačného poľa
-  s možnosťami v okne hľadania.
-*	ctrl+shift+b: Presunie fokus do zoznamu v aktuálnom okne. Funguje
-  napríklad v okne hľadania, v okne so sťahovaním a podobne.
-*	ctrl+shift+o: Presunie kurzor do editačného poľa iba na čítanie. Napríklad
-  do okna s IRC správami, dostupnými servermi a podobne.
-*	ctrl+NVDA+f: Ak ste v editačnom poli iba na čítanie, otvorí štandardné
-  okno hľadania, ktoré poznáte z NVDA.
-*	ctrl+shift+l: presunie navigačný objekt a myš na hlavičku pre aktuálny
-  zoznam.
-*	ctrl+shift+q: Prečíta prvý objekt na stavovom riadku; informáciu o
-  poslednej aktivite.
-*	ctrl+shift+w: Prečíta druhý objekt na stavovom riadku; informácie o
-  súboroch a používateľoch na aktuálnom serveri.
-*	ctrl+shift+e: prečíta tretí objekt na stavovom riadku; rýchlosť sťahovania
-  a posielania.
-*	ctrl+shift+r: prečíta štvrtý objekt na stavovom riadku; Oznámy stav
-  pripájania do siete eD2K a Kad.
+Ak si nie ste istý, ako napísať správne smailíka, tento doplnok vám umožní
+vybrať požadovaný symbol zo zoznamu.
 
-## práca so stĺpcami. ##
+Press NVDA+I, or from menu Tools -> Emoticons > Insert emoticon, to open a dialog with the provided emoticons or emoji.
 
-Na pohyb po riadkoch a stĺpcoch v zozname môžete použiť ctrl+alt+šípky. V
-doplnku sú dostupné aj tieto skratky:
+V dialógu uvidíte emotikony na vloženie a tiež tie, ktoré často vkladáte:
 
-*	nvda+ctrl+1-0: Prečíta prvých 10 stĺpcov.
-*	nvda+shift+1-0: Číta stĺpce 11-20.
-*	nvda+shift+C: Skopíruje posledný prečítaný stĺpec do schránky.
+*	Pomocou editačného poľa filter môžete rýchlo vyhľadať príslušný emotikon.
+*	Pomocou prepínača môžete zvoliť všetky emotikony (alt+v), emoji (alt+i)
+  alebo len štandardné emotikony (alt+š).
+*	V zozname (alt+z) sa pri každej položke zobrazuje textový popis, tip a
+  symbol.
+
+Stlačením OK sa príslušný emotikon uloží do schránky. Následne ho môžete
+kamkoľvek prilepiť.
+
+## Insert symbol ##
+
+This dialog allows you to choose one of the symbols available in the
+Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
+box or the arrow keys to select an item from the symbols list. Then, press
+OK and the selected emoji or symbol will be copied to your clipboard, ready
+for pasting.
+
+## Slovník emotikonov ##
+
+Môžete mať rôzne slovníky pre rôzne konfiguračné profily.
+
+V každom konfiguračnom profile NVDA tak môžete mať vlastný slovník
+emotikonov.
+
+V menu NVDA >možnosti >emotikony >pridať /upraviť môžete vytvoriť nové, alebo upraviť existujúce emotikony.
+V tomto dialógu môžete uložiť vlastný používateľský slovník s emotikonmi.
+
+Keď uložíte zmeny v doplnku pri aktivovanom konfiguračnom profile, zmeny sa
+prejavia len v práve aktívnom profile.
+
+Napríklad: Chceme, aby NVDA oznamovalo emotikony v programe Miranda, ale nie
+v ostatných aplikáciách. Vytvoríme preto profil pre Mirandu a priradíme k
+nemu slovník z rečových slovníkov.
+
+po stlačení tlačidla "Ulož a exportuj slovník" sa používateľský slovník
+uloží v priečinku s nastaveniami NVDA, v priečinku speechDicts/emoticons.
+
+Názov slovníka sa určí podľa názvu profilu. Názov sa zobrazí aj v názve okna
+pri úprave slovníka.
+
+## Nastavenia ##
+
+Aktiváciu slovníka aktivujete v strome s nastaveniami NVDA, vetva emotikony.
+
+Tu môžete určiť, či sa použije slovník s emotikonmi pre práve upravovaný profil. Predvolene je toto nastavenie vypnuté.
+
+Takisto môžete zapnúť a vypnúť oznamovanie emoji. Toto je užitočné v
+prípade, že sú emoji súčasťou NVDA.
+
+Tiež môžete z tohto dialógu odstrániť slovníky, ktoré sa viac nepoužívajú a
+nie ú asociované so žiadnym profilom.
+
+## Klávesové skratky: ##
+
+Klávesové skratky môžete upraviť v dialógu klávesové skratky, vetva
+prezeranie textu. Dostupné sú tieto možnosti:
+
+* NVDA+E: prepína medzi vyslovovaním znakov a popisov emotikonov. Určuje, či
+  budú oznamované jednotlivé časti emotikonu alebo slovný popis.
+* NVDA+I: zobrazí dialóg na vloženie požadovaného emotikonu.
+* Not assigned: show a dialog to select an NVDA's symbol you want to copy.
+* Nedefinované: Zobraz emotikon pod prezeracím kurzorom režime prehliadania.
+* Nedefinované: Zobraz emotikon pod systémovým kurzorom v režime
+  prehliadania.
+
+Upozorňujeme, že na vkladanie emotikonov môžete v systéme Windows 10 použiť
+vstavaný panel emotikonov.
+
+## Changes for 13.0 ##
+
+* Fixed errors in Insert Emoticon dialog.
+* Added a dialog to insert a symbol available in the Punctuation/symbol
+  pronunciation of NVDA.
+
+## Zmeny vo verzii 12.0 ##
+
+* Vyžaduje NVDA od verzie 2019.3.
+
+## Zmeny vo verzii 11.0 ##
+
+* Slovníky z predošlých verzií sa automaticky importujú pri aktualizácii do
+  novej verzie, ak nepreferujete ukladanie slovníkov do hlavného adresára s
+  nastaveniami NVDA.
+* V režime prehliadania sa pri popise symbolu zobrazujú aj slová znak a
+  popis, aby bolo možné ľahšie rozlíšiť reprezentáciu a popis symbolov.
+
+## Zmeny vo verzii 10.0 ##
+
+* Pridané skratky na zobrazenie symbolov v režime prehliadania. Nastavujú sa
+  v dialógu klávesové skratky, vetva prezeranie textu.
+
+## Zmeny vo verzii 9.0 ##
+
+* Pridaná možnosť zapnúť a vypnúť oznamovanie emotikonov.
+* Prerobené kódovanie a odstránené problémy s kódovaním.
+* Odteraz je možné preložiť popis doplnku.
+* Pridaná informácia o panely emoji v systéme Windows 10.
+
+## Zmeny vo verzii 8.0 ##
+
+* Vyžaduje NVDA od verzie 2018.3.
+
+## Zmeny vo verzii 7.0 ##
+
+* Dialóg s nastaveniami presunutý do nastavení NVDA.
+* Odstránené menu doplnku: Pridanie emotikonu vykonáte z menu nástroje,
+  slovníky sú v menu rečové slovníky.
+* Vyžaduje NVDA od verzie 2018.2.
+* Môžete si [stiahnuť verziu pre NVDA 2017.3][3].
+
+## Zmeny vo verzii 6.0 ##
+
+* Pridaná podpora pre konfiguračné profily.
+* Od NVDA 2017.4 sa nastavenia načítavajú podľa použitého profilu. V
+  starších verziách je potrebné načítať pluginy (ctrl+nvda+F3).
+* Pri aktualizácii na novú verziu sa odstránia nepoužívané súbory
+  (emoticons.ini a emoticons.dic).
+
+## Zmeny vo verzii 5.0 ##
+
+* Pridaná podpora emoji.
+* Do dialógu na vloženie emotikonu pridaný filter a kategórie.
+* Vyžaduje NVDA 2016.4. Pridaný modul guiHelper na zobrazenie dialógov.
 
 ## Zmeny vo verzii 4.0 ##
-*	Vyžaduje NVDA od verzie 2019.3.
+
+* Nie je viac možné otvoriť dialóg na vkladanie emotikonov, ak je už
+  otvorený iný dialóg NVDA.
+
 
 ## Zmeny vo verzii 3.0 ##
-*	 Na vyhľadávanie textu v neprepisovateľných poliach je odteraz možné
-   použiť štandardné príkazy NVDA a skratku nvda+ctrl+f.
+
+* v dialógu s nastavením emotikonov môžete odteraz určiť, či sa má reťazec
+  zmeniť len ak je ako celé slovo, alebo v ľubovoľnom kontexte (rovnako ako
+  v rečových slovníkoch NVDA od verzie 2014.4).
+
 
 ## Zmeny vo verzii 2.0 ##
-*	 Návod k doplnku nájdete v správcovi doplnkov.
 
-## Zmeny vo verzii 1.2 ##
-*	 Pri pohybe v IRC správach je správne oznamovaný vybratý text.
-*	 Skratka na prechod do výsledkov hľadania bola upravená tak, že prechádza
-   do akého koľvek zoznamu v aktuálnom okne.
-*	 Skratka na prechod k správam IRC bola upravená tak, že prechádza do
-   ľubovolného editačného poľa, takže je možné čítať informácie o spojení v
-   okne servera.
-*	 NVDA viac opakovane nečíta obsah panela nástrojov, ak naň presuniete
-   fokus alebo myš.
+* Návod k doplnku môžete nájsť v správcovi doplnkov.
+
 
 ## Zmeny vo verzii 1.1 ##
-*	 opravená chyba v pomocníkovy Emule, ktorá sa objavovala, ak názov
-   priečinka s používateľskými dátami obsahoval iné ako ascii znaky.
-*	 Skratky sa dajú meniť v dialógu klávesové skratky.
+
+* odstránené duplicitné emotikony.
+* pridané nové emotikony.
 
 ## Zmeny vo verzii 1.0 ##
-*	 prvé vydanie.
 
+* prvé vydanie.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=em
+[1]: https://addons.nvda-project.org/files/get.php?file=emo
 
-[2]: https://www.emule-project.net
+[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
 
-[3]: https://addons.nvda-project.org/files/get.php?file=em-dev
+[3]: https://addons.nvda-project.org/files/get.php?file=emo-o
