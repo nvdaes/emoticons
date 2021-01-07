@@ -1,107 +1,95 @@
-# Emoticons #
+# eMule #
 
-* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
-  Estrada Martínez
-* Download [stabiele versie][1]
-* Download [ontwikkelversie][2]
+*	Auteurs: Noelia, Chris, Alberto.
+*	NVDA compatibility: 2019.3 or later.
+*	download [stabiele versie][1]
+*	download [ontwikkelversie][3]
+*	download [version compatible with NVDA 2017.3][4]
 
-Using this add-on, spoken text containing emoticon characters will be
-replaced by its more human friendly description.
+This add-on helps to improve accessibility of eMule with nVDA.  It also
+provides additional keyboard commands for moving in different windows and
+gives Useful information about eMule.
 
-For example: the sequence ":)" will be spoken as "smiling smiley", or for
-example NVDA will recognize the meaning of each emoji.
+It's based on the eMuleNVDASupport add-on, developed by the same author. You
+should uninstall that old add-on to use this one, since both have common
+keystrokes and features.
 
-U kunt gebruik maken van de volgende functies:
+Getest op [eMule][2] 0.50a.
 
-## Insert Emoticon ##
+## Sneltoetsen: ##
 
-Sometimes an image is worth a 1000 words: use the new emoji to liven up your
-instant message and to let your friends know how you’re feeling.
+*	control+shift+h: Verplaatst de focus en de muis naar de belangrijkste
+  taakbalk.
+*	control+shift+t: Leest het huidige scherm.
+*	control+shift+n: Verplaatst de focus naar het Naamveld in het Zoekvenster.
+*	control+shift+p: In het Zoekscherm, verplaatst focus en muis naar de lijst
+  met zoekopties, of opties voor het invoerveld.
+*	control+shift+b: Verplaatst de focus naar de lijst in het huidige
+  venster. Bijvoorbeeld: 
+*	control+shift+o: Verplaatst de focus naar alleen-lezen invoervelden in het
+  huidige venster. Bijvoorbeeld: via IRC ontvangen berichten, beschikbare
+  servers, etc.
+*	control+NVDA+f: If the caret is located in a read only edit box, opens a
+  find dialog to use the commands for searching text available in NVDA.
+*	control+shift+l: Verplaatst het navigator object en de muis naar de
+  hoofdingen van de huidige lijst.
+*	control+shift+q: Leest het eerste object in de statusbalk; geeft
+  informatie over recente activiteit.
+*	control+shift+w: Leest het tweede object van de statusbalk; bevat
+  informatie over bestanden en gebruikers op de huidige server.
+*	control+shift+e: Leest het derde object van de statusbalk; nuttig om de
+  UpLoad-/DownLoadsnelheid te kennen.
+*	control+shift+r: Leest het vierde object van de statusbalk; meld over
+  verbinding met eD2K en Kad netwerk.
 
-When you are unsure of the characters for a particular smiley, this addon
-enables you to select and insert it into your text such as in a chat.
+## Kolommen beheren. ##
 
-Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
+Als u zich in een lijst bevindt, kunt u de cursor bewegen tussen de rijen en
+kolommen met alt+control+pijltjestoetsen. In deze Add-on zijn ook de
+volgende sneltoetsen beschikbaar:
 
-This dialog allows you to choose an emoticon and to view the emoticons that
-interest you:
-
-*	An editable field allows you to filter the search for the desired emoticon
-  among the emoticons available.
-*	Through a set of radio buttons, you can choose to view only emoji category
-  (alt+E) or view only standard emoticon category (alt+s) or view all
-  emoticons available (alt+A).
-*	In the list of emoticons (alt+L) are displayed on three columns
-  respectively: the name of emoticon, the type of emoticon (standard
-  emoticon or emoji), the corresponding character.
-
-When you press OK, the characters for the chosen emoticon will be copied to
-your clipboard, ready for pasting.
-
-## Emoticons aanpassen ##
-
-From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can open a dialog setting to add or to edit available emoticons.
-
-This dialog allows you to save an emoticons speech dictionary with your
-customizations.
-
-Als u op de knop "Woordenboek opslaan en exporteren" drukt, wordt een
-woordenboekbestand met de naam emoticons.dic opgeslagen in de speechDicts
-subfolder van uw gebruikersconfiguratiemap.
-
-## Actievatie-instellingen ##
-
-From menu Preferences -> Manage Emoticons -> Activation settings, you can choose whether to Activate speaking of emoticons when starting NVDA. By default it is disabled.
-
-It is also possible to save your choice for this setting.
-
-## Toetscommando's: ##
-
-These are the key command available by default, you can edit those or add
-new key to open Activation settings dialog or Emoticon Dictionary dialog:
-
-* NVDA+E: speaching emoticons on/off, toggles between speaking text as it is
-  written, or with the emoticons replaced by the human description.
-* NVDA+I: show a dialog to select an emoticon you want to copy.
-
-
-## Changes for 5.0 ##
-
-* Added support for emojis.
-* Improvements for Insert Emoticon dialog with a filter field and radio
-  buttons to choose displayed emoticons.
-* Using guiHelper for Activation settings dialog and Insert Emoticon dialog:
-  requires NVDA 2016.4 or higher versions
+*	nvda+control+1-0: Leest de eerste 10 kolommen.
+*	nvda+shift+1-0: Leest kolommen 11 tot 20.
+*	nvda+shift+C: Kopieer de inhoud van de laatstgelezen kolom naar het
+  klembord.
 
 ## Changes for 4.0 ##
+*	Requires NVDA 2019.3 or later.
 
-* If the Insert smiley dialog is opened when another settings dialog is
-  active, NVDA will show the corresponding error message.
-
-
-## Veranderingen in 3.0 ##
-
-* In het dialoogvenster Emoticons aanpassen is het nu mogelijk om een
-  patroon alleen toe te passen bij hele woorden, zoals sinds NVDA 2014.4 ook
-  mogelijk is bij uitspraakwoordenboeken.
-
+## Changes for 3.0 ##
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
 ## Veranderingen in 2.0 ##
+*	 Add-on help is beschikbaar via Add-ons beheren.
 
-* Addon-help is beschikbaar via Add-ons beheren
+## Veranderingen voor 1.2 ##
+*	 Bij het navigeren naar de IRC-berichten wordt de geselecteerde tekst
+   correct gemeld.
+*	 De sneltoets die gebruikt werd voor het navigeren naar de
+   zoekresultatenlijst wordt nu gebruikt om te navigeren naar iedere
+   beschikbare lijst in het huidige venster.
+*	 Het gebruikte commando voor het weergeven van de IRC-berichten is
+   algemeen gemaakt om te navigeren naar ieder alleen-lezen invoerveld, wat
+   het mogelijk maakt om verbindingsinformatie in het servervenster te
+   bekijken.
+*	 Bij het verplaatsen van de muis of de focus naar de werkbalk werd dit in
+   sommige gevallen twee keer gemeld. Dit is opgelost.
 
-
-## Veranderingen in 1.1 ##
-
-* Dubbel aanwezige emoticon verwijderd.
-* Enkele smileys toegevoegd.
+## Veranderingen voor 1.1 ##
+*	 Probleem opgelost in eMule item onder NVDA's help menu, als de naam van
+   de gebruikersconfiguratiemap niet-Latijnse karakters bevat.
+*	 Snelkoppelingen kunnen nu gewijzigd worden via het dialoogvenster
+   Invoerhandelingen koppelen van NVDA.
 
 ## Veranderingen in 1.0 ##
+*	 Eerste versie.
 
-* Eerste versie.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=em
 
-[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://www.emule-project.net
+
+[3]: https://addons.nvda-project.org/files/get.php?file=em-dev
