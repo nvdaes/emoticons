@@ -1,0 +1,534 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: emoticons 3.1\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2015-01-30 05:00+1000\n"
+"PO-Revision-Date: 2016-01-28 12:25+0900\n"
+"Last-Translator: Takuya Nishimoto <nishimotz@gmail.com>\n"
+"Language-Team: Japanese <nvdajp@nvda.jp>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Translators: the label of a message box dialog.
+msgid ""
+"You have installed the Emoticons add-on, probably an old and incompatible "
+"version with this one. Do you want to uninstall the old version?"
+msgstr ""
+"互換性のない古いバージョンのエモーティコン アドオンがインストールされていま"
+"す。古いバージョンのアドオンをアンインストールしますか？"
+
+#. Translators: the title of a message box dialog.
+msgid "Uninstall incompatible add-on"
+msgstr "互換性のないアドオンのアンインストール"
+
+#. Translators: the label of a message box dialog.
+msgid ""
+"You seem to have previous settings saved for this add-on. Do you want to "
+"import them?"
+msgstr ""
+"このアドオンで過去に保存された設定が見つかりました。設定をインポートします"
+"か？"
+
+#. Translators: the title of a message box dialog.
+msgid "Import Emoticons add-on settings"
+msgstr "エモーティコン アドオンの設定のインポート"
+
+#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
+#, python-format
+msgid "Emoticon: %s"
+msgstr "エモーティコン: %s"
+
+#. Translators: the name of addon submenu.
+msgid "Manage emoticons"
+msgstr "エモーティコンの管理"
+
+#. Translators: the tooltip text for addon submenu.
+msgid "Emoticons menu"
+msgstr "エモーティコン メニュー"
+
+#. Translators: the name for an item of addon submenu.
+msgid "&Insert smiley..."
+msgstr "顔文字の挿入(&I)..."
+
+#. Translators: the tooltip text for an item of addon submenu.
+msgid "Shows a dialog to insert a smiley"
+msgstr "顔文字の挿入ダイアログを表示"
+
+#. Translators: the name for an item of addon submenu.
+msgid "&Customize emoticons..."
+msgstr "エモーティコンの編集(&C)..."
+
+#. Translators: the tooltip text for an item of addon submenu.
+msgid "Shows a dictionary dialog to customize emoticons"
+msgstr "エモーティコンの編集ダイアログを表示"
+
+#. Translators: the name for an item of addon submenu.
+msgid "&Activation settings..."
+msgstr "設定の有効化(&A)..."
+
+#. Translators: the tooltip text for an item of addon submenu.
+msgid "Shows a dialog to choose when emoticons speaking should be activated"
+msgstr "エモーティコンの読み上げを有効または無効にするダイアログを表示"
+
+msgid "Emoticons dictionary"
+msgstr "エモーティコン辞書"
+
+#. Translators: message presented when the dictionary for emoticons is unloaded.
+msgid "Emoticons off."
+msgstr "エモーティコン無効"
+
+#. Translators: message presented when the dictionary for emoticons is loaded.
+msgid "Emoticons on."
+msgstr "エモーティコン有効"
+
+#. Translators: Message presented in input help mode.
+msgid "Toggles on and off the announcement of emoticons."
+msgstr "エモーティコンの読み上げを有効化または無効化"
+
+#. Translators: Message presented in input help mode.
+msgid "Shows a dialog to select a smiley you want to paste."
+msgstr "貼り付けたい顔文字を選択するダイアログを表示"
+
+#. Translators: This is the label for the InsertEmoticon dialog.
+msgid "Insert emoticon"
+msgstr "エモーティコンの挿入"
+
+#. Translators: The label for a setting in Insert emoticons to select a smiley.
+msgid "Available emoticons"
+msgstr "登録されている顔文字"
+
+#. Translators: A combo box to choose a smiley.
+msgid "Available smileys to insert:"
+msgstr "顔文字の選択:"
+
+#. Translators: This is the message when smiley has been copied to the clipboard.
+msgid "Smiley copied to clipboard, ready for you to paste."
+msgstr "顔文字をクリップボードから貼り付けできます。"
+
+msgid "Cannot copy smiley."
+msgstr "顔文字をコピーできません。"
+
+#. Translators: The label for the combo box of dictionary entries in speech dictionary dialog.
+msgid "&Dictionary entries"
+msgstr "辞書エントリー(&D)"
+
+#. Translators: The label for a column in dictionary entries list used to identify comments for the entry.
+msgid "Comment"
+msgstr "コメント"
+
+#. Translators: The label for a column in dictionary entries list used to identify pattern (original word or a pattern).
+msgid "Pattern"
+msgstr "パターン"
+
+#. Translators: The label for a column in dictionary entries list and in a list of symbols from symbol pronunciation dialog used to identify replacement for a pattern or a symbol
+msgid "Replacement"
+msgstr "読み方"
+
+#. Translators: The label for a column in dictionary entries list used to identify whether the entry is case sensitive or not.
+msgid "case"
+msgstr "大文字小文字の区別"
+
+#. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression, matches whole words, or matches anywhere.
+msgid "Type"
+msgstr "種別"
+
+#. Translators: a choice of Activateemoticons dialog.
+msgid "off"
+msgstr "無効"
+
+msgid "on"
+msgstr "有効"
+
+#. Translators: The label for a button in speech dictionaries dialog to add new entries.
+msgid "&Add"
+msgstr "追加(&A)"
+
+#. Translators: The label for a button in speech dictionaries dialog to edit existing entries.
+msgid "&Edit"
+msgstr "編集(&E)"
+
+msgid "&Remove"
+msgstr "削除(&R)"
+
+msgid "Rese&t"
+msgstr "リセット(&T)"
+
+#. Translators: The label for a button in speech dictionaries dialog to add new entries.
+msgid "Save and e&xport dictionary"
+msgstr "辞書を保存してエクスポート(&X)"
+
+#. Translators: this is the label for the Emoticons activate dialog.
+msgid "Activation settings"
+msgstr "設定の有効化"
+
+#. Translators: The label for a setting in Activate emoticons dialog.
+msgid "&Activate speaking of emoticons at start:"
+msgstr "起動時にエモーティコンの読み上げを有効化(&A):"
+
+#. Translators: a choice of Activateemoticons dialog.
+msgid "On"
+msgstr "有効"
+
+#. Translators: a combo box in Emoticons dialog.
+msgid "Activate at start"
+msgstr "起動時の有効化"
+
+#. Translators: The label for a setting in Activate emoticons dialog to copy activation settings.
+msgid "&Copy activation settings"
+msgstr "起動時の設定をコピー(&C)"
+
+#. Translators: :) Smile
+msgid "smiling smiley"
+msgstr "笑顔 顔文字"
+
+#. Translators: :( Sad
+msgid "sad smiley"
+msgstr "悲しい 顔文字"
+
+#. Translators: :D Laugh
+msgid "Laughing smiley"
+msgstr "笑い 顔文字"
+
+#. Translators: :O Surprised
+msgid "surprised smiley"
+msgstr "びっくり 顔文字"
+
+#. Translators: ;) Wink;
+msgid "winking smiley"
+msgstr "ウィンク 顔文字"
+
+#. Translators: ;( Crying
+msgid "crying smiley"
+msgstr "ウェーン 顔文字"
+
+#. Translators: (:| Sweating
+msgid "sweating smiley"
+msgstr "アセアセ 顔文字"
+
+#. translators:  :|] Robot (a robot head)
+msgid "Robot Smiley"
+msgstr "ロボット 顔文字"
+
+#. Translators: :| Speechless
+msgid "speechless smiley"
+msgstr "ムム 顔文字"
+
+#. Translators: :* Kiss
+msgid "kiss smiley"
+msgstr "キッス 顔文字"
+
+#. Translators: :P Cheeky
+msgid "cheeky smiley"
+msgstr "生意気 顔文字"
+
+#. Translators: :$ Blushing
+msgid "blushing smiley"
+msgstr "恥ずかしい 顔文字"
+
+#. Translators: :^) Wondering
+msgid "wondering smiley"
+msgstr "なになに 顔文字"
+
+#. Translators: |-) Sleepy
+msgid "sleepy smiley"
+msgstr "眠い 顔文字"
+
+#. Translators: |-( Dull
+msgid "dull smiley"
+msgstr "つまんない 顔文字"
+
+#. Translators: :x My lips are sealed
+msgid "my lips are sealed smiley"
+msgstr "内緒 顔文字"
+
+#. Translators: \o/ Dancing
+msgid "dancing smiley"
+msgstr "踊る 顔文字"
+
+#. Translators: :'( crying a lot smiley
+msgid "crying a lot smiley"
+msgstr "大泣き 顔文字"
+
+#. Translators: >:( Angry
+#. Translators: (angry) Angry
+msgid "angry smiley"
+msgstr "プンプン 顔文字"
+
+#. Translators: :/ Worried
+#. Translators: (worry) Worried
+msgid "worried smiley"
+msgstr "心配 顔文字"
+
+#. Translators: <3 Heart
+#. Translators: (heart) Heart
+msgid "heart smiley"
+msgstr "ハート 顔文字"
+
+#. Translators:  O:)  O:-) Angel
+msgid "Angel Smiley"
+msgstr "天使 顔文字"
+
+#. Translators:  O.o  o.O  Confused
+msgid "Confused Smiley"
+msgstr "戸惑い 顔文字"
+
+#. Translators:   3:-) Devil
+msgid "Devil Smiley"
+msgstr "悪魔 顔文字"
+
+#. Translators:  ^_^ Keke (This smiley is inspired by the Asian style, which is a happy face.)
+msgid "Keke Smiley"
+msgstr "にっこり 顔文字"
+
+#. Translators: -_- Bored (This smiley face has its eyes closed and is sporting a very small grin.)
+msgid "Bored smiley"
+msgstr "退屈 顔文字"
+
+#. Translators:  >:O  Upset, angry or shouting...
+msgid "Angry Smiley"
+msgstr "怒り 顔文字"
+
+#. Translators:  :3  Cat (Cat faced smiley with curly lips)
+msgid "Cat Smiley"
+msgstr "猫 顔文字"
+
+#. Translators: (-.-)ZZZ I�m Sleepy
+msgid "I am Sleepy smiley"
+msgstr "眠い 顔文字"
+
+#. Translators: 8-) Glasses
+msgid "glasses smiley"
+msgstr "メガネ 顔文字"
+
+#. Translators: (^^^) shark
+msgid "shark smiley"
+msgstr "サメ 顔文字"
+
+#. Translators:  (cash) Cash
+msgid "cash smiley"
+msgstr "キャッシュ 顔文字"
+
+#. Translators: (flex) Muscle
+msgid "muscle smiley"
+msgstr "筋肉 顔文字"
+
+#. Translators: (beer) Beer
+msgid "beer smiley"
+msgstr "ビール 顔文字"
+
+#. Translators: (d) Drink
+msgid "drink smiley"
+msgstr "ドリンク 顔文字"
+
+#. Translators: (ninja) Ninja
+msgid "ninja smiley"
+msgstr "忍者 顔文字"
+
+#. Translators: (cool) Cool
+msgid "cool smiley"
+msgstr "クール 顔文字"
+
+#. Translators: (inlove) In Love
+msgid "in love smiley"
+msgstr "ラブ 顔文字"
+
+#. Translators: (yn) Fingers crossed
+msgid "fingers crossed smiley"
+msgstr "指をクロスして祈る 顔文字"
+
+#. Translators: (yawn) Yawn
+msgid "yawning smiley"
+msgstr "あくび 顔文字"
+
+#. Translators: (puke) Puking
+msgid "puking smiley"
+msgstr "オエッ 顔文字"
+
+#. Translators: (doh) Doh!
+msgid "doh! smiley"
+msgstr "ダアー 顔文字"
+
+#. Translators: (wasntme) It wasn't me!
+msgid "it wasn't me! smiley"
+msgstr "私はやってない 顔文字"
+
+#. Translators: (party) Party
+msgid "party smiley"
+msgstr "パーティ 顔文字"
+
+#. Translators: (mm) Mmmm...
+msgid "mmmmmm... smiley"
+msgstr "ううむ 顔文字"
+
+#. Translators: (nerd) Nerdy
+msgid "nerdy smiley"
+msgstr "オタク 顔文字"
+
+#. Translators: (wave) Hi
+msgid "hi smiley"
+msgstr "こんにちは 顔文字"
+
+#. Translators: (facepalm) Facepalm
+msgid "facepalm smiley"
+msgstr "あちゃー 顔文字"
+
+#. Translators: (devil) Devil
+msgid "devil smiley"
+msgstr "悪魔 顔文字"
+
+#. Translators: (angel) Angel
+msgid "angel smiley"
+msgstr "天使 顔文字"
+
+#. Translators: (envy) Envy
+msgid "envy smiley"
+msgstr "うらやましい 顔文字"
+
+#. Translators: (wait) Wait
+msgid "wait smiley"
+msgstr "待って 顔文字"
+
+#. Translators: (hug) Hug
+msgid "hug smiley"
+msgstr "ハグ 顔文字"
+
+#. Translators: (makeup) Make-up
+msgid "make-up smiley"
+msgstr "お化粧ばっちり 顔文字"
+
+#. Translators: (chuckle) Giggle
+msgid "giggle smiley"
+msgstr "クスクス 顔文字"
+
+#. Translators: (clap) Clapping
+msgid "clapping smiley"
+msgstr "パチパチ 顔文字"
+
+#. Translators: (think) Thinking
+msgid "thinking smiley"
+msgstr "考え中 顔文字"
+
+#. Translators: (bow) Bowing
+msgid "bowing smiley"
+msgstr "おじぎ 顔文字"
+
+#. Translators: (rofl) Rolling on the floor laughing
+msgid "rolling on the floor laughing! smiley"
+msgstr "大笑い 顔文字"
+
+#. Translators: (whew) Relieved
+msgid "relieved smiley"
+msgstr "ほっとした 顔文字"
+
+#. Translators: (happy) Happy
+msgid "happy smiley"
+msgstr "幸せ 顔文字"
+
+#. Translators: (smirk) Smirking
+msgid "smirking smiley"
+msgstr "ケッ 顔文字"
+
+#. Translators: (nod) Nodding
+msgid "nodding smiley"
+msgstr "うんうん 顔文字"
+
+#. Translators: (shake) Shake
+msgid "shakeing smiley"
+msgstr "いやいや 顔文字"
+
+#. Translators: (waiting) Waiting
+msgid "waiting smiley"
+msgstr "待っている 顔文字"
+
+#. Translators: (emo) Emo;
+msgid "Emo smiley"
+msgstr "エモ 顔文字"
+
+#. Translators: (y) Yes
+msgid "yes smiley"
+msgstr "はい 顔文字"
+
+#. Translators: (n) no;
+msgid "no smiley"
+msgstr "いいえ 顔文字"
+
+#. Translators: (handshake) Handshake
+msgid "handshake smiley"
+msgstr "握手 顔文字"
+
+#. Translators: (highfive) High five
+msgid "high five smiley"
+msgstr "ハイタッチ 顔文字"
+
+#. Translators: (lalala) Lalala;
+msgid "lalala smiley"
+msgstr "ラララ 顔文字"
+
+#. Translators: (heidy) Heidy;
+msgid "heidy smiley"
+msgstr "リス 顔文字"
+
+#. Translators: (F) Flower
+msgid "flower smiley"
+msgstr "花 顔文字"
+
+#. Translators: (rain) Raining
+msgid "raining smiley"
+msgstr "雨 顔文字"
+
+#. Translators: (sun) Sun
+msgid "sunny smiley"
+msgstr "おひさま 顔文字"
+
+#. Translators: (tumbleweed) Tumbleweed
+msgid "tumbleweed smiley"
+msgstr "すきま風 顔文字"
+
+#. Translators: (music) Music
+msgid "music smiley"
+msgstr "音楽 顔文字"
+
+#. Translators: (bandit) Bandit
+msgid "bandit smiley"
+msgstr "ならず者 顔文字"
+
+#. Translators: (tmi) Too much information
+msgid "too much information smiley"
+msgstr "よけいなお世話 顔文字"
+
+#. Translators: (coffee) Coffee
+msgid "coffee smiley"
+msgstr "コーヒー 顔文字"
+
+#. Translators: (pi) Pizza
+msgid "pizza smiley"
+msgstr "ピザ 顔文字"
+
+#. Translators: (^) Cake
+msgid "cake smiley"
+msgstr "ケーキ 顔文字"
+
+#. Translators: (*) Star
+msgid "star smiley"
+msgstr "星 顔文字"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+msgid "Emoticons"
+msgstr "エモーティコンズ"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+msgid ""
+"Enables the announcement of emoticon names instead of the character "
+"Representation."
+msgstr "文字の代わりにエモーティコンの名前による通知を有効化"
