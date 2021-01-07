@@ -1,106 +1,95 @@
-# Hangulatjelek #
+# eMule #
 
-* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
-  Estrada Martínez
-* Letöltés [Stabil verzió][1]
-* Letöltés [Fejlesztői verzió][2]
+*	Készítők: Noelia, Chris, Alberto.
+*	NVDA compatibility: 2019.3 or later.
+*	Letöltés [stabil verzió][1]
+*	Letöltés [fejlesztői verzió][3]
+*	download [version compatible with NVDA 2017.3][4]
 
-Using this add-on, spoken text containing emoticon characters will be
-replaced by its more human friendly description.
+This add-on helps to improve accessibility of eMule with nVDA.  It also
+provides additional keyboard commands for moving in different windows and
+gives Useful information about eMule.
 
-For example: the sequence ":)" will be spoken as "smiling smiley", or for
-example NVDA will recognize the meaning of each emoji.
+It's based on the eMuleNVDASupport add-on, developed by the same author. You
+should uninstall that old add-on to use this one, since both have common
+keystrokes and features.
 
-A következő lehetőségek állnak rendelkezésére:
+Tesztelve az [eMule][2] 0.50a programmal.
 
-## Insert Emoticon ##
+## Billentyűparancsok: ##
 
-Sometimes an image is worth a 1000 words: use the new emoji to liven up your
-instant message and to let your friends know how you’re feeling.
+*	control+shift+h: az egérkurzort és a fókuszt a fő eszköztárhoz helyezi.
+*	control+shift+t: felolvassa az aktuális ablakot.
+*	control+shift+n: a fókuszt a keresőablak Név mezőjére helyezi.
+*	control+shift+p: a fókuszt a keresőablak paraméterlistájához, vagy a
+  szerkesztőmező beállításaihoz helyezi.
+*	control+shift+b: a fókuszt az aktuális ablakban elérhető listára
+  helyezi. Ez hasznos a keresési ablakban, a letöltéseknél az átvitel
+  ablakban, stb.
+*	control+shift+o: A fókuszt az aktuális ablakban elérhető csak olvasható
+  szerkesztőmezőre helyezi. Például IRC fogadott üzenetek, elérhető
+  szerverek, stb.
+*	control+NVDA+f: Ha a kurzor egy csak olvasható szerkesztőmezőn áll,
+  megnyit egy keresőablakot.
+*	control+shift+l: A navigátor- és az egérkurzort az aktuális lista
+  fejlécéhez helyezi.
+*	control+shift+q: felolvassa az első elemet az állapotsoron, mely a
+  legutóbbi tevékenységről tájékoztat.
+*	control+shift+w: felolvassa a második elemet az állapotsoron, mely a
+  jelenlegi kiszolgáló fájlokkal és felhasználókkal kapcsolatos információit
+  tartalmazza.
+*	control+shift+e: felolvassa a harmadik elemet az állapotsoron, mely a le-
+  és feltöltési sebességet tartalmazza.
+*	control+shift+r: felolvassa a negyedik elemet az állapotsoron, mely az
+  eD2K és Kad hálózatok kapcsolódási állapotát tartalmazza.
 
-When you are unsure of the characters for a particular smiley, this addon
-enables you to select and insert it into your text such as in a chat.
+## Oszlopok kezelése. ##
 
-Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
+Egy oszlopokat tartalmazó listában általában az alt+control+nyíl billentyűk
+használhatóak sor és oszlop navigációhoz. Ebben a kiegészítőben a következő
+parancsok is elérhetőek:
 
-This dialog allows you to choose an emoticon and to view the emoticons that
-interest you:
+*	nvda+control+1-0: felolvassa az első 10 oszlopot.
+*	nvda+shift+1-0: Felolvassa a 11-től 20-ig található oszlopokat.
+*	nvda+shift+C: az utoljára felolvasott oszlop tartalmát a vágólapra
+  másolja.
 
-*	An editable field allows you to filter the search for the desired emoticon
-  among the emoticons available.
-*	Through a set of radio buttons, you can choose to view only emoji category
-  (alt+E) or view only standard emoticon category (alt+s) or view all
-  emoticons available (alt+A).
-*	In the list of emoticons (alt+L) are displayed on three columns
-  respectively: the name of emoticon, the type of emoticon (standard
-  emoticon or emoji), the corresponding character.
+## Changes for 4.0 ##
+*	Requires NVDA 2019.3 or later.
 
-When you press OK, the characters for the chosen emoticon will be copied to
-your clipboard, ready for pasting.
+## A 3.0 verzió változásai ##
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
-## Hangulatjelek testreszabása ##
+## Az 2.0 verzió változásai ##
+*	 A kiegészítő súgója elérhető a Bővitménykezelő párbeszédablakából is.
 
-From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can open a dialog setting to add or to edit available emoticons.
+## Az 1.2 verzió változásai ##
+*	 Amikor az IRC üzeneteken navigálunk, a kijelölt szöveg felolvasásra
+   kerül.
+*	 A billentyűparancs, amely eddig a fókuszt csak a keresési találatok
+   listájára helyezte, most már bármilyen, az aktuális ablakban elérhető
+   listára át tudja helyezni azt.
+*	 A parancs, ami eddig csak az IRC üzenetekre helyezte át a fókuszt,
+   immáron bármely más csak olvasható szerkesztőmezőre is át tudja helyezni
+   azt, ezáltal lehetővé vált a kapcsolódási információk áttekintése a
+   szerverek ablakában.
+*	 Amikor az egér és a fókusz az eszköztárra került, némely esetben az
+   információ kétszer került kimondásra. A hiba kijavításra került.
 
-This dialog allows you to save an emoticons speech dictionary with your
-customizations.
+## Az 1.1 verzió változásai ##
+*	 Javítva az Emule elem a súgó menüben, hiba történt ha a felhasználói
+   konfigurációs fájl nem latin karaktereket tartalmazott.
+*	 A billentyűparancsok átállíthatóak a beviteli parancsok párbeszédablakán.
 
-Nyomja meg a "szótár mentése és exportálása" gombot, ekkor az emoticons.dic
-szótárfájl létrejön a saját beállítások mappa speechDicts almappában.
+## Az 1.0 verzió változásai ##
+*	 Az első kiadás.
 
-## Aktiválási beállítások ##
-
-From menu Preferences -> Manage Emoticons -> Activation settings, you can choose whether to Activate speaking of emoticons when starting NVDA. By default it is disabled.
-
-It is also possible to save your choice for this setting.
-
-## Billentyű parancsok: ##
-
-These are the key command available by default, you can edit those or add
-new key to open Activation settings dialog or Emoticon Dictionary dialog:
-
-* NVDA+E: speaching emoticons on/off, toggles between speaking text as it is
-  written, or with the emoticons replaced by the human description.
-* NVDA+I: show a dialog to select an emoticon you want to copy.
-
-
-## Changes for 5.0 ##
-
-* Added support for emojis.
-* Improvements for Insert Emoticon dialog with a filter field and radio
-  buttons to choose displayed emoticons.
-* Using guiHelper for Activation settings dialog and Insert Emoticon dialog:
-  requires NVDA 2016.4 or higher versions
-
-## A 4.0 változásai ##
-
-* Ha a hangulatjel ablaka nyitva van és megnyílik egy másik NVDA beállítás
-  ablaka, már megjelenik az ekkor szokásos hibaüzenet.
-
-
-## A 3.0 változásai ##
-
-* A hangulatjelek testreszabása párbeszédablakon lehetőség van egy kifejezés
-  egyezésének meghatározására, úgy mint a kivételszótár használata esetén az
-  NVDA 2014.4-ben.
-
-
-## A 2.0 változásai ##
-
-* A kiegészítő súgója elérhető a Bővítménkezelő ablakában.
-
-
-## Az 1.1 változásai ##
-
-* Eltávolításra került egy duplikált hangulatjel.
-* Néhány hangulatjel hozzáadása
-
-## Az 1.0 változásai ##
-
-* Első verzió
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=em
 
-[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://www.emule-project.net
+
+[3]: https://addons.nvda-project.org/files/get.php?file=em-dev

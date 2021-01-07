@@ -5,527 +5,124 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: emoticons 1.0-dev\n"
+"Project-Id-Version: eMule 1.2-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2013-11-19 18:53+0100\n"
-"PO-Revision-Date: 2016-02-26 02:16-0800\n"
-"Last-Translator: drishtibachak@gmail.com\n"
-"Language-Team: LANGUAGE <drishtibachak@gmail.com>\n"
+"POT-Creation-Date: 2014-02-01 17:16+0100\n"
+"PO-Revision-Date: 2016-02-26 02:17-0800\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.5\n"
 
-#. Translators: the label of a message box dialog.
-msgid ""
-"You have installed the Emoticons add-on, probably an old and incompatible "
-"version with this one. Do you want to uninstall the old version?"
-msgstr "यो इमोटिकन सित नमिल्ने वा पुरानो उपकर्मी भित्र्याएको रहेछ ।"
+#. Translators: Message presented in input help mode.
+msgid "Reads the specified column for the current list item."
+msgstr "चालू सूची सामाग्रीको निर्दिष्ट महल पढ्ने छ ।"
 
-#. Translators: the title of a message box dialog.
-msgid "Uninstall incompatible add-on"
-msgstr "नमिल्दो उपकर्मीलाई हटाउनु होस् ।"
-
-#. Translators: the label of a message box dialog.
-msgid ""
-"You seem to have previous settings saved for this add-on. Do you want to "
-"import them?"
-msgstr ""
-"तपाइले यो उपकर्मीको अनुकूलनलाई पहिले नै बचत गर्नु भएको छ । के तपाइ यसलाई आयात गर्न "
-"चाहनु हुन्छ ।"
-
-#. Translators: the title of a message box dialog.
-msgid "Import Emoticons add-on settings"
-msgstr "इमोटिकन अनुकूलनलाई आयात गर्नु होस् ।"
-
-#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
+#. Translators: Message presented when the current column of the list item is copied to clipboard.
 #, python-format
-msgid "Emoticon: %s"
-msgstr "इमोटिकन : %s"
-
-#. Translators: the name of addon submenu.
-msgid "Manage emoticons"
-msgstr "इमोटिकनलाई व्यबस्थापन गर्नु होस् ।"
-
-#. Translators: the tooltip text for addon submenu.
-msgid "Emoticons menu"
-msgstr "इमोटिकनको मेनु"
-
-#. Translators: the name for an item of addon submenu.
-msgid "&Insert smiley..."
-msgstr "&चेहरा घुसाउ"
-
-#. Translators: the tooltip text for an item of addon submenu.
-msgid "Shows a dialog to insert a smiley"
-msgstr "चेहरा  घुसाउने पातो देखाउने छ ।"
-
-#. Translators: the name for an item of addon submenu.
-msgid "&Customize emoticons..."
-msgstr "&इमोटिकनलाई मिलाउ"
-
-#. Translators: the tooltip text for an item of addon submenu.
-msgid "Shows a dictionary dialog to customize emoticons"
-msgstr "इमोटिकनलाई मिलाउन चाहिने शब्दकोषको पातो देखाउने छ ।"
-
-#. Translators: the name for an item of addon submenu.
-msgid "&Activation settings..."
-msgstr "&सक्रियता अनुकूलन "
-
-#. Translators: the tooltip text for an item of addon submenu.
-msgid "Shows a dialog to choose when emoticons speaking should be activated"
-msgstr "इमोटिकन वाचन सक्रिय गर्न चाहिने पातो देखाउँछ ।"
-
-msgid "Emoticons dictionary"
-msgstr "इमोटिकन सब्दकोष "
-
-#. Translators: message presented when the dictionary for emoticons is unloaded.
-msgid "Emoticons off."
-msgstr "इमोटिकन बन्द "
-
-#. Translators: message presented when the dictionary for emoticons is loaded.
-msgid "Emoticons on."
-msgstr "इमोटिकन खुल्यो "
+msgid "%s copied to clipboard"
+msgstr "%s लाई क्लिप पाटीमा उतारियो ।"
 
 #. Translators: Message presented in input help mode.
-msgid "Toggles on and off the announcement of emoticons."
-msgstr "इमोटिकन घोषणा प्रक्रियालाईउल्टाइ दिन्छ ।"
+msgid "Copies the last read column of the selected list item to clipboard."
+msgstr "चयनीत सूची सामाग्री अन्तिम पटक पढेको महललाइ क्लिपपाटीमा उतार्ने छ ।"
+
+#. Translators: Message presented in input help mode
+msgid "Moves the system focus and mouse to the main Tool Bar."
+msgstr "पद्धति केन्द्रीयता र सुलसुलेलाई मुख्य औजार पट्टीमा लेजान्छ ।"
 
 #. Translators: Message presented in input help mode.
-msgid "Shows a dialog to select a smiley you want to paste."
-msgstr "तपाइले टास्न चाहनु भएको चेहराको पातो पल्टाइ दिने छ ।"
-
-#. Translators: This is the label for the InsertEmoticon dialog.
-msgid "Insert emoticon"
-msgstr "इमोटिकनलाई घुसाउ"
-
-#. Translators: The label for a setting in Insert emoticons to select a smiley.
-msgid "Available emoticons"
-msgstr "उपलब्ध इमोटिकन"
-
-#. Translators: A combo box to choose a smiley.
-msgid "Available smileys to insert:"
-msgstr "घुसाउन मिल्ने उपलब्ध चेहराहरू"
-
-#. Translators: This is the message when smiley has been copied to the clipboard.
-msgid "Smiley copied to clipboard, ready for you to paste."
-msgstr "चेहरालाई क्लीपपाटिमा उतारियो , टास्न तयार छ ।"
-
-msgid "Cannot copy smiley."
-msgstr "चेहराको प्रति उतार्न सकिएन ।"
-
-#. Translators: The label for the combo box of dictionary entries in speech dictionary dialog.
-msgid "&Dictionary entries"
-msgstr "&सब्दकोष प्रविष्टि"
-
-#. Translators: The label for a column in dictionary entries list used to identify comments for the entry.
-msgid "Comment"
-msgstr "टिप्पणी"
-
-#. Translators: The label for a column in dictionary entries list used to identify pattern (original word or a pattern).
-msgid "Pattern"
-msgstr "ढर्रा"
-
-#. Translators: The label for a column in dictionary entries list and in a list of symbols from symbol pronunciation dialog used to identify replacement for a pattern or a symbol
-msgid "Replacement"
-msgstr "विस्थापन"
-
-#. Translators: The label for a column in dictionary entries list used to identify whether the entry is case sensitive or not.
-msgid "case"
-msgstr "श्रेणी"
-
-#. Translators: The label for a column in dictionary entries list used to identify whether the entry is a regular expression, matches whole words, or matches anywhere.
-msgid "Type"
-msgstr "किसिम"
-
-#. Translators: a choice of Activateemoticons dialog.
-msgid "off"
-msgstr "बन्द "
-
-msgid "on"
-msgstr "खुल्ला"
-
-#. Translators: The label for a button in speech dictionaries dialog to add new entries.
-msgid "&Add"
-msgstr "&थप"
-
-#. Translators: The label for a button in speech dictionaries dialog to edit existing entries.
-msgid "&Edit"
-msgstr "&सम्पादन"
-
-msgid "&Remove"
-msgstr "&हटाउ"
-
-msgid "Rese&t"
-msgstr "&ताजकिकरण"
-
-#. Translators: The label for a button in speech dictionaries dialog to add new entries.
-msgid "Save and e&xport dictionary"
-msgstr "बचत गरी &शब्दकोषलाई निर्यात गर ।"
-
-#. Translators: this is the label for the Emoticons activate dialog.
-msgid "Activation settings"
-msgstr "सक्रियताको अनुकूलता "
-
-#. Translators: The label for a setting in Activate emoticons dialog.
-msgid "&Activate speaking of emoticons at start:"
-msgstr "&सुरूवातमा इमोटिकनको वाचन सक्रिय बनाउ ।"
-
-#. Translators: a choice of Activateemoticons dialog.
-msgid "On"
-msgstr "खुल्ला "
-
-#. Translators: a combo box in Emoticons dialog.
-msgid "Activate at start"
-msgstr "सुरुवात मै सक्रिय बनाउ "
-
-#. Translators: The label for a setting in Activate emoticons dialog to copy activation settings.
-msgid "&Copy activation settings"
-msgstr "&सक्रियता अनुकूलन नक्कल गर "
-
-#. Translators: :) Smile
-msgid "smiling smiley"
-msgstr "हसिलो चेहरा"
-
-#. Translators: :( Sad
-msgid "sad smiley"
-msgstr "दुखित चेहरा"
-
-#. Translators: :D Laugh
-msgid "Laughing smiley"
-msgstr "हासेको चेहरा "
-
-#. Translators: :O Surprised
-msgid "surprised smiley"
-msgstr "चकित चेहरा "
-
-#. Translators: ;) Wink;
-msgid "winking smiley"
-msgstr "चाउरिएको चेहरा"
-
-#. Translators: ;( Crying
-msgid "crying smiley"
-msgstr "चिच्याएको चेहरा "
-
-#. Translators: (:| Sweating
-msgid "sweating smiley"
-msgstr "पसिनायुक्त चेहरा"
-
-#. translators:  :|] Robot (a robot head)
-msgid "Robot Smiley"
-msgstr "यान्त्रिक चेहरा"
-
-#. Translators: :| Speechless
-msgid "speechless smiley"
-msgstr "आवाजहीन चेहरा"
-
-#. Translators: :* Kiss
-msgid "kiss smiley"
-msgstr "चुम्बन चेहरा"
-
-#. Translators: :P Cheeky
-msgid "cheeky smiley"
-msgstr "चम्किलो चेहरा"
-
-#. Translators: :$ Blushing
-msgid "blushing smiley"
-msgstr "फुस्रो चेहरा"
-
-#. Translators: :^) Wondering
-msgid "wondering smiley"
-msgstr "अचम्म चेहरा"
-
-#. Translators: |-) Sleepy
-msgid "sleepy smiley"
-msgstr "निद्रा चेहरा"
-
-#. Translators: |-( Dull
-msgid "dull smiley"
-msgstr "भद्दा चेहरा"
-
-#. Translators: :x My lips are sealed
-msgid "my lips are sealed smiley"
-msgstr "ओठ सुकेको चेहरा"
-
-#. Translators: \o/ Dancing
-msgid "dancing smiley"
-msgstr "नृत्य चेहरा"
-
-#. Translators: :'( crying a lot smiley
-msgid "crying a lot smiley"
-msgstr "क्रन्दन चेहरा"
-
-#. Translators: >:( Angry
-#. Translators: (angry) Angry
-msgid "angry smiley"
-msgstr "रिसाहा चेहरा"
-
-#. Translators: :/ Worried
-#. Translators: (worry) Worried
-msgid "worried smiley"
-msgstr "चिन्तित चेहरा"
-
-#. Translators: <3 Heart
-#. Translators: (heart) Heart
-msgid "heart smiley"
-msgstr "हृदयविदारक चेहरा "
-
-#. Translators:  O:)  O:-) Angel
-msgid "Angel Smiley"
-msgstr "अप्सरा  चेहरा"
-
-#. Translators:  O.o  o.O  Confused
-msgid "Confused Smiley"
-msgstr "अकमक्क चेहरा"
-
-#. Translators:   3:-) Devil
-msgid "Devil Smiley"
-msgstr "राक्षसी चेहरा"
-
-#. Translators:  ^_^ Keke (This smiley is inspired by the Asian style, which is a happy face.)
-msgid "Keke Smiley"
-msgstr "कर्के  चेहरा"
-
-#. Translators: -_- Bored (This smiley face has its eyes closed and is sporting a very small grin.)
-msgid "Bored smiley"
-msgstr "वाक्क चेहरा"
-
-#. Translators:  >:O  Upset, angry or shouting...
-msgid "Angry Smiley"
-msgstr "रिसाहा चेहरा"
-
-#. Translators:  :3  Cat (Cat faced smiley with curly lips)
-msgid "Cat Smiley"
-msgstr "बिराले चेहरा"
-
-#. Translators: (-.-)ZZZ I�m Sleepy
-msgid "I am Sleepy smiley"
-msgstr "मेरो निद्रा चेहरा"
-
-#. Translators: 8-) Glasses
-msgid "glasses smiley"
-msgstr "सफा हाँसो"
-
-#. Translators: (^^^) shark
-msgid "shark smiley"
-msgstr "अट्टहाँस"
-
-#. Translators:  (cash) Cash
-msgid "cash smiley"
-msgstr "नगदे चेहरा"
-
-#. Translators: (flex) Muscle
-msgid "muscle smiley"
-msgstr "मांसपेसी चेहरा"
-
-#. Translators: (beer) Beer
-msgid "beer smiley"
-msgstr "हसमुख चेहरा"
-
-#. Translators: (d) Drink
-msgid "drink smiley"
-msgstr "पेय चेहरा"
-
-#. Translators: (ninja) Ninja
-msgid "ninja smiley"
-msgstr "झगडालु चेहरा"
-
-#. Translators: (cool) Cool
-msgid "cool smiley"
-msgstr "शान्त चेहरा"
-
-#. Translators: (inlove) In Love
-msgid "in love smiley"
-msgstr "मायालु चेहरा"
-
-#. Translators: (yn) Fingers crossed
-msgid "fingers crossed smiley"
-msgstr "औला क्रस चेहरा"
-
-#. Translators: (yawn) Yawn
-msgid "yawning smiley"
-msgstr "घुरेको चेहरा"
-
-#. Translators: (puke) Puking
-msgid "puking smiley"
-msgstr "चिप्रे चेहरा"
-
-#. Translators: (doh) Doh!
-msgid "doh! smiley"
-msgstr "वाह! चेहरा"
-
-#. Translators: (wasntme) It wasn't me!
-msgid "it wasn't me! smiley"
-msgstr "म होइन! चेहरा"
-
-#. Translators: (party) Party
-msgid "party smiley"
-msgstr "भोजभतेर चेहरा"
-
-#. Translators: (mm) Mmmm...
-msgid "mmmmmm... smiley"
-msgstr "म्याउँ म्याउ...चेहरा"
-
-#. Translators: (nerd) Nerdy
-msgid "nerdy smiley"
-msgstr "कुटिल चेहरा"
-
-#. Translators: (wave) Hi
-msgid "hi smiley"
-msgstr "खुसि चेहरा"
-
-#. Translators: (facepalm) Facepalm
-msgid "facepalm smiley"
-msgstr "प्रफुल्ल चेहरा"
-
-#. Translators: (devil) Devil
-msgid "devil smiley"
-msgstr "पिसाच चेहरा"
-
-#. Translators: (angel) Angel
-msgid "angel smiley"
-msgstr "दूत चेहरा"
-
-#. Translators: (envy) Envy
-msgid "envy smiley"
-msgstr "क्रोधित चेहरा"
-
-#. Translators: (wait) Wait
-msgid "wait smiley"
-msgstr "प्रतिक्षा चेहरा"
-
-#. Translators: (hug) Hug
-msgid "hug smiley"
-msgstr "रनभुल्ल चेहरा"
-
-#. Translators: (makeup) Make-up
-msgid "make-up smiley"
-msgstr "श्रृङ्गार चेहरा "
-
-#. Translators: (chuckle) Giggle
-msgid "giggle smiley"
-msgstr "गमक्क चेहरा"
-
-#. Translators: (clap) Clapping
-msgid "clapping smiley"
-msgstr "तालि चेहरा"
-
-#. Translators: (think) Thinking
-msgid "thinking smiley"
-msgstr "सोच चेहरा"
-
-#. Translators: (bow) Bowing
-msgid "bowing smiley"
-msgstr "उम्लिएको चेहरा"
-
-#. Translators: (rofl) Rolling on the floor laughing
-msgid "rolling on the floor laughing! smiley"
-msgstr "अट्टहाँस चेहरा"
-
-#. Translators: (whew) Relieved
-msgid "relieved smiley"
-msgstr "मुक्त चेहरा"
-
-#. Translators: (happy) Happy
-msgid "happy smiley"
-msgstr "शन्तोष चेहरा"
-
-#. Translators: (smirk) Smirking
-msgid "smirking smiley"
-msgstr "अरमठ्ठिएको चेहरा"
-
-#. Translators: (nod) Nodding
-msgid "nodding smiley"
-msgstr "उँघेको चेहरा"
-
-#. Translators: (shake) Shake
-msgid "shakeing smiley"
-msgstr "हल्लिएको चेहरा "
-
-#. Translators: (waiting) Waiting
-msgid "waiting smiley"
-msgstr "प्रतिक्षा चेहरा"
-
-#. Translators: (emo) Emo;
-msgid "Emo smiley"
-msgstr "फुरूङ्ग चेहरा"
-
-#. Translators: (y) Yes
-msgid "yes smiley"
-msgstr "हुन्छ चेहरा"
-
-#. Translators: (n) no;
-msgid "no smiley"
-msgstr "हुन्न चेहरा"
-
-#. Translators: (handshake) Handshake
-msgid "handshake smiley"
-msgstr "हातेमालो चेहरा"
-
-#. Translators: (highfive) High five
-msgid "high five smiley"
-msgstr "चहलपहल चेहरा"
-
-#. Translators: (lalala) Lalala;
-msgid "lalala smiley"
-msgstr "हसमुख चेहरा"
-
-#. Translators: (heidy) Heidy;
-msgid "heidy smiley"
-msgstr "थकित चेहरा"
-
-#. Translators: (F) Flower
-msgid "flower smiley"
-msgstr "पुष्प चेहरा"
-
-#. Translators: (rain) Raining
-msgid "raining smiley"
-msgstr "वर्षा चेहरा"
-
-#. Translators: (sun) Sun
-msgid "sunny smiley"
-msgstr "घमाइलो चेहरा"
-
-#. Translators: (tumbleweed) Tumbleweed
-msgid "tumbleweed smiley"
-msgstr "गजक्क चेहरा"
-
-#. Translators: (music) Music
-msgid "music smiley"
-msgstr "सङ्गित चेहरा"
-
-#. Translators: (bandit) Bandit
-msgid "bandit smiley"
-msgstr "ध्वनी चेहरा"
-
-#. Translators: (tmi) Too much information
-msgid "too much information smiley"
-msgstr "धेरै जानिफकार चेहरा"
-
-#. Translators: (coffee) Coffee
-msgid "coffee smiley"
-msgstr "कफि चेहरा"
-
-#. Translators: (pi) Pizza
-msgid "pizza smiley"
-msgstr "खुत्रुक्क चेहरा "
-
-#. Translators: (^) Cake
-msgid "cake smiley"
-msgstr "केक चेहरा"
-
-#. Translators: (*) Star
-msgid "star smiley"
-msgstr "तारा चेहरा"
+#. For instance: reads the search window, Statistics, IRC, etc.
+msgid "Reports the current window."
+msgstr "चालू सञ्झ्याललाई बताउने छ ।"
+
+#. Translators: Message presented in input help mode.
+msgid "Moves the system focus to the Name field of the Search window."
+msgstr "पद्धति केन्द्रीयता लाई अन्वेषित सञ्झ्याल नाम भएको भुमीमा लेजान्छ ।."
+
+#. Translators: Message presented in input help mode.
+msgid ""
+"Moves the system focus and mouse to the search parameters list or Edit field "
+"for each option, in the Search window."
+msgstr ""
+"पद्धति केन्द्रीयता र सुलसुलेलाई अन्वेषित सञ्झ्यालका विकल्पहरूमा खोजि गरिएका इकाइ सूचीहरू "
+"अथवा सम्पादन भुमीमा लेजान्छ । "
+
+#. Translators: Message presented in input help mode.
+msgid ""
+"Moves the system focus to the first list in the current window. For example "
+"the results list in the Search window, downloads in Transfer, etc."
+msgstr ""
+"पद्धति केन्द्रीयता लाई चालू सञ्झ्यालको पहिलो सूचीमा लेजान्छ । जस्तै अन्वेषणको नतिजा सूची, "
+"डाउनलोड हस्तान्तरण आदी ।"
+
+#. Translators: Message presented in input help mode.
+msgid ""
+"Moves the system focus to read-only edit boxes in the current window. For "
+"example the IRC received messages."
+msgstr ""
+"पद्धति केन्द्रीयतालाई  चालू सञ्झ्यालको पठनिय मात्रै सम्पादन कोष्ठमा लेजान्छ । जस्तै IRC बाट "
+"प्राप्त सन्देसमा "
+
+#. Translators: Message presented in input help mode.
+msgid "Moves the navigator object and mouse to the current list headers."
+msgstr "विचरण वस्तु र सुलसुलेलाइ चालू सूचीको शिर्षकमा लेजान्छ ।"
+
+#. Translators: Message presented in input help mode.
+msgid "Reports first object of the Status Bar."
+msgstr "स्थिति पट्टीको पहिलो सामाग्री बताउने छ ।"
+
+#. Translators: Message presented in input help mode.
+msgid "Reports second object of the Status Bar."
+msgstr "स्थिति पट्टीको दोश्रो सामाग्री बताउने छ ।"
+
+#. Translators: Message presented in input help mode.
+msgid "Reports third object of the Status Bar."
+msgstr "स्थिति पट्टीको तेस्रो सामाग्री बताउने छ ।"
+
+#. Translators: Message presented in input help mode.
+msgid "Reports fourth object of the Status Bar."
+msgstr "स्थिति पट्टीको चौथो सामाग्री बताउने छ ।"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-msgid "Emoticons"
-msgstr "इमोटिकन"
+msgid "eMule"
+msgstr "ईम्युल"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
 msgid ""
-"Enables the announcement of emoticon names instead of the character "
-"Representation."
-msgstr "ईमोटिकन वर्णको सट्टा नामको  घोषणालाइ  योग्य बनाउँछ ।"
+"Improves eMule's accessibility with NVDA.\n"
+"eMule is a P2P program to search and share files.\n"
+"You can get more information about eMule at\n"
+"http://www.emule-project.net"
+msgstr ""
+"नेत्रवाणीमा ईम्युलको पहुँच बढाउने छ ।\n"
+"ईम्युल खोज्ने र फाइल साझेदारी गर्ने  P2P कार्यक्रम हो ।\n"
+"तपाइले ईम्युल सम्बन्धी थप जानकारीहरू\n"
+"https://www.emule-project.net मा पाउन सक्नु हुन्छ ।"
+
+#~ msgid "text \"%s\" not found"
+#~ msgstr "पाठ \"%s\" पाइएन"
+
+#~ msgid "Find Error"
+#~ msgstr "त्रुटी फेला पार"
+
+#~ msgid "Search for:"
+#~ msgstr "के खोज्ने:"
+
+#~ msgid "eMule search"
+#~ msgstr "ईम्युल खोजी"
+
+#~ msgid "Opens the find dialog when in read only edit boxes."
+#~ msgstr "पठनीय सम्पादन भूमिमा हुँदा फेला पार भन्ने पातोलाई पल्टाउने छ ।"
+
+#~ msgid "Find next occurence."
+#~ msgstr "अगाडी रहेको यही सामाग्री फेला पार।"
+
+#~ msgid "Find previous occurrence."
+#~ msgstr "पछाडी रहेको यही सामाग्री फेला पार।"

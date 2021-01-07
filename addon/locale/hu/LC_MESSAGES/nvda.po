@@ -5,944 +5,127 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: emoticons 1.0-dev\n"
+"Project-Id-Version: eMule 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2013-11-19 18:53+0100\n"
-"PO-Revision-Date: 2018-07-05 22:11-0700\n"
-"Last-Translator: Ócsvári Áron <oaron1@gmail.com>\n"
+"POT-Creation-Date: 2013-08-04 11:33+0200\n"
+"PO-Revision-Date: 2019-04-03 11:02+0200\n"
+"Last-Translator: Erion <rob.mail@freemail.hu>\n"
 "Language-Team: HU <LL@li.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 1.8.6\n"
 
-#. Translators: the label of a message box dialog.
-msgid ""
-"You seem to have previous settings saved for this add-on. Do you want to "
-"import them, removing deprecated files?"
-msgstr ""
-"Úgy tűnik, hogy már vannak korábban elmentett beállításai ehhez a "
-"bővítményhez. Szeretné őket importálni? Az importálás után a korábbi fájlok "
-"törlődnek."
+#. Translators: Message presented in input help mode.
+msgid "Reads the specified column for the current list item."
+msgstr "Felolvassa a megadott oszlopban az aktuális lista elemet."
 
-#. Translators: the title of a message box dialog.
-msgid "Import Emoticons add-on settings"
-msgstr "A hangulatjelek bővítmény beállításainak importálása"
-
-#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
-#. Translators: Label for emojis in the list.
-msgid "Emoji"
-msgstr "Emodzsi"
-
-#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
-msgid "Emoticon"
-msgstr "Hangulatjel"
-
-#. Translators: the name of a submenu.
-#, fuzzy
-msgid "&Emoticons"
-msgstr "Hangulatjelek"
-
-#. Translators: the name for a menu item.
-msgid "&Insert emoticon..."
-msgstr "Hangulatjel &beszúrása"
-
-#. Translators: the tooltip text for a menu item.
-msgid "Shows a dialog to insert a smiley"
-msgstr "Megnyitja a hangulatjel beszúrása párbeszédablakot"
-
-#. Translators: the name for a menu item.
-#, fuzzy
-msgid "In&sert symbol..."
-msgstr "Hangulatjel &beszúrása"
-
-#. Translators: the tooltip text for a menu item.
-#, fuzzy
-msgid "Shows a dialog to insert a symbol"
-msgstr "Megnyitja a hangulatjel beszúrása párbeszédablakot"
-
-#. Translators: the name for a menu item.
-msgid "&Emoticons dictionary..."
-msgstr "Hangulatjel&szótár..."
-
-#. Translators: the tooltip text for a menu item.
-msgid "Shows a dictionary dialog to customize emoticons"
-msgstr ""
-"Megnyitja a hangulatjelek szerkeztése párbeszédablakot, amely hasonlít egy "
-"szótárra"
-
-#. Translators: Title of a dialog.
+#. Translators: Message presented when the current column of the list item is copied to clipboard.
 #, python-format
-msgid "Emoticons dictionary (%s)"
-msgstr "(%s) Hangulatjelszótár"
+msgid "%s copied to clipboard"
+msgstr "%s a vágólapra másolva"
 
 #. Translators: Message presented in input help mode.
-msgid "Toggles on and off the announcement of emoticons."
-msgstr "A hangulatjelek bemondásának be, és kikapcsolása közötti váltás."
+msgid "Copies the last read column of the selected list item to clipboard."
+msgstr "Az utoljára felolvasott oszlop tartalmát a vágólapra másolja."
 
-#. Translators: message presented when the dictionary for emoticons is unloaded.
-msgid "Emoticons off."
-msgstr "Hangulatjelek kikapcsolva"
-
-#. Translators: message presented when the dictionary for emoticons is loaded.
-msgid "Emoticons on."
-msgstr "Hangulatjelek bekapcsolva"
+#. Translators: Message presented in input help mode
+msgid "Moves the system focus and mouse to the main Tool Bar."
+msgstr "A fókuszt és az egérkurzort a fő eszköztárhoz helyezi."
 
 #. Translators: Message presented in input help mode.
-msgid "Shows a dialog to select a smiley you want to paste."
-msgstr ""
-"Megjelenít egy párbeszédablakot, amelyben kiválaszthatja a beszúrni kívánt "
-"hangulatjelet."
+#. For instance: reads the search window, Statistics, IRC, etc.
+msgid "Reports the current window."
+msgstr "Felolvassa az aktuális ablakot."
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
-msgid "Shows a dialog to select a symbol you want to paste."
-msgstr ""
-"Megjelenít egy párbeszédablakot, amelyben kiválaszthatja a beszúrni kívánt "
-"hangulatjelet."
+msgid "Moves the system focus to the Name field of the Search window."
+msgstr "A fókuszt a keresőablak Név mezőjére helyezi."
 
 #. Translators: Message presented in input help mode.
-msgid "Shows the Emoticons dictionary dialog."
-msgstr "A Hangulatjelszótár megnyitása"
-
-#. Translators: Message presented in input help mode.
-msgid "Shows the Emoticons settings."
-msgstr "A hangulatjelek  bővítmény beállításainak megnyitása"
-
-#. Translators: Message presented in input help mode.
-msgid "Shows the symbol positioned where the review cursor is located."
-msgstr ""
-
-#. Translators: Reported when there is no replacement for the symbol at the position of the review cursor.
-#. Translators: Reported when there is no replacement for the symbol at the position of the caret.
-msgid "No symbol replacement"
-msgstr ""
-
-#. Translators: Character and its replacement used from the "Review current Symbol" command. Example: "Character: ? Replacement: question"
 msgid ""
-"Character: {}\n"
-"Replacement: {}"
+"Moves the system focus and mouse to the search parameters list or Edit field "
+"for each option, in the Search window."
 msgstr ""
-
-#. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
-msgid "Symbol at the review cursor position ({})"
-msgstr ""
+"a fókuszt és az egeret a keresőablak keresési paraméterek listájához, vagy a "
+"beállítható lehetőségek szerkesztőmezőjéhez helyezi."
 
 #. Translators: Message presented in input help mode.
-msgid "Shows the symbol positioned where the caret is located."
+msgid ""
+"Moves the system focus to the first list in the current window. For example "
+"the results list in the Search window, downloads in Transfer, etc."
 msgstr ""
+"A fókuszt az aktuális ablak első listájára, például a keresési találatok "
+"listájára, vagy az átvitelnél a letöltések listájára, helyezi."
 
-#. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
-msgid "Symbol at the caret position ({})"
+#. Translators: Message presented in input help mode.
+msgid ""
+"Moves the system focus to read-only edit boxes in the current window. For "
+"example the IRC received messages."
 msgstr ""
-
-#. Translators: Title of the dialog.
-msgid "Insert emoticon"
-msgstr "Hangulatjel beszúrása"
-
-#. Filter panel.
-#. Translators: A text field to filter emoticons.
-#. Translators: The label of a text field to search for symbols in the Insert Symbol dialog.
-msgid "&Filter:"
-msgstr "S&zűrő"
-
-#. Translators: A radio button to choose all types of emoticons.
-msgid "&All"
-msgstr "&Mind"
-
-#. Translators: A radio button to choose only standard emoticons.
-msgid "&Standard"
-msgstr "&Standard, alapértelmezett"
-
-#. Translators: A radio button to choose only emojis.
-msgid "Emoj&is"
-msgstr "&Emodzsik"
-
-#. List of emoticons.
-#. Translators: Label for the smileys list.
-msgid "&List of smilies"
-msgstr "Hangulatjelek &listája"
-
-#. Translators: Column which specifies the name  of emoticon.
-msgid "Name"
-msgstr "Név"
-
-#. Translators: Column which specifies the type of emoticon (standard or emoji).
-msgid "Type"
-msgstr "Típus"
-
-#. Translators: The column which contains the characters of the emoticon.
-msgid "Characters"
-msgstr "Karakterek"
-
-#. Translators: Label for standard emoticons in the list.
-msgid "Standard"
-msgstr "Alapérték"
-
-#. Translators: Error message when none emoticon is selected or the list is empty, and title of the error dialog.
-msgid "There is not any emoticon selected."
-msgstr "Nincs kijelölve hangulatjel"
-
-#. Translators: This is the message when smiley has been copied to the clipboard.
-msgid "Smiley copied to clipboard, ready for you to paste."
-msgstr "A hangulatjel a vágólapra másolva, beillesztheti."
-
-#. Translators: Message when the emoticon couldn't be copied.
-msgid "Cannot copy smiley."
-msgstr "A hangulatjel nem másolható."
-
-#. Translators: The label for a button in the Emoticons dictionary dialog.
-msgid "Rese&t"
-msgstr "&Visszaállítás"
-
-#. Translators: The label for a button in the Emoticons dictionary dialog.
-msgid "Save and e&xport dictionary"
-msgstr "&Szótár mentése és exportálása"
-
-#. Translators: This is the label for the Insert Symbol dialog.
-#. %s is replaced by the language for which symbol pronunciation is being edited.
-#, python-format
-msgid "Insert Symbol (%s)"
-msgstr ""
-
-#. Translators: This is the message when symbol has been copied to the clipboard.
-#, fuzzy
-msgid "Symbol copied to clipboard, ready for you to paste."
-msgstr "A hangulatjel a vágólapra másolva, beillesztheti."
-
-#. Translators: Message when the symbol couldn't be copied.
-#, fuzzy
-msgid "Cannot copy symbol."
-msgstr "A hangulatjel nem másolható."
-
-#. Translators: The label for a setting in Emoticons panel.
-msgid "&Activate speaking of emoticons:"
-msgstr "&Hangulatjel bemondás aktiválása:"
-
-#. Translators: The label for a setting in Emoticons panel.
-msgid "Speak add-on emojis"
-msgstr ""
-
-#. Translators: The label for a setting in Emoticons panel.
-msgid "&Remove not used dictionaries"
-msgstr "Nem használt szótárak eltávolítása"
-
-#. Translators: (emoji) Grinning face, an happy face with normal eyes.
-msgid "Grinning face"
-msgstr "Vigyorgó arc"
-
-#. Translators: (emoji) Happy face with open mouth and squinting eyes.
-msgid "Happy face with open mouth and squinting eyes"
-msgstr "Tátott szájjal nevető arc mosolygó szemmel"
-
-#. Translators: (emoji) happy face with open mouth.
-msgid "Happy face with open mouth"
-msgstr "Tátott szájjal nevető arc"
-
-#. Translators: (emoji) A smiling face with smiling eyes and rosy cheeks.
-msgid "Smiling Face With Smiling Eyes"
-msgstr "mosolygó arc mosolygó szemmel"
-
-#. Translators: (emoji) smirking face.
-msgid "Smirking face"
-msgstr "Önelégülten vigyorgó arc"
-
-#. Translators: (emoji) Slightly Smiling Face: a face that is a little bit happy, with a slight smile and neutral eyes.
-msgid "Slightly smiling face"
-msgstr "Láthatóan mosolygó arc"
-
-#. Translators: (emoji) white smiling face.
-msgid "white smiling face"
-msgstr "Fehér mosolygó arc"
-
-#. Translators: (emoji) happy face with halo.
-msgid "Happy face with halo"
-msgstr "Boldog arc glóriával"
-
-#. Translators: (emoji) white frowning face.
-msgid "White frowning face"
-msgstr "Fehér rosszalló arc"
-
-#. Translators: (emoji) winking face.
-msgid "Winking face"
-msgstr "Kacsintó arc"
-
-#. Translators: (emoji) smiling face with heart shaped eyes.
-msgid "Smiling face with heart shaped eyes"
-msgstr "mosolygó arc szív alakú szemmel"
-
-#. Translators: (emoji)  Rose: a single red rose.
-msgid "Rose"
-msgstr "Rózsa"
-
-#. Translators: (emoji) Expressionless face: a face with straight lined eyes and mouth. A deliberate display of no comment...
-msgid "Expressionless face"
-msgstr "Kifejezéstelen arc"
-
-#. Translators: (emoji) neutral face.
-msgid "Neutral face"
-msgstr "Közömbös arc"
-
-#. Translators: (emoji) face without mouth.
-msgid "Face without mouth"
-msgstr "Száj nélküli arc"
-
-#. Translators: (emoji) face throwing a kiss.
-msgid "Face throwing a kiss"
-msgstr "Csókot dobó arc"
-
-#. Translators: (emoji) kissing face with closed eyes.
-msgid "Kissing face with closed eyes"
-msgstr "Csókot adó arc csukott szemmel"
-
-#. Translators: (emoji) Kissing face.
-msgid "Kissing face"
-msgstr "Csókot adó arc"
-
-#. Translators: (emoji) kissing face with arched eyes.
-msgid "Kissing face with arched eyes"
-msgstr "Csókot adó arc mosolygó szemmel"
-
-#. Translators: (emoji) winking face with stuck out tongue.
-msgid "Winking face with stuck out tongue"
-msgstr "Kacsintó arc kinyújtott nyelvvel"
-
-#. Translators: (emoji) face with stuck out tongue and eyes tightly closed.
-msgid "Face with stuck out tongue and eyes tightly closed"
-msgstr "Arc kinyújtott nyelvvel és szorosan bezárt szemmel"
-
-#. Translators: (emoji) A cheeky face with stuck out tongue.
-msgid "Face with stuck out tongue"
-msgstr "Arc kinyújtott nyelvvel"
-
-#. Translators: (emoji) Hugging Face: a face displayed with an open hands gesture, offering a hug.
-msgid "Hugging face"
-msgstr "Ölelő arc"
-
-#. Translators: (emoji) flushed face.
-msgid "Flushed face"
-msgstr "Kipirult arc"
-
-#. Translators: (emoji) Grinning face showing smiling eyes.
-msgid "Grinning Face With Smiling Eyes"
-msgstr "Vigyorgó arc mosolygó szemmel"
-
-#. Translators: (emoji) A pensive, remorseful and saddened face. Quietly considering where things all went wrong.
-msgid "Pensive Face"
-msgstr "Tűnődő arc"
-
-#. Translators: (emoji) devil with evil smile.
-msgid "Devil with evil smile"
-msgstr "Ördög sátáni vigyorral"
-
-#. Translators: (emoji) devil.
-msgid "Devil"
-msgstr "Ördög"
-
-#. Translators: (emoji) relieved face.
-msgid "Relieved face"
-msgstr "Megkönyebbült arc"
-
-#. Translators: (emoji) unamused face.
-msgid "Unamused face"
-msgstr "Unott arc"
-
-#. Translators: (emoji) A face with scrunched up and closed eyes, frowning. Used to show helplessness in a situation.
-msgid "Persevering Face"
-msgstr "Álhatatos arc"
-
-#. Translators: (emoji) crying face.
-msgid "Crying face"
-msgstr "Síró arc"
-
-#. Translators: (emoji) face with tears of joy.
-msgid "Face with tears of joy"
-msgstr "Örömkönnyekben úszó arc"
-
-#. Translators: (emoji) loudly crying face.
-msgid "Loudly crying face"
-msgstr "Zokogó arc"
-
-#. Translators: (emoji) sleepy face.
-msgid "Sleepy face"
-msgstr "Álmos arc"
-
-#. Translators: (emoji) Shrugging: A person shrugging their shoulders to indicate a lack of knowledge about a particular topic, or a lack of care about the result of a situation.
-msgid "Shrugging emoji"
-msgstr "Vállrándítás emodzsi"
-
-#. Translators: (emoji) disappointed face.
-msgid "Disappointed face"
-msgstr "Csalódott arc"
-
-#. Translators: (emoji) disappointed but relieved face.
-msgid "Disappointed but relieved face"
-msgstr "Csalódott de megkönnyebbült arc"
-
-#. Translators: (emoji) Face with a look of concern, with a blue forehead and sweat dripping down the cheek.
-msgid "Face With Open Mouth & Cold Sweat"
-msgstr "Izzadó nyitott szájú arc"
-
-#. Translators: (emoji) Happy face with a single drop of sweat on one side of the face.
-msgid "Smiling Face With Open Mouth & Cold Sweat"
-msgstr "Nyitott szájjal mosolygó izzadó arc"
-
-#. Translators: (emoji) face with cold sweat.
-msgid "Face with cold sweat"
-msgstr "Izzadó arc"
-
-#. Translators: (emoji) A distraught-looking face with  an open mouth and crescent shaped eyes.
-msgid "Weary Face"
-msgstr "Elcsigázott arc"
-
-#. Translators: (emoji) An exhausted-looking face with an open mouth and tightly closed eyes.
-msgid "Tired Face"
-msgstr "Fáradt arc"
-
-#. Translators: (emoji) fearful face.
-msgid "Fearful face"
-msgstr "Félelemmel teli arc"
-
-#. Translators: (emoji) face screaming in fear.
-msgid "Face screaming in fear"
-msgstr "Félelmében sikoltó arc"
-
-#. Translators: (emoji) angry face.
-#. Translators: :@ angry face.
-msgid "Angry face"
-msgstr "Mérges arc"
-
-#. Translators: (emoji) pouting face.
-msgid "Pouting face"
-msgstr "Duzzogó arc"
-
-#. Translators: (emoji) A face with air coming out of its nose, huffing with anger face.
-msgid "Face With Steam From Nose"
-msgstr "Az orrából levegőt fújó arc"
-
-#. Translators: (emoji) confounded face.
-msgid "Confounded face"
-msgstr "Elkeseredett arc"
-
-#. Translators: (emoji) Smiling Face With Open Mouth and Tightly-Closed Eyes.
-msgid "Smiling Face With Open Mouth and Tightly-Closed Eyes"
-msgstr "Nyitott szájjal mosolygó arc szorosan lezárt szemmel"
-
-#. Translators: (emoji) happy face licking lips.
-msgid "Happy face licking lips"
-msgstr "Szája szélét nyalogató boldog arc"
-
-#. Translators: (emoji) happy face with sunglasses.
-msgid "Happy face with sunglasses"
-msgstr "Boldog napszemüveges arc"
-
-#. Translators: (emoji) sleeping face.
-msgid "Sleeping face"
-msgstr "Alvó arc"
-
-#. Translators: (emoji) A dizzy face, looking sick or confused from being spun around in circles too many times.
-msgid "Dizzy Face"
-msgstr "Szédülő arc"
-
-#. Translators: (emoji) astonished face.
-msgid "Astonished face"
-msgstr "Megdöbbent arc"
-
-#. Translators: (emoji) worried face.
-msgid "Worried face"
-msgstr "Aggódó arc"
-
-#. Translators: (emoji) Dismayed face with open eyes and open mouth, appear closer to  a frowning face.
-msgid "Frowning Face With Open Mouth"
-msgstr "Rosszalló arc nyitott szájjal"
-
-#. Translators: (emoji) anguished face.
-msgid "Anguished face"
-msgstr "Szenvedő arc"
-
-#. Translators: (emoji) A face with Open Mouth, generally used to represent an element of surprise.
-msgid "Face with Open Mouth"
-msgstr "Nyitott szájú arc"
-
-#. Translators: (emoji) grimacing face.
-msgid "Grimacing face"
-msgstr "Grimaszoló arc"
-
-#. Translators: (emoji) confused face.
-msgid "Confused face"
-msgstr "Zavarodott arc"
-
-#. Translators: (emoji) A face with high eyebrows and an open mouth, it looks more surprised than hushed.
-msgid "Hushed Face"
-msgstr "Csendes arc"
-
-#. Translators: (emoji) broken heart.
-msgid "Broken heart"
-msgstr "Összetört szív"
-
-#. Translators: (emoji) pulsating heart.
-msgid "Pulsating heart"
-msgstr "Pulzáló szív"
-
-#. Translators: (emoji) beating heart.
-msgid "Beating heart"
-msgstr "Dobogó szív"
-
-#. Translators: (emoji) two hearts.
-msgid "Two hearts"
-msgstr "Két szív"
-
-#. Translators: (emoji) heart with arrow.
-msgid "Heart with arrow"
-msgstr "Szív nyíllal"
-
-#. Translators: (emoji) purple heart.
-msgid "Purple heart"
-msgstr "Bíbor szív"
-
-#. Translators: (emoji) red heart.
-msgid "Red heart"
-msgstr "Vörös szív"
-
-#. Translators: (emoji) yellow heart.
-msgid "Yellow heart"
-msgstr "Sárga szív"
-
-#. Translators: (emoji) green heart.
-msgid "Green heart"
-msgstr "Zöld szív"
-
-#. Translators: (emoji) blue heart.
-msgid "Blue heart"
-msgstr "Kék szív"
-
-#. Translators: (emoji) This emoji is the version of the phrase ROFL. A person lying on the floor due to an extreme amount of laughter.
-msgid "Rolling on the Floor Laughing"
-msgstr "Földön fetrengve nevet"
-
-#. Translators: (emoji) A face that is a little bit sad, with a slight frown and neutral eyes.
-msgid "Slightly Frowning Face"
-msgstr "Kicsit rosszalló arc"
-
-#. Translators: (emoji) A face that is upside-down.
-msgid "Upside-down Face"
-msgstr "Fejjel lefelé fordított arc"
-
-#. Translators: (emoji) A face displaying eyes glancing upward.
-msgid "Face With Rolling Eyes"
-msgstr "Megvető arc"
-
-#. Translators: (emoji) A person with arms forming an X to indicate no or no good.
-msgid "Person Gesturing No"
-msgstr "Nemet gesztikuláló ember"
-
-#. Translators: (emoji) A person with arms above his head, making an OK sign with the whole body.
-msgid "Person Gesturing OK"
-msgstr "Igent gesztikuláló ember"
-
-#. Translators: (emoji) A person bowing deeply, express a sincere apology or to request a favour.
-msgid "Person bowing"
-msgstr "Mélyen meghajoló ember"
-
-#. Translators: (emoji) An upset person frowning with dismay.
-msgid "Person Frowning"
-msgstr "Rosszalló ember"
-
-#. Translators: (emoji) Two hands placed firmly together.
-msgid "Folded Hands"
-msgstr "Összezárt kezek"
-
-#. Translators: (emoji) A person with a surgical mask on their face.
-msgid "Face with medical mask"
-msgstr "Arc orvosi maszkban"
-
-#. Translators: (emoji) A black version of white smiling face.
-msgid "Black Smiling Face"
-msgstr "Fekete mosolygó arrc"
-
-#. Translators: (emoji) happy cat face with heart shaped eyes.
-msgid "Happy cat face with heart shaped eyes"
-msgstr "Boldog macskafej szív alakú szemmel"
-
-#. Translators: (emoji) ok hand sign.
-msgid "Ok hand sign"
-msgstr "Ok kézjel"
-
-#. Translators: (emoji) thumbs up symbol.
-msgid "Thumbs up symbol"
-msgstr "Felfelé fordított hüvelykujj"
-
-#. Translators: (emoji) thumbs down symbol.
-msgid "Thumbs down symbol"
-msgstr "Lefelé fordított hüvelykujj"
-
-#. Translators: (emoji) Victory Hand.
-msgid "Victory Hand"
-msgstr "Győzelmet jelző kéz"
-
-#. Translators: :) Smile
-msgid "smiling smiley"
-msgstr "mosolygó arc"
-
-#. Translators: :( Sad face.
-msgid "Sad face"
-msgstr "Szomorú arc"
-
-#. Translators: :D Laugh
-msgid "Laughing smiley"
-msgstr "nevető arc"
-
-#. Translators: :O Surprised
-msgid "surprised smiley"
-msgstr "meglepődött arc"
-
-#. Translators: ;) Wink;
-msgid "winking smiley"
-msgstr "kacsintó arc"
-
-#. Translators: ;( Crying
-msgid "crying smiley"
-msgstr "síró arc"
-
-#. Translators: :s :-S :-Q Confused face:
-msgid "Confused Face"
-msgstr "Zavarodott arc"
-
-#. Translators: (:| Sweating
-msgid "sweating smiley"
-msgstr "izzadó arc"
-
-#. Translators: :|] Robot (a robot head)
-msgid "Robot Smiley"
-msgstr "robot arc"
-
-#. Translators: :| Speechless
-msgid "speechless smiley"
-msgstr "szótlan arc"
-
-#. Translators: :* Kiss
-msgid "kiss smiley"
-msgstr "csókos arc"
-
-#. Translators: :P Cheeky
-msgid "cheeky smiley"
-msgstr "szemtelen arc"
-
-#. Translators: :$ Blushing
-msgid "blushing smiley"
-msgstr "elpirult arc"
-
-#. Translators: :^) Wondering
-msgid "wondering smiley"
-msgstr "csodálkozó arc"
-
-#. Translators: |-) Sleepy
-msgid "sleepy smiley"
-msgstr "álmos arc"
-
-#. Translators: |-( Dull
-msgid "dull smiley"
-msgstr "unatkozó arc"
-
-#. Translators: :x My lips are sealed
-msgid "my lips are sealed smiley"
-msgstr "lakat van a számon arckifejezés"
-
-#. Translators: \o/ Dancing
-msgid "dancing smiley"
-msgstr "táncoló hangulatjel"
-
-#. Translators: :'( crying a lot smiley
-msgid "crying a lot smiley"
-msgstr "sokat síró arckifejezés"
-
-#. Translators: >:( Angry
-#. Translators: (angry) Angry
-msgid "angry smiley"
-msgstr "mérges arc"
-
-#. Translators: :/ Worried
-#. Translators: (worry) Worried
-msgid "worried smiley"
-msgstr "aggódó arc"
-
-#. Translators: <3 Heart
-#. Translators: (heart) Heart
-msgid "heart smiley"
-msgstr "szív hangulatjel"
-
-#. Translators:  O:)  O:-) Angel
-msgid "Angel Smiley"
-msgstr "angyal hangulatjel"
-
-#. Translators:  O.o  o.O  Confused
-msgid "Confused Smiley"
-msgstr "zavarodott arckifejezés"
-
-#. Translators:   3:-) Devil
-msgid "Devil Smiley"
-msgstr "ördög hangulatjel"
-
-#. Translators:  ^_^ Keke (This smiley is inspired by the Asian style, which is a happy face.)
-msgid "Keke Smiley"
-msgstr "Keke hangulatjel"
-
-#. Translators: -_- Bored (This smiley face has its eyes closed and is sporting a very small grin.)
-msgid "Bored smiley"
-msgstr "unott arckifejezés"
-
-#. Translators:  >:O  Upset, angry or shouting...
-msgid "Angry Smiley"
-msgstr "mérges arc"
-
-#. Translators:  :3  Cat (Cat faced smiley with curly lips)
-msgid "Cat Smiley"
-msgstr "macska hangulatjel"
-
-#. Translators: (-.-)ZZZ Iӭ Sleepy
-msgid "I am Sleepy smiley"
-msgstr "álmos arc"
-
-#. Translators: 8-) Glasses
-msgid "glasses smiley"
-msgstr "napszemüveges, mosolygós arc"
-
-#. Translators: (^^^) shark
-msgid "shark smiley"
-msgstr "cápa-mosoly hangulatjel"
-
-#. Translators:  (cash) Cash
-msgid "cash smiley"
-msgstr "készpénz hangulatjel"
-
-#. Translators: (flex) Muscle
-msgid "muscle smiley"
-msgstr "izom hangulatjel"
-
-#. Translators: (beer) Beer
-msgid "beer smiley"
-msgstr "sör hangulatjel"
-
-#. Translators: (d) Drink
-msgid "drink smiley"
-msgstr "ivós hangulatjel"
-
-#. Translators: (ninja) Ninja
-msgid "ninja smiley"
-msgstr "nindzsa hangulatjel"
-
-#. Translators: (cool) Cool
-msgid "cool smiley"
-msgstr "hűvös arckifejezés"
-
-#. Translators: (inlove) In Love
-msgid "in love smiley"
-msgstr "szerelmes arckifejezés"
-
-#. Translators: (yn) Fingers crossed
-msgid "fingers crossed smiley"
-msgstr "drukkolás hangulatjel"
-
-#. Translators: (yawn) Yawn
-msgid "yawning smiley"
-msgstr "ásítós arckifejezés"
-
-#. Translators: (puke) Puking
-msgid "puking smiley"
-msgstr "hányós arckifejezés"
-
-#. Translators: (doh) Doh!
-msgid "doh! smiley"
-msgstr "doh! arckifejezés"
-
-#. Translators: (wasntme) It wasn't me!
-msgid "it wasn't me! smiley"
-msgstr "nem én voltam! arckifejezés"
-
-#. Translators: (party) Party
-msgid "party smiley"
-msgstr "party hangulatjel"
-
-#. Translators: (mm) Mmmm...
-msgid "mmmmmm... smiley"
-msgstr "mmmmmm... arckifejezés"
-
-#. Translators: (nerd) Nerdy
-msgid "nerdy smiley"
-msgstr "majom hangulatjel"
-
-#. Translators: (wave) Hi
-msgid "hi smiley"
-msgstr "üdvözlő hangulatjel"
-
-#. Translators: (facepalm) Facepalm
-msgid "facepalm smiley"
-msgstr "facepalm hangulatjel"
-
-#. Translators: (devil) Devil
-msgid "devil smiley"
-msgstr "ördög hangulatjel"
-
-#. Translators: (angel) Angel
-msgid "angel smiley"
-msgstr "angyal hangulatjel"
-
-#. Translators: (envy) Envy
-msgid "envy smiley"
-msgstr "irigy arckifejezés"
-
-#. Translators: (wait) Wait
-msgid "wait smiley"
-msgstr "várakozó arckifejezés"
-
-#. Translators: (hug) Hug
-msgid "hug smiley"
-msgstr "ölelő hangulatjel"
-
-#. Translators: (makeup) Make-up
-msgid "make-up smiley"
-msgstr "Csinibaba hangulatjel"
-
-#. Translators: (chuckle) Giggle
-msgid "giggle smiley"
-msgstr "vihogó hangulatjel"
-
-#. Translators: (clap) Clapping
-msgid "clapping smiley"
-msgstr "tapsoló hangulatjel"
-
-#. Translators: (think) Thinking
-msgid "thinking smiley"
-msgstr "elgondolkodó hangulatjel"
-
-#. Translators: (bow) Bowing
-msgid "bowing smiley"
-msgstr "Köszönet hangulatjel"
-
-#. Translators: (rofl) Rolling on the floor laughing
-msgid "rolling on the floor laughing! smiley"
-msgstr "a nevetéstől a földön fekvő hangulatjel"
-
-#. Translators: (whew) Relieved
-msgid "relieved smiley"
-msgstr "megkönyebbült arckifejezés"
-
-#. Translators: (happy) Happy
-msgid "happy smiley"
-msgstr "boldog arckifejezés"
-
-#. Translators: (smirk) Smirking
-msgid "smirking smiley"
-msgstr "önelégülten vigyorgó arckifejezés"
-
-#. Translators: (nod) Nodding
-msgid "nodding smiley"
-msgstr "bólogató hangulatjel"
-
-#. Translators: (shake) Shake
-msgid "shakeing smiley"
-msgstr "rázó hangulatjel"
-
-#. Translators: (waiting) Waiting
-msgid "waiting smiley"
-msgstr "várakozó hangulatjel"
-
-#. Translators: (emo) Emo;
-msgid "Emo smiley"
-msgstr "emo-s arckifejezés"
-
-#. Translators: (y) Yes
-msgid "yes smiley"
-msgstr "ez király! hangulatjel"
-
-#. Translators: (n) no;
-msgid "no smiley"
-msgstr "ez béna! hangulatjel"
-
-#. Translators: (handshake) Handshake
-msgid "handshake smiley"
-msgstr "kézfogás hangulatjel"
-
-#. Translators: (highfive) High five
-msgid "high five smiley"
-msgstr "Pacsi hangulatjel"
-
-#. Translators: (lalala) Lalala;
-msgid "lalala smiley"
-msgstr "éneklő hangulatjel"
-
-#. Translators: (heidy) Heidy;
-msgid "heidy smiley"
-msgstr "Mókuska hangulatjel"
-
-#. Translators: (F) Flower
-msgid "flower smiley"
-msgstr "virág hangulatjel"
-
-#. Translators: (rain) Raining
-msgid "raining smiley"
-msgstr "esős hangulatjel"
-
-#. Translators: (sun) Sun
-msgid "sunny smiley"
-msgstr "nap hangulatjel"
-
-#. Translators: (tumbleweed) Tumbleweed
-msgid "tumbleweed smiley"
-msgstr "Ördögszekér hangulatjel"
-
-#. Translators: (music) Music
-msgid "music smiley"
-msgstr "zene hangulatjel"
-
-#. Translators: (bandit) Bandit
-msgid "bandit smiley"
-msgstr "bandita hangulatjel"
-
-#. Translators: (tmi) Too much information
-msgid "too much information smiley"
-msgstr "túl sok információ arckifejezés"
-
-#. Translators: (coffee) Coffee
-msgid "coffee smiley"
-msgstr "kávé hangulatjel"
-
-#. Translators: (pi) Pizza
-msgid "pizza smiley"
-msgstr "pizza hangulatjel"
-
-#. Translators: (^) Cake
-msgid "cake smiley"
-msgstr "torta hangulatjel"
-
-#. Translators: (*) Star
-msgid "star smiley"
-msgstr "csillag hangulatjel"
+"A fókuszt az aktuális ablakban a csak olvasható szerkesztőmezőkre, például "
+"az IRC beérkező üzenetekre  helyezi."
+
+#. Translators: Message presented in input help mode.
+msgid "Moves the navigator object and mouse to the current list headers."
+msgstr "A navigátor- és az egérkurzort az aktuális lista fejlécéhez helyezi."
+
+#. Translators: Message presented in input help mode.
+msgid "Reports first object of the Status Bar."
+msgstr "Felolvassa az első elemet az állapotsoron."
+
+#. Translators: Message presented in input help mode.
+msgid "Reports second object of the Status Bar."
+msgstr "Felolvassa a második elemet az állapotsoron."
+
+#. Translators: Message presented in input help mode.
+msgid "Reports third object of the Status Bar."
+msgstr "Felolvassa a harmadik elemet az állapotsoron."
+
+#. Translators: Message presented in input help mode.
+msgid "Reports fourth object of the Status Bar."
+msgstr "Felolvassa a negyedik elemet az állapotsoron."
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-msgid "Emoticons"
-msgstr "Hangulatjelek"
+msgid "eMule"
+msgstr "eMule"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
-"Enables the announcement of emoticon names instead of the character "
-"Representation."
+"Improves eMule's accessibility with NVDA.\n"
+"eMule is a P2P program to search and share files.\n"
+"You can get more information about eMule at\n"
+"http://www.emule-project.net"
 msgstr ""
-"A hangulatjel jelentésének bemondása, annak karakterkombinációja helyett."
+"A kiegészítő akadálymentesebb hozzáférést biztosít az Emule program "
+"használatakor.\n"
+"Az eMule egy p2p alapú fájlcserélő program, mely lehetővé teszi a fájlok "
+"megosztását és kereshetőségét.\n"
+"Bővebb információt a szoftverről itt talál: \n"
+"https://www.emule-project.net"
 
-#~ msgid ""
-#~ "You have installed the Emoticons add-on, probably an old and incompatible "
-#~ "version with this one. Do you want to uninstall the old version?"
+#~ msgid "text \"%s\" not found"
+#~ msgstr "\"%s\" szöveg nem található"
+
+#~ msgid "Find Error"
+#~ msgstr "Találati hiba"
+
+#~ msgid "Search for:"
+#~ msgstr "Keresés:"
+
+#~ msgid "eMule search"
+#~ msgstr "eMule keresés"
+
+#~ msgid "Opens the find dialog when in read only edit boxes."
 #~ msgstr ""
-#~ "Korábban már telepítette a hangulatjelek bővítmény egy régebbi verzióját, "
-#~ "amely valószínűleg nem kompatibilis a jelenlegi verzióval. El kívánja "
-#~ "távolítani ezt a régebbi verziót?"
+#~ "Ha a kurzor egy csak olvasható szerkesztőmezőn áll, megnyit egy "
+#~ "keresőablakot."
 
-#~ msgid "Uninstall incompatible add-on"
-#~ msgstr "A nem kompatibilis bővítmény eltávolítása"
+#~ msgid "Find next occurence."
+#~ msgstr "A következő találatra lép."
 
-#~ msgid "&Activation settings..."
-#~ msgstr "&Aktiválási beállítások..."
+#~ msgid "Find previous occurrence."
+#~ msgstr "Az előző találatra lép."

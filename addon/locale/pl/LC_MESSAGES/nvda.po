@@ -5,11 +5,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: emoticons 1.0-dev\n"
+"Project-Id-Version: eMule 1.2-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2013-11-16 18:37+0100\n"
-"PO-Revision-Date: 2019-08-23 19:21+0100\n"
-"Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
+"POT-Creation-Date: 2014-02-01 17:16+0100\n"
+"PO-Revision-Date: 2018-11-15 22:32+0100\n"
+"Last-Translator: Grzegorz Zlotowicz <grzezlo@wp.pl>\n"
 "Language-Team: Polish <killer@tyflonet.com>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -17,942 +17,113 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.6.10\n"
 
-#. Translators: the label of a message box dialog.
-msgid ""
-"You seem to have previous settings saved for this add-on. Do you want to "
-"import them, removing deprecated files?"
-msgstr ""
-"Prawdopodobnie posiadasz ustawienia poprzedniej wersji tego dodatku. Czy "
-"chcesz je zaimportować, usuwając przestarzałe pliki?"
+#. Translators: Message presented in input help mode.
+msgid "Reads the specified column for the current list item."
+msgstr "Odczytuje określoną kolumnę dla aktualnego elementu listy."
 
-#. Translators: the title of a message box dialog.
-msgid "Import Emoticons add-on settings"
-msgstr "Importuj ustawienia dodatku Emotikony"
-
-#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
-#. Translators: Label for emojis in the list.
-msgid "Emoji"
-msgstr "emoji"
-
-#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
-msgid "Emoticon"
-msgstr "emotikon"
-
-#. Translators: the name of a submenu.
-#, fuzzy
-msgid "&Emoticons"
-msgstr "Emotikony / Emoticons"
-
-#. Translators: the name for a menu item.
-msgid "&Insert emoticon..."
-msgstr "&Wstaw emotikon.."
-
-#. Translators: the tooltip text for a menu item.
-msgid "Shows a dialog to insert a smiley"
-msgstr "Wyświetla okno wstawiania emotikonów"
-
-#. Translators: the name for a menu item.
-#, fuzzy
-msgid "In&sert symbol..."
-msgstr "&Wstaw emotikon.."
-
-#. Translators: the tooltip text for a menu item.
-#, fuzzy
-msgid "Shows a dialog to insert a symbol"
-msgstr "Wyświetla okno wstawiania emotikonów"
-
-#. Translators: the name for a menu item.
-msgid "&Emoticons dictionary..."
-msgstr "&słownik emotikonów..."
-
-#. Translators: the tooltip text for a menu item.
-msgid "Shows a dictionary dialog to customize emoticons"
-msgstr "Wyświetla okno zarządzania emotikonami"
-
-#. Translators: Title of a dialog.
+#. Translators: Message presented when the current column of the list item is copied to clipboard.
 #, python-format
-msgid "Emoticons dictionary (%s)"
-msgstr "Słownik emotikonów (%s)"
+msgid "%s copied to clipboard"
+msgstr "%s skopiowane do schowka"
 
 #. Translators: Message presented in input help mode.
-msgid "Toggles on and off the announcement of emoticons."
-msgstr "Włącza lub wyłącza oznajmianie emotikonów."
+msgid "Copies the last read column of the selected list item to clipboard."
+msgstr ""
+"Kopiuje do schowka ostatnio odczytaną kolumnę zaznaczonego elementu listy."
 
-#. Translators: message presented when the dictionary for emoticons is unloaded.
-msgid "Emoticons off."
-msgstr "Emotikony wyłączone."
-
-#. Translators: message presented when the dictionary for emoticons is loaded.
-msgid "Emoticons on."
-msgstr "Emotikony włączone."
+#. Translators: Message presented in input help mode
+msgid "Moves the system focus and mouse to the main Tool Bar."
+msgstr "Przenosi punkt uwagi i kursor myszy do głównego paska narzędzi."
 
 #. Translators: Message presented in input help mode.
-msgid "Shows a dialog to select a smiley you want to paste."
-msgstr "Wyświetla okno wyboru emotikonów do wklejenia."
+#. For instance: reads the search window, Statistics, IRC, etc.
+msgid "Reports the current window."
+msgstr "Odczytuje aktualne okno."
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
-msgid "Shows a dialog to select a symbol you want to paste."
-msgstr "Wyświetla okno wyboru emotikonów do wklejenia."
+msgid "Moves the system focus to the Name field of the Search window."
+msgstr "Przenosi punkt uwagi do pola nazwy w oknie wyszukiwania."
 
 #. Translators: Message presented in input help mode.
-msgid "Shows the Emoticons dictionary dialog."
-msgstr "Wyświetla dialog słownika emotikonów."
-
-#. Translators: Message presented in input help mode.
-msgid "Shows the Emoticons settings."
-msgstr "Wyświetla ustawienia emotikonów."
-
-#. Translators: Message presented in input help mode.
-msgid "Shows the symbol positioned where the review cursor is located."
-msgstr "Pokazuje ulokowany symbol pod kursorem przeglądu."
-
-#. Translators: Reported when there is no replacement for the symbol at the position of the review cursor.
-#. Translators: Reported when there is no replacement for the symbol at the position of the caret.
-msgid "No symbol replacement"
-msgstr "Nie ma zamiany symbolu"
-
-#. Translators: Character and its replacement used from the "Review current Symbol" command. Example: "Character: ? Replacement: question"
 msgid ""
-"Character: {}\n"
-"Replacement: {}"
+"Moves the system focus and mouse to the search parameters list or Edit field "
+"for each option, in the Search window."
 msgstr ""
-"Znak: {}\n"
-"Replacement: {}"
-
-#. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
-msgid "Symbol at the review cursor position ({})"
-msgstr "Symbol pod kursorem przeglądu ({})"
+"Przenosi punkt uwagi i kursor myszy do listy parametrów wyszukiwania lub "
+"pola edycji dla każdej opcji w oknie wyszukiwania."
 
 #. Translators: Message presented in input help mode.
-msgid "Shows the symbol positioned where the caret is located."
-msgstr "Pokazuje symbol tam, gdzie się znajduje kursor."
-
-#. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
-msgid "Symbol at the caret position ({})"
-msgstr "symbol pod kursorem ({})"
-
-#. Translators: Title of the dialog.
-msgid "Insert emoticon"
-msgstr "Wstaw emotikon"
-
-#. Filter panel.
-#. Translators: A text field to filter emoticons.
-#. Translators: The label of a text field to search for symbols in the Insert Symbol dialog.
-msgid "&Filter:"
-msgstr "&Filtruj:"
-
-#. Translators: A radio button to choose all types of emoticons.
-msgid "&All"
-msgstr "&Wszystkie"
-
-#. Translators: A radio button to choose only standard emoticons.
-msgid "&Standard"
-msgstr "&Standardowe"
-
-#. Translators: A radio button to choose only emojis.
-msgid "Emoj&is"
-msgstr "Emoj&i"
-
-#. List of emoticons.
-#. Translators: Label for the smileys list.
-msgid "&List of smilies"
-msgstr "&Lista uśmiechów"
-
-#. Translators: Column which specifies the name  of emoticon.
-msgid "Name"
-msgstr "Nazwa"
-
-#. Translators: Column which specifies the type of emoticon (standard or emoji).
-msgid "Type"
-msgstr "Typ"
-
-#. Translators: The column which contains the characters of the emoticon.
-msgid "Characters"
-msgstr "Znaki"
-
-#. Translators: Label for standard emoticons in the list.
-msgid "Standard"
-msgstr "Standardowe"
-
-#. Translators: Error message when none emoticon is selected or the list is empty, and title of the error dialog.
-msgid "There is not any emoticon selected."
-msgstr "żaden emotikon nie jest zaznaczony."
-
-#. Translators: This is the message when smiley has been copied to the clipboard.
-msgid "Smiley copied to clipboard, ready for you to paste."
-msgstr "Buźka skopiowana do schowka, gotowa do wklejenia."
-
-#. Translators: Message when the emoticon couldn't be copied.
-msgid "Cannot copy smiley."
-msgstr "Nie można skopiować emotikony."
-
-#. Translators: The label for a button in the Emoticons dictionary dialog.
-msgid "Rese&t"
-msgstr "&Resetuj"
-
-#. Translators: The label for a button in the Emoticons dictionary dialog.
-msgid "Save and e&xport dictionary"
-msgstr "Zapisz i &eksportuj słownik"
-
-#. Translators: This is the label for the Insert Symbol dialog.
-#. %s is replaced by the language for which symbol pronunciation is being edited.
-#, python-format
-msgid "Insert Symbol (%s)"
+msgid ""
+"Moves the system focus to the first list in the current window. For example "
+"the results list in the Search window, downloads in Transfer, etc."
 msgstr ""
-
-#. Translators: This is the message when symbol has been copied to the clipboard.
-#, fuzzy
-msgid "Symbol copied to clipboard, ready for you to paste."
-msgstr "Buźka skopiowana do schowka, gotowa do wklejenia."
-
-#. Translators: Message when the symbol couldn't be copied.
-#, fuzzy
-msgid "Cannot copy symbol."
-msgstr "Nie można skopiować emotikony."
-
-#. Translators: The label for a setting in Emoticons panel.
-msgid "&Activate speaking of emoticons:"
-msgstr "&aktywuj wypowiadanie emotikonów:"
-
-#. Translators: The label for a setting in Emoticons panel.
-msgid "Speak add-on emojis"
-msgstr "Wymawiaj emoji dodatku"
-
-#. Translators: The label for a setting in Emoticons panel.
-msgid "&Remove not used dictionaries"
-msgstr "&Usuń nieużywane słowniki"
-
-#. Translators: (emoji) Grinning face, an happy face with normal eyes.
-msgid "Grinning face"
-msgstr "Uśmiechnięta buźka"
-
-#. Translators: (emoji) Happy face with open mouth and squinting eyes.
-msgid "Happy face with open mouth and squinting eyes"
-msgstr "śczęśliwa buźka z otwartymi ustami i zaciśniętymi oczami"
-
-#. Translators: (emoji) happy face with open mouth.
-msgid "Happy face with open mouth"
-msgstr "szczęśliwa buźka z otwartymi ustami"
-
-#. Translators: (emoji) A smiling face with smiling eyes and rosy cheeks.
-msgid "Smiling Face With Smiling Eyes"
-msgstr "Uśmiechnięta buźka z uśmiechniętymi oczami"
-
-#. Translators: (emoji) smirking face.
-msgid "Smirking face"
-msgstr "ironiczny uśmiech"
-
-#. Translators: (emoji) Slightly Smiling Face: a face that is a little bit happy, with a slight smile and neutral eyes.
-msgid "Slightly smiling face"
-msgstr "Nieznacznie uśmiechnięta buźka"
-
-#. Translators: (emoji) white smiling face.
-msgid "white smiling face"
-msgstr "biała uśmiechnięta buźka"
-
-#. Translators: (emoji) happy face with halo.
-msgid "Happy face with halo"
-msgstr "szczęśliwa buźka z aureolą"
-
-#. Translators: (emoji) white frowning face.
-msgid "White frowning face"
-msgstr "Biała chmurna buźka"
-
-#. Translators: (emoji) winking face.
-msgid "Winking face"
-msgstr "Mrugnięcie"
-
-#. Translators: (emoji) smiling face with heart shaped eyes.
-msgid "Smiling face with heart shaped eyes"
-msgstr "Uśmiechnięta buźka z oczami w kształcie serc"
-
-#. Translators: (emoji)  Rose: a single red rose.
-msgid "Rose"
-msgstr "Róża"
-
-#. Translators: (emoji) Expressionless face: a face with straight lined eyes and mouth. A deliberate display of no comment...
-msgid "Expressionless face"
-msgstr "buźka bez wyrazu"
-
-#. Translators: (emoji) neutral face.
-msgid "Neutral face"
-msgstr "Neutralna buźka"
-
-#. Translators: (emoji) face without mouth.
-msgid "Face without mouth"
-msgstr "Buźka bez ust"
-
-#. Translators: (emoji) face throwing a kiss.
-msgid "Face throwing a kiss"
-msgstr "Buźka markująca pocałunek"
-
-#. Translators: (emoji) kissing face with closed eyes.
-msgid "Kissing face with closed eyes"
-msgstr "Pocałunek z zamkniętymi oczami"
-
-#. Translators: (emoji) Kissing face.
-msgid "Kissing face"
-msgstr "Pocałunek"
-
-#. Translators: (emoji) kissing face with arched eyes.
-msgid "Kissing face with arched eyes"
-msgstr "całująca buźka z łukowatymi oczami"
-
-#. Translators: (emoji) winking face with stuck out tongue.
-msgid "Winking face with stuck out tongue"
-msgstr "Mrugająca buźka z wystawionym językiem"
-
-#. Translators: (emoji) face with stuck out tongue and eyes tightly closed.
-msgid "Face with stuck out tongue and eyes tightly closed"
-msgstr "buźka z wyciągniętym językiem i lekko zamkniętymi oczami"
-
-#. Translators: (emoji) A cheeky face with stuck out tongue.
-msgid "Face with stuck out tongue"
-msgstr "Buźka z wyciągniętym językiem"
-
-#. Translators: (emoji) Hugging Face: a face displayed with an open hands gesture, offering a hug.
-msgid "Hugging face"
-msgstr "Przytulenie"
-
-#. Translators: (emoji) flushed face.
-msgid "Flushed face"
-msgstr "Zarumieniona buźka"
-
-#. Translators: (emoji) Grinning face showing smiling eyes.
-msgid "Grinning Face With Smiling Eyes"
-msgstr "Uśmiechnięte oczy"
-
-#. Translators: (emoji) A pensive, remorseful and saddened face. Quietly considering where things all went wrong.
-msgid "Pensive Face"
-msgstr "Zamyślona buźka"
-
-#. Translators: (emoji) devil with evil smile.
-msgid "Devil with evil smile"
-msgstr "Diabelski uśmiech"
-
-#. Translators: (emoji) devil.
-msgid "Devil"
-msgstr "Diabeł"
-
-#. Translators: (emoji) relieved face.
-msgid "Relieved face"
-msgstr "Wyluzowana buźka"
-
-#. Translators: (emoji) unamused face.
-msgid "Unamused face"
-msgstr "Nic śmiesznego"
-
-#. Translators: (emoji) A face with scrunched up and closed eyes, frowning. Used to show helplessness in a situation.
-msgid "Persevering Face"
-msgstr "wytrwała buźka"
-
-#. Translators: (emoji) crying face.
-msgid "Crying face"
-msgstr "płacząca buźka"
-
-#. Translators: (emoji) face with tears of joy.
-msgid "Face with tears of joy"
-msgstr "łzy radości"
-
-#. Translators: (emoji) loudly crying face.
-msgid "Loudly crying face"
-msgstr "głośny płacz"
-
-#. Translators: (emoji) sleepy face.
-msgid "Sleepy face"
-msgstr "śpiąca buźka"
-
-#. Translators: (emoji) Shrugging: A person shrugging their shoulders to indicate a lack of knowledge about a particular topic, or a lack of care about the result of a situation.
-msgid "Shrugging emoji"
-msgstr "Wzruszenie ramionami"
-
-#. Translators: (emoji) disappointed face.
-msgid "Disappointed face"
-msgstr "Rozczarowana buźka"
-
-#. Translators: (emoji) disappointed but relieved face.
-msgid "Disappointed but relieved face"
-msgstr "Rozczarowanie i ulga"
-
-#. Translators: (emoji) Face with a look of concern, with a blue forehead and sweat dripping down the cheek.
-msgid "Face With Open Mouth & Cold Sweat"
-msgstr "twarz z otwartymi ustami i zimnym potem"
-
-#. Translators: (emoji) Happy face with a single drop of sweat on one side of the face.
-msgid "Smiling Face With Open Mouth & Cold Sweat"
-msgstr "Uśmiechnięta buźka z otwartymi ustami i zimnym potem"
-
-#. Translators: (emoji) face with cold sweat.
-msgid "Face with cold sweat"
-msgstr "buźka oblana zimnym potem"
-
-#. Translators: (emoji) A distraught-looking face with  an open mouth and crescent shaped eyes.
-msgid "Weary Face"
-msgstr "Zmordowana buźka"
-
-#. Translators: (emoji) An exhausted-looking face with an open mouth and tightly closed eyes.
-msgid "Tired Face"
-msgstr "zmęczona buźka"
-
-#. Translators: (emoji) fearful face.
-msgid "Fearful face"
-msgstr "Przerażona buźka"
-
-#. Translators: (emoji) face screaming in fear.
-msgid "Face screaming in fear"
-msgstr "buźka krzycząca ze strachu"
-
-#. Translators: (emoji) angry face.
-#. Translators: :@ angry face.
-msgid "Angry face"
-msgstr "Rozgniewana buźka"
-
-#. Translators: (emoji) pouting face.
-msgid "Pouting face"
-msgstr "nadąsana buźka"
-
-#. Translators: (emoji) A face with air coming out of its nose, huffing with anger face.
-msgid "Face With Steam From Nose"
-msgstr "buźka z buchającą z nosa parą"
-
-#. Translators: (emoji) confounded face.
-msgid "Confounded face"
-msgstr "zkonfundowana buźka"
-
-#. Translators: (emoji) Smiling Face With Open Mouth and Tightly-Closed Eyes.
-msgid "Smiling Face With Open Mouth and Tightly-Closed Eyes"
-msgstr "uśmiechnięta buźka z lekko zamkniętymi oczami"
-
-#. Translators: (emoji) happy face licking lips.
-msgid "Happy face licking lips"
-msgstr "Uśmiech i oblizywanie ust"
-
-#. Translators: (emoji) happy face with sunglasses.
-msgid "Happy face with sunglasses"
-msgstr "Uśmiech z okularami przeciwsłonecznymi"
-
-#. Translators: (emoji) sleeping face.
-msgid "Sleeping face"
-msgstr "śpiąca buźka"
-
-#. Translators: (emoji) A dizzy face, looking sick or confused from being spun around in circles too many times.
-msgid "Dizzy Face"
-msgstr "oszołomiona buźka"
-
-#. Translators: (emoji) astonished face.
-msgid "Astonished face"
-msgstr "Zaskoczona buźka"
-
-#. Translators: (emoji) worried face.
-msgid "Worried face"
-msgstr "Buźka zmartwienie"
-
-#. Translators: (emoji) Dismayed face with open eyes and open mouth, appear closer to  a frowning face.
-msgid "Frowning Face With Open Mouth"
-msgstr "nachmurzona buźka z otwartymi ustami"
-
-#. Translators: (emoji) anguished face.
-msgid "Anguished face"
-msgstr "Udręczona buźka"
-
-#. Translators: (emoji) A face with Open Mouth, generally used to represent an element of surprise.
-msgid "Face with Open Mouth"
-msgstr "buźka z otwartymi ustami"
-
-#. Translators: (emoji) grimacing face.
-msgid "Grimacing face"
-msgstr "grymaśna buźka"
-
-#. Translators: (emoji) confused face.
-msgid "Confused face"
-msgstr "zmieszanie"
-
-#. Translators: (emoji) A face with high eyebrows and an open mouth, it looks more surprised than hushed.
-msgid "Hushed Face"
-msgstr "Oniemiała buźka"
-
-#. Translators: (emoji) broken heart.
-msgid "Broken heart"
-msgstr "złamane serce"
-
-#. Translators: (emoji) pulsating heart.
-msgid "Pulsating heart"
-msgstr "pulsujące serce"
-
-#. Translators: (emoji) beating heart.
-msgid "Beating heart"
-msgstr "bijące serce"
-
-#. Translators: (emoji) two hearts.
-msgid "Two hearts"
-msgstr "Dwa serca"
-
-#. Translators: (emoji) heart with arrow.
-msgid "Heart with arrow"
-msgstr "Serce ze strzałą"
-
-#. Translators: (emoji) purple heart.
-msgid "Purple heart"
-msgstr "Fioletowe serce"
-
-#. Translators: (emoji) red heart.
-msgid "Red heart"
-msgstr "Czerwone serce"
-
-#. Translators: (emoji) yellow heart.
-msgid "Yellow heart"
-msgstr "żółte serce"
-
-#. Translators: (emoji) green heart.
-msgid "Green heart"
-msgstr "zielone serce"
-
-#. Translators: (emoji) blue heart.
-msgid "Blue heart"
-msgstr "Niebieskie serce"
-
-#. Translators: (emoji) This emoji is the version of the phrase ROFL. A person lying on the floor due to an extreme amount of laughter.
-msgid "Rolling on the Floor Laughing"
-msgstr "Buźka tarzająca się ze śmiechu"
-
-#. Translators: (emoji) A face that is a little bit sad, with a slight frown and neutral eyes.
-msgid "Slightly Frowning Face"
-msgstr "nieco ziewająca buźka"
-
-#. Translators: (emoji) A face that is upside-down.
-msgid "Upside-down Face"
-msgstr "buźka do góry nogami"
-
-#. Translators: (emoji) A face displaying eyes glancing upward.
-msgid "Face With Rolling Eyes"
-msgstr "mrugające oczy"
-
-#. Translators: (emoji) A person with arms forming an X to indicate no or no good.
-msgid "Person Gesturing No"
-msgstr "Osoba pokazująca nie"
-
-#. Translators: (emoji) A person with arms above his head, making an OK sign with the whole body.
-msgid "Person Gesturing OK"
-msgstr "Osoba pokazująca OK"
-
-#. Translators: (emoji) A person bowing deeply, express a sincere apology or to request a favour.
-msgid "Person bowing"
-msgstr "pochylająca się osoba"
-
-#. Translators: (emoji) An upset person frowning with dismay.
-msgid "Person Frowning"
-msgstr "Nachmurzona osoba"
-
-#. Translators: (emoji) Two hands placed firmly together.
-msgid "Folded Hands"
-msgstr "Złożone ręce"
-
-#. Translators: (emoji) A person with a surgical mask on their face.
-msgid "Face with medical mask"
-msgstr "buźka z maską medyczną"
-
-#. Translators: (emoji) A black version of white smiling face.
-msgid "Black Smiling Face"
-msgstr "czarna uśmiechnięta buźka"
-
-#. Translators: (emoji) happy cat face with heart shaped eyes.
-msgid "Happy cat face with heart shaped eyes"
-msgstr "Szczęśliwy koci pyszczek z oczami w kształcie serc"
-
-#. Translators: (emoji) ok hand sign.
-msgid "Ok hand sign"
-msgstr "znak OK"
-
-#. Translators: (emoji) thumbs up symbol.
-msgid "Thumbs up symbol"
-msgstr "kciuk w górę"
-
-#. Translators: (emoji) thumbs down symbol.
-msgid "Thumbs down symbol"
-msgstr "kciuk w dół"
-
-#. Translators: (emoji) Victory Hand.
-msgid "Victory Hand"
-msgstr "Ręka zwycięscy"
-
-#. Translators: :) Smile
-msgid "smiling smiley"
-msgstr "uśmiech"
-
-#. Translators: :( Sad face.
-msgid "Sad face"
-msgstr "smutek"
-
-#. Translators: :D Laugh
-msgid "Laughing smiley"
-msgstr "śmiech"
-
-#. Translators: :O Surprised
-msgid "surprised smiley"
-msgstr "zdziwienie"
-
-#. Translators: ;) Wink;
-msgid "winking smiley"
-msgstr "mrugnięcie"
-
-#. Translators: ;( Crying
-msgid "crying smiley"
-msgstr "płacz"
-
-#. Translators: :s :-S :-Q Confused face:
-msgid "Confused Face"
-msgstr "zmieszanie"
-
-#. Translators: (:| Sweating
-msgid "sweating smiley"
-msgstr "poci się"
-
-#. Translators: :|] Robot (a robot head)
-msgid "Robot Smiley"
-msgstr "robot"
-
-#. Translators: :| Speechless
-msgid "speechless smiley"
-msgstr "buzia oniemiały"
-
-#. Translators: :* Kiss
-msgid "kiss smiley"
-msgstr "pocałunek"
-
-#. Translators: :P Cheeky
-msgid "cheeky smiley"
-msgstr "buzia pokazanie języka"
-
-#. Translators: :$ Blushing
-msgid "blushing smiley"
-msgstr "zawstydzenie"
-
-#. Translators: :^) Wondering
-msgid "wondering smiley"
-msgstr "zdumienie"
-
-#. Translators: |-) Sleepy
-msgid "sleepy smiley"
-msgstr "senność"
-
-#. Translators: |-( Dull
-msgid "dull smiley"
-msgstr "znudzenie"
-
-#. Translators: :x My lips are sealed
-msgid "my lips are sealed smiley"
-msgstr "moje usta są zamknięte"
-
-#. Translators: \o/ Dancing
-msgid "dancing smiley"
-msgstr "taniec"
-
-#. Translators: :'( crying a lot smiley
-msgid "crying a lot smiley"
-msgstr "płacz"
-
-#. Translators: >:( Angry
-#. Translators: (angry) Angry
-msgid "angry smiley"
-msgstr "złość"
-
-#. Translators: :/ Worried
-#. Translators: (worry) Worried
-msgid "worried smiley"
-msgstr "zmartwienie"
-
-#. Translators: <3 Heart
-#. Translators: (heart) Heart
-msgid "heart smiley"
-msgstr "serce"
-
-#. Translators:  O:)  O:-) Angel
-msgid "Angel Smiley"
-msgstr "Anioł"
-
-#. Translators:  O.o  o.O  Confused
-msgid "Confused Smiley"
-msgstr "zmieszanie"
-
-#. Translators:   3:-) Devil
-msgid "Devil Smiley"
-msgstr "diabeł"
-
-#. Translators:  ^_^ Keke (This smiley is inspired by the Asian style, which is a happy face.)
-msgid "Keke Smiley"
-msgstr "Keke"
-
-#. Translators: -_- Bored (This smiley face has its eyes closed and is sporting a very small grin.)
-msgid "Bored smiley"
-msgstr "znudzenie"
-
-#. Translators:  >:O  Upset, angry or shouting...
-msgid "Angry Smiley"
-msgstr "gniew"
-
-#. Translators:  :3  Cat (Cat faced smiley with curly lips)
-msgid "Cat Smiley"
-msgstr "koci pyszczek"
-
-#. Translators: (-.-)ZZZ Iӭ Sleepy
-msgid "I am Sleepy smiley"
-msgstr "Jestem śpiący "
-
-#. Translators: 8-) Glasses
-msgid "glasses smiley"
-msgstr "okulary"
-
-#. Translators: (^^^) shark
-msgid "shark smiley"
-msgstr "rekin"
-
-#. Translators:  (cash) Cash
-msgid "cash smiley"
-msgstr "pieniądze"
-
-#. Translators: (flex) Muscle
-msgid "muscle smiley"
-msgstr "mięśniak"
-
-#. Translators: (beer) Beer
-msgid "beer smiley"
-msgstr "piwo"
-
-#. Translators: (d) Drink
-msgid "drink smiley"
-msgstr "drink"
-
-#. Translators: (ninja) Ninja
-msgid "ninja smiley"
-msgstr "ninja "
-
-#. Translators: (cool) Cool
-msgid "cool smiley"
-msgstr "cool"
-
-#. Translators: (inlove) In Love
-msgid "in love smiley"
-msgstr "zakochanie"
-
-#. Translators: (yn) Fingers crossed
-msgid "fingers crossed smiley"
-msgstr "skrzyżowane palce"
-
-#. Translators: (yawn) Yawn
-msgid "yawning smiley"
-msgstr "Buzia ziewa"
-
-#. Translators: (puke) Puking
-msgid "puking smiley"
-msgstr "wymioty"
-
-#. Translators: (doh) Doh!
-msgid "doh! smiley"
-msgstr "fu!"
-
-#. Translators: (wasntme) It wasn't me!
-msgid "it wasn't me! smiley"
-msgstr "to nie byłem ja"
-
-#. Translators: (party) Party
-msgid "party smiley"
-msgstr "impreza"
-
-#. Translators: (mm) Mmmm...
-msgid "mmmmmm... smiley"
-msgstr "mmmm..."
-
-#. Translators: (nerd) Nerdy
-msgid "nerdy smiley"
-msgstr "Nerd"
-
-#. Translators: (wave) Hi
-msgid "hi smiley"
-msgstr "Witam"
-
-#. Translators: (facepalm) Facepalm
-msgid "facepalm smiley"
-msgstr "facepalm"
-
-#. Translators: (devil) Devil
-msgid "devil smiley"
-msgstr "diabeł"
-
-#. Translators: (angel) Angel
-msgid "angel smiley"
-msgstr "anioł"
-
-#. Translators: (envy) Envy
-msgid "envy smiley"
-msgstr "zazdrość"
-
-#. Translators: (wait) Wait
-msgid "wait smiley"
-msgstr "czekaj"
-
-#. Translators: (hug) Hug
-msgid "hug smiley"
-msgstr "przytulenie"
-
-#. Translators: (makeup) Make-up
-msgid "make-up smiley"
-msgstr "makijarz"
-
-#. Translators: (chuckle) Giggle
-msgid "giggle smiley"
-msgstr "chichot"
-
-#. Translators: (clap) Clapping
-msgid "clapping smiley"
-msgstr "oklaski"
-
-#. Translators: (think) Thinking
-msgid "thinking smiley"
-msgstr "myślenie"
-
-#. Translators: (bow) Bowing
-msgid "bowing smiley"
-msgstr "ukłon"
-
-#. Translators: (rofl) Rolling on the floor laughing
-msgid "rolling on the floor laughing! smiley"
-msgstr "ze śmiechu turlam się po podłodze"
-
-#. Translators: (whew) Relieved
-msgid "relieved smiley"
-msgstr "ulga"
-
-#. Translators: (happy) Happy
-msgid "happy smiley"
-msgstr "szczęście"
-
-#. Translators: (smirk) Smirking
-msgid "smirking smiley"
-msgstr "ironiczny uśmiech"
-
-#. Translators: (nod) Nodding
-msgid "nodding smiley"
-msgstr "skinięcie"
-
-#. Translators: (shake) Shake
-msgid "shakeing smiley"
-msgstr "emotka potrząśnięcie"
-
-#. Translators: (waiting) Waiting
-msgid "waiting smiley"
-msgstr "emotka czekanie"
-
-#. Translators: (emo) Emo;
-msgid "Emo smiley"
-msgstr "EMO"
-
-#. Translators: (y) Yes
-msgid "yes smiley"
-msgstr "emotka tak"
-
-#. Translators: (n) no;
-msgid "no smiley"
-msgstr "emotka nie"
-
-#. Translators: (handshake) Handshake
-msgid "handshake smiley"
-msgstr "Buzia uścisk ręki"
-
-#. Translators: (highfive) High five
-msgid "high five smiley"
-msgstr "piąteczka"
-
-#. Translators: (lalala) Lalala;
-msgid "lalala smiley"
-msgstr "emotka lalala"
-
-#. Translators: (heidy) Heidy;
-msgid "heidy smiley"
-msgstr "emotka wiewiórka"
-
-#. Translators: (F) Flower
-msgid "flower smiley"
-msgstr "emotka kwiat"
-
-#. Translators: (rain) Raining
-msgid "raining smiley"
-msgstr "emotkadeszcz"
-
-#. Translators: (sun) Sun
-msgid "sunny smiley"
-msgstr "emotka słońce"
-
-#. Translators: (tumbleweed) Tumbleweed
-msgid "tumbleweed smiley"
-msgstr "emotka cisza przed burzą"
-
-#. Translators: (music) Music
-msgid "music smiley"
-msgstr "emotka muzyka"
-
-#. Translators: (bandit) Bandit
-msgid "bandit smiley"
-msgstr "emotka  bandyta"
-
-#. Translators: (tmi) Too much information
-msgid "too much information smiley"
-msgstr "emotka za dużo informacji"
-
-#. Translators: (coffee) Coffee
-msgid "coffee smiley"
-msgstr "emotka kawa"
-
-#. Translators: (pi) Pizza
-msgid "pizza smiley"
-msgstr "emotka pizza"
-
-#. Translators: (^) Cake
-msgid "cake smiley"
-msgstr "emotka ciastko"
-
-#. Translators: (*) Star
-msgid "star smiley"
-msgstr "emotkagwiazda"
+"Przenosi punkt uwagi do pierwszej listy w aktualnym oknie, np. do listy "
+"wyników w oknie wyszukiwania, pobierania w oknie transfer itd."
+
+#. Translators: Message presented in input help mode.
+msgid ""
+"Moves the system focus to read-only edit boxes in the current window. For "
+"example the IRC received messages."
+msgstr ""
+"Przenosi punkt uwagi do  pól edycji tylko do odczytu w aktualnym oknie, np. "
+"otrzymane wiadomości IRC."
+
+#. Translators: Message presented in input help mode.
+msgid "Moves the navigator object and mouse to the current list headers."
+msgstr ""
+"Przenosi obiekt nawigatora i kursor myszy do nagłówków aktualnej listy."
+
+#. Translators: Message presented in input help mode.
+msgid "Reports first object of the Status Bar."
+msgstr "Odczytuje pierwszy obiekt paska statusu."
+
+#. Translators: Message presented in input help mode.
+msgid "Reports second object of the Status Bar."
+msgstr "Odczytuje drugi obiekt paska statusu."
+
+#. Translators: Message presented in input help mode.
+msgid "Reports third object of the Status Bar."
+msgstr "Odczytuje trzeci obiekt paska statusu."
+
+#. Translators: Message presented in input help mode.
+msgid "Reports fourth object of the Status Bar."
+msgstr "Odczytuje czwarty obiekt paska statusu."
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-msgid "Emoticons"
-msgstr "Emotikony / Emoticons"
+msgid "eMule"
+msgstr "eMule"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
-"Enables the announcement of emoticon names instead of the character "
-"Representation."
-msgstr "Umożliwia oznajmianie nazw emotikonów zamiast tworzących je znaków."
+"Improves eMule's accessibility with NVDA.\n"
+"eMule is a P2P program to search and share files.\n"
+"You can get more information about eMule at\n"
+"http://www.emule-project.net"
+msgstr ""
+"Poprawia dostępność eMule dla NVDA.\n"
+"eMule to program P2P umożliwiający wyszukiwanie i dzielenie się plikami.\n"
+"Więcej informacji o eMule można znaleźć na\n"
+"https://www.emule-project.net"
 
-#~ msgid ""
-#~ "You have installed the Emoticons add-on, probably an old and incompatible "
-#~ "version with this one. Do you want to uninstall the old version?"
-#~ msgstr ""
-#~ "Zainstalowałeś dodatek Emotikony, prawdopodobnie w starej wersji, "
-#~ "niekompatybilnej z obecną. Czy chcesz odinstalować starą wersję?"
+#~ msgid "text \"%s\" not found"
+#~ msgstr "Nie znaleziono tekstu \"%s\""
 
-#~ msgid "Uninstall incompatible add-on"
-#~ msgstr "Odinstaluj niekompatybilny dodatek"
+#~ msgid "Find Error"
+#~ msgstr "Błąd wyszukiwania"
 
-#~ msgid "Manag&e emoticons"
-#~ msgstr "&Zarządzaj emotykonami"
+#~ msgid "Search for:"
+#~ msgstr "Szukaj:"
 
-#~ msgid "Emoticons menu"
-#~ msgstr "Menu Emotykonów"
+#~ msgid "eMule search"
+#~ msgstr "Wyszukiwarka eMule "
 
-#~ msgid "&Customize emoticons..."
-#~ msgstr "&Zarządzaj emotykonami..."
+#~ msgid "Opens the find dialog when in read only edit boxes."
+#~ msgstr "Otwiera okno wyszukiwania w polach edycji tylko do odczytu."
 
-#~ msgid "&Activation settings..."
-#~ msgstr "Ustawienia &aktywacji..."
+#~ msgid "Find next occurence."
+#~ msgstr "Znajdź następne."
 
-#~ msgid "Shows a dialog to choose when emoticons speaking should be activated"
-#~ msgstr ""
-#~ "Wyświetla okno wyboru kiedy wypowiadanie emotykonów powinno być "
-#~ "aktywowane."
-
-#~ msgid "Activation settings"
-#~ msgstr "Ustawienia aktywacji"
+#~ msgid "Find previous occurrence."
+#~ msgstr "Znajdź poprzednie."
