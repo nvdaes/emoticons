@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 2.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2014-10-17 05:00+1000\n"
-"PO-Revision-Date: 2020-04-25 16:57+0100\n"
+"PO-Revision-Date: 2020-12-18 12:39+0100\n"
 "Last-Translator: Nikola Jović <wwenikola123@gmail.com>\n"
 "Language-Team: sr\n"
 "Language: sr\n"
@@ -40,9 +40,8 @@ msgid "Emoticon"
 msgstr "Emotikon"
 
 #. Translators: the name of a submenu.
-#, fuzzy
 msgid "&Emoticons"
-msgstr "Emotikoni"
+msgstr "&Emotikoni"
 
 #. Translators: the name for a menu item.
 msgid "&Insert emoticon..."
@@ -53,14 +52,12 @@ msgid "Shows a dialog to insert a smiley"
 msgstr "Prikazuje dijalog za ubacivanje emotikona"
 
 #. Translators: the name for a menu item.
-#, fuzzy
 msgid "In&sert symbol..."
-msgstr "&Ubaci emotikon"
+msgstr "Ubaci &simbol..."
 
 #. Translators: the tooltip text for a menu item.
-#, fuzzy
 msgid "Shows a dialog to insert a symbol"
-msgstr "Prikazuje dijalog za ubacivanje emotikona"
+msgstr "Prikazuje dijalog za ubacivanje simbola"
 
 #. Translators: the name for a menu item.
 msgid "&Emoticons dictionary..."
@@ -92,9 +89,8 @@ msgid "Shows a dialog to select a smiley you want to paste."
 msgstr "Prikazuje dijalog za odabir emotikona"
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid "Shows a dialog to select a symbol you want to paste."
-msgstr "Prikazuje dijalog za odabir emotikona"
+msgstr "Prikazuje dijalog za izbor simbola koji želite da nalepite."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons dictionary dialog."
@@ -200,17 +196,15 @@ msgstr "&Sačuvaj i izvezi rečnik"
 #. %s is replaced by the language for which symbol pronunciation is being edited.
 #, python-format
 msgid "Insert Symbol (%s)"
-msgstr ""
+msgstr "Ubaci simbol (%s)"
 
 #. Translators: This is the message when symbol has been copied to the clipboard.
-#, fuzzy
 msgid "Symbol copied to clipboard, ready for you to paste."
-msgstr "Emotikon je kopiran u privremenu memoriju, spreman za nalepljivanje."
+msgstr "simbol je kopiran u privremenu memoriju, spreman za nalepljivanje."
 
 #. Translators: Message when the symbol couldn't be copied.
-#, fuzzy
 msgid "Cannot copy symbol."
-msgstr "Nije moguće kopirati emotikon."
+msgstr "Nije moguće kopirati simbol."
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"

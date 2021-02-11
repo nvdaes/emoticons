@@ -9,14 +9,14 @@ msgstr ""
 "Project-Id-Version: emoticons 1.1-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2014-04-11 05:05+0100\n"
-"PO-Revision-Date: 2019-11-19 22:56+0100\n"
+"PO-Revision-Date: 2020-12-20 01:36+0100\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: HR <hrvojekatic@gmail.com>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.4.2\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 
@@ -42,9 +42,8 @@ msgid "Emoticon"
 msgstr "Emotikon"
 
 #. Translators: the name of a submenu.
-#, fuzzy
 msgid "&Emoticons"
-msgstr "Emotikoni"
+msgstr "&Emotikoni"
 
 #. Translators: the name for a menu item.
 msgid "&Insert emoticon..."
@@ -55,14 +54,12 @@ msgid "Shows a dialog to insert a smiley"
 msgstr "Prikazuje dijaloški okvir za umetanje smješka"
 
 #. Translators: the name for a menu item.
-#, fuzzy
 msgid "In&sert symbol..."
-msgstr "&Umetni emotikon …"
+msgstr "&Umetni simbol …"
 
 #. Translators: the tooltip text for a menu item.
-#, fuzzy
 msgid "Shows a dialog to insert a symbol"
-msgstr "Prikazuje dijaloški okvir za umetanje smješka"
+msgstr "Prikazuje dijaloški okvir za umetanje simbola"
 
 #. Translators: the name for a menu item.
 msgid "&Emoticons dictionary..."
@@ -91,12 +88,11 @@ msgstr "Emotikoni su uključeni."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
-msgstr "Prikazuje dijaloški okvir za odabir smješka kojeg želite prilijepiti."
+msgstr "Prikazuje dijaloški okvir za odabir smješka kojeg želiš umetnuti."
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid "Shows a dialog to select a symbol you want to paste."
-msgstr "Prikazuje dijaloški okvir za odabir smješka kojeg želite prilijepiti."
+msgstr "Prikazuje dijaloški okvir za odabir simbola kojeg želiš umetnuti."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons dictionary dialog."
@@ -202,17 +198,15 @@ msgstr "Spremi i i&zvezi rječnik"
 #. %s is replaced by the language for which symbol pronunciation is being edited.
 #, python-format
 msgid "Insert Symbol (%s)"
-msgstr ""
+msgstr "Umetni simbol (%s)"
 
 #. Translators: This is the message when symbol has been copied to the clipboard.
-#, fuzzy
 msgid "Symbol copied to clipboard, ready for you to paste."
-msgstr "Smješko je kopiran u međuspremnik, spreman za upotrebu."
+msgstr "Simbol je kopiran u međuspremnik, spreman za upotrebu."
 
 #. Translators: Message when the symbol couldn't be copied.
-#, fuzzy
 msgid "Cannot copy symbol."
-msgstr "Smješko se ne može kopirati."
+msgstr "Simbol se ne može kopirati."
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"

@@ -23,7 +23,7 @@ Wenn Sie sich unsicher sind, welche Zeichen für ein bestimmtes Smiley
 verwendet werden, können Sie dieses Smiley mit Hilfe der Erweiterung
 auswählen und es in Ihren Text einfügen.
 
-Press NVDA+I, or from menu Tools -> Emoticons > Insert emoticon, to open a dialog with the provided emoticons or emoji.
+Drücken Sie NVDA+I oder über das Menü Extras -> Emoticons -> Emoticon einfügen, um einen Dialog mit den bereitgestellten Emoticons oder Emoji zu öffnen. \ N.
 
 Dieser Dialog zeigt Ihnen eine Liste aller Emoticons an. Dort könnenSie ein
 Emoticon auswählen und seine zugehörige Beschreibung lesen:
@@ -40,13 +40,14 @@ Emoticon auswählen und seine zugehörige Beschreibung lesen:
 Mit Drücken auf "OK" wird die Zeichenfolge für das ausgewählte Emoticon in
 die Zwischenablage kopiert.
 
-## Insert symbol ##
+## Symbol einfügen ##
 
-This dialog allows you to choose one of the symbols available in the
-Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
-box or the arrow keys to select an item from the symbols list. Then, press
-OK and the selected emoji or symbol will be copied to your clipboard, ready
-for pasting.
+In diesem Dialogfeld können Sie eines der Symbole auswählen, die im
+Dialogfeld Interpunktion / Aussprache von Symbolen von NVDA verfügbar
+sind. Sie können das Bearbeitungsfeld Filter oder die Pfeiltasten verwenden,
+um ein Element aus der Symbolliste auszuwählen. Klicken Sie dann auf "OK"
+und das ausgewählte Emoji oder Symbol wird in Ihre Zwischenablage kopiert
+und kann eingefügt werden.
 
 ## Emoticons-Wörterbuch ##
 
@@ -99,7 +100,8 @@ oder den Emoticon-Wörterbuch-Dialog zu öffnen:
   Beschreibungen ersetzt werden sollen.
 * NVDA+I: Zeigt ein Dialogfeld an, aus dem Sie ein Emoticon zum Einfügen
   auswählen können.
-* Not assigned: show a dialog to select an NVDA's symbol you want to copy.
+* Nicht zugewiesen: Zeigen Sie einen Dialog an, um das zu kopierende
+  NVDA-Symbol auszuwählen.
 * Nicht zugewiesen: Öffnet eine (wie im Internet) lesbare Meldung, die das
   Symbol anzeigt, an dem sich der NVDA-cursor befindet, damit die gesamte
   Beschreibung Lese-Modus gelesen werden kann.
@@ -110,11 +112,11 @@ oder den Emoticon-Wörterbuch-Dialog zu öffnen:
 Hinweis: Unter Windows 10 ist es auch möglich, das integrierte Emoji-Panel
 zu verwenden.
 
-## Changes for 13.0 ##
+## Änderungen in 13.0 ##
 
-* Fixed errors in Insert Emoticon dialog.
-* Added a dialog to insert a symbol available in the Punctuation/symbol
-  pronunciation of NVDA.
+* Fehler im Dialogfeld "Emoticon einfügen" behoben.
+* Es wurde ein Dialogfeld zum Einfügen eines Symbols hinzugefügt, welches in
+  Interpunktion / Symbolaussprache von NVDA verfügbar ist.
 
 ## Änderungen für 12.0 ##
 
