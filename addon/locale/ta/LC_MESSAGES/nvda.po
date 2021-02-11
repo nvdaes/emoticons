@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 20:13+0100\n"
-"PO-Revision-Date: 2019-11-17 09:55+0530\n"
+"PO-Revision-Date: 2020-12-19 13:18+0530\n"
 "Last-Translator: DINAKAR T.D. <td.dinkar@gmail.com>\n"
 "Language-Team: DINAKAR T.D. <td.dinkar@gmail.com>\n"
 "Language: ta\n"
@@ -39,7 +39,6 @@ msgid "Emoticon"
 msgstr "உணர்வுரு"
 
 #. Translators: the name of a submenu.
-#, fuzzy
 msgid "&Emoticons"
 msgstr "உணர்வுருக்கள்"
 
@@ -52,14 +51,12 @@ msgid "Shows a dialog to insert a smiley"
 msgstr "நகைமுகத்தை செருகுவதற்கான உரையாடலைக் காண்பிக்கிறது"
 
 #. Translators: the name for a menu item.
-#, fuzzy
 msgid "In&sert symbol..."
-msgstr "ுணர்வுருவைச் செருகுக (&I)"
+msgstr "குறியெழுத்தினைச் செருகுக (&S)"
 
 #. Translators: the tooltip text for a menu item.
-#, fuzzy
 msgid "Shows a dialog to insert a symbol"
-msgstr "நகைமுகத்தை செருகுவதற்கான உரையாடலைக் காண்பிக்கிறது"
+msgstr "குறியெழுத்தினைச் செருகுவதற்கான உரையாடலைக் காண்பிக்கிறது"
 
 #. Translators: the name for a menu item.
 msgid "&Emoticons dictionary..."
@@ -91,9 +88,9 @@ msgid "Shows a dialog to select a smiley you want to paste."
 msgstr "தாங்கள் ஒட்ட விரும்பும் நகைமுகத்தை தெரிவு செய்ய ஒரு உரையாடலைக் காண்பிக்கிறது"
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid "Shows a dialog to select a symbol you want to paste."
-msgstr "தாங்கள் ஒட்ட விரும்பும் நகைமுகத்தை தெரிவு செய்ய ஒரு உரையாடலைக் காண்பிக்கிறது"
+msgstr ""
+"தாங்கள் ஒட்ட விரும்பும் குறியெழுத்தினைத் தெரிவுச் செய்ய ஒரு உரையாடலைக் காண்பிக்கிறது"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons dictionary dialog."
@@ -201,19 +198,17 @@ msgstr "அகராதியை சேமித்து வெளிக்க�
 #. %s is replaced by the language for which symbol pronunciation is being edited.
 #, python-format
 msgid "Insert Symbol (%s)"
-msgstr ""
+msgstr "குறியெழுத்தினைச் செருகுக (%s) "
 
 #. Translators: This is the message when symbol has been copied to the clipboard.
-#, fuzzy
 msgid "Symbol copied to clipboard, ready for you to paste."
 msgstr ""
-"நகைமுகம் பிடிப்புப் பலகைக்கு படியெடுக்கப்பட்டுள்ளது. தேவைப்படும் இடத்தில் இனி தாங்கள் அதை "
-"ஒட்டலாம்."
+"குறியெழுத்து பிடிப்புப் பலகைக்கு படியெடுக்கப்பட்டுள்ளது. தேவைப்படும் இடத்தில் இனி தாங்கள் "
+"அதை ஒட்டலாம்."
 
 #. Translators: Message when the symbol couldn't be copied.
-#, fuzzy
 msgid "Cannot copy symbol."
-msgstr "நகைமுகத்தை படியெடுக்க இயலவில்லை"
+msgstr "குறியெழுத்தினைப் படியெடுக்க இயலவில்லை"
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 8.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2014-04-11 05:05+0100\n"
-"PO-Revision-Date: 2020-01-29 13:11+0800\n"
+"PO-Revision-Date: 2020-12-18 06:54+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: NVDASimplified Chinese team All volunteers <Copyright (C) "
 "2010-2019>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.4.2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. Translators: the label of a message box dialog.
@@ -39,9 +39,8 @@ msgid "Emoticon"
 msgstr "表情"
 
 #. Translators: the name of a submenu.
-#, fuzzy
 msgid "&Emoticons"
-msgstr "表情符号插件"
+msgstr "表情符号插件(&E)"
 
 #. Translators: the name for a menu item.
 msgid "&Insert emoticon..."
@@ -52,14 +51,12 @@ msgid "Shows a dialog to insert a smiley"
 msgstr "显示一个对话框来插入表情"
 
 #. Translators: the name for a menu item.
-#, fuzzy
 msgid "In&sert symbol..."
-msgstr "插入表情(&I)..."
+msgstr "插入符号(&I)..."
 
 #. Translators: the tooltip text for a menu item.
-#, fuzzy
 msgid "Shows a dialog to insert a symbol"
-msgstr "显示一个对话框来插入表情"
+msgstr "显示一个对话框来插入符号"
 
 #. Translators: the name for a menu item.
 msgid "&Emoticons dictionary..."
@@ -91,9 +88,8 @@ msgid "Shows a dialog to select a smiley you want to paste."
 msgstr "显示一个对话框来选择您希望粘贴的表情。"
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid "Shows a dialog to select a symbol you want to paste."
-msgstr "显示一个对话框来选择您希望粘贴的表情。"
+msgstr "显示一个对话框来选择您希望粘贴的符号。"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons dictionary dialog."
@@ -199,17 +195,15 @@ msgstr "保存并输出到词典(&X)"
 #. %s is replaced by the language for which symbol pronunciation is being edited.
 #, python-format
 msgid "Insert Symbol (%s)"
-msgstr ""
+msgstr "插入符号(%s)"
 
 #. Translators: This is the message when symbol has been copied to the clipboard.
-#, fuzzy
 msgid "Symbol copied to clipboard, ready for you to paste."
-msgstr "表情已经拷贝到剪贴板，已经为您准备好粘贴。"
+msgstr "符号已经拷贝到剪贴板，已经为您准备好粘贴。"
 
 #. Translators: Message when the symbol couldn't be copied.
-#, fuzzy
 msgid "Cannot copy symbol."
-msgstr "无法复制表情。"
+msgstr "无法复制符号。"
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"

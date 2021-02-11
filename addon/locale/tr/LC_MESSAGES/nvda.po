@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons' '5.3\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2020-12-01 17:47+0300\n"
-"PO-Revision-Date: 2020-12-09 10:21+0300\n"
+"PO-Revision-Date: 2020-12-20 09:26+0300\n"
 "Last-Translator: Çağrı Doğan <cagrid@hotmail.com>\n"
 "Language-Team: Translators <cagrid@hotmail.com>\n"
 "Language: tr\n"
@@ -25,11 +25,12 @@ msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them, removing deprecated files?"
 msgstr ""
+"Bu eklenti için önceden kaydedilmiş ayarlarınız var gibi görünüyor. "
+"Kullanımdan kaldırılmış dosyaları silerek bunları içe aktarmak ister misiniz?"
 
 #. Translators: the title of a message box dialog.
-#, fuzzy
 msgid "Import Emoticons add-on settings"
-msgstr "İfadeler ayarlarını gösterir."
+msgstr "İfadeler eklenti ayarlarını içe aktar"
 
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 #. Translators: Label for emojis in the list.
@@ -914,9 +915,8 @@ msgstr "yıldız smiley"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-#, fuzzy
 msgid "Emoticons"
-msgstr "İ&fadeler"
+msgstr "İfadeler"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -924,3 +924,4 @@ msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
 msgstr ""
+"Temsil eden karakterler yerine ifade adlarının duyurulmasını etkinleştirir."

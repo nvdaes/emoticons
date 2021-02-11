@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 5.2\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2017-02-03 05:00+1000\n"
-"PO-Revision-Date: 2019-08-16 09:43+0700\n"
+"PO-Revision-Date: 2020-12-27 08:05+0700\n"
 "Last-Translator: Dang Manh Cuong <dangmanhcuong@gmail.com>\n"
 "Language-Team: Sao Mai <info@saomaicenter.org>\n"
 "Language: vi\n"
@@ -39,9 +39,8 @@ msgid "Emoticon"
 msgstr "Biểu tượng cảm xúc"
 
 #. Translators: the name of a submenu.
-#, fuzzy
 msgid "&Emoticons"
-msgstr "Các biểu tượng cảm xúc"
+msgstr "Các &biểu tượng cảm xúc"
 
 #. Translators: the name for a menu item.
 msgid "&Insert emoticon..."
@@ -52,14 +51,12 @@ msgid "Shows a dialog to insert a smiley"
 msgstr "Hiển thị một hộp thoại để chèn biểu tượng cảm xúc"
 
 #. Translators: the name for a menu item.
-#, fuzzy
 msgid "In&sert symbol..."
-msgstr "C&hèn biểu tượng cảm xúc..."
+msgstr "C&hèn kí hiệu..."
 
 #. Translators: the tooltip text for a menu item.
-#, fuzzy
 msgid "Shows a dialog to insert a symbol"
-msgstr "Hiển thị một hộp thoại để chèn biểu tượng cảm xúc"
+msgstr "Hiển thị một hộp thoại để chèn kí hiệu"
 
 #. Translators: the name for a menu item.
 msgid "&Emoticons dictionary..."
@@ -91,9 +88,8 @@ msgid "Shows a dialog to select a smiley you want to paste."
 msgstr "Hiển thị một hộp thoại  để chọn biểu tượng cảm xúc bạn muốn dán."
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid "Shows a dialog to select a symbol you want to paste."
-msgstr "Hiển thị một hộp thoại  để chọn biểu tượng cảm xúc bạn muốn dán."
+msgstr "Hiển thị một hộp thoại  để chọn kí hiệu bạn muốn dán."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons dictionary dialog."
@@ -199,17 +195,15 @@ msgstr "Lưu và &xuất từ điển"
 #. %s is replaced by the language for which symbol pronunciation is being edited.
 #, python-format
 msgid "Insert Symbol (%s)"
-msgstr ""
+msgstr "Chèn kí hiệu (%s)"
 
 #. Translators: This is the message when symbol has been copied to the clipboard.
-#, fuzzy
 msgid "Symbol copied to clipboard, ready for you to paste."
-msgstr "Đã chép biểu tượng cảm xúc vào bộ nhớ tạm, sẵn sàng để dán."
+msgstr "Đã chép kí hiệu vào bộ nhớ tạm, sẵn sàng để dán."
 
 #. Translators: Message when the symbol couldn't be copied.
-#, fuzzy
 msgid "Cannot copy symbol."
-msgstr "Không thể chép biểu tượng cảm xúc."
+msgstr "Không thể chép kí hiệu."
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"
