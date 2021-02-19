@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-19 18:53+0100\n"
-"PO-Revision-Date: 2020-01-12 15:39+0100\n"
+"PO-Revision-Date: 2021-02-09 11:29+0100\n"
 "Last-Translator: Ondrej Rosík <ondrej.rosik@gmail.com>\n"
 "Language-Team: \n"
 "Language: sk\n"
@@ -22,7 +22,7 @@ msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them, removing deprecated files?"
 msgstr ""
-"Našli sa nastavenia zo staršej verzie doplnku.Cchcete ich ponechať a "
+"Našli sa nastavenia zo staršej verzie doplnku. Chcete ich ponechať a "
 "odstrániť nepotrebné súbory?"
 
 #. Translators: the title of a message box dialog.
@@ -39,9 +39,8 @@ msgid "Emoticon"
 msgstr "Emotikon"
 
 #. Translators: the name of a submenu.
-#, fuzzy
 msgid "&Emoticons"
-msgstr "Emotikony"
+msgstr "&Emotikony"
 
 #. Translators: the name for a menu item.
 msgid "&Insert emoticon..."
@@ -52,14 +51,12 @@ msgid "Shows a dialog to insert a smiley"
 msgstr "Zobrazí dialóg na vloženie emotikonu a smajlíka"
 
 #. Translators: the name for a menu item.
-#, fuzzy
 msgid "In&sert symbol..."
-msgstr "&Vložiť emotikon..."
+msgstr "Vložiť &symbol..."
 
 #. Translators: the tooltip text for a menu item.
-#, fuzzy
 msgid "Shows a dialog to insert a symbol"
-msgstr "Zobrazí dialóg na vloženie emotikonu a smajlíka"
+msgstr "Zobrazí dialóg na vloženie symbolu"
 
 #. Translators: the name for a menu item.
 msgid "&Emoticons dictionary..."
@@ -92,10 +89,8 @@ msgstr ""
 "Zobrazí dialóg, v ktorom môžete vybrať smajlíka, ktorého chcete vložiť."
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid "Shows a dialog to select a symbol you want to paste."
-msgstr ""
-"Zobrazí dialóg, v ktorom môžete vybrať smajlíka, ktorého chcete vložiť."
+msgstr "Zobrazí dialóg na vloženie symbolu."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons dictionary dialog."
@@ -124,7 +119,7 @@ msgstr ""
 
 #. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
 msgid "Symbol at the review cursor position ({})"
-msgstr "Symbol pod kurzorom ({})"
+msgstr "Symbol pod prezeracím kurzorom ({})"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the caret is located."
@@ -132,7 +127,7 @@ msgstr "Zobrazí symbol pod systémovým kurzorom."
 
 #. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
 msgid "Symbol at the caret position ({})"
-msgstr "Symbol pod kurzorom ({})"
+msgstr "Symbol pod systémovým kurzorom ({})"
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"
@@ -201,17 +196,15 @@ msgstr "Uložiť a e&xportovať slovník"
 #. %s is replaced by the language for which symbol pronunciation is being edited.
 #, python-format
 msgid "Insert Symbol (%s)"
-msgstr ""
+msgstr "Vložiť symbol (%s)"
 
 #. Translators: This is the message when symbol has been copied to the clipboard.
-#, fuzzy
 msgid "Symbol copied to clipboard, ready for you to paste."
 msgstr "Skopírované do schránky."
 
 #. Translators: Message when the symbol couldn't be copied.
-#, fuzzy
 msgid "Cannot copy symbol."
-msgstr "Nepodarilo sa skopírovať emotikon."
+msgstr "Nepodarilo sa skopírovať symbol."
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"
@@ -540,7 +533,7 @@ msgstr "OK (človek s rukami nad hlavou)"
 
 #. Translators: (emoji) A person bowing deeply, express a sincere apology or to request a favour.
 msgid "Person bowing"
-msgstr "Klaňujúci sa človek"
+msgstr "Klaňajúci sa človek"
 
 #. Translators: (emoji) An upset person frowning with dismay.
 msgid "Person Frowning"
