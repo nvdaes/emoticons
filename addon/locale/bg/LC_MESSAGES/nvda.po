@@ -7,14 +7,14 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2013-11-16 18:37+0100\n"
-"PO-Revision-Date: 2019-08-15 22:23+0300\n"
+"PO-Revision-Date: 2020-12-17 21:54+0200\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: \n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -38,27 +38,24 @@ msgid "Emoticon"
 msgstr "Емотикон"
 
 #. Translators: the name of a submenu.
-#, fuzzy
 msgid "&Emoticons"
-msgstr "Емотикони"
+msgstr "&Емотикони"
 
 #. Translators: the name for a menu item.
 msgid "&Insert emoticon..."
-msgstr "&Вмъкни емотикон..."
+msgstr "Вмъкни &емотикон..."
 
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dialog to insert a smiley"
 msgstr "Извежда диалог за вмъкване на емотикон"
 
 #. Translators: the name for a menu item.
-#, fuzzy
 msgid "In&sert symbol..."
-msgstr "&Вмъкни емотикон..."
+msgstr "Вмъкни &символ..."
 
 #. Translators: the tooltip text for a menu item.
-#, fuzzy
 msgid "Shows a dialog to insert a symbol"
-msgstr "Извежда диалог за вмъкване на емотикон"
+msgstr "Извежда диалог за вмъкване на символ"
 
 #. Translators: the name for a menu item.
 msgid "&Emoticons dictionary..."
@@ -87,16 +84,15 @@ msgstr "Прочитането на емотикони е включено."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
-msgstr "Извежда диалог за избор на емотикон за вмъкване"
+msgstr "Извежда диалог за избор на емотикон за вмъкване."
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid "Shows a dialog to select a symbol you want to paste."
-msgstr "Извежда диалог за избор на емотикон за вмъкване"
+msgstr "Извежда диалог за избор на емотикон за вмъкване."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons dictionary dialog."
-msgstr "Извежда диалог на речника с емотиконите"
+msgstr "Извежда диалог на речника с емотиконите."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons settings."
@@ -198,17 +194,15 @@ msgstr "Запиши и е&кспортирай речника"
 #. %s is replaced by the language for which symbol pronunciation is being edited.
 #, python-format
 msgid "Insert Symbol (%s)"
-msgstr ""
+msgstr "Вмъкване на символ (%s)"
 
 #. Translators: This is the message when symbol has been copied to the clipboard.
-#, fuzzy
 msgid "Symbol copied to clipboard, ready for you to paste."
-msgstr "Емотиконът бе копиран в клипборда и е готов за поставяне."
+msgstr "Символът бе копиран в клипборда и е готов за поставяне."
 
 #. Translators: Message when the symbol couldn't be copied.
-#, fuzzy
 msgid "Cannot copy symbol."
-msgstr "Копирането на емотикона е невъзможно."
+msgstr "Копирането на символа е невъзможно."
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"

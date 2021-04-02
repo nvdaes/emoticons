@@ -8,22 +8,22 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 20:13+0100\n"
-"PO-Revision-Date: 2019-09-10 17:40+0200\n"
-"Last-Translator: Karl Eick <hozosch@web.de>\n"
+"PO-Revision-Date: 2020-12-17 22:49+0100\n"
+"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them, removing deprecated files?"
 msgstr ""
-"Scheinbar haben Sie bereits eine ältere Konfiguration dieser Erweiterung "
-"gespeichert. Möchten Sie diese importieren?"
+"Sie haben anscheinend noch veraltete Einstellungen für diese Erweiterung "
+"gespeichert. Sollen diese angepasst werden und alte Dateien entfernt werden?"
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
@@ -39,27 +39,24 @@ msgid "Emoticon"
 msgstr "Emoticon"
 
 #. Translators: the name of a submenu.
-#, fuzzy
 msgid "&Emoticons"
-msgstr "Emoticons"
+msgstr "&Emoticons"
 
 #. Translators: the name for a menu item.
 msgid "&Insert emoticon..."
-msgstr "Emoticon e&infügen"
+msgstr "Emoticon e&infügen..."
 
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dialog to insert a smiley"
-msgstr "Zeigt ein Dialogfeld zum Einfügen eines Smileys."
+msgstr "Zeigt ein Dialogfeld zum Einfügen eines Smileys an"
 
 #. Translators: the name for a menu item.
-#, fuzzy
 msgid "In&sert symbol..."
-msgstr "Emoticon e&infügen"
+msgstr "&Symbol einfügen..."
 
 #. Translators: the tooltip text for a menu item.
-#, fuzzy
 msgid "Shows a dialog to insert a symbol"
-msgstr "Zeigt ein Dialogfeld zum Einfügen eines Smileys."
+msgstr "Zeigt ein Dialogfeld zum Einfügen eines Symbols an"
 
 #. Translators: the name for a menu item.
 msgid "&Emoticons dictionary..."
@@ -67,7 +64,7 @@ msgstr "&Emoticons-Wörterbuch..."
 
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
-msgstr "Zeigt ein Dialogfeld zur Anpassung der Emoticons an."
+msgstr "Zeigt einen Wörterbuch-Dialogfeld zum Anpassen von Emoticons an"
 
 #. Translators: Title of a dialog.
 #, python-format
@@ -80,11 +77,11 @@ msgstr "Schaltet die Ansage der Emoticons an oder aus."
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
-msgstr "Emoticons aus"
+msgstr "Emoticons ausgeschaltet."
 
 #. Translators: message presented when the dictionary for emoticons is loaded.
 msgid "Emoticons on."
-msgstr "Emoticons ein"
+msgstr "Emoticons eingeschaltet."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
@@ -93,15 +90,14 @@ msgstr ""
 "möchten."
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid "Shows a dialog to select a symbol you want to paste."
 msgstr ""
-"Zeigt ein Dialogfeld zum Auswählen eines Smileys an, das Sie einfügen "
+"Zeigt ein Dialogfeld zur Auswahl eines Symbols an, welches Sie einfügen "
 "möchten."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons dictionary dialog."
-msgstr "Zeigt das Dialog des Emoticon-Wörterbuchs an"
+msgstr "Zeigt das Wörterbuch-Dialogfeld für die Emoticons an."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons settings."
@@ -205,19 +201,16 @@ msgstr "Wörterbuch &speichern und exportieren"
 #. %s is replaced by the language for which symbol pronunciation is being edited.
 #, python-format
 msgid "Insert Symbol (%s)"
-msgstr ""
+msgstr "Symbol einfügen (%s)"
 
 #. Translators: This is the message when symbol has been copied to the clipboard.
-#, fuzzy
 msgid "Symbol copied to clipboard, ready for you to paste."
 msgstr ""
-"Das Smiley wurde in die Zwischenablage kopiert und jetzt können Sie es an "
-"gewünschter Stelle einfügen."
+"Das Symbol wurde in die Zwischenablage kopiert und kann nun eingefügt werden."
 
 #. Translators: Message when the symbol couldn't be copied.
-#, fuzzy
 msgid "Cannot copy symbol."
-msgstr "Das Smiley konnte nicht kopiert werden."
+msgstr "Das Symbol konnte nicht kopiert werden."
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"
@@ -269,7 +262,7 @@ msgstr "Weißes Stirnrunzelgesicht"
 
 #. Translators: (emoji) winking face.
 msgid "Winking face"
-msgstr "zwinkerndes Gesicht"
+msgstr "Zwinkerndes Gesicht"
 
 #. Translators: (emoji) smiling face with heart shaped eyes.
 msgid "Smiling face with heart shaped eyes"
@@ -502,7 +495,7 @@ msgstr "Herz mit Pfeil"
 
 #. Translators: (emoji) purple heart.
 msgid "Purple heart"
-msgstr "lilafarbenes Herz"
+msgstr "Lilafarbenes Herz"
 
 #. Translators: (emoji) red heart.
 msgid "Red heart"

@@ -5,17 +5,17 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: emoticons 4.2\n"
-"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"Project-Id-Version: 'emoticons' '1.0-dev'\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: 2015-10-23 05:00+1000\n"
-"PO-Revision-Date: 2019-10-31 10:48+0200\n"
+"PO-Revision-Date: 2021-02-08 13:34+0200\n"
 "Last-Translator: Volodymyr Pyrih <vp88.mobile@gmail.com>\n"
 "Language-Team: \n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -39,9 +39,8 @@ msgid "Emoticon"
 msgstr "Смайлик"
 
 #. Translators: the name of a submenu.
-#, fuzzy
 msgid "&Emoticons"
-msgstr "Emoticons"
+msgstr "&Emoticons"
 
 #. Translators: the name for a menu item.
 msgid "&Insert emoticon..."
@@ -52,14 +51,12 @@ msgid "Shows a dialog to insert a smiley"
 msgstr "Показує діалог вставки смайлів"
 
 #. Translators: the name for a menu item.
-#, fuzzy
 msgid "In&sert symbol..."
-msgstr "&Вставити смайлик чи емодзі…"
+msgstr "&Вставити символ…"
 
 #. Translators: the tooltip text for a menu item.
-#, fuzzy
 msgid "Shows a dialog to insert a symbol"
-msgstr "Показує діалог вставки смайлів"
+msgstr "Показує діалог вставки символа"
 
 #. Translators: the name for a menu item.
 msgid "&Emoticons dictionary..."
@@ -67,7 +64,7 @@ msgstr "&Словник смайликів та емодзі…"
 
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
-msgstr "Показує діалог, в якому можна встановити свої налаштування смайликів"
+msgstr ""
 
 #. Translators: Title of a dialog.
 #, python-format
@@ -88,12 +85,11 @@ msgstr "Вимову смайликів та емодзі увімкнено."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
-msgstr "Показує діалог вибору смайликів, які ви бажаєте вставити."
+msgstr "Показує діалог вибору смайликів для вставки."
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid "Shows a dialog to select a symbol you want to paste."
-msgstr "Показує діалог вибору смайликів, які ви бажаєте вставити."
+msgstr "Показує діалог вибору символа, який ви бажаєте вставити."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons dictionary dialog."
@@ -181,7 +177,7 @@ msgstr "Не вибрано жодного смайлика чи емодзі."
 
 #. Translators: This is the message when smiley has been copied to the clipboard.
 msgid "Smiley copied to clipboard, ready for you to paste."
-msgstr "Смайлик скопійовано в буфер обміну й готовий до вставки"
+msgstr "Смайлик скопійований у буфер обміну й готовий до вставки."
 
 #. Translators: Message when the emoticon couldn't be copied.
 msgid "Cannot copy smiley."
@@ -199,17 +195,15 @@ msgstr "Зберегти й &експортувати словник"
 #. %s is replaced by the language for which symbol pronunciation is being edited.
 #, python-format
 msgid "Insert Symbol (%s)"
-msgstr ""
+msgstr "Вставити символ (%s)"
 
 #. Translators: This is the message when symbol has been copied to the clipboard.
-#, fuzzy
 msgid "Symbol copied to clipboard, ready for you to paste."
-msgstr "Смайлик скопійовано в буфер обміну й готовий до вставки"
+msgstr "Символ скопійовано в буфер обміну й готовий до вставки."
 
 #. Translators: Message when the symbol couldn't be copied.
-#, fuzzy
 msgid "Cannot copy symbol."
-msgstr "Неможливо скопіювати смайл."
+msgstr "Неможливо скопіювати символ."
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"
@@ -249,7 +243,7 @@ msgstr "Трохи всміхнене обличчя"
 
 #. Translators: (emoji) white smiling face.
 msgid "white smiling face"
-msgstr "Усміхнене обличчя"
+msgstr "усміхнене обличчя"
 
 #. Translators: (emoji) happy face with halo.
 msgid "Happy face with halo"
@@ -578,7 +572,7 @@ msgstr "Жест перемоги"
 
 #. Translators: :) Smile
 msgid "smiling smiley"
-msgstr "Смайлик"
+msgstr "смайлик"
 
 #. Translators: :( Sad face.
 msgid "Sad face"
@@ -590,15 +584,15 @@ msgstr "Обличчя що сміється"
 
 #. Translators: :O Surprised
 msgid "surprised smiley"
-msgstr "Здивування"
+msgstr "здивований смайлик"
 
 #. Translators: ;) Wink;
 msgid "winking smiley"
-msgstr "Підморгування"
+msgstr "підморгування"
 
 #. Translators: ;( Crying
 msgid "crying smiley"
-msgstr "Плач"
+msgstr "плач"
 
 #. Translators: :s :-S :-Q Confused face:
 msgid "Confused Face"
@@ -606,7 +600,7 @@ msgstr "Спантеличене обличчя"
 
 #. Translators: (:| Sweating
 msgid "sweating smiley"
-msgstr "Спотілий смайлик"
+msgstr "спотілий смайлик"
 
 #. Translators: :|] Robot (a robot head)
 msgid "Robot Smiley"
@@ -614,58 +608,58 @@ msgstr "Робот смайлик"
 
 #. Translators: :| Speechless
 msgid "speechless smiley"
-msgstr "Закритий рот смайлик"
+msgstr "закритий рот смайлик"
 
 #. Translators: :* Kiss
 msgid "kiss smiley"
-msgstr "Поцілунок смайлик"
+msgstr "поцілунок смайлик"
 
 #. Translators: :P Cheeky
 msgid "cheeky smiley"
-msgstr "Зухвалий смайлик"
+msgstr "зухвалий смайлик"
 
 #. Translators: :$ Blushing
 msgid "blushing smiley"
-msgstr "Зашарілий смайлик"
+msgstr "зашарілий смайлик"
 
 #. Translators: :^) Wondering
 msgid "wondering smiley"
-msgstr "Зачарований смайлик"
+msgstr "зачарований смайлик"
 
 #. Translators: |-) Sleepy
 msgid "sleepy smiley"
-msgstr "Сплячий смайлик"
+msgstr "сплячий смайлик"
 
 #. Translators: |-( Dull
 msgid "dull smiley"
-msgstr "Пригнічений смайлик"
+msgstr "пригнічений смайлик"
 
 #. Translators: :x My lips are sealed
 msgid "my lips are sealed smiley"
-msgstr "Обіцяю мовчати смайлик"
+msgstr "обіцяю мовчати смайлик"
 
 #. Translators: \o/ Dancing
 msgid "dancing smiley"
-msgstr "Танцювальний смайлик"
+msgstr "танцювальний смайлик"
 
 #. Translators: :'( crying a lot smiley
 msgid "crying a lot smiley"
-msgstr "Багатослізний смайлик"
+msgstr "багатослізний смайлик"
 
 #. Translators: >:( Angry
 #. Translators: (angry) Angry
 msgid "angry smiley"
-msgstr "Сердитий смайлик"
+msgstr "сердитий смайлик"
 
 #. Translators: :/ Worried
 #. Translators: (worry) Worried
 msgid "worried smiley"
-msgstr "Стурбований смайлик"
+msgstr "стурбований смайлик"
 
 #. Translators: <3 Heart
 #. Translators: (heart) Heart
 msgid "heart smiley"
-msgstr "Серце смайлик"
+msgstr "серце смайлик"
 
 #. Translators:  O:)  O:-) Angel
 msgid "Angel Smiley"
@@ -701,63 +695,63 @@ msgstr "Я сплю смайлик"
 
 #. Translators: 8-) Glasses
 msgid "glasses smiley"
-msgstr "Окуляри смайлик"
+msgstr "окуляри смайлик"
 
 #. Translators: (^^^) shark
 msgid "shark smiley"
-msgstr "Акула смайлик"
+msgstr "акула смайлик"
 
 #. Translators:  (cash) Cash
 msgid "cash smiley"
-msgstr "Гроші смайлик"
+msgstr "гроші смайлик"
 
 #. Translators: (flex) Muscle
 msgid "muscle smiley"
-msgstr "Силач смайлик"
+msgstr "силач смайлик"
 
 #. Translators: (beer) Beer
 msgid "beer smiley"
-msgstr "Пиво смайлик"
+msgstr "пиво смайлик"
 
 #. Translators: (d) Drink
 msgid "drink smiley"
-msgstr "П’ю смайлик"
+msgstr "п’ю смайлик"
 
 #. Translators: (ninja) Ninja
 msgid "ninja smiley"
-msgstr "Нінзя смайлик"
+msgstr "нінзя смайлик"
 
 #. Translators: (cool) Cool
 msgid "cool smiley"
-msgstr "Крутий смайлик"
+msgstr "крутий смайлик"
 
 #. Translators: (inlove) In Love
 msgid "in love smiley"
-msgstr "Закоханий смайлик"
+msgstr "закоханий смайлик"
 
 #. Translators: (yn) Fingers crossed
 msgid "fingers crossed smiley"
-msgstr "Схрещені пальці смайлик"
+msgstr "схрещені пальці смайлик"
 
 #. Translators: (yawn) Yawn
 msgid "yawning smiley"
-msgstr "Позіхає смайлик"
+msgstr "позіхає смайлик"
 
 #. Translators: (puke) Puking
 msgid "puking smiley"
-msgstr "Блювотний смайлик"
+msgstr "блювотний смайлик"
 
 #. Translators: (doh) Doh!
 msgid "doh! smiley"
-msgstr "Великий сум смайлик"
+msgstr "великий сум смайлик"
 
 #. Translators: (wasntme) It wasn't me!
 msgid "it wasn't me! smiley"
-msgstr "Це був не я! смайлик"
+msgstr "це не я! смайлик"
 
 #. Translators: (party) Party
 msgid "party smiley"
-msgstr "Вечірка смайлик"
+msgstr "вечірка смайлик"
 
 #. Translators: (mm) Mmmm...
 msgid "mmmmmm... smiley"
@@ -765,83 +759,83 @@ msgstr "mmmmmm... смайлик"
 
 #. Translators: (nerd) Nerdy
 msgid "nerdy smiley"
-msgstr "Тупий смайлик"
+msgstr "тупий смайлик"
 
 #. Translators: (wave) Hi
 msgid "hi smiley"
-msgstr "Вітальний смайлик"
+msgstr "вітальний смайлик"
 
 #. Translators: (facepalm) Facepalm
 msgid "facepalm smiley"
-msgstr "Обличчя закрите однією рукою смайлик"
+msgstr "обличчя закрите однією рукою смайлик"
 
 #. Translators: (devil) Devil
 msgid "devil smiley"
-msgstr "Чорт смайлик"
+msgstr "чорт смайлик"
 
 #. Translators: (angel) Angel
 msgid "angel smiley"
-msgstr "Ангел смайлик"
+msgstr "ангел смайлик"
 
 #. Translators: (envy) Envy
 msgid "envy smiley"
-msgstr "Заздрісний смайлик"
+msgstr "заздрісний смайлик"
 
 #. Translators: (wait) Wait
 msgid "wait smiley"
-msgstr "Чекаю смайлик"
+msgstr "очікування смайлик"
 
 #. Translators: (hug) Hug
 msgid "hug smiley"
-msgstr "Обійми смайлик"
+msgstr "обійми смайлик"
 
 #. Translators: (makeup) Make-up
 msgid "make-up smiley"
-msgstr "Макіяж смайлик"
+msgstr "макіяж смайлик"
 
 #. Translators: (chuckle) Giggle
 msgid "giggle smiley"
-msgstr "Хіхікаю смайлик"
+msgstr "хіхікаю смайлик"
 
 #. Translators: (clap) Clapping
 msgid "clapping smiley"
-msgstr "Плескаю в долоні смайлик"
+msgstr "плескаю в долоні смайлик"
 
 #. Translators: (think) Thinking
 msgid "thinking smiley"
-msgstr "Думаю смайлик"
+msgstr "думаю смайлик"
 
 #. Translators: (bow) Bowing
 msgid "bowing smiley"
-msgstr "Уклінний смайлик"
+msgstr "уклінний смайлик"
 
 #. Translators: (rofl) Rolling on the floor laughing
 msgid "rolling on the floor laughing! smiley"
-msgstr "Качаюся по підлозі від сміху! смайлик"
+msgstr "качаюся по підлозі від сміху! смайлик"
 
 #. Translators: (whew) Relieved
 msgid "relieved smiley"
-msgstr "Заспокоєний смайлик"
+msgstr "заспокоєний смайлик"
 
 #. Translators: (happy) Happy
 msgid "happy smiley"
-msgstr "Щасливий смайлик"
+msgstr "щасливий смайлик"
 
 #. Translators: (smirk) Smirking
 msgid "smirking smiley"
-msgstr "Самовдоволений смайлик"
+msgstr "самовдоволений смайлик"
 
 #. Translators: (nod) Nodding
 msgid "nodding smiley"
-msgstr "Киває смайлик"
+msgstr "киває смайлик"
 
 #. Translators: (shake) Shake
 msgid "shakeing smiley"
-msgstr "Трясеться смайлик"
+msgstr "трясеться смайлик"
 
 #. Translators: (waiting) Waiting
 msgid "waiting smiley"
-msgstr "Чекаю смайлик"
+msgstr "чекаю смайлик"
 
 #. Translators: (emo) Emo;
 msgid "Emo smiley"
@@ -849,71 +843,71 @@ msgstr "Емо смайлик"
 
 #. Translators: (y) Yes
 msgid "yes smiley"
-msgstr "Так смайлик"
+msgstr "так смайлик"
 
 #. Translators: (n) no;
 msgid "no smiley"
-msgstr "Ні смайлик"
+msgstr "ні смайлик"
 
 #. Translators: (handshake) Handshake
 msgid "handshake smiley"
-msgstr "Рукостискання смайлик"
+msgstr "рукостискання смайлик"
 
 #. Translators: (highfive) High five
 msgid "high five smiley"
-msgstr "Дай п’ять смайлик"
+msgstr "дай п’ять смайлик"
 
 #. Translators: (lalala) Lalala;
 msgid "lalala smiley"
-msgstr "Ляляля смайлик"
+msgstr "ляляля смайлик"
 
 #. Translators: (heidy) Heidy;
 msgid "heidy smiley"
-msgstr "Білочка смайлик"
+msgstr "білочка смайлик"
 
 #. Translators: (F) Flower
 msgid "flower smiley"
-msgstr "Квітка смайлик"
+msgstr "квітка смайлик"
 
 #. Translators: (rain) Raining
 msgid "raining smiley"
-msgstr "Дощ смайлик"
+msgstr "дощ смайлик"
 
 #. Translators: (sun) Sun
 msgid "sunny smiley"
-msgstr "Сонце смайлик"
+msgstr "сонце смайлик"
 
 #. Translators: (tumbleweed) Tumbleweed
 msgid "tumbleweed smiley"
-msgstr "Перекотиполе смайлик"
+msgstr "перекотиполе смайлик"
 
 #. Translators: (music) Music
 msgid "music smiley"
-msgstr "Музика смайлик"
+msgstr "музика смайлик"
 
 #. Translators: (bandit) Bandit
 msgid "bandit smiley"
-msgstr "Бандитський смайлик"
+msgstr "бандитський смайлик"
 
 #. Translators: (tmi) Too much information
 msgid "too much information smiley"
-msgstr "Забагато інформації смайлик"
+msgstr "забагато інформації смайлик"
 
 #. Translators: (coffee) Coffee
 msgid "coffee smiley"
-msgstr "Кава смайлик"
+msgstr "кава смайлик"
 
 #. Translators: (pi) Pizza
 msgid "pizza smiley"
-msgstr "Піца смайлик"
+msgstr "піца смайлик"
 
 #. Translators: (^) Cake
 msgid "cake smiley"
-msgstr "Торт смайлик"
+msgstr "торт смайлик"
 
 #. Translators: (*) Star
 msgid "star smiley"
-msgstr "Зірка смайлик"
+msgstr "зірка смайлик"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
