@@ -1,214 +1,173 @@
-# Emoticons (Humørikoner) #
-* Forfattere: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco
-  Javier Estrada Martínez
-* NVDA-kompatibilitet: 2019.3 eller nyere
-* Download [stabil version][1]
-* Download [udviklingsversion][2]
+# Udklipsdesigner (Clip Contents Designer) #
 
-Med dette tilføjelsesprogram vil du få udtalt humørikoner i tekster på en
-mere brugervenlig måde.
+*	Forfattere: Noelia, Abdel.Forfatter: Noelia Ruiz Martinez.
+*	NVDA-kompatibilitet: 2019.3 eller nyere
+*	Download [stabil version][1]
+*	Download [udviklingsversion][2]
 
-F.eks. vil ":)" blive udtalt som "smilende smiley", og NVDA vil også være i
-stand til at genkende og udtale emojis.
+Denne tilføjelse bruges til at tilføje tekst til udklipsholderen, hvilket
+kan være nyttigt, når du vil tilslutte tekstafsnit sammen klar til
+indsætning. Udklipsholderens indhold kan også ryddes og vises i
+gennemsynstilstand.
 
-Du kan udnytte følgende funktioner:
+## Tastaturkommandoer ##
+*	NVDA+Windows+c: Tilføj tekst, Unicode-Braille-tegn, som repræsenterer
+  MathML-objekter, eller den tekststreng, som er blevet markeret med
+  læsemarkøren, til udklipsholderen.
+*	NVDA+Windows+x: Ryd udklipsholderen.
+*	Ikke tildelt: Kopierer til (eller klipper fra) udklipsholderen med
+  mulighed for at blive bedt om en bekræftelse.
+*	Not assigned: Shows the clipboard text as HTML in browse mode, or
+  announces if clipboard is empty or has contents which can't be presented
+  in a browseable message, for instance if files or folders are been copied
+  from Windows Explorer.
+*	Not assigned: Shows the textual clipboard contents as plain text in browse
+  mode, or announces if clipboard is empty or has contents which can't be
+  presented in a browseable message, for instance if files or folders are
+  been copied from Windows Explorer.
 
-## Indsæt humørikon ##
 
-Nogle gange er et billede 1000 ord værd: Brug de nye emoji og lade dine
-venner vide, hvordan du føler, og til at sætte fut i dine chatbeskeder.
+## Clip Contents Designer settings ##
 
-Når du er usikker på tegn for en særlig smiley, giver denne tilføjelse dig
-mulighed for at vælge og indsætte den i din tekst som i en chat.
+This panel is available from NVDA's menu, Preferences submenu, Settings
+dialog.
 
-Press NVDA+I, or from menu Tools -> Emoticons > Insert emoticon, to open a dialog with the provided emoticons or emoji.
+It contains the following controls:
 
-Denne dialog lader dig vælge et humørikon og vise de humørikoner, der
-interesserer dig:
+* Type the string to be used as a separator between contents added to the
+  clipboard: Allows to set a separator which can be used to find the text
+  segments once the entire added text is pasted.
+* Add text before clip data: It's also possible to choose if the added text
+  will be appended or prepended.
+* Select the actions which require previous confirmation: You can choose,
+  for each action available, if it should be performed inmediately or after
+  confirmation. Available actions are: add text, clear clipboard, emulate
+  copy and emulate cut.
+* Request confirmation before performing the selected actions when: You can
+  select if confirmations will be requested always, just if text is
+  contained in the clipboard, or if clipboard is not empty (for example if
+  you've copied a file, not text).
+* Format to show the clipboard text as HTML in browse mode: If you're
+  learning HTML markup language, you may choose Preformatted text in HTML or
+  HTML as shown in a web browser, to have an idea of how your HTML code will
+  be rendered by NVDA in a browser. The difference between preformatted and
+  conventional HTML is that the first option will preserve consecutive
+  spaces and line breaks, and the second one will compact them.  For
+  example, write some HTML tags like h1, h2, li, pre, etc., select and copy
+  the text to clipboard, and use clipContentsDesigner add-on to show the
+  text in a browseable message.
+* Maximum number of characters when showing clipboard text in browse mode:
+  Please, be aware that increasing this limit may produce issues if the
+  clipboard contains large strings of text. The default limit is 100000
+  characters.
 
-*	Et redigeringsfelt lader dig filtrere søgning af de humørikoner, som du
-  ønsker.
-*	Ved brug af et sæt af radioknapper kan du vælge at se kun emoji (alt+E)
-  eller se kun standardhumørikoner (alt+S) eller se alle tilgængelige
-  humørikoner (alt+A).
-*	I listen over humørikoner (Alt+L) kan du se tre kolonner: Disse viser
-  henholdsvis navnet på humørikonet, typen af humørikon (standard eller
-  emoji), og til sidst det pågældende tegn for humørikonet.
+Bemærkninger:
 
-Når du trykker på OK, vil det valge humørikon blive indsat i
-udklipsholderen, klar til at indsætte.
+*	Bekræftelse vil ikke blive anmodet, når en meddelelsesdialog fra NVDA
+  stadig er åben. I disse situationer vil handlingen straks udføres.
+*	Emulate copy and emulate cut commands mean that, when these features are
+  enabled, the add-on will take control of control+c and control+x. This
+  will allow to select if a confirmation should be requested before
+  performing the actions corresponding to these keystrokes.
 
-## Insert symbol ##
+## Changes for 13.0 
+* Fixed an issue in visual layout of the settings panel, thanks to Cyrille
+  Bougot.
+* Improved documentation.
+* Added a Clip Contents Designer category to assign input gestures to all
+  commands available for this add-on.
+* Fixed bugs when using emulate copy in browsers if focus mode is active.
+* You can assign different gestures to show the clipboard textual contents
+  as raw text or formatted in HTML. The Format to show the clipboard text in
+  the settings panel has being modified accordingly, to select the two
+  options available for HTML format.
 
-This dialog allows you to choose one of the symbols available in the
-Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
-box or the arrow keys to select an item from the symbols list. Then, press
-OK and the selected emoji or symbol will be copied to your clipboard, ready
-for pasting.
+## Changes for 12.0
+* Fixed bugs when using emulate copy in applications like LibreOffice
+  Writer.
 
-## Humørikonordbog ##
-
-Tilføjelsespakken til humørikoner lader dig tildele forskellige
-udtaleordbøger ved brug af indstillingsprofiler.
-
-Dette betyder, at du kan oprette eller redigere en bestemt udtaleordbog for
-en særlig indstillingsprofil.
-
-Fra NVDA-menuen>Præferencer>Udtaleordbøger>Emoticons kan du åbne en indstillingsdialog, hvor du kan tilføje eller rette eksisterende humørikoner.
-
-Ved at gemme dine tilpasninger, vil dine nye læseindstillinger kun blive
-anvendt på den indstillingsprofil, som du er i færd med at redigere.
-
-F.eks. ønsker du måske, at NVDA kun udtaler tilpassede humørikoner i
-XXChat-programmet, men ikke i andre chatprogrammer: Du kan gøre dette ved at
-oprette en indstillingsprofil for applikationen XXChat, og derefter tildele
-en udtaleordbog til profilen fra menuen "udtaleordbøger" og ved at vælge
-Emoticons. Se herunder for Emoticons-indstillinger i henhold til
-indstillingsprofiler.
-
-Du kan også eksportere dine tilpassede udtaleordbøger ved at trykke på "Gem
-og eksporter ordbog". Dine ordbøger vil blive gemt i din mappe med din egen
-brugerkonfiguration (user config) for NVDA i undermappen
-speechDicts/emoticons.
-
-Det nøjagtige navn og placering af ordbogsfilen baseres på den redigerede
-indstillingsprofil, og vil blive vist i titlen på dialogen for Emoticons.
-
-## Indstillinger for Emoticons ##
-
-Fra menuen Præferencer>Indstillinger>Emoticons åbnes et panel, hvor du konfigurerer aktivering af dine udtaleordbøger til hver profil.
-
-I indstillingspanelet for Emoticons kan du vælge, om NVDA automatisk skal aktivere udtaleordbøger, når du skifter til den profil du er i færd med at redigere. Som standard er dette slået fra i den normale konfiguration af NVDA og alle dine nyoprettede indstillingsprofiler.
-
-Desuden er det muligt at afgøre, om emojis der genkendes af tilføjelsen skal
-oplyses. Dette kan være nyttigt at bevare symboler, hvis emojis er
-inkluderet i NVDAs konfiguration.
-
-Hvis du ønsker at holde konfigurationsmapperne rene, vil det også være
-muligt i denne dialog at vælge om ubrugte ordbøger (tilhørende
-ikke-eksisterende profiler) skal fjernes fra tilføjelsen når den udlæses.
-
-## Tastaturkommandoer: ##
-
-Disse er de vigtigste kommandoer tilgængelige som standard. Du kan redigere
-dem eller tilføje nye tastetryk for at åbne indstillingspanelet for
-Humørikoner eller dialogen til styrelse af Humørikoner-ordbøger.
-
-* NVDA+e: Skifter mellem at udtale tekst, som den er skrevet, eller med
-  humørikonerne erstattet med den brugervenlige beskrivelse.
-* NVDA+i: Viser en dialog, hvor du kan vælge et humørikon, du vil kopiere.
-* Not assigned: show a dialog to select an NVDA's symbol you want to copy.
-* Ikke tildelt: Åbn et vindue, der viser symbolet, hvor læsemarkøren er
-  placeret, så hele beskrivelsen kan gennemgås i gennemsynstilstand.
-* Ikke tildelt: Åbn et vindue, der viser symbolet, hvor systemmarkøren er
-  placeret, så hele beskrivelsen kan gennemgås i gennemsynstilstand.
-
-Bemærk: I Windows 10 er det også muligt at bruge det indbyggede emoji-panel.
-
-## Changes for 13.0 ##
-
-* Fixed errors in Insert Emoticon dialog.
-* Added a dialog to insert a symbol available in the Punctuation/symbol
-  pronunciation of NVDA.
-
-## Ændringer for 12.0 ##
-
+## Ændringer i 11.0
+* Nu er det muligt at tilføje tekst markeret med læsemarkøren ved hjælp af
+  standardkommandoer for NVDA (NVDA+f9 og NVDA+f10). NVDA+windows+f9 bruges
+  ikke længere til, således tilføjelsen fungerer i overensstemmelse med
+  NVDA+Shift+F9.
 * Kræver NVDA 2019.3 eller nyere.
 
-## Ændringer i 11.0 ##
+## Ændringer i 10.0
+* Rettet en fejl i den dialog, der blev brugt til at vise teksten i
+  udklipsholderen, når dens titel indeholdte ikke-latinske tegn.
+* Rettet en fejl ved brug af emuleringen af klip/kopier og
+  kopieringsfunktioner med et arabisk tastaturlayout. Dette er rettet af
+  Abdel, nu tilføjet som en forfatter.
 
-* Når tilføjelsen opdateres, kopieres ordbøger, der er gemt i den forrige
-  version af tilføjelsen automatisk til den nye version, medmindre du
-  foretrækker at importere ordbøger, der er gemt i NVDAs hovedordbøger.
-* Når symbolet, der viser hvor systemmarkøren eller gennemsynsmarkøren er
-  placeret, bruges ordene Tegn og erstatning til at skelne mellem selve
-  symbolet og dets beskrivelse i gennemsynstilstand, hvilket er nyttigt for
-  brugere af tale.
+## Ændringer for 9.0
 
-## Ændringer for 10.0 ##
+* Tilføjet mulighed for at vise udklipsholderens aktuelle tekstindhold i
+  gennemsynstilstand.
+* Tilføjet en mulighed for at vælge, om der skal kræves bekræftelse, hvis
+  udklipsholderen ikke er tom, hvis der f.eks. Er kopieret filer eller
+  mapper.
+* Kræver NVDA 2018.4 eller nyere.
 
-* Tilføjede kommandoer for at vise symbolet, hvor system- eller læsemarkøren
-  er placeret. Kommandoer for disse kan tildeles fra dialogboksen
-  Inputbevægelser, kategorien Tekstlæsning.
+## Ændringer i 8.0 ##
 
-## Ændringer for 9.0 ##
-
-* Tilføjet muligheden for at vælge, om emojis genkendt af tilføjelsen skal
-  oplyses.
-* Brugt passende kodning for ordbognavne, retttede  fejl, når de indeholder
-  bestemte tegn.
-* Den oversatte beskrivelse af tilføjelsen bruges korrekt til titlen, der
-  præsenteres i tilføjelseshjælp, tilgængelig fra styringen af
-  tilføjelsespakker.
-* Tilføjet en bemærkning der nævner emoji-panelet tilgængeligt i Windows 10.
-
-## ændringer i 8.0 ##
-
-* Kompatibel med NVDA 2018.3 eller nyere (påkrævet).
-
-## Ændringer i7.0 ##
-
-* Dialogboksen med indstillinger for aktivering er blevet flyttet til et
-  panel i NVDAs indstillinger, således den aktuelle profil vil blive vist i
-  titlen på indstillingsdialogen.
-* Menuen til håndtering af humørikoner er blevet fjernet. Nu kan du finde
-  "Indsæt humørikon" under menuen Værktøjer, og "Tilpas humørikoner" vil
-  blive vist under "Udtaleordbøger" ligesom humørikoner-ordbøger.
+* Tilføjelsens indstillinger vises i den tilsvarende kategori NVDA
+  indstillinger i dialogboksen.
 * Kræver NVDA 2018.2 eller nyere.
-* Hvis nødvendigt, kan du hente [den sidste version kompatibel med NVDA
+* Hvis nødvendigt, kan du hente [sidste version kompatibel med NVDA
   2017.3][3].
 
-## Ændringer i6.0 ##
+## Ændringer i7.0
 
-* Tilføjede understøttelse for indstillingsprofiler.
-* I NVDA 2017.4 og nyere, vil konfigurationsindstillinger samt tilppassede
-  ordbøger ændre sig, afhængigt af hvilken indstillingsprofil der er
-  aktiv. I NVDA 2017.3 kan du anvende ændringer ved at genindlæse plug-ins
-  ved brug af NVDA+Ctrl+F3.
-* Hvis du vælger at importere indstillinger, når du opdaterer tilføjelse,
-  vil forældede filer (emoticons.ini og emoticons.dic) blive fjernet eller
-  tilpasset til denne version.
+* Hvis du vælger "nej" i dialogen, hvor du kan konfigurere funktionaliteten
+  til at emulere kopi og klip under installationen, vil kommandoerne for
+  disse funktioner blive deaktiveret. Dette gendanner den sædvanlige adfærd
+  for Ctrl+C og Ctrl+X.
 
-## Ændringer i6.0 ##
+## ændringer i 6.0
 
-* Tilføjet understøttelse af emojis.
-* Forbedringer for Indsæt humørikon dialog med et felt til filtrering af
-  humørikoner og radioknapper til at vælge viste humørikoner.
-* Benytter GuiHelper for dialogen til aktiveringsindstillinger og "Indsæt
-  humørikoner". Dette kræver NVDA 2016.4 og nyere versioner.
+*	 Tilføjede indstilling der lader dig vælge, om tilgængelige handlinger skal bekræftes, før de udføres.
+*	 Tilføjede tastetryk for emuler kopi og emuler klip, der kan tildeles under dialogen "Inputbevægelser".
+*	 Tilføjede en dialog, der lader dig konfigure emuler klip og emuler klip under installationen. Dette tilføjer handlingerne Kopi og Klip til kommandoerne Ctrl+C og Ctrl+X, og spørger om du vil erstatte udklipsholderens indhold, når du benytter disse taster.
+*	 rettede dokumentation for script_add (Windows+NVDA+c).
 
-## Ændringer i4.0 ##
+## ændringer i 5.0 ##
 
-* Hvis du åbner dialogen "Indsæt smiley",mens en anden indstillingsdialog er
-  åben, vil NVDA vise en tilsvarende fejlmeddelelse.
+*	Dialogens visuelle præsentation er blevet forbedret og overholder
+  udseendet af de dialoger, der vises i NVDA.
+*	Kræver NVDA 2016.4 eller nyere.
 
+## Ændringer i 4.0 ##
+*	Tilføjelsesindstillinger administreres fra NVDA-konfiguration, så
+  standardprofiler kan bruges til at gemme forskellige separatorer, og det
+  er ikke nødvendigt at kopiere indstillingerne til import ved
+  geninstallation.
+*	Nu er det muligt at vælge, om den tilføjede tekst vil blive tilføjet til
+  begyndelsen eller slutningen, ved at markere checkboksen "Tilføj tekst før
+  data i udklipsholder" i dialogen Indstillinger for udklipsdesigner.
 
-## Ændringer i 3.0 ##
+## ændringer i 3.0 ##
+*	Punktskriftrepræsentation af MathML-objekter kan tilføjes til
+  udklipsholderen, hvis MathPlayer er installeret.
+*	Hvis der ikke er indstillet nogen separator, vil der blot blive indsat en
+  enkelt linje mellem de tilføjede tekstsegmenter.
+*	Der kan knyttes en genvejstast til at åbne dialogen Indstillinger for
+  Udklipsdesigner.
+*	Tilføjede en checkboks i dialogen Indstillinger til at vælge, om
+  separatoren skal kopieres, så den kan importeres, når
+  tilføjelsesprogrammet bliver geninstalleret.
 
-* I dialogen til tilpasning af humørikoner er det nu muligt at specificere,
-  at et mønster kun skal matche, hvis der er tale om et helt ord i
-  overensstemmelse med udtaleordbøgerne i NVDA 2014.4.
+## ændringer i 2.0 ##
+*	Hindi-tegn kan nu bruges som separator mellem tilføjet indhold.
 
-
-## Ændringer i 2.0 ##
-
-* Hjælp til tilføjelsesprogram er til rådighed fra styring af
-  tilføjelsesprogrammer.
-
-
-## Ændringer i 1.1 ##
-
-* Fjernet dobbelt humørikon.
-* Tilføjede nogle smileys.
-
-## Ændringer i 1.0 ##
-
-* Første version.
+## ændringer i 1.0 ##
+*	Første version.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=ccd
 
-[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=ccd-dev
 
-[3]: https://addons.nvda-project.org/files/get.php?file=emo-o
+[3]: https://addons.nvda-project.org/files/get.php?file=ccd-o[1]:
+https://addons.nvda-project.org/files/get.php?file=ccd

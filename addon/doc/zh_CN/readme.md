@@ -1,155 +1,141 @@
-# 表情符号插件 #
-* 作者：Chris Leo，NoeliaRuizMartínez，Mesar Hameed，Francisco
-  JavierEstradaMartínez
-* NVDA兼容版本: 2019.3或更高版本
-* 下载[稳定版][1]
-* 下载[开发版][2]
+# 剪辑内容设计器 #
 
-启用表情名称朗读来代替原字符朗读。
+*	作者: Noelia, Abdel。
+*	NVDA兼容版本: 2019.3或更高
+*	下载 [稳定版][1]
+*	下载 [开发板][2]
 
-例如：序列“:)”将被称为“微笑表情”，或者例如NVDA将识别每个表情符号的正确含意。
+此插件用于向剪贴板添加文本，当您希望将文本部分连接在一起以准备粘贴时，这可能很有用。剪贴板内容也可以清除或者用浏览模式逐字逐句查看。
 
-您可以利用以下功能：
+## 键盘快捷键 ##
+*	NVDA+windows+c: 将选定的文本，表示MathML对象的Unicode盲文字符或已使用浏览光标标记的字符串添加到剪贴板.
+*	NVDA+windows+x: 清除剪贴板内容.
+*	未分配：复制到剪贴板（或从剪贴板剪切），并跳出确认框。
+*	Not assigned: Shows the clipboard text as HTML in browse mode, or
+  announces if clipboard is empty or has contents which can't be presented
+  in a browseable message, for instance if files or folders are been copied
+  from Windows Explorer.
+*	Not assigned: Shows the textual clipboard contents as plain text in browse
+  mode, or announces if clipboard is empty or has contents which can't be
+  presented in a browseable message, for instance if files or folders are
+  been copied from Windows Explorer.
 
-## 插入表情 ##
 
-有时一张图片胜过千言万语：使用表情符号来加入到你的即时消息并让你的朋友知道你现在的想法吧。
+## Clip Contents Designer settings ##
 
-如果您不确定特定表情的字符，可以使用此插件选择并将其插入到你的文本，例如聊天编辑框。
+This panel is available from NVDA's menu, Preferences submenu, Settings
+dialog.
 
-按NVDA+I键，或从菜单工具->表情符号>插入表情符号，打开提供表情符号或表情符号的对话框。
+It contains the following controls:
 
-此对话框允许您选择表情符号并浏览您感兴趣的表情符号：
+* Type the string to be used as a separator between contents added to the
+  clipboard: Allows to set a separator which can be used to find the text
+  segments once the entire added text is pasted.
+* Add text before clip data: It's also possible to choose if the added text
+  will be appended or prepended.
+* Select the actions which require previous confirmation: You can choose,
+  for each action available, if it should be performed inmediately or after
+  confirmation. Available actions are: add text, clear clipboard, emulate
+  copy and emulate cut.
+* Request confirmation before performing the selected actions when: You can
+  select if confirmations will be requested always, just if text is
+  contained in the clipboard, or if clipboard is not empty (for example if
+  you've copied a file, not text).
+* Format to show the clipboard text as HTML in browse mode: If you're
+  learning HTML markup language, you may choose Preformatted text in HTML or
+  HTML as shown in a web browser, to have an idea of how your HTML code will
+  be rendered by NVDA in a browser. The difference between preformatted and
+  conventional HTML is that the first option will preserve consecutive
+  spaces and line breaks, and the second one will compact them.  For
+  example, write some HTML tags like h1, h2, li, pre, etc., select and copy
+  the text to clipboard, and use clipContentsDesigner add-on to show the
+  text in a browseable message.
+* Maximum number of characters when showing clipboard text in browse mode:
+  Please, be aware that increasing this limit may produce issues if the
+  clipboard contains large strings of text. The default limit is 100000
+  characters.
 
-*	可编辑字段允许您在可用的表情符号中过滤搜索所需表情符号。
-*	通过一组单选按钮，您可以选择仅查看表情符号类别（alt + E）或仅查看标准表情符号类别（alt + s）或查看所有可用的表情符号（alt +
-  A）。
-*	表情符号列表（alt + L）分别显示在三列上：表情符号的名称，表情符号的类型（标准表情符号或表情符号），相应的字符。
+注意:
 
-按确认后，所选表情符号的字符将被复制到剪贴板，准备粘贴。
+*	当NVDA的消息框仍然打开时，将不会请求确认。在这些情况下，将立即执行操作。
+*	Emulate copy and emulate cut commands mean that, when these features are
+  enabled, the add-on will take control of control+c and control+x. This
+  will allow to select if a confirmation should be requested before
+  performing the actions corresponding to these keystrokes.
 
-## 插入符号 ##
+## Changes for 13.0 
+* Fixed an issue in visual layout of the settings panel, thanks to Cyrille
+  Bougot.
+* Improved documentation.
+* Added a Clip Contents Designer category to assign input gestures to all
+  commands available for this add-on.
+* Fixed bugs when using emulate copy in browsers if focus mode is active.
+* You can assign different gestures to show the clipboard textual contents
+  as raw text or formatted in HTML. The Format to show the clipboard text in
+  the settings panel has being modified accordingly, to select the two
+  options available for HTML format.
 
-该对话框允许你在NVDA的标点/符号发音对话框中选择一个可用的符号。你可以使用过滤编辑框或方向键从符号列表中选择一个项目。然后，按 "确定
-"键，所选的表情符号或符号将被复制到剪贴板上，准备粘贴。
+## 版本 12.0
+* 修复了在 LibreOffice Writer 等应用程序中使用模拟复制时的错误。
 
-## 表情词典 ##
-
-表情符号插件允许使用配置文件使用不同的语音词典。
-
-这意味着您可以为每个自定义配置文件创建或编辑特定的语音字典。
-
-从NVDA菜单，首选项 - >语音词典 - >表情词典，您可以打开一个对话框来添加或编辑可用的表情。
-
-保存自定义项，表情符号的新阅读设置仅适用于您当前正在编辑的配置文件。
-
-例如，您可能希望NVDA仅在XxChat程序中使用自定义表情符号，而不是在其他聊天程序中：您可以通过为XxChat应用程序创建配置文件并从语音词典菜单中分配语音词典，表情符号词典选项来完成此操作。请参阅下面有关配置配置文件的表情符号设置。
-
-您还可以按“保存并导出词典”按钮导出每个自定义语音词典：这样您的语音词典将保存在您的用户配置文件夹，speechDicts /
-emoticons子文件夹中。
-
-字典文件的确切名称和位置将基于编辑配置配置文件，该配置文件将显示在“表情符号”字典对话框的标题中。
-
-## 表情符号设置 ##
-
-从菜单首选项 - >设置 - >表情符号打开一个面板，为每个配置文件配置语音词典的激活。
-
-在“表情符号设置”面板中，您可以选择在NVDA切换到当前正在编辑的配置文件时是否应自动激活语音字典。默认情况下，它在NVDA的正常配置和所有新配置文件中都被禁用。
-
-此外, 还可以确定是否应该读出插件内的表情。如果在 NVDA 的配置中包含表情符号, 这可能会很有用。
-
-如果您可能希望保持清洁配置目录，则在此对话框中还可以选择是否在卸载时从插件中删除未使用的字典（与非现有配置文件关联）。
-
-## 快捷键： ##
-
-这些是默认情况下可用的常见快捷键，您可以编辑这些快捷键或添加新键以打开“表情符号”设置面板或“表情词典”对话框：
-
-* NVDA + E：开启/关闭表情符号朗读。
-* NVDA + I：显示对话框，用于选择要复制的表情。
-* 未分配：显示一个对话框来选择你要复制的NVDA的符号。
-* 未分配: 打开显示浏览光标所在位置的符号的可浏览消息, 以便可以在浏览模式下浏览整个描述。
-* 未分配: 打开显示插入符号所在位置的符号的可浏览消息, 以便可以在浏览模式下查看整个描述。
-
-注意：在Windows 10上，也可以使用内置表情符号面板。
-
-## 13.0更新日志 ##
-
-* 修正了插入表情符号对话框中的错误。
-* 在NVDA的标点符号/符号发音中增加了一个插入可用符号的对话框。
-
-## 版本 12.0 ##
-
+## 版本11.0
+* 现在可以使用 NVDA （NVDA_f9 和 NVDA_f10） 的标准命令添加带有浏览光标标记的文本。NVDA_windows_f9
+  不再使用，以便更好地与新的 NVDA_shift_f9 命令集成。
 * 需要NVDA 2019.3或更高版本。
 
-## 版本 11.0 ##
+## 版本10.0
+* 修复了用于显示剪贴板文本的对话框中的错误，当其标题包含非拉丁字符时。
+* 修复阿拉伯语键盘使用剪辑内容设计器的错误。已由Abdel修复，有插件作者添加。
 
-* 更新插件后，保存在以前版本插件中的词典将自动复制到新版本，除非您更喜欢导入保存在NVDA主词典文件夹中的词典。
-* 当显示插入符号或浏览光标所在的符号时，单词Character和Replacement用于区分符号本身及其在浏览模式下的描述，对语音用户有用。
+## 版本9.0
 
-## 10.0更新日志 ##
+* 新增了在浏览模式下显示剪贴板文本的功能。
+* 添加了一个选项，用于选择在剪贴板不为空时追加内容时是否需要确认，例如，剪贴板里面已有复制的文件或文件夹。
+* 需要NVDA 2018.4或更高版本。
 
-* 添加了命令, 以显示浏览光标或插入符号所在的符号。可以从 "输入手势" 对话框 "文本浏览分类分配这些命令的手势。
+## 版本8.0 ##
 
-## 9.0更新日志 ##
+* 插件设置显示在NVDA设置对话框的相应类别中。
+* 需要NVDA 2018.2或更高版本。
+* 假如需要用旧版本，您可以下载[与NVDA 2017.3兼容的旧版本] [3]。
 
-* 新增选择是否应该朗读插件内的表情。
-* 对字典名称使用适当的编码, 在错误包含某些字符时修复错误。
-* 插件的翻译摘要被正确地用于插件帮助中提供的标题, 可从插件管理器访问。
-* 添加了一个提示, 其中提到了 Windows 10 上提供的表情符号面板。
+## 版本7.0
 
-## 8.0更新日志 ##
+* 在安装时配置模拟复制和模拟剪切功能的对话框中，如果选择否，将删除这些功能的命令，以便您可以恢复control + c和control +
+  x的正常行为。
 
-* 兼容NVDA 2018.3或更高版本（必需）。
+## 版本6.0
 
-## 7.0更新日志 ##
+*	 添加选项以选择是否应在确认后执行可用操作.
+*	添加了“模拟复制”和“模拟剪切”快捷键，可以从“输入”手势对话框中指定.
+*	 添加了一个对话框，用于在安装时配置模拟复制和模拟剪切功能。这允许添加control + c和control + x命令进行复制和剪切，并在按下这些按键时询问是否要替换剪贴板内容.
+*	Fixed documentation for script_add (Windows+NVDA+c).
 
-* 激活设置对话框已移至NVDA设置，现在配置文件将显示在NVDA设置对话框的标题中。
-* 管理表情符号菜单已被删除：现在可以在“工具”菜单下找到“插入表情符号”，“自定义表情符号”将显示在“表情词典”下的“语音词典”中。
-* 现在需要NVDA 2018.2或更高版本。
-* 如果需要使用旧版本，您可以下载[与NVDA 2017.3兼容的最新版本] [3]。
+## 版本5.0 ##
 
-## 6.0更新日志 ##
+*	对话框的视觉呈现得到了增强，并且遵循NVDA中显示的对话框的外观。
+*	需要NVDA 2016.4或更高版本。
 
-* 添加了对配置文件的支持。
-* 在NVDA
-  2017.4或更高版本中，配置设置和自定义词典将根据所选配置文件自动更改。在2017.3或更早版本中，您可以通过重新加载插件来应用更改（按下ctrl+
-  NVDA + f3）。
-* 如果您在更新插件时选择导入设置，则会删除或已弃用此版本的（emoticons.ini和emoticons.dic）文件。
+## 版本4.0 ##
+*	插件设置由NVDA配置管理，因此标准配置文件可用于保存不同的分隔符，并且不需要在重新安装时复制导入设置。
+*	现在，可以使用“剪辑内容设计器”设置对话框中的“添加剪辑前数据”复选框，选择是添加还是添加文本。
 
-## 5.0更新日志 ##
+## 版本3.0 ##
+*	如果安装了MathPlayer，则可以将MathML对象的盲文表示添加到剪贴板。
+*	如果未设置分隔符，则只会在添加的文本段之间放置一行。
+*	可以指定快捷键来打开“剪辑内容设计器”设置对话框。
+*	在设置对话框中添加了一个复选框，用于选择是否应复制分隔符以在重新安装插件时导入。
 
-* 添加了对表情符号的支持。
-* Insert Emoticon对话框的改进，带有过滤器字段和单选按钮，用于选择显示的表情符号。
-* 使用guiHelper激活设置对话框和插入表情符号对话框：需要NVDA 2016.4或更高版本
+## 版本2.0 ##
+*	印地语字符可以用作添加内容之间的分隔符。
 
-## 4.0更新日志 ##
-
-* 如果在另一个设置对话框处于活动状态时打开了“插入表情”对话框，NVDA将显示相应的错误消息。
-
-
-## 3.0更新日志 ##
-
-* 根据NVDA 2014.4的语音词典，在“自定义表情符号”对话框中，现在可以指定模式只应匹配，如果它是一个完整的单词。
-
-
-## 2.0更新日志 ##
-
-* 插件管理器现在提供了插件帮助。
-
-
-## 1.1更新日志 ##
-
-* 删除了重复的表情符号。
-* 添加了一些表情。
-
-## 1.0更新日志 ##
-
-* 发布初始版本。
+## 版本1.0 ##
+*	发布初始版本。
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=ccd
 
-[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=ccd-dev
 
-[3]: https://addons.nvda-project.org/files/get.php?file=emo-o
+[3]: https://addons.nvda-project.org/files/get.php?file=ccd-o

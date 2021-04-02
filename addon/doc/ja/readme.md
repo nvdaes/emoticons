@@ -1,104 +1,69 @@
-# Emoticons #
+# Clip Contents Designer #
 
-* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
-  Estrada Martínez
-* ダウンロード [安定版][1]
-* ダウンロード [開発版][2]
+*	作者: Noelia Ruiz Martínez
+*	ダウンロード [安定版][1]
+*	ダウンロード [開発版][2]
 
-Using this add-on, spoken text containing emoticon characters will be
-replaced by its more human friendly description.
+このアドオンは、クリップボードにテキストを追加するのに使用します。貼り付け前に複数のテキスト部分を結合したい時に便利です。クリップボードの内容を消去することもできます。
 
-For example: the sequence ":)" will be spoken as "smiling smiley", or for
-example NVDA will recognize the meaning of each emoji.
+## キー操作: ##
+*	NVDA+windows+c: Add selected text, Unicode braille characters which
+  represent MathML objects, or the string which has been marked with the
+  review cursor, to the clipboard.
+*	NVDA+Windows+x: クリップボードの内容を消去します。
+*	NVDA+windows+f9: Mark the current position of the review cursor as the start of the text to be added to the clipboard. If you use nvda+F9, the text will not be added.
+*	 Not assigned: Copies to (or cuts from) the clipboard, with the possibility of being asked for a previous confirmation.
 
-次のような機能があります:
+注: 上記のコマンドは、NVDAメニュー、設定サブメニュー、入力ジェスチャーダイアログ、テキストレビューカテゴリから変更できます。
 
-## Insert Emoticon ##
+## 設定サブメニュー ##
+*	Clip Contents Designer settings: Allows to set a separator which can be used to find the text segments once the entire added text is pasted.
+It's also possible to choose if the added text will be appended or prepended, if available actions (add, clear clipboard, emulate copy and emulate cut) should be performed inmediately or after confirmation, and if confirmations will be requested just if text is contained in the clipboard.
 
-Sometimes an image is worth a 1000 words: use the new emoji to liven up your
-instant message and to let your friends know how you’re feeling.
+Notes:
 
-When you are unsure of the characters for a particular smiley, this addon
-enables you to select and insert it into your text such as in a chat.
+*	The above command can be changed from NVDA menu, Preferences submenu,
+  Input gestures dialog, Configuration category.
+*	Confirmations won't be requested when a message box of NVDA is still
+  opened. In those cases, actions will be inmediately performed
 
-Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
+## Changes for 6.0
 
-This dialog allows you to choose an emoticon and to view the emoticons that
-interest you:
-
-*	An editable field allows you to filter the search for the desired emoticon
-  among the emoticons available.
-*	Through a set of radio buttons, you can choose to view only emoji category
-  (alt+E) or view only standard emoticon category (alt+s) or view all
-  emoticons available (alt+A).
-*	In the list of emoticons (alt+L) are displayed on three columns
-  respectively: the name of emoticon, the type of emoticon (standard
-  emoticon or emoji), the corresponding character.
-
-When you press OK, the characters for the chosen emoticon will be copied to
-your clipboard, ready for pasting.
-
-## エモーティコンの編集 ##
-
-From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can open a dialog setting to add or to edit available emoticons.
-
-This dialog allows you to save an emoticons speech dictionary with your
-customizations.
-
-「辞書を保存してエクスポート」ボタンを押すと、NVDAユーザー設定フォルダーの speechDicts サブフォルダーにファイル名
-emoticons.dic で保存されます。
-
-## 設定の有効化 ##
-
-From menu Preferences -> Manage Emoticons -> Activation settings, you can choose whether to Activate speaking of emoticons when starting NVDA. By default it is disabled.
-
-It is also possible to save your choice for this setting.
-
-## キーコマンド: ##
-
-These are the key command available by default, you can edit those or add
-new key to open Activation settings dialog or Emoticon Dictionary dialog:
-
-* NVDA+E: speaching emoticons on/off, toggles between speaking text as it is
-  written, or with the emoticons replaced by the human description.
-* NVDA+I: show a dialog to select an emoticon you want to copy.
-
+*	 Added options to choose if available actions should be performed after confirmation.
+*	Added Emulate copy and Emulate cut commands, which could be assigned from the Input gestures dialog.
+*	 Added a dialog to configure the Emulate copy and Emulate cut functionalities at installation. This allows to add the control+c and control+x commands to copy and cut, and be asked if you want to replace the clipboard contents when pressing these keystrokes.
+*	Fixed documentation for script_add (Windows+NVDA+c).
 
 ## Changes for 5.0 ##
 
-* Added support for emojis.
-* Improvements for Insert Emoticon dialog with a filter field and radio
-  buttons to choose displayed emoticons.
-* Using guiHelper for Activation settings dialog and Insert Emoticon dialog:
-  requires NVDA 2016.4 or higher versions
+*	The visual presentation of the dialog has been enhanced, adhering to the
+  appearance of the dialogs shown in NVDA.
+*	Requires NVDA 2016.4 or later.
 
-## 4.0 での変更点 ##
+## Changes for 4.0 ##
+*	Add-on settings are managed from NVDA configuration, so that standard
+  profiles can be used to save different separators, and it's not needed to
+  copy the settings for importing at reinstallation.
+*	Now it's possible to choose if the added text will be appended or
+  prepended, using the Add text before clip data check box from the Clip
+  Contents Designer settings dialog.
 
-* 他の設定ダイアログが開いている状態で「顔文字の挿入」ダイアログを開くとエラーメッセージが表示されるようになりました。
+## 3.0の変更点 ##
+*	Braille representation of MathML objects can be added to the clipboard if
+  MathPlayer is installed.
+*	If no separator is set, just a single line will be placed between the
+  added text segments.
+*	Clip Contents Designer 設定ダイアログを開くショートカットを割り当て可能
+*	設定ダイアログに、このアドオンの再インストールの際にインポートされるように、このセパレータをコピーするかどうかを選択するチェックボックスを追加
 
+## 2.0の変更点 ##
+*	Hindi characters can be used as the separator between added contents.
 
-## 3.0 での変更点 ##
-
-* エモーティコンの編集ダイアログにおいて、パターンを単語全体にだけ適用するかどうかを指定できるようになりました。これは NVDA 2014.4
-  の読み上げ辞書で追加された機能です。
-
-
-## 2.0 での変更点 ##
-
-* アドオンマネージャーからアドオンのヘルプが利用できるようになりました。
-
-
-## 1.1 の変更点 ##
-
-* 重複したエモーティコンを消去しました。
-* 顔文字を追加しました。
-
-## 1.0 での変更点 ##
-
-* 最初のバージョンです。
+## バージョン1.0 ##
+*	最初のバージョン
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=emo
+[1]: http://addons.nvda-project.org/files/get.php?file=ccd
 
-[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: http://addons.nvda-project.org/files/get.php?file=ccd-dev
