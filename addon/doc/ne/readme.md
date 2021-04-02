@@ -1,63 +1,77 @@
-# क्लिप सामाग्री नमुनाकार #
+# Emoticons #
 
-*	लेखकहरू: नोलिया रुइज्
-*	[स्थीर संस्करण][1] को अनुबहन
-*	[विकास संस्करण][2] को अनुबहन
+* लेखकहरू: क्रिस लियो, नोलिया रुईमार्टानेज, मेसर हमिद
+* Download [स्थीर संस्करण][1]
+* Download [विकास संस्करण][2]
 
-This add-on is used to add text to the clipboard, which can be useful when
-you want to join sections of text together ready for pasting.  The clipboard
-content can also be cleared.
+Using this add-on, spoken text containing emoticon characters will be
+replaced by its more human friendly description.  86 emoticons are defined.
 
-## कुञ्जीपाटी आदेश ##
-*	NVDA+windows+c: Add selected text, Unicode braille characters which
-  represent MathML objects, or the string which has been marked with the
-  review cursor, to the clipboard.
-*	नेत्रवाणी+windows+x: क्लिपमा रहेका सामाग्रिलाई मेटाउ ।
-*	NVDA+windows+f9: Mark the current position of the review cursor as the start of the text to be added to the clipboard.
-    If you use nvda+F9, the text will not be added.
+उदाहरणका लागि: ":)" जस्तै "मुस्कान smiley बोलिन्छ ", अथवा  ":D" बोलिन्छ
+जस्तै "हाँसो मुस्कान"
 
-टिप्पणी: उपरोक्त आदेशहरूलाई नेत्रवाणी मेनु, प्राथमिकताहरू उप-मेनु,लगानी
-सङ्केत पातोमा  रहेको पाठ समिक्षा वर्गीकरणमा गएर परिवर्तन गर्न सकिन्छ ।
+तपाइले निम्न सुविधाहरू बाट  फाइदा लिन सक्नु हुन्छ ।
 
-## प्राथमिकता मेनु ##
-*	Clip Contents Designer settings: Allows to set a separator which can be used to find the text segments once the entire added text is pasted.
-It's also possible to choose if the added text will be appended or prepended.
+## मुस्कान घुसाउनु होस्  ##
 
-Note: The above command can be changed from NVDA menu, Preferences submenu,
-Input gestures dialog, Configuration category.
+When you are unsure of the characters for a particular smiley, this addon enables you to select and insert it into your text such as in a chat.
+Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert smiley, to open a dialog 
+with the provided smilies.
+When you press OK, the characters for the chosen smiley will be copied to your clipboard, ready for pasting.
 
-## Changes for 5.0 ##
 
-*	The visual presentation of the dialog has been enhanced, adhering to the
-  appearance of the dialogs shown in NVDA.
-*	Requires NVDA 2016.4 or later.
+## इमोटिकनको अनुकूलन ##
+
+नेत्रवाणी मेनुभित्र रहेको प्राथमिकताहरू-> इमोटिकनको व्यबस्थापन-> इमोटिकनको अनुकूलन भन्ने पातोबाट तपाइले इमोटिकनलाई  थप गर्ने वा हटाउने जस्ता अनुकूलन कार्य गर्न सक्नु हुन्छ ।
+यो पातोले तपाइलाई आफ्नो अनुकूलन अनुसारको इमोटिकन वाचन भण्डार बचत गर्ने अनुमति प्रदान गर्ने छ ।
+
+Pressing "Save and export dictionary" button, a file dictionary named
+emoticons.dic will be saved in your user config folder, speechDicts
+subfolder.
+
+
+## सक्रियता अनुकूलन ##
+
+You can choose whether to Activate speaking of emoticons when starting
+NVDA. By default it is disabled.  It is also possible to save your choice
+for this setting.
+
+## कुञ्जी आदेस: ##
+
+*	नेत्रवाणी+E: पाठ वाचन र लेखिए अनुसार साटोफेरो हुन्छ  , अथवा इमोटिकनलाई
+  मानविय विवरण अनुसार प्रतिस्थापन गरिन्छ ।
+*	नेत्रवाणी+I: तपाइले चाहेको मुस्कान टास्ने पातो देखाउँछ ।
+
 
 ## Changes for 4.0 ##
-*	Add-on settings are managed from NVDA configuration, so that standard
-  profiles can be used to save different separators, and it's not needed to
-  copy the settings for importing at reinstallation.
-*	Now it's possible to choose if the added text will be appended or
-  prepended, using the Add text before clip data check box from the Clip
-  Contents Designer settings dialog.
+
+* If the Insert smiley dialog is opened when another settings dialog is
+  active, NVDA will show the corresponding error message.
+
 
 ## Changes for 3.0 ##
-*	Braille representation of MathML objects can be added to the clipboard if
-  MathPlayer is installed.
-*	If no separator is set, just a single line will be placed between the
-  added text segments.
-*	A shortcut can be assigned to open the Clip Contents Designer settings
-  dialog.
-*	Added a check box in the settings dialog, for choosing if the separator
-  should be copied to be imported when reinstalling the add-on.
 
-## २.० संस्करणमा गरिएका परिवर्तनहरू ##
-*	Hindi characters can be used as the separator between added contents.
+* In the Customize emoticons dialog, it is now possible to specify that a
+  pattern should only match if it is a whole word, according to speech
+  dictionaries of NVDA 2014.4.
+
+
+## Changes for 2.0 ##
+
+* Add-on help is available from the Add-ons Manager.
+
+
+## Changes for 1.1 ##
+
+* Removed duplicated emoticon.
+* Added some smileys.
 
 ## १.० मा गरिएका परिवर्तनहरू ##
-*	सुरुको संस्करण
+
+* सुरुको संस्करण
 
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=ccd
+[1]: http://addons.nvda-project.org/files/get.php?file=emo
 
-[2]: http://addons.nvda-project.org/files/get.php?file=ccd-dev
+[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev

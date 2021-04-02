@@ -1,185 +1,226 @@
-# Designer für die Zwischenablage #
+# Emoticons #
+* Autoren: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+  Estrada Martínez
+* NVDA-Kompatibilität: 2019.3 oder neuer
+* [Stabile Version herunterladen][1]
+* [Entwicklerversion herunterladen][2]
 
-*	Autoren: Noelia, Abdel.
-*	NVDA-Kompatibilität: 2019.3 oder neuer
-*	[Stabile Version herunterladen][1]
-*	[Entwicklerversion herunterladen][2]
+Diese Erweiterung ersetzt Emoticons durch besser verständliche
+Beschreibungen.
 
-Diese Erweiterung kann verwendet werden, um Text zur Zwischenablage
-hinzuzufügen. Dies kann beispielsweise beim Zusammenfügen von verschiedenen
-Textabschnitten nützlich sein. Der Inhalt der Zwischenablage kann auch
-gelöscht werden.
+So wird beispielsweise: ":)" als "Lächelndes Gesicht" oder ":D" als
+"Lachendes Gesicht" ausgesprochen.
 
-## Tastenkombinationen ##
-*	NVDA+Windows+C: Fügt den ausgewählten Text, MathML-Objekte als
-  Unicode-Punktschriftzeichen oder die Zeichenkette, die mit dem Lese-Cursor
-  markiert wurde, in die Zwischenablage hinzu.
-*	NVDA+windows+X: Löscht die Zwischenablage.
-*	Nicht zugeordnet: Kopieren (oder Ausschneiden) in die Zwischenablage, mit
-  der Möglichkeit, um eine vorherige Bestätigung gebeten zu werden.
-*	Nicht zugewiesen: Zeigt den Text der Zwischenablage im Lesemodus als HTML
-  an oder gibt an, ob die Zwischenablage leer ist oder Inhalte enthält, die
-  nicht in einer durchsuchbaren Nachricht angezeigt werden können,
-  z. B. wenn Dateien oder Ordner aus dem Windows Explorer kopiert wurden.
-*	Nicht zugewiesen: Zeigt den Inhalt der Text-Zwischenablage im Lesemodus
-  als einfachen Text an oder gibt an, ob die Zwischenablage leer ist oder
-  Inhalte enthält, die nicht in einer durchsuchbaren Nachricht angezeigt
-  werden können, z. B. wenn Dateien oder Ordner aus dem Windows Explorer
-  kopiert wurden.
+Diese Erweiterung bietet folgende Funktionen:
 
+## Emoticon einfügen ##
 
-## Einstellungen für Clip Content Designer ##
+Manchmal sagt ein Bild mehr als 1000 Worte: Sie können die neuen Emojis in
+Ihren Nachrichten einfügen und Ihren Freunden dadurch zeigen, wie Sie sich
+fühlen.
 
-Der obige Befehl kann im NVDA-Menü unter Einstellungen -> Tastenbefehle in
-der Kategorie "Konfiguration" geändert werden.
+Wenn Sie sich unsicher sind, welche Zeichen für ein bestimmtes Smiley
+verwendet werden, können Sie dieses Smiley mit Hilfe der Erweiterung
+auswählen und es in Ihren Text einfügen.
 
-Es enthält die folgenden Tastenkombinationen:
+Drücken Sie NVDA+I oder über das Menü Extras -> Emoticons -> Emoticon einfügen, um einen Dialog mit den bereitgestellten Emoticons oder Emoji zu öffnen. \ N.
 
-* Geben Sie die Zeichenfolge ein, die als Trennzeichen zwischen Inhalten
-  verwendet werden soll, die der Zwischenablage hinzugefügt wurden:
-  Ermöglicht das Festlegen eines Trennzeichens, mit dem die Textsegmente
-  gefunden werden können, sobald der gesamte hinzugefügte Text eingefügt
-  wurde.
-* Text vor Daten der Zwischenablage hinzufügen: Sie können auch auswählen,
-  ob der hinzugefügte Text angehängt oder vorangestellt werden soll.
-* Wählen Sie die Aktionen aus, für die eine vorherige Bestätigung
-  erforderlich ist: Sie können für jede verfügbare Aktion auswählen, ob sie
-  sofort oder nach der Bestätigung ausgeführt werden soll. Verfügbare
-  Aktionen sind: Text hinzufügen, Zwischenablage löschen, Kopie emulieren
-  und Schnitt emulieren.
-* Fordern Sie eine Bestätigung an, bevor Sie die ausgewählten Aktionen
-  ausführen, wenn: Sie auswählen können, ob immer Bestätigungen angefordert
-  werden sollen, nur wenn Text in der Zwischenablage enthalten ist oder wenn
-  die Zwischenablage nicht leer ist (z. B. wenn Sie eine Datei kopiert
-  haben, keinen Text).
-* Formatieren, um den Text in der Zwischenablage im Suchmodus als HTML
-  anzuzeigen: Wenn Sie die HTML-Auszeichnungssprache lernen, können Sie
-  vorformatierten Text in HTML oder HTML auswählen, wie in einem Webbrowser
-  angezeigt, um eine Vorstellung davon zu erhalten, wie Ihr HTML-Code von
-  gerendert wird NVDA in einem Browser. Der Unterschied zwischen
-  vorformatiertem und herkömmlichem HTML besteht darin, dass bei der ersten
-  Option aufeinanderfolgende Leerzeichen und Zeilenumbrüche beibehalten und
-  bei der zweiten Option komprimiert werden. Schreiben Sie beispielsweise
-  einige HTML-Tags wie h1, h2, li, pre usw., wählen Sie den Text aus und
-  kopieren Sie ihn in die Zwischenablage. Verwenden Sie die Erweiterung, um
-  den Text in einer durchsuchbaren Nachricht anzuzeigen.
-* Maximale Anzahl von Zeichen beim Anzeigen von Text in der Zwischenablage
-  im Lesemodus: Beachten Sie, dass das Erhöhen dieser Grenze zu Problemen
-  führen kann, wenn die Zwischenablage große Textzeichenfolgen enthält. Das
-  Standardlimit beträgt 100000 Zeichen.
+Dieser Dialog zeigt Ihnen eine Liste aller Emoticons an. Dort könnenSie ein
+Emoticon auswählen und seine zugehörige Beschreibung lesen:
 
-Anmerkungen:
+*	Ein Eingabefeld ermöglicht es Ihnen, die Suche nach dem gewünschten
+  Emoticon unter den verfügbaren Emoticons zu filtern.
+*	Über eine Reihe von Kontrollfeldern können Sie wählen, ob Sie nur die
+  Emoji-Kategorie (alt+e), nur die Standard-Emoticon-Kategorie (alt+s) oder
+  alle verfügbaren Emoticons (alt+a) anzeigen möchten.
+*	In der Liste der Emoticons (alt+L) werden jeweils auf drei Spalten
+  angezeigt: der Name des Emoticons, der Typ (Standard Emoticon oder Emoji)
+  und das entsprechende Zeichen.
 
-*	Bestätigungen werden nicht angefordert, wenn ein Meldungsfenster von NVDA
-  noch geöffnet ist. In diesem Fall werden die Aktionen sofort ausgeführt.
-*	Kopierbefehle emulieren und Schnittbefehle emulieren bedeutet, dass die
-  Erweiterung bei Aktivierung dieser Funktionen die Kontrolle über Strg+C
-  und Strg+X übernimmt. Auf diese Weise können Sie auswählen, ob eine
-  Bestätigung angefordert werden soll, bevor Sie die Tastenkombinationen
-  verwenden.
+Mit Drücken auf "OK" wird die Zeichenfolge für das ausgewählte Emoticon in
+die Zwischenablage kopiert.
 
-## Änderungen in 13.0 
-* Dank Cyrille Bougot wurde ein Problem im visuellen Layout des
-  Einstellungsfelds behoben.
-* Verbesserte Dokumentation.
-* Es wurde eine Kategorie "Clip Contents Designer" hinzugefügt, um allen für
-  diese Erweiterung verfügbaren Tastenbefehlen zuzuweisen.
-* Fehler bei der Verwendung der Emulationskopie im Lesemodus behoben, wenn
-  der Fokusmodus aktiv ist.
-* Sie können verschiedene Gesten zuweisen, um den Textinhalt der
-  Zwischenablage als Rohtext oder in HTML formatiert anzuzeigen. Das Format
-  zum Anzeigen des Textes in der Zwischenablage im Einstellungsfeld wurde
-  entsprechend geändert, um die beiden für das HTML-Format verfügbaren
-  Optionen auszuwählen.
+## Symbol einfügen ##
 
-## Änderungen in 12.0
-* Fehler bei der Verwendung von Emulationskopien in Anwendungen wie
-  LibreOffice Writer behoben.
+In diesem Dialogfeld können Sie eines der Symbole auswählen, die im
+Dialogfeld Interpunktion / Aussprache von Symbolen von NVDA verfügbar
+sind. Sie können das Bearbeitungsfeld Filter oder die Pfeiltasten verwenden,
+um ein Element aus der Symbolliste auszuwählen. Klicken Sie dann auf "OK"
+und das ausgewählte Emoji oder Symbol wird in Ihre Zwischenablage kopiert
+und kann eingefügt werden.
 
-## Änderungen in 11.0
-* Jetzt ist es möglich, Text mit den Standardbefehlen des NVDA-Cursors
-  (NVDA+f9 und NVDA+f10) zu markieren und in die Zwischenablage zu
-  kopieren. NVDA+Windows+f9 wird nicht mehr verwendet, um dem neuen Befehl
-  NVDA+shift+f9  besser zu integrieren.
+## Emoticons-Wörterbuch ##
+
+Die Erweiterung Emoticons ermöglicht die Erstellung verschiedener
+Aussprachewörterbücher für unterschiedliche Konfigurationsprofile.
+
+Das heißt Sie können für jedes Ihrer benutzerdefinierten Profile ein
+spezielles Sprachwörterbuch erstellen oder bearbeiten.
+
+Über das NVDA-Menü "Einstellungen" -> "Aussprachewörterbücher" -> "Emoticons-Wörterbuch", können Sie einen Dialog öffnen, um verfügbare Emoticons hinzuzufügen oder zu bearbeiten.
+
+Wenn Sie Ihre Anpassungen speichern, gelten die neuen
+Ausspracheeinstellungen von Emoticons nur für das gerade aktive Profil.
+
+Zum Beispiel können Sie NVDA nur in XxChat, aber nicht in anderen
+Chat-Programmen die Emoticons ansagen lassen: Sie können dies tun, indem Sie
+ein Profil für die XxChat-Anwendung erstellen und ihr ein Sprachwörterbuch
+aus dem Menü Sprachwörterbücher, Option Emoticons Wörterbuch,
+zuweisen. Siehe unten für Emoticons Einstellungen in Bezug auf die
+Konfigurationsprofile.
+
+Der Schalter "Wörterbuch speichern und exportieren" legt eine entsprechende
+Wörterbuchdatei in Ihrem "User Config"-Verzeichnis unter
+"speechDicts/Emoticons" ab.
+
+Der genaue Name und Speicherort der Wörterbuchdatei richtet sich nach dem
+Konfigurationsprofil, das im Titel des Emoticons-Dialogs angezeigt wird.
+
+## Emoticons-Einstellungen ##
+
+Über das Menü "Einstellungen" -> "Emoticons" können Sie die Aktivierung Ihrer Sprachwörterbücher für jedes Profil konfigurieren.
+
+In den Einstellungen von Emoticons können Sie auswählen, ob das Sprachwörterbuch automatisch aktiviert werden soll, wenn NVDA zu dem Profil wechselt, das Sie gerade bearbeiten. Standardmäßig ist es in der normalen Konfiguration von NVDA und in allen Ihren neuen Profilen deaktiviert.
+
+Darüberhinaus kann ebenfalls festgelegt werden, ob die Emojis der
+Erweiterung angesagt werden soll. Dies ist nützlich, wenn in der
+NVDA-Konfiguration Symbole vorkommen.
+
+Wenn Sie Ihre Konfigurationsordner sauber halten möchten, können Sie in
+diesem Dialog nicht genutzte Wörterbücher von gelöschten Profilen entfernen.
+
+## Tastenkombinationen: ##
+
+Dies sind die standardmäßig verfügbaren Tastenbefehle. Sie können diese
+bearbeiten oder neue Tasten hinzufügen, um das Emoticons-Einstellungsfenster
+oder den Emoticon-Wörterbuch-Dialog zu öffnen:
+
+* NVDA+E: Ansage der Emoticons aktivieren oder deaktivieren, legt fest, ob
+  Text so gelesen wird, wie er geschrieben wurde oder  ob Emoticons durch
+  Beschreibungen ersetzt werden sollen.
+* NVDA+I: Zeigt ein Dialogfeld an, aus dem Sie ein Emoticon zum Einfügen
+  auswählen können.
+* Nicht zugewiesen: Zeigen Sie einen Dialog an, um das zu kopierende
+  NVDA-Symbol auszuwählen.
+* Nicht zugewiesen: Öffnet eine (wie im Internet) lesbare Meldung, die das
+  Symbol anzeigt, an dem sich der NVDA-cursor befindet, damit die gesamte
+  Beschreibung Lese-Modus gelesen werden kann.
+* Nicht zugewiesen: Öffnet eine (wie im Internet) lesbare Meldung, die das
+  Symbol anzeigt, an dem sich die Schreibmarke befindet, damit die gesamte
+  Beschreibung im Lese-Modus gelesen werden kann.
+
+Hinweis: Unter Windows 10 ist es auch möglich, das integrierte Emoji-Panel
+zu verwenden.
+
+## Änderungen in 13.0 ##
+
+* Fehler im Dialogfeld "Emoticon einfügen" behoben.
+* Es wurde ein Dialogfeld zum Einfügen eines Symbols hinzugefügt, welches in
+  Interpunktion / Symbolaussprache von NVDA verfügbar ist.
+
+## Änderungen für 12.0 ##
+
 * Erfordert NVDA 2019.3 oder höher.
 
-## Änderungen in 10.0
-* Es wurde ein Fehler in dem Dialog behoben, der verwendet wurde, um den
-  Text der Zwischenablage anzuzeigen, wenn sein Titel nicht-lateinische
-  Zeichen enthält.
-* Ein Fehler wurde behoben, der bei der Verwendung der emulierten Funktionen
-  zum Ausschneiden und Kopieren mit einem arabischen Tastaturlayout
-  auftrat. Dies wurde von Abdel behoben, der als zusätzlichen Autor dieser
-  Erweiterung nun hinzugefügt wurde.
+## Änderungen in 11.0 ##
 
-## Änderungen in 9.0
+* Bei der Aktualisierung dieser Erweiterung werden die in der vorherigen
+  Version gespeicherten Wörterbücher automatisch in die neue Version
+  kopiert, es sei denn, Sie möchten ausdrücklich, dass diese aus dem
+  Hauptkonfigurationsordner von NVDA importiert werden.
+* Beim Anzeigen eines Symbols, auf dem sich der Systemcursor oder der
+  NVDA-Cursor befindet, werden die Wörter, Zeichen und die Ersetzung
+  verwendet, um zwischen dem Symbol selbst und seiner Beschreibung im
+  Lesemodus zu unterscheiden. Dies ist nützlich für Anwender, die
+  ausschließlich mit Sprachausgabe arbeiten, i.e. keine Braillezeile
+  verwenden.
 
-* Es wurde die Möglichkeit hinzugefügt, den Text der Zwischenablage im
-  Lesemodus anzuzeigen.
-* Es wurde eine Option hinzugefügt, um zu wählen, ob Bestätigungen
-  erforderlich sind, wenn die Zwischenablage nicht leer ist, z.B. wenn
-  Dateien oder Ordner kopiert wurden.
-* Benötigt NVDA 2018.4 oder höher.
+## Änderungen in 10.0 ##
 
-## Änderungen in 8.0 ##
+* Es wurden Befehle hinzugefügt, um das Symbol anzuzeigen, an dem sich der
+  NVDA-cursor oder die Schreibmarke befinden. Gesten für diese Befehle
+  können im Dialogfeld Eingaben, Kategorie "Befehle zum Betrachten von
+  Text", zugewiesen werden.
 
-* Die Einstellungen für die Erweiterung werden in der entsprechenden
-  Kategorie der Einstellungen von NVDA angezeigt.
+## Änderungen für 9.0 ##
+
+* Man kann nun zu wählen, ob Emojis (die in der Erweiterung enthalten sind)
+  gesprochen werden sollen.
+* Adäquates encoding für Wörterbuchnamen verwendet, dies behebt Fehler, wenn
+  diese bestimmte Zeichen enthalten.
+* Die übersetzte Zusammenfassung der Erweiterung wird ordnungsgemäß für den
+  Titel verwendet, der in der Erweiterungshilfe angezeigt wird und auf den
+  über den Erweiterungs-Verwalter zugegriffen werden kann.
+* Es wurde eine Notiz hinzugefügt, in der das Emoji-Panel unter Windows 10
+  erwähnt wird.
+
+## Änderungen für 8.0 ##
+
+* Kompatibel mit NVDA 2018.3 oder neuer (erforderlich).
+
+## Änderungen für 7.0 ##
+
+* Der Dialog Aktivierungseinstellungen wurde in ein Fenster in den
+  NVDA-Einstellungen verschoben, so dass das aktuelle Profil im Titel des
+  NVDA-Einstellungsdialogs angezeigt wird.
+* Das Menü Emoticons verwalten wurde entfernt: Jetzt wird Emoticon einfügen
+  unter dem Menü Extras und Emoticons anpassen unter Sprachwörterbücher wie
+  Emoticons Wörterbuch angezeigt.
 * Benötigt NVDA 2018.2 oder höher.
-* Bei Bedarf können Sie die [letzte Version, die mit NVDA 2017.3 kompatibel
+* Bei Bedarf können Sie die[letzte Version, die mit NVDA 2017.3 kompatibel
   ist][3] herunterladen.
 
-## Änderungen in 7.0
+## Änderungen in 6.0 ##
 
-* Die Befehle im Dialog zum Konfigurieren der Funktionen für das Emulieren
-  der Kopier- und Ausschneide-Funktion  werden bei der Installation
-  entfernt, so dass das normale Verhalten von Strg+C und Strg+X
-  wiederhergestellt werden kann.
-
-## Änderungen in 6.0
-
-*	Optionen für verfügbare Aktionen nach der Ausführung einer Bestätigung  wurden hinzugefügt.
-*	Befehle für das Kopieren und Ausschneiden emulieren sind nun vorhanden. Diese können im NVDA-Menü im Bereich "Eingaben..." angepasst werden.
-*	Es wurde ein Dialog hinzugefügt, um die Funktionen Kopieren und Ausschneiden emulieren bei der Installation anzupassen. Dies erlaubt es, die Befehle Strg+C und Strg+X zum Kopieren und Ausschneiden hinzuzufügen. Die Bestätigungsmeldung, ob Sie den Inhalt der Zwischenablage ersetzen möchten, kann hier umgeschaltet werden.
-*	Die Dokumentation für script_add (Windows+NVDA+C) wurde korrigiert.
+* Unterstützt nun auch benutzerdefinierte Konfigurationsprofile in NVDA.
+* In NVDA 2017.4 oder höher ändern sich die Konfigurationseinstellungen und
+  benutzerdefinierten Wörterbücher automatisch entsprechend den ausgewählten
+  Profilen. In 2017.3 oder früher können Sie Änderungen vornehmen, indem Sie
+  Plugins neu laden (STRG+NVDA+f3).
+* Wenn Sie beim Aktualisieren der Erweiterung "Einstellungen importieren"
+  wählen, werden veraltete Dateien (emoticons.ini und emoticons.dic)
+  entfernt oder an diese Version angepasst.
 
 ## Änderungen in 5.0 ##
 
-*	Die visuelle Darstellung des Dialogs wurde verbessert und entspricht dem
-  Erscheinungsbild der Dialoge in NVDA.
-*	Benötigt NVDA 2016.4 oder höher.
+* Unterstützung für Emojis hinzugefügt.
+* Verbesserungen im Dialogfeld Emoticon einfügen durch Filterfunktionen und
+  Kontrollfeldern zur Auswahl der angezeigten Emoticons.
+* GuiHelper wird für die Dialoge Aktivierungseinstellungen und Emoticon
+  einfügen und verwalten verwendet: erfordert NVDA 2016.4 oder höher
 
 ## Änderungen in 4.0 ##
-*	Erweiterungseinstellungen werden von der NVDA-Konfiguration verwaltet, so
-  dass Standardprofile verwendet werden können, um verschiedene Trennlinien
-  zu speichern. Es ist nicht erforderlich, die Einstellungen für den Import
-  bei der Neuinstallation zu kopieren.
-*	Es kann nun gewählt werden, ob der hinzugefügte Text angehängt oder
-  vorangestellt werden soll, indem Sie das Kontrollkästchen Text vor den
-  Daten der Zwischenablage hinzufügen im Einstellungsdialog der Erweiterung
-  verwenden.
+
+* Wenn der Dialog "Smiley einfügen" geöffnet wird, während ein
+  Einstellungsdialog von NVDA aktiv ist, wird die zugehörige Fehlermeldung
+  ausgegeben.
+
 
 ## Änderungen in 3.0 ##
-*	Braille-Darstellung von MathML-Objekten können bei installiertem
-  MathPlayer zur Zwischenablage kopiert oder ausgeschnitten werden.
-*	Wenn kein Trennzeichen gesetzt ist, wird nur eine einzige Linie zwischen
-  den angehängten Textsegmenten platziert.
-*	Sie können ein Tastenkürzel zum Öffnen des Einstellungsdialogs zuweisen.
-*	Es wurde ein Kontrollkästchen im Einstellungsdialog hinzugefügt, mit dem
-  festgelegt wird, ob die Trennlinie beim erneuten Installieren der
-  Erweiterung für den Import kopiert werden soll.
+
+* Im Dialog "Emoticons verwalten..." kann nun die Gültigkeit eines Musters
+  festgelegt werden, wenn es ein ganzes Wort ist. Dies ist mit den
+  Aussprache-Wörterbüchern von NVDA 2014.4 vergleichbar.
+
 
 ## Änderungen in 2.0 ##
-*	Indische Zeichen können nun als Trennzeichen zwischen kopierten Inhalten
-  verwendet werden.
+
+* Hilfe zur Erweiterung ist in der Erweiterungsverwaltung verfügbar.
+
+
+## Änderungen in 1.1 ##
+
+* Doppelte Emoticons wurden entfernt.
+* Einige Smileys wurden hinzugefügt.
 
 ## Änderungen in 1.0 ##
-*	Erstveröffentlichung.
+
+* Ehrstveröffentlichung.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=ccd
+[1]: https://addons.nvda-project.org/files/get.php?file=emo
 
-[2]: https://addons.nvda-project.org/files/get.php?file=ccd-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
 
-[3]: https://addons.nvda-project.org/files/get.php?file=ccd-o
+[3]: https://addons.nvda-project.org/files/get.php?file=emo-o

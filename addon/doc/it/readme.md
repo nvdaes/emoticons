@@ -1,172 +1,226 @@
-# Clip Contents Designer #
+# Emoticons #
+* Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+  Estrada Martínez
+* Versioni di NVDA compatibili: 2019.3 o superiori
+* Scarica la [versione stabile][1]
+* Scarica la [versione in sviluppo][2]
 
-*	Autori: Noelia, Abdel.
-*	Compatibilità con NVDA: versione 2019.3 o successive
-*	Scarica la [versione stabile][1]
-*	Scarica la [versione in sviluppo][2]
+Utilizzando questo componente aggiuntivo, la lettura dei caratteri che
+compongono una emoticon verrà sostituita con una sua descrizione.
 
-Questo componente aggiuntivo viene utilizzato per aggiungere testo negli
-appunti, operazione utile quando si desidera unire sezioni di testo insieme
-per poi incollarle in un'unica soluzione. Il contenuto degli appunti può
-anche essere cancellato e visualizzato  in Modalità Navigazione.
+Per esempio: la sequenza ":)" sarà pronunciata "Smiley Sorriso", ed inoltre
+NVDA potrà riconoscere il nome degli emoji quando presenti nel testo.
 
-## Comandi da tastiera ##
-*	NVDA + Windows + C: Aggiunge agli appunti il testo selezionato, o i
-  caratteri braille unicode che rappresentano oggetti MathMl, o la stringa
-  che è stata contrassegnata con il cursore di controllo (comandi NVDA+f9 ed
-  NVDA+f10).
-*	NVDA + Windows + x: Cancella il contenuto degli appunti.
-*	Non assegnato: copia o taglia, con possibilità di richiesta di conferma.
-*	Not assigned: Shows the clipboard text as HTML in browse mode, or
-  announces if clipboard is empty or has contents which can't be presented
-  in a browseable message, for instance if files or folders are been copied
-  from Windows Explorer.
-*	Not assigned: Shows the textual clipboard contents as plain text in browse
-  mode, or announces if clipboard is empty or has contents which can't be
-  presented in a browseable message, for instance if files or folders are
-  been copied from Windows Explorer.
+È possibile usufruire delle seguenti funzionalità:
 
+## Inserire emoticon ##
 
-## Clip Contents Designer settings ##
+A volte un'immagine vale più di mille parole: usa i nuovi emoji per
+vivacizzare i tuoi messaggi, e per far sapere ai tuoi amici come ti senti.
 
-This panel is available from NVDA's menu, Preferences submenu, Settings
-dialog.
+Se non sai quale carattere usare per una emoticon, questo componente
+aggiuntivo ti permette di selezionarne uno e inserirlo nel testo che stai
+scrivendo, come accade nelle chat.
 
-It contains the following controls:
+Premi NVDA+I, o scegli Strumenti->Emoticons->Inserisci emoticon dal menu di NVDA, per aprire una finestra di dialogo contenente  le emoticon o emoji disponibili.
 
-* Type the string to be used as a separator between contents added to the
-  clipboard: Allows to set a separator which can be used to find the text
-  segments once the entire added text is pasted.
-* Add text before clip data: It's also possible to choose if the added text
-  will be appended or prepended.
-* Select the actions which require previous confirmation: You can choose,
-  for each action available, if it should be performed inmediately or after
-  confirmation. Available actions are: add text, clear clipboard, emulate
-  copy and emulate cut.
-* Request confirmation before performing the selected actions when: You can
-  select if confirmations will be requested always, just if text is
-  contained in the clipboard, or if clipboard is not empty (for example if
-  you've copied a file, not text).
-* Format to show the clipboard text as HTML in browse mode: If you're
-  learning HTML markup language, you may choose Preformatted text in HTML or
-  HTML as shown in a web browser, to have an idea of how your HTML code will
-  be rendered by NVDA in a browser. The difference between preformatted and
-  conventional HTML is that the first option will preserve consecutive
-  spaces and line breaks, and the second one will compact them.  For
-  example, write some HTML tags like h1, h2, li, pre, etc., select and copy
-  the text to clipboard, and use clipContentsDesigner add-on to show the
-  text in a browseable message.
-* Maximum number of characters when showing clipboard text in browse mode:
-  Please, be aware that increasing this limit may produce issues if the
-  clipboard contains large strings of text. The default limit is 100000
-  characters.
+Questa finestra di dialogo ti consente di scegliere una emoticon e di
+visualizzare la grafia delle emoticon che ti interessano:
 
-Note:
+*	Un campo editazione permette di filtrare la ricerca dell'emoticon
+  desiderata tra le emoticon disponibili.
+*	Tramite dei pulsanti radio è possibile scegliere di visualizzare solo le
+  emoji (alt+E), solo le emoticon standard (alt+s) o tutte le emoticon
+  disponibili (alt+A).
+*	Nella lista delle emoticon (alt+L),, su tre colonne, sono mostrati
+  rispettivamente: il nome dell'emoticon, il tipo di emoticon (standard
+  emoticon o emoji) e i caratteri necessari per ottenerla.
 
-*	Quando è aperta una finestra di NVDA non verrà richiesta alcuna
-  conferma. In questi casi le azioni verranno eseguite immediatamente.
-*	Emulate copy and emulate cut commands mean that, when these features are
-  enabled, the add-on will take control of control+c and control+x. This
-  will allow to select if a confirmation should be requested before
-  performing the actions corresponding to these keystrokes.
+Quando si preme OK, i caratteri dell'emoticon scelta verranno copiati negli
+appunti, pronti per essere incollati.
 
-## Changes for 13.0 
-* Fixed an issue in visual layout of the settings panel, thanks to Cyrille
-  Bougot.
-* Improved documentation.
-* Added a Clip Contents Designer category to assign input gestures to all
-  commands available for this add-on.
-* Fixed bugs when using emulate copy in browsers if focus mode is active.
-* You can assign different gestures to show the clipboard textual contents
-  as raw text or formatted in HTML. The Format to show the clipboard text in
-  the settings panel has being modified accordingly, to select the two
-  options available for HTML format.
+## Inserisci simbolo ##
 
-## Novità nella versione 12.0
-* Risolti problemi che si riscontravano quando si utilizzava la simulazione
-  copia in applicazioni come LibreOffice Writer.
+Questa finestra di dialogo vi permette di scegliere uno dei simboli
+disponibili nella finestra Pronuncia Punteggiatura/Simboli di NVDA. Potete
+utilizzare il campo editazione Filtra o i tasti freccia per selezionare un
+elemento dalla lista dei simboli. Attivate poi il pulsante Ok e la emoji o
+il simbolo selezionato sarà copiato negli appunti, pronto per essere
+incollato.
 
-## Novità nella versione 11.0
-* E' ora possibile agiungere testo selezionato con il cursore di controllo
-  utilizzando comandi standard di NVDA (NVDA+f9 e NVDA+f10). NVDA+windows+f9
-  non è più utilizzato, per una migliore integrazione con il nuovo comando
-  NVDA+shift+f9.
+## Dizionario delle emoticons ##
+
+Questo componente aggiuntivo permette di avere più dizionari di pronuncia,
+servendosi dei profili di configurazione.
+
+Ciò significa che   è possibile creare o modificare un dizionario di
+pronuncia per ogni profilo.
+
+Scegliendo Preferenze->Dizionari->Dizionario Emoticons dal menu di NVDA, , è possibile aprire una finestra di dialogo per aggiungere o modificare gli emoticon disponibili.
+
+Quando si salva la configurazione, le nuove impostazioni di lettura saranno
+applicate solo al profilo personale in uso.
+
+Per esempio, se si preferisce che NVDA legga le emoticons solo in uno
+specifico programma di chat, ma non in altre applicazioni di chat, si può
+creare un profilo personale per lo specifico programma ed assegnargli  un
+dizionario di voce dal menu Dizionari -> Dizionario Emoticons. Si veda più
+avanti per le impostazioni di Emoticons in relazione ai profili di
+configurazione.
+
+E' anche possibile esportare ogni dizionario di pronuncia scegliendo il
+pulsante Salva ed Esporta Dizionario. In questo modo i tuoi dizionari di
+pronuncia verranno salvati nella cartella configurazione utente di NVDA,
+sottocartella speechDicts/emoticons.
+
+Il nome ed il percorso del dizionario si baseranno sul profilo di
+configurazione corrente, che verrà indicato nel titolo della finestra del
+dizionario di Emoticons.
+
+## Impostazioni di Emoticons ##
+
+Scegliendo Preferenze->Impostazioni->Emoticons dal menu di NVDA, è possibile aprire una finestra per configurare l'Attivazione del dizionario di pronuncia per ogni profilo.
+
+Nella finestra impostazioni di Emoticons è possibile scegliere se il dizionario per il profilo che si sta modificando deve essere attivato automaticamente quando NVDA passa a quel profilo. Per default, questa impostazione è disattivata nella configurazione normale di NVDA e in tutti i nuovi profili.
+
+È inoltre possibile decidere se le emoji dell'add-on devono essere
+vocalizzate. Ciò può essere utile per conservare la pronuncia dei simboli
+quando le emoji sono incluse nella configurazione di NVDA.
+
+Se si preferisce tenere  pulite le cartelle di configurazione, in questa
+finestra è anche possibile scegliere se i dizionari non utilizzati (quelli
+associati ad un profilo non più esistente) verranno rimossi quando il
+componente aggiuntivo viene scaricato dalla memoria.
+
+## Comandi rapidi: ##
+
+Questi sono i comandi rapidi disponibili di default: E' possibile
+modificarli  o aggiungerne di nuovi per aprire le impostazioni o la finestra
+Dizionario Emoticons:
+
+* NVDA+E: Attiva o disattiva la lettura delle emoticon. Passa dalla lettura
+  del testo delle emoticons così com'è scritto alla lettura della loro
+  descrizione completa.
+* NVDA+I: visualizza una finestra di dialogo per selezionare un emoticon che
+  si desidera copiare negli appunti.
+* Non assegnato: visualizza una finestra di dialogo per selezionare un
+  simbolo (punteggiatura o altro) che si desidera copiare.
+* Non assegnato: apre un messaggio leggibile in modalità navigazione, che
+  mostra il simbolo presente alla posizione del cursore di controllo e la
+  sua descrizione per esteso.
+* Non assegnato: apre un messaggio leggibile in modalità navigazione, che
+  mostra il simbolo presente alla posizione del cursore di sistema e la sua
+  descrizione per esteso.
+
+Nota: In Windows 10 è possibile utilizzare la finestra emoji nativa.
+
+## Novità nella versione 13.0 ##
+
+* Corretti alcuni errori nella finestra Inserisci Emoticon.
+* Aggiunta una finestra per inserire un simbolo presente nella finestra
+  Pronuncia Punteggiatura/Simboli di NVDA.
+
+## Novità nella versione 12.0 ##
+
 * Richiede NVDA 2019.3 o versioni successive.
 
-## Novità nella versione 10.0
-* Risolto un bug nella finestra di dialogo utilizzata per mostrare il testo
-  degli appunti, quando il titolo contiene caratteri non latini.
-* Risolto un bug che si verificava quando si utilizzavano le funzioni di
-  simulazione taglia e copia con un layout di tastiera arabo. Questo
-  problema è stato risolto da Abdel, aggiunto come autore.
+## Novità nella versione 11.0 ##
 
-## Novità nella versione 9.0
+* Quando il componente aggiuntivo viene aggiornato, i dizionari salvati
+  nella versione precedente verranno automaticamente copiati nella nuova
+  versione, a meno che non si preferisca importare i dizionari salvati nella
+  cartella principale dei dizionari di NVDA.
+* Quando si visualizza il carattere alla posizione dei cursori, si
+  utilizzano le diciture carattere e In sostituzione per distinguere meglio
+  il carattere e la sua descrizione, cosa utile per chi usa una sintesi
+  vocale.
 
-* Aggiunta la possibilità  di visualizzare il testo negli appunti in
-  Modalità Navigazione.
-* Aggiunta l'opzione per la richiesta di conferma quando negli appunti è
-  presente contenuto vario, per esempio, se sono presenti file o cartelle.
-* Richiede NVDA 2018.4 o versioni successive.
+## Novità nella versione 10.0 ##
+
+* Aggiunti comandi per mostrare il carattere alla posizione del cursore di
+  sistema o del cursore di controllo e la sua descrizione. È possibile
+  assegnare tasti per questi comandi dalla finestra Gesti e tasti di
+  immissione sotto la categoria Revisione del Testo.
+
+## Novità nella versione 9.0 ##
+
+* Aggiunta la possibilità di scegliere se gli emoji del componente
+  aggiuntivo devono esser letti.
+* Introdotta una più appropriata codifica per i nomi dei dizionari, che
+  evita errori quando questi contengono specifici caratteri.
+* Il riepilogo tradotto dell'addon viene usato correttamente per il titolo
+  mostrato nella guida per il componente, raggiungibile dal Gestore
+  componenti aggiuntivi.
+* Nella guida viene menzionato il pannello emoji presente in Windows 10.
 
 ## Novità nella versione 8.0 ##
 
-* Le impostazioni del componente aggiuntivo vengono mostrate nella
-  corrispondente categoria della finestra  impostazioni di NVDA.
+* Compatibile con NVDA 2018.3 o versioni successive.
+
+## Novità nella versione 7.0 ##
+
+* La finestra delle impostazioni di attivazione è stata spostata in un
+  pannello delle impostazioni di NVDA, in modo che il profilo corrente venga
+  visualizzato nel titolo della finestra di dialogo Impostazioni di NVDA.
+* IL menu Gestisci Emoticons è stato rimosso, la voce Inserisci Emoticons è
+  stata spostata nel menu Strumenti e la finestra per creare un dizionario
+  nel menu Personalizza -> Dizionari -> Dizionario Emoticons.
 * Richiede NVDA 2018.2 o versioni successive.
-* Se necessario, è possibile scaricare [l'ultima versione compatibile con
+* Se è necessario, è possibile scaricare l'ultima [versione compatibile con
   NVDA 2017.3][3].
 
-## Novità nella versione 7.0
+## Novità nella versione 6.0 ##
 
-* Nella finestra per configurare le operazioni di simulazione taglia e
-  simulazione copia durante l'installazione,    se si sceglie di no, i
-  comandi per queste operazioni verranno rimossi. In questo modo si possono
-  utilizare control+C e control+x normalmente.
-
-## Novità nella versione 6.0
-
-*	 Aggiunte opzioni per stabilire se le azioni disponibili debbano essere eseguite dopo un messaggio di conferma.
-*	 Aggiunti i comandi di simulazione copia e simulazione taglia, ai quali possono essere assegnati tasti dalla finestra di dialogo Gesti e Tasti di immissione.
-*	 Aggiunta una finestra di dialogo che permette di configurare il comportamento della simulazione copia e simulazione taglia durante l'installazione. Ciò consente di controllare i comandi ctrl+c e ctrl+x per copia e taglia, in modo che venga richiesto all'utente se desidera sovrascrivere il contenuto attuale degli appunti quando preme questi tasti.
-*	Risolto un bug nella documentazione per lo script_add (Windows+NVDA+c).
+* Aggiunto il supporto per i profili di configurazione.
+* In NVDA 2017.4 o versioni successive, le impostazioni ed i dizionari
+  personali cambieranno automaticamente a seconda del profilo in uso. Nelle
+  versioni 2017.3 o precedenti, è possibile aplicare le modifiche
+  ricaricando i componenti aggiuntivi (premere nvda+control+F3).
+* Se si sceglie di importare le impostazioni quando si aggiorna il
+  componente aggiuntivo, i file obsoleti (emoticon.ini ed emoticon.dic)
+  saranno rimossi o adattati alla nuova versione.
 
 ## Novità nella versione 5.0 ##
 
-*	Migliorata la presentazione visiva della finestra di dialogo, in
-  conformità con l'aspetto standard di NVDA.
-*	Richiede NVDA 2016.4 o superiore.
+* Aggiunto il supporto per le emoji.
+* Miglioramenti alla finestra Inserisci Emoticon, con un campo di ricerca e
+  pulsanti radio per scegliere quali emoticon visualizzare.
+* Viene usato il metodo guiHelper nelle finestre Inserisci Emoticon e
+  Impostazioni di Attivazione: richiede NVDA 2016.4 o versioni successive
 
 ## Novità nella versione 4.0 ##
-*	Le impostazioni del componente aggiuntivo sono gestite dalla
-  configurazione di NVDA. In questo modo si possono utilizzare i profili di
-  configurazione di NVDA per salvare separatori differenti e non c'è bisogno
-  di copiare le impostazioni ed importarle in caso di reinstallazione.
-*	Ora è possibile stabilire se il testo aggiunto debba essere accodato o
-  anteposto, attraverso la casella di controllo aggiungi testo prima degli
-  appunti, dalla finestra di dialogo impostazioni ClipContents Designer.
+
+* Se la finestra Inserisci Faccina è aperta quando un'altra finestra di
+  impostazioni è attiva, NVDA mostrerà il corrispondente messaggio di errore
+  .
+
 
 ## Novità nella versione 3.0 ##
-*	Se MathPlayer è installato, può essere aggiunta agli appunti una
-  rappresentazione Braille di oggetti MathMl.
-*	Se non è stato impostato alcun separatore, verrà inserita soltanto una
-  riga vuota tra i segmenti di testo aggiunti agli appunti.
-*	Può essere assegnato un tasto caldo per aprire la finestra impostazioni di
-  Clip Contents Designer.
-*	Aggiunta una casella di controllo nella finestra di dialogo, per
-  selezionare se il separatore debba essere copiato per poi essere importato
-  in caso di nuova installazione del componente aggiuntivo.
+
+* Nella finestra Personalizza Emoticons, è ora possibile effettuare una
+  ricerca per sole parole intere, in analogia con i dizionari di NVDA
+  2014.4.
+
 
 ## Novità nella versione 2.0 ##
-*	Possono essere usati caratteri Hindi come separatori per il testo aggiunto
-  aglu appunti.
+
+* La guida di questo add-on è disponibile dal menu gestore componenti
+  aggiuntivi.
+
+
+## Novità nella versione 1.1 ##
+
+* Rimosse emoticons duplicate.
+* Aggiunte alcune faccine.
 
 ## Novità nella versione 1.0 ##
-*	Versione iniziale.
+
+* Versione iniziale.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=ccd
+[1]: https://addons.nvda-project.org/files/get.php?file=emo
 
-[2]: https://addons.nvda-project.org/files/get.php?file=ccd-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
 
-[3]: https://addons.nvda-project.org/files/get.php?file=ccd-o
+[3]: https://addons.nvda-project.org/files/get.php?file=emo-o

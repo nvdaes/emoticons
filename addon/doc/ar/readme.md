@@ -1,81 +1,105 @@
-# Clip Contents Designer #
+# Emoticons #
 
-*	مطورو الإضافة: Noelia Ruiz Martínez.
-*	تحميل [الإصدار النهائي] [1]
-*	تحميل [الإصدار التجريبي] [2]
+* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+  Estrada Martínez
+* تحميل [الإصدار النهائي][1]
+* تحميل [الإصدار التجريبي][2]
 
-This add-on is used to add text to the clipboard, which can be useful when
-you want to join sections of text together ready for pasting.  The clipboard
-content can also be cleared.
+Using this add-on, spoken text containing emoticon characters will be
+replaced by its more human friendly description.
 
-## مفاتيح الاختصار ##
-*	NVDA+windows+c: Add selected text, Unicode braille characters which
-  represent MathML objects, or the string which has been marked with the
-  review cursor, to the clipboard.
-*	NVDA+windows+x: لمسح محتوى الحافظة
-*	NVDA+windows+f9: Mark the current position of the review cursor as the start of the text to be added to the clipboard. If you use nvda+F9, the text will not be added.
-*	 Not assigned: Copies to (or cuts from) the clipboard, with the possibility of being asked for a previous confirmation.
+For example: the sequence ":)" will be spoken as "smiling smiley", or for
+example NVDA will recognize the meaning of each emoji.
 
-ملحوظة: يمكنك تغيير الاختصارات المذكورة أعلاه من خلال الذهاب إلى قائمة NVDA
-الرئيسية, ثم قائمة التفضيلات, ثم تخصيص اختصارات NVDA, ثم فئة استعراض النص.
+يمكنك الاستفادة من هذه الميزات:
 
-## قائمة التفضيلات ##
-*	Clip Contents Designer settings: Allows to set a separator which can be used to find the text segments once the entire added text is pasted.
-It's also possible to choose if the added text will be appended or prepended, if available actions (add, clear clipboard, emulate copy and emulate cut) should be performed inmediately or after confirmation, and if confirmations will be requested just if text is contained in the clipboard.
+## Insert Emoticon ##
 
-Notes:
+Sometimes an image is worth a 1000 words: use the new emoji to liven up your
+instant message and to let your friends know how you’re feeling.
 
-*	The above command can be changed from NVDA menu, Preferences submenu,
-  Input gestures dialog, Configuration category.
-*	Confirmations won't be requested when a message box of NVDA is still
-  opened. In those cases, actions will be inmediately performed
+When you are unsure of the characters for a particular smiley, this addon
+enables you to select and insert it into your text such as in a chat.
 
-## Changes for 7.0
+Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
 
-* In the dialog to configure the Emulate copy and Emulate cut
-  functionalities at installation, if you choose no, the commands for these
-  features will be removed, so that you can restore the normal behavior for
-  control+c and control+x.
+This dialog allows you to choose an emoticon and to view the emoticons that
+interest you:
 
-## Changes for 6.0
+*	An editable field allows you to filter the search for the desired emoticon
+  among the emoticons available.
+*	Through a set of radio buttons, you can choose to view only emoji category
+  (alt+E) or view only standard emoticon category (alt+s) or view all
+  emoticons available (alt+A).
+*	In the list of emoticons (alt+L) are displayed on three columns
+  respectively: the name of emoticon, the type of emoticon (standard
+  emoticon or emoji), the corresponding character.
 
-*	 Added options to choose if available actions should be performed after confirmation.
-*	Added Emulate copy and Emulate cut commands, which could be assigned from the Input gestures dialog.
-*	 Added a dialog to configure the Emulate copy and Emulate cut functionalities at installation. This allows to add the control+c and control+x commands to copy and cut, and be asked if you want to replace the clipboard contents when pressing these keystrokes.
-*	Fixed documentation for script_add (Windows+NVDA+c).
+When you press OK, the characters for the chosen emoticon will be copied to
+your clipboard, ready for pasting.
+
+## تخصيص رموز المشاعر ##
+
+From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can open a dialog setting to add or to edit available emoticons.
+
+This dialog allows you to save an emoticons speech dictionary with your
+customizations.
+
+بالضغط على زر "حفظ وتصدير المعجم" سيتم حفظ ملف باسم emoticons.dic داخل مجلد
+إعدادات المستخدم ثم مجلد معاجم النطق المتفرع عنه.
+
+## إعدادات التفعيل ##
+
+From menu Preferences -> Manage Emoticons -> Activation settings, you can choose whether to Activate speaking of emoticons when starting NVDA. By default it is disabled.
+
+It is also possible to save your choice for this setting.
+
+## مفاتيح الاختصار: ##
+
+These are the key command available by default, you can edit those or add
+new key to open Activation settings dialog or Emoticon Dictionary dialog:
+
+* NVDA+E: speaching emoticons on/off, toggles between speaking text as it is
+  written, or with the emoticons replaced by the human description.
+* NVDA+I: show a dialog to select an emoticon you want to copy.
+
 
 ## Changes for 5.0 ##
 
-*	The visual presentation of the dialog has been enhanced, adhering to the
-  appearance of the dialogs shown in NVDA.
-*	Requires NVDA 2016.4 or later.
+* Added support for emojis.
+* Improvements for Insert Emoticon dialog with a filter field and radio
+  buttons to choose displayed emoticons.
+* Using guiHelper for Activation settings dialog and Insert Emoticon dialog:
+  requires NVDA 2016.4 or higher versions
 
-## Changes for 4.0 ##
-*	Add-on settings are managed from NVDA configuration, so that standard
-  profiles can be used to save different separators, and it's not needed to
-  copy the settings for importing at reinstallation.
-*	Now it's possible to choose if the added text will be appended or
-  prepended, using the Add text before clip data check box from the Clip
-  Contents Designer settings dialog.
+## مستجدات الإصدار 4.0 ##
+
+* إذا كانت محاورة إدراج رموز المشاعر مفتوحة بالتزامن مع تنشيط محاورة أخرى,
+  ستظهر رسالة الخطأ التي تفيد بذلك.
+
 
 ## مستجدات الإصدار 3.0 ##
-*	Braille representation of MathML objects can be added to the clipboard if
-  MathPlayer is installed.
-*	If no separator is set, just a single line will be placed between the
-  added text segments.
-*	يمكن تعيين اختصار لفتح محاورة إعدادات الإضافة.
-*	إضافة مربع تحديد لإعدادات الإضافة, للاختيار ما إذا كان ينبغي نسخ الفاصل
-  بين القطع النصية لاستيراده عند إعادة تثبيت الإضافة
+
+* أصبح من الممكن تخصيص نطق الكلمة الأصلية عندما تتطابق مع الكلمة البديلة,
+  طبقا لمعاجم النطق ب NVDA2014.4. بمحاورة تخصيص رموز المشاعر.
+
 
 ## مستجدات الإصدار 2.0 ##
-*	Hindi characters can be used as the separator between added contents.
+
+* توافر ملف المساعدة بمدير الإضافات البرمجية.
+
+
+## مستجدات الإصدار 1.1 ##
+
+* حذف رموز المشاعر المكررة.
+* تمت إضافة المزيد من رموز المشاعر.
 
 ## مستجدات الإصدار 1.0 ##
-*	إصدار أولي
+
+* إصدار بدائي
 
 [[!tag dev stable]]
-[[!tag dev]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=ccd
+[1]: https://addons.nvda-project.org/files/get.php?file=emo
 
-[2]: http://addons.nvda-project.org/files/get.php?file=ccd-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev

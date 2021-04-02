@@ -1,952 +1,932 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the emoticons package.
+# This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: emoticons 5.2\n"
-"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2017-02-03 05:00+1000\n"
-"PO-Revision-Date: 2020-12-27 08:05+0700\n"
-"Last-Translator: Dang Manh Cuong <dangmanhcuong@gmail.com>\n"
-"Language-Team: Sao Mai <info@saomaicenter.org>\n"
-"Language: vi\n"
+"Project-Id-Version: 'emoticons' '1.0-dev'\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
+"POT-Creation-Date: 2015-10-23 05:00+1000\n"
+"PO-Revision-Date: 2021-02-08 13:34+0200\n"
+"Last-Translator: Volodymyr Pyrih <vp88.mobile@gmail.com>\n"
+"Language-Team: \n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.11\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them, removing deprecated files?"
 msgstr ""
-"Có vẻ như bạn đã lưu các thiết lập trước đây của add-on này. Bạn có muốn nạp "
-"chúng vào và xóa các tập tin thừa không?"
+"Здається, для цього додатка збережено попередні налаштування. Ви хочете "
+"імпортувати їх під час видалення застарілих файлів?"
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
-msgstr "Nạp các thiết lập của add-on các biểu tượng cảm xúc"
+msgstr "Імпортувати налаштування додатка Emoticons"
 
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 #. Translators: Label for emojis in the list.
 msgid "Emoji"
-msgstr "Biểu tượng cảm xúc Emoji"
+msgstr "Емодзі"
 
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 msgid "Emoticon"
-msgstr "Biểu tượng cảm xúc"
+msgstr "Смайлик"
 
 #. Translators: the name of a submenu.
 msgid "&Emoticons"
-msgstr "Các &biểu tượng cảm xúc"
+msgstr "&Emoticons"
 
 #. Translators: the name for a menu item.
 msgid "&Insert emoticon..."
-msgstr "C&hèn biểu tượng cảm xúc..."
+msgstr "&Вставити смайлик чи емодзі…"
 
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dialog to insert a smiley"
-msgstr "Hiển thị một hộp thoại để chèn biểu tượng cảm xúc"
+msgstr "Показує діалог вставки смайлів"
 
 #. Translators: the name for a menu item.
 msgid "In&sert symbol..."
-msgstr "C&hèn kí hiệu..."
+msgstr "&Вставити символ…"
 
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dialog to insert a symbol"
-msgstr "Hiển thị một hộp thoại để chèn kí hiệu"
+msgstr "Показує діалог вставки символа"
 
 #. Translators: the name for a menu item.
 msgid "&Emoticons dictionary..."
-msgstr "&Từ điển biểu tượng cảm xúc..."
+msgstr "&Словник смайликів та емодзі…"
 
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
-msgstr "Hiển thị hộp thoại từ điển để tùy chỉnh biểu tượng cảm xúc"
+msgstr ""
 
 #. Translators: Title of a dialog.
 #, python-format
 msgid "Emoticons dictionary (%s)"
-msgstr "Từ điển biểu tượng cảm xúc (%s)"
+msgstr "Словник смайликів  (%s)"
 
 #. Translators: Message presented in input help mode.
 msgid "Toggles on and off the announcement of emoticons."
-msgstr "Bật và tắt thông báo của các biểu tượng cảm xúc."
+msgstr "Вмикає й вимикає вимову смайликів та емодзі."
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
 msgid "Emoticons off."
-msgstr "Tắt đọc biểu tượng cảm xúc."
+msgstr "Вимову смайликів та емодзі вимкнено."
 
 #. Translators: message presented when the dictionary for emoticons is loaded.
 msgid "Emoticons on."
-msgstr "Bật đọc biểu tượng cảm xúc."
+msgstr "Вимову смайликів та емодзі увімкнено."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
-msgstr "Hiển thị một hộp thoại  để chọn biểu tượng cảm xúc bạn muốn dán."
+msgstr "Показує діалог вибору смайликів для вставки."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a symbol you want to paste."
-msgstr "Hiển thị một hộp thoại  để chọn kí hiệu bạn muốn dán."
+msgstr "Показує діалог вибору символа, який ви бажаєте вставити."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons dictionary dialog."
-msgstr "Hiện hộp thoại từ điển biểu tượng cảm xúc."
+msgstr "Показує словник смайликів та емодзі."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons settings."
-msgstr "Hiển thị hộp thoại cài đặt biểu tượng cảm xúc."
+msgstr "Показує налаштування додатка Emoticons."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the review cursor is located."
-msgstr "Chỉ ra vị trí kí hiệu mà con trỏ duyệt đã xác định."
+msgstr "Показує символ у позиції переглядового курсора."
 
 #. Translators: Reported when there is no replacement for the symbol at the position of the review cursor.
 #. Translators: Reported when there is no replacement for the symbol at the position of the caret.
 msgid "No symbol replacement"
-msgstr "Không có kí hiệu thay thế"
+msgstr "Немає символа для заміни"
 
 #. Translators: Character and its replacement used from the "Review current Symbol" command. Example: "Character: ? Replacement: question"
 msgid ""
 "Character: {}\n"
 "Replacement: {}"
 msgstr ""
-"Kí tự: {}\n"
-"Thay thế: {}"
+"Символ: {}\n"
+"Заміна: {}"
 
 #. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
 msgid "Symbol at the review cursor position ({})"
-msgstr "Kí hiệu ở vị trí con trỏ duyệt ({})"
+msgstr "Символ у позиції переглядового курсора ({})"
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the symbol positioned where the caret is located."
-msgstr "Chỉ ra vị trí kí hiệu mà dấu nhay đã xác định."
+msgstr "Показує символ у місці розташування системної каретки."
 
 #. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
 msgid "Symbol at the caret position ({})"
-msgstr "Kí hiệu ở vị trí dấu nháy ({})"
+msgstr "Символ у позиції системної каретки ({})"
 
 #. Translators: Title of the dialog.
 msgid "Insert emoticon"
-msgstr "Chèn biểu tượng cảm xúc"
+msgstr "Вставити смайлик чи емодзі"
 
 #. Filter panel.
 #. Translators: A text field to filter emoticons.
 #. Translators: The label of a text field to search for symbols in the Insert Symbol dialog.
 msgid "&Filter:"
-msgstr "&lọc:"
+msgstr "&Фільтрувати:"
 
 #. Translators: A radio button to choose all types of emoticons.
 msgid "&All"
-msgstr "&Tất cả"
+msgstr "&Усі"
 
 #. Translators: A radio button to choose only standard emoticons.
 msgid "&Standard"
-msgstr "Tiêu &Chuẩn"
+msgstr "&Стандартні"
 
 #. Translators: A radio button to choose only emojis.
 msgid "Emoj&is"
-msgstr "Các biểu tượng cảm xúc Emoj&i"
+msgstr "Емо&дзі"
 
 #. List of emoticons.
 #. Translators: Label for the smileys list.
 msgid "&List of smilies"
-msgstr "Danh &Sách các biểu tượng cảm xúc"
+msgstr "&Список смайликів"
 
 #. Translators: Column which specifies the name  of emoticon.
 msgid "Name"
-msgstr "Tên"
+msgstr "Ім’я"
 
 #. Translators: Column which specifies the type of emoticon (standard or emoji).
 msgid "Type"
-msgstr "Loại"
+msgstr "Тип"
 
 #. Translators: The column which contains the characters of the emoticon.
 msgid "Characters"
-msgstr "Các ký tự"
+msgstr "Символи"
 
 #. Translators: Label for standard emoticons in the list.
 msgid "Standard"
-msgstr "Tiêu chuẩn"
+msgstr "Стандартний"
 
 #. Translators: Error message when none emoticon is selected or the list is empty, and title of the error dialog.
 msgid "There is not any emoticon selected."
-msgstr "Không có biểu tượng cảm xúc nào được chọn."
+msgstr "Не вибрано жодного смайлика чи емодзі."
 
 #. Translators: This is the message when smiley has been copied to the clipboard.
 msgid "Smiley copied to clipboard, ready for you to paste."
-msgstr "Đã chép biểu tượng cảm xúc vào bộ nhớ tạm, sẵn sàng để dán."
+msgstr "Смайлик скопійований у буфер обміну й готовий до вставки."
 
 #. Translators: Message when the emoticon couldn't be copied.
 msgid "Cannot copy smiley."
-msgstr "Không thể chép biểu tượng cảm xúc."
+msgstr "Неможливо скопіювати смайл."
 
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Rese&t"
-msgstr "Thiết lập &lại"
+msgstr "Скинут&и"
 
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Save and e&xport dictionary"
-msgstr "Lưu và &xuất từ điển"
+msgstr "Зберегти й &експортувати словник"
 
 #. Translators: This is the label for the Insert Symbol dialog.
 #. %s is replaced by the language for which symbol pronunciation is being edited.
 #, python-format
 msgid "Insert Symbol (%s)"
-msgstr "Chèn kí hiệu (%s)"
+msgstr "Вставити символ (%s)"
 
 #. Translators: This is the message when symbol has been copied to the clipboard.
 msgid "Symbol copied to clipboard, ready for you to paste."
-msgstr "Đã chép kí hiệu vào bộ nhớ tạm, sẵn sàng để dán."
+msgstr "Символ скопійовано в буфер обміну й готовий до вставки."
 
 #. Translators: Message when the symbol couldn't be copied.
 msgid "Cannot copy symbol."
-msgstr "Không thể chép kí hiệu."
+msgstr "Неможливо скопіювати символ."
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"
-msgstr "&Kích hoạt chế độ nói các biểu tượng cảm xúc:"
+msgstr "&Активувати вимову смайликів та емодзі:"
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "Speak add-on emojis"
-msgstr "Đọc add-on emojis"
+msgstr "Промовляти емодзі додатка"
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Remove not used dictionaries"
-msgstr "&Xóa các từ điển không dùng đến"
+msgstr "&Вилучити словники, які не використовуються"
 
 #. Translators: (emoji) Grinning face, an happy face with normal eyes.
 msgid "Grinning face"
-msgstr "Nhăn mặt"
+msgstr "Широко всміхнене обличчя"
 
 #. Translators: (emoji) Happy face with open mouth and squinting eyes.
 msgid "Happy face with open mouth and squinting eyes"
-msgstr "Mặt hạnh phúc mở miệng và nheo mắt"
+msgstr "Широко всміхнене обличчя з примруженими очима"
 
 #. Translators: (emoji) happy face with open mouth.
 msgid "Happy face with open mouth"
-msgstr "Mặt hạnh phúc mở miệng"
+msgstr "Широко всміхнене обличчя з очищами"
 
 #. Translators: (emoji) A smiling face with smiling eyes and rosy cheeks.
 msgid "Smiling Face With Smiling Eyes"
-msgstr "Mặt vui với mắt cười"
+msgstr "Усміхнене обличчя й очі"
 
 #. Translators: (emoji) smirking face.
 msgid "Smirking face"
-msgstr "Mặt mỉm cười"
+msgstr "Самовдоволене обличчя"
 
 #. Translators: (emoji) Slightly Smiling Face: a face that is a little bit happy, with a slight smile and neutral eyes.
 msgid "Slightly smiling face"
-msgstr "Mặt mỉm cười"
+msgstr "Трохи всміхнене обличчя"
 
 #. Translators: (emoji) white smiling face.
 msgid "white smiling face"
-msgstr "mặt cười trắng bệch"
+msgstr "усміхнене обличчя"
 
 #. Translators: (emoji) happy face with halo.
 msgid "Happy face with halo"
-msgstr "Mặt hạnh phúc với hào quang"
+msgstr "Усміхнене обличчя з німбом"
 
 #. Translators: (emoji) white frowning face.
 msgid "White frowning face"
-msgstr "Mặt trắng bệch cau mày"
+msgstr "Похмуре обличчя"
 
 #. Translators: (emoji) winking face.
 msgid "Winking face"
-msgstr "Mặt nháy mắt"
+msgstr "Обличчя що підморгує"
 
 #. Translators: (emoji) smiling face with heart shaped eyes.
 msgid "Smiling face with heart shaped eyes"
-msgstr "Mặt cười với đôi mắt trái tim"
+msgstr "Усміхнене обличчя з очами серцями"
 
 #. Translators: (emoji)  Rose: a single red rose.
 msgid "Rose"
-msgstr "Hoa hồng"
+msgstr "Троянда"
 
 #. Translators: (emoji) Expressionless face: a face with straight lined eyes and mouth. A deliberate display of no comment...
 msgid "Expressionless face"
-msgstr "Mặt mất tinh thần"
+msgstr "Обличчя без емоцій"
 
 #. Translators: (emoji) neutral face.
 msgid "Neutral face"
-msgstr "Mặt trung tính"
+msgstr "Нейтральне обличчя"
 
 #. Translators: (emoji) face without mouth.
 msgid "Face without mouth"
-msgstr "Mặt không có miệng"
+msgstr "Обличчя без рота"
 
 #. Translators: (emoji) face throwing a kiss.
 msgid "Face throwing a kiss"
-msgstr "Mặt ném một nụ hôn"
+msgstr "Обличчя що надсилає цілунок"
 
 #. Translators: (emoji) kissing face with closed eyes.
 msgid "Kissing face with closed eyes"
-msgstr "Hôn khuôn mặt với đôi mắt khép kín"
+msgstr "Обличчя із закритими очима що цілує"
 
 #. Translators: (emoji) Kissing face.
 msgid "Kissing face"
-msgstr "Mặt đang hôn"
+msgstr "Обличчя що цілує"
 
 #. Translators: (emoji) kissing face with arched eyes.
 msgid "Kissing face with arched eyes"
-msgstr "Hôn khuôn mặt với đôi mi cong"
+msgstr "Обличчя з примруженими очима що цілує"
 
 #. Translators: (emoji) winking face with stuck out tongue.
 msgid "Winking face with stuck out tongue"
-msgstr "Mặt nháy mắt lè lưỡi"
+msgstr "Обличчя що підморгує і показує язика"
 
 #. Translators: (emoji) face with stuck out tongue and eyes tightly closed.
 msgid "Face with stuck out tongue and eyes tightly closed"
-msgstr "Mặt nhắm mắt lè lưỡi"
+msgstr "Обличчя з висунутим язиком і заплющеними очима"
 
 #. Translators: (emoji) A cheeky face with stuck out tongue.
 msgid "Face with stuck out tongue"
-msgstr "Mặt lè lưỡi"
+msgstr "Обличчя з висунутим язиком"
 
 #. Translators: (emoji) Hugging Face: a face displayed with an open hands gesture, offering a hug.
 msgid "Hugging face"
-msgstr "Ôm mặt"
+msgstr "Щасливе обличчя з руками що обіймають"
 
 #. Translators: (emoji) flushed face.
 msgid "Flushed face"
-msgstr "Mặt đỏ ửng"
+msgstr "Зашаріле обличчя"
 
 #. Translators: (emoji) Grinning face showing smiling eyes.
 msgid "Grinning Face With Smiling Eyes"
-msgstr "Mặt cười nhăng răng với đôi mắt vui vẻ"
+msgstr "Осяйно всміхнене обличчя й очі"
 
 #. Translators: (emoji) A pensive, remorseful and saddened face. Quietly considering where things all went wrong.
 msgid "Pensive Face"
-msgstr "Mặt trầm ngâm"
+msgstr "Замислене обличчя"
 
 #. Translators: (emoji) devil with evil smile.
 msgid "Devil with evil smile"
-msgstr "Quỷ sứ với nụ cười xấu xa"
+msgstr "Усміхнене обличчя з рогами"
 
 #. Translators: (emoji) devil.
 msgid "Devil"
-msgstr "Quỷ sứ"
+msgstr "Сердите обличчя з рогами"
 
 #. Translators: (emoji) relieved face.
 msgid "Relieved face"
-msgstr "Mặt an tâm"
+msgstr "Заспокоєне обличчя"
 
 #. Translators: (emoji) unamused face.
 msgid "Unamused face"
-msgstr "Mặt vô dụng"
+msgstr "Невдоволене обличчя"
 
 #. Translators: (emoji) A face with scrunched up and closed eyes, frowning. Used to show helplessness in a situation.
 msgid "Persevering Face"
-msgstr "Mặt kiên nghị"
+msgstr "Невідступне обличчя"
 
 #. Translators: (emoji) crying face.
 msgid "Crying face"
-msgstr "Mặt khóc"
+msgstr "Обличчя що плаче"
 
 #. Translators: (emoji) face with tears of joy.
 msgid "Face with tears of joy"
-msgstr "Mặt mừng rơi nước mắt"
+msgstr "Обличчя в сльозах радості"
 
 #. Translators: (emoji) loudly crying face.
 msgid "Loudly crying face"
-msgstr "Mặt khóc to"
+msgstr "Обличчя що гучно ридає"
 
 #. Translators: (emoji) sleepy face.
 msgid "Sleepy face"
-msgstr "Mặt buồn ngủ"
+msgstr "Заспане обличчя"
 
 #. Translators: (emoji) Shrugging: A person shrugging their shoulders to indicate a lack of knowledge about a particular topic, or a lack of care about the result of a situation.
 msgid "Shrugging emoji"
-msgstr "Nhún vai"
+msgstr "Людина що знизує плечима"
 
 #. Translators: (emoji) disappointed face.
 msgid "Disappointed face"
-msgstr "Mặt thất vọng"
+msgstr "Розчароване обличчя"
 
 #. Translators: (emoji) disappointed but relieved face.
 msgid "Disappointed but relieved face"
-msgstr "Mặt thất vọng nhưng an tâm"
+msgstr "Сумне але втішене обличчя"
 
 #. Translators: (emoji) Face with a look of concern, with a blue forehead and sweat dripping down the cheek.
 msgid "Face With Open Mouth & Cold Sweat"
-msgstr "Mặt há hóc và toát mồ hôi lạnh"
+msgstr "Занепокоєне обличчя з потом"
 
 #. Translators: (emoji) Happy face with a single drop of sweat on one side of the face.
 msgid "Smiling Face With Open Mouth & Cold Sweat"
-msgstr "Mặt cười hả miệng và toát mồ hôi lạnh"
+msgstr "Широко всміхнене обличчя з потом"
 
 #. Translators: (emoji) face with cold sweat.
 msgid "Face with cold sweat"
-msgstr "Mặt toát mồ hôi lạnh"
+msgstr "Понурене обличчя в поту"
 
 #. Translators: (emoji) A distraught-looking face with  an open mouth and crescent shaped eyes.
 msgid "Weary Face"
-msgstr "Mặt mỏi mệt"
+msgstr "Замучене обличчя"
 
 #. Translators: (emoji) An exhausted-looking face with an open mouth and tightly closed eyes.
 msgid "Tired Face"
-msgstr "Mặt mỏi mệt"
+msgstr "Втомлене обличчя"
 
 #. Translators: (emoji) fearful face.
 msgid "Fearful face"
-msgstr "Mặt sợ hãi"
+msgstr "Налякане обличчя"
 
 #. Translators: (emoji) face screaming in fear.
 msgid "Face screaming in fear"
-msgstr "Mặt la hét trong sợ hãi"
+msgstr "Обличчя що кричить із переляку"
 
 #. Translators: (emoji) angry face.
 #. Translators: :@ angry face.
 msgid "Angry face"
-msgstr "Mặt giận"
+msgstr "Сердите обличчя"
 
 #. Translators: (emoji) pouting face.
 msgid "Pouting face"
-msgstr "Mặt hờn dỗi"
+msgstr "Обличчя що дується"
 
 #. Translators: (emoji) A face with air coming out of its nose, huffing with anger face.
 msgid "Face With Steam From Nose"
-msgstr "Mặt lấm tấm mồ hôi trên mũi"
+msgstr "Обличчя що сердито видихає"
 
 #. Translators: (emoji) confounded face.
 msgid "Confounded face"
-msgstr "Mặt tinh nghịch"
+msgstr "Збентежене обличчя"
 
 #. Translators: (emoji) Smiling Face With Open Mouth and Tightly-Closed Eyes.
 msgid "Smiling Face With Open Mouth and Tightly-Closed Eyes"
-msgstr "Mặt cười nhắm mắt hả miệng"
+msgstr "Широко всміхнене замружене обличчя"
 
 #. Translators: (emoji) happy face licking lips.
 msgid "Happy face licking lips"
-msgstr "Mặt hạnh phúc liếm môi"
+msgstr "Усміхнене обличчя що облизує губи"
 
 #. Translators: (emoji) happy face with sunglasses.
 msgid "Happy face with sunglasses"
-msgstr "Mặt hạnh phúc với kính râm"
+msgstr "Усміхнене обличчя в темних окулярах"
 
 #. Translators: (emoji) sleeping face.
 msgid "Sleeping face"
-msgstr "Mặt buồn ngủ"
+msgstr "Обличчя що спить"
 
 #. Translators: (emoji) A dizzy face, looking sick or confused from being spun around in circles too many times.
 msgid "Dizzy Face"
-msgstr "Mặt choáng váng"
+msgstr "Запаморочене обличчя"
 
 #. Translators: (emoji) astonished face.
 msgid "Astonished face"
-msgstr "Mặt ngạc nhiên"
+msgstr "Вражене обличчя"
 
 #. Translators: (emoji) worried face.
 msgid "Worried face"
-msgstr "Mặt lo lắng"
+msgstr "Стурбоване обличчя"
 
 #. Translators: (emoji) Dismayed face with open eyes and open mouth, appear closer to  a frowning face.
 msgid "Frowning Face With Open Mouth"
-msgstr "Mặt cau mày và mở miệng"
+msgstr "Похмуре обличчя з відкритим ротом"
 
 #. Translators: (emoji) anguished face.
 msgid "Anguished face"
-msgstr "Mặt đau khổ"
+msgstr "Стражденне обличчя"
 
 #. Translators: (emoji) A face with Open Mouth, generally used to represent an element of surprise.
 msgid "Face with Open Mouth"
-msgstr "Mặt mở miệng"
+msgstr "Обличчя з відкритим ротом"
 
 #. Translators: (emoji) grimacing face.
 msgid "Grimacing face"
-msgstr "Nhăn mặt"
+msgstr "Обличчя з гримасою"
 
 #. Translators: (emoji) confused face.
 msgid "Confused face"
-msgstr "Mặt bối rối"
+msgstr "Спантеличене обличчя"
 
 #. Translators: (emoji) A face with high eyebrows and an open mouth, it looks more surprised than hushed.
 msgid "Hushed Face"
-msgstr "Mặt im lặng"
+msgstr "Здивоване і збентежене обличчя"
 
 #. Translators: (emoji) broken heart.
 msgid "Broken heart"
-msgstr "Tim tan vỡ"
+msgstr "Розбите серце"
 
 #. Translators: (emoji) pulsating heart.
 msgid "Pulsating heart"
-msgstr "Nhịp tim đập"
+msgstr "Серце що зростає"
 
 #. Translators: (emoji) beating heart.
 msgid "Beating heart"
-msgstr "Tim đang đập"
+msgstr "Серце що б’ється"
 
 #. Translators: (emoji) two hearts.
 msgid "Two hearts"
-msgstr "Đôi tim"
+msgstr "Два серця"
 
 #. Translators: (emoji) heart with arrow.
 msgid "Heart with arrow"
-msgstr "Tim với mũi tên"
+msgstr "Серце пробите стрілою"
 
 #. Translators: (emoji) purple heart.
 msgid "Purple heart"
-msgstr "Tim màu tím"
+msgstr "Пурпурове серце"
 
 #. Translators: (emoji) red heart.
 msgid "Red heart"
-msgstr "Tim đỏ"
+msgstr "Червоне серце"
 
 #. Translators: (emoji) yellow heart.
 msgid "Yellow heart"
-msgstr "Tim vàng"
+msgstr "Жовте серце"
 
 #. Translators: (emoji) green heart.
 msgid "Green heart"
-msgstr "Tim xanh lá"
+msgstr "Зелене серце"
 
 #. Translators: (emoji) blue heart.
 msgid "Blue heart"
-msgstr "Tim xanh dương"
+msgstr "Синє серце"
 
 #. Translators: (emoji) This emoji is the version of the phrase ROFL. A person lying on the floor due to an extreme amount of laughter.
 msgid "Rolling on the Floor Laughing"
-msgstr "Cười bò ra sàn"
+msgstr "Качається від сміху"
 
 #. Translators: (emoji) A face that is a little bit sad, with a slight frown and neutral eyes.
 msgid "Slightly Frowning Face"
-msgstr "Mặt hơi cau mày"
+msgstr "Трохи похмуре обличчя"
 
 #. Translators: (emoji) A face that is upside-down.
 msgid "Upside-down Face"
-msgstr "Mặt phân vân"
+msgstr "Обличчя догори дригом"
 
 #. Translators: (emoji) A face displaying eyes glancing upward.
 msgid "Face With Rolling Eyes"
-msgstr "Mặt với đôi mắt tía lia"
+msgstr "Обличчя із закоченими очима"
 
 #. Translators: (emoji) A person with arms forming an X to indicate no or no good.
 msgid "Person Gesturing No"
-msgstr "Người ra cử chỉ không"
+msgstr "Людина що жестом показує «ні»"
 
 #. Translators: (emoji) A person with arms above his head, making an OK sign with the whole body.
 msgid "Person Gesturing OK"
-msgstr "Người ra cử chỉ đồng ý"
+msgstr "Людина що жестом показує OK"
 
 #. Translators: (emoji) A person bowing deeply, express a sincere apology or to request a favour.
 msgid "Person bowing"
-msgstr "Người cúi đầu"
+msgstr "Людина що вклоняється"
 
 #. Translators: (emoji) An upset person frowning with dismay.
 msgid "Person Frowning"
-msgstr "Người cau mày"
+msgstr "Похмура людина"
 
 #. Translators: (emoji) Two hands placed firmly together.
 msgid "Folded Hands"
-msgstr "Khoanh tay"
+msgstr "Руки стиснуті разом"
 
 #. Translators: (emoji) A person with a surgical mask on their face.
 msgid "Face with medical mask"
-msgstr "Mặt đeo khẩu trang y tế"
+msgstr "Обличчя в медичній масці"
 
 #. Translators: (emoji) A black version of white smiling face.
 msgid "Black Smiling Face"
-msgstr "Mặt cười màu đen"
+msgstr "Чорне усміхнене обличчя"
 
 #. Translators: (emoji) happy cat face with heart shaped eyes.
 msgid "Happy cat face with heart shaped eyes"
-msgstr "Mặt mèo hạnh phúc với đôi mắt hình trái tim"
+msgstr "Усміхнений кіт з очима як серця"
 
 #. Translators: (emoji) ok hand sign.
 msgid "Ok hand sign"
-msgstr "Dấu tay đồng ý"
+msgstr "Жест OK"
 
 #. Translators: (emoji) thumbs up symbol.
 msgid "Thumbs up symbol"
-msgstr "Giơ ngón cái lên"
+msgstr "Великі пальці вгору"
 
 #. Translators: (emoji) thumbs down symbol.
 msgid "Thumbs down symbol"
-msgstr "Bỏ ngon cái xuống"
+msgstr "Великі пальці вниз"
 
 #. Translators: (emoji) Victory Hand.
 msgid "Victory Hand"
-msgstr "Tay chiến thắng"
+msgstr "Жест перемоги"
 
 #. Translators: :) Smile
 msgid "smiling smiley"
-msgstr "mỉm cười"
+msgstr "смайлик"
 
 #. Translators: :( Sad face.
 msgid "Sad face"
-msgstr "Mặt buồn"
+msgstr "Сумне обличчя"
 
 #. Translators: :D Laugh
 msgid "Laughing smiley"
-msgstr "Cười ngất"
+msgstr "Обличчя що сміється"
 
 #. Translators: :O Surprised
 msgid "surprised smiley"
-msgstr "ngạc nhiên"
+msgstr "здивований смайлик"
 
 #. Translators: ;) Wink;
 msgid "winking smiley"
-msgstr "nháy mắt"
+msgstr "підморгування"
 
 #. Translators: ;( Crying
 msgid "crying smiley"
-msgstr "khóc"
+msgstr "плач"
 
 #. Translators: :s :-S :-Q Confused face:
 msgid "Confused Face"
-msgstr "Mặt bối rối"
+msgstr "Спантеличене обличчя"
 
 #. Translators: (:| Sweating
 msgid "sweating smiley"
-msgstr "đổ mồ hôi"
+msgstr "спотілий смайлик"
 
 #. Translators: :|] Robot (a robot head)
 msgid "Robot Smiley"
-msgstr "Người máy"
+msgstr "Робот смайлик"
 
 #. Translators: :| Speechless
 msgid "speechless smiley"
-msgstr "không nói nên lời"
+msgstr "закритий рот смайлик"
 
 #. Translators: :* Kiss
 msgid "kiss smiley"
-msgstr "hôn"
+msgstr "поцілунок смайлик"
 
 #. Translators: :P Cheeky
 msgid "cheeky smiley"
-msgstr "táo tợn"
+msgstr "зухвалий смайлик"
 
 #. Translators: :$ Blushing
 msgid "blushing smiley"
-msgstr "đỏ mặt"
+msgstr "зашарілий смайлик"
 
 #. Translators: :^) Wondering
 msgid "wondering smiley"
-msgstr "tự hỏi"
+msgstr "зачарований смайлик"
 
 #. Translators: |-) Sleepy
 msgid "sleepy smiley"
-msgstr "buồn ngủ"
+msgstr "сплячий смайлик"
 
 #. Translators: |-( Dull
 msgid "dull smiley"
-msgstr "đần độn"
+msgstr "пригнічений смайлик"
 
 #. Translators: :x My lips are sealed
 msgid "my lips are sealed smiley"
-msgstr "khép môi"
+msgstr "обіцяю мовчати смайлик"
 
 #. Translators: \o/ Dancing
 msgid "dancing smiley"
-msgstr "nhảy múa"
+msgstr "танцювальний смайлик"
 
 #. Translators: :'( crying a lot smiley
 msgid "crying a lot smiley"
-msgstr "khóc nhiều"
+msgstr "багатослізний смайлик"
 
 #. Translators: >:( Angry
 #. Translators: (angry) Angry
 msgid "angry smiley"
-msgstr "giận"
+msgstr "сердитий смайлик"
 
 #. Translators: :/ Worried
 #. Translators: (worry) Worried
 msgid "worried smiley"
-msgstr "lo lắng"
+msgstr "стурбований смайлик"
 
 #. Translators: <3 Heart
 #. Translators: (heart) Heart
 msgid "heart smiley"
-msgstr "tim"
+msgstr "серце смайлик"
 
 #. Translators:  O:)  O:-) Angel
 msgid "Angel Smiley"
-msgstr "Thiên thần"
+msgstr "Ангел смайлик"
 
 #. Translators:  O.o  o.O  Confused
 msgid "Confused Smiley"
-msgstr "Bối rối"
+msgstr "Збентежений смайлик"
 
 #. Translators:   3:-) Devil
 msgid "Devil Smiley"
-msgstr "Quỷ sứ"
+msgstr "Чорт смайлик"
 
 #. Translators:  ^_^ Keke (This smiley is inspired by the Asian style, which is a happy face.)
 msgid "Keke Smiley"
-msgstr "Keke"
+msgstr "Keke смайлик"
 
 #. Translators: -_- Bored (This smiley face has its eyes closed and is sporting a very small grin.)
 msgid "Bored smiley"
-msgstr "Chán"
+msgstr "Нудьгуючий смайлик"
 
 #. Translators:  >:O  Upset, angry or shouting...
 msgid "Angry Smiley"
-msgstr "Giận"
+msgstr "Роздратований смайлик"
 
 #. Translators:  :3  Cat (Cat faced smiley with curly lips)
 msgid "Cat Smiley"
-msgstr "Mèo"
+msgstr "Кіт смайлик"
 
 #. Translators: (-.-)ZZZ Iӭ Sleepy
 msgid "I am Sleepy smiley"
-msgstr "Tôi buồn ngủ"
+msgstr "Я сплю смайлик"
 
 #. Translators: 8-) Glasses
 msgid "glasses smiley"
-msgstr "mắt kính"
+msgstr "окуляри смайлик"
 
 #. Translators: (^^^) shark
 msgid "shark smiley"
-msgstr "cá mập"
+msgstr "акула смайлик"
 
 #. Translators:  (cash) Cash
 msgid "cash smiley"
-msgstr "tiền mặt"
+msgstr "гроші смайлик"
 
 #. Translators: (flex) Muscle
 msgid "muscle smiley"
-msgstr "bắp thịt"
+msgstr "силач смайлик"
 
 #. Translators: (beer) Beer
 msgid "beer smiley"
-msgstr "beer"
+msgstr "пиво смайлик"
 
 #. Translators: (d) Drink
 msgid "drink smiley"
-msgstr "uống"
+msgstr "п’ю смайлик"
 
 #. Translators: (ninja) Ninja
 msgid "ninja smiley"
-msgstr "ninja"
+msgstr "нінзя смайлик"
 
 #. Translators: (cool) Cool
 msgid "cool smiley"
-msgstr "mát"
+msgstr "крутий смайлик"
 
 #. Translators: (inlove) In Love
 msgid "in love smiley"
-msgstr "đang yêu"
+msgstr "закоханий смайлик"
 
 #. Translators: (yn) Fingers crossed
 msgid "fingers crossed smiley"
-msgstr "vượt qua"
+msgstr "схрещені пальці смайлик"
 
 #. Translators: (yawn) Yawn
 msgid "yawning smiley"
-msgstr "ngáp"
+msgstr "позіхає смайлик"
 
 #. Translators: (puke) Puking
 msgid "puking smiley"
-msgstr "nôn"
+msgstr "блювотний смайлик"
 
 #. Translators: (doh) Doh!
 msgid "doh! smiley"
-msgstr "doh! smiley"
+msgstr "великий сум смайлик"
 
 #. Translators: (wasntme) It wasn't me!
 msgid "it wasn't me! smiley"
-msgstr "nó không phải là tôi"
+msgstr "це не я! смайлик"
 
 #. Translators: (party) Party
 msgid "party smiley"
-msgstr "bữa tiệc"
+msgstr "вечірка смайлик"
 
 #. Translators: (mm) Mmmm...
 msgid "mmmmmm... smiley"
-msgstr "ngập ngừng... biểu tượn"
+msgstr "mmmmmm... смайлик"
 
 #. Translators: (nerd) Nerdy
 msgid "nerdy smiley"
-msgstr "nerdy"
+msgstr "тупий смайлик"
 
 #. Translators: (wave) Hi
 msgid "hi smiley"
-msgstr "chào"
+msgstr "вітальний смайлик"
 
 #. Translators: (facepalm) Facepalm
 msgid "facepalm smiley"
-msgstr "facepalm"
+msgstr "обличчя закрите однією рукою смайлик"
 
 #. Translators: (devil) Devil
 msgid "devil smiley"
-msgstr "quỷ sứ"
+msgstr "чорт смайлик"
 
 #. Translators: (angel) Angel
 msgid "angel smiley"
-msgstr "thiên thần"
+msgstr "ангел смайлик"
 
 #. Translators: (envy) Envy
 msgid "envy smiley"
-msgstr "ghen tị"
+msgstr "заздрісний смайлик"
 
 #. Translators: (wait) Wait
 msgid "wait smiley"
-msgstr "chờ"
+msgstr "очікування смайлик"
 
 #. Translators: (hug) Hug
 msgid "hug smiley"
-msgstr "ôm"
+msgstr "обійми смайлик"
 
 #. Translators: (makeup) Make-up
 msgid "make-up smiley"
-msgstr "trang điểm"
+msgstr "макіяж смайлик"
 
 #. Translators: (chuckle) Giggle
 msgid "giggle smiley"
-msgstr "cười khúc khích"
+msgstr "хіхікаю смайлик"
 
 #. Translators: (clap) Clapping
 msgid "clapping smiley"
-msgstr "vỗ tay"
+msgstr "плескаю в долоні смайлик"
 
 #. Translators: (think) Thinking
 msgid "thinking smiley"
-msgstr "đang suy nghĩ"
+msgstr "думаю смайлик"
 
 #. Translators: (bow) Bowing
 msgid "bowing smiley"
-msgstr "cúi chào"
+msgstr "уклінний смайлик"
 
 #. Translators: (rofl) Rolling on the floor laughing
 msgid "rolling on the floor laughing! smiley"
-msgstr "cười bò ra sàn nhà"
+msgstr "качаюся по підлозі від сміху! смайлик"
 
 #. Translators: (whew) Relieved
 msgid "relieved smiley"
-msgstr "bỉu tượng an tâm"
+msgstr "заспокоєний смайлик"
 
 #. Translators: (happy) Happy
 msgid "happy smiley"
-msgstr "vui"
+msgstr "щасливий смайлик"
 
 #. Translators: (smirk) Smirking
 msgid "smirking smiley"
-msgstr "cười đểu"
+msgstr "самовдоволений смайлик"
 
 #. Translators: (nod) Nodding
 msgid "nodding smiley"
-msgstr "gật đầu"
+msgstr "киває смайлик"
 
 #. Translators: (shake) Shake
 msgid "shakeing smiley"
-msgstr "đang rung lắc"
+msgstr "трясеться смайлик"
 
 #. Translators: (waiting) Waiting
 msgid "waiting smiley"
-msgstr "chờ"
+msgstr "чекаю смайлик"
 
 #. Translators: (emo) Emo;
 msgid "Emo smiley"
-msgstr "Emo"
+msgstr "Емо смайлик"
 
 #. Translators: (y) Yes
 msgid "yes smiley"
-msgstr "có"
+msgstr "так смайлик"
 
 #. Translators: (n) no;
 msgid "no smiley"
-msgstr "không"
+msgstr "ні смайлик"
 
 #. Translators: (handshake) Handshake
 msgid "handshake smiley"
-msgstr "bắt tay"
+msgstr "рукостискання смайлик"
 
 #. Translators: (highfive) High five
 msgid "high five smiley"
-msgstr "xòe tay ra vỗ vào nhau"
+msgstr "дай п’ять смайлик"
 
 #. Translators: (lalala) Lalala;
 msgid "lalala smiley"
-msgstr "lalala"
+msgstr "ляляля смайлик"
 
 #. Translators: (heidy) Heidy;
 msgid "heidy smiley"
-msgstr "heidy"
+msgstr "білочка смайлик"
 
 #. Translators: (F) Flower
 msgid "flower smiley"
-msgstr "hoa"
+msgstr "квітка смайлик"
 
 #. Translators: (rain) Raining
 msgid "raining smiley"
-msgstr "trời mưa"
+msgstr "дощ смайлик"
 
 #. Translators: (sun) Sun
 msgid "sunny smiley"
-msgstr "nắng"
+msgstr "сонце смайлик"
 
 #. Translators: (tumbleweed) Tumbleweed
 msgid "tumbleweed smiley"
-msgstr "cỏ lăn"
+msgstr "перекотиполе смайлик"
 
 #. Translators: (music) Music
 msgid "music smiley"
-msgstr "âm nhạc"
+msgstr "музика смайлик"
 
 #. Translators: (bandit) Bandit
 msgid "bandit smiley"
-msgstr "tên cướp"
+msgstr "бандитський смайлик"
 
 #. Translators: (tmi) Too much information
 msgid "too much information smiley"
-msgstr "nhiều thông tin quá"
+msgstr "забагато інформації смайлик"
 
 #. Translators: (coffee) Coffee
 msgid "coffee smiley"
-msgstr "coffee"
+msgstr "кава смайлик"
 
 #. Translators: (pi) Pizza
 msgid "pizza smiley"
-msgstr "pizza"
+msgstr "піца смайлик"
 
 #. Translators: (^) Cake
 msgid "cake smiley"
-msgstr "bánh"
+msgstr "торт смайлик"
 
 #. Translators: (*) Star
 msgid "star smiley"
-msgstr "ngôi sao"
+msgstr "зірка смайлик"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Emoticons"
-msgstr "Các biểu tượng cảm xúc"
+msgstr "Emoticons"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
-msgstr "Bật chế độ đọc tên biểu tượng cảm xúc thay cho kí tự của nó."
+msgstr "Вмикає оголошення назв смайликів замість відповідних їм символів."
 
 #~ msgid ""
 #~ "You have installed the Emoticons add-on, probably an old and incompatible "
 #~ "version with this one. Do you want to uninstall the old version?"
 #~ msgstr ""
-#~ "Bạn có lẽ đã cài đặt add-on Emoticons, một bản cũ và không tương thích "
-#~ "với phiên bản này. Bạn có muốn gỡ phiên bản đó không?"
+#~ "Ймовірно, ви встановили старішу версію додатка Emoticons, несумісну з "
+#~ "поточною. Бажаєте видалити стару версію?"
 
 #~ msgid "Uninstall incompatible add-on"
-#~ msgstr "Đang gỡ add-on không tương thích"
-
-#~ msgid "Manag&e emoticons"
-#~ msgstr "&Quản lý các biểu tượng cảm xúc"
-
-#~ msgid "Emoticons menu"
-#~ msgstr "Trình đơn biểu tượng cảm xúc"
-
-#~ msgid "&Customize emoticons..."
-#~ msgstr "&Tùy chỉnh các biểu tượng cảm xúc..."
-
-#~ msgid "&Activation settings..."
-#~ msgstr "&Các cài đặt kích hoạt..."
-
-#~ msgid "Shows a dialog to choose when emoticons speaking should be activated"
-#~ msgstr ""
-#~ "Hiển thị một hộp thoại để lựa chọn khi nào thì chế độ nói các biểu tượng "
-#~ "cảm xúc nên được kích hoạt"
-
-#~ msgid "Activation settings"
-#~ msgstr "Các cài đặt kích hoạt"
+#~ msgstr "Видалити несумісний додаток"

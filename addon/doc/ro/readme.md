@@ -1,170 +1,224 @@
-# Clip Contents Designer #
+# Emoticons #
+* Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+  Estrada Martínez
+* NVDA compatibility: 2019.3 or later
+* Descarcă [versiunea stabilă][1]
+* Descarcă [versiunea în dezvoltare][2]
 
-*	Autori: Noelia și Abdel.
-*	NVDA compatibility: 2019.3 or later
-*	Descarcă [versiunea stabilă][1]
-*	Descarcă [versiunea în dezvoltare][2]
+Folosind acest supliment, textul care conține emoticoane va fi înlocuit cu o
+descriere mult mai prietenoasă.
 
-Acest supliment este utilizat pentru a adăuga text pe planșetă, care poate
-fi folositor când dorești să accesezi secțiuni de text împreună gata pentru
-a fi lipit. Conținutul de pe planșetă poate, deasemenea, fi curățat și
-afișat în modul de navigare.
+De exemplu: secvența ":)" va fi pronunțată ca „zâmbet” sau, de exemplu, NVDA
+va recunoaște semnificația fiecărui moji.
 
-## Comenzi de taste ##
-*	NVDA+Windows+C: Adaugă textul selectat, caracterele Unicode braille care
-  reprezintă obiectele MathML, sau string-ul care a fost marcat cu cursorul
-  de vizualizare, pe planșetă.
-*	NVDA+Windows+X: Curăță contentul de pe planșetă.
-*	Not assigned: Copies to (or cuts from) the clipboard, with the possibility
-  of being asked for a previous confirmation.
-*	Not assigned: Shows the clipboard text as HTML in browse mode, or
-  announces if clipboard is empty or has contents which can't be presented
-  in a browseable message, for instance if files or folders are been copied
-  from Windows Explorer.
-*	Not assigned: Shows the textual clipboard contents as plain text in browse
-  mode, or announces if clipboard is empty or has contents which can't be
-  presented in a browseable message, for instance if files or folders are
-  been copied from Windows Explorer.
+Există următoarele caracteristici:
 
+## Inserează Emoticon ##
 
-## Clip Contents Designer settings ##
+Uneori, o imagine face cât 1000 de cuvinte: utilizați noul moji pentru a da
+viață mesajului dumneavoastră instant și pentru a permite prietenilor să
+știe ceea ce simțiți.
 
-This panel is available from NVDA's menu, Preferences submenu, Settings
-dialog.
+Când sunteți nesigur de caracterele pentru un zâmbet particular, add-on-ul
+vă permite să-l selectați și inserați în textul dumneavoastră.
 
-It contains the following controls:
+Press NVDA+I, or from menu Tools -> Emoticons > Insert emoticon, to open a dialog with the provided emoticons or emoji.
 
-* Type the string to be used as a separator between contents added to the
-  clipboard: Allows to set a separator which can be used to find the text
-  segments once the entire added text is pasted.
-* Add text before clip data: It's also possible to choose if the added text
-  will be appended or prepended.
-* Select the actions which require previous confirmation: You can choose,
-  for each action available, if it should be performed inmediately or after
-  confirmation. Available actions are: add text, clear clipboard, emulate
-  copy and emulate cut.
-* Request confirmation before performing the selected actions when: You can
-  select if confirmations will be requested always, just if text is
-  contained in the clipboard, or if clipboard is not empty (for example if
-  you've copied a file, not text).
-* Format to show the clipboard text as HTML in browse mode: If you're
-  learning HTML markup language, you may choose Preformatted text in HTML or
-  HTML as shown in a web browser, to have an idea of how your HTML code will
-  be rendered by NVDA in a browser. The difference between preformatted and
-  conventional HTML is that the first option will preserve consecutive
-  spaces and line breaks, and the second one will compact them.  For
-  example, write some HTML tags like h1, h2, li, pre, etc., select and copy
-  the text to clipboard, and use clipContentsDesigner add-on to show the
-  text in a browseable message.
-* Maximum number of characters when showing clipboard text in browse mode:
-  Please, be aware that increasing this limit may produce issues if the
-  clipboard contains large strings of text. The default limit is 100000
-  characters.
+Acest dialog vă permite să alegeți un emoticon și să vizualizați
+emoticoanele care vă interesează:
 
-Note:
+*	Un câmp editabil vă permite să filtrați căutarea pentru emoticonul dorit
+  dintre emoticoanele disponibile.
+*	Printr-un set de butoane rotative, puteți să alegeți să vizualizați doar
+  categoria mojiuri (alt+E) sau să vizualizați doar categoria emoticoanelor
+  standard (alt+s) sau să vizualizați toate emoticoanele disponibile
+  (alt+A).
+  *	În lista emoticoanelor (alt+L) sunt afișate pe trei coloane: numele
+  emoticonului, tipul acestuia (emoticon standard sau moji), caracterul
+  corespunzător.
+*	În lista emoticoanelor (alt+L) sunt afișate pe trei coloane numele
+  emoticonului, tipul acestuia (standard sau moji) și caracterul
+  corespunzător.
 
-*	Confirmations won't be requested when a message box of NVDA is still
-  opened. In those cases, actions will be inmediately performed.
-*	Emulate copy and emulate cut commands mean that, when these features are
-  enabled, the add-on will take control of control+c and control+x. This
-  will allow to select if a confirmation should be requested before
-  performing the actions corresponding to these keystrokes.
+Când apăsați OK, caracterele pentru emoticoanele alese vor fi copiate pe
+planșetă, pregătite pentru lipire.
 
-## Changes for 13.0 
-* Fixed an issue in visual layout of the settings panel, thanks to Cyrille
-  Bougot.
-* Improved documentation.
-* Added a Clip Contents Designer category to assign input gestures to all
-  commands available for this add-on.
-* Fixed bugs when using emulate copy in browsers if focus mode is active.
-* You can assign different gestures to show the clipboard textual contents
-  as raw text or formatted in HTML. The Format to show the clipboard text in
-  the settings panel has being modified accordingly, to select the two
-  options available for HTML format.
+## Insert symbol ##
 
-## Changes for 12.0
-* Fixed bugs when using emulate copy in applications like LibreOffice
-  Writer.
+This dialog allows you to choose one of the symbols available in the
+Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
+box or the arrow keys to select an item from the symbols list. Then, press
+OK and the selected emoji or symbol will be copied to your clipboard, ready
+for pasting.
 
-## Changes for 11.0
-* Now it's possible to add text marked with the review cursor using standard
-  commands of NVDA (NVDA+f9 and NVDA+f10). NVDA+windows+f9 is no longer
-  used, for a better integration with the new NVDA+shift+f9 command.
+## Dicționar de emoticoane ##
+
+Suplimentul Emoticons vă permite să aveți diferite dicționare de vorbire
+folosind profiluri de configurare.
+
+Aceasta înseamnă că puteți crea sau edita un dicționar de vorbire specific
+pentru fiecare profil personalizat.
+
+Din meniul NVDA, Preferințe -> Dicționare de vorbire -> Dicționar de emoticoane, puteți să deschideți un dialog cu setările unde puteți adăuga sau edita emoticoanle disponibile.
+
+Salvându-vă particularizările, noile setări de citire ale emoticoanelor se
+vor aplica numai profilului pe care îl editați în prezent.
+
+De exemplu, ați putea dori ca NVDA să pronunțe emoticoane personalizate
+numai în programul XxChat, dar nu în alte programe de chat: puteți face
+acest lucru creând un profil pentru aplicația XxChat și atribuiți un
+dicționar de vorbire din meniul din meniul dicționare de vorbire, opțiunea
+„Dicționar de emoticoane. Vedeți mai jos setările de activare în raport cu
+profilurile de configurare.
+
+De asemenea, puteți să exportați fiecare dicționar de vorbire apăsând
+butonul "Salvează și exportă dicționar": în felul acesta, dicționarele
+dumneavoastră de vorbire vor fi salvate în folderul de configurare al
+utilizatorului, subfolder-ul speechDicts/emoticons.
+
+Numele exact și locația fișierului de dicționar vor fi bazate pe editarea
+profilului de configurare, care va fi afișat în titlul dialogului dicționar
+Emoticons.
+
+## Setări Emoticons ##
+
+Din meniul Preferințe -> Setări Emoticoane deschide un dialog pentru a configura activarea dicționarelor de vorbire pentru fiecare profil.
+
+Din panoul de setări al Emoticons, puteți dacă ar trebui sau nu ca dicționarul de vorbire să se activeze automat atunci când NVDA se comută la profilul pe care actualmente îl editați. În mod implicit, este dezactivată în configurația normală a NVDA și în toate profilurile dumneavoastră.
+
+În plus, e posibil să se determine dacă emoji-urile suplimentului trebuie să
+fie pronunțate. Această funcție poate fi utilă în menținerea pronunțării
+simbolurilor dacă emoji-urile sunt incluse în configurația NVDA.
+
+Dacă doriți să păstrați curate folderele de configurare, în această
+fereastră de dialog este posibil de asemenea să alegeți dacă dicționarele
+care nu sunt utilizate (asociate profilurilor inexistente) vor fi eliminate
+din supliment atunci când nu sunt încărcate.
+
+## Comenzi de tastatură: ##
+
+Acestea sunt scurtăturile disponibile în mod implicit, puteți să le editați
+sau puteți adăuga o nouă tastă pentru a deschide panoul de setări al
+Emoticons sau dialogul dicționarului de emoticoane:
+
+* NVDA + E: activarea/dezactivarea pronunțării emoticoanelor, comută între
+  pronunțarea textului așa cum este scris, sau cu emoticoanele înlocuite cu
+  descrierea umană.
+* NVDA+I: Arată un dialog pentru a selecta emoticonul pe care vreți să îl
+  copiați.
+* Not assigned: show a dialog to select an NVDA's symbol you want to copy.
+* Neatribuită: deschide un mesaj de navigare care arată simbolul la care
+  este poziționat cursorul de scriere, astfel încât descrierea să fie
+  parcursă în modul de navigare.
+* Neatribuită: deschide un mesaj de navigare care arată simbolul la care
+  este poziționat cursorul de scriere, astfel încât descrierea să fie
+  parcursă în modul de navigare.
+
+Notă: În Windows 10, este posibil să folosiți și panoul de emoji.
+
+## Changes for 13.0 ##
+
+* Fixed errors in Insert Emoticon dialog.
+* Added a dialog to insert a symbol available in the Punctuation/symbol
+  pronunciation of NVDA.
+
+## Changes for 12.0 ##
+
 * Requires NVDA 2019.3 or later.
 
-## Modificări în 10.0
-* S-a rezolvat o problemă în dialog care făcea să se afișeze textul de pe
-  planșetă când titlul său conținea caractere nelatine.
-* S-a rezolvat o problemă întâmpinată la utilizarea copierii și a tăierii
-  simulate cu o tastatură arabă. A fost rezolvată de Abdel, care acum are
-  statutul de autor al suplimentului.
+## Modificări aduse în versiuna 11.0 ##
 
-## Modificări în 9.0
+* Când suplimentul este actualizat, dicționarele folosite în versiunile
+  anterioare vor fi copiate automat pentru a putea fi folosite în noua
+  versiune, asta dacă nu preferați să importați dicționarele salvate în
+  dosarul principal al dicționarelor NVDA.
+* La afișarea simbolului la care este poziționat cursorul de scriere sau cel
+  de examinare, cuvintele, caracterele și înlocuirile sunt folosite cu
+  scopul de a face o diferență între simbolul în sine și descrierea sa din
+  modul de navigare, util pentru cei care folosesc sinteza vocală.
 
-* Acum, este posibilă afișarea textului aflat pe planșetă în modul de
-  navigare.
-* S-a adăugat o opțiune care vă permite să alegeți dacă vor fi sau nu
-  necesare confirmările îb cazul în care planșeta nu este goală, un bun
-  exemplu fiind copierea fișierelor sau a folderelor.
-* Necesită NVDA 2018.4 sau mai nou.
+## Modificări aduse în versiuna 10.0 ##
 
-## Modificări în 8.0 ##
+* S-au adăugat comenzi care arată simbolul la care este poziționat cursorul
+  de scriere.
 
-* Setările suplimentului sunt afișate în categoria corespunzătoare a
-  dialogului setărilor NVDA..
+## Modificări aduse în 9.0 ##
+
+* Acum, puteți să alegeți dacă emoji-urile suplimentelor vor fi sau nu
+  pronunțate.
+* S-a utilizat encoding apropiat pentru nnumele de dicționar și s-au reparat
+  erori pe care le aveau anumite caractere.
+* Cuprinsul tradus al suplimentului este folosit pentru titlul prezentat în
+  documentația acestuia, disponibilă în administratorul suplimentelor.
+* S-a adăugat o notă care menționează panoul de emoji din Windows 10.
+
+## Modificări aduse în 8.0 ##
+
+* Compatibil cu NVDA 2018.3 (necesar).
+
+## Modificări aduse în 7.0 ##
+
+* Dialogul de activare al setărilor a fost mutat într-un panou din setările
+  NVDA, astfel încât profilul curent va fi afișat în titlul dialogului
+  setărilor NVDA.
+* Meniul Administrare Emoticoane a fost șters: nicio opțiune de genul
+  Inserare Emoticon nu va fi găsită în submeniul Instrumente, iar opțiunea
+  de personalizare a emoticoanelor va fi afișată sub dicționarele de
+  vorbire, la fel ca dicționarul de emoticoane.
 * Necesită NVDA 2018.2 sau mai nou.
 * Dacă e musai, puteți să descărcați [ultima versiune compatibilă cu NVDA
   2017.3][3].
 
-## Modificări în 7.0
+## Modificări aduse în 6.0 ##
 
-* În dialogul pentru configurarea copierii și tăierii simulate la instalare,
-  dacă alegeți nu, comenzile pentru aceste caracteristici vor fi șterse,
-  astfel încât să puteți restaura comportamentul normal pentru control+c și
-  control+x.
+* S-a adăugat suportul pentru configurarea profilurilor.
+* În NVDA 2017.4 sau o versiune ulterioară, setările de configurare și
+  dicționarele personalizate se vor schimba automat acordându-se cu
+  profilurile selectate. În 2017.3 sau mai recent, puteți aplica modificări
+  prin reîncărcarea pluginurilor (apăsând control+ NVDA+f3).
+* Dacă alegeți să importați setări atunci când actualizați suplimentul,
+  fișierele depreciate (emoticons.ini și emoticons.dic) vor fi eliminate sau
+  adaptate la această versiune.
 
-## Modificări în 6.0
+## Modificări aduse în 5.0 ##
 
-*	 Au fost adăugate opțiuni pentru a alege dacă opțiunile disponibile ar trebui efectuate după confirmare.
-*	 Au fost adăugate comenzile de simulare a copiei și a tăierii, care pot fi atribuite din dialogul gesturilor de intrare.
-*	 A fost adăugat un dialog pentru configurarea funcționalităților de simulare a copiei și a tăierii la instalare. Aceasta permite adăugarea comenzii control+c și control+x pentru copiere și tăiere. Veți fi întrebat dacă vreți să înlocuiți conținuturile planșetei la apăsarea acestor combinații de taste.
-*	A fost reparată documentația pentru script_add (Windows+NVDA+c).
+* A fost adăugat suportul pentru mojiuri.
+* Îmbunătățiri pentru dialogul de inserare al emoticoanelor cu un câmp de
+  filtrare și butoane rotative pentru a alege emoticoanele afișate.
+* Utilizând ghidul de ajutor pentru dialogul de activare al setărilor și
+  dialogul de inserare a emoticoanelor: Necesită NVDA 2016.4 sau mai vechi
 
-## Modificări în 5.0 ##
+## Modificări aduse în 4.0 ##
 
-*	Prezentarea vizuală a dialogului a fost îmbunătățită, aderând la aspectul
-  dialogurilor afișate în NVDA.
-*	Necesită NVDA 2016.4 sau mai nou.
+* Dacă dialogul de inserare al emoticonului este deschis când alt dialog de
+  setări este activ, NVDA va afișa un mesaj de eroare.
 
-## Modificări din 4.0 ##
-*	Setările suplimentului sunt gestionate din configurarea NVDA, deci
-  profilurile implicite pot fi folosite pentru a salva diferite separatoare,
-  și nu este nevoie să copiezi setările pentru a le importa la reinstalare.
-*	Acum este posibilă selectarea dacă textul adăugat va fi anexat sau
-  prefixat, utilizând căsuța Adăugare text din dialogul de setări al Clip
-  Contents Designer-ului.
 
-## Modificări din 3.0 ##
-*	Reprezentarea Braille din obiectele MathML poate fi adăugat pe planșetă
-  dacă MathPlayer este instalat.
-*	Dacă niciun separator nu este setat, o singură linie va fi adăugată între
-  segmentele textului adăugat.
-*	O scurtătură poate fi definită pentru a deschide setările Clip Contents
-  Designer-ului.
-*	A fost adăugată o căsuță în dialogul de setări, pentru a selecta dacă
-  separatorul trebuie să fie copiat pentru a fi immportat când reinstalezi
-  add-on-ul.
+## Modificări aduse în versiunea 3.0 ##
 
-## Modificări din 2.0 ##
-*	Caracterele indiene pot fi folosite ca separator între content-ul adăugat.
+* În dialogul de personalizare emoticon, este acum posibil să specifici dacă
+  un model trebuie să fie asemănător dacă este un cuvânt întreg, în
+  acordanță cu dicționarele de vorbire versiunii NVDA 2014.4.
 
-## Modificări din 1.0 ##
-*	Versiunea inițială.
+
+## Modificări aduse în versiunea 2.0 ##
+
+* Ajutorul add-on-ului este disponibil din manager-ul de add-on-uri.
+
+
+## Modificări aduse în versiunea 1.1 ##
+
+* Au fost șterse emoticoanele duplicate.
+* Au mai fost adăugate ceva emoticoane.
+
+## Modificări aduse în versiuna 1.0 ##
+
+* Versiunea Inițială.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=ccd
+[1]: https://addons.nvda-project.org/files/get.php?file=emo
 
-[2]: https://addons.nvda-project.org/files/get.php?file=ccd-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
 
-[3]: https://addons.nvda-project.org/files/get.php?file=ccd-o
+[3]: https://addons.nvda-project.org/files/get.php?file=emo-o
