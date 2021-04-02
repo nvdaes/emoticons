@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-11-16 18:37+0100\n"
-"PO-Revision-Date: 2019-08-23 19:21+0100\n"
-"Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
+"PO-Revision-Date: 2021-03-19 18:48+0100\n"
+"Last-Translator: Zvonimir stanecic <zvonimirek222Vyandex.com>\n"
 "Language-Team: Polish <killer@tyflonet.com>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -39,9 +39,8 @@ msgid "Emoticon"
 msgstr "emotikon"
 
 #. Translators: the name of a submenu.
-#, fuzzy
 msgid "&Emoticons"
-msgstr "Emotikony / Emoticons"
+msgstr "Emotikony"
 
 #. Translators: the name for a menu item.
 msgid "&Insert emoticon..."
@@ -52,14 +51,12 @@ msgid "Shows a dialog to insert a smiley"
 msgstr "Wyświetla okno wstawiania emotikonów"
 
 #. Translators: the name for a menu item.
-#, fuzzy
 msgid "In&sert symbol..."
-msgstr "&Wstaw emotikon.."
+msgstr "Wstaw &symbol..."
 
 #. Translators: the tooltip text for a menu item.
-#, fuzzy
 msgid "Shows a dialog to insert a symbol"
-msgstr "Wyświetla okno wstawiania emotikonów"
+msgstr "Pokazuje okno dialogowe wstawiania symbolu"
 
 #. Translators: the name for a menu item.
 msgid "&Emoticons dictionary..."
@@ -91,9 +88,8 @@ msgid "Shows a dialog to select a smiley you want to paste."
 msgstr "Wyświetla okno wyboru emotikonów do wklejenia."
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid "Shows a dialog to select a symbol you want to paste."
-msgstr "Wyświetla okno wyboru emotikonów do wklejenia."
+msgstr "Pokazuje okno dialogowe do wybierania symbolu, którego chcesz wkleić."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons dictionary dialog."
@@ -199,17 +195,15 @@ msgstr "Zapisz i &eksportuj słownik"
 #. %s is replaced by the language for which symbol pronunciation is being edited.
 #, python-format
 msgid "Insert Symbol (%s)"
-msgstr ""
+msgstr "Wstaw symbol (%s)"
 
 #. Translators: This is the message when symbol has been copied to the clipboard.
-#, fuzzy
 msgid "Symbol copied to clipboard, ready for you to paste."
-msgstr "Buźka skopiowana do schowka, gotowa do wklejenia."
+msgstr "Symbol skopiowany do schowka, gotowy do wklejenia."
 
 #. Translators: Message when the symbol couldn't be copied.
-#, fuzzy
 msgid "Cannot copy symbol."
-msgstr "Nie można skopiować emotikony."
+msgstr "Nie można skopiować symbolu."
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"
