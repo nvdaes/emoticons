@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: clipContentsDesigner 1.0\n"
+"Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2014-12-27 19:18+1000\n"
-"PO-Revision-Date: 2021-02-13 11:47+0100\n"
+"POT-Creation-Date: 2013-11-19 18:53+0100\n"
+"PO-Revision-Date: 2021-02-09 11:29+0100\n"
 "Last-Translator: Ondrej Rosík <ondrej.rosik@gmail.com>\n"
 "Language-Team: \n"
 "Language: sk\n"
@@ -17,224 +17,937 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.6.11\n"
 
-#. Translators: label of a dialog.
+#. Translators: the label of a message box dialog.
 msgid ""
-"This add-on allows to confirm if you want to copy and cut, replacing the "
-"clipboard contents,\n"
-"\t\twhen pressing control+c and control+x. This is named Emulate copy and "
-"cut.\n"
-"\t\tDo you want to configure Emulate copy and cut now? You may do or change "
-"this later."
+"You seem to have previous settings saved for this add-on. Do you want to "
+"import them, removing deprecated files?"
 msgstr ""
-"Môžete si nastaviť varovanie, ktoré sa objaví, pred vystrihnutím alebo "
-"skopírovaním nového textu do schránky.\n"
-"\t\tTakto nestratíte dôležitý obsah, ktorý už v schránke máte.\n"
-"\t\tChcete aktivovať toto varovanie? Nastavenie je možné neskôr zmeniť."
+"Našli sa nastavenia zo staršej verzie doplnku. Chcete ich ponechať a "
+"odstrániť nepotrebné súbory?"
 
-#. Translators: title of a dialog.
-msgid "Configure Emulate copy and cut"
-msgstr "Varovania pri práci so schránkou"
+#. Translators: the title of a message box dialog.
+msgid "Import Emoticons add-on settings"
+msgstr "Importovať nastavenia emotikonov"
 
-#. Translators: label of a dialog.
-msgid "Preformatted text in HTML"
-msgstr "Formátovaný html text"
+#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
+#. Translators: Label for emojis in the list.
+msgid "Emoji"
+msgstr "Emoji"
 
-#. Translators: label of a dialog.
-msgid "HTML as shown in a web browser"
-msgstr "HTML zobrazené vo webovom prehliadači"
+#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
+msgid "Emoticon"
+msgstr "Emotikon"
 
-#. Translators: Text of the clipboard shown without being formatted.
-msgid "Plain text"
-msgstr "Čistý text"
+#. Translators: the name of a submenu.
+msgid "&Emoticons"
+msgstr "&Emotikony"
 
-#. Translators: message presented in input mode.
-msgid "Shows the Clip Contents Designer settings."
-msgstr "Zobrazí nastavenia pokročilej schránky."
+#. Translators: the name for a menu item.
+msgid "&Insert emoticon..."
+msgstr "&Vložiť emotikon..."
 
-#. Translators: message presented when the clipboard content has been deleted.
-msgid "Clipboard cleared"
-msgstr "Schránka je prázdna"
+#. Translators: the tooltip text for a menu item.
+msgid "Shows a dialog to insert a smiley"
+msgstr "Zobrazí dialóg na vloženie emotikonu a smajlíka"
 
-#. Translators: message presented when the clipboard content cannot be deleted.
-msgid "Clipboard not cleared"
-msgstr "obsach schránky sa nepodarilo odstrániť"
+#. Translators: the name for a menu item.
+msgid "In&sert symbol..."
+msgstr "Vložiť &symbol..."
 
-#. Translators: message presented when it's not possible to add text, since no text has been selected.
-msgid "No text to add"
-msgstr "Žiadny text na pridanie"
+#. Translators: the tooltip text for a menu item.
+msgid "Shows a dialog to insert a symbol"
+msgstr "Zobrazí dialóg na vloženie symbolu"
 
-#. Translators: Label of a dialog.
-msgid "Please, confirm if you want to add text to the clipboard"
-msgstr "Naozaj chcete pridať text do schránky?"
+#. Translators: the name for a menu item.
+msgid "&Emoticons dictionary..."
+msgstr "&slovník s emotikonmi..."
+
+#. Translators: the tooltip text for a menu item.
+msgid "Shows a dictionary dialog to customize emoticons"
+msgstr "Zobrazí užívateľský slovník s emotikonmi"
 
 #. Translators: Title of a dialog.
-msgid "Adding text to clipboard"
-msgstr "Pridanie textu"
+#, python-format
+msgid "Emoticons dictionary (%s)"
+msgstr "Slovník s emotikonmi (%s)"
 
-#. Translators: message presented when the text has been added to the clipboard.
-msgid "Added"
-msgstr "Pridané"
+#. Translators: Message presented in input help mode.
+msgid "Toggles on and off the announcement of emoticons."
+msgstr "Zapína a vypína oznamovanie emotikonov."
 
-#. Translators: message presented when the text cannot be added to the clipboard.
-msgid "Cannot add"
-msgstr "Nie je možné pripojiť"
+#. Translators: message presented when the dictionary for emoticons is unloaded.
+msgid "Emoticons off."
+msgstr "Neoznamovať emotikony."
 
-#. Translators: message presented in input mode.
-msgid ""
-"Retrieves the selected string or the text from the previously set start "
-"marker up to\n"
-"\t\tand including the current position of the review cursor, and adds it to "
-"the clipboard."
+#. Translators: message presented when the dictionary for emoticons is loaded.
+msgid "Emoticons on."
+msgstr "Oznamovať emotikony."
+
+#. Translators: Message presented in input help mode.
+msgid "Shows a dialog to select a smiley you want to paste."
 msgstr ""
-"Text od značky po prezerací kurzor pripojí do schránky.\n"
-"\t\t"
+"Zobrazí dialóg, v ktorom môžete vybrať smajlíka, ktorého chcete vložiť."
 
-#. Translators: Label of a dialog.
-msgid "Please, confirm if you want to clear the clipboard"
-msgstr "Naozaj chcete vymazať obsah schránky?"
+#. Translators: Message presented in input help mode.
+msgid "Shows a dialog to select a symbol you want to paste."
+msgstr "Zobrazí dialóg na vloženie symbolu."
 
-#. Translators: Title of a dialog.
-msgid "Clearing clipboard"
-msgstr "Vymazanie schránky"
+#. Translators: Message presented in input help mode.
+msgid "Shows the Emoticons dictionary dialog."
+msgstr "Zobrazí slovník s emotikonmi."
 
-#. Translators: message presented in input mode.
-msgid "Deletes the added text and the content of the clipboard."
-msgstr "Vymaže obsah schránky."
+#. Translators: Message presented in input help mode.
+msgid "Shows the Emoticons settings."
+msgstr "Zobrazí nastavenia emotikonov."
 
-#. Translators: Label of a dialog.
-msgid "Please, confirm if you want to copy to the clipboard"
-msgstr "Naozaj chcete kopírovať?"
+#. Translators: Message presented in input help mode.
+msgid "Shows the symbol positioned where the review cursor is located."
+msgstr "Zobrazí symbol pod prezeracím kurzorom."
 
-#. Translators: Title of a dialog.
-msgid "Copying to clipboard"
-msgstr "Kopírovanie"
+#. Translators: Reported when there is no replacement for the symbol at the position of the review cursor.
+#. Translators: Reported when there is no replacement for the symbol at the position of the caret.
+msgid "No symbol replacement"
+msgstr "žiadna náhrada"
 
-#. Translators: message presented in input mode.
+#. Translators: Character and its replacement used from the "Review current Symbol" command. Example: "Character: ? Replacement: question"
 msgid ""
-"Copies to the clipboard, with the possibility of being asked for a previous "
-"confirmation"
-msgstr "Skopíruje do schránky s možnosťou varovania"
-
-#. Translators: Label of a dialog.
-msgid "Please, confirm if you want to cut from the clipboard"
-msgstr "Naozaj chcete vystrihnúť?"
-
-#. Translators: Title of a dialog.
-msgid "Cutting from clipboard"
-msgstr "Vystrihnutie"
-
-#. Translators: message presented in input mode.
-msgid ""
-"Cuts from the clipboard, with the possibility of being asked for a previous "
-"confirmation"
-msgstr "Vystrihne do schránky s možnosťou varovania"
-
-#. Translators: message presented in input mode.
-msgid "Shows the clipboard text as HTML in browse mode"
-msgstr "Zobrazí formátovaný text schránky v režime prehliadania"
-
-#. Translators: presented when clipboard is not empty, but there is no text to show in browse mode.
-msgid "Clipboard is not empty, but there is no text to show"
-msgstr "Schránka nie je prázdna, ale nie je možné zobraziť text"
-
-#. Translators: presented when clipboard is empty.
-msgid "Clipboard is empty"
-msgstr "Schránka je prázdna"
-
-#. Translators: title of a browseable message.
-#, python-brace-format
-msgid "Clipboard text ({max}/{current} - {formatForTitle})"
-msgstr "Text v schránke ({max}/{current} - {formatForTitle})"
-
-#. Translators: message presented in input mode.
-msgid "Shows the clipboard textual contents as plain text in browse mode"
-msgstr "Zobrazí neformátovaný text schránky v režime prehliadania"
-
-#. Translators: label of a dialog.
-msgid ""
-"Type the string to be used as a &separator between contents added to the "
-"clipboard."
+"Character: {}\n"
+"Replacement: {}"
 msgstr ""
-"Zadajte reťazec, ktorým sa budú oddeľovať jednotlivé ča&sti textu v schránke."
+"Symbol: {}\n"
+"nahradiť s: {}"
 
-#. Translators: label of a dialog.
-msgid "&Add text before clip data"
-msgstr "& Pridať reťazec pred textom"
+#. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
+msgid "Symbol at the review cursor position ({})"
+msgstr "Symbol pod prezeracím kurzorom ({})"
 
-#. Translators: label of a dialog.
-msgid "Sele&ct the actions which require previous confirmation"
-msgstr "Vyber&te akcie, ktoré vyžadujú varovanie"
+#. Translators: Message presented in input help mode.
+msgid "Shows the symbol positioned where the caret is located."
+msgstr "Zobrazí symbol pod systémovým kurzorom."
 
-#. Translators: label of a dialog.
-msgid "Confirm to add text"
-msgstr "pridanie textu"
+#. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
+msgid "Symbol at the caret position ({})"
+msgstr "Symbol pod systémovým kurzorom ({})"
 
-#. Translators: label of a dialog.
-msgid "Confirm to clear clipboard"
-msgstr "Vymazanie schránky"
+#. Translators: Title of the dialog.
+msgid "Insert emoticon"
+msgstr "Vložiť emotikon"
 
-#. Translators: label of a dialog.
-msgid "Confirm to emulate copy"
-msgstr "Kopírovať"
+#. Filter panel.
+#. Translators: A text field to filter emoticons.
+#. Translators: The label of a text field to search for symbols in the Insert Symbol dialog.
+msgid "&Filter:"
+msgstr "&Filter:"
 
-#. Translators: label of a dialog.
-msgid "Confirm to emulate cut"
-msgstr "Vystrihnúť"
+#. Translators: A radio button to choose all types of emoticons.
+msgid "&All"
+msgstr "&Všetky"
 
-#. Translators: label of a dialog.
-msgid "&Request confirmation before performing the selected actions when:"
-msgstr "Va&rovať keď:"
+#. Translators: A radio button to choose only standard emoticons.
+msgid "&Standard"
+msgstr "&Štandardné"
 
-#. Translators: label of a dialog.
-msgid "Always"
-msgstr "Vždy"
+#. Translators: A radio button to choose only emojis.
+msgid "Emoj&is"
+msgstr "Emoj&i"
 
-#. Translators: label of a dialog.
-msgid "If the clipboard contains text"
-msgstr "Ak je v schránke text"
+#. List of emoticons.
+#. Translators: Label for the smileys list.
+msgid "&List of smilies"
+msgstr "&Zoznam smajlíkov"
 
-#. Translators: label of a dialog.
-msgid "If the clipboard is not empty"
-msgstr "Ak schránka nie je prázdna"
+#. Translators: Column which specifies the name  of emoticon.
+msgid "Name"
+msgstr "Názov"
 
-#. Translators: label of a dialog.
-msgid "&Format to show the clipboard text as HTML in browse mode:"
-msgstr "Zobraziť schránku vo formáte:"
+#. Translators: Column which specifies the type of emoticon (standard or emoji).
+msgid "Type"
+msgstr "typ"
 
-#. Translators: label of a dialog.
-msgid ""
-"&Maximum number of characters when showing clipboard text in browse mode"
-msgstr ""
-"&Maximálny počet znakov pri zobrazení textu schránky v režime prehliadania"
+#. Translators: The column which contains the characters of the emoticon.
+msgid "Characters"
+msgstr "Znaky"
+
+#. Translators: Label for standard emoticons in the list.
+msgid "Standard"
+msgstr "Štandardné"
+
+#. Translators: Error message when none emoticon is selected or the list is empty, and title of the error dialog.
+msgid "There is not any emoticon selected."
+msgstr "Nie je vybratý žiadny emotikon."
+
+#. Translators: This is the message when smiley has been copied to the clipboard.
+msgid "Smiley copied to clipboard, ready for you to paste."
+msgstr "Skopírované do schránky."
+
+#. Translators: Message when the emoticon couldn't be copied.
+msgid "Cannot copy smiley."
+msgstr "Nepodarilo sa skopírovať emotikon."
+
+#. Translators: The label for a button in the Emoticons dictionary dialog.
+msgid "Rese&t"
+msgstr "&Obnoviť"
+
+#. Translators: The label for a button in the Emoticons dictionary dialog.
+msgid "Save and e&xport dictionary"
+msgstr "Uložiť a e&xportovať slovník"
+
+#. Translators: This is the label for the Insert Symbol dialog.
+#. %s is replaced by the language for which symbol pronunciation is being edited.
+#, python-format
+msgid "Insert Symbol (%s)"
+msgstr "Vložiť symbol (%s)"
+
+#. Translators: This is the message when symbol has been copied to the clipboard.
+msgid "Symbol copied to clipboard, ready for you to paste."
+msgstr "Skopírované do schránky."
+
+#. Translators: Message when the symbol couldn't be copied.
+msgid "Cannot copy symbol."
+msgstr "Nepodarilo sa skopírovať symbol."
+
+#. Translators: The label for a setting in Emoticons panel.
+msgid "&Activate speaking of emoticons:"
+msgstr "&Oznamovať emotikony:"
+
+#. Translators: The label for a setting in Emoticons panel.
+msgid "Speak add-on emojis"
+msgstr "Oznamovať doplnkové emoji"
+
+#. Translators: The label for a setting in Emoticons panel.
+msgid "&Remove not used dictionaries"
+msgstr "&Odstrániť nepoužívané slovníky"
+
+#. Translators: (emoji) Grinning face, an happy face with normal eyes.
+msgid "Grinning face"
+msgstr "Škeriaca sa tvár"
+
+#. Translators: (emoji) Happy face with open mouth and squinting eyes.
+msgid "Happy face with open mouth and squinting eyes"
+msgstr "Šťastná tvár s otvorenými ústami a prižmúrenými očami"
+
+#. Translators: (emoji) happy face with open mouth.
+msgid "Happy face with open mouth"
+msgstr "Šťastná tvár s otvorenými ústami"
+
+#. Translators: (emoji) A smiling face with smiling eyes and rosy cheeks.
+msgid "Smiling Face With Smiling Eyes"
+msgstr "Smejúca sa tvár s prižmúrenými očami"
+
+#. Translators: (emoji) smirking face.
+msgid "Smirking face"
+msgstr "Samoľúba tvár"
+
+#. Translators: (emoji) Slightly Smiling Face: a face that is a little bit happy, with a slight smile and neutral eyes.
+msgid "Slightly smiling face"
+msgstr "usmievajúca sa tvár"
+
+#. Translators: (emoji) white smiling face.
+msgid "white smiling face"
+msgstr "biela usmievajúca sa tvár"
+
+#. Translators: (emoji) happy face with halo.
+msgid "Happy face with halo"
+msgstr "Šťastná tvár volajúca haló"
+
+#. Translators: (emoji) white frowning face.
+msgid "White frowning face"
+msgstr "biela zamračená tvár"
+
+#. Translators: (emoji) winking face.
+msgid "Winking face"
+msgstr "žmurkajúca tvár"
+
+#. Translators: (emoji) smiling face with heart shaped eyes.
+msgid "Smiling face with heart shaped eyes"
+msgstr "smejúca sa tvár so srdiečkami"
+
+#. Translators: (emoji)  Rose: a single red rose.
+msgid "Rose"
+msgstr "Ruža"
+
+#. Translators: (emoji) Expressionless face: a face with straight lined eyes and mouth. A deliberate display of no comment...
+msgid "Expressionless face"
+msgstr "Bezvýrazná tvár"
+
+#. Translators: (emoji) neutral face.
+msgid "Neutral face"
+msgstr "Neutrálna tvár"
+
+#. Translators: (emoji) face without mouth.
+msgid "Face without mouth"
+msgstr "Tvár bez úst"
+
+#. Translators: (emoji) face throwing a kiss.
+msgid "Face throwing a kiss"
+msgstr "Tvár posielajúca bozk"
+
+#. Translators: (emoji) kissing face with closed eyes.
+msgid "Kissing face with closed eyes"
+msgstr "Bozkávajúca tvár so zatvorenými očami"
+
+#. Translators: (emoji) Kissing face.
+msgid "Kissing face"
+msgstr "Bozkávajúca tvár"
+
+#. Translators: (emoji) kissing face with arched eyes.
+msgid "Kissing face with arched eyes"
+msgstr "Bozkávajúca tvár s klenutými očami"
+
+#. Translators: (emoji) winking face with stuck out tongue.
+msgid "Winking face with stuck out tongue"
+msgstr "Žmurkajúca tvár s vyplazeným jazykom"
+
+#. Translators: (emoji) face with stuck out tongue and eyes tightly closed.
+msgid "Face with stuck out tongue and eyes tightly closed"
+msgstr "Tvár s vyplazeným jazykom a privretými očami"
+
+#. Translators: (emoji) A cheeky face with stuck out tongue.
+msgid "Face with stuck out tongue"
+msgstr "Tvár s vyplazeným jazykom"
+
+#. Translators: (emoji) Hugging Face: a face displayed with an open hands gesture, offering a hug.
+msgid "Hugging face"
+msgstr "Obijímajúca tvár"
+
+#. Translators: (emoji) flushed face.
+msgid "Flushed face"
+msgstr "Zapýrená tvár"
+
+#. Translators: (emoji) Grinning face showing smiling eyes.
+msgid "Grinning Face With Smiling Eyes"
+msgstr "Škeriaca sa tvár s prižmúrenými očami"
+
+#. Translators: (emoji) A pensive, remorseful and saddened face. Quietly considering where things all went wrong.
+msgid "Pensive Face"
+msgstr "Zamyslená tvár"
+
+#. Translators: (emoji) devil with evil smile.
+msgid "Devil with evil smile"
+msgstr "Diabol so zlovestným úsmevom"
+
+#. Translators: (emoji) devil.
+msgid "Devil"
+msgstr "Diabol"
+
+#. Translators: (emoji) relieved face.
+msgid "Relieved face"
+msgstr "Tvár vyjadrujúca úľavu"
+
+#. Translators: (emoji) unamused face.
+msgid "Unamused face"
+msgstr "Znudená tvár"
+
+#. Translators: (emoji) A face with scrunched up and closed eyes, frowning. Used to show helplessness in a situation.
+msgid "Persevering Face"
+msgstr "Urputná tvár"
+
+#. Translators: (emoji) crying face.
+msgid "Crying face"
+msgstr "Plačúca tvár"
+
+#. Translators: (emoji) face with tears of joy.
+msgid "Face with tears of joy"
+msgstr "Plačem od smiechu"
+
+#. Translators: (emoji) loudly crying face.
+msgid "Loudly crying face"
+msgstr "Nariekajúca tvár"
+
+#. Translators: (emoji) sleepy face.
+msgid "Sleepy face"
+msgstr "Ospalá tvár"
+
+#. Translators: (emoji) Shrugging: A person shrugging their shoulders to indicate a lack of knowledge about a particular topic, or a lack of care about the result of a situation.
+msgid "Shrugging emoji"
+msgstr "Človek krčiaci plecami"
+
+#. Translators: (emoji) disappointed face.
+msgid "Disappointed face"
+msgstr "Sklamaná tvár"
+
+#. Translators: (emoji) disappointed but relieved face.
+msgid "Disappointed but relieved face"
+msgstr "Sklamaná tvár s úľavou"
+
+#. Translators: (emoji) Face with a look of concern, with a blue forehead and sweat dripping down the cheek.
+msgid "Face With Open Mouth & Cold Sweat"
+msgstr "Tvár s otvorenými ústami a studeným potom"
+
+#. Translators: (emoji) Happy face with a single drop of sweat on one side of the face.
+msgid "Smiling Face With Open Mouth & Cold Sweat"
+msgstr "Usmievajúca sa tvár s otvorenými ústami a studeným potom"
+
+#. Translators: (emoji) face with cold sweat.
+msgid "Face with cold sweat"
+msgstr "Tvár so studeným potom"
+
+#. Translators: (emoji) A distraught-looking face with  an open mouth and crescent shaped eyes.
+msgid "Weary Face"
+msgstr "Ustatá tvár"
+
+#. Translators: (emoji) An exhausted-looking face with an open mouth and tightly closed eyes.
+msgid "Tired Face"
+msgstr "Unavená tvár"
+
+#. Translators: (emoji) fearful face.
+msgid "Fearful face"
+msgstr "Vystrašená tvár"
+
+#. Translators: (emoji) face screaming in fear.
+msgid "Face screaming in fear"
+msgstr "Tvár kryčiaca od strachu"
+
+#. Translators: (emoji) angry face.
+#. Translators: :@ angry face.
+msgid "Angry face"
+msgstr "Nahnevaná tvár"
+
+#. Translators: (emoji) pouting face.
+msgid "Pouting face"
+msgstr "Podráždená tvár"
+
+#. Translators: (emoji) A face with air coming out of its nose, huffing with anger face.
+msgid "Face With Steam From Nose"
+msgstr "Tvár s parou z nosa"
+
+#. Translators: (emoji) confounded face.
+msgid "Confounded face"
+msgstr "Tvár v rozpakoch"
+
+#. Translators: (emoji) Smiling Face With Open Mouth and Tightly-Closed Eyes.
+msgid "Smiling Face With Open Mouth and Tightly-Closed Eyes"
+msgstr "Usmievajúca sa tvár s otvorenými ústami a prižmúrenými očami"
+
+#. Translators: (emoji) happy face licking lips.
+msgid "Happy face licking lips"
+msgstr "Šťastná tvár oblizujúca si pery"
+
+#. Translators: (emoji) happy face with sunglasses.
+msgid "Happy face with sunglasses"
+msgstr "Šťastná tvár s okuliarmi"
+
+#. Translators: (emoji) sleeping face.
+msgid "Sleeping face"
+msgstr "Spiaca tvár"
+
+#. Translators: (emoji) A dizzy face, looking sick or confused from being spun around in circles too many times.
+msgid "Dizzy Face"
+msgstr "Tvár so závratom"
+
+#. Translators: (emoji) astonished face.
+msgid "Astonished face"
+msgstr "Udivená tvár"
+
+#. Translators: (emoji) worried face.
+msgid "Worried face"
+msgstr "Ustaraná tvár"
+
+#. Translators: (emoji) Dismayed face with open eyes and open mouth, appear closer to  a frowning face.
+msgid "Frowning Face With Open Mouth"
+msgstr "Zamračená tvár s otvorenými ústami"
+
+#. Translators: (emoji) anguished face.
+msgid "Anguished face"
+msgstr "Utrápená tvár"
+
+#. Translators: (emoji) A face with Open Mouth, generally used to represent an element of surprise.
+msgid "Face with Open Mouth"
+msgstr "Tvár s otvorenými ústami"
+
+#. Translators: (emoji) grimacing face.
+msgid "Grimacing face"
+msgstr "Vyškerená tvár"
+
+#. Translators: (emoji) confused face.
+msgid "Confused face"
+msgstr "Zmetená tvár"
+
+#. Translators: (emoji) A face with high eyebrows and an open mouth, it looks more surprised than hushed.
+msgid "Hushed Face"
+msgstr "Umlčaná tvár"
+
+#. Translators: (emoji) broken heart.
+msgid "Broken heart"
+msgstr "Zlomené srdce"
+
+#. Translators: (emoji) pulsating heart.
+msgid "Pulsating heart"
+msgstr "Pulzujúce srdce"
+
+#. Translators: (emoji) beating heart.
+msgid "Beating heart"
+msgstr "Tlčúce srdce"
+
+#. Translators: (emoji) two hearts.
+msgid "Two hearts"
+msgstr "Dve srdcia"
+
+#. Translators: (emoji) heart with arrow.
+msgid "Heart with arrow"
+msgstr "Srdce so šípom"
+
+#. Translators: (emoji) purple heart.
+msgid "Purple heart"
+msgstr "Fialové srdce"
+
+#. Translators: (emoji) red heart.
+msgid "Red heart"
+msgstr "Červené srdce"
+
+#. Translators: (emoji) yellow heart.
+msgid "Yellow heart"
+msgstr "Žlté srdce"
+
+#. Translators: (emoji) green heart.
+msgid "Green heart"
+msgstr "Zelené srdce"
+
+#. Translators: (emoji) blue heart.
+msgid "Blue heart"
+msgstr "Modré srdce"
+
+#. Translators: (emoji) This emoji is the version of the phrase ROFL. A person lying on the floor due to an extreme amount of laughter.
+msgid "Rolling on the Floor Laughing"
+msgstr "Váľam sa od smiechu!"
+
+#. Translators: (emoji) A face that is a little bit sad, with a slight frown and neutral eyes.
+msgid "Slightly Frowning Face"
+msgstr "Trochu zamračená tvár"
+
+#. Translators: (emoji) A face that is upside-down.
+msgid "Upside-down Face"
+msgstr "Prevrátená tvár"
+
+#. Translators: (emoji) A face displaying eyes glancing upward.
+msgid "Face With Rolling Eyes"
+msgstr "Tvár prevracajúca oči"
+
+#. Translators: (emoji) A person with arms forming an X to indicate no or no good.
+msgid "Person Gesturing No"
+msgstr "Nie (človek s prekríženými rukami)"
+
+#. Translators: (emoji) A person with arms above his head, making an OK sign with the whole body.
+msgid "Person Gesturing OK"
+msgstr "OK (človek s rukami nad hlavou)"
+
+#. Translators: (emoji) A person bowing deeply, express a sincere apology or to request a favour.
+msgid "Person bowing"
+msgstr "Klaňajúci sa človek"
+
+#. Translators: (emoji) An upset person frowning with dismay.
+msgid "Person Frowning"
+msgstr "Zamračený človek"
+
+#. Translators: (emoji) Two hands placed firmly together.
+msgid "Folded Hands"
+msgstr "Zopäté ruky"
+
+#. Translators: (emoji) A person with a surgical mask on their face.
+msgid "Face with medical mask"
+msgstr "Tvár s rúžkom"
+
+#. Translators: (emoji) A black version of white smiling face.
+msgid "Black Smiling Face"
+msgstr "Čierna usmievajúca sa tvár"
+
+#. Translators: (emoji) happy cat face with heart shaped eyes.
+msgid "Happy cat face with heart shaped eyes"
+msgstr "Šťastná mačacia tvár so srdiečkami"
+
+#. Translators: (emoji) ok hand sign.
+msgid "Ok hand sign"
+msgstr "Výborne"
+
+#. Translators: (emoji) thumbs up symbol.
+msgid "Thumbs up symbol"
+msgstr "Palec hore"
+
+#. Translators: (emoji) thumbs down symbol.
+msgid "Thumbs down symbol"
+msgstr "palec dole"
+
+#. Translators: (emoji) Victory Hand.
+msgid "Victory Hand"
+msgstr "Výťazstvo"
+
+#. Translators: :) Smile
+msgid "smiling smiley"
+msgstr "úsmev"
+
+#. Translators: :( Sad face.
+msgid "Sad face"
+msgstr "smutná tvár"
+
+#. Translators: :D Laugh
+msgid "Laughing smiley"
+msgstr "smiech"
+
+#. Translators: :O Surprised
+msgid "surprised smiley"
+msgstr "prekvapenie"
+
+#. Translators: ;) Wink;
+msgid "winking smiley"
+msgstr "žmurkám"
+
+#. Translators: ;( Crying
+msgid "crying smiley"
+msgstr "plačem"
+
+#. Translators: :s :-S :-Q Confused face:
+msgid "Confused Face"
+msgstr "Zmetená tvár"
+
+#. Translators: (:| Sweating
+msgid "sweating smiley"
+msgstr "potím sa"
+
+#. Translators: :|] Robot (a robot head)
+msgid "Robot Smiley"
+msgstr "robot"
+
+#. Translators: :| Speechless
+msgid "speechless smiley"
+msgstr "nemám slov"
+
+#. Translators: :* Kiss
+msgid "kiss smiley"
+msgstr "bozk"
+
+#. Translators: :P Cheeky
+msgid "cheeky smiley"
+msgstr "vyplazený jazyk"
+
+#. Translators: :$ Blushing
+msgid "blushing smiley"
+msgstr "hanbím sa"
+
+#. Translators: :^) Wondering
+msgid "wondering smiley"
+msgstr "zvedavý"
+
+#. Translators: |-) Sleepy
+msgid "sleepy smiley"
+msgstr "ospalý"
+
+#. Translators: |-( Dull
+msgid "dull smiley"
+msgstr "nechápem"
+
+#. Translators: :x My lips are sealed
+msgid "my lips are sealed smiley"
+msgstr "mlčím ako hrob"
+
+#. Translators: \o/ Dancing
+msgid "dancing smiley"
+msgstr "tancujem"
+
+#. Translators: :'( crying a lot smiley
+msgid "crying a lot smiley"
+msgstr "veľmi plačem"
+
+#. Translators: >:( Angry
+#. Translators: (angry) Angry
+msgid "angry smiley"
+msgstr "hnevám sa"
+
+#. Translators: :/ Worried
+#. Translators: (worry) Worried
+msgid "worried smiley"
+msgstr "trápim sa"
+
+#. Translators: <3 Heart
+#. Translators: (heart) Heart
+msgid "heart smiley"
+msgstr "srdce"
+
+#. Translators:  O:)  O:-) Angel
+msgid "Angel Smiley"
+msgstr "anjel"
+
+#. Translators:  O.o  o.O  Confused
+msgid "Confused Smiley"
+msgstr "Zmetený"
+
+#. Translators:   3:-) Devil
+msgid "Devil Smiley"
+msgstr "diabol"
+
+#. Translators:  ^_^ Keke (This smiley is inspired by the Asian style, which is a happy face.)
+msgid "Keke Smiley"
+msgstr "váľam sa od smiechu"
+
+#. Translators: -_- Bored (This smiley face has its eyes closed and is sporting a very small grin.)
+msgid "Bored smiley"
+msgstr "nudný"
+
+#. Translators:  >:O  Upset, angry or shouting...
+msgid "Angry Smiley"
+msgstr "nahnevaný"
+
+#. Translators:  :3  Cat (Cat faced smiley with curly lips)
+msgid "Cat Smiley"
+msgstr "mačka"
+
+#. Translators: (-.-)ZZZ Iӭ Sleepy
+msgid "I am Sleepy smiley"
+msgstr "ospalý"
+
+#. Translators: 8-) Glasses
+msgid "glasses smiley"
+msgstr "úsmev s okuliarmi"
+
+#. Translators: (^^^) shark
+msgid "shark smiley"
+msgstr "žralok"
+
+#. Translators:  (cash) Cash
+msgid "cash smiley"
+msgstr "peniaze"
+
+#. Translators: (flex) Muscle
+msgid "muscle smiley"
+msgstr "svaly"
+
+#. Translators: (beer) Beer
+msgid "beer smiley"
+msgstr "pivo"
+
+#. Translators: (d) Drink
+msgid "drink smiley"
+msgstr "nápoj"
+
+#. Translators: (ninja) Ninja
+msgid "ninja smiley"
+msgstr "Nindža"
+
+#. Translators: (cool) Cool
+msgid "cool smiley"
+msgstr "pohoda"
+
+#. Translators: (inlove) In Love
+msgid "in love smiley"
+msgstr "zamilovaný"
+
+#. Translators: (yn) Fingers crossed
+msgid "fingers crossed smiley"
+msgstr "držím palce"
+
+#. Translators: (yawn) Yawn
+msgid "yawning smiley"
+msgstr "zívam"
+
+#. Translators: (puke) Puking
+msgid "puking smiley"
+msgstr "vraciam"
+
+#. Translators: (doh) Doh!
+msgid "doh! smiley"
+msgstr "Dočerta"
+
+#. Translators: (wasntme) It wasn't me!
+msgid "it wasn't me! smiley"
+msgstr "To nie ja!"
+
+#. Translators: (party) Party
+msgid "party smiley"
+msgstr "párty"
+
+#. Translators: (mm) Mmmm...
+msgid "mmmmmm... smiley"
+msgstr "mmmmmm... "
+
+#. Translators: (nerd) Nerdy
+msgid "nerdy smiley"
+msgstr "hlúpy"
+
+#. Translators: (wave) Hi
+msgid "hi smiley"
+msgstr "ahoj"
+
+#. Translators: (facepalm) Facepalm
+msgid "facepalm smiley"
+msgstr "to snáď nie je možné"
+
+#. Translators: (devil) Devil
+msgid "devil smiley"
+msgstr "diabol"
+
+#. Translators: (angel) Angel
+msgid "angel smiley"
+msgstr "anjel"
+
+#. Translators: (envy) Envy
+msgid "envy smiley"
+msgstr "závidím"
+
+#. Translators: (wait) Wait
+msgid "wait smiley"
+msgstr "počkaj"
+
+#. Translators: (hug) Hug
+msgid "hug smiley"
+msgstr "objímam"
+
+#. Translators: (makeup) Make-up
+msgid "make-up smiley"
+msgstr "maľujem sa"
+
+#. Translators: (chuckle) Giggle
+msgid "giggle smiley"
+msgstr "chichot"
+
+#. Translators: (clap) Clapping
+msgid "clapping smiley"
+msgstr "tlieskam"
+
+#. Translators: (think) Thinking
+msgid "thinking smiley"
+msgstr "rozmýšľam"
+
+#. Translators: (bow) Bowing
+msgid "bowing smiley"
+msgstr "klaniam sa"
+
+#. Translators: (rofl) Rolling on the floor laughing
+msgid "rolling on the floor laughing! smiley"
+msgstr "Váľam sa od smiechu!"
+
+#. Translators: (whew) Relieved
+msgid "relieved smiley"
+msgstr "odľahlo mi"
+
+#. Translators: (happy) Happy
+msgid "happy smiley"
+msgstr "šťastný"
+
+#. Translators: (smirk) Smirking
+msgid "smirking smiley"
+msgstr "uškŕňam sa"
+
+#. Translators: (nod) Nodding
+msgid "nodding smiley"
+msgstr "súhlas"
+
+#. Translators: (shake) Shake
+msgid "shakeing smiley"
+msgstr "nesúhlas"
+
+#. Translators: (waiting) Waiting
+msgid "waiting smiley"
+msgstr "čakám"
+
+#. Translators: (emo) Emo;
+msgid "Emo smiley"
+msgstr "emo"
+
+#. Translators: (y) Yes
+msgid "yes smiley"
+msgstr "áno"
+
+#. Translators: (n) no;
+msgid "no smiley"
+msgstr "nie"
+
+#. Translators: (handshake) Handshake
+msgid "handshake smiley"
+msgstr "dohodnuté"
+
+#. Translators: (highfive) High five
+msgid "high five smiley"
+msgstr "Daj na to"
+
+#. Translators: (lalala) Lalala;
+msgid "lalala smiley"
+msgstr "lalala"
+
+#. Translators: (heidy) Heidy;
+msgid "heidy smiley"
+msgstr "veverička"
+
+#. Translators: (F) Flower
+msgid "flower smiley"
+msgstr "kvet"
+
+#. Translators: (rain) Raining
+msgid "raining smiley"
+msgstr "prší"
+
+#. Translators: (sun) Sun
+msgid "sunny smiley"
+msgstr "slnko"
+
+#. Translators: (tumbleweed) Tumbleweed
+msgid "tumbleweed smiley"
+msgstr "ticho pred búrkov"
+
+#. Translators: (music) Music
+msgid "music smiley"
+msgstr "hudba"
+
+#. Translators: (bandit) Bandit
+msgid "bandit smiley"
+msgstr "bandita"
+
+#. Translators: (tmi) Too much information
+msgid "too much information smiley"
+msgstr "príliš veľa informácií"
+
+#. Translators: (coffee) Coffee
+msgid "coffee smiley"
+msgstr "káva"
+
+#. Translators: (pi) Pizza
+msgid "pizza smiley"
+msgstr "pizza"
+
+#. Translators: (^) Cake
+msgid "cake smiley"
+msgstr "torta"
+
+#. Translators: (*) Star
+msgid "star smiley"
+msgstr "hviezda"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-msgid "Clip Contents Designer"
-msgstr "Rozšírená schránka"
+msgid "Emoticons"
+msgstr "Emotikony"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-msgid "Add-on for managing clipboard text."
-msgstr "Doplnok na prácu so schránkou Windows."
-
-#~ msgid "Start marker set"
-#~ msgstr "Začiatok označený"
+msgid ""
+"Enables the announcement of emoticon names instead of the character "
+"Representation."
+msgstr "Namiesto znakov popisuje emotikony slovne."
 
 #~ msgid ""
-#~ "Marks the current position of the review cursor as the start of text to "
-#~ "be appended to the clipboard."
+#~ "You have installed the Emoticons add-on, probably an old and incompatible "
+#~ "version with this one. Do you want to uninstall the old version?"
 #~ msgstr ""
-#~ "Označí aktuálnu pozíciu prezeracieho kurzora ako začiatok textu, ktorý "
-#~ "bude skopírovaný do schránky."
+#~ "Našla sa staršia verzia tohto doplnku, ktorá nie je kompatibilná s novou "
+#~ "verziou. chcete starú verziu odinštalovať?"
 
-#~ msgid "No selection. No start marker set"
-#~ msgstr "Nie je označený začiatok"
+#~ msgid "Uninstall incompatible add-on"
+#~ msgstr "odstrániť starú verziu"
 
-#~ msgid "The start marker must reside within the same object"
-#~ msgstr "Začiatok musí byť označený v tom istom objekte"
+#, fuzzy
+#~ msgid "Manag&e emoticons"
+#~ msgstr "Spravovať emotikony"
 
-#~ msgid "&Clip Contents Designer settings..."
-#~ msgstr "Nastavenia &Clip Contents Designer..."
+#~ msgid "Emoticons menu"
+#~ msgstr "Menu Emotikony"
 
-#~ msgid "Clip Contents Designer settings"
-#~ msgstr "Nastavenia Clip Contents Designer"
+#~ msgid "&Customize emoticons..."
+#~ msgstr "Upraviť emotikony"
+
+#~ msgid "&Activation settings..."
+#~ msgstr "Nastavenia aktivácie"
+
+#~ msgid "Shows a dialog to choose when emoticons speaking should be activated"
+#~ msgstr ""
+#~ "Zobrazí dialóg,v ktorom môžete nastaviť, kedy budú emotikony oznamované"
+
+#~ msgid "Activation settings"
+#~ msgstr "Nastavenia aktivácie"

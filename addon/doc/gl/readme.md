@@ -1,173 +1,221 @@
-# Clip Contents Designer #
+# Emoticons #
+* Autores: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+  Estrada Martínez
+* Compatibilidade con NVDA: 2019.3 ou posterior
+* Descargar [versión estable][1]
+* Descargar [versión de desenvolvemento][2]
 
-*	Autores: Noelia, Abdel.
-*	Compatibilidade con NVDA: 2019.3 ou posterior
-*	Descargar [versión estable][1]
-*	Descargar [versión de desenvolvemento][2]
+Ó se utilizar este complemento, o texto falado que conteña carácteres de
+emoticón reemprazarase pola súa descripción máis amigable.
 
-Este complemento úsase para engadir texto ó portapapeis, que pode ser útil
-cando queras unir seccións de texto listas para pegarse xuntas.  O contido
-do portapapeis tamén pode limparse e amosarse en modo exploración.
+Por exemplo: a secuencia ":)" falarase como "cara sorinte", ou por exemplo
+NVDA recoñecerá o significado de cada emoji.
 
-## Ordes de teclado ##
-*	NVDA+windows+c: engade o texto seleccionado, os caracteres braille Unicode
-  que representan obxectos MathML, ou a cadea que se marcou co cursor de
-  revisión, ao portapapeis.
-*	NVDA+windows+x: Limpa o contido do portapapeis.
-*	Sen asignar: Copia a (ou corta dende) o portapapeis, coa posibilidade de
-  que se che pregunte por unha confirmación previa.
-*	Sen asignar: amosa o texto do portapapeis como HTML en modo exploración,
-  ou anuncia se o portapapeis está vacío ou ten contido que non se pode
-  amosar nunha mensaxe navegable, se se están a copiar arquivos ou carpetas
-  do Explorador de Windows, por exemplo.
-*	Sen asignar: Amosa os contidos textuais do portapapeis como texto plano en
-  modo exploración, ou anuncia se o portapapeis está vacío ou ten contido
-  que non se pode amosar nunha mensaxe navegable, se se están a copiar
-  arquivos ou carpetas do Explorador de Windows, por exemplo.
+Podes aproveitar as seguintes características:
 
+## Insertar Emoticón ##
 
-## Opcións de Clip Contents Designer ##
+Ás veces unha imaxen vale máis que 1000 palabras: usa o novo emoji para
+animar a túa mensaxe instantánea e para que os teus amigos sepan cómo te
+sintes.
 
-Este panel está dispoñible dende o menú de NVDA, submenú Preferencias,
-diálogo Opcións.
+Cando non esteas seguro dos caracteres para un emoticón en particular, este
+complemento capacítache para selecionalos e insertalos no teu texto como nun
+chat.
 
-contén os seguintes controis:
+Preme NVDA+I, ou dende o menú Ferramentas -> Emoticons > Insertar emoticón, para abrir un diálogo cos emoticóns ou emojis proporcionados.
 
-* Escribe a cadea de texto que se utilizará como separador entre contido
-  engadido ao portapapeis: Permite establecer un separador que se pode
-  utilizar para buscar os segmentos de texto unha vez se pegue todo o texto
-  engadido.
-* Engadir texto tralos datos do portapapeis: Tamén é posible escoller se o
-  texto engadido se engadirá ó final ou ó principio.
-* Seleccionar as accións que requiren confirmación previa: Podes escoller,
-  para cada acción dispoñible, se se debe realizar inmediatamente ou previa
-  confirmación. As accións dispoñibles son: engadir texto, limpar
-  portapapeis, emular copiar e emular curtar.
-* Pedir confirmación antes das accións seleccionadas cando: Podes
-  seleccionar se as confirmacións se solicitarán sempre, só se o portapapeis
-  contén texto, ou se o portapapeis non está baleiro (por exemplo se
-  copiaches un arquivo, non texto).
-* Formato no que amosar o texto do portapapeis como HTML en modo
-  exploración: Se estás aprendendo a linguaxe de marcas HTML, podes escoller
-  Texto Preformateado en HTML ou HTML como se amosaría nun navegador web,
-  para ter unha idea de cómo o teu código HTML se tratará dende NVDA nun
-  navegador. A diferencia entre HTML preformateado e convencional é que a
-  primeira opción preservará os espazos e saltos de liña consecutivos, e o
-  segundo compactaraos.  Por exemplo, escribe algunhas etiquetas HTML como
-  h1, h2, li, pre, etc., selecciona e copia o texto ao portapapeis, e
-  utiliza o complemento ClipContentsDesigner para amosar o texto nunha
-  mensaxe navegable.
-* Número máximo de caracteres ao amosar texto do portapapeis en modo
-  exploración: Por favor, ten en conta que incrementar este límite podería
-  producir problemas se o portapapeis contén largas cadeas de texto. O
-  límite por defecto é de 100000 caracteres.
+Este diálogo permíteche escoller un emoticón e ver os emoticóns que che
+interesen:
 
-Notas:
+*	Un campo editable que che permite filtrar a procura do emoticón desexado
+  de entre os emoticóns dispoñibles.
+*	A través dun grupo de botóns de opción, podes escoller ver só a categoría
+  emoji (alt+E) ou ver só a categoría de emoticonos estándar (alt+s) ou ver
+  todos os emoticonos dispoñibles (alt+A).
+*	Na listaxe de emoticonos (alt+L) amósanse en tres columnas
+  respectivamente: os nomes de emoticono, o tipo de emoticono (emoticono
+  estándar ou emoji), o carácter correspondente.
 
-*	Non se solicitarán confirmacións cando estea aberta unha Caixa de mensaxe
-  do NVDA. Neses casos, as accións realizaranse inmediatamente.
-*	As ordes emular copiar e emular curtar significan que, cando estas
-  características estean habilitadas, o complemento controlará control+c e
-  control+x. Isto permitirá seleccionar se se debería pedir unha
-  confirmación antes de realizar as accións de ditos atallos.
+Cando premas Aceptar, os caracteres para o emoticón escollido copiaranse no
+teu portapapeis, listos para se pegar.
 
-## Cambios para 13.0 
-* Arranxado un problema no deseño visual do panel de opcións, grazas a
-  Cyrille Bougot.
-* Mellorada a documentación.
-* Engadida unha categoría Clip contents Designer para asignar xestos de
-  entrada a tódolas ordes dispoñibles neste complemento.
-* Arranxados erros ao usar emular copiar en en navegadores cando o modo foco
-  estaba activo.
-* Podes asignar diferentes xestos para amosar o contido textual do
-  portapapeis como texto plano ou formateado en HTML. O Formato no que
-  amosar o texto do portapapeis no panel de opcións modificouse en
-  consecuencia, para seleccionar as dúas opcións dispoñibles para o formato
-  HTML.
+## Insertar símbolo ##
 
-## Cambios para 12.0
-* Arranxados erros ao usar emular copiar en aplicacións como LIbreOffice
-  Writer.
+Este diálogo permíteche escoller un dos símbolos dispoñibles no diálogo de
+pronunciación de puntuación/símbolos de NVDA. Podes utilizar a caixa de
+edición de filtro ou as teclas de frechas para seleccionar un elemento da
+lista de símbolos. A continuación, preme OK e o emoji ou símbolo
+seleccionado copiarase ó teu portapapeis, listo para pegarse.
 
-## Cambios para 11.0
-* Agora é posible engadir texto marcado co cursor de revisión utilizando
-  ordes estándar do NVDA (NVDA+F9 e NVDA+F10). NVDA+Windows+F9 xa non se
-  usa, para unha mellor integración co novo atallo NVDA+Shift+F9.
+## Diccionario de emoticóns ##
+
+O complemento Emoticons permite ter diferentes diccionarios da fala usando
+perfís de configuración.
+
+Esto significa que podes crear ou editar un diccionario da fala específico
+para cada perfil personalizado.
+
+Dende o menú NVDA, Preferencias -> Diccionarios da Fala -> Diccionario de Emoticóns, podes abrir un diálogo para engadir ou editar os emoticóns dispoñibles.
+
+Gardando as túas persoalizacións, a nova lectura de configuración dos
+emoticóns só se aplicará ao perfil que estés a editar actualmente.
+
+Por exemplo, poderás desexar que o NVDA falara emoticóns persoalizados só no
+programa XxChat, pero non noutros programas de chat: podes facer esto
+creando un perfil para a aplicación XxChat e asignar a el un diccionario da
+fala dende o menú Diccionarios da Fala, Opción Diccionario de
+Emoticóns. Consulta abaixo para opcións de activación en relación cos perfís
+de configuración.
+
+Tamén podes exportar cada diccionario personalizado da fala premendo o botón
+"Gardar e exportar diccionario": deste xeito o teu diccionario da fala
+gardarase no teu cartafol de configuración do usuario, subcartafol
+speechDicts/emoticons.
+
+O nomme e localización exacta do ficheiro de diccionario basearáse no perfil
+de configuración en edición, que se amosará no título do diálogo de
+diccionario do Emoticons.
+
+## Opcións de emoticóns ##
+
+Dende o menú Preferencias -> Opciones -> Emoticóns abre un diálogo para configurar a activación do teu diccionario da fala para cada perfil.
+
+No panel Opcións de emoticóns podes escoller se o diccionario da fala deberíasse activar ou non automáticamente cando o NVDA cambia ao perfil que estás a editar actualmente. Por defecto está deshabilitado na configuración normal do NVDA e en todos os novos perfís.
+
+Aínda máis, é posible determinar se se deberían falar os emojis do
+complemento. Isto podería ser útil para preservar a fala de símbolos se os
+emojis están incluídos na configuración do NVDA.
+
+Se desexases manter limpos os teus cartafois de configuración, neste diálogo
+é posible tamén escoller se os dicionarios non usados (asociados con perfís
+non existentes) borraranse do complemento cando se descargue.
+
+## Ordes de teclado: ##
+
+Estas son as teclas de ordes dispoñibles por omisión, podes editalas ou
+engadir teclas novas para abrir o panel Opcións de Emoticóns ou o diálogo
+Diccionario de Emoticóns:
+
+* NVDA+E: activando e desactivando a difusión dos emoticonos, conmuta entre
+  falar texto segundo estea escrito, ou cos emoticonos remprazados pola
+  descripción humana.
+* NVDA+I: amosa un cadro de diálogo para seleccionar un emoticón que queras
+  pegar.
+* Sen asignar: amosa un diálogo para seleccionar un símbolo de NVDA que
+  queiras copiar.
+* Non asignada: abrir unha mensaxe de modo exploración amosando o símbolo
+  onde o cursor de revisión está posicionado, de modo que se poida examinar
+  en modo exploración a descrición completa.
+* Non asignada: abrir mensaxe de modo exploración amosando o símbolo onde o
+  cursor está posicionado, de modo que se poida revisar en modo exploración
+  a descrición completa.
+
+Nota: En Windows 10, tamén é posible utilizar o panel de emoji integrado.
+
+## Cambios para 13.0 ##
+
+* Arranxados erros no diálogo Insertar Emoticón.
+* Engadido un diálogo para insertar un símbolo dispoñible na pronunciación
+  de puntuación/símbolos de NVDA.
+
+## Cambios para 12.0 ##
+
 * Require NVDA 2019.3 ou posterior.
 
-## Cambios para 10.0
-* Arranxado un erro no diálogo utilizado para mostrar o texto do portapapeis
-  cando o seu título contiña caracteres non latinos.
-* Arranxado un erro ao utilizar as funcións emular curtar e copiar cunha
-  distribución de teclado árabe. Isto foi solucionado por Abdel, engadido
-  como un autor do complemento.
+## Cambios para 11.0 ##
 
-## Cambios para 9.0
+* Cando o complemento se actualice, os dicionarios gardados na versión
+  anterior do complemento copiaranse automaticamente á nova versión, a menos
+  que prefiras importar os dicionarios gardados no cartafol principal de
+  dicionarios de NVDA.
+* Ao amosar o símbolo sobre o que están posicionados o cursor ou o cursor de
+  revisión, utilízanse as palabras Carácter e Reemprazo para distinguir
+  entre o símbolo en sí e a súa descrición en modo exploración, útil para
+  usuarios de fala.
 
-* Engadida a posibilidade de amosar o texto do portapapeis en modo
-  exploración.
-* Engadida unha opción para elixir se se requerirán confirmacións se o
-  portapapeis non está vacío; por xemplo, se se están a copiar arquivos ou
-  cartafoles.
-* Requírese do NVDA 2018.4 ou posterior.
+## Cambios para 10.0 ##
+
+* Engadidos atallos para amosar o símbolo onde estea posicionado o cursor de
+  revisión ou do sistema. Os xestos para estes atallos pódense asignar dende
+  o diálogo Xestos de entrada, categoría Revisión de texto.
+
+## Cambios para 9.0 ##
+
+* Engadida a posibilidad de elixir se se falarán os emojis do omplemento.
+* Utilízase a codificación apropiada para nomes de dicionario, arranxando
+  errores cando conteñen certos caracteres.
+* O resumo do complemento traducido úsase adecuadamente para o título
+  presentado na axuda do complemento, accesible dende o administrador de
+  complementos.
+* Engadida unha nota mencionando que está dispoñible o panel de emoji en
+  Windows 10.
 
 ## Cambios para 8.0 ##
 
-* A configuración do complemento amósase na categoría correspondente do
-  diálogo Opcións do NVDA.
+* Compatible co NVDA 2018.3 ou posterior (requerido).
+
+## Cambios para 7.0 ##
+
+* O diálogo Opcións de activación moveuse a un panel nas opcións do NVDA,
+  así que o perfil actual amosarase no título do diálogo Opcións do NVDA.
+* Borrouse o menú Xestionar emoticóns: Agora Insertar emoticón atoparase no
+  menú Ferramentas e Personalizar Emoticóns amosarase en Diccionarios da
+  Fala como Diccionario de emoticóns.
 * Requírese do NVDA 2018.2 ou posterior.
 * Se fora necesario, podes descargar a [derradeira versión compatible co
   NVDA 2017.3][3].
 
-## Cambios para 7.0
+## Cambios para 6.0 ##
 
-* No diálogo para configurar as funcionalidades de Emular copiar e Emular
-  curtar na instalación, se elixes non, os comandos para estas
-  características eliminaranse, de xeito que poidas restaurar o
-  comportamento normal das teclas ctrl+c e ctrl+x.
-
-## Cambios para 6.0
-
-*	 Engadidas opcións para escoller se as accións dispoñibles se deberían realizar despois da confirmación.
-*	Engadíronse ordes Emular copiar e Emular cortar, qué poderían asignarse dende o diálogo Xestos de Entrada.
-*	 Engadido un diálogo para configurar as funcionalidades Emular copiar e Emular copiar na instalación. Esto permite engadir as ordes control+c e control+x para copiar e curtar, e ser preguntado se queres reemplazar os contidos do portapapeis ao premer estos atallos de teclado.
-*	Arranxada a documentación para script_add (Windows+NVDA+c).
+* Engadido o soporte para perfís de configuración.
+* No NVDA 2017.4 ou posterior, as opción de configuración e os diccionarios
+  persoalizados cambiarán automáticamente de acordó cos perfís
+  selecionados. No 2017.3 ou anteriores, podes aplicar cambios recargando
+  plugins (premendos control+NVDA+f3).
+* Se escolles importar opcións cando actualizas o complemento, os ficheiros
+  deprecados (emoticons.ini e emoticons.dic) borraranse ou adaptaránse a
+  esta versión.
 
 ## Cambios para 5.0 ##
 
-*	A presentación visual do diálogo mellorouse, engadíndose á aparenza dos
-  diálogos amosados no NVDA.
-*	Requírese do NVDA 2016.4 ou posterior.
+* Engadido o soporte para emojis.
+* Melloras para o diálogo Insertar Emoticón cun campo de filtro e botóns de
+  opción para escoller os emoticonos amosados.
+* Uso do guiHelper para o diálogo Opcións de Activación e o diálogo Insertar
+  Emoticón: require de versións do NVDA 2016.4 ou superiores
 
 ## Cambios para 4.0 ##
-*	As opción do complemento adminístranse dende a configuración do NVDA, así
-  que os perfís estándar pódense usar para gardar diferentes separadores, e
-  non é necesario copiar as opcións para importalas na reinstalación.
-*	Agora é posible escoller se o texto engadido se anexará ou se anteporá,
-  usando a casilla de verificación Engadir texto antes de clip data dende o
-  diálogo Opcións do Clip Contents Designer.
+
+* Se o diálogo Insertar emoticón  está aberto cando outro diálogo de opcións
+  estea activo, NVDA amosará a mensaxe de erro correspondente.
+
 
 ## Cambios para 3.0 ##
-*	Pódese engadir a representación braille de obxectos MathML ó portapapeis
-  se MathPlayer está instalado.
-*	Se non se puxo un separador, porase una soa liña entre os segmentos de
-  texto engadido.
-*	Pódese asignar un atallo de teclado para abrir o diálogo de opcións do
-  Clip Contents Designer .
-*	Engadida unha caixa de verificación no diálogo de opcións, para escoller
-  se o separador se debería copiar para seren importado cando se reinstale o
-  complemento.
+
+* No diálogo Persoalizar emoticóns, agora é posible especificar que un
+  patrón só debería compararse se é unha palabra completa, de acordo cos
+  diccionarios da fala do NVDA 2014.4.
+
 
 ## Cambios para 2.0 ##
-*	Pódense usar caracteres Hindi como o separador entre contidos engadidos.
+
+* A axuda do complemento está dispoñible no Administrador de Complementos.
+
+
+## Cambios para 1.1 ##
+
+* Borrado un emoticón duplicado.
+* Engadidos algúns emoticóns.
 
 ## Cambios para 1.0 ##
-*	Versión inicial.
+
+* Versión inicial.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=ccd
+[1]: https://addons.nvda-project.org/files/get.php?file=emo
 
-[2]: https://addons.nvda-project.org/files/get.php?file=ccd-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
 
-[3]: https://addons.nvda-project.org/files/get.php?file=ccd-o
+[3]: https://addons.nvda-project.org/files/get.php?file=emo-o

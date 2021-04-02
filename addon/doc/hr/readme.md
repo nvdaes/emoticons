@@ -1,169 +1,213 @@
-# Upravljanje sadržajem međuspremnika (Clip Contents Designer) #
+# Emotikoni #
+* Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+  Estrada Martínez
+* NVDA kompatibilnost: 2019.3 i novije
+* Preuzmi [stabilnu verziju][1]
+* Preuzmi [razvojnu verziju][2]
 
-*	Authors: Noelia, Abdel.
-*	NVDA kompatibilnost: 2019.3 i novija
-*	Preuzmi [stabilnu verziju][1]
-*	Preuzmi [razvojnu verziju][2]
+Kad se koristi ovaj dodatak, emotikoni će se izgovoriti riječima ljudskog
+jezika.
 
-Ovaj se dodatak koristi za dodavanje teksta u međuspremnik, što može biti
-korisno kad se žele spojiti dijelovi teksta, koji su spremni za
-lijepljenje. Sadržaj međuspremnika se može i izbrisati te prikazati u modusu
-za čitanje.
+Na primjer, znakovni niz „:)” će se izgovoriti kao „smješkajući smješko” ili
+npr. NVDA će prepoznati značenje svakog emojija.
 
-## Tipkovnički prečaci ##
-*	NVDA+windows+c: U međuspremnik dodaj označeni tekst, brajične znakove u
-  unikodu koji predstavljaju MathML objekte ili znakovni niz koji je označen
-  pomoću preglednog kursora.
-*	NVDA+windows+x: Obriši sadržaj međuspremnika.
-*	Nije dodijeljeno: Kopira u međuspremnik (ili se reže iz njega), s
-  mogućnošću da se prethodno od korisnika traži potvrda.
-*	Not assigned: Shows the clipboard text as HTML in browse mode, or
-  announces if clipboard is empty or has contents which can't be presented
-  in a browseable message, for instance if files or folders are been copied
-  from Windows Explorer.
-*	Not assigned: Shows the textual clipboard contents as plain text in browse
-  mode, or announces if clipboard is empty or has contents which can't be
-  presented in a browseable message, for instance if files or folders are
-  been copied from Windows Explorer.
+Moguće je koristiti sljedeće funkcije:
 
+## Umetni emotikon ##
 
-## Clip Contents Designer settings ##
+Ponekad je slika vrijedna tisuću riječi: koristite novi emoji da biste
+oživili vaše poruke i kažete prijateljima kako se osjećate.
 
-This panel is available from NVDA's menu, Preferences submenu, Settings
-dialog.
+Kada niste sigurni za neki smješko, ovaj dodatak dozvoljava, odabrati i
+umetnuti ga u tekst kao što je chat.
 
-It contains the following controls:
+Pritisnite NVDA+I ili iz izbornika Alati>Emotikoni>Umetni emotikon, da biste otvorili dijaloški okvir dostupnih emotikona ili emojia.
 
-* Type the string to be used as a separator between contents added to the
-  clipboard: Allows to set a separator which can be used to find the text
-  segments once the entire added text is pasted.
-* Add text before clip data: It's also possible to choose if the added text
-  will be appended or prepended.
-* Select the actions which require previous confirmation: You can choose,
-  for each action available, if it should be performed inmediately or after
-  confirmation. Available actions are: add text, clear clipboard, emulate
-  copy and emulate cut.
-* Request confirmation before performing the selected actions when: You can
-  select if confirmations will be requested always, just if text is
-  contained in the clipboard, or if clipboard is not empty (for example if
-  you've copied a file, not text).
-* Format to show the clipboard text as HTML in browse mode: If you're
-  learning HTML markup language, you may choose Preformatted text in HTML or
-  HTML as shown in a web browser, to have an idea of how your HTML code will
-  be rendered by NVDA in a browser. The difference between preformatted and
-  conventional HTML is that the first option will preserve consecutive
-  spaces and line breaks, and the second one will compact them.  For
-  example, write some HTML tags like h1, h2, li, pre, etc., select and copy
-  the text to clipboard, and use clipContentsDesigner add-on to show the
-  text in a browseable message.
-* Maximum number of characters when showing clipboard text in browse mode:
-  Please, be aware that increasing this limit may produce issues if the
-  clipboard contains large strings of text. The default limit is 100000
-  characters.
+Ovaj dijaloški okvir dozvoljava biranje emotikona i pregledavanje emotikona
+koji vas zanimaju:
 
-Napomene:
+*	Uredivo polje, koje omogućuje pretraživanje emotikona koji vas zanimaju.
+*	Pomoću različitih izbornih gumba, možete izabrati prikaz emoji kategorije
+  (Alt+E), prikaz kategorije standarnih emotikona (alt+S) ili sve dostupne
+  emotikone (Alt+A).
+*	U popisu emotikona (Alt+L) prikazana su u tri stupca: ime emotikona, vrsta
+  emotikona (standardni emotikon ili emoji) te odgovarajući znak.
 
-*	Neće biti potrebno potvrditi, ako se neka NVDA poruka još uvijek
-  prikazuje. U tim će se slučajevima radnje izvršavati odmah.
-*	Emulate copy and emulate cut commands mean that, when these features are
-  enabled, the add-on will take control of control+c and control+x. This
-  will allow to select if a confirmation should be requested before
-  performing the actions corresponding to these keystrokes.
+Kad pritisnete U redu, znakovi za odabrani emotikon će se kopirati u
+međuspremnik, spremni da ih zalijepite.
 
-## Changes for 13.0 
-* Fixed an issue in visual layout of the settings panel, thanks to Cyrille
-  Bougot.
-* Improved documentation.
-* Added a Clip Contents Designer category to assign input gestures to all
-  commands available for this add-on.
-* Fixed bugs when using emulate copy in browsers if focus mode is active.
-* You can assign different gestures to show the clipboard textual contents
-  as raw text or formatted in HTML. The Format to show the clipboard text in
-  the settings panel has being modified accordingly, to select the two
-  options available for HTML format.
+## Umetni znak ##
 
-## Promjene u verziji 12.0
-* Ispravljene su greške prilikom korištenja emulirajuće kopije u programima
-  poput LibreOffice Writer.
+Ovaj dijaloški okvir omogućuje odabir jednog od znakova dostupnih u
+dijaloškom okviru izgovora interpunkcija/znakova. Pomoću okvira za
+uređivanje filtra ili tipki sa strelicama možete odabrati stavku s popisa
+znakova. Zatim pritisnite U redu i odabrani emojiji ili znak kopirat će se u
+međuspremnik i spreman je za umetanje.
 
-## Promjene u verziji 11.0
-* Sada je moguće dodati tekst koji je označen preglednim kursorom, pomoću
-  standardnih naredbi NVDA (NVDA+f9 i NVDA+f10). NVDA+windows+f9 se više ne
-  koristi, radi boljw integracijw s novom naredbom NVDA+šift+f9.
-* Zahtijeva NVDA verziju 2019.3 ili noviju.
+## Rječnik emotikona ##
 
-## Promjene u verziji 10.0
-* Ispravljana je greška u dijaloškom okviru za prikaz teksta međuspremnika,
-  kad naslov sadrži ne-latinične znakove.
-* Ispravljena je greška kad se koriste funkcije simuliranja izrezivanja i
-  kopiranja s arapskim rasporedom tipkovnice. To je ispravio Abdel, dodan je
-  kao autor dodatka.
+Dodatak Emotikoni dozvoljava različite govorne rječnike korištenjem
+konfiguracijskih profila.
 
-## Promjene u verziji 9.0
+To znači da možete stvoriti ili urediti poseban govorni rječnik za svaki
+svoj prilagođeni profil.
 
-* Dodana je mogućnost prikazivanja teksta međuspremnika u modusu čitanja.
-* Dodana je opcija za potrebu potvrđivanja ako međuspremnik nije prazan, na
-  primjer, ako su kopirane datoteke ili mape.
-* Zahtijeva NVDA verziju 2018.4 ili noviju.
+U NVDA izborniku, Postavke>Govorni rječnici>Rječnik emotikona, možete otvoriti dijaloški okvir za dodavanje ili uređivanje dostupnih emotikona.
+
+Spremanjem vaših prilagodbi, nove postavke za čitanje emotikona će se
+primjenjivati samo za profil koji trenutačno uređujete.
+
+Primjerice, želite da NVDA izgovara prilagođene emotikone samo u XxChat
+programu, ali ne u drugim programima za čavrljanje: možete kreirati profil
+za XxChat aplikaciju i dodijeliti je govornom rječniku otvaranjem izbornika
+Govorni rječnik, opcija za Rječnik emotikona. Vidi niže dolje o postavkama
+za Emotikone u odnosu na konfiguracijski profil.
+
+Također možete izvesti svaki prilagođeni govorni rječnik pritiskom tipke
+„Spremi i izvezi rječnik”: na taj način će se vaši govorni rječnici spremiti
+u mapu vaše korisničke konfiguracije, u podmapu „speechDicts/emoticons”.
+
+Točno ime i lokacija datoteke rječnika bit će bazirana na konfiguracijskom
+profilu koji se trenutačno uređuje, koji će biti prikazan u naslovu
+dijaloškog okvira Rječnik emotikona.
+
+## Postavke Emotikona ##
+
+Iz izbornika Postavke>Postavke>Emotikoni otvara ploču za konfiguriranje aktiviranja vaših govornih rječnika za svaki profil.
+
+U dijaloškom okviru aktivacijskih postavki možete izabrati želite li da se govorni rječnik automatski aktivira kad se NVDA prebaci u profil koji trenutačno uređujete. Prema zadanim postavkima, ova opcija je isključena u uobičajenoj NVDA konfiguraciji i svim novim profilima.
+
+Pored toga, moguće je odrediti treba li se govoriti o dodatak emojis. Ovo bi
+moglo biti korisno za očuvanje izgovaranja simbola ako su emojii uključeni u
+NVDA konfiguraciju.
+
+Ako želite izbrisati mape s konfiguracijom, možete odabrati da se rječnici
+neće koristiti (nepostojeći profili će biti uklonjeni iz dodatka).
+
+## Tipkovnički prečaci: ##
+
+Ovo su zadani tipkovnički prečaci. Možete ih urediti ili dodati novi prečac
+za otvaranje dijaloškog okvira za Postavke emotikona ili dijaloškog okvira
+za Rječnik emotikona:
+
+* NVDA+E: uključuje i isključuje izgovaranje emotikona. Prebacuje između
+  izgovaranja teksta kako je napisan i opisa emotikona.
+* NVDA+I: Prikazuje dijaloški okvir za biranje emotikona koji želite
+  kopirati.
+* Nije dodijeljeno: Prikazuje dijaloški okvir za biranje znaka koji želite
+  kopirati.
+* Nije dodijeljeno: otvorite poruku koja se može čitati i koja pokazuje
+  simbol na kojem se nalazi pregledni kursor, tako da se čitav opis može
+  pregledati u modusu čitanja.
+* Nije dodijeljeno: otvorite poruku koja se može čitati i koja pokazuje
+  simbol na kojem se nalazi kursor, tako da se čitav opis može pregledati u
+  modusu čitanja.
+
+Napomena: Na Windows 10 je moguće koristiti i ugrađenu ploču emojija.
+
+## Promjene u verziji 13.0 ##
+
+* Ispravljene greške u dijaloškom okviru za umetanje emotikona.
+* Dodan je dijaloški okvir za umetanje jednog znaka dostupan u izgovoru
+  interpunkcija/znakova.
+
+## Promjene u verziji 12.0 ##
+
+* Zahtijeva NVDA 2019.3 i novije verzije.
+
+## Promjene u verziji 11.0 ##
+
+* Kad se dodatak nadogradi, rječnici spremljeni u prethodnoj verziji dodatka
+  automatski će se kopirati u novu verziju, osim ako više ne želite uvesti
+  rječnike spremljene u glavnoj NVDA mapi rječnika.
+* Kad prikazuju simbol na kojem se nalaze kursor ili pregledni kusor, riječi
+  Znak i Zamjena koriste se za razlikovanje samog simbola od njegovog opisa
+  u modusu čitanja, što je korisno za korisnike govora.
+
+## Promjene u verziji 10.0 ##
+
+* Dodane su naredbe za prikaz simbola na kojem se nalaze kursor ili
+  pregledni kursor. Geste za ove naredbe je moguće dodijeliti u dijaloškom
+  okviru Ulazne geste, u kategoriji Pregled teksta.
+
+## Promjene u verziji 9.0 ##
+
+* Dodana je mogućnost za odlučivanje o tome, trebaju li se govoriti emojii
+  dodatka.
+* Koristi se odgovarajuće kodiranje za nazive rječnika, ispravljajući
+  greške, kad sadrže određene znakove.
+* Prevedeni sažetak dodatka pravilno se koristi za naslov koji se prikazuje
+  u pomoći dodatka, dostupna u upravljaču za dodatke.
+* Dodana je napomena u kojoj se spominje ploča s emojijima, koja je dostupna
+  u sustavu Windows 10.
 
 ## Promjene u verziji 8.0 ##
 
-* Postavke dodatka se prikazuju u odgovarajućoj kategoriji dijaloškog okvira
-  za NVDA Postavke.
-* Zahtijeva NVDA verziju 2018.2 ili noviju.
-* Ako treba, moguće je preuzeti [zadnju verziju kompatibilnu s NVDA
+* Kompatibilno s NVDA 2018.3 i novijim verzijama (obavezno).
+
+## Promjene u verziji 7.0 ##
+
+* Dijaloški okvir postavki za Aktiviranje je premješten na ploču u NVDA
+  postavkama, tako da će se trenutačni profil prikazati u naslovu dijaloškog
+  okvira NVDA postavki.
+* Izbornik „Upravljaj emotikonima” je uklonjen: sada se „Umetni emotikon”
+  nalazi u izborniku Alati, a „Prilagodi emotikone” će se prikazati pod
+  „Govorni rječnici” kao što je „Rječnik emotikona”.
+* Zahtijeva NVDA inačicu 2018.2 ili noviju.
+* Ako treba, moguće je preuzeti [zadnju inačicu kompatibilnu s NVDA
   2017.3][3].
 
-## Promjene u verziji 7.0
+## Promjene u verziji 6.0 ##
 
-* U dijaloškom okviru za konfiguriranje funkcionalnosti Simuliraj kopiranje
-  i Simuliraj izrezivanje, ako se odabere „ne”, uklonit će se naredbe za ove
-  funkcije, tako da će biti moguće koristiti normalni način rada za
-  kontrol+c i kontrol+x.
-
-## Promjene u verziji 6.0
-
-*	Dodana je mogućnost za odluku o izvršavanju dostupnih radnji nakon potvrde.
-*	Dodane su naredbe Simuliraj kopiranje i Simuliraj izrezivanje, koje je moguće dodijeliti u dijaloškom okviru Ulazne geste.
-*	Dodan je dijaloški okvir za podešavanje naredbi Simuliraj kopiranje i Simuliraj izrezivanje, tijekom instaliranja. Ovo dozvoljava dodavanje naredbi kontrol+c i kontrol+x za kopiranje i izrezivanje, te postavljanjem pitanja, želiš li zamijeniti sadržaj međuspremnika pri korištenju ovih tipkovničkih prečaca.
-*	Riješena dokumentacija za script_add (Windows+NVDA+c).
+* Dodana podrška za profile konfiguracije.
+* U NVDA verziji 2017.4 ili novijoj, konfiguracijske postavke i prilagođeni
+  rječnici će se automatski promijeniti u odnosu na odabrane profile. U NVDA
+  verziji 2017.3 ili starijoj, možete primijeniti promjene ponovnim
+  učitavanjem dodataka (pritisnite kombinaciju kontrol+NVDA+F3).
+* Ako odlučite uvesti postavke tijekom ažuriranja dodatka, zastarjele
+  datoteke (emoticons.ini i emoticon.dic) će se ukloniti ili prilagoditi toj
+  verziji.
 
 ## Promjene u verziji 5.0 ##
 
-*	Vizualni prikaz dijaloških okvira je poboljašn, slično dijaloškim okvirima
-  koji su prikazani u programu NVDA.
-*	Zahtijeva NVDA verziju 2016.4 ili noviju.
+* Dodana podrška za emojie.
+* Poboljšanja u dijaloškom okviru za umetanje emotikona uključujući i
+  odabirne gumbe za izbor kategorije i polje za pretragu emotikona.
+* Koristi se guiHelper za dijaloški okvir postavki aktivacije i dijaloški
+  okvir za umetanje emotikona: zahtijeva NVDA verziju 2016.4 ili noviju
 
 ## Promjene u verziji 4.0 ##
-*	Postavkama dodatka se upravlja NVDA konfiguracijom, tako da je moguće
-  koristiti standardne profile za spremanje raznih rastavljača te nije
-  potrebno kopirati postavke nakon reinstalacije.
-*	Sad je moguće izabrati, hoće li dodani tekst biti dodan ispred ili iza
-  postojećeg teksta, koristeći izborno polje „Dodaj tekst ispred podataka
-  međuspremnika” u postavkama dodatka.
+
+* Ako je dijaloški okvir za umetanje emotikona otvoren u isto vrijeme, kad
+  je aktivan i drugi dijaloški okvir postavki, NVDA će prikazati
+  odgovarajuću poruku pogreške.
+
 
 ## Promjene u verziji 3.0 ##
-*	Brajičin prikaz MathML objekata se može dodati u privremenu memoriju, ako
-  je MathPlayer instaliran.
-*	Ako nema razdvajača, dodat će se samo jedan redak između dodanih segmenata
-  teksta.
-*	Moguće je odrediti prečac za otvaranje dijaloškog okvira za postavke
-  dodatka.
-*	U dijaloškom okviru za postavke je dodan potvrdni okvir, kojim se odlučuje
-  o tome, treba li razdvajač kopirati za uvoz nakon ponovnog instaliranja
-  dodatka.
+
+* U dijaloškom okviru Prilagodi emotikone, sada je moguće odrediti da se
+  uzorak poklapa samo, ako se nađe kao cijela riječ, prema govornim
+  riječnicima u NVDA 2014.4.
+
 
 ## Promjene u verziji 2.0 ##
-*	Znakovi devanagari pisma se mogu koristiti kao rastavljači između dodanog
-  sadržaja.
+
+* Pomoć dodatka je dostupna iz upravljača za dodatke.
+
+
+## Promjene u verziji 1.1 ##
+
+* Izbrisan dupli emotikon.
+* Dodano nekoliko smješaka.
 
 ## Promjene u verziji 1.0 ##
-*	Prva verzija.
+
+* Prvo izdanje.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=ccd
+[1]: https://addons.nvda-project.org/files/get.php?file=emo
 
-[2]: https://addons.nvda-project.org/files/get.php?file=ccd-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
 
-[3]: https://addons.nvda-project.org/files/get.php?file=ccd-o
+[3]: https://addons.nvda-project.org/files/get.php?file=emo-o

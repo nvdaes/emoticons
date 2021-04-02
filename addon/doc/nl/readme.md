@@ -1,64 +1,107 @@
-# Samensteller voor klembordinhoud #
+# Emoticons #
 
-*	Auteurs: Noelia Ruiz Martínez.
-*	Download [stabiele versie][1]
-*	Download [ontwikkelversie][2]
+* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+  Estrada Martínez
+* Download [stabiele versie][1]
+* Download [ontwikkelversie][2]
 
-This add-on is used to add text to the clipboard, which can be useful when
-you want to join sections of text together ready for pasting.  The clipboard
-content can also be cleared.
+Using this add-on, spoken text containing emoticon characters will be
+replaced by its more human friendly description.
 
-## Toetsenbordsneltoetsen ##
-*	NVDA+windows+c: Add selected text, Unicode braille characters which
-  represent MathML objects, or the string which has been marked with the
-  review cursor, to the clipboard.
-*	NVDA+windows+x: Inhoud van klembord wissen.
-*	NVDA+windows+f9: Mark the current position of the review cursor as the start of the text to be added to the clipboard.
-    If you use nvda+F9, the text will not be added.
+For example: the sequence ":)" will be spoken as "smiling smiley", or for
+example NVDA will recognize the meaning of each emoji.
 
-Opmerking: De bovenstaande commando's kunnen worden gewijzigd via het
-NVDA-menu, Opties submenu, Invoerhandelingen koppelen dialoogvenster,
-Leesoverzicht categorie.
+U kunt gebruik maken van de volgende functies:
 
-## Menu opties ##
-*	Clip Contents Designer settings: Allows to set a separator which can be used to find the text segments once the entire added text is pasted.
-It's also possible to choose if the added text will be appended or prepended.
+## Insert Emoticon ##
 
-Note: The above command can be changed from NVDA menu, Preferences submenu,
-Input gestures dialog, Configuration category.
+Sometimes an image is worth a 1000 words: use the new emoji to liven up your
+instant message and to let your friends know how you’re feeling.
+
+When you are unsure of the characters for a particular smiley, this addon
+enables you to select and insert it into your text such as in a chat.
+
+Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
+
+This dialog allows you to choose an emoticon and to view the emoticons that
+interest you:
+
+*	An editable field allows you to filter the search for the desired emoticon
+  among the emoticons available.
+*	Through a set of radio buttons, you can choose to view only emoji category
+  (alt+E) or view only standard emoticon category (alt+s) or view all
+  emoticons available (alt+A).
+*	In the list of emoticons (alt+L) are displayed on three columns
+  respectively: the name of emoticon, the type of emoticon (standard
+  emoticon or emoji), the corresponding character.
+
+When you press OK, the characters for the chosen emoticon will be copied to
+your clipboard, ready for pasting.
+
+## Emoticons aanpassen ##
+
+From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can open a dialog setting to add or to edit available emoticons.
+
+This dialog allows you to save an emoticons speech dictionary with your
+customizations.
+
+Als u op de knop "Woordenboek opslaan en exporteren" drukt, wordt een
+woordenboekbestand met de naam emoticons.dic opgeslagen in de speechDicts
+subfolder van uw gebruikersconfiguratiemap.
+
+## Actievatie-instellingen ##
+
+From menu Preferences -> Manage Emoticons -> Activation settings, you can choose whether to Activate speaking of emoticons when starting NVDA. By default it is disabled.
+
+It is also possible to save your choice for this setting.
+
+## Toetscommando's: ##
+
+These are the key command available by default, you can edit those or add
+new key to open Activation settings dialog or Emoticon Dictionary dialog:
+
+* NVDA+E: speaching emoticons on/off, toggles between speaking text as it is
+  written, or with the emoticons replaced by the human description.
+* NVDA+I: show a dialog to select an emoticon you want to copy.
+
 
 ## Changes for 5.0 ##
 
-*	The visual presentation of the dialog has been enhanced, adhering to the
-  appearance of the dialogs shown in NVDA.
-*	Requires NVDA 2016.4 or later.
+* Added support for emojis.
+* Improvements for Insert Emoticon dialog with a filter field and radio
+  buttons to choose displayed emoticons.
+* Using guiHelper for Activation settings dialog and Insert Emoticon dialog:
+  requires NVDA 2016.4 or higher versions
 
 ## Changes for 4.0 ##
-*	Add-on settings are managed from NVDA configuration, so that standard
-  profiles can be used to save different separators, and it's not needed to
-  copy the settings for importing at reinstallation.
-*	Now it's possible to choose if the added text will be appended or
-  prepended, using the Add text before clip data check box from the Clip
-  Contents Designer settings dialog.
 
-## Changes for 3.0 ##
-*	Braille representation of MathML objects can be added to the clipboard if
-  MathPlayer is installed.
-*	If no separator is set, just a single line will be placed between the
-  added text segments.
-*	A shortcut can be assigned to open the Clip Contents Designer settings
-  dialog.
-*	Added a check box in the settings dialog, for choosing if the separator
-  should be copied to be imported when reinstalling the add-on.
+* If the Insert smiley dialog is opened when another settings dialog is
+  active, NVDA will show the corresponding error message.
+
+
+## Veranderingen in 3.0 ##
+
+* In het dialoogvenster Emoticons aanpassen is het nu mogelijk om een
+  patroon alleen toe te passen bij hele woorden, zoals sinds NVDA 2014.4 ook
+  mogelijk is bij uitspraakwoordenboeken.
+
 
 ## Veranderingen in 2.0 ##
-*	Hindi characters can be used as the separator between added contents.
+
+* Addon-help is beschikbaar via Add-ons beheren
+
+
+## Veranderingen in 1.1 ##
+
+* Dubbel aanwezige emoticon verwijderd.
+* Enkele smileys toegevoegd.
 
 ## Veranderingen in 1.0 ##
-*	Eerste versie.
+
+* Eerste versie.
 
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=ccd
+[1]: https://addons.nvda-project.org/files/get.php?file=emo
 
-[2]: http://addons.nvda-project.org/files/get.php?file=ccd-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
