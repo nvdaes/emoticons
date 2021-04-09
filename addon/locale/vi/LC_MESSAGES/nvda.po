@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 5.2\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2017-02-03 05:00+1000\n"
-"PO-Revision-Date: 2020-12-27 08:05+0700\n"
+"PO-Revision-Date: 2021-04-05 10:59+0700\n"
 "Last-Translator: Dang Manh Cuong <dangmanhcuong@gmail.com>\n"
 "Language-Team: Sao Mai <info@saomaicenter.org>\n"
 "Language: vi\n"
@@ -93,7 +93,7 @@ msgstr "Hiển thị một hộp thoại  để chọn kí hiệu bạn muốn d
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons dictionary dialog."
-msgstr "Hiện hộp thoại từ điển biểu tượng cảm xúc."
+msgstr "Hiển thị hộp thoại từ điển biểu tượng cảm xúc."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons settings."
@@ -488,7 +488,7 @@ msgstr "Tim với mũi tên"
 
 #. Translators: (emoji) purple heart.
 msgid "Purple heart"
-msgstr "Tim màu tím"
+msgstr "Tim tím"
 
 #. Translators: (emoji) red heart.
 msgid "Red heart"
@@ -711,7 +711,7 @@ msgstr "bắp thịt"
 
 #. Translators: (beer) Beer
 msgid "beer smiley"
-msgstr "beer"
+msgstr "bia"
 
 #. Translators: (d) Drink
 msgid "drink smiley"
@@ -815,7 +815,7 @@ msgstr "cười bò ra sàn nhà"
 
 #. Translators: (whew) Relieved
 msgid "relieved smiley"
-msgstr "bỉu tượng an tâm"
+msgstr "an tâm"
 
 #. Translators: (happy) Happy
 msgid "happy smiley"
