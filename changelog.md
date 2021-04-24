@@ -1,2 +1,3 @@
-## Changes for 13.3 ##
+## Changes for 13.4 ##
 * Updated translations.
+* Updated email address of author Mesar Hameed
