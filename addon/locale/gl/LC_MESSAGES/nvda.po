@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: emoticons 5.5\n"
-"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2013-11-16 20:13+0100\n"
 "PO-Revision-Date: 2020-12-22 18:19+0100\n"
 "Last-Translator: Iván Novegil Cancelas <ivan.novegil.cancelas@gmail.com>\n"
