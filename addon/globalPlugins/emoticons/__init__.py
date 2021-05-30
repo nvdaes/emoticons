@@ -393,8 +393,8 @@ class InsertEmoticonDialog(wx.Dialog):
 		self.rdEmojis = self.sizerRadio.addItem(wx.RadioButton(self, label=_("Emoj&is")))
 		self.Bind(wx.EVT_RADIOBUTTON, self.onEmojis, self.rdEmojis)
 		# List of emoticons.
-		# Translators: Label for the smileys list.
 		self.smileysList = self.sizerLayout.addLabeledControl(
+			# Translators: Label for the smileys list.
 			_("&List of smilies"), wx.ListCtrl, size=(490, 400), style=wx.LC_REPORT | wx.BORDER_SUNKEN
 		)
 		# Translators: Column which specifies the name  of emoticon.
@@ -424,8 +424,8 @@ class InsertEmoticonDialog(wx.Dialog):
 		# Translators: Label for emojis in the list.
 		if isEmoji:
 			return _("Emoji")
-		# Translators: Label for standard emoticons in the list.
 		else:
+			# Translators: Label for standard emoticons in the list.
 			return _("Standard")
 
 	def _loadEmoticons(self):
