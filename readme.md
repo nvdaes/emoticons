@@ -69,6 +69,11 @@ These are the key commands available by default, you can edit those or add new k
 
 Note: On Windows 10, it's also possible to use the built-in emoji panel.
 
+
+## Changes for 14.0 ##
+
+* Compatible with NVDA 2021.1 and beyond.
+
 ## Changes for 13.0 ##
 
 * Fixed errors in Insert Emoticon dialog.
