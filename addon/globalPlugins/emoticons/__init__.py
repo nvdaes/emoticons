@@ -369,8 +369,11 @@ class InsertEmoticonDialog(wx.Dialog):
 		WIDTH = 500
 		HEIGHT = 600
 		pos = self._calculatePosition(WIDTH, HEIGHT)
-		# Translators: Title of the dialog.
-		super(InsertEmoticonDialog, self).__init__(parent, title=_("Insert emoticon"), pos=pos, size=(WIDTH, HEIGHT)
+		super(InsertEmoticonDialog, self).__init__(
+			# Translators: Title of the dialog.
+			parent, title=_("Insert emoticon"),
+			pos=pos, size=(WIDTH, HEIGHT)
+		)
 		self._filteredEmoticons = emoticons
 		self._filter = EmoticonFilter()
 		self.sizerLayout = guiHelper.BoxSizerHelper(self, wx.VERTICAL)
