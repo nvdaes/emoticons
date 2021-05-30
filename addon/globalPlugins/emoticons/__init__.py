@@ -290,7 +290,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		if isinstance(
 			treeInterceptor, treeInterceptorHandler.DocumentTreeInterceptor
 		) and not treeInterceptor.passThrough:
-			obj=treeInterceptor
+			obj = treeInterceptor
 		try:
 			info = obj.makeTextInfo(textInfos.POSITION_CARET)
 		except Exception:
