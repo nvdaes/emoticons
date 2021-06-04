@@ -151,4 +151,3 @@ Note: On Windows 10, it's also possible to use the built-in emoji panel.
 [2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
 
 [3]: http://addons.nvda-project.org/files/get.php?file=emo-o
-
