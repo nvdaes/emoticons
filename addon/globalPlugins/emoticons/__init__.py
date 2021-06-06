@@ -6,7 +6,6 @@ import globalPluginHandler
 import globalVars
 import config
 import os
-import shutil
 import api
 import speechDictHandler
 import ui
@@ -14,10 +13,8 @@ import characterProcessing
 import copy
 import languageHandler
 import speech
-import braille
 import treeInterceptorHandler
 import textInfos
-import controlTypes
 import core
 import wx
 import gui
@@ -31,7 +28,7 @@ from scriptHandler import script
 
 addonHandler.initTranslation()
 
-### Constants
+# Constants
 ADDON_DICTS_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "emoticons"))
 EXPORT_DICTS_PATH = os.path.join(speechDictHandler.speechDictsPath, "emoticons")
 ADDON_DIC_DEFAULT_FILE = os.path.join(ADDON_DICTS_PATH, "emoticons.dic")
@@ -52,6 +49,7 @@ sD = speechDictHandler.SpeechDict()
 
 profileName = oldProfileName = None
 
+
 def loadDic():
 	if profileName is None:
 		dicFile = ADDON_DIC_DEFAULT_FILE
@@ -64,13 +62,16 @@ def loadDic():
 		else:
 			sD.extend(noEmojisDic)
 
+
 def activateAnnouncement():
 	speechDictHandler.dictionaries["temp"].extend(sD)
+
 
 def deactivateAnnouncement():
 	for entry in sD:
 		if entry in speechDictHandler.dictionaries["temp"]:
 			speechDictHandler.dictionaries["temp"].remove(entry)
+
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
@@ -91,17 +92,27 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		super(GlobalPlugin, self).__init__()
 		for em in emoticons:
 			if em.isEmoji:
-				# Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
+				# Translators: A prefix to each emoticon name, added to the temporary speech dictionary,
+				# visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 				emType = _("Emoji")
 			else:
-				# Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
+				# Translators: A prefix to each emoticon name, added to the temporary speech dictionary,
+				# visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 				emType = _("Emoticon")
 			comment = "{type}: {name}".format(type=emType, name=em.name)
 			otherReplacement = " %s; " % em.name
 			# Case and reg are always True
-			defaultDic.append(speechDictHandler.SpeechDictEntry(em.pattern, otherReplacement, comment, True, speechDictHandler.ENTRY_TYPE_REGEXP))
+			defaultDic.append(
+				speechDictHandler.SpeechDictEntry(
+					em.pattern, otherReplacement, comment, True, speechDictHandler.ENTRY_TYPE_REGEXP
+				)
+			)
 			if not em.isEmoji:
-				noEmojisDic.append(speechDictHandler.SpeechDictEntry(em.pattern, otherReplacement, comment, True, speechDictHandler.ENTRY_TYPE_REGEXP))
+				noEmojisDic.append(
+					speechDictHandler.SpeechDictEntry(
+						em.pattern, otherReplacement, comment, True, speechDictHandler.ENTRY_TYPE_REGEXP
+					)
+				)
 		global profileName, oldProfileName
 		profileName = oldProfileName = config.conf.profiles[-1].name
 		loadDic()
@@ -149,7 +160,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			self.toolsMenu.Remove(self.mainItem)
 			self.dicMenu.Remove(self.dicItem)
 			NVDASettingsDialog.categoryClasses.remove(AddonSettingsPanel)
-		except:
+		except Exception:
 			pass
 		deactivateAnnouncement()
 		config.post_configProfileSwitch.unregister(self.handleConfigProfileSwitch)
@@ -177,7 +188,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		disp = profileName if profileName else translate("(normal configuration)")
 		deactivateAnnouncement()
 		# Translators: Title of a dialog.
-		gui.mainFrame._popupSettingsDialog(EmDicDialog,_("Emoticons dictionary (%s)" % disp), sD)
+		gui.mainFrame._popupSettingsDialog(EmDicDialog, _("Emoticons dictionary (%s)" % disp), sD)
 
 	def onSettingsPanel(self, evt):
 		gui.mainFrame._popupSettingsDialog(NVDASettingsDialog, AddonSettingsPanel)
@@ -234,7 +245,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def script_settings(self, gesture):
 		wx.CallAfter(self.onSettingsPanel, None)
 
-
 	# Borrowed from NVDA's code.
 	def _getCurrentLanguageForTextInfo(self, info):
 		curLanguage = None
@@ -252,7 +262,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		category=SCRCAT_TEXTREVIEW
 	)
 	def script_showReviewCursorSymbol(self, gesture):
-		info=api.getReviewPosition().copy()
+		info = api.getReviewPosition().copy()
 		info.expand(textInfos.UNIT_CHARACTER)
 		curLanguage = self._getCurrentLanguageForTextInfo(info)
 		text = info.text
@@ -261,7 +271,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			# Translators: Reported when there is no replacement for the symbol at the position of the review cursor.
 			ui.message(_("No symbol replacement"))
 			return
-		# Translators: Character and its replacement used from the "Review current Symbol" command. Example: "Character: ? Replacement: question"
+		# Translators: Character and its replacement used from the "Review current Symbol" command.
+		# Example: "Character: ? Replacement: question"
 		message = _("Character: {}\nReplacement: {}").format(text, expandedSymbol)
 		languageDescription = languageHandler.getLanguageDescription(curLanguage)
 		# Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
@@ -274,13 +285,15 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		category=SCRCAT_TEXTREVIEW
 	)
 	def script_showCaretSymbol(self, gesture):
-		obj=api.getFocusObject()
-		treeInterceptor=obj.treeInterceptor
-		if isinstance(treeInterceptor,treeInterceptorHandler.DocumentTreeInterceptor) and not treeInterceptor.passThrough:
-			obj=treeInterceptor
+		obj = api.getFocusObject()
+		treeInterceptor = obj.treeInterceptor
+		if isinstance(
+			treeInterceptor, treeInterceptorHandler.DocumentTreeInterceptor
+		) and not treeInterceptor.passThrough:
+			obj = treeInterceptor
 		try:
-			info= obj.makeTextInfo(textInfos.POSITION_CARET)
-		except:
+			info = obj.makeTextInfo(textInfos.POSITION_CARET)
+		except Exception:
 			info = obj.makeTextInfo(textInfos.POSITION_FIRST)
 		info.expand(textInfos.UNIT_CHARACTER)
 		curLanguage = self._getCurrentLanguageForTextInfo(info)
@@ -290,7 +303,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			# Translators: Reported when there is no replacement for the symbol at the position of the caret.
 			ui.message(_("No symbol replacement"))
 			return
-		# Translators: Character and its replacement used from the "Review current Symbol" command. Example: "Character: ? Replacement: question"
+		# Translators: Character and its replacement used from the "Review current Symbol" command.
+		# Example: "Character: ? Replacement: question"
 		message = _("Character: {}\nReplacement: {}").format(text, expandedSymbol)
 		languageDescription = languageHandler.getLanguageDescription(curLanguage)
 		# Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
@@ -298,14 +312,16 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		ui.browseableMessage(message, title)
 
 
-
 class EmoticonFilter(object):
 	"""Filter for all emoticons."""
 
 	def filter(self, emoticonsList, pattern):
 		"""Filters the input list with the specified pattern."""
-		if pattern == "": return emoticonsList
-		else: return [emoticon for emoticon in emoticonsList if pattern.upper() in emoticon.name.upper()]
+		if pattern == "":
+			return emoticonsList
+		else:
+			return [emoticon for emoticon in emoticonsList if pattern.upper() in emoticon.name.upper()]
+
 
 class FilterStandard(EmoticonFilter):
 	"""Filter just for standard emoticons."""
@@ -314,12 +330,14 @@ class FilterStandard(EmoticonFilter):
 		filtered = super(FilterStandard, self).filter(emoticonsList, pattern)
 		return [emoticon for emoticon in filtered if not emoticon.isEmoji]
 
+
 class FilterEmoji(EmoticonFilter):
 	"""Filter just for emojis."""
 
 	def filter(self, emoticonsList, pattern):
 		filtered = super(FilterEmoji, self).filter(emoticonsList, pattern)
 		return [emoticon for emoticon in filtered if emoticon.isEmoji]
+
 
 class InsertEmoticonDialog(wx.Dialog):
 	""" A dialog  to insert emoticons from a list. """
@@ -351,8 +369,11 @@ class InsertEmoticonDialog(wx.Dialog):
 		WIDTH = 500
 		HEIGHT = 600
 		pos = self._calculatePosition(WIDTH, HEIGHT)
-		# Translators: Title of the dialog.
-		super(InsertEmoticonDialog, self).__init__(parent, title= _("Insert emoticon"), pos = pos, size = (WIDTH, HEIGHT))
+		super(InsertEmoticonDialog, self).__init__(
+			# Translators: Title of the dialog.
+			parent, title=_("Insert emoticon"),
+			pos=pos, size=(WIDTH, HEIGHT)
+		)
 		self._filteredEmoticons = emoticons
 		self._filter = EmoticonFilter()
 		self.sizerLayout = guiHelper.BoxSizerHelper(self, wx.VERTICAL)
@@ -363,17 +384,19 @@ class InsertEmoticonDialog(wx.Dialog):
 		# Radio buttons to choose the emoticon set.
 		self.sizerRadio = guiHelper.BoxSizerHelper(self, wx.HORIZONTAL)
 		# Translators: A radio button to choose all types of emoticons.
-		self.rdAll = self.sizerRadio.addItem(wx.RadioButton(self, label= _("&All"), style= wx.RB_GROUP))
+		self.rdAll = self.sizerRadio.addItem(wx.RadioButton(self, label=_("&All"), style=wx.RB_GROUP))
 		self.Bind(wx.EVT_RADIOBUTTON, self.onAllEmoticons, self.rdAll)
 		# Translators: A radio button to choose only standard emoticons.
-		self.rdStandard = self.sizerRadio.addItem(wx.RadioButton(self, label= _("&Standard")))
+		self.rdStandard = self.sizerRadio.addItem(wx.RadioButton(self, label=_("&Standard")))
 		self.Bind(wx.EVT_RADIOBUTTON, self.onStandardEmoticons, self.rdStandard)
 		# Translators: A radio button to choose only emojis.
-		self.rdEmojis = self.sizerRadio.addItem(wx.RadioButton(self, label= _("Emoj&is")))
+		self.rdEmojis = self.sizerRadio.addItem(wx.RadioButton(self, label=_("Emoj&is")))
 		self.Bind(wx.EVT_RADIOBUTTON, self.onEmojis, self.rdEmojis)
 		# List of emoticons.
-		# Translators: Label for the smileys list.
-		self.smileysList = self.sizerLayout.addLabeledControl(_("&List of smilies"), wx.ListCtrl, size= (490, 400), style= wx.LC_REPORT | wx.BORDER_SUNKEN)
+		self.smileysList = self.sizerLayout.addLabeledControl(
+			# Translators: Label for the smileys list.
+			_("&List of smilies"), wx.ListCtrl, size=(490, 400), style=wx.LC_REPORT | wx.BORDER_SUNKEN
+		)
 		# Translators: Column which specifies the name  of emoticon.
 		self.smileysList.InsertColumn(0, _("Name"), width=350)
 		# Translators: Column which specifies the type of emoticon (standard or emoji).
@@ -399,9 +422,11 @@ class InsertEmoticonDialog(wx.Dialog):
 	def _formatIsEmoji(self, isEmoji):
 		"""Converts boolean isEmoji property to text."""
 		# Translators: Label for emojis in the list.
-		if isEmoji: return _("Emoji")
-		# Translators: Label for standard emoticons in the list.
-		else: return _("Standard")
+		if isEmoji:
+			return _("Emoji")
+		else:
+			# Translators: Label for standard emoticons in the list.
+			return _("Standard")
 
 	def _loadEmoticons(self):
 		"""Reload the emoticons list."""
@@ -417,17 +442,22 @@ class InsertEmoticonDialog(wx.Dialog):
 	def onEnterOnList(self, evt):
 		"""Same effect as click OK button when pressing enter on smileys list."""
 		keycode = evt.GetKeyCode()
-		if keycode == wx.WXK_RETURN: self.onOk(evt)
+		if keycode == wx.WXK_RETURN:
+			self.onOk(evt)
 		evt.Skip(True)
 
 	def onOk(self, evt):
 		"""Copy to clipboard the focused emoticon on the list."""
 		focusedItem = self.smileysList.GetFocusedItem()
 		if focusedItem == -1:
-			if self.smileysList.GetItemCount() > 0: focusedItem = 0
+			if self.smileysList.GetItemCount() > 0:
+				focusedItem = 0
 			else:
-				# Translators: Error message when none emoticon is selected or the list is empty, and title of the error dialog.
-				gui.messageBox(_("There is not any emoticon selected."), translate("Error"), parent=self, style=wx.OK | wx.ICON_ERROR)
+				gui.messageBox(
+					# Translators: Error message when none emoticon is selected or the list is empty, and title of dialog.
+					_("There is not any emoticon selected."), translate("Error"),
+					parent=self, style=wx.OK | wx.ICON_ERROR
+				)
 				return
 		icon = self._filteredEmoticons[focusedItem]
 		iconToInsert = icon.chars
@@ -461,6 +491,7 @@ class InsertEmoticonDialog(wx.Dialog):
 	def __del__(self):
 		InsertEmoticonDialog._instance = None
 
+
 class EmDicDialog(DictionaryDialog):
 
 	def makeSettings(self, settingsSizer):
@@ -489,16 +520,18 @@ class EmDicDialog(DictionaryDialog):
 			self.dic = noEmojisDic
 		self.tempSpeechDict.extend(self.dic)
 		for entry in self.dic:
-			self.dictList.Append((entry.comment,entry.pattern,entry.replacement,True,speechDictHandler.ENTRY_TYPE_REGEXP))
+			self.dictList.Append(
+				(entry.comment, entry.pattern, entry.replacement, True, speechDictHandler.ENTRY_TYPE_REGEXP)
+			)
 		self.dictList.SetFocus()
 
-	def onOk(self,evt):
+	def onOk(self, evt):
 		super(EmDicDialog, self).onOk(evt)
 		announcement = config.conf["emoticons"]["announcement"]
 		if announcement:
 			activateAnnouncement()
 
-	def onCancel(self,evt):
+	def onCancel(self, evt):
 		super(EmDicDialog, self).onCancel(evt)
 		announcement = config.conf["emoticons"]["announcement"]
 		if announcement:
@@ -560,7 +593,7 @@ class InsertSymbolDialog(SpeechSymbolsDialog):
 	def onFilterEditTextChange(self, evt):
 		try:
 			super(InsertSymbolDialog, self).onFilterEditTextChange(evt)
-		except:
+		except Exception:
 			pass
 
 	def postInit(self):
@@ -582,7 +615,7 @@ class InsertSymbolDialog(SpeechSymbolsDialog):
 
 class AddonSettingsPanel(SettingsPanel):
 
-# Translators: this is the title for the Emoticons panel.
+	# Translators: this is the title for the Emoticons panel.
 	title = ADDON_PANEL_TITLE
 
 	def makeSettings(self, settingsSizer):
