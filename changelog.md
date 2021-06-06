@@ -1,3 +1,4 @@
-## Changes for 13.4 ##
+## Changes for 14.0 ##
+* Compatible with NVDA 2021.1
 * Updated translations.
-* Updated email address of author Mesar Hameed
+
