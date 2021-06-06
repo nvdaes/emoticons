@@ -72,7 +72,7 @@ Note: On Windows 10, it's also possible to use the built-in emoji panel.
 
 ## Changes for 14.0 ##
 
-* Compatible with NVDA 2021.1 and beyond.
+* Compatible with NVDA 2021.1.
 
 ## Changes for 13.0 ##
 
