@@ -1,7 +1,7 @@
 # Emoticons #
 * Auteurs : Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* NVDA compatibility: 2019.3 or later
+* Compatibilité NVDA: 2019.3 ou ultérieur
 * Télécharger [version stable][1]
 * Télécharger [version de développement][2]
 
@@ -23,7 +23,7 @@ Lorsque vous n'êtes pas sûr des caractères pour une émoticône particulière
 cette extension vous permet de sélectionner et insérer dans votre texte
 comme dans une conversation.
 
-Press NVDA+I, or from menu Tools -> Emoticons > Insert emoticon, to open a dialog with the provided emoticons or emoji.
+Appuyer sur NVDA+I, ou à partir du menu Outils -> Émoticônes > Insérer une émoticône, pour ouvrir un dialogue avec les émoticônes et emoji fournis.
 
 Ce dialogue vous permet de choisir une émoticône et d'afficher les
 émoticônes qui vous intéressent :
@@ -41,13 +41,14 @@ Ce dialogue vous permet de choisir une émoticône et d'afficher les
 Lorsque vous appuyez sur OK, les caractères pour l'émoticône choisie sont
 copiés dans le presse-papiers, prêts à être collés.
 
-## Insert symbol ##
+## Insérer un symbole ##
 
-This dialog allows you to choose one of the symbols available in the
-Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
-box or the arrow keys to select an item from the symbols list. Then, press
-OK and the selected emoji or symbol will be copied to your clipboard, ready
-for pasting.
+Ce dialogue vous permet de choisir l'un des symboles disponibles dans le
+dialogue Prononciation des ponctuations et symboles de NVDA. Vous pouvez
+utiliser la zone d'édition  Filtrer ou les touches fléchées pour
+sélectionner un élément dans la liste des symboles. Ensuite, appuyez sur OK
+et l'emoji ou le symbole sélectionné sera copié dans votre presse-papiers,
+prêt pour être coller.
 
 ## Dictionnaire des émoticônes ##
 
@@ -72,8 +73,8 @@ ci-dessous pour les Paramètres des émoticônes par rapport aux profils de
 configuration.
 
 Vous pouvez également exporter chaque dictionnaire de parole personnalisé en
-appuyant sur le bouton "Enregistrer et exporter le dictionnaire": de cette
-façon, vos dictionnaires de parole  seront enregistrés dans votre dossier de
+appuyant sur le bouton "Sauvegarder et exporter le dictionnaire": de cette
+façon, vos dictionnaires de parole  seront Sauvegardés dans votre dossier de
 configuration utilisateur, sous-dossier speechDicts/emoticons.
 
 Le nom exact et l'emplacement du fichier de dictionnaire seront basés sur le
@@ -82,13 +83,13 @@ dialogue Dictionnaire des émoticônes.
 
 ## Paramètres des émoticônes ##
 
-À partir du menu Préférences -> Paramètres -> émoticônes ouvre un panneau pour configurer l'activation de vos dictionnaires de parole pour chaque profil.
+À partir du menu Préférences -> Paramètres -> Émoticônes ouvre un panneau pour configurer l'activation de vos dictionnaires de parole pour chaque profil.
 
 Dans le panneau Paramètres des émoticônes, vous pouvez choisir si le dictionnaire de parole doit ou non être activé automatiquement lorsque NVDA bascule sur le profil que vous êtes en train d'éditer. Par défaut, il est désactivé dans la configuration normale de NVDA et dans tous vos nouveaux profils.
 
-Moreover, it's possible to determine if the add-on emojis should be
-spoken. This could be useful to preserve symbols speaking if emojis are
-included in NVDA's configuration.
+De plus, il est possible de déterminer si les emojis de cette extension
+doivent être verbalisés. Cela pourrait être utile pour préserver les
+symboles verbaliser si des emojis sont inclus dans la configuration de NVDA.
 
 Si vous souhaitez garder propres vos dossiers de configuration, vous pouvez
 également choisir dans ce dialogue si les dictionnaires non utilisés
@@ -106,52 +107,56 @@ dialogue Dictionnaire des émoticônes :
   émoticônes remplacées par leur description humaine.
 * NVDA+I : affiche un dialogue pour choisir l'émoticône que vous souhaitez
   copier.
-* Not assigned: show a dialog to select an NVDA's symbol you want to copy.
-* Not assigned: open a browseable message showing the symbol where the
-  review cursor is positioned, so that the whole description can be reviewed
-  in browse mode.
-* Not assigned: open a browseable message showing the symbol where the caret
-  is positioned, so that the whole description can be reviewed in browse
-  mode.
+* Non assigné: affiche un dialogue pour choisir le symbole de NVDA  que vous
+  souhaitez copier.
+* Non assigné: ouvre un message navigable affichant le symbole où le curseur
+  de revue est positionné , de sorte que toute la description puisse être
+  révisé en Mode navigation.
+* Non assigné: ouvre un message navigable affichant le symbole où le curseur
+  est positionné , de sorte que toute la description puisse être révisé en
+  Mode navigation.
 
 Note : Sous Windows 10, il est également possible d’utiliser le panneau
 emoji intégré.
 
-## Changes for 13.0 ##
+## Changements pour la version 13.0 ##
 
-* Fixed errors in Insert Emoticon dialog.
-* Added a dialog to insert a symbol available in the Punctuation/symbol
-  pronunciation of NVDA.
+* Erreurs corrigées dans le dialogue Insérer une frimousse.
+* Ajout d'un dialogue pour insérer un symbole disponible dans le dialogue
+  Prononciation des ponctuations et symboles de NVDA.
 
-## Changes for 12.0 ##
+## Changements pour la version 12.0 ##
 
-* Requires NVDA 2019.3 or later.
+* Nécessite NVDA 2019.3 ou ultérieur.
 
-## Changes for 11.0 ##
+## Changements pour la version 11.0 ##
 
-* When the add-on is updated, dictionaries saved in the previous version of
-  the add-on will be automatically copied to the new version, unless you
-  prefer to import dictionaries saved in the main dictionaries folder of
-  NVDA.
-* When showing the symbol where the caret or the review cursor are
-  positioned, the words Character and Replacement are used to distinguish
-  between the symbol itself and its description in browse mode, useful for
-  speech users.
+* Lorsque l'extension est mise à jour, les dictionnaires sauvegardés dans la
+  version précédente de l'extension seront automatiquement copiés dans la
+  nouvelle version, sauf si vous préférez importer des dictionnaires
+  sauvegardés dans le dossier principal des dictionnaires de NVDA.
+* Lors de l'affichage le symbole où le curseur de revue ou le curseur sont
+  positionnés, les mots Caractère et Remplacement sont utilisés pour
+  distinguer le symbole lui-même et sa description dans le Mode navigation,
+  utiles pour les utilisateurs de la parole.
 
-## Changes for 10.0 ##
+## Changements pour la version 10.0 ##
 
-* Added commands to show the symbol where the review cursor or caret are
-  positioned. Gestures for these commands can be assigned from the Input
-  gestures dialog, Text review category.
+* Ajout de commandes pour afficher le symbole où le curseur de revue ou le
+  curseur sont positionnés. Les gestes de ces commandes peuvent être
+  assignés à partir du dialogue Gestes de commandes, de la catégorie  Revue
+  de texte.
 
-## Changes for 9.0 ##
+## Changements pour la version 9.0 ##
 
-* Added the possibility of choosing if add-on emojis should be spoken.
-* Used appropiate encoding for dictionary names, fixing errors when they
-  contain certain characters.
-* The translated summary of the add-on is properly used for the title
-  presented in add-on help, accessible from the add-on manager.
-* Added a note mentioning the emoji panel available on Windows 10.
+* Ajout de la possibilité de choisir si des emojis  de l'extension doivent
+  être verbalisés.
+* Codage approprié pour les noms de dictionnaire utilisés lors de la
+  correction des erreurs lorsqu'ils contiennent certains caractères.
+* La traduction du summary de l'extensions est correctement utilisé pour le
+  titre présenté dans l'aide de l'extension, accessible à partir du
+  Gestionnaire d'Extensions.
+* Ajout d'une note mentionnant le panneau Emoji disponible sur Windows 10.0
 
 ## Changements pour la version 8.0 ##
 
