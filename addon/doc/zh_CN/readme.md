@@ -72,6 +72,11 @@ emoticons子文件夹中。
 
 注意：在Windows 10上，也可以使用内置表情符号面板。
 
+
+## Changes for 14.0 ##
+
+* Compatible with NVDA 2021.1.
+
 ## 13.0更新日志 ##
 
 * 修正了插入表情符号对话框中的错误。

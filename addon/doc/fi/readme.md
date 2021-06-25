@@ -104,6 +104,11 @@ Hymiöt-asetuspaneelin tai hymiösanastovalintaikkunan avaamiseen:
 Huom: Windows 10:ssä on mahdollista käyttää myös sisäänrakennettua
 emojipaneelia.
 
+
+## Muutokset versiossa 14.0 ##
+
+* Yhteensopiva NVDA 2021.1:n kanssa.
+
 ## Muutokset versiossa 13.0 ##
 
 * Korjattu Lisää hymiö -valintaikkunan virheitä.

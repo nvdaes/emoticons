@@ -119,6 +119,11 @@ dialogue Dictionnaire des émoticônes :
 Note : Sous Windows 10, il est également possible d’utiliser le panneau
 emoji intégré.
 
+
+## Changements pour la version 14.0 ##
+
+* Compatible avec NVDA 2021.1.
+
 ## Changements pour la version 13.0 ##
 
 * Erreurs corrigées dans le dialogue Insérer une frimousse.

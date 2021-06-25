@@ -116,6 +116,11 @@ Emoticons sau dialogul dicționarului de emoticoane:
 
 Notă: În Windows 10, este posibil să folosiți și panoul de emoji.
 
+
+## Changes for 14.0 ##
+
+* Compatible with NVDA 2021.1.
+
 ## Changes for 13.0 ##
 
 * Fixed errors in Insert Emoticon dialog.

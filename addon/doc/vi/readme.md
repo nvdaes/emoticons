@@ -109,6 +109,11 @@ biểu tượng cảm xúc:
 
 Lưu ý: trên Windows 10, có thể sử dụng bản nhập biểu tượng cảm xúc dựng sẵn.
 
+
+## Các thay đổi cho phiên bản 14.0 ##
+
+* Tương thích với NVDA 2021.1.
+
 ## Các thay đổi cho phiên bản 13.0 ##
 
 * Sửa các lỗi ở hộp thoại chèn biểu tượng cảm xúc.

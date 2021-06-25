@@ -112,6 +112,11 @@ Diccionario de Emoticonos:
 
 Nota: en Windows 10, también es posible usar el panel de emojis incorporado.
 
+
+## Cambios para 14.0 ##
+
+* Compatible con NVDA 2021.1.
+
 ## Cambios para 13.0 ##
 
 * Corregidos errores en el diálogo Insertar emoticono.

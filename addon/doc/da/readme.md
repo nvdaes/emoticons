@@ -105,6 +105,11 @@ Humørikoner eller dialogen til styrelse af Humørikoner-ordbøger.
 
 Bemærk: I Windows 10 er det også muligt at bruge det indbyggede emoji-panel.
 
+
+## Changes for 14.0 ##
+
+* Compatible with NVDA 2021.1.
+
 ## Changes for 13.0 ##
 
 * Fixed errors in Insert Emoticon dialog.

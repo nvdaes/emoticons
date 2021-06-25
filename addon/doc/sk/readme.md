@@ -92,6 +92,11 @@ prezeranie textu. Dostupné sú tieto možnosti:
 Upozorňujeme, že na vkladanie emotikonov môžete v systéme Windows 10 použiť
 vstavaný panel emotikonov.
 
+
+## Changes for 14.0 ##
+
+* Compatible with NVDA 2021.1.
+
 ## Changes for 13.0 ##
 
 * Fixed errors in Insert Emoticon dialog.
