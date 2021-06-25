@@ -105,6 +105,11 @@ za Rječnik emotikona:
 
 Napomena: Na Windows 10 je moguće koristiti i ugrađenu ploču emojija.
 
+
+## Promjene u verziji 14.0 ##
+
+* Kompatibilno s NVDA 2021.1.
+
 ## Promjene u verziji 13.0 ##
 
 * Ispravljene greške u dijaloškom okviru za umetanje emotikona.

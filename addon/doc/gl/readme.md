@@ -113,6 +113,11 @@ Diccionario de Emoticóns:
 
 Nota: En Windows 10, tamén é posible utilizar o panel de emoji integrado.
 
+
+## Cambios para 14.0 ##
+
+* Compatible co NVDA 2021.1.
+
 ## Cambios para 13.0 ##
 
 * Arranxados erros no diálogo Insertar Emoticón.

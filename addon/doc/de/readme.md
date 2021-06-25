@@ -112,6 +112,11 @@ oder den Emoticon-Wörterbuch-Dialog zu öffnen:
 Hinweis: Unter Windows 10 ist es auch möglich, das integrierte Emoji-Panel
 zu verwenden.
 
+
+## Änderungen in 14.0 ##
+
+* Kompatibel mit NVDA 2021.1.
+
 ## Änderungen in 13.0 ##
 
 * Fehler im Dialogfeld "Emoticon einfügen" behoben.

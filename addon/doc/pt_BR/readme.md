@@ -110,6 +110,11 @@ Emoticons ou o diálogo Dicionário de Emoticons:
 
 Nota: No Windows 10, também é possível usar o painel de emojis integrado.
 
+
+## Changes for 14.0 ##
+
+* Compatible with NVDA 2021.1.
+
 ## Changes for 13.0 ##
 
 * Fixed errors in Insert Emoticon dialog.

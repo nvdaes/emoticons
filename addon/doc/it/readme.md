@@ -114,6 +114,11 @@ Dizionario Emoticons:
 
 Nota: In Windows 10 è possibile utilizzare la finestra emoji nativa.
 
+
+## Changes for 14.0 ##
+
+* Compatible with NVDA 2021.1.
+
 ## Novità nella versione 13.0 ##
 
 * Corretti alcuni errori nella finestra Inserisci Emoticon.

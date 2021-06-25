@@ -103,6 +103,11 @@ skrót służący do wywołania dialogu aktywacji lub słownika emotikonów:
 
 Uwaga: w  Windowsie 10, jest także możliwe używanie panelu emoji.
 
+
+## Changes for 14.0 ##
+
+* Compatible with NVDA 2021.1.
+
 ## Changes for 13.0 ##
 
 * Fixed errors in Insert Emoticon dialog.
