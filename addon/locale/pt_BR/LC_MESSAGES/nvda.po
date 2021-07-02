@@ -1,22 +1,23 @@
 # Brazilian Portuguese translation of Emoticons.
-# Copyright (C) 2013-2018 NVDA Contributors.
+# Copyright (C) 2013-2021 NVDA Contributors.
 # This file is distributed under the same license as the NVDA package.
-# Cleverson Casarin Uliana <clever97@gmail.com>, 2013, 2014, 2017.
-# Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>, 2018.
+# Cleverson Casarin Uliana <clever97@gmail.com>, 2013, 2014, 2017, 2019-2020.
+# Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>, 2018, 2021.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: emoticons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2013-11-16 20:13+0100\n"
-"PO-Revision-Date: 2019-11-16 22:19-0300\n"
-"Last-Translator: Cleverson Casarin Uliana <clever97@gmail.com>\n"
-"Language-Team: Equipe de tradução do NVDA para Português do Brasil "
-"<clever97@gmail.com>\n"
+"PO-Revision-Date: 2021-06-26 01:18-0300\n"
+"Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
+"Language-Team: NVDA Brazilian Portuguese translation team (Equipe de "
+"tradução do NVDA para Português Brasileiro) <clever97@gmail.com>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.11\n"
+"X-Generator: Poedit 2.4.3\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. Translators: the label of a message box dialog.
@@ -41,9 +42,8 @@ msgid "Emoticon"
 msgstr "Emoticon"
 
 #. Translators: the name of a submenu.
-#, fuzzy
 msgid "&Emoticons"
-msgstr "Emoticons"
+msgstr "&Emoticons"
 
 #. Translators: the name for a menu item.
 msgid "&Insert emoticon..."
@@ -54,14 +54,12 @@ msgid "Shows a dialog to insert a smiley"
 msgstr "Mostra um diálogo para inserir uma carinha"
 
 #. Translators: the name for a menu item.
-#, fuzzy
 msgid "In&sert symbol..."
-msgstr "&nserir emoticon..."
+msgstr "In&serir símbolo..."
 
 #. Translators: the tooltip text for a menu item.
-#, fuzzy
 msgid "Shows a dialog to insert a symbol"
-msgstr "Mostra um diálogo para inserir uma carinha"
+msgstr "Mostra um diálogo para inserir um símbolo"
 
 #. Translators: the name for a menu item.
 msgid "&Emoticons dictionary..."
@@ -93,13 +91,12 @@ msgid "Shows a dialog to select a smiley you want to paste."
 msgstr "Mostra um diálogo para escolher uma carinha que deseje colar."
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid "Shows a dialog to select a symbol you want to paste."
-msgstr "Mostra um diálogo para escolher uma carinha que deseje colar."
+msgstr "Mostra um diálogo para selecionar um símbolo que deseje colar."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons dictionary dialog."
-msgstr "Mostra o diálogo Dicionário de Emoticons"
+msgstr "Mostra o diálogo Dicionário de Emoticons."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons settings."
@@ -201,17 +198,15 @@ msgstr "Salvar e e&xportar dicionário"
 #. %s is replaced by the language for which symbol pronunciation is being edited.
 #, python-format
 msgid "Insert Symbol (%s)"
-msgstr ""
+msgstr "Inserir Símbolo (%s)"
 
 #. Translators: This is the message when symbol has been copied to the clipboard.
-#, fuzzy
 msgid "Symbol copied to clipboard, ready for you to paste."
-msgstr "Carinha copiada para a área de transferência, pronta para colar."
+msgstr "Símbolo copiado para a área de transferência, pronto para você colar."
 
 #. Translators: Message when the symbol couldn't be copied.
-#, fuzzy
 msgid "Cannot copy symbol."
-msgstr "Impossível copiar carinha."
+msgstr "Impossível copiar o símbolo."
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Activate speaking of emoticons:"
@@ -588,7 +583,7 @@ msgstr "Triste"
 
 #. Translators: :D Laugh
 msgid "Laughing smiley"
-msgstr "risos"
+msgstr "Risonho"
 
 #. Translators: :O Surprised
 msgid "surprised smiley"
