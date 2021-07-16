@@ -3,7 +3,7 @@
   Estrada Martínez
 * Compatibilidade com NVDA: 2019.3 ou posterior
 * Baixe a [versão estável][1]
-* Baixe a [versão de desenvolvimento][2]
+* Baixe a [versão em desenvolvimento][2]
 
 Ao usar este complemento, os textos falados que contenham caracteres de
 emoticons serão substituídos por descrições mais amigáveis dos mesmos.
@@ -15,20 +15,20 @@ Pode tirar proveito dos seguintes recursos:
 
 ## Inserir Emoticon ##
 
-Às vezes uma imagem vale 1000 palavras: use o novo emoji para animar suas
-mensagens instantâneas e fazer seus amigos saberem como você está se
+Às vezes uma imagem vale que 1000 palavras: use o novo emoji para animar
+suas mensagens instantâneas e fazer seus amigos saberem como você está se
 sentindo.
 
 Quando você não tiver certeza dos caracteres para uma carinha em particular,
 este complemento lhe possibilita selecionar e inseri-lo no texto, por
-exemplo num chat.
+exemplo num bate-papo (chat).
 
-Press NVDA+I, or from menu Tools -> Emoticons > Insert emoticon, to open a dialog with the provided emoticons or emoji.
+Pressione NVDA+I, ou no menu Ferramentas -> Emoticons > Inserir emoticon, para abrir um diálogo com os emoticons ou emojis fornecidos.
 
 Este diálogo possibilita você escolher um emoticon e ver os emoticons que
 lhe interessem:
 
-*	Um campo de edição possibilita filtrar a busca pelo emoticon desejado
+*	Um campo de edição possibilita filtrar a pesquisa do emoticon desejado
   entre os disponíveis.
 *	Por meio dum conjunto de botões de opção, pode escolher ver somente a
   categoria emoji (alt+E) ou ver somente a categoria emoticons padrão
@@ -40,13 +40,13 @@ lhe interessem:
 Ao pressionar OK, os caracteres do emoticon escolhido serão copiados para a
 área de transferência, prontos para colar.
 
-## Insert symbol ##
+## Inserir símbolo ##
 
-This dialog allows you to choose one of the symbols available in the
-Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
-box or the arrow keys to select an item from the symbols list. Then, press
-OK and the selected emoji or symbol will be copied to your clipboard, ready
-for pasting.
+Esta caixa de diálogo permite que você escolha um dos símbolos disponíveis
+no diálogo Pronúncia de pontuação/símbolos do NVDA. Pode usar a caixa de
+edição Filtro ou as teclas de setas para selecionar um item da lista de
+símbolos. Em seguida, pressione OK e o emoji ou símbolo selecionado será
+copiado para sua área de transferência, pronto para colar.
 
 ## Dicionário de emoticons ##
 
@@ -56,16 +56,17 @@ perfis de configuração.
 Isso significa que você pode criar ou editar um dicionário de fala
 específico para cada perfil personalizado.
 
-No menu do NVDA, em Preferências -> Dicionários -> Dicionário de Emoticons, pode abrir um diálogo de opções para adicionar ou editar os emoticons disponíveis.
+No MENU DO NVDA, em Preferências -> Dicionários -> Dicionário de Emoticons, pode abrir um diálogo de opções para adicionar ou editar os emoticons disponíveis.
 
 Salvando suas personalizações, as novas configurações de leitura de
 emoticons só se aplicam ao perfil que você está editando no momento.
 
 Por exemplo, você pode desejar que o NVDA fale emoticons personalizados
-apenas no programa XxChat, mas não em outros programas de bate-papo: você
-pode criar um perfil para o aplicativo XxChat e atribuir um dicionário de
-fala no menu Dicionários, opção de Dicionário de Emoticons. Veja abaixo as
-configurações dos Emoticons em relação aos perfis de configuração.
+apenas no programa XxBate-papo, mas não em outros programas de bate-papo:
+você pode criar um perfil para o aplicativo XxBate-papo e atribuir um
+dicionário de fala no menu Dicionários, opção de Dicionário de
+Emoticons. Veja abaixo as configurações dos Emoticons em relação aos perfis
+de configuração.
 
 Você também pode exportar cada dicionário de fala personalizado pressionando
 o botão "Salvar e exportar dicionário": dessa forma, seus dicionários de
@@ -80,7 +81,7 @@ dicionário de Emoticons.
 
 No menu Preferências -> Configurações -> Emoticons abre um painel para configurar a ativação de seus dicionários de fala para cada perfil.
 
-No painel de configurações de Emoticons, você pode escolher se o dicionário de fala deve ou não ser ativado automaticamente quando o NVDA alterna para o perfil que você está editando no momento. Por padrão está desativado na configuração normal do NVDA e em todos os seus novos perfis.
+No painel de configurações de Emoticons, você pode escolher se o dicionário de fala deve ou não ser ativado automaticamente quando o NVDA alterna para o perfil que você está editando no momento. Por padrão está desabilitado na configuração normal do NVDA e em todos os seus novos perfis.
 
 Outrossim, pode-se determinar se os emojis do complemento devem ser
 falados. Isso pode ser útil para preservar símbolos de serem falados caso os
@@ -91,7 +92,7 @@ diálogo também é possível escolher se os dicionários não utilizados
 (associados a perfis não existentes) serão removidos do complemento quando
 ele for descarregado.
 
-## Teclas de comando: ##
+## Teclas de Comando: ##
 
 Estes são os comandos de teclas disponíveis por padrão, você pode editá-los
 ou adicionar uma nova tecla para abrir o painel de configurações de
@@ -100,7 +101,8 @@ Emoticons ou o diálogo Dicionário de Emoticons:
 * NVDA+E: Liga/desliga a fala de emoticons, alterna entre falar o texto como
   está escrito ou com os emoticons substituídos por descrições amigáveis.
 * NVDA+I: mostra um diálogo para selecionar um emoticon que queira copiar.
-* Not assigned: show a dialog to select an NVDA's symbol you want to copy.
+* Não atribuído: mostra um diálogo para selecionar um símbolo do NVDA que
+  queira copiar.
 * Não atribuído: Abre uma mensagem navegável mostrando o símbolo onde o
   cursor de exploração está posicionado, de modo que a descrição inteira
   possa ser explorada em modo de navegação.
@@ -111,15 +113,15 @@ Emoticons ou o diálogo Dicionário de Emoticons:
 Nota: No Windows 10, também é possível usar o painel de emojis integrado.
 
 
-## Changes for 14.0 ##
+## Mudanças na 14.0 ##
 
-* Compatible with NVDA 2021.1.
+* Compatível com o NVDA 2021.1.
 
-## Changes for 13.0 ##
+## Mudanças na 13.0 ##
 
-* Fixed errors in Insert Emoticon dialog.
-* Added a dialog to insert a symbol available in the Punctuation/symbol
-  pronunciation of NVDA.
+* Erros corrigidos no diálogo Inserir Emoticon.
+* Adicionado um diálogo para inserir um símbolo disponível na Pronúncia de
+  pontuação/símbolos do NVDA.
 
 ## Mudanças na 12.0 ##
 
