@@ -1,4 +1,3 @@
-## Changes for 14.0 ##
-* Compatible with NVDA 2021.1
+## Changes for 14.1 ##
 * Updated translations.
 
