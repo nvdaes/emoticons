@@ -39,7 +39,7 @@ görüntülemenize yarar.
 Tamam'a bastığınızda, seçilen ifadenin karakterleri yapıştırmaya hazır
 olarak panonuza kopyalanacaktır.
 
-## Sembol ekleİfade ekle ##
+## Sembol ekle ##
 
 Bu iletişim kutusu, NVDA'nın Noktalama/imla sözlük  iletişim kutusunda
 bulunan sembollerden birini seçmenize yarar.  Semboller listesinden bir öğe
@@ -171,7 +171,7 @@ Not: Windows 10'da yerleşik emoji paneli de kullanılabilir.
 
 ## 6.0 için değişiklikler ##
 
-* Yapılandırma profilleri için destek eklendi.
+* farklı profiller için destek eklendi.
 * NVDA 2017.4 veya sonraki sürümlerde, yapılandırma ayarları ve özel
   sözlükler, seçilen profillere göre otomatik olarak değişecektir. 2017.3
   veya önceki sürümlerde, eklentileri yeniden yükleyerek (kontrol+NVDA+f3
@@ -190,7 +190,7 @@ Not: Windows 10'da yerleşik emoji paneli de kullanılabilir.
 
 ## 4.0 için değişiklikler ##
 
-* Başka bir ayarlar iletişim kutusu etkinken Gülen yüz ekle iletişim kutusu
+* Başka bir ayarlar iletişim kutusu etkinken emoji ekle iletişim kutusu
   açılırsa, NVDA ilgili hata mesajını gösterecektir.
 
 
