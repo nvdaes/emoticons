@@ -1,15 +1,15 @@
 # Emotikoni #
 * Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* NVDA compatibility: 2019.3 or later
+* NVDA kompatibilnost: 2019.3 ili noviji
 * preuzmi [stabilnu verziju][1]
 * preuzmi [verziju u razvoju][2]
 
 Uz ovaj dodatak, svi emotikoni u izgovorenom tekstu biće zamenjeni
 odgovarajućim opisom.
 
-Na primer: ":)" će biti izgovoreno kao "osmeh", ili NVDA će reći značenje
-svakog emoji znaka
+Na primer: ":)" će biti izgovoreno kao "Smajli koji se osmehuje", ili NVDA
+će reći značenje svakog emoji znaka
 
 Evo nekoliko osnovnih mogućnosti dodatka:
 
@@ -21,7 +21,7 @@ poruke i kažete vašim prijateljima kako se osećate.
 Kada niste sigurni o znakovima za neki smajli, ovaj dodatak vam dozvoljava
 da ga izaberete i unesete u tekst kao što je ćaskanje.
 
-Press NVDA+I, or from menu Tools -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
+Pritisnite NVDA+I, ili iz menija alati -> emotikoni > ubaci emotikon, da otvorite dijalog sa ponuđenim emotikonima ili emojima.
 
 Ovaj dijalog vam dozvoljava da izaberete emotikon i prikažete emotikone koji
 vas interesuju:
@@ -29,129 +29,147 @@ vas interesuju:
 *	Polje za uređivanje vam dozvoljava da pretražujete emotikone i prikažete
   samo one koji vas interesuju.
 *	Kroz različite radio dugmiće, možete da izaberete prikaz samo emoji
-  kategorije(alt+E) ili samo kategoriju standardnih emotikona(alt+s) ili sve
-  dostupne emotikone(alt+A).
-*	U listi emotikona(alt+L) su prikazane u tri kolone: Ime emotikona, vrsta
-  emotikona(standardan emotikon ili emoji), odgovarajući znakovi.
+  kategorije(alt+E) ili samo kategorije standardnih emotikona(alt+t) ili sve
+  dostupne emotikone(alt+s).
+*	U listi emotikona(alt+L) emotikoni su prikazani u tri kolone: Ime
+  emotikona, vrsta emotikona(standardan emotikon ili emoji), odgovarajući
+  znakovi.
 
 Kada pritisnete OK, znakovi za izabran emotikon će biti kopirani u
 privremenu memoriju, spremni da se nalepe.
 
-## Emoticons dictionary ##
+## Ubaci simbol ##
 
-Emoticons add-on allows to have differents speech-dictionaries using
-configuration profiles.
+Ovaj dijalog vam dozvoljava da izaberete jedan od simbola koji su dostupni u
+NVDA dijalogu izgovor znakova interpunkcije i simbola. Možete koristiti
+polje za filtriranje ili strelice da izaberete jedan od simbola iz
+liste. Zatim, pritisnite u redu i izabrani simbol ili Emoji će biti kopiran
+u vašu privremenu memoriju, spreman da bude nalepljen.
 
-This means that you can create or edit a specific speech-dictionary for each
-your custom profile.
+## Rečnik emotikona ##
 
-From NVDA MENU, Preferences -> Speech dictionaries -> Emoticons dictionary, you can open a dialog to add or to edit available emoticons.
+Dodatak za emotikone vam dozvoljava da imate različite rečnike za različite
+profile podešavanja.
 
-Saving your customizations, the new reading settings of emoticons will only
-apply to the profile you are currently editing.
+Ovo znači da možete da uredite ili napravite rečnik za svaki vaš prilagođeni
+profil.
 
-For example, you may wish that NVDA spoken custom emoticons only in XxChat
-program, but not in other chat programs: you can do this by creating a
-profile for the XxChat application and assign to it a speech dictionary from
-Speech dictionaries menu, Emoticons dictionary option. See below for
-Emoticons settings in relation to the configuration profiles.
+Iz NVDA menija, opcije-> govorni rečnici-> rečnik emotikona, možete otvoriti dijalog za dodavanje ili uređivanje emotikona.
 
-You can also export each custom speech-dictionary pressing "Save and export
-dictionary" button: in this way your speech-dictionaries will be saved in
-your user config folder, speechDicts/emoticons subfolder.
+Čuvajući vaša prilagođavanja, nova podešavanja za čitanje emotikona će se
+primeniti samo na onaj profil koji trenutno uređujete.
 
-The exact name and location of the dictionary file will be based on the
-editing configuration profile, which will be shown in the title of the
-Emoticons dictionary dialog.
+Na primer, možda želite da NVDA izgovara prilagođene emotikone samo u XxChat
+programu, ali ne u drugim programima za ćaskanje: Možete ovo da uradite
+pravljenjem profila za XxChat aplikaciju i zatim da mu pridružite govorni
+rečnik iz menija govornih rečnika, opcija rečnik emotikona. Ispod pogledajte
+dodatne detalje za podešavanje emotikona u zavisnosti od profila
+podešavanja.
 
-## Emoticons settings ##
+Takođe možete da izvezete vaš rečnik emotikona aktiviranjem dugmeta "Sačuvaj
+i izvezi rečnik ": Na ovaj način vaši govorni rečnici će biti sačuvani u
+folderu sa korisničkimm podešavanjima, speechDicts/emoticons podfolderu.
 
-From menu Preferences -> Settings -> Emoticons opens a panel to configure the activation of your speech-dictionaries for each profile.
+Tačno ime i lokacija rečnika zavise od profila koji se uređuje, a oni će
+biti prikazani u naslovu dijaloga za rečnik emotikona.
 
-In Emoticons settings panel you can choose whether or not speech-dictionary should automatically activate when  NVDA switches to the   profile you are currently editing. By default it is disabled in normal configuration of NVDA and in all your new profiles.
+## Podešavanja emotikona ##
 
-Moreover, it's possible to determine if the add-on emojis should be
-spoken. This could be useful to preserve symbols speaking if emojis are
-included in NVDA's configuration.
+Iz menija opcije-> podešavanja-> emotikoni možete otvoriti panel da podesite aktivaciju govornih rečnika za svaki profil.
 
-If you may wish to keep clean your configuration folders, in this dialog it
-is also possible to choose if dictionaries not used (associated with non
-existing profiles) will be removed from the add-on when it is unloaded.
+U panelu podešavanja emotikona možete izabrati da li će se rečnik automatski aktivirati kada NVDA promeni profil na onaj koji trenutno uređujete. Podrazumevano je ovo onemogućeno u standardnim NVDA podešavanjima i svim drugim profilima.
+
+Takođe, moguće je odrediti da li će dodatak izgovarati Emoji znakove. Ovo
+može biti korisno kako bi se sačuvao izgovor simbola ako je neki Emoji znak
+uključen u NVDA.
+
+Ako želite da održavate vaš folder sa podešavanjima, u ovom dijalogu takođe
+je moguće izabrati da li će rečnici koji se ne koriste (koji su pridruženi
+nepostojećim profilima ) biti uklonjeni iz dodatka kada se zatvori.
 
 ## Prečice ##
 
-These are the key commands available by default, you can edit those or add
-new key to open Emoticons settings panel or Emoticon Dictionary dialog:
+Ovo su komande koje su podrazumevano dostupne, možete ih urediti ili dodati
+nove da otvorite panel za podešavanja ili dijalog za rečnik emotikona:
 
-* NVDA+E: speaking emoticons on/off, toggles between speaking text as it is
-  written, or with the emoticons replaced by the human description.
+* NVDA+E: Uključuje ili isključuje izgovor emotikona, izgovara tekst kao što
+  je napisan, ili menja emotikone ljudskim opisima.
 * NVDA+I: otvara prozor za izbor emotikona za kopiranje u privremenu
   memoriju
-* Not assigned: open a browseable message showing the symbol where the
-  review cursor is positioned, so that the whole description can be reviewed
-  in browse mode.
-* Not assigned: open a browseable message showing the symbol where the caret
-  is positioned, so that the whole description can be reviewed in browse
-  mode.
+* Nema prečice: Prikazuje dijalog za izbor NVDA simbola za kopiranje.
+* Nema prečice: Otvara poruku u režimu pretraživanja koja prikazuje simbol
+  na trenutnoj poziciji preglednog kursora, kako biste mogli da pregledate
+  ceo opis.
+* Nema prečice: Otvara poruku u režimu pretraživanja koja prikazuje simbol
+  na poziciji kursora, kako biste mogli da pregledate ceo opis.
 
-Note: On Windows 10, it's also possible to use the built-in emoji panel.
+Napomena: Na windowsu 10, takođe je moguće koristiti ugrađeni emoji panel.
 
-## Changes for 12.0 ##
 
-* Requires NVDA 2019.3 or later.
+## Promene u 14.0 ##
 
-## Changes for 11.0 ##
+* Kompatibilan sa NVDA 2021.1.
 
-* When the add-on is updated, dictionaries saved in the previous version of
-  the add-on will be automatically copied to the new version, unless you
-  prefer to import dictionaries saved in the main dictionaries folder of
-  NVDA.
-* When showing the symbol where the caret or the review cursor are
-  positioned, the words Character and Replacement are used to distinguish
-  between the symbol itself and its description in browse mode, useful for
-  speech users.
+## Promene u 13.0 ##
 
-## Changes for 10.0 ##
+* Ispravljene greške u dijalogu za ubacivanje emotikona.
+* Dodat dijalog za ubacivanje simbola koji su dostupni u NVDA dijalogu
+  izgovora znakova interpunkcije i simbola.
 
-* Added commands to show the symbol where the review cursor or caret are
-  positioned. Gestures for these commands can be assigned from the Input
-  gestures dialog, Text review category.
+## promene u  12.0 ##
 
-## Changes for 9.0 ##
+* Zahteva NVDA 2019.3 ili noviji.
 
-* Added the possibility of choosing if add-on emojis should be spoken.
-* Used appropiate encoding for dictionary names, fixing errors when they
-  contain certain characters.
-* The translated summary of the add-on is properly used for the title
-  presented in add-on help, accessible from the add-on manager.
-* Added a note mentioning the emoji panel available on Windows 10.
+## Promene u 11.0 ##
 
-## Changes for 8.0 ##
+* Kada je dodatak ažuriran, rečnici sačuvani u trenutnoj verziji će
+  automatski biti kopirani u novu verziju, osim ako želite da uvezete
+  rečnike iz glavnog NVDA foldera.
+* Kada se prikazuje simbol na poziciji sistemskog ili preglednog kursora,
+  reči znak i zamena se koriste kako bi se razlikovao simbol i njegov opis,
+  korisno za korisnike govorne podrške.
 
-* Compatible with NVDA 2018.3 or later (required).
+## Promene u 10.0 ##
 
-## Changes for 7.0 ##
+* Dodate komande za prikazivanje simbola na poziciji preglednog ili
+  sistemskog kursora. Prečice za ove komande se mogu podesiti u dijalogu
+  ulazne komande, iz kategorijje pregled teksta.
 
-* The Activation settings dialog has been moved to a panel in NVDA settings,
-  so that the current profile will be shown in the title of the NVDA
-  settings dialog.
-* The Manage Emoticons menu has been removed: now Insert emoticon will be
-  found under the Tools menu, and Customize Emoticons will be shown under
-  Speech dictionaries like Emoticons dictionary.
-* Requires NVDA 2018.2 or later.
-* If needed, you can download the [last version compatible with NVDA
+## Promene u 9.0 ##
+
+* Dodata mogućnost izbora da li će se Emoji znakovi iz dodatka izgovarati
+  ili ne.
+* Sada se koristi ispravno kodiranje za rečnike, što ispravlja greške kada
+  rečnici sadrže određene znakove.
+* Preveden opis dodatka se ispravno koristi kada se aktivira dugme za
+  prikazivanje pomoći dodatka, dostupno iz dijaloga upravljanja dodacima.
+* Dodata napomena koja spominje dostupnost Emoji panela na Windowsu 10.
+
+## Promene u 8.0 ##
+
+* Kompatibilan uz NVDA 2018.3 ili noviji (minimalna neophodna verzija ).
+
+## Promene u 7.0 ##
+
+* Dijalog aktivacije je premešten u panel sa NVDA podešavanjima, kako bi se
+  prikazao naziv trenutnog profila koji se uređuje.
+* Uklonjen je  meni upravljanja emotikonima: Sada je opcija za ubacivanje
+  emotikona u meniju alati, a prilagođavanje emotikona u govornim rečnicima
+  kao opcija rečnika emotikona.
+* Zahteva NVDA 2018.2 ili noviji.
+* Ako je neophodno, možete preuzeti [poslednju verziju kompatibilnu uz NVDA
   2017.3][3].
 
-## Changes for 6.0 ##
+## Promene u 6.0 ##
 
-* Added support for configuration profiles.
-* In NVDA 2017.4 or later, the configuration settings and custom
-  dictionaries will change automatically according with the selected
-  profiles. In 2017.3 or earlier, you can apply changes by reloading plugins
-  (pressing control+NVDA+f3).
-* If you choose to import settings when updating the add-on, deprecated
-  files (emoticons.ini and emoticons.dic) will be removed or adapted to this
-  version.
+* Dodata podrška za profile podešavanja.
+* U NVDA 2017.4 ili novijem, podešavanja i rečnici će se automatski menjati
+  u zavisnosti od profila podešavanja. U 2017.3 ili starijem, možete
+  primeniti promene tako što ćete ponovo učitati dodatke (pritiskanjem
+  kontrol+NVDA+f3).
+* Ako izaberete da uvezete podešavanja kada ažurirate dodatak, zastarele
+  datoteke (emoticons.ini i emoticons.dic) biće uklonjene ili prilagođene za
+  ovu verziju.
 
 ## Promene u 5.0 ##
 
@@ -174,7 +192,7 @@ Note: On Windows 10, it's also possible to use the built-in emoji panel.
   govornim rečnicima od verzije NVDA 2014.4 i u novijim verzijama.
 
 
-## Promene u 2.9 ##
+## Promene u 2.0 ##
 
 * Pomoć za dodatak je dostupna iz menadžera/upravljača dodataka.
 
@@ -187,7 +205,6 @@ Note: On Windows 10, it's also possible to use the built-in emoji panel.
 ## Promene u 1.0 ##
 
 * Prva verzija
-
 
 [[!tag dev stable]]
 
