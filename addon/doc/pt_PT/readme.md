@@ -1,7 +1,7 @@
 # Emoticons #
 * Autores: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* NVDA compatibility: 2019.3 or later
+* Compatibilidade com o NVDA: 2019.3 ou posterior
 * Baixar [versão estável] [1]
 * Baixar [versão de desenvolvimento] [2]
 
@@ -23,7 +23,7 @@ Quando não tiver a certeza dos caracteres para um determinado smiley, este
 extra permite-lhe seleccioná-lo e inseri-lo no seu texto, como numa
 conversa.
 
-Press NVDA+I, or from menu Tools -> Emoticons > Insert emoticon, to open a dialog with the provided emoticons or emoji.
+Pressione NVDA+I, ou no menu Ferramentas -> Emoticons > Inserir emoticon, para abrir um diálogo com os emoticons ou emoji fornecidos.
 
 Esta caixa de diálogo permite-lhe escolher um emoticon e ver os emoticons
 que o interessam:
@@ -40,13 +40,13 @@ que o interessam:
 Quando pressiona OK, os caracteres do emoticon escolhido serão copiados para
 a área de transferência, ficando prontos para colar na sua conversa.
 
-## Insert symbol ##
+## Inserir símbolo ##
 
-This dialog allows you to choose one of the symbols available in the
-Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
-box or the arrow keys to select an item from the symbols list. Then, press
-OK and the selected emoji or symbol will be copied to your clipboard, ready
-for pasting.
+Este diálogo permite-lhe escolher um dos símbolos disponíveis no diálogo de
+pronúncia de Pontuação/Símbolo da NVDA. Pode utilizar a caixa de edição
+Filtro ou as teclas de seta para seleccionar um item da lista de
+símbolos. Em seguida, prima OK e o emoji ou símbolo seleccionado será
+copiado para a sua área de transferência, pronto para colar.
 
 ## Dicionário de emoticons ##
 
@@ -101,7 +101,8 @@ diálogo do dicionário do Emoticon:
   escrito, ou com os emoticons substituídos pela descrição humana.
 * NVDA + I: mostra uma caixa de diálogo para seleccionar um emoticon que
   deseja copiar.
-* Not assigned: show a dialog to select an NVDA's symbol you want to copy.
+* Não atribuído: mostra um diálogo para seleccionar um símbolo do NVDA que
+  deseja copiar.
 * Não atribuído: abre uma mensagem navegável mostrando o símbolo onde o
   cursor de revisão está posicionado, para que toda a descrição possa ser
   revisada no modo de navegação.
@@ -112,30 +113,30 @@ diálogo do dicionário do Emoticon:
 Nota: No Windows 10, também é possível usar o painel de emojis nativo.
 
 
-## Changes for 14.0 ##
+## Alterações para 14.0 ##
 
-* Compatible with NVDA 2021.1.
+* Compatível com a NVDA 2021.1.
 
-## Changes for 13.0 ##
+## Alterações para 13.0 ##
 
-* Fixed errors in Insert Emoticon dialog.
-* Added a dialog to insert a symbol available in the Punctuation/symbol
-  pronunciation of NVDA.
+* Erros corrigidos no diálogo Inserir Emoticon.
+* Adicionado um diálogo para inserir um símbolo disponível na Pronúncia de
+  Pontuação/Símbolo do NVDA.
 
-## Changes for 12.0 ##
+## Alterações para 12.0 ##
 
-* Requires NVDA 2019.3 or later.
+* Requer o NVDA 2019.3 ou posterior.
 
-## Changes for 11.0 ##
+## Alterações para 11.0 ##
 
-* When the add-on is updated, dictionaries saved in the previous version of
-  the add-on will be automatically copied to the new version, unless you
-  prefer to import dictionaries saved in the main dictionaries folder of
-  NVDA.
-* When showing the symbol where the caret or the review cursor are
-  positioned, the words Character and Replacement are used to distinguish
-  between the symbol itself and its description in browse mode, useful for
-  speech users.
+* Quando o extra é actualizado, os dicionários guardados na versão anterior
+  do extra serão automaticamente copiados para a nova versão, a menos que
+  prefira importar dicionários guardados na pasta principal de dicionários
+  do NVDA.
+* Ao mostrar o símbolo onde o cursor ou o cursor de revisão estão
+  posicionados, as palavras Caracter e Substituição são usadas para
+  distinguir entre o próprio símbolo e a sua descrição no modo de navegação,
+  útil para os utilizadores de voz.
 
 ## Alterações para 10.0 ##
 
