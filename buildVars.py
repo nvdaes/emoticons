@@ -20,6 +20,7 @@ addon_info = {
 	"addon_description" : _("Enables the announcement of emoticon names instead of the character Representation."),
 	# version
 	"addon_version" : "14.1",
+
 	# Author(s)
 	"addon_author" : u"Chris Leo <llajta2012@gmail.com>, Noelia Ruiz Martínez <nrm1977@gmail.com>, Mesar Hameed <mesar.hameed@gmail.com>, Francisco Javier Estrada Martínez <Fjestrad@hotmail.com>",
 	# URL for the add-on documentation support
