@@ -9,6 +9,7 @@ import copy
 import speech
 import ui
 
+
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	# Translators: Script category for commands to insert symbols.
@@ -24,10 +25,10 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@classmethod
 	def getSymbols(cls):
 		try:
-			symbolProcessor = characterProcessing._localeSpeechSymbolProcessors.fetchLocaleData(speech.getCurrentLanguage())
+			processor = characterProcessing._localeSpeechSymbolProcessors.fetchLocaleData(speech.getCurrentLanguage())
 		except LookupError:
-			symbolProcessor = characterProcessing._localeSpeechSymbolProcessors.fetchLocaleData("en")
-		symbols= [copy.copy(symbol) for symbol in symbolProcessor.computedSymbols.values()]
+			processor = characterProcessing._localeSpeechSymbolProcessors.fetchLocaleData("en")
+		symbols = [copy.copy(symbol) for symbol in processor.computedSymbols.values()]
 		return symbols
 
 	@classmethod
@@ -46,7 +47,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	@classmethod
 	def addScriptForSymbol(cls, symbol):
-		script = lambda self, gesture: cls._symbolScript(symbol)
+		script = lambda self, gesture: cls._symbolScript(symbol)  # Noqa E731
 		funcName = script.__name__ = "script_%s" % cls._getScriptNameForSymbol(symbol)
 		# Just set the doc string of the script, using the decorator is overkill here.
 		# Translators: Message presented in input help mode.
