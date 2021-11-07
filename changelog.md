@@ -1,3 +1,3 @@
-## Changes for 14.2 ##
+## Changes ##
 * Updated translations.
 
