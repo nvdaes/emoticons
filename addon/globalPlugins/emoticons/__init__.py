@@ -20,7 +20,8 @@ import wx
 import gui
 import addonHandler
 from gui import guiHelper, nvdaControls
-from gui.settingsDialogs import NVDASettingsDialog, SettingsPanel, DictionaryDialog, SpeechSymbolsDialog
+from gui.settingsDialogs import NVDASettingsDialog, SettingsPanel, SpeechSymbolsDialog
+from gui.speechDict import DictionaryDialog
 from .smileysList import emoticons
 from .skipTranslation import translate
 from globalCommands import SCRCAT_SPEECH, SCRCAT_TOOLS, SCRCAT_CONFIG, SCRCAT_TEXTREVIEW
@@ -184,11 +185,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		gui.mainFrame._popupSettingsDialog(InsertSymbolDialog)
 
 	def onEmDicDialog(self, evt):
-		# Adapted from NVDA's core.
-		disp = profileName if profileName else translate("(normal configuration)")
-		deactivateAnnouncement()
-		# Translators: Title of a dialog.
-		gui.mainFrame._popupSettingsDialog(EmDicDialog, _("Emoticons dictionary (%s)" % disp), sD)
+		gui.mainFrame._popupSettingsDialog(EmDicDialog)
 
 	def onSettingsPanel(self, evt):
 		gui.mainFrame._popupSettingsDialog(NVDASettingsDialog, AddonSettingsPanel)
@@ -493,6 +490,17 @@ class InsertEmoticonDialog(wx.Dialog):
 
 
 class EmDicDialog(DictionaryDialog):
+
+	def __init__(self, parent):
+		disp = profileName if profileName else translate("(normal configuration)")
+		# Translators: Title for Emoticons dictionary dialog.
+		dialogTitle = _("Emoticons dictionary (%s)" % disp)
+		deactivateAnnouncement()
+		super().__init__(
+			parent,
+			title=dialogTitle,
+			speechDict=sD
+		)
 
 	def makeSettings(self, settingsSizer):
 		sHelper = guiHelper.BoxSizerHelper(self, sizer=settingsSizer)
