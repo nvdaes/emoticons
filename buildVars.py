@@ -19,7 +19,7 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description": _("Enables the announcement of emoticon names instead of the character Representation."),
 	# version
-	"addon_version": "14.6",
+	"addon_version": "14.7",
 	# Author(s)
 	"addon_author": u"Chris Leo <llajta2012@gmail.com>, Noelia Ruiz Martínez <nrm1977@gmail.com>, Mesar Hameed <mesar.hameed@gmail.com>, Francisco Javier Estrada Martínez <Fjestrad@hotmail.com>",
 	# URL for the add-on documentation support
@@ -29,7 +29,7 @@ addon_info = {
 	# Minimum NVDA version supported (e.g. "2018.3")
 	"addon_minimumNVDAVersion": "2019.3.0",
 	# Last NVDA version supported/tested (e.g. "2018.4", ideally more recent than minimum version)
-	"addon_lastTestedNVDAVersion": "2021.3.1",
+	"addon_lastTestedNVDAVersion": "2021.3.3",
 	# Add-on update channel (default is stable or None)
 	"addon_updateChannel": None,
 }
