@@ -50,6 +50,12 @@ sD = speechDictHandler.SpeechDict()
 profileName = oldProfileName = None
 
 
+def disableInSecureMode(decoratedCls):
+	if globalVars.appArgs.secure:
+		return globalPluginHandler.GlobalPlugin
+	return decoratedCls
+
+
 def loadDic():
 	if profileName is None:
 		dicFile = ADDON_DIC_DEFAULT_FILE
@@ -73,6 +79,7 @@ def deactivateAnnouncement():
 			speechDictHandler.dictionaries["temp"].remove(entry)
 
 
+@disableInSecureMode
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	scriptCategory = SCRCAT_SPEECH
