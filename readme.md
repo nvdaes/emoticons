@@ -1,7 +1,7 @@
 # Emoticons #
 
 * Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez
-* NVDA compatibility: 2019.3 or later
+* NVDA compatibility: 2022.1 or later
 * Download [stable version][1]
 * Download [development version][2]
 
