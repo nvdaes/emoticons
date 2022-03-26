@@ -1,31 +1,34 @@
 # -*- coding: UTF-8 -*-
-# Copyright (C) 2013-2020 Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez
+# Copyright (C) 2013-2022 Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez
 # Released under GPL 2
+
+import os
+import copy
+import wx
 
 import globalPluginHandler
 import globalVars
 import config
-import os
 import api
 import speechDictHandler
 import ui
 import characterProcessing
-import copy
 import languageHandler
 import speech
 import treeInterceptorHandler
 import textInfos
 import core
-import wx
 import gui
 import addonHandler
 from gui import guiHelper, nvdaControls
 from gui.settingsDialogs import NVDASettingsDialog, SettingsPanel, SpeechSymbolsDialog
 from gui.speechDict import DictionaryDialog
-from .smileysList import emoticons
-from .skipTranslation import translate
 from globalCommands import SCRCAT_SPEECH, SCRCAT_TOOLS, SCRCAT_CONFIG, SCRCAT_TEXTREVIEW
 from scriptHandler import script
+
+from .smileysList import emoticons
+from .skipTranslation import translate
+
 
 addonHandler.initTranslation()
 
