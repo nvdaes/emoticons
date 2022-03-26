@@ -72,6 +72,7 @@ Note: On Windows 10, it's also possible to use the built-in emoji panel.
 ## Changes for 15.0 ##
 
 * Requires NVDA 2022.1 or later.
+* Cannot be used in secure mode.
 
 ## Changes for 14.0 ##
 
