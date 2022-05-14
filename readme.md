@@ -1,9 +1,8 @@
 # Emoticons #
 
 * Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez
-* NVDA compatibility: 2022.1 or later
-* Download [stable version][1]
-* Download [development version][2]
+* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
 
 Using this add-on, spoken text containing emoticon characters will be replaced by its more human friendly description.
 
@@ -67,7 +66,7 @@ These are the key commands available by default, you can edit those or add new k
 * Not assigned: open a browseable message showing the symbol where the review cursor is positioned, so that the whole description can be reviewed in browse mode.
 * Not assigned: open a browseable message showing the symbol where the caret is positioned, so that the whole description can be reviewed in browse mode.
 
-Note: On Windows 10, it's also possible to use the built-in emoji panel.
+Note: On Windows 10 and higher, it's also possible to use the built-in emoji panel.
 
 ## Changes for 15.0 ##
 
