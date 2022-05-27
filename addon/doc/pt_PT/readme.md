@@ -1,9 +1,9 @@
 # Emoticons #
+
 * Autores: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Compatibilidade com o NVDA: 2019.3 ou posterior
-* Baixar [versão estável] [1]
-* Baixar [versão de desenvolvimento] [2]
+* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
 
 Ao usar este extra, o texto do emoticon que contenha caracteres será
 substituído por uma descrição mais humana e amigável.
@@ -110,8 +110,13 @@ diálogo do dicionário do Emoticon:
   cursor está posicionado, para que toda a descrição possa ser revisada no
   modo de navegação.
 
-Nota: No Windows 10, também é possível usar o painel de emojis nativo.
+Note: On Windows 10 and higher, it's also possible to use the built-in emoji
+panel.
 
+## Changes for 15.0 ##
+
+* Requires NVDA 2022.1 or later.
+* Cannot be used in secure mode.
 
 ## Alterações para 14.0 ##
 

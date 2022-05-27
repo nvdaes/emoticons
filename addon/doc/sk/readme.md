@@ -1,9 +1,9 @@
 # Emotikony #
+
 * Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Funguje s NVDA od verzie 2019.3
-* stiahnuť [stabilnú verziu][1]
-* Stiahnuť [Vývojovú verzia][2]
+* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
 
 Tento doplnok interpretuje grafické emotikony slovným popisom.
 
@@ -89,9 +89,13 @@ prezeranie textu. Dostupné sú tieto možnosti:
 * Nedefinované: Zobraz emotikon pod systémovým kurzorom v režime
   prehliadania.
 
-Upozorňujeme, že na vkladanie emotikonov môžete v systéme Windows 10 použiť
-vstavaný panel emotikonov.
+Note: On Windows 10 and higher, it's also possible to use the built-in emoji
+panel.
 
+## Changes for 15.0 ##
+
+* Requires NVDA 2022.1 or later.
+* Cannot be used in secure mode.
 
 ## Changes for 14.0 ##
 

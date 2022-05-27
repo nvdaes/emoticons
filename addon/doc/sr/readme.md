@@ -1,9 +1,9 @@
 # Emotikoni #
+
 * Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* NVDA kompatibilnost: 2019.3 ili noviji
-* preuzmi [stabilnu verziju][1]
-* preuzmi [verziju u razvoju][2]
+* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
 
 Uz ovaj dodatak, svi emotikoni u izgovorenom tekstu biće zamenjeni
 odgovarajućim opisom.
@@ -103,8 +103,13 @@ nove da otvorite panel za podešavanja ili dijalog za rečnik emotikona:
 * Nema prečice: Otvara poruku u režimu pretraživanja koja prikazuje simbol
   na poziciji kursora, kako biste mogli da pregledate ceo opis.
 
-Napomena: Na windowsu 10, takođe je moguće koristiti ugrađeni emoji panel.
+Note: On Windows 10 and higher, it's also possible to use the built-in emoji
+panel.
 
+## Changes for 15.0 ##
+
+* Requires NVDA 2022.1 or later.
+* Cannot be used in secure mode.
 
 ## Promene u 14.0 ##
 

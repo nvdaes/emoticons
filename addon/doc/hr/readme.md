@@ -1,9 +1,9 @@
 # Emotikoni #
+
 * Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* NVDA kompatibilnost: 2019.3 i novije
-* Preuzmi [stabilnu verziju][1]
-* Preuzmi [razvojnu verziju][2]
+* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
 
 Kad se koristi ovaj dodatak, emotikoni će se izgovoriti riječima ljudskog
 jezika.
@@ -103,8 +103,13 @@ za Rječnik emotikona:
   simbol na kojem se nalazi kursor, tako da se čitav opis može pregledati u
   modusu čitanja.
 
-Napomena: Na Windows 10 je moguće koristiti i ugrađenu ploču emojija.
+Note: On Windows 10 and higher, it's also possible to use the built-in emoji
+panel.
 
+## Changes for 15.0 ##
+
+* Requires NVDA 2022.1 or later.
+* Cannot be used in secure mode.
 
 ## Promjene u verziji 14.0 ##
 

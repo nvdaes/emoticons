@@ -1,9 +1,9 @@
 # Humørikoner (Emoticons) #
+
 * Forfattere: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco
   Javier Estrada Martínez
-* NVDA-kompatibilitet: 2019.3 eller nyere
-* Download [stabil version][1]
-* Download [udviklingsversion][2]
+* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
 
 Med dette tilføjelsesprogram vil du få udtalt humørikoner i tekster på en
 mere brugervenlig måde.
@@ -104,8 +104,13 @@ Humørikoner eller dialogen til styrelse af Humørikoner-ordbøger.
 * Ikke tildelt: Åbn et vindue, der viser symbolet, hvor systemmarkøren er
   placeret, så hele beskrivelsen kan gennemgås i gennemsynstilstand.
 
-Bemærk: I Windows 10 er det også muligt at bruge det indbyggede emoji-panel.
+Note: On Windows 10 and higher, it's also possible to use the built-in emoji
+panel.
 
+## Changes for 15.0 ##
+
+* Requires NVDA 2022.1 or later.
+* Cannot be used in secure mode.
 
 ## Ændringer for 14.0 ##
 

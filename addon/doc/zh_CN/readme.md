@@ -1,9 +1,9 @@
 # 表情符号插件 #
+
 * 作者：Chris Leo，NoeliaRuizMartínez，Mesar Hameed，Francisco
   JavierEstradaMartínez
-* NVDA兼容版本: 2019.3或更高版本
-* 下载[稳定版][1]
-* 下载[开发版][2]
+* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
 
 启用表情名称朗读来代替原字符朗读。
 
@@ -70,8 +70,13 @@ emoticons子文件夹中。
 * 未分配: 打开显示浏览光标所在位置的符号的可浏览消息, 以便可以在浏览模式下浏览整个描述。
 * 未分配: 打开显示插入符号所在位置的符号的可浏览消息, 以便可以在浏览模式下查看整个描述。
 
-注意：在Windows 10上，也可以使用内置表情符号面板。
+Note: On Windows 10 and higher, it's also possible to use the built-in emoji
+panel.
 
+## Changes for 15.0 ##
+
+* Requires NVDA 2022.1 or later.
+* Cannot be used in secure mode.
 
 ## 14.0更新日志 ##
 

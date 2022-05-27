@@ -1,9 +1,9 @@
 # Emoticons #
+
 * Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* NVDA compatibility: 2019.3 or later
-* Descarcă [versiunea stabilă][1]
-* Descarcă [versiunea în dezvoltare][2]
+* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
 
 Folosind acest supliment, textul care conține emoticoane va fi înlocuit cu o
 descriere mult mai prietenoasă.
@@ -114,8 +114,13 @@ Emoticons sau dialogul dicționarului de emoticoane:
   este poziționat cursorul de scriere, astfel încât descrierea să fie
   parcursă în modul de navigare.
 
-Notă: În Windows 10, este posibil să folosiți și panoul de emoji.
+Note: On Windows 10 and higher, it's also possible to use the built-in emoji
+panel.
 
+## Changes for 15.0 ##
+
+* Requires NVDA 2022.1 or later.
+* Cannot be used in secure mode.
 
 ## Changes for 14.0 ##
 

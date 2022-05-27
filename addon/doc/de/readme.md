@@ -1,9 +1,10 @@
 # Emoticons #
+
 * Autoren: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* NVDA-Kompatibilität: 2019.3 oder neuer
-* [Stabile Version herunterladen][1]
-* [Entwicklerversion herunterladen][2]
+* [Stabile Version herunterladen][1] (kompatibel mit NVDA 2022.1 und neuer)
+* [Entwicklerversion herunterladen][2] (kompatibel mit NVDA 2022.1 und
+  neuer)
 
 Diese Erweiterung ersetzt Emoticons durch besser verständliche
 Beschreibungen.
@@ -109,9 +110,13 @@ oder den Emoticon-Wörterbuch-Dialog zu öffnen:
   Symbol anzeigt, an dem sich die Schreibmarke befindet, damit die gesamte
   Beschreibung im Lese-Modus gelesen werden kann.
 
-Hinweis: Unter Windows 10 ist es auch möglich, das integrierte Emoji-Panel
-zu verwenden.
+Hinweis: Unter Windows 10 und Windows 11 ist es auch möglich, das
+integrierte Emoji-Panel zu verwenden.
 
+## Änderungen in 15.0 ##
+
+* Benötigt NVDA 2022.1 oder neuer.
+* Läuft nicht mehr im geschützten Modus.
 
 ## Änderungen in 14.0 ##
 

@@ -1,9 +1,9 @@
 # Emoticons #
+
 * Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Versioni di NVDA compatibili: 2019.3 o superiori
-* Scarica la [versione stabile][1]
-* Scarica la [versione in sviluppo][2]
+* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
 
 Utilizzando questo componente aggiuntivo, la lettura dei caratteri che
 compongono una emoticon verrà sostituita con una sua descrizione.
@@ -112,8 +112,13 @@ Dizionario Emoticons:
   mostra il simbolo presente alla posizione del cursore di sistema e la sua
   descrizione per esteso.
 
-Nota: In Windows 10 è possibile utilizzare la finestra emoji nativa.
+Note: On Windows 10 and higher, it's also possible to use the built-in emoji
+panel.
 
+## Changes for 15.0 ##
+
+* Requires NVDA 2022.1 or later.
+* Cannot be used in secure mode.
 
 ## Changes for 14.0 ##
 
