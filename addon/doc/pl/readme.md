@@ -1,9 +1,9 @@
 # Emoticons #
+
 * Autorzy: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Zgodność z wersjami NVDA: 2019.3 lub nowszymi
-* Pobierz [wersja stabilna][1]
-* Pobierz [wersja rozwojowa][2]
+* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
 
 Przy użyciu tego dodatku, wypowiadany tekst zawierający znaki emotikonów
 zostanie zastąpiony przez bardziej przyjazne opisy.
@@ -101,8 +101,13 @@ skrót służący do wywołania dialogu aktywacji lub słownika emotikonów:
 * Nieprzydzielone: otwiera wiadomość w oknie HTML, aby było możliwe
   przeczytanie opisu znaku w trybie przeglądania.
 
-Uwaga: w  Windowsie 10, jest także możliwe używanie panelu emoji.
+Note: On Windows 10 and higher, it's also possible to use the built-in emoji
+panel.
 
+## Changes for 15.0 ##
+
+* Requires NVDA 2022.1 or later.
+* Cannot be used in secure mode.
 
 ## Changes for 14.0 ##
 

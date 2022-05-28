@@ -1,9 +1,9 @@
 # Hymiöt #
+
 * Tekijät: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Yhteensopivuus: NVDA 2019.3 tai uudempi
-* Lataa [vakaa versio][1]
-* Lataa [kehitysversio][2]
+* Lataa [vakaa versio][1] (yhteensopiva NVDA 2022.1:n ja uudempien kanssa)
+* Lataa [kehitysversio][2] (yhteensopiva NVDA 2022.1:n ja uudempien kanssa)
 
 Puhutussa tekstissä olevat hymiömerkit korvataan tätä lisäosaa käytettäessä
 niiden ihmisystävällisemmillä kuvauksilla.
@@ -101,9 +101,13 @@ Hymiöt-asetuspaneelin tai hymiösanastovalintaikkunan avaamiseen:
   kohdalla oleva symboli, jotta sen koko kuvausta voidaan tarkastella
   selaustilassa.
 
-Huom: Windows 10:ssä on mahdollista käyttää myös sisäänrakennettua
-emojipaneelia.
+Huom: Windows 10:ssä ja uudemmissa on mahdollista käyttää myös
+sisäänrakennettua emojipaneelia.
 
+## Muutokset versiossa 15.0 ##
+
+* Edellyttää NVDA 2022.1:tä tai uudempaa.
+* Ei voida käyttää suojatussa tilassa.
 
 ## Muutokset versiossa 14.0 ##
 

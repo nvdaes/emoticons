@@ -1,9 +1,9 @@
 # Các biểu tượng cảm xúc #
+
 * Tác giả: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* NVDA tương thích: 2019.3 trở lên
-* Tải về [phiên bản chính thức][1]
-* Tải về [phiên bản thử nghiệm][2]
+* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
 
 Sử dụng add-on này, văn bản có các kí hiệu biểu tượng cảm xúc sẽ được thay
 thế bằng mô tả gần gũi với con người.
@@ -107,8 +107,13 @@ biểu tượng cảm xúc:
   con trỏ nháy được xác định, để có thể xem phần mô tả đầy đủ trong chế độ
   duyệt.
 
-Lưu ý: trên Windows 10, có thể sử dụng bản nhập biểu tượng cảm xúc dựng sẵn.
+Note: On Windows 10 and higher, it's also possible to use the built-in emoji
+panel.
 
+## Changes for 15.0 ##
+
+* Requires NVDA 2022.1 or later.
+* Cannot be used in secure mode.
 
 ## Các thay đổi cho phiên bản 14.0 ##
 

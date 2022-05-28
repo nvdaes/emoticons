@@ -1,9 +1,9 @@
 # Emoticons #
+
 * Auteurs : Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Compatibilité NVDA: 2019.3 ou ultérieur
-* Télécharger [version stable][1]
-* Télécharger [version de développement][2]
+* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
 
 En utilisant cette extension, la verbalisation du texte contenant les
 caractères de l'émoticône seront remplacés par leur description humaine plus
@@ -116,9 +116,13 @@ dialogue Dictionnaire des émoticônes :
   est positionné , de sorte que toute la description puisse être révisé en
   Mode navigation.
 
-Note : Sous Windows 10, il est également possible d’utiliser le panneau
-emoji intégré.
+Note: On Windows 10 and higher, it's also possible to use the built-in emoji
+panel.
 
+## Changes for 15.0 ##
+
+* Requires NVDA 2022.1 or later.
+* Cannot be used in secure mode.
 
 ## Changements pour la version 14.0 ##
 

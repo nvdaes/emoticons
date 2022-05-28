@@ -1,9 +1,9 @@
 # İfadeler #
+
 * Geliştiriciler: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco
   Javier Estrada Martínez
-* NVDA uyumluluğu: 2019.3 veya üstü
-* [kararlı sürüm][1]ü indir
-* [geliştirme sürümü][2]nü indir
+* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
 
 Bu eklenti, metinlerde bulunan ifadeleri açıklamalarıyla değiştirerek onları
 daha anlaşılabilir kılar.
@@ -111,8 +111,13 @@ düzenleyebilir VEYA YENİkısayol komutları ekleyebilirsiniz.
   atılabilir bir mesaj açar. böylece tüm açıklama tarama kipi modunda gözden
   geçirilebilir.
 
-Not: Windows 10'da yerleşik emoji paneli de kullanılabilir.
+Note: On Windows 10 and higher, it's also possible to use the built-in emoji
+panel.
 
+## Changes for 15.0 ##
+
+* Requires NVDA 2022.1 or later.
+* Cannot be used in secure mode.
 
 ## 14.0 için değişiklikler ##
 

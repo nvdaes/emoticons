@@ -1,9 +1,9 @@
 # Emoticons #
+
 * Авторы: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* NVDA compatibility: 2019.3 or later
-* Загрузить [Стабильную версию][1]
-* Загрузить [Разрабатываемую версию][2]
+* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
 
 С помощью этого дополнения, в проговариваеммом тексте, содержащиеся символы
 эмоций будут заменены на их более подробное описание.
@@ -105,8 +105,13 @@ new key to open Emoticons settings panel or Emoticon Dictionary dialog:
   is positioned, so that the whole description can be reviewed in browse
   mode.
 
-Note: On Windows 10, it's also possible to use the built-in emoji panel.
+Note: On Windows 10 and higher, it's also possible to use the built-in emoji
+panel.
 
+## Changes for 15.0 ##
+
+* Requires NVDA 2022.1 or later.
+* Cannot be used in secure mode.
 
 ## Changes for 14.0 ##
 
