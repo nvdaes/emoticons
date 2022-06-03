@@ -137,7 +137,7 @@ sisäänrakennettua emojipaneelia.
 
 * Lisätty komennot, joilla voidaan näyttää tarkastelukohdistimen tai
   järjestelmäkohdistimen kohdalla oleva symboli. Näiden komentojen
-  syötekomennot on mahdollista määrittää Syötekomennot-valintaikkunan
+  näppäinkomennot on mahdollista määrittää Näppäinkomennot-valintaikkunan
   Tekstin tarkastelu -kategoriasta.
 
 ## Muutokset versiossa 9.0 ##
