@@ -2,8 +2,8 @@
 
 * Autorzy: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
-* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
+* Pobierz [stabilna wersja][1] (kompatybilna z NVDA 2022.1 i nowszymi)
+* Pobierz [wersja rozwojowa][2] (kompatybilna z NVDA 2022.1 i nowszymi)
 
 Przy użyciu tego dodatku, wypowiadany tekst zawierający znaki emotikonów
 zostanie zastąpiony przez bardziej przyjazne opisy.
@@ -22,7 +22,7 @@ czujesz.
 Jeśli nie jesteś pewien znaku dla określonego uśmiechu, ten dodatek pozwala
 oznaczyć i dodać smajliki .
 
-Press NVDA+I, or from menu Tools -> Emoticons > Insert emoticon, to open a dialog with the provided emoticons or emoji.
+Naciśnij NVDA+I lub z menu Narzędzia -> Emotikony > Wstaw emotikon, aby otworzyć okno dialogowe z dostarczonymi emotikonami lub emotikonami.
 
 Ten dialog umożliwia wybór emotikonu i przeglądanie emotikonów, które cię
 interesują:
@@ -37,13 +37,13 @@ interesują:
 Po naciśnięciu "ok", znaczki dla wybranego emotikonu będą skopiowane do
 schowka, już gotowe do wklejenia.
 
-## Insert symbol ##
+## Wstaw symbol ##
 
-This dialog allows you to choose one of the symbols available in the
-Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
-box or the arrow keys to select an item from the symbols list. Then, press
-OK and the selected emoji or symbol will be copied to your clipboard, ready
-for pasting.
+To okno dialogowe umożliwia wybranie jednego z symboli dostępnych w oknie
+dialogowym Wymowa interpunkcji/symbolu NVDA. Za pomocą pola edycji Filtr lub
+strzałek można wybrać element z listy symboli. Następnie naciśnij OK, a
+wybrany emoji lub symbol zostanie skopiowany do schowka, gotowy do
+wklejenia.
 
 ## Słownik Emotikonów ##
 
@@ -95,29 +95,30 @@ skrót służący do wywołania dialogu aktywacji lub słownika emotikonów:
 * NVDA+E: przełącza między odczytywaniem tekstu tak jak został napisany, a
   odczytywaniem tekstu z emotikonami zastąpionymi przez opisy.
 * NVDA+I: wyświetla okno dialogowe wyboru uśmieszku do skopiowania.
-* Not assigned: show a dialog to select an NVDA's symbol you want to copy.
+* Nie przypisano: pokaż okno dialogowe, aby wybrać symbol NVDA, który chcesz
+  skopiować.
 * Nieprzydzielone: Otwiera opis znaku pod kursorem przeglądu jako wiadomość
   HTML, aby było możliwe przeczytanie opisu znaku w trybie przeglądania.
 * Nieprzydzielone: otwiera wiadomość w oknie HTML, aby było możliwe
   przeczytanie opisu znaku w trybie przeglądania.
 
-Note: On Windows 10 and higher, it's also possible to use the built-in emoji
-panel.
+Uwaga: W systemie Windows 10 i nowszych można również korzystać z
+wbudowanego panelu emoji.
 
-## Changes for 15.0 ##
+## Zmiany w wersji 15.0 ##
 
-* Requires NVDA 2022.1 or later.
-* Cannot be used in secure mode.
+* Wymaga NVDA 2022.1 lub nowszego.
+* Nie można używać w trybie bezpiecznym.
 
-## Changes for 14.0 ##
+## Zmiany w wersji 14.0 ##
 
-* Compatible with NVDA 2021.1.
+* Kompatybilny z NVDA 2021.1.
 
-## Changes for 13.0 ##
+## Zmiany w wersji 13.0  ##
 
-* Fixed errors in Insert Emoticon dialog.
-* Added a dialog to insert a symbol available in the Punctuation/symbol
-  pronunciation of NVDA.
+* Naprawiono błędy w oknie dialogowym Wstaw emotikon.
+* Dodano okno dialogowe do wstawiania symbolu dostępnego w wymowie
+  interpunkcyjnej/symbolu NVDA.
 
 ## Zmiany dla wersji 12.0 ##
 
@@ -147,7 +148,7 @@ panel.
 
 ## Zmiany w wersji 8.0 ##
 
-* zgodne z wersjami NVDA 2018.3 lub nowszymi (wymagane).
+* Kompatybilny z NVDA 2018.3 lub nowszym (wymagane).
 
 ## Zmiany w wersji 6.0 ##
 

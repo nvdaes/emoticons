@@ -2,8 +2,8 @@
 
 * Авторы: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
-* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
+* Скачать [стабильную версию][1] (совместим с NVDA 2022.1 и выше)
+* Скачать [версия в разработке][2] (совместим с NVDA 2022.1 и выше)
 
 С помощью этого дополнения, в проговариваеммом тексте, содержащиеся символы
 эмоций будут заменены на их более подробное описание.
@@ -22,7 +22,7 @@
 Когда вы не уверены в знаке для конкретного смайлика, это дополнение
 позволит выбрать и вставить его в текст, например, в чате.
 
-Press NVDA+I, or from menu Tools -> Emoticons > Insert emoticon, to open a dialog with the provided emoticons or emoji.
+Нажмите NVDA+I, или из меню Сервис -> Управление смайликами -> Вставить смайлик, чтобы открыть диалог с предоставленными смайликами или эмодзи.
 
 Этот диалог позволяет выбрать смайлик и отобразить смайлики, которые Вас
 интересуют:
@@ -37,17 +37,17 @@ Press NVDA+I, or from menu Tools -> Emoticons > Insert emoticon, to open a dialo
   символ.
 
 Когда Вы нажмёте ОК, символы выбранного смайлика будут скопированы в буфер
-обмена, готовые к вставке.
+обмена и готовы к вставке.
 
-## Insert symbol ##
+## Вставить символ ##
 
-This dialog allows you to choose one of the symbols available in the
-Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
-box or the arrow keys to select an item from the symbols list. Then, press
-OK and the selected emoji or symbol will be copied to your clipboard, ready
-for pasting.
+Этот диалог позволяет вам выбрать один из символов, доступных в диалоговом
+окне пунктуации/произношения символов NVDA. Вы можете использовать поле
+редактирования Фильтр или клавиши со стрелками, чтобы выбрать элемент из
+списка символов. Затем нажмите OK, и выбранный смайлик или символ будет
+скопирован в буфер обмена и готов к вставке.
 
-## Emoticons dictionary ##
+## Словарь смайликов ##
 
 Дополнение Emoticons позволяет иметь разные речевые словари, используя
 профили конфигурации.
@@ -60,34 +60,34 @@ From NVDA MENU, Preferences -> Speech dictionaries -> Emoticons dictionary, you 
 При сохранении ваших настроек, новые параметры чтения смайликов будут
 применены только к редактируемому в данный момент профилю.
 
-For example, you may wish that NVDA spoken custom emoticons only in XxChat
-program, but not in other chat programs: you can do this by creating a
-profile for the XxChat application and assign to it a speech dictionary from
-Speech dictionaries menu, Emoticons dictionary option. See below for
-Emoticons settings in relation to the configuration profiles.
+Например, вы можете захотеть, чтобы пользовательские смайлики NVDA
+произносились только в программе XxChat, но не в других программах чата: вы
+можете сделать это, создав профиль для приложения XxChat и назначив ему
+речевой словарь из меню Словари речи, опция Словарь смайликов . См. ниже
+настройки смайликов в отношении профилей конфигурации.
 
 Вы также можете экспортировать каждый пользовательский речевой словарь,
 нажимая кнопку "Сохранить и экспортировать словарь": в этом случае ваши
 речевые словари будут сохранены в папке конфигурации пользователя, в
 подпапку speechDicts/emoticons.
 
-The exact name and location of the dictionary file will be based on the
-editing configuration profile, which will be shown in the title of the
-Emoticons dictionary dialog.
+Точное имя и местоположение файла словаря будет зависеть от профиля
+конфигурации редактирования, который будет показан в заголовке диалогового
+окна словаря смайликов.
 
-## Emoticons settings ##
+## Настройки смайликов ##
 
 From menu Preferences -> Settings -> Emoticons opens a panel to configure the activation of your speech-dictionaries for each profile.
 
-In Emoticons settings panel you can choose whether or not speech-dictionary should automatically activate when  NVDA switches to the   profile you are currently editing. By default it is disabled in normal configuration of NVDA and in all your new profiles.
+В панели настроек смайликов вы можете выбрать, должен ли речевой словарь автоматически активироваться, когда NVDA переключается на профиль, который вы сейчас редактируете. По умолчанию он отключен в обычной конфигурации NVDA и во всех ваших новых профилях.
 
-Moreover, it's possible to determine if the add-on emojis should be
-spoken. This could be useful to preserve symbols speaking if emojis are
-included in NVDA's configuration.
+Кроме того, можно определить, следует ли произносить смайлики
+дополнения. Это может быть полезно для сохранения речи символов, если эмодзи
+включены в конфигурацию NVDA.
 
-If you may wish to keep clean your configuration folders, in this dialog it
-is also possible to choose if dictionaries not used (associated with non
-existing profiles) will be removed from the add-on when it is unloaded.
+Если вы хотите, чтобы папки конфигурации оставались чистыми, это диалоговое
+окно также позволяет вам выбрать, будут ли неиспользуемые словари (связанные
+с несуществующими профилями) удаляться из дополнения при его выгрузке.
 
 ## Комбинации клавиш: ##
 
@@ -97,113 +97,117 @@ new key to open Emoticons settings panel or Emoticon Dictionary dialog:
 * NVDA+E: проговаривание смайликов вкл/выкл, переключает между проговаривать
   текст, как написано, или с заменённым дружественным описанием смайликов.
 * NVDA+I: показать диалог выбора смайлика, который вы хотите скопировать.
-* Not assigned: show a dialog to select an NVDA's symbol you want to copy.
-* Not assigned: open a browseable message showing the symbol where the
-  review cursor is positioned, so that the whole description can be reviewed
-  in browse mode.
-* Not assigned: open a browseable message showing the symbol where the caret
-  is positioned, so that the whole description can be reviewed in browse
-  mode.
+* Не назначено: показать диалоговое окно для выбора символа NVDA, который вы
+  хотите скопировать.
+* Не назначено: открыть доступное для просмотра сообщение, показывающее
+  символ, в котором находится курсор просмотра, чтобы можно было просмотреть
+  все описание в режиме просмотра.
+* Не назначено: открыть доступное для просмотра сообщение, показывающее
+  символ, на котором расположен курсор, чтобы можно было просмотреть все
+  описание в режиме просмотра.
 
-Note: On Windows 10 and higher, it's also possible to use the built-in emoji
-panel.
+Примечание. В Windows 10 и более поздних версиях также можно использовать
+встроенную панель эмодзи.
 
-## Changes for 15.0 ##
+## Изменения в версии 15.0 ##
 
-* Requires NVDA 2022.1 or later.
-* Cannot be used in secure mode.
+* Требуется NVDA 2022.1 или новее.
+* Невозможно использовать в безопасном режиме.
 
-## Changes for 14.0 ##
+## Изменения в версии 14.0 ##
 
-* Compatible with NVDA 2021.1.
+* Совместимость с NVDA 2021.1.
 
-## Changes for 13.0 ##
+## Изменения в версии 13.0 ##
 
-* Fixed errors in Insert Emoticon dialog.
-* Added a dialog to insert a symbol available in the Punctuation/symbol
-  pronunciation of NVDA.
+* Исправлены ошибки в диалоговом окне Вставить смайлик.
+* Добавлен диалог для вставки символа, доступного в произношении
+  пунктуации/символа NVDA.
 
-## Changes for 12.0 ##
+## Изменения в версии 12.0 ##
 
-* Requires NVDA 2019.3 or later.
+* Требуется NVDA 2019.3 или более поздней версии.
 
-## Changes for 11.0 ##
+## Изменения в версии 11.0 ##
 
-* When the add-on is updated, dictionaries saved in the previous version of
-  the add-on will be automatically copied to the new version, unless you
-  prefer to import dictionaries saved in the main dictionaries folder of
-  NVDA.
-* When showing the symbol where the caret or the review cursor are
-  positioned, the words Character and Replacement are used to distinguish
-  between the symbol itself and its description in browse mode, useful for
-  speech users.
+* При обновлении дополнения словари, сохраненные в предыдущей версии
+  дополнения, будут автоматически скопированы в новую версию, если только вы
+  не предпочитаете импортировать словари, сохраненные в основной папке
+  словарей NVDA.
+* При отображении символа, на котором расположен курсор или курсор
+  просмотра, слова Символ и Замена используются для различения самого
+  символа и его описания в режиме просмотра, что полезно для пользователей
+  речи.
 
-## Changes for 10.0 ##
+## Изменения в версии 10.0 ##
 
-* Added commands to show the symbol where the review cursor or caret are
-  positioned. Gestures for these commands can be assigned from the Input
-  gestures dialog, Text review category.
+* Добавлены команды для отображения символа, в котором находится курсор
+  обзора или курсор. Жесты для этих команд можно назначить из диалога Жесты
+  ввода, категория Просмотр текста.
 
-## Changes for 9.0 ##
+## Изменения в версии 9.0 ##
 
-* Added the possibility of choosing if add-on emojis should be spoken.
-* Used appropiate encoding for dictionary names, fixing errors when they
-  contain certain characters.
-* The translated summary of the add-on is properly used for the title
-  presented in add-on help, accessible from the add-on manager.
-* Added a note mentioning the emoji panel available on Windows 10.
+* Добавлена возможность выбирать, следует ли произносить смайлики
+  дополнения.
+* Использована соответствующая кодировка для имен словарей, исправлены
+  ошибки, когда они содержат определенные символы.
+* Переведенное краткое содержание дополнения правильно используется для
+  названия, представленного в справке дополнения, доступной из менеджера
+  дополнения.
+* Добавлено примечание с упоминанием панели эмодзи, доступной в Windows 10.
 
-## Changes for 8.0 ##
+## Изменения в версии 8.0 ##
 
-* Compatible with NVDA 2018.3 or later (required).
+* Совместимость с NVDA 2018.3 или более поздней версии (обязательно).
 
-## Changes for 7.0 ##
+## Изменения в версии 7.0 ##
 
-* The Activation settings dialog has been moved to a panel in NVDA settings,
-  so that the current profile will be shown in the title of the NVDA
-  settings dialog.
-* The Manage Emoticons menu has been removed: now Insert emoticon will be
-  found under the Tools menu, and Customize Emoticons will be shown under
-  Speech dictionaries like Emoticons dictionary.
-* Requires NVDA 2018.2 or later.
-* If needed, you can download the [last version compatible with NVDA
-  2017.3][3].
+* Диалоговое окно настроек активации перенесено на панель настроек NVDA, так
+  что текущий профиль будет отображаться в заголовке диалогового окна
+  настроек NVDA.
+* Меню Управление смайликами было удалено: теперь Вставить смайлик можно
+  найти в меню Сервис, а Настроить смайлики — в разделе Речевые словари,
+  такие как Словарь смайликов.
+* Требуется NVDA 2018.2 или более поздней версии.
+* При необходимости вы можете загрузить [последнюю версию, совместимую с
+  NVDA 2017.3][3].
 
 ## Изменения в версии 6.0 ##
 
 * Добавлена поддержка профилей конфигурации.
-* В NVDA 2017.4 или позднее, параметры конфигурации и пользовательские
-  словари автоматически изменяются в соответствии с выбранными профилями. В
-  2017.3 или ранее, вам нужно применять изменения с помощью перезагрузки
-  плагинов (нажатие control+NVDA+f3).
-* Если вы выберете импортировать настройки при обновлении дополнения,
-  устаревшие файлы (emoticons.ini и emoticons.dic) будут удалены или
-  приспособлены для этой версии.
+* В NVDA 2017.4 или более поздней версии параметры конфигурации и
+  пользовательские словари будут автоматически изменяться в соответствии с
+  выбранными профилями. В версии 2017.3 или более ранней вы можете применить
+  изменения, перезагрузив плагины (нажав control+NVDA+f3).
+* Если вы выберете импорт настроек при обновлении дополнения, устаревшие
+  файлы (emoticons.ini и emoticons.dic) будут удалены или адаптированы к
+  этой версии.
 
 ## Изменения в версии 5.0 ##
 
 * Добавлена поддержка эмодзи.
-* Улучшен диалог Вставка смайлика с помощью поля фильтра и переключателей
-  для выбора отображаемых смайликов.
-* Используется guiHelper для диалогов параметры активации и Вставка
-  смайлика: требуется NVDA 2016.4 или более поздней версии
+* Улучшения для диалогового окна Вставить смайлик с полем фильтра и
+  переключателями для выбора отображаемых смайликов.
+* Используется guiHelper для диалогового окна настроек активации и
+  диалогового окна Вставить смайлик: требуется версия NVDA 2016.4 или выше.
 
 ## Изменения в версии 4.0 ##
 
-* Если открывать диалог Insert smiley, когда активен другой диалог настроек,
-  NVDA покажет соответствующее сообщение об ошибке.
+* Если диалоговое окно вставки смайлика открыто, когда активно другое
+  диалоговое окно настроек, NVDA покажет соответствующее сообщение об
+  ошибке.
 
 
 ## Изменения в версии 3.0 ##
 
-* В диалоге настроек смайликов emoticons теперь возможно указать, что
-  образец будет соответствовать смайлику, если он - только целое слово,
-  согласно речевым словарям NVDA 2014.4.
+* В диалоговом окне Настроить смайлики теперь можно указать, что шаблон
+  должен совпадать, только если он представляет собой целое слово, согласно
+  речевым словарям NVDA 2014.4.
 
 
 ## Изменения в версии 2.0 ##
 
-* Справка дополнения доступна в диспетчере дополнений.
+* Справка по дополнению доступна в Менеджере дополнений.
 
 
 ## Изменения в версии 1.1 ##
