@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 'emoticons' '15.0'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2022-05-16 16:54+0400\n"
-"PO-Revision-Date: 2022-05-16 18:14+0400\n"
+"PO-Revision-Date: 2022-07-22 19:11+0400\n"
 "Last-Translator: Dragan Ratkovich\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -29,7 +29,7 @@ msgstr ""
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
-msgstr "Импортировать настройки Emoticons"
+msgstr "Импорт настроек дополнения Emoticons"
 
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary,
 #. visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
@@ -378,11 +378,11 @@ msgstr "Разочарованное, но облегченное лицо"
 
 #. Translators: (emoji) Face with a look of concern, with a blue forehead and sweat dripping down the cheek.
 msgid "Face With Open Mouth & Cold Sweat"
-msgstr "Лицо с открытым ртом и холодным потом"
+msgstr "Лицо с открытым ртом & холодным потом"
 
 #. Translators: (emoji) Happy face with a single drop of sweat on one side of the face.
 msgid "Smiling Face With Open Mouth & Cold Sweat"
-msgstr "Улыбающееся лицо с открытым ртом и холодным потом"
+msgstr "Улыбающееся лицо с открытым ртом & холодным потом"
 
 #. Translators: (emoji) face with cold sweat.
 msgid "Face with cold sweat"
