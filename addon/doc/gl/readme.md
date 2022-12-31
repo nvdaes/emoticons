@@ -2,8 +2,9 @@
 
 * Autores: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
-* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
+* Descargar [versión estable][1] (compatible con NVDA 2022.1 e posterior)
+* Descargar [versión de desenvolvemento][2] (compatible con NVDA 2022.1 e
+  posterior)
 
 Ó se utilizar este complemento, o texto falado que conteña carácteres de
 emoticón reemprazarase pola súa descripción máis amigable.
@@ -111,13 +112,13 @@ Diccionario de Emoticóns:
   cursor está posicionado, de modo que se poida revisar en modo exploración
   a descrición completa.
 
-Note: On Windows 10 and higher, it's also possible to use the built-in emoji
-panel.
+Nota: En Windows 10 e superior, tamén é posible utilizar o panel de emoji
+integrado.
 
-## Changes for 15.0 ##
+## Cambios para 15.0 ##
 
-* Requires NVDA 2022.1 or later.
-* Cannot be used in secure mode.
+* Require NVDA 2022.1 ou posterior.
+* Non se pode utilizar en modo seguro.
 
 ## Cambios para 14.0 ##
 
