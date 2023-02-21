@@ -68,6 +68,11 @@ These are the key commands available by default, you can edit those or add new k
 
 Note: On Windows 10 and higher, it's also possible to use the built-in emoji panel.
 
+
+## Changes for 16.0 ##
+
+* Compatible with NVDA 2023.1.
+
 ## Changes for 15.0 ##
 
 * Requires NVDA 2022.1 or later.
