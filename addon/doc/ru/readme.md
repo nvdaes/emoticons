@@ -109,6 +109,11 @@ new key to open Emoticons settings panel or Emoticon Dictionary dialog:
 Примечание. В Windows 10 и более поздних версиях также можно использовать
 встроенную панель эмодзи.
 
+
+## Changes for 16.0 ##
+
+* Compatible with NVDA 2023.1.
+
 ## Изменения в версии 15.0 ##
 
 * Требуется NVDA 2022.1 или новее.

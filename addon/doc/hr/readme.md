@@ -106,6 +106,11 @@ za Rječnik emotikona:
 Napomena: Na Windows 10 i novijim verzijama moguće je koristiti i ugrađenu
 ploču emojija.
 
+
+## Promjene u verziji 16.0 ##
+
+* Kompatibilno s NVDA čitačem 2023.1.
+
 ## Promjene u verziji 15.0 ##
 
 * Zahtijeva NVDA 2022.1 ili noviju verziju.
