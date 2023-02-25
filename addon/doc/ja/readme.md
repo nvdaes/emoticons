@@ -71,6 +71,11 @@ Emoticons設定パネルにて、NVDAが現在編集しているプロファイ�
 
 備考: Windows 10以降では、搭載の絵文字パネルを使用することも可能です。
 
+
+## Changes for 16.0 ##
+
+* Compatible with NVDA 2023.1.
+
 ## 15.0の変更点 ##
 
 * NVDA 2022.1以降が必要。

@@ -113,6 +113,11 @@ oder den Emoticon-Wörterbuch-Dialog zu öffnen:
 Hinweis: Unter Windows 10 und Windows 11 ist es auch möglich, das
 integrierte Emoji-Panel zu verwenden.
 
+
+## Changes for 16.0 ##
+
+* Compatible with NVDA 2023.1.
+
 ## Änderungen in 15.0 ##
 
 * Benötigt NVDA 2022.1 oder neuer.

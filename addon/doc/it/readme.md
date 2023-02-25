@@ -115,6 +115,11 @@ Dizionario Emoticons:
 Nota: dalla versione di Windows 10 è possibile utilizzare la finestra emoji
 nativa.
 
+
+## Changes for 16.0 ##
+
+* Compatible with NVDA 2023.1.
+
 ## Novità nella versione 15.0 ##
 
 * Richiede NVDA 2022.1 o versioni successive.

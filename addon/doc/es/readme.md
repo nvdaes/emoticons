@@ -114,6 +114,11 @@ Diccionario de Emoticonos:
 Nota: en Windows 10 y posterior, también es posible usar el panel de emojis
 incorporado.
 
+
+## Cambios para 16.0 ##
+
+* Compatible con NVDA 2023.1.
+
 ## Cambios para 15.0 ##
 
 * Se requiere NVDA 2022.1 o posterior.
