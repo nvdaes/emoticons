@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-# Copyright (C) 2013-2022 Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez
+# Copyright (C) 2013-2023 Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez
 # Released under GPL 2
 
 import os
@@ -605,6 +605,21 @@ class InsertSymbolDialog(SpeechSymbolsDialog):
 		# Translators: The label for a column in symbols list used to identify a replacement.
 		self.symbolsList.InsertColumn(1, translate("Replacement"))
 
+		bHelper = guiHelper.ButtonHelper(orientation=wx.HORIZONTAL)
+		bHelper.addButton(
+			parent=self,
+			# Translators: The label for a button in the Insert symbol dialog.
+			label=_("&Add")
+		).Bind(wx.EVT_BUTTON, self.onCopyClick)
+
+		# Translators: The label of a text field to copy symbols in the Insert Symbol dialog.
+		symbolsToCopyText = _("Symbols to &copy:")
+		self.symbolsToCopyEdit = sHelper.addLabeledControl(
+			labelText=symbolsToCopyText,
+			wxCtrlClass=wx.TextCtrl,
+			size=(self.scaleSize(310), -1),
+		)
+
 		self.filterEdit.Bind(wx.EVT_TEXT, self.onFilterEditTextChange)
 		self.filter()
 
@@ -614,15 +629,26 @@ class InsertSymbolDialog(SpeechSymbolsDialog):
 		except Exception:
 			pass
 
-	def postInit(self):
-		self.filterEdit.SetFocus()
-
-	def onOk(self, evt):
+	def onCopyClick(self, evt):
 		index = self.symbolsList.GetFirstSelected()
 		symbol = None
 		if index >= 0:
 			symbol = self.filteredSymbols[index]
-		if symbol is not None and api.copyToClip(symbol.identifier):
+			self.symbolsToCopyEdit.SetValue(f"{self.symbolsToCopyEdit.GetValue()}{symbol.identifier}")
+			speech.speakTypedCharacters(symbol.identifier)
+
+	def postInit(self):
+		self.filterEdit.SetFocus()
+
+	def onOk(self, evt):
+		if self.symbolsToCopyEdit.GetValue() == "":
+			index = self.symbolsList.GetFirstSelected()
+			symbol = None
+			if index >= 0:
+				symbol = self.filteredSymbols[index].identifier
+		else:
+			symbol = self.symbolsToCopyEdit.GetValue()
+		if symbol is not None and api.copyToClip(symbol):
 			# Translators: This is the message when symbol has been copied to the clipboard.
 			core.callLater(100, ui.message, _("Symbol copied to clipboard, ready for you to paste."))
 		else:
