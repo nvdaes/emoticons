@@ -28,7 +28,11 @@ When you press OK, the characters for the chosen emoticon will be copied to your
 
 ## Insert symbol ##
 
-This dialog allows you to choose one of the symbols available in the Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit box or the arrow keys to select an item from the symbols list. Then, press OK and the selected emoji or symbol will be copied to your clipboard, ready for pasting.
+This dialog allows you to choose one of the symbols available in the Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit box or the arrow keys to select an item from the symbols list.
+
+If you want to copy various symbols, use the Add button to append them to the Symbols to copy edit box.
+
+Then, press OK and the selected emoji or symbol, or the symbols contained in the mentioned edit box, will be copied to your clipboard, ready for pasting.
 
 ## Emoticons dictionary ##
 
