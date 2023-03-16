@@ -30,7 +30,7 @@ When you press OK, the characters for the chosen emoticon will be copied to your
 
 This dialog allows you to choose one of the symbols available in the Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit box or the arrow keys to select an item from the symbols list. Then, press OK and the selected emoji or symbol will be copied to your clipboard, ready for pasting.
 
-## ## Associate gestures to symbols ###
+## Associate gestures to symbols ##
 
 From NVDA's menu, Preferences submenu, Input gestures dialog, category Insert symbols, you can configure NVDA to type symbols through associated gestures.
 
