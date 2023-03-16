@@ -3,11 +3,10 @@
 # Released under GPL 2
 
 import globalPluginHandler
-import api
 import characterProcessing
-import copy
 import speech
-import ui
+import copy
+import brailleInput
 
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
@@ -38,12 +37,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	@classmethod
 	def _symbolScript(cls, symbol):
-		if api.copyToClip(symbol.identifier):
-			# Translators: This is the message when smiley has been copied to the clipboard.
-			ui.message(_("Smiley copied to clipboard, ready for you to paste."))
-		else:
-			# Translators: Message when the emoticon couldn't be copied.
-			ui.message(_("Cannot copy smiley."))
+		brailleInput.handler.sendChars(symbol.identifier)
 
 	@classmethod
 	def addScriptForSymbol(cls, symbol):
