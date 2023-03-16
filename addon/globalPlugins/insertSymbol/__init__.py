@@ -38,6 +38,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@classmethod
 	def _symbolScript(cls, symbol):
 		brailleInput.handler.sendChars(symbol.identifier)
+		speech.speakTypedCharacters(symbol.identifier)
 
 	@classmethod
 	def addScriptForSymbol(cls, symbol):
