@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-# Copyright (C) 2021 Noelia Ruiz Martínez
+# Copyright (C) 2021-2023 Noelia Ruiz Martínez
 # Released under GPL 2
 
 import globalPluginHandler
