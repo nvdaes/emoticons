@@ -634,7 +634,8 @@ class InsertSymbolDialog(SpeechSymbolsDialog):
 		symbol = None
 		if index >= 0:
 			symbol = self.filteredSymbols[index]
-		self.symbolsToCopyEdit.SetValue(f"{self.symbolsToCopyEdit.GetValue()}{symbol.identifier}")
+			self.symbolsToCopyEdit.SetValue(f"{self.symbolsToCopyEdit.GetValue()}{symbol.identifier}")
+			speech.speakTypedCharacters(symbol.identifier)
 
 	def postInit(self):
 		self.filterEdit.SetFocus()
