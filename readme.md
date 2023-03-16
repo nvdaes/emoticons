@@ -31,6 +31,12 @@ When you press OK, the characters for the chosen emoticon will be copied to your
 
 This dialog allows you to choose one of the symbols available in the Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit box or the arrow keys to select an item from the symbols list. Then, press OK and the selected emoji or symbol will be copied to your clipboard, ready for pasting.
 
+## ## Associate gestures to symbols ###
+
+From NVDA's menu, Preferences submenu, Input gestures dialog, category Insert symbols, you can configure NVDA to type symbols through associated gestures.
+
+You can use the Edit field edit box to reduce the number of symbols presented, so that this category can be expanded faster.
+
 ## Emoticons dictionary ##
 
 Emoticons add-on allows to have differents speech-dictionaries using configuration profiles.
@@ -69,6 +75,9 @@ These are the key commands available by default, you can edit those or add new k
 
 Note: On Windows 10, it's also possible to use the built-in emoji panel.
 
+## Changes ##
+
+* Added ability to associate gestures to type symbols.
 
 ## Changes for 14.0 ##
 
