@@ -81,6 +81,7 @@ Note: On Windows 10 and higher, it's also possible to use the built-in emoji pan
 ## Changes ##
 
 * Added ability to associate gestures to type symbols.
+* Added ability to copy various symbols at the same time.
 
 ## Changes for 16.0 ##
 
