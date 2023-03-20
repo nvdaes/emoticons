@@ -28,7 +28,17 @@ When you press OK, the characters for the chosen emoticon will be copied to your
 
 ## Insert symbol ##
 
-This dialog allows you to choose one of the symbols available in the Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit box or the arrow keys to select an item from the symbols list. Then, press OK and the selected emoji or symbol will be copied to your clipboard, ready for pasting.
+This dialog allows you to choose one of the symbols available in the Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit box or the arrow keys to select an item from the symbols list.
+
+If you want to copy various symbols, use the Add button to append them to the Symbols to copy edit box.
+
+Then, press OK and the selected emoji or symbol, or the symbols contained in the mentioned edit box, will be copied to your clipboard, ready for pasting.
+
+## Associate gestures to symbols ##
+
+From NVDA's menu, Preferences submenu, Input gestures dialog, category Insert symbols, you can configure NVDA to type symbols through associated gestures.
+
+You can use the Edit field edit box to reduce the number of symbols presented, so that this category can be expanded faster.
 
 ## Emoticons dictionary ##
 
@@ -68,6 +78,10 @@ These are the key commands available by default, you can edit those or add new k
 
 Note: On Windows 10 and higher, it's also possible to use the built-in emoji panel.
 
+## Changes ##
+
+* Added ability to associate gestures to type symbols.
+* Added ability to copy various symbols at the same time.
 
 ## Changes for 16.0 ##
 
