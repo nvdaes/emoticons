@@ -3,6 +3,7 @@
 * Autores: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Descargar [versión estable][1] (compatible desde NVDA 2022.1 en adelante)
+* Descargar [versión beta][4] (compatible con NVDA 2022.1 y posterior)
 * Descargar [versión de desarrollo][2] (compatible desde NVDA 2022.1 en
   adelante)
 
@@ -237,3 +238,5 @@ incorporado.
 [2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
 
 [3]: https://addons.nvda-project.org/files/get.php?file=emo-o
+
+[4]: https://addons.nvda-project.org/files/get.php?file=emoticons-beta

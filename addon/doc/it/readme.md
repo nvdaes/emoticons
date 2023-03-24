@@ -3,6 +3,7 @@
 * Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Scarica la  [versione stabile][1] (compatibile con NVDA 2022.1).
+* Download [beta version][4] (compatible with NVDA 2022.1 and beyond)
 * Scarica la [versione in sviluppo][2] compatibile con NVDA 2022.1.
 
 Utilizzando questo componente aggiuntivo, la lettura dei caratteri che
@@ -239,3 +240,5 @@ nativa.
 [2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
 
 [3]: https://addons.nvda-project.org/files/get.php?file=emo-o
+
+[4]: https://addons.nvda-project.org/files/get.php?file=emoticons-beta

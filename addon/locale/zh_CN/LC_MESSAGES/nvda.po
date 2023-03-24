@@ -29,12 +29,13 @@ msgstr "您似乎拥有此插件的上次保存的配置。您希望导入他们
 msgid "Import Emoticons add-on settings"
 msgstr "导入表情插件设置"
 
-#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
-#. Translators: Label for emojis in the list.
+#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary,
+#. visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 msgid "Emoji"
 msgstr "表情符号"
 
-#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
+#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary,
+#. visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 msgid "Emoticon"
 msgstr "表情"
 
@@ -65,11 +66,6 @@ msgstr "&表情字典..."
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
 msgstr "显示一个词典对话框来自定义表情"
-
-#. Translators: Title of a dialog.
-#, python-format
-msgid "Emoticons dictionary (%s)"
-msgstr "表情字典 (%s)"
 
 #. Translators: Message presented in input help mode.
 msgid "Toggles on and off the announcement of emoticons."
@@ -108,7 +104,8 @@ msgstr "显示位于浏览光标所在位置的符号。"
 msgid "No symbol replacement"
 msgstr "没有可替换的符号"
 
-#. Translators: Character and its replacement used from the "Review current Symbol" command. Example: "Character: ? Replacement: question"
+#. Translators: Character and its replacement used from the "Review current Symbol" command.
+#. Example: "Character: ? Replacement: question"
 msgid ""
 "Character: {}\n"
 "Replacement: {}"
@@ -150,7 +147,6 @@ msgstr "标准(&S)"
 msgid "Emoj&is"
 msgstr "表情(&I)"
 
-#. List of emoticons.
 #. Translators: Label for the smileys list.
 msgid "&List of smilies"
 msgstr "表情列表(&L)"
@@ -171,7 +167,7 @@ msgstr "字符"
 msgid "Standard"
 msgstr "标准"
 
-#. Translators: Error message when none emoticon is selected or the list is empty, and title of the error dialog.
+#. Translators: Error message when none emoticon is selected or the list is empty, and title of dialog.
 msgid "There is not any emoticon selected."
 msgstr "没有选择任何表情。"
 
@@ -182,6 +178,11 @@ msgstr "表情已经拷贝到剪贴板，已经为您准备好粘贴。"
 #. Translators: Message when the emoticon couldn't be copied.
 msgid "Cannot copy smiley."
 msgstr "无法复制表情。"
+
+#. Translators: Title for Emoticons dictionary dialog.
+#, python-format
+msgid "Emoticons dictionary (%s)"
+msgstr "表情字典 (%s)"
 
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Rese&t"
@@ -196,6 +197,14 @@ msgstr "保存并输出到词典(&X)"
 #, python-format
 msgid "Insert Symbol (%s)"
 msgstr "插入符号(%s)"
+
+#. Translators: The label for a button in the Insert symbol dialog.
+msgid "&Add"
+msgstr "添加(&A)"
+
+#. Translators: The label of a text field to copy symbols in the Insert Symbol dialog.
+msgid "Symbols to &copy:"
+msgstr ""
 
 #. Translators: This is the message when symbol has been copied to the clipboard.
 msgid "Symbol copied to clipboard, ready for you to paste."
@@ -970,9 +979,6 @@ msgstr "用表情名称朗读表情符号。"
 
 #~ msgid "on"
 #~ msgstr "打开"
-
-#~ msgid "&Add"
-#~ msgstr "添加(&A)"
 
 #~ msgid "&Edit"
 #~ msgstr "编辑(&E)"

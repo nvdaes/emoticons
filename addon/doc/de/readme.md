@@ -3,6 +3,7 @@
 * Autoren: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * [Stabile Version herunterladen][1] (kompatibel mit NVDA 2022.1 und neuer)
+* Download [beta version][4] (compatible with NVDA 2022.1 and beyond)
 * [Entwicklerversion herunterladen][2] (kompatibel mit NVDA 2022.1 und
   neuer)
 
@@ -239,3 +240,5 @@ integrierte Emoji-Panel zu verwenden.
 [2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
 
 [3]: https://addons.nvda-project.org/files/get.php?file=emo-o
+
+[4]: https://addons.nvda-project.org/files/get.php?file=emoticons-beta

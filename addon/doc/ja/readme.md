@@ -3,6 +3,7 @@
 * 作者: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * ダウンロード [安定版][1] (NVDA 2022.1以降に互換)
+* Download [beta version][4] (compatible with NVDA 2022.1 and beyond)
 * ダウンロード [開発版][2] (NVDA 2022.1以降に互換)
 
 このアドオンを使うと、顔文字を含むテキストを読み上げるときに人間がもっと理解しやすい表現に置き換えます。
@@ -168,3 +169,5 @@ Emoticons設定パネルにて、NVDAが現在編集しているプロファイ�
 [2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
 
 [3]: https://addons.nvda-project.org/files/get.php?file=emo-o
+
+[4]: https://addons.nvda-project.org/files/get.php?file=emoticons-beta

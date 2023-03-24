@@ -30,12 +30,13 @@ msgstr ""
 msgid "Import Emoticons add-on settings"
 msgstr "Uvezi podešavanja za ovaj dodatak"
 
-#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
-#. Translators: Label for emojis in the list.
+#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary,
+#. visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 msgid "Emoji"
 msgstr "Emoji"
 
-#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
+#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary,
+#. visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 msgid "Emoticon"
 msgstr "Emotikon"
 
@@ -66,11 +67,6 @@ msgstr "Rečnik &emotikona"
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
 msgstr "Prikazuje dijalog za prilagođavanje emotikona"
-
-#. Translators: Title of a dialog.
-#, python-format
-msgid "Emoticons dictionary (%s)"
-msgstr "Rečnik emotikona (%s)"
 
 #. Translators: Message presented in input help mode.
 msgid "Toggles on and off the announcement of emoticons."
@@ -109,7 +105,8 @@ msgstr "Prikazuje simbol koji se nalazi na poziciji preglednog kursora"
 msgid "No symbol replacement"
 msgstr "Nema zamenskog simbola"
 
-#. Translators: Character and its replacement used from the "Review current Symbol" command. Example: "Character: ? Replacement: question"
+#. Translators: Character and its replacement used from the "Review current Symbol" command.
+#. Example: "Character: ? Replacement: question"
 msgid ""
 "Character: {}\n"
 "Replacement: {}"
@@ -151,7 +148,6 @@ msgstr "S&tandardni"
 msgid "Emoj&is"
 msgstr "&Emoji"
 
-#. List of emoticons.
 #. Translators: Label for the smileys list.
 msgid "&List of smilies"
 msgstr "Lista emotikona"
@@ -172,7 +168,7 @@ msgstr "Znakovi"
 msgid "Standard"
 msgstr "Standardni"
 
-#. Translators: Error message when none emoticon is selected or the list is empty, and title of the error dialog.
+#. Translators: Error message when none emoticon is selected or the list is empty, and title of dialog.
 msgid "There is not any emoticon selected."
 msgstr "Nijedan emotikon nije odabran"
 
@@ -183,6 +179,11 @@ msgstr "Emotikon je kopiran u privremenu memoriju, spreman za nalepljivanje."
 #. Translators: Message when the emoticon couldn't be copied.
 msgid "Cannot copy smiley."
 msgstr "Nije moguće kopirati emotikon."
+
+#. Translators: Title for Emoticons dictionary dialog.
+#, python-format
+msgid "Emoticons dictionary (%s)"
+msgstr "Rečnik emotikona (%s)"
 
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Rese&t"
@@ -197,6 +198,14 @@ msgstr "&Sačuvaj i izvezi rečnik"
 #, python-format
 msgid "Insert Symbol (%s)"
 msgstr "Ubaci simbol (%s)"
+
+#. Translators: The label for a button in the Insert symbol dialog.
+msgid "&Add"
+msgstr ""
+
+#. Translators: The label of a text field to copy symbols in the Insert Symbol dialog.
+msgid "Symbols to &copy:"
+msgstr ""
 
 #. Translators: This is the message when symbol has been copied to the clipboard.
 msgid "Symbol copied to clipboard, ready for you to paste."

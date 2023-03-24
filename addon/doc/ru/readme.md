@@ -3,6 +3,7 @@
 * Авторы: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Скачать [стабильную версию][1] (совместим с NVDA 2022.1 и выше)
+* Download [beta version][4] (compatible with NVDA 2022.1 and beyond)
 * Скачать [версия в разработке][2] (совместим с NVDA 2022.1 и выше)
 
 С помощью этого дополнения, в проговариваеммом тексте, содержащиеся символы
@@ -231,3 +232,5 @@ new key to open Emoticons settings panel or Emoticon Dictionary dialog:
 [2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
 
 [3]: https://addons.nvda-project.org/files/get.php?file=emo-o
+
+[4]: https://addons.nvda-project.org/files/get.php?file=emoticons-beta

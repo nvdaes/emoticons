@@ -3,6 +3,7 @@
 * Autorzy: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Pobierz [stabilna wersja][1] (kompatybilna z NVDA 2022.1 i nowszymi)
+* Download [beta version][4] (compatible with NVDA 2022.1 and beyond)
 * Pobierz [wersja rozwojowa][2] (kompatybilna z NVDA 2022.1 i nowszymi)
 
 Przy użyciu tego dodatku, wypowiadany tekst zawierający znaki emotikonów
@@ -220,3 +221,5 @@ wbudowanego panelu emoji.
 [2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
 
 [3]: https://addons.nvda-project.org/files/get.php?file=emo-o
+
+[4]: https://addons.nvda-project.org/files/get.php?file=emoticons-beta

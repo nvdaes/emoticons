@@ -29,12 +29,13 @@ msgstr ""
 msgid "Import Emoticons add-on settings"
 msgstr "Nạp các thiết lập của add-on các biểu tượng cảm xúc"
 
-#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
-#. Translators: Label for emojis in the list.
+#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary,
+#. visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 msgid "Emoji"
 msgstr "Biểu tượng cảm xúc Emoji"
 
-#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
+#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary,
+#. visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 msgid "Emoticon"
 msgstr "Biểu tượng cảm xúc"
 
@@ -65,11 +66,6 @@ msgstr "&Từ điển biểu tượng cảm xúc..."
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
 msgstr "Hiển thị hộp thoại từ điển để tùy chỉnh biểu tượng cảm xúc"
-
-#. Translators: Title of a dialog.
-#, python-format
-msgid "Emoticons dictionary (%s)"
-msgstr "Từ điển biểu tượng cảm xúc (%s)"
 
 #. Translators: Message presented in input help mode.
 msgid "Toggles on and off the announcement of emoticons."
@@ -108,7 +104,8 @@ msgstr "Chỉ ra vị trí kí hiệu mà con trỏ duyệt đã xác định."
 msgid "No symbol replacement"
 msgstr "Không có kí hiệu thay thế"
 
-#. Translators: Character and its replacement used from the "Review current Symbol" command. Example: "Character: ? Replacement: question"
+#. Translators: Character and its replacement used from the "Review current Symbol" command.
+#. Example: "Character: ? Replacement: question"
 msgid ""
 "Character: {}\n"
 "Replacement: {}"
@@ -150,7 +147,6 @@ msgstr "Tiêu &Chuẩn"
 msgid "Emoj&is"
 msgstr "Các biểu tượng cảm xúc Emoj&i"
 
-#. List of emoticons.
 #. Translators: Label for the smileys list.
 msgid "&List of smilies"
 msgstr "Danh &Sách các biểu tượng cảm xúc"
@@ -171,7 +167,7 @@ msgstr "Các ký tự"
 msgid "Standard"
 msgstr "Tiêu chuẩn"
 
-#. Translators: Error message when none emoticon is selected or the list is empty, and title of the error dialog.
+#. Translators: Error message when none emoticon is selected or the list is empty, and title of dialog.
 msgid "There is not any emoticon selected."
 msgstr "Không có biểu tượng cảm xúc nào được chọn."
 
@@ -182,6 +178,11 @@ msgstr "Đã chép biểu tượng cảm xúc vào bộ nhớ tạm, sẵn sàng
 #. Translators: Message when the emoticon couldn't be copied.
 msgid "Cannot copy smiley."
 msgstr "Không thể chép biểu tượng cảm xúc."
+
+#. Translators: Title for Emoticons dictionary dialog.
+#, python-format
+msgid "Emoticons dictionary (%s)"
+msgstr "Từ điển biểu tượng cảm xúc (%s)"
 
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Rese&t"
@@ -196,6 +197,14 @@ msgstr "Lưu và &xuất từ điển"
 #, python-format
 msgid "Insert Symbol (%s)"
 msgstr "Chèn kí hiệu (%s)"
+
+#. Translators: The label for a button in the Insert symbol dialog.
+msgid "&Add"
+msgstr ""
+
+#. Translators: The label of a text field to copy symbols in the Insert Symbol dialog.
+msgid "Symbols to &copy:"
+msgstr ""
 
 #. Translators: This is the message when symbol has been copied to the clipboard.
 msgid "Symbol copied to clipboard, ready for you to paste."

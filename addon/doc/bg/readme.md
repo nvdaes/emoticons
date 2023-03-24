@@ -4,6 +4,7 @@
   Estrada Martínez
 * Изтегляне на [стабилна версия][1] (съвместима с NVDA 2022.1 и по-нови
   версии)
+* Изтегляне на [бета версия ][4] (съвместима с NVDA 2022.1 и по-нови версии)
 * Изтегляне на [тестова версия][2] (съвместима с NVDA 2022.1 и по-нови
   версии)
 
@@ -238,3 +239,5 @@ speechDicts/emoticons.
 [2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
 
 [3]: https://addons.nvda-project.org/files/get.php?file=emo-o
+
+[4]: https://addons.nvda-project.org/files/get.php?file=emoticons-beta
