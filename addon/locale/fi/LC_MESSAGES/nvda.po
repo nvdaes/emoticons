@@ -30,12 +30,13 @@ msgstr ""
 msgid "Import Emoticons add-on settings"
 msgstr "Tuo Hymiöt-lisäosan asetukset"
 
-#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
-#. Translators: Label for emojis in the list.
+#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary,
+#. visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 msgid "Emoji"
 msgstr "Emoji"
 
-#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary, visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
+#. Translators: A prefix to each emoticon name, added to the temporary speech dictionary,
+#. visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
 msgid "Emoticon"
 msgstr "Hymiö"
 
@@ -66,11 +67,6 @@ msgstr "&Hymiöt..."
 #. Translators: the tooltip text for a menu item.
 msgid "Shows a dictionary dialog to customize emoticons"
 msgstr "Näyttää sanastovalintaikkunan hymiöiden mukauttamiseksi."
-
-#. Translators: Title of a dialog.
-#, python-format
-msgid "Emoticons dictionary (%s)"
-msgstr "Hymiösanasto (%s)"
 
 #. Translators: Message presented in input help mode.
 msgid "Toggles on and off the announcement of emoticons."
@@ -109,7 +105,8 @@ msgstr "Näyttää tarkastelukohdistimen kohdalla olevan symbolin."
 msgid "No symbol replacement"
 msgstr "Ei symbolin korvaavaa tekstiä"
 
-#. Translators: Character and its replacement used from the "Review current Symbol" command. Example: "Character: ? Replacement: question"
+#. Translators: Character and its replacement used from the "Review current Symbol" command.
+#. Example: "Character: ? Replacement: question"
 msgid ""
 "Character: {}\n"
 "Replacement: {}"
@@ -151,7 +148,6 @@ msgstr "Tavall&iset"
 msgid "Emoj&is"
 msgstr "&Emojit"
 
-#. List of emoticons.
 #. Translators: Label for the smileys list.
 msgid "&List of smilies"
 msgstr "&Hymiöluettelo"
@@ -172,7 +168,7 @@ msgstr "Merkit"
 msgid "Standard"
 msgstr "Tavallinen"
 
-#. Translators: Error message when none emoticon is selected or the list is empty, and title of the error dialog.
+#. Translators: Error message when none emoticon is selected or the list is empty, and title of dialog.
 msgid "There is not any emoticon selected."
 msgstr "Hymiötä ei ole valittu."
 
@@ -183,6 +179,11 @@ msgstr "Hymiö kopioitu leikepöydälle."
 #. Translators: Message when the emoticon couldn't be copied.
 msgid "Cannot copy smiley."
 msgstr "Hymiötä' ei voi kopioida."
+
+#. Translators: Title for Emoticons dictionary dialog.
+#, python-format
+msgid "Emoticons dictionary (%s)"
+msgstr "Hymiösanasto (%s)"
 
 #. Translators: The label for a button in the Emoticons dictionary dialog.
 msgid "Rese&t"
@@ -197,6 +198,14 @@ msgstr "Tallenna ja v&ie sanasto"
 #, python-format
 msgid "Insert Symbol (%s)"
 msgstr "Lisää symboli (%s)"
+
+#. Translators: The label for a button in the Insert symbol dialog.
+msgid "&Add"
+msgstr ""
+
+#. Translators: The label of a text field to copy symbols in the Insert Symbol dialog.
+msgid "Symbols to &copy:"
+msgstr ""
 
 #. Translators: This is the message when symbol has been copied to the clipboard.
 msgid "Symbol copied to clipboard, ready for you to paste."

@@ -3,6 +3,7 @@
 * Tekijät: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Lataa [vakaa versio][1] (yhteensopiva NVDA 2022.1:n ja uudempien kanssa)
+* Lataa [beetaversio][4] (yhteensopiva NVDA 2022.1:n ja uudempien kanssa)
 * Lataa [kehitysversio][2] (yhteensopiva NVDA 2022.1:n ja uudempien kanssa)
 
 Puhutussa tekstissä olevat hymiömerkit korvataan tätä lisäosaa käytettäessä
@@ -223,3 +224,5 @@ sisäänrakennettua emojipaneelia.
 [2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
 
 [3]: https://addons.nvda-project.org/files/get.php?file=emo-o
+
+[4]: https://addons.nvda-project.org/files/get.php?file=emoticons-beta

@@ -24,8 +24,8 @@ msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them, removing deprecated files?"
 msgstr ""
-"Похоже, у вас сохранены предыдущие настройки для этого дополнения. Вы "
-"хотите импортировать их, удалив устаревшие файлы?"
+"Похоже, у вас сохранены предыдущие настройки для этого дополнения. Вы хотите "
+"импортировать их, удалив устаревшие файлы?"
 
 #. Translators: the title of a message box dialog.
 msgid "Import Emoticons add-on settings"
@@ -84,14 +84,12 @@ msgstr "Смайлики включены."
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a smiley you want to paste."
 msgstr ""
-"Показывает диалоговое окно для выбора смайлика, который вы хотите "
-"вставить."
+"Показывает диалоговое окно для выбора смайлика, который вы хотите вставить."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows a dialog to select a symbol you want to paste."
 msgstr ""
-"Показывает диалоговое окно для выбора символа, который вы хотите "
-"вставить."
+"Показывает диалоговое окно для выбора символа, который вы хотите вставить."
 
 #. Translators: Message presented in input help mode.
 msgid "Shows the Emoticons dictionary dialog."
@@ -203,6 +201,14 @@ msgstr "Сохранить и &экспортировать словарь"
 #, python-format
 msgid "Insert Symbol (%s)"
 msgstr "Вставить символ (%s)"
+
+#. Translators: The label for a button in the Insert symbol dialog.
+msgid "&Add"
+msgstr ""
+
+#. Translators: The label of a text field to copy symbols in the Insert Symbol dialog.
+msgid "Symbols to &copy:"
+msgstr ""
 
 #. Translators: This is the message when symbol has been copied to the clipboard.
 msgid "Symbol copied to clipboard, ready for you to paste."
@@ -927,5 +933,4 @@ msgid ""
 "Enables the announcement of emoticon names instead of the character "
 "Representation."
 msgstr ""
-"Включает объявление имен смайликов вместо представления символов "
-"смайликов."
+"Включает объявление имен смайликов вместо представления символов смайликов."
