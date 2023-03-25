@@ -2,7 +2,7 @@
 
 * Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez
 * Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
-* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
+* Download [beta version][2] (compatible with NVDA 2022.1 and beyond)
 
 Using this add-on, spoken text containing emoticon characters will be replaced by its more human friendly description.
 
@@ -78,7 +78,7 @@ These are the key commands available by default, you can edit those or add new k
 
 Note: On Windows 10 and higher, it's also possible to use the built-in emoji panel.
 
-## Changes ##
+## Changes for 17.0 ##
 
 * Added ability to associate gestures to type symbols.
 * Added ability to copy various symbols at the same time.
@@ -168,8 +168,8 @@ Note: On Windows 10 and higher, it's also possible to use the built-in emoji pan
 
 * Initial version.
 
-[1]: http://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=emoticons
 
-[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emoticons-beta
 
 [3]: http://addons.nvda-project.org/files/get.php?file=emo-o
