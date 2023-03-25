@@ -78,7 +78,7 @@ These are the key commands available by default, you can edit those or add new k
 
 Note: On Windows 10 and higher, it's also possible to use the built-in emoji panel.
 
-## Changes ##
+## Changes for 17.0 ##
 
 * Added ability to associate gestures to type symbols.
 * Added ability to copy various symbols at the same time.
