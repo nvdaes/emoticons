@@ -3,8 +3,7 @@
 * Auteurs : Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
-* Download [beta version][4] (compatible with NVDA 2022.1 and beyond)
-* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
+* Download [beta version][2] (compatible with NVDA 2022.1 and beyond)
 
 En utilisant cette extension, la verbalisation du texte contenant les
 caractères de l'émoticône seront remplacés par leur description humaine plus
@@ -44,12 +43,24 @@ copiés dans le presse-papiers, prêts à être collés.
 
 ## Insérer un symbole ##
 
-Ce dialogue vous permet de choisir l'un des symboles disponibles dans le
-dialogue Prononciation des ponctuations et symboles de NVDA. Vous pouvez
-utiliser la zone d'édition  Filtrer ou les touches fléchées pour
-sélectionner un élément dans la liste des symboles. Ensuite, appuyez sur OK
-et l'emoji ou le symbole sélectionné sera copié dans votre presse-papiers,
-prêt pour être coller.
+This dialog allows you to choose one of the symbols available in the
+Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
+box or the arrow keys to select an item from the symbols list.
+
+If you want to copy various symbols, use the Add button to append them to
+the Symbols to copy edit box.
+
+Then, press OK and the selected emoji or symbol, or the symbols contained in
+the mentioned edit box, will be copied to your clipboard, ready for pasting.
+
+## Associate gestures to symbols ##
+
+From NVDA's menu, Preferences submenu, Input gestures dialog, category
+Insert symbols, you can configure NVDA to type symbols through associated
+gestures.
+
+You can use the Edit field edit box to reduce the number of symbols
+presented, so that this category can be expanded faster.
 
 ## Dictionnaire des émoticônes ##
 
@@ -120,6 +131,10 @@ dialogue Dictionnaire des émoticônes :
 Note: On Windows 10 and higher, it's also possible to use the built-in emoji
 panel.
 
+## Changes for 17.0 ##
+
+* Added ability to associate gestures to type symbols.
+* Added ability to copy various symbols at the same time.
 
 ## Changes for 16.0 ##
 
@@ -196,8 +211,8 @@ panel.
 * Dans NVDA 2017.4 ou version ultérieure, les paramètres de configuration et
   les dictionnaires personnalisés changent automatiquement en fonction des
   profils sélectionnés. Dans la  2017.3 ou précédente, vous pouvez appliquer
-  les modifications en rechargeant les modules complémentaires  (en appuyant
-  sur  contrôle+NVDA+f3).
+  les modifications en rechargeant les extensions (en appuyant sur
+  contrôle+NVDA+f3).
 * Si vous choisissez d'importer les paramètres lors de la mise à jour de
   l'extension, les fichiers obsolètes (emoticons.ini et emoticons.dic)
   seront supprimés ou adaptés à cette version.
@@ -241,10 +256,10 @@ panel.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=emoticons
 
-[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emoticons-beta
 
 [3]: https://addons.nvda-project.org/files/get.php?file=emo-o
 
-[4]: https://addons.nvda-project.org/files/get.php?file=emoticons-beta
+

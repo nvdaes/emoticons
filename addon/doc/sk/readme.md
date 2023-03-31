@@ -3,8 +3,7 @@
 * Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
-* Download [beta version][4] (compatible with NVDA 2022.1 and beyond)
-* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
+* Download [beta version][2] (compatible with NVDA 2022.1 and beyond)
 
 Tento doplnok interpretuje grafické emotikony slovným popisom.
 
@@ -38,9 +37,22 @@ kamkoľvek prilepiť.
 
 This dialog allows you to choose one of the symbols available in the
 Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
-box or the arrow keys to select an item from the symbols list. Then, press
-OK and the selected emoji or symbol will be copied to your clipboard, ready
-for pasting.
+box or the arrow keys to select an item from the symbols list.
+
+If you want to copy various symbols, use the Add button to append them to
+the Symbols to copy edit box.
+
+Then, press OK and the selected emoji or symbol, or the symbols contained in
+the mentioned edit box, will be copied to your clipboard, ready for pasting.
+
+## Associate gestures to symbols ##
+
+From NVDA's menu, Preferences submenu, Input gestures dialog, category
+Insert symbols, you can configure NVDA to type symbols through associated
+gestures.
+
+You can use the Edit field edit box to reduce the number of symbols
+presented, so that this category can be expanded faster.
 
 ## Slovník emotikonov ##
 
@@ -93,6 +105,10 @@ prezeranie textu. Dostupné sú tieto možnosti:
 Note: On Windows 10 and higher, it's also possible to use the built-in emoji
 panel.
 
+## Changes for 17.0 ##
+
+* Added ability to associate gestures to type symbols.
+* Added ability to copy various symbols at the same time.
 
 ## Changes for 16.0 ##
 
@@ -192,10 +208,10 @@ panel.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=emoticons
 
-[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emoticons-beta
 
 [3]: https://addons.nvda-project.org/files/get.php?file=emo-o
 
-[4]: https://addons.nvda-project.org/files/get.php?file=emoticons-beta
+

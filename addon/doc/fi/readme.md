@@ -3,8 +3,7 @@
 * Tekijät: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Lataa [vakaa versio][1] (yhteensopiva NVDA 2022.1:n ja uudempien kanssa)
-* Lataa [beetaversio][4] (yhteensopiva NVDA 2022.1:n ja uudempien kanssa)
-* Lataa [kehitysversio][2] (yhteensopiva NVDA 2022.1:n ja uudempien kanssa)
+* Lataa [beetaversio][2] (yhteensopiva NVDA 2022.1:n ja uudempien kanssa)
 
 Puhutussa tekstissä olevat hymiömerkit korvataan tätä lisäosaa käytettäessä
 niiden ihmisystävällisemmillä kuvauksilla.
@@ -42,8 +41,22 @@ liittää ne haluamaasi paikkaan.
 Tästä valintaikkunasta voit valita jonkin Välimerkkien ja symboleiden
 puhuminen -valintaikkunassa olevista symboleista. Voit käyttää
 Suodata-muokkauskenttää tai nuolinäppäimiä symbolin valitsemiseen
-luettelosta. Paina sitten OK, jonka jälkeen  valittu emoji tai symboli
-kopioidaan leikepöydälle.
+luettelosta.
+
+Jos haluat kopioida eri symboleita, käytä Lisää-painiketta liittääksesi ne
+Kopioitavat symbolit -muokkausruutuun.
+
+Paina sitten OK, jonka jälkeen  valittu emoji tai symboli tai mainitun
+muokkausruudun sisältämät symbolit kopioidaan leikepöydälle, josta voit
+liittää ne haluamaasi paikkaan.
+
+## Liitä näppäinkomennot symboleihin ##
+
+Näppäinkomennot-valintaikkunan Lisää symbolit -kategoriasta voit määrittää
+NVDA:n kirjoittamaan symbolit niihin liitetyillä näppäinkomennoilla.
+
+Voit vähentää näytettävien symboleiden määrää käyttämällä muokkausruutua,
+jotta tätä kategoriaa laajennetaan nopeammin.
 
 ## Hymiösanasto ##
 
@@ -105,6 +118,11 @@ Hymiöt-asetuspaneelin tai hymiösanastovalintaikkunan avaamiseen:
 Huom: Windows 10:ssä ja uudemmissa on mahdollista käyttää myös
 sisäänrakennettua emojipaneelia.
 
+## Muutokset versiossa 17.0 ##
+
+* Lisätty mahdollisuus määrittää näppäinkomennot symboleiden
+  kirjoittamiseksi.
+* Lisätty mahdollisuus eri symboleiden kopioimiseen samalla kertaa.
 
 ## Muutokset versiossa 16.0 ##
 
@@ -219,10 +237,10 @@ sisäänrakennettua emojipaneelia.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=emoticons
 
-[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emoticons-beta
 
 [3]: https://addons.nvda-project.org/files/get.php?file=emo-o
 
-[4]: https://addons.nvda-project.org/files/get.php?file=emoticons-beta
+

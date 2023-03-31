@@ -3,8 +3,7 @@
 * Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Preuzmi [stabilnu verziju][1] (kompatibilna s NVDA 2022.1 i novijom)
-* Preuzmi [beta verziju][1] (kompatibilna s NVDA 2022.1 i novijom)
-* Preuzmi [razvojnu verziju][2] (kompatibilna s NVDA 2022.1 i novijom)
+* Preuzmi [beta verziju][2] (kompatibilna s NVDA 2022.1 i novijom)
 
 Kad se koristi ovaj dodatak, emotikoni će se izgovoriti riječima ljudskog
 jezika.
@@ -39,11 +38,24 @@ međuspremnik, spremni da ih zalijepite.
 
 ## Umetni znak ##
 
-Ovaj dijaloški okvir omogućuje odabir jednog od znakova dostupnih u
-dijaloškom okviru izgovora interpunkcija/znakova. Pomoću okvira za
-uređivanje filtra ili tipki sa strelicama možete odabrati stavku s popisa
-znakova. Zatim pritisnite U redu i odabrani emojiji ili znak kopirat će se u
-međuspremnik i spreman je za umetanje.
+This dialog allows you to choose one of the symbols available in the
+Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
+box or the arrow keys to select an item from the symbols list.
+
+If you want to copy various symbols, use the Add button to append them to
+the Symbols to copy edit box.
+
+Then, press OK and the selected emoji or symbol, or the symbols contained in
+the mentioned edit box, will be copied to your clipboard, ready for pasting.
+
+## Associate gestures to symbols ##
+
+From NVDA's menu, Preferences submenu, Input gestures dialog, category
+Insert symbols, you can configure NVDA to type symbols through associated
+gestures.
+
+You can use the Edit field edit box to reduce the number of symbols
+presented, so that this category can be expanded faster.
 
 ## Rječnik emotikona ##
 
@@ -107,6 +119,10 @@ za Rječnik emotikona:
 Napomena: Na Windows 10 i novijim verzijama moguće je koristiti i ugrađenu
 ploču emojija.
 
+## Promjene u verziji 17.0 ##
+
+* Added ability to associate gestures to type symbols.
+* Added ability to copy various symbols at the same time.
 
 ## Promjene u verziji 16.0 ##
 
@@ -222,10 +238,10 @@ ploču emojija.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=emoticons
 
-[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emoticons-beta
 
 [3]: https://addons.nvda-project.org/files/get.php?file=emo-o
 
-[4]: https://addons.nvda-project.org/files/get.php?file=emoticons-beta
+

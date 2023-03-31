@@ -3,9 +3,7 @@
 * Autoren: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * [Stabile Version herunterladen][1] (kompatibel mit NVDA 2022.1 und neuer)
-* Download [beta version][4] (compatible with NVDA 2022.1 and beyond)
-* [Entwicklerversion herunterladen][2] (kompatibel mit NVDA 2022.1 und
-  neuer)
+* Download [beta version][2] (compatible with NVDA 2022.1 and beyond)
 
 Diese Erweiterung ersetzt Emoticons durch besser verständliche
 Beschreibungen.
@@ -44,12 +42,24 @@ die Zwischenablage kopiert.
 
 ## Symbol einfügen ##
 
-In diesem Dialogfeld können Sie eines der Symbole auswählen, die im
-Dialogfeld Interpunktion / Aussprache von Symbolen von NVDA verfügbar
-sind. Sie können das Bearbeitungsfeld Filter oder die Pfeiltasten verwenden,
-um ein Element aus der Symbolliste auszuwählen. Klicken Sie dann auf "OK"
-und das ausgewählte Emoji oder Symbol wird in Ihre Zwischenablage kopiert
-und kann eingefügt werden.
+This dialog allows you to choose one of the symbols available in the
+Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
+box or the arrow keys to select an item from the symbols list.
+
+If you want to copy various symbols, use the Add button to append them to
+the Symbols to copy edit box.
+
+Then, press OK and the selected emoji or symbol, or the symbols contained in
+the mentioned edit box, will be copied to your clipboard, ready for pasting.
+
+## Associate gestures to symbols ##
+
+From NVDA's menu, Preferences submenu, Input gestures dialog, category
+Insert symbols, you can configure NVDA to type symbols through associated
+gestures.
+
+You can use the Edit field edit box to reduce the number of symbols
+presented, so that this category can be expanded faster.
 
 ## Emoticons-Wörterbuch ##
 
@@ -114,6 +124,10 @@ oder den Emoticon-Wörterbuch-Dialog zu öffnen:
 Hinweis: Unter Windows 10 und Windows 11 ist es auch möglich, das
 integrierte Emoji-Panel zu verwenden.
 
+## Changes for 17.0 ##
+
+* Added ability to associate gestures to type symbols.
+* Added ability to copy various symbols at the same time.
 
 ## Changes for 16.0 ##
 
@@ -235,10 +249,10 @@ integrierte Emoji-Panel zu verwenden.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=emoticons
 
-[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emoticons-beta
 
 [3]: https://addons.nvda-project.org/files/get.php?file=emo-o
 
-[4]: https://addons.nvda-project.org/files/get.php?file=emoticons-beta
+

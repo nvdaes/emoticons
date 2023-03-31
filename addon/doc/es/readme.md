@@ -3,9 +3,7 @@
 * Autores: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Descargar [versión estable][1] (compatible desde NVDA 2022.1 en adelante)
-* Descargar [versión beta][4] (compatible con NVDA 2022.1 y posterior)
-* Descargar [versión de desarrollo][2] (compatible desde NVDA 2022.1 en
-  adelante)
+* Descargar [versión beta][2] (compatible con NVDA 2022.1 y posterior)
 
 Utilizando este complemento, la verbalización de texto que contenga
 caracteres emoticonos se reemplazará por su descripción más amigable.
@@ -45,9 +43,24 @@ en tu portapapeles, listos para pegarse.
 
 Este diálogo permite elegir uno de los símbolos disponibles en el diálogo de
 pronunciación y símbolos de NVDA. Puedes utilizar el cuadro de edición de
-filtro o las flechas para seleccionar un elemento de la lista de símbolos. A
-continuación, pulsa Aceptar y se copiará al portapapeles el emoji o símbolo
-seleccionado, listo para pegar.
+filtro o las flechas para seleccionar un elemento de la lista de símbolos.
+
+Si deseas copiar varios símbolos, usa el botón Añadir para agregarlos al
+cuadro de edición de símbolos a copiar.
+
+A continuación, pulsa Aceptar y se copiará al portapapeles el emoji o
+símbolo seleccionado, o los símbolos contenidos en el cuadro de edición
+mencionado, listos para pegar.
+
+## Asociación de gestos a símbolos ##
+
+Desde el menú NVDA, submenú Preferencias, diálogo Gestos de entrada,
+categoría Insertar símbolos, se puede configurar NVDA para escribir símbolos
+mediante gestos asociados.
+
+Se puede usar el cuadro de edición Editar campo para reducir la cantidad de
+símbolos presentados, de tal manera que esta categoría se expanda más
+deprisa.
 
 ## Diccionario de emoticonos ##
 
@@ -115,6 +128,10 @@ Diccionario de Emoticonos:
 Nota: en Windows 10 y posterior, también es posible usar el panel de emojis
 incorporado.
 
+## Cambios para 17.0 ##
+
+* Se ha añadido la posibilidad de asociar gestos para teclear símbolos.
+* Se ha añadido la posibilidad de copiar varios símbolos al mismo tiempo.
 
 ## Cambios para 16.0 ##
 
@@ -233,10 +250,10 @@ incorporado.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=emoticons
 
-[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emoticons-beta
 
 [3]: https://addons.nvda-project.org/files/get.php?file=emo-o
 
-[4]: https://addons.nvda-project.org/files/get.php?file=emoticons-beta
+

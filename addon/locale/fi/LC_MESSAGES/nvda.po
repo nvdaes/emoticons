@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: emoticons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2013-11-16 18:37+0100\n"
-"PO-Revision-Date: 2020-12-17 21:22+0200\n"
-"Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
+"PO-Revision-Date: 2023-03-24 14:52+0200\n"
+"Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
 "Language-Team: Finnish <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -201,11 +201,11 @@ msgstr "Lisää symboli (%s)"
 
 #. Translators: The label for a button in the Insert symbol dialog.
 msgid "&Add"
-msgstr ""
+msgstr "&Lisää"
 
 #. Translators: The label of a text field to copy symbols in the Insert Symbol dialog.
 msgid "Symbols to &copy:"
-msgstr ""
+msgstr "&Kopioitavat symbolit:"
 
 #. Translators: This is the message when symbol has been copied to the clipboard.
 msgid "Symbol copied to clipboard, ready for you to paste."

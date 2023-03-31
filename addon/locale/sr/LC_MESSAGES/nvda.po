@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 2.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2014-10-17 05:00+1000\n"
-"PO-Revision-Date: 2020-12-18 12:39+0100\n"
+"PO-Revision-Date: 2023-03-24 15:43+0100\n"
 "Last-Translator: Nikola Jović <wwenikola123@gmail.com>\n"
 "Language-Team: sr\n"
 "Language: sr\n"
@@ -201,11 +201,11 @@ msgstr "Ubaci simbol (%s)"
 
 #. Translators: The label for a button in the Insert symbol dialog.
 msgid "&Add"
-msgstr ""
+msgstr "&Dodaj"
 
 #. Translators: The label of a text field to copy symbols in the Insert Symbol dialog.
 msgid "Symbols to &copy:"
-msgstr ""
+msgstr "Simboli za &kopiranje:"
 
 #. Translators: This is the message when symbol has been copied to the clipboard.
 msgid "Symbol copied to clipboard, ready for you to paste."
