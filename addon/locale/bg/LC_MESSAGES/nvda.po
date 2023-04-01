@@ -7,14 +7,14 @@ msgstr ""
 "Project-Id-Version: emoticons 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2013-11-16 18:37+0100\n"
-"PO-Revision-Date: 2020-12-17 21:54+0200\n"
+"PO-Revision-Date: 2023-03-24 08:17+0200\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: \n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -199,11 +199,11 @@ msgstr "Вмъкване на символ (%s)"
 
 #. Translators: The label for a button in the Insert symbol dialog.
 msgid "&Add"
-msgstr ""
+msgstr "&Добави"
 
 #. Translators: The label of a text field to copy symbols in the Insert Symbol dialog.
 msgid "Symbols to &copy:"
-msgstr ""
+msgstr "Символи за &копиране:"
 
 #. Translators: This is the message when symbol has been copied to the clipboard.
 msgid "Symbol copied to clipboard, ready for you to paste."

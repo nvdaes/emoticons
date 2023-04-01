@@ -2,9 +2,8 @@
 
 * Автори: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
-* Download [beta version][4] (compatible with NVDA 2022.1 and beyond)
-* Download [development version][2] (compatible with NVDA 2022.1 and beyond)
+* Завантажити [стабільну версію][1] (сумісну з NVDA 2022.1 і пізнішими)
+* Download [beta version][2] (compatible with NVDA 2022.1 and beyond)
 
 Під час використання цього додатка символи смайликів у тексті, що
 промовляється, будуть замінені на їх більш зрозумілі описи.
@@ -42,11 +41,24 @@
 
 ## Вставити символ ##
 
-Цей діалог дозволяє вам обрати один із символів, доступних у діалозі «Вимова
-символів і знаків пунктуації» NVDA. Ви можете скористатися полем для
-фільтрування чи обрати бажаний символ зі списку. Натисніть «Гаразд» і
-вибраний символ чи емодзі буде скопійовано в буфер обміну для подальшої
-вставки.
+This dialog allows you to choose one of the symbols available in the
+Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
+box or the arrow keys to select an item from the symbols list.
+
+Якщо ви хочете скопіювати різні символи, скористайтеся кнопкою Додати, щоб
+додати їх до поля редагування Символи для копіювання.
+
+Then, press OK and the selected emoji or symbol, or the symbols contained in
+the mentioned edit box, will be copied to your clipboard, ready for pasting.
+
+## Призначити жести на символи ##
+
+У меню NVDA, підменю «Параметри», діалозі «Жести вводу» категорії «Вставка
+символів», ви можете налаштувати NVDA на введення символів за допомогою
+відповідних жестів.
+
+Ви можете зменшити кількість представлених символів у полі редагування, щоб
+швидше розгортати цю категорію.
 
 ## Словник смайликів ##
 
@@ -108,6 +120,10 @@ Emoticons». Див. Нижче параметри смайликів для п�
 Note: On Windows 10 and higher, it's also possible to use the built-in emoji
 panel.
 
+## Changes for 17.0 ##
+
+* Додано можливість призначити жести на введенняя символів.
+* Додано можливість одночасного копіювання різних символів.
 
 ## Changes for 16.0 ##
 
@@ -116,7 +132,7 @@ panel.
 ## Changes for 15.0 ##
 
 * Requires NVDA 2022.1 or later.
-* Cannot be used in secure mode.
+* Неможливо використовувати на захищених екранах.
 
 ## Зміни у версії 14.0 ##
 
@@ -219,10 +235,10 @@ panel.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=emoticons
 
-[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emoticons-beta
 
 [3]: https://addons.nvda-project.org/files/get.php?file=emo-o
 
-[4]: https://addons.nvda-project.org/files/get.php?file=emoticons-beta
+

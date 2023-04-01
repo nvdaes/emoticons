@@ -3,8 +3,7 @@
 * Autorzy: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Pobierz [stabilna wersja][1] (kompatybilna z NVDA 2022.1 i nowszymi)
-* Download [beta version][4] (compatible with NVDA 2022.1 and beyond)
-* Pobierz [wersja rozwojowa][2] (kompatybilna z NVDA 2022.1 i nowszymi)
+* Download [beta version][2] (compatible with NVDA 2022.1 and beyond)
 
 Przy użyciu tego dodatku, wypowiadany tekst zawierający znaki emotikonów
 zostanie zastąpiony przez bardziej przyjazne opisy.
@@ -40,11 +39,24 @@ schowka, już gotowe do wklejenia.
 
 ## Wstaw symbol ##
 
-To okno dialogowe umożliwia wybranie jednego z symboli dostępnych w oknie
-dialogowym Wymowa interpunkcji/symbolu NVDA. Za pomocą pola edycji Filtr lub
-strzałek można wybrać element z listy symboli. Następnie naciśnij OK, a
-wybrany emoji lub symbol zostanie skopiowany do schowka, gotowy do
-wklejenia.
+This dialog allows you to choose one of the symbols available in the
+Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
+box or the arrow keys to select an item from the symbols list.
+
+If you want to copy various symbols, use the Add button to append them to
+the Symbols to copy edit box.
+
+Then, press OK and the selected emoji or symbol, or the symbols contained in
+the mentioned edit box, will be copied to your clipboard, ready for pasting.
+
+## Associate gestures to symbols ##
+
+From NVDA's menu, Preferences submenu, Input gestures dialog, category
+Insert symbols, you can configure NVDA to type symbols through associated
+gestures.
+
+You can use the Edit field edit box to reduce the number of symbols
+presented, so that this category can be expanded faster.
 
 ## Słownik Emotikonów ##
 
@@ -106,6 +118,10 @@ skrót służący do wywołania dialogu aktywacji lub słownika emotikonów:
 Uwaga: W systemie Windows 10 i nowszych można również korzystać z
 wbudowanego panelu emoji.
 
+## Changes for 17.0 ##
+
+* Added ability to associate gestures to type symbols.
+* Added ability to copy various symbols at the same time.
 
 ## Changes for 16.0 ##
 
@@ -216,10 +232,10 @@ wbudowanego panelu emoji.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=emo
+[1]: https://addons.nvda-project.org/files/get.php?file=emoticons
 
-[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=emoticons-beta
 
 [3]: https://addons.nvda-project.org/files/get.php?file=emo-o
 
-[4]: https://addons.nvda-project.org/files/get.php?file=emoticons-beta
+
