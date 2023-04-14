@@ -3,7 +3,7 @@
 * Autorzy: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Pobierz [stabilna wersja][1] (kompatybilna z NVDA 2022.1 i nowszymi)
-* Download [beta version][2] (compatible with NVDA 2022.1 and beyond)
+* Pobierz [wersja beta][2] (kompatybilna z NVDA 2022.1 i nowszymi)
 
 Przy użyciu tego dodatku, wypowiadany tekst zawierający znaki emotikonów
 zostanie zastąpiony przez bardziej przyjazne opisy.
@@ -39,24 +39,24 @@ schowka, już gotowe do wklejenia.
 
 ## Wstaw symbol ##
 
-This dialog allows you to choose one of the symbols available in the
-Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
-box or the arrow keys to select an item from the symbols list.
+To okno dialogowe pozwala wybrać jeden z symboli dostępnych w oknie
+dialogowym Interpunkcja/wymowa symbolu NVDA. Możesz użyć pola edycji Filtr
+lub strzałek, aby wybrać element z listy symboli.
 
-If you want to copy various symbols, use the Add button to append them to
-the Symbols to copy edit box.
+Jeśli chcesz skopiować różne symbole, użyj przycisku Dodaj, aby dołączyć je
+do pola edycji Symbole do skopiowania.
 
-Then, press OK and the selected emoji or symbol, or the symbols contained in
-the mentioned edit box, will be copied to your clipboard, ready for pasting.
+Następnie naciśnij OK, a wybrane emoji lub symbol lub symbole zawarte we
+wspomnianym polu edycji zostaną skopiowane do schowka, gotowe do wklejenia.
 
-## Associate gestures to symbols ##
+## Kojarzenie gestów z symbolami ##
 
-From NVDA's menu, Preferences submenu, Input gestures dialog, category
-Insert symbols, you can configure NVDA to type symbols through associated
-gestures.
+Z menu NVDA, podmenu Preferencje, okna dialogowego Gesty wprowadzania,
+kategorii Wstaw symbole, możesz skonfigurować NVDA do wpisywania symboli
+poprzez powiązane gesty.
 
-You can use the Edit field edit box to reduce the number of symbols
-presented, so that this category can be expanded faster.
+Za pomocą pola edycji Edytuj pole można zmniejszyć liczbę prezentowanych
+symboli, dzięki czemu można szybciej rozwinąć tę kategorię.
 
 ## Słownik Emotikonów ##
 
@@ -118,14 +118,14 @@ skrót służący do wywołania dialogu aktywacji lub słownika emotikonów:
 Uwaga: W systemie Windows 10 i nowszych można również korzystać z
 wbudowanego panelu emoji.
 
-## Changes for 17.0 ##
+## Zmiany w wersji 17.0 ##
 
-* Added ability to associate gestures to type symbols.
-* Added ability to copy various symbols at the same time.
+* Dodano możliwość kojarzenia gestów z symbolami wpisywania.
+* Dodano możliwość kopiowania różnych symboli w tym samym czasie.
 
-## Changes for 16.0 ##
+## Zmiany w wersji 16.0 ##
 
-* Compatible with NVDA 2023.1.
+* Kompatybilny z NVDA 2023.1.
 
 ## Zmiany w wersji 15.0 ##
 
