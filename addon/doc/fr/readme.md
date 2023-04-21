@@ -2,8 +2,8 @@
 
 * Auteurs : Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
-* Download [beta version][2] (compatible with NVDA 2022.1 and beyond)
+* Télécharger [version stable][1] (compatible avec NVDA 2022.1 et au-delà)
+* Télécharger [version béta][2] (compatible avec NVDA 2022.1 et au-delà)
 
 En utilisant cette extension, la verbalisation du texte contenant les
 caractères de l'émoticône seront remplacés par leur description humaine plus
@@ -43,24 +43,26 @@ copiés dans le presse-papiers, prêts à être collés.
 
 ## Insérer un symbole ##
 
-This dialog allows you to choose one of the symbols available in the
-Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
-box or the arrow keys to select an item from the symbols list.
+Ce dialogue vous permet de choisir l'un des symboles disponibles dans le
+dialogue Prononciation des ponctuations et symboles de NVDA. Vous pouvez
+utiliser la zone d'édition  Filtrer ou les touches fléchées pour
+sélectionner un élément dans la liste des symboles.
 
-If you want to copy various symbols, use the Add button to append them to
-the Symbols to copy edit box.
+Si vous souhaitez copier divers symboles, utilisez le bouton Ajouter pour
+les ajouter à la suite des symboles à être copier dans la zone d'édition.
 
-Then, press OK and the selected emoji or symbol, or the symbols contained in
-the mentioned edit box, will be copied to your clipboard, ready for pasting.
+Ensuite, appuyez sur OK et l'emoji ou le symbole sélectionné, ou les
+symboles contenus dans la zone d'édition mentionnée, seront copiés dans
+votre presse-papiers, prêts à être collés.
 
-## Associate gestures to symbols ##
+## Associer des gestes aux symboles ##
 
-From NVDA's menu, Preferences submenu, Input gestures dialog, category
-Insert symbols, you can configure NVDA to type symbols through associated
-gestures.
+À partir du menu NVDA, Préférences sous-menu, dialogue Gestes de commandes,
+catégorie Insert symbols,vous pouvez configurer NVDA pour taper des symboles
+via des gestes associés.
 
-You can use the Edit field edit box to reduce the number of symbols
-presented, so that this category can be expanded faster.
+Vous pouvez utiliser  un champ d'édition pour réduire le nombre de symboles
+présentés, afin que cette catégorie puisse être développé plus rapidement.
 
 ## Dictionnaire des émoticônes ##
 
@@ -128,22 +130,22 @@ dialogue Dictionnaire des émoticônes :
   est positionné , de sorte que toute la description puisse être révisé en
   Mode navigation.
 
-Note: On Windows 10 and higher, it's also possible to use the built-in emoji
-panel.
+Note : Sous Windows 10 et supérieure, il est également possible d’utiliser
+le panneau emoji intégré.
 
-## Changes for 17.0 ##
+## Changements pour la version 17.0 ##
 
-* Added ability to associate gestures to type symbols.
-* Added ability to copy various symbols at the same time.
+* Ajout de la capacité d'associer des gestes pour taper des symboles.
+* Ajout de la capacité de copier divers symboles en même temps.
 
-## Changes for 16.0 ##
+## Changements pour la version 16.0 ##
 
-* Compatible with NVDA 2023.1.
+* Compatible avec NVDA 2023.1.
 
-## Changes for 15.0 ##
+## Changements pour la version 15.0 ##
 
-* Requires NVDA 2022.1 or later.
-* Cannot be used in secure mode.
+* Nécessite NVDA 2022.1 ou ultérieur.
+* Ne peut pas être utilisé en mode sécurisé.
 
 ## Changements pour la version 14.0 ##
 
@@ -186,7 +188,7 @@ panel.
 * La traduction du summary de l'extensions est correctement utilisé pour le
   titre présenté dans l'aide de l'extension, accessible à partir du
   Gestionnaire d'Extensions.
-* Ajout d'une note mentionnant le panneau Emoji disponible sur Windows 10.0
+* Ajout d'une note mentionnant le panneau Emoji disponible sur Windows 10.
 
 ## Changements pour la version 8.0 ##
 
@@ -256,10 +258,8 @@ panel.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=emoticons
+[1]: https://www.nvaccess.org/addonStore/legacy?file=emoticons
 
-[2]: https://addons.nvda-project.org/files/get.php?file=emoticons-beta
+[2]: https://www.nvaccess.org/addonStore/legacy?file=emoticons-beta
 
-[3]: https://addons.nvda-project.org/files/get.php?file=emo-o
-
-
+[3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o

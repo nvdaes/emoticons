@@ -243,10 +243,8 @@ new key to open Emoticons settings panel or Emoticon Dictionary dialog:
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=emoticons
+[1]: https://www.nvaccess.org/addonStore/legacy?file=emoticons
 
-[2]: https://addons.nvda-project.org/files/get.php?file=emoticons-beta
+[2]: https://www.nvaccess.org/addonStore/legacy?file=emoticons-beta
 
-[3]: https://addons.nvda-project.org/files/get.php?file=emo-o
-
-
+[3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o
