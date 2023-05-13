@@ -3,7 +3,7 @@
 * Autoren: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * [Stabile Version herunterladen][1] (kompatibel mit NVDA 2022.1 und neuer)
-* Download [beta version][2] (compatible with NVDA 2022.1 and beyond)
+* [Beta-Version herunterladen][2] (kompatibel mit NVDA 2022.1 und neuer)
 
 Diese Erweiterung ersetzt Emoticons durch besser verständliche
 Beschreibungen.
@@ -42,24 +42,28 @@ die Zwischenablage kopiert.
 
 ## Symbol einfügen ##
 
-This dialog allows you to choose one of the symbols available in the
-Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
-box or the arrow keys to select an item from the symbols list.
+In diesem Dialogfeld können Sie eines der Symbole auswählen, die im
+Dialogfeld für die Interpunktion/Symbolaussprache in NVDA verfügbar
+sind. Sie können das Bearbeitungsfeld "Filter" oder die Pfeiltasten
+verwenden, um ein Element aus der Liste der Symbole auszuwählen.
 
-If you want to copy various symbols, use the Add button to append them to
-the Symbols to copy edit box.
+Wenn Sie verschiedene Symbole kopieren möchten, verwenden Sie die
+Schaltfläche "Hinzufügen", um sie an das Bearbeitungsfeld "Zu kopierende
+Symbole" anzuhängen.
 
-Then, press OK and the selected emoji or symbol, or the symbols contained in
-the mentioned edit box, will be copied to your clipboard, ready for pasting.
+Klicken Sie dann auf "OK", um das ausgewählte Emoji oder Symbol bzw. die im
+genannten Bearbeitungsfeld enthaltenen Symbole in die Zwischenablage zu
+kopieren und an anderer Stelle wieder einzufügen.
 
-## Associate gestures to symbols ##
+## Tastenbefehle mit Symbolen verknüpfen ##
 
-From NVDA's menu, Preferences submenu, Input gestures dialog, category
-Insert symbols, you can configure NVDA to type symbols through associated
-gestures.
+Über das NVDA-Menü, Untermenü Einstellungen, Dialogfeld für die
+Tastenbefehle, Kategorie Symbole einfügen, können Sie NVDA so konfigurieren,
+dass Symbole durch zugehörige Tastenbefehle eingegeben werden können.
 
-You can use the Edit field edit box to reduce the number of symbols
-presented, so that this category can be expanded faster.
+Sie können das Bearbeitungsfeld "Feld bearbeiten" verwenden, um die Anzahl
+der dargestellten Symbole zu reduzieren, so dass diese Kategorie schneller
+erweitert werden kann.
 
 ## Emoticons-Wörterbuch ##
 
@@ -124,14 +128,16 @@ oder den Emoticon-Wörterbuch-Dialog zu öffnen:
 Hinweis: Unter Windows 10 und Windows 11 ist es auch möglich, das
 integrierte Emoji-Panel zu verwenden.
 
-## Changes for 17.0 ##
+## Änderungen in 17.0 ##
 
-* Added ability to associate gestures to type symbols.
-* Added ability to copy various symbols at the same time.
+* Es wurde die Möglichkeit hinzugefügt, Tastenbefehle mit Tipp-Symbolen zu
+  verknüpfen.
+* Es wurde die Möglichkeit hinzugefügt, mehrere Symbole gleichzeitig zu
+  kopieren.
 
-## Changes for 16.0 ##
+## Änderungen in 16.0 ##
 
-* Compatible with NVDA 2023.1.
+* Kompatibel mit NVDA 2023.1.
 
 ## Änderungen in 15.0 ##
 
