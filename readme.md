@@ -168,8 +168,8 @@ Note: On Windows 10 and higher, it's also possible to use the built-in emoji pan
 
 * Initial version.
 
-[1]: https://addons.nvda-project.org/files/get.php?file=emoticons
+[1]: https://www.nvaccess.org/addonStore/legacy?file=emoticons
 
-[2]: https://addons.nvda-project.org/files/get.php?file=emoticons-beta
+[2]: https://www.nvaccess.org/addonStore/legacy?file=emoticons-beta
 
-[3]: http://addons.nvda-project.org/files/get.php?file=emo-o
+[3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o
