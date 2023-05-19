@@ -3,7 +3,7 @@
 * Autores: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 * Descargar [versión estable][1] (compatible con NVDA 2022.1 e posterior)
-* Download [beta version][2] (compatible with NVDA 2022.1 and beyond)
+* Descargar [versión beta][4] (compatible con NVDA 2022.1 e posterior)
 
 Ó se utilizar este complemento, o texto falado que conteña carácteres de
 emoticón reemprazarase pola súa descripción máis amigable.
@@ -127,14 +127,14 @@ Diccionario de Emoticóns:
 Nota: En Windows 10 e superior, tamén é posible utilizar o panel de emoji
 integrado.
 
-## Changes for 17.0 ##
+## Cambios para 1.0 ##
 
 * Added ability to associate gestures to type symbols.
 * Added ability to copy various symbols at the same time.
 
 ## Changes for 16.0 ##
 
-* Compatible with NVDA 2023.1.
+* Compatible con NVDA 2023.1.
 
 ## Cambios para 15.0 ##
 
