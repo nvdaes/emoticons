@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 2.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2014-10-17 05:00+1000\n"
-"PO-Revision-Date: 2021-11-18 23:10+0000\n"
+"PO-Revision-Date: 2023-04-17 22:10+0100\n"
 "Last-Translator: Ângelo Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA <angelomiguelabrantes@gmail.com; "
 "rui.fontes@tiflotecnia.com>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -201,11 +201,11 @@ msgstr "Inserir Símbolo (%s)"
 
 #. Translators: The label for a button in the Insert symbol dialog.
 msgid "&Add"
-msgstr ""
+msgstr "&Adicionar"
 
 #. Translators: The label of a text field to copy symbols in the Insert Symbol dialog.
 msgid "Symbols to &copy:"
-msgstr ""
+msgstr "Símbolos para &copiar:"
 
 #. Translators: This is the message when symbol has been copied to the clipboard.
 msgid "Symbol copied to clipboard, ready for you to paste."
@@ -737,7 +737,7 @@ msgstr "legal"
 
 #. Translators: (inlove) In Love
 msgid "in love smiley"
-msgstr "Romântico"
+msgstr "romântico"
 
 #. Translators: (yn) Fingers crossed
 msgid "fingers crossed smiley"
@@ -821,7 +821,7 @@ msgstr "fazendo vénia"
 
 #. Translators: (rofl) Rolling on the floor laughing
 msgid "rolling on the floor laughing! smiley"
-msgstr "Rebolando a rir"
+msgstr "rebolando a rir"
 
 #. Translators: (whew) Relieved
 msgid "relieved smiley"
@@ -853,7 +853,7 @@ msgstr "Emo smiley"
 
 #. Translators: (y) Yes
 msgid "yes smiley"
-msgstr "Sim"
+msgstr "sim"
 
 #. Translators: (n) no;
 msgid "no smiley"
