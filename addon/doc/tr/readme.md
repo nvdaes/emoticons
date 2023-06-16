@@ -2,8 +2,8 @@
 
 * Geliştiriciler: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco
   Javier Estrada Martínez
-* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
-* Download [beta version][2] (compatible with NVDA 2022.1 and beyond)
+* [Kararlı sürümü indirin][1] (NVDA 2022.1 ve sonrası ile uyumlu)
+* [Beta sürümünü indirin][2] (NVDA 2022.1 ve sonrası ile uyumlu)
 
 Bu eklenti, metinlerde bulunan ifadeleri açıklamalarıyla değiştirerek onları
 daha anlaşılabilir kılar.
@@ -25,8 +25,8 @@ eklemenizi sağlar.
 
 NVDA+i tuşuna basarak veya nvda menusu+araşlar+ifadeler alt menüsünden ifade ekle öğesini etkinleştirerek ifadeler ve emojilerin bulunduğu iletişim kutusuna ulaşabilirsiniz. 
 
-Bu iletişim kutusu, bir ifade seçmenize veya ilginizi çeken ifadeleri
-görüntülemenize yarar.
+Bu iletişim kutusu, bir ifade seçmenizi veya ilginizi çeken ifadeleri
+görüntülemenizi sağlar:
 
 *	Düzenlenebilir bir alan, mevcut ifadeler arasından istenen ifadeyi aramayı
   filtrelemenizi sağlar.
@@ -41,24 +41,25 @@ olarak panonuza kopyalanacaktır.
 
 ## Sembol ekle ##
 
-This dialog allows you to choose one of the symbols available in the
-Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
-box or the arrow keys to select an item from the symbols list.
+Bu iletişim kutusu, NVDA'nın Noktalama/sembol telaffuz iletişim kutusunda
+bulunan simgelerden birini seçmenizi sağlar. Sembol listesinden bir öğe
+seçmek için Filtre düzenleme kutusunu veya ok tuşlarını kullanabilirsiniz.
 
-If you want to copy various symbols, use the Add button to append them to
-the Symbols to copy edit box.
+Çeşitli sembolleri kopyalamak istiyorsanız, bunları Kopyalanacak Semboller
+düzenleme kutusuna eklemek için Ekle düğmesini kullanın.
 
-Then, press OK and the selected emoji or symbol, or the symbols contained in
-the mentioned edit box, will be copied to your clipboard, ready for pasting.
+Ardından, Tamam'a basın ve seçilen emoji veya sembol veya söz konusu
+düzenleme kutusunda bulunan semboller, yapıştırmaya hazır olarak panonuza
+kopyalanacaktır.
 
-## Associate gestures to symbols ##
+## Hareketleri sembollerle ilişkilendirin ##
 
-From NVDA's menu, Preferences submenu, Input gestures dialog, category
-Insert symbols, you can configure NVDA to type symbols through associated
-gestures.
+NVDA menüsü, Tercihler alt menüsü, Girdi hareketleri iletişim kutusunda,
+İfadeler kategorisinden, NVDA'yı ilgili hareketlerle sembolleri yazacak
+şekilde yapılandırabilirsiniz.
 
-You can use the Edit field edit box to reduce the number of symbols
-presented, so that this category can be expanded faster.
+Bu kategorinin daha hızlı genişletilebilmesi için sunulan sembol sayısını
+azaltmak üzere Alanı düzenle düzenleme kutusunu kullanabilirsiniz.
 
 ## İfadeler sözlüğü ##
 
@@ -108,7 +109,7 @@ seçebilirsiniz.
 
 Bunlar, varsayılan olarak İfade ayarları panelini veya İfade Sözlüğü
 iletişim kutusunu açmak için kullanılabilen kısayol komutlarıdır. bunları
-düzenleyebilir VEYA YENİkısayol komutları ekleyebilirsiniz.
+düzenleyebilir VEYA YENİkısayol komutları ekleyebilirsiniz:
 
 * NVDA+E: ifadenin yazıldığı şekilde mi yoksa tanımlandığı haliyle mi
   seslendirileceği ile ilgili ayarı değiştirir.
@@ -123,22 +124,22 @@ düzenleyebilir VEYA YENİkısayol komutları ekleyebilirsiniz.
   atılabilir bir mesaj açar. böylece tüm açıklama tarama kipi modunda gözden
   geçirilebilir.
 
-Note: On Windows 10 and higher, it's also possible to use the built-in emoji
-panel.
+Not: Windows 10 ve üzeri sürümlerde yerleşik emoji panelini kullanmak da
+mümkündür.
 
-## Changes for 17.0 ##
+## 17.0 için değişiklikler ##
 
-* Added ability to associate gestures to type symbols.
-* Added ability to copy various symbols at the same time.
+* Sembolleri yazmak için hareketleri ilişkilendirme yeteneği eklendi.
+* Çeşitli sembolleri aynı anda kopyalama özelliği eklendi.
 
-## Changes for 16.0 ##
+## 16.0 için değişiklikler ##
 
-* Compatible with NVDA 2023.1.
+* NVDA 2023.1 ile uyumludur.
 
-## Changes for 15.0 ##
+## 15.0 için değişiklikler ##
 
-* Requires NVDA 2022.1 or later.
-* Cannot be used in secure mode.
+* NVDA 2022.1 veya sonraki sürümünü gerektirir.
+* Güvenli modda kullanılamaz.
 
 ## 14.0 için değişiklikler ##
 
@@ -197,7 +198,7 @@ panel.
 
 ## 6.0 için değişiklikler ##
 
-* farklı profiller için destek eklendi.
+* Farklı profiller için destek eklendi.
 * NVDA 2017.4 veya sonraki sürümlerde, yapılandırma ayarları ve özel
   sözlükler, seçilen profillere göre otomatik olarak değişecektir. 2017.3
   veya önceki sürümlerde, eklentileri yeniden yükleyerek (kontrol+NVDA+f3
@@ -209,7 +210,7 @@ panel.
 ## 5.0 için değişiklikler ##
 
 * Emojiler için destek eklendi.
-* görüntülenen ifadeleri seçmek için bir filtre alanı ve seçim düğmeleri
+* Görüntülenen ifadeleri seçmek için bir filtre alanı ve seçim düğmeleri
   eklenerek İfade Ekle iletişim kutusu iyileştirildi.
 * Etkinleştirme ayarları iletişim kutusu ve İfade Ekle iletişim kutusu için
   guiHelper'ı kullanma: NVDA 2016.4 veya daha yüksek sürümleri gerektirir
