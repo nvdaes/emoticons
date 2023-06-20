@@ -24,6 +24,7 @@ from gui import guiHelper, nvdaControls
 from gui.settingsDialogs import NVDASettingsDialog, SettingsPanel, SpeechSymbolsDialog
 from gui.speechDict import DictionaryDialog
 from globalCommands import SCRCAT_SPEECH, SCRCAT_TOOLS, SCRCAT_CONFIG, SCRCAT_TEXTREVIEW
+from NVDAState import WritePaths
 from scriptHandler import script
 
 from .smileysList import emoticons
@@ -34,7 +35,7 @@ addonHandler.initTranslation()
 
 # Constants
 ADDON_DICTS_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "emoticons"))
-EXPORT_DICTS_PATH = os.path.join(speechDictHandler.speechDictsPath, "emoticons")
+EXPORT_DICTS_PATH = os.path.join(WritePaths.speechDictsDir, "emoticons")
 ADDON_DIC_DEFAULT_FILE = os.path.join(ADDON_DICTS_PATH, "emoticons.dic")
 ADDON_SUMMARY = addonHandler.getCodeAddon().manifest["summary"]
 ADDON_PANEL_TITLE = ADDON_SUMMARY
