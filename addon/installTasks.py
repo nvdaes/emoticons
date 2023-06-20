@@ -15,7 +15,7 @@ addonHandler.initTranslation()
 
 
 def onInstall():
-	import speechDictHandler
+	from NVDAState import WritePaths
 	import globalVars
 	import os
 	import shutil
@@ -24,9 +24,9 @@ def onInstall():
 	ADDON_DICTS_PATH = os.path.abspath(
 		os.path.join(os.path.dirname(__file__), "globalPlugins", "emoticons", "emoticons")
 	)
-	EXPORT_DICTS_PATH = os.path.join(speechDictHandler.speechDictsPath, "emoticons")
+	EXPORT_DICTS_PATH = os.path.join(WritePaths.speechDictsDir, "emoticons")
 	if (
-		os.path.isfile(os.path.join(speechDictHandler.speechDictsPath, "emoticons.dic"))
+		os.path.isfile(os.path.join(WritePaths.speechDictsDir, "emoticons.dic"))
 		or os.path.isfile(os.path.join(globalVars.appArgs.configPath, "emoticons.ini"))
 		or os.path.isdir(EXPORT_DICTS_PATH)
 	):
@@ -42,7 +42,7 @@ def onInstall():
 		) == wx.YES:
 			try:
 				os.makedirs(EXPORT_DICTS_PATH)
-				shutil.copy(os.path.join(speechDictHandler.speechDictsPath, "emoticons.dic"), EXPORT_DICTS_PATH)
+				shutil.copy(os.path.join(WritePaths.speechDictsDir, "emoticons.dic"), EXPORT_DICTS_PATH)
 			except Exception:
 				pass
 			try:
@@ -50,7 +50,7 @@ def onInstall():
 			except Exception:
 				pass
 			try:
-				os.remove(os.path.join(speechDictHandler.speechDictsPath, "emoticons.dic"))
+				os.remove(os.path.join(WritePaths.speechDictsDir, "emoticons.dic"))
 			except Exception:
 				pass
 			if os.path.isfile(os.path.join(globalVars.appArgs.configPath, "emoticons.ini")):  # Activate
