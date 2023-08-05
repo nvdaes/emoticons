@@ -190,16 +190,16 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 						pass
 
 	def onInsertEmoticonDialog(self, evt):
-		gui.mainFrame._popupSettingsDialog(InsertEmoticonDialog)
+		gui.mainFrame.popupSettingsDialog(InsertEmoticonDialog)
 
 	def onInsertSymbolDialog(self, evt):
-		gui.mainFrame._popupSettingsDialog(InsertSymbolDialog)
+		gui.mainFrame.popupSettingsDialog(InsertSymbolDialog)
 
 	def onEmDicDialog(self, evt):
-		gui.mainFrame._popupSettingsDialog(EmDicDialog)
+		gui.mainFrame.popupSettingsDialog(EmDicDialog)
 
 	def onSettingsPanel(self, evt):
-		gui.mainFrame._popupSettingsDialog(NVDASettingsDialog, AddonSettingsPanel)
+		gui.mainFrame.popupSettingsDialog(NVDASettingsDialog, AddonSettingsPanel)
 
 	@script(
 		# Translators: Message presented in input help mode.
