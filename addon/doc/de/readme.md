@@ -5,13 +5,13 @@
 * [Stabile Version herunterladen][1] (kompatibel mit NVDA 2022.1 und neuer)
 * [Beta-Version herunterladen][2] (kompatibel mit NVDA 2022.1 und neuer)
 
-Diese Erweiterung ersetzt Emoticons durch besser verständliche
+Diese NVDA-Erweiterung ersetzt Emoticons durch besser verständliche
 Beschreibungen.
 
 So wird beispielsweise: ":)" als "Lächelndes Gesicht" oder ":D" als
 "Lachendes Gesicht" ausgesprochen.
 
-Diese Erweiterung bietet folgende Funktionen:
+Diese NVDA-Erweiterung bietet folgende Funktionen:
 
 ## Emoticon einfügen ##
 
@@ -25,8 +25,8 @@ auswählen und es in Ihren Text einfügen.
 
 Drücken Sie NVDA+I oder über das Menü Extras -> Emoticons -> Emoticon einfügen, um einen Dialog mit den bereitgestellten Emoticons oder Emoji zu öffnen. \ N.
 
-Dieser Dialog zeigt Ihnen eine Liste aller Emoticons an. Dort könnenSie ein
-Emoticon auswählen und seine zugehörige Beschreibung lesen:
+Dieses Dialogfeld zeigt Ihnen eine Liste aller Emoticons an. Dort könnenSie
+ein Emoticon auswählen und die dazugehörige Beschreibung lesen:
 
 *	Ein Eingabefeld ermöglicht es Ihnen, die Suche nach dem gewünschten
   Emoticon unter den verfügbaren Emoticons zu filtern.
@@ -67,13 +67,13 @@ erweitert werden kann.
 
 ## Emoticons-Wörterbuch ##
 
-Die Erweiterung Emoticons ermöglicht die Erstellung verschiedener
+Die NVDA-Erweiterung Emoticons ermöglicht die Erstellung verschiedener
 Aussprachewörterbücher für unterschiedliche Konfigurationsprofile.
 
-Das heißt Sie können für jedes Ihrer benutzerdefinierten Profile ein
-spezielles Sprachwörterbuch erstellen oder bearbeiten.
+Das heißt Sie können für jedes benutzerdefinierte Profil ein spezielles
+Sprach-Wörterbuch erstellen oder bearbeiten.
 
-Über das NVDA-Menü "Einstellungen" -> "Aussprachewörterbücher" -> "Emoticons-Wörterbuch", können Sie einen Dialog öffnen, um verfügbare Emoticons hinzuzufügen oder zu bearbeiten.
+Über das NVDA-Menü "Einstellungen" -> "Aussprache-Wörterbücher" -> "Emoticons-Wörterbuch", können Sie einen Dialog öffnen, um verfügbare Emoticons hinzuzufügen oder zu bearbeiten.
 
 Wenn Sie Ihre Anpassungen speichern, gelten die neuen
 Ausspracheeinstellungen von Emoticons nur für das gerade aktive Profil.
@@ -89,16 +89,16 @@ Der Schalter "Wörterbuch speichern und exportieren" legt eine entsprechende
 Wörterbuchdatei in Ihrem "User Config"-Verzeichnis unter
 "speechDicts/Emoticons" ab.
 
-Der genaue Name und Speicherort der Wörterbuchdatei richtet sich nach dem
+Der genaue Name und Speicherort der Wörterbuch-Datei richtet sich nach dem
 Konfigurationsprofil, das im Titel des Emoticons-Dialogs angezeigt wird.
 
 ## Emoticons-Einstellungen ##
 
-Über das Menü "Einstellungen" -> "Emoticons" können Sie die Aktivierung Ihrer Sprachwörterbücher für jedes Profil konfigurieren.
+Über das Menü "Einstellungen" -> "Emoticons" können Sie die Aktivierung der Sprach-Wörterbücher für jedes Profil konfigurieren.
 
 In den Einstellungen von Emoticons können Sie auswählen, ob das Sprachwörterbuch automatisch aktiviert werden soll, wenn NVDA zu dem Profil wechselt, das Sie gerade bearbeiten. Standardmäßig ist es in der normalen Konfiguration von NVDA und in allen Ihren neuen Profilen deaktiviert.
 
-Darüberhinaus kann ebenfalls festgelegt werden, ob die Emojis der
+Darüber hinaus kann ebenfalls festgelegt werden, ob die Emojis der
 Erweiterung angesagt werden soll. Dies ist nützlich, wenn in der
 NVDA-Konfiguration Symbole vorkommen.
 
@@ -109,31 +109,29 @@ diesem Dialog nicht genutzte Wörterbücher von gelöschten Profilen entfernen.
 
 Dies sind die standardmäßig verfügbaren Tastenbefehle. Sie können diese
 bearbeiten oder neue Tasten hinzufügen, um das Emoticons-Einstellungsfenster
-oder den Emoticon-Wörterbuch-Dialog zu öffnen:
+oder das Dialogfeld für das Emoticons-Wörterbuch zu öffnen:
 
 * NVDA+E: Ansage der Emoticons aktivieren oder deaktivieren, legt fest, ob
-  Text so gelesen wird, wie er geschrieben wurde oder  ob Emoticons durch
-  Beschreibungen ersetzt werden sollen.
+  der Text so vorgelesen wird, wie dieser geschrieben wurde oder  ob
+  Emoticons durch Beschreibungen ersetzt werden sollen.
 * NVDA+I: Zeigt ein Dialogfeld an, aus dem Sie ein Emoticon zum Einfügen
   auswählen können.
-* Nicht zugewiesen: Zeigen Sie einen Dialog an, um das zu kopierende
+* Nicht zugewiesen: Zeigt einen Dialogfeld an, um das zu kopierende
   NVDA-Symbol auszuwählen.
 * Nicht zugewiesen: Öffnet eine (wie im Internet) lesbare Meldung, die das
   Symbol anzeigt, an dem sich der NVDA-cursor befindet, damit die gesamte
-  Beschreibung Lese-Modus gelesen werden kann.
+  Beschreibung im Lesemodus gelesen werden kann.
 * Nicht zugewiesen: Öffnet eine (wie im Internet) lesbare Meldung, die das
   Symbol anzeigt, an dem sich die Schreibmarke befindet, damit die gesamte
-  Beschreibung im Lese-Modus gelesen werden kann.
+  Beschreibung im Lesemodus gelesen werden kann.
 
 Hinweis: Unter Windows 10 und Windows 11 ist es auch möglich, das
 integrierte Emoji-Panel zu verwenden.
 
 ## Änderungen in 17.0 ##
 
-* Es wurde die Möglichkeit hinzugefügt, Tastenbefehle mit Tipp-Symbolen zu
-  verknüpfen.
-* Es wurde die Möglichkeit hinzugefügt, mehrere Symbole gleichzeitig zu
-  kopieren.
+* Es ist nun möglich, Tastenbefehle mit Tipp-Symbolen zu verknüpfen.
+* Es ist nun möglich, mehrere Symbole gleichzeitig zu kopieren.
 
 ## Änderungen in 16.0 ##
 
@@ -150,17 +148,17 @@ integrierte Emoji-Panel zu verwenden.
 
 ## Änderungen in 13.0 ##
 
-* Fehler im Dialogfeld "Emoticon einfügen" behoben.
+* Der Fehler im Dialogfeld "Emoticon einfügen" wurde behoben.
 * Es wurde ein Dialogfeld zum Einfügen eines Symbols hinzugefügt, welches in
-  Interpunktion / Symbolaussprache von NVDA verfügbar ist.
+  Interpunktion / Symbol-Aussprache von NVDA verfügbar ist.
 
-## Änderungen für 12.0 ##
+## Änderungen in 12.0 ##
 
-* Erfordert NVDA 2019.3 oder höher.
+* Erfordert NVDA 2019.3 oder neuer.
 
 ## Änderungen in 11.0 ##
 
-* Bei der Aktualisierung dieser Erweiterung werden die in der vorherigen
+* Bei dem Update dieser NVDA-Erweiterung werden die in der vorherigen
   Version gespeicherten Wörterbücher automatisch in die neue Version
   kopiert, es sei denn, Sie möchten ausdrücklich, dass diese aus dem
   Hauptkonfigurationsordner von NVDA importiert werden.
@@ -168,62 +166,62 @@ integrierte Emoji-Panel zu verwenden.
   NVDA-Cursor befindet, werden die Wörter, Zeichen und die Ersetzung
   verwendet, um zwischen dem Symbol selbst und seiner Beschreibung im
   Lesemodus zu unterscheiden. Dies ist nützlich für Anwender, die
-  ausschließlich mit Sprachausgabe arbeiten, i.e. keine Braillezeile
-  verwenden.
+  ausschließlich mit Sprachausgabe, ohne Braillezeile, arbeiten.
 
 ## Änderungen in 10.0 ##
 
 * Es wurden Befehle hinzugefügt, um das Symbol anzuzeigen, an dem sich der
-  NVDA-cursor oder die Schreibmarke befinden. Gesten für diese Befehle
-  können im Dialogfeld Eingaben, Kategorie "Befehle zum Betrachten von
-  Text", zugewiesen werden.
+  NVDA-cursor oder die Schreibmarke befinden. Tastenbefehle für diese
+  Befehle können im Dialogfeld für die Tastenbefehle, in der Kategorie
+  "Befehle zum Betrachten von Text", zugewiesen werden.
 
-## Änderungen für 9.0 ##
+## Änderungen in 9.0 ##
 
-* Man kann nun zu wählen, ob Emojis (die in der Erweiterung enthalten sind)
-  gesprochen werden sollen.
-* Adäquates encoding für Wörterbuchnamen verwendet, dies behebt Fehler, wenn
+* Man kann nun auswählen, ob Emojis (die in der NVDA-Erweiterung enthalten
+  sind) angesagt  werden sollen.
+* Adäquates Encoding für Wörterbuchnamen verwendet, dies behebt Fehler, wenn
   diese bestimmte Zeichen enthalten.
-* Die übersetzte Zusammenfassung der Erweiterung wird ordnungsgemäß für den
-  Titel verwendet, der in der Erweiterungshilfe angezeigt wird und auf den
-  über den Erweiterungs-Verwalter zugegriffen werden kann.
+* Die übersetzte Zusammenfassung der NVDA-Erweiterung wird ordnungsgemäß für
+  den Titel verwendet, der in der Hilfe der NVDA-Erweiterung angezeigt wird
+  und auf den über "Erweiterung verwalten" zugegriffen werden kann.
 * Es wurde eine Notiz hinzugefügt, in der das Emoji-Panel unter Windows 10
   erwähnt wird.
 
-## Änderungen für 8.0 ##
+## Änderungen in 8.0 ##
 
 * Kompatibel mit NVDA 2018.3 oder neuer (erforderlich).
 
-## Änderungen für 7.0 ##
+## Änderungen in 7.0 ##
 
-* Der Dialog Aktivierungseinstellungen wurde in ein Fenster in den
-  NVDA-Einstellungen verschoben, so dass das aktuelle Profil im Titel des
-  NVDA-Einstellungsdialogs angezeigt wird.
-* Das Menü Emoticons verwalten wurde entfernt: Jetzt wird Emoticon einfügen
-  unter dem Menü Extras und Emoticons anpassen unter Sprachwörterbücher wie
-  Emoticons Wörterbuch angezeigt.
-* Benötigt NVDA 2018.2 oder höher.
+* Das Dialogfeld für die Aktivierungs-Einstellungen wurde in den
+  NVDA-Einstellungen verschoben, so dass das aktuelle Profil im Titel der
+  NVDA-Einstellung angezeigt wird.
+* Das Menü "Emoticons verwalten" wurde entfernt: Jetzt wird "Emoticon
+  einfügen" unter dem Menü "Extras" und "Emoticons anpassen" unter
+  Sprach-Wörterbücher wie "Emoticons-Wörterbuch" angezeigt.
+* Benötigt NVDA 2018.2 oder neuer.
 * Bei Bedarf können Sie die[letzte Version, die mit NVDA 2017.3 kompatibel
   ist][3] herunterladen.
 
 ## Änderungen in 6.0 ##
 
 * Unterstützt nun auch benutzerdefinierte Konfigurationsprofile in NVDA.
-* In NVDA 2017.4 oder höher ändern sich die Konfigurationseinstellungen und
+* In NVDA 2017.4 oder neuer ändern sich die Konfigurations-Einstellungen und
   benutzerdefinierten Wörterbücher automatisch entsprechend den ausgewählten
-  Profilen. In 2017.3 oder früher können Sie Änderungen vornehmen, indem Sie
+  Profilen. In 2017.3 oder älter können Sie Änderungen vornehmen, indem Sie
   Plugins neu laden (STRG+NVDA+f3).
-* Wenn Sie beim Aktualisieren der Erweiterung "Einstellungen importieren"
-  wählen, werden veraltete Dateien (emoticons.ini und emoticons.dic)
-  entfernt oder an diese Version angepasst.
+* Wenn Sie beim Aktualisieren der NVDA-Erweiterung "Einstellungen
+  importieren" auswählen, werden veraltete Dateien (emoticons.ini und
+  emoticons.dic) entfernt oder an diese Version angepasst.
 
 ## Änderungen in 5.0 ##
 
 * Unterstützung für Emojis hinzugefügt.
-* Verbesserungen im Dialogfeld Emoticon einfügen durch Filterfunktionen und
-  Kontrollfeldern zur Auswahl der angezeigten Emoticons.
-* GuiHelper wird für die Dialoge Aktivierungseinstellungen und Emoticon
-  einfügen und verwalten verwendet: erfordert NVDA 2016.4 oder höher
+* Verbesserungen im Dialogfeld "Emoticon einfügen" durch Filter-Funktionen
+  und Kontrollfeldern zur Auswahl der angezeigten Emoticons.
+* Für die Dialogfelder wird guiHelper für die Aktivierungs-Einstellungen und
+  Emoticon einfügen und verwalten verwendet: Erfordert NVDA 2016.4 oder
+  neuer
 
 ## Änderungen in 4.0 ##
 
@@ -234,14 +232,15 @@ integrierte Emoji-Panel zu verwenden.
 
 ## Änderungen in 3.0 ##
 
-* Im Dialog "Emoticons verwalten..." kann nun die Gültigkeit eines Musters
-  festgelegt werden, wenn es ein ganzes Wort ist. Dies ist mit den
+* Im Dialogfeld "Emoticons verwalten..." kann nun die Gültigkeit eines
+  Musters festgelegt werden, wenn es ein ganzes Wort ist. Dies ist mit den
   Aussprache-Wörterbüchern von NVDA 2014.4 vergleichbar.
 
 
 ## Änderungen in 2.0 ##
 
-* Hilfe zur Erweiterung ist in der Erweiterungsverwaltung verfügbar.
+* Hilfe zur NVDA-Erweiterung ist im Bereich "Erweiterung verwalten"
+  verfügbar.
 
 
 ## Änderungen in 1.1 ##
@@ -251,7 +250,7 @@ integrierte Emoji-Panel zu verwenden.
 
 ## Änderungen in 1.0 ##
 
-* Ehrstveröffentlichung.
+* Erste Version.
 
 [[!tag dev stable]]
 
