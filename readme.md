@@ -1,8 +1,6 @@
 # Emoticons #
 
 * Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez
-* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
-* Download [beta version][2] (compatible with NVDA 2022.1 and beyond)
 
 Using this add-on, spoken text containing emoticon characters will be replaced by its more human friendly description.
 
@@ -172,8 +170,5 @@ Note: On Windows 10 and higher, it's also possible to use the built-in emoji pan
 
 * Initial version.
 
-[1]: https://www.nvaccess.org/addonStore/legacy?file=emoticons
-
-[2]: https://www.nvaccess.org/addonStore/legacy?file=emoticons-beta
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o
