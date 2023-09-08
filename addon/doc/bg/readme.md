@@ -2,9 +2,6 @@
 
 * Автори: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Изтегляне на [стабилна версия][1] (съвместима с NVDA 2022.1 и по-нови
-  версии)
-* Изтегляне на [бета версия][2] (съвместима с NVDA 2022.1 и по-нови версии)
 
 При използването на тази добавка всеки изговарян текст, съдържащ знак за
 емотикон, ще бъде заместван от неговото по-дружелюбно звучащо описание.
@@ -250,9 +247,5 @@ speechDicts/emoticons.
 * Първоначално издание.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=emoticons
-
-[2]: https://www.nvaccess.org/addonStore/legacy?file=emoticons-beta
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o

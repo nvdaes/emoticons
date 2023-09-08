@@ -2,8 +2,6 @@
 
 * Forfattere: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco
   Javier Estrada Martínez
-* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
-* Download [beta version][2] (compatible with NVDA 2022.1 and beyond)
 
 Med dette tilføjelsesprogram vil du få udtalt humørikoner i tekster på en
 mere brugervenlig måde.
@@ -239,9 +237,5 @@ panel.
 * Første version.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=emoticons
-
-[2]: https://www.nvaccess.org/addonStore/legacy?file=emoticons-beta
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o

@@ -2,8 +2,6 @@
 
 * Autores: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Descargar [versión estable][1] (compatible con NVDA 2022.1 e posterior)
-* Descargar [versión beta][4] (compatible con NVDA 2022.1 e posterior)
 
 Ó se utilizar este complemento, o texto falado que conteña carácteres de
 emoticón reemprazarase pola súa descripción máis amigable.
@@ -245,9 +243,5 @@ integrado.
 * Versión inicial.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=emoticons
-
-[2]: https://www.nvaccess.org/addonStore/legacy?file=emoticons-beta
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o

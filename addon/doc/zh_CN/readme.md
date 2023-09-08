@@ -2,8 +2,6 @@
 
 * 作者：Chris Leo，NoeliaRuizMartínez，Mesar Hameed，Francisco
   JavierEstradaMartínez
-* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
-* Download [beta version][2] (compatible with NVDA 2022.1 and beyond)
 
 启用表情名称朗读来代替原字符朗读。
 
@@ -182,9 +180,5 @@ panel.
 * 发布初始版本。
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=emoticons
-
-[2]: https://www.nvaccess.org/addonStore/legacy?file=emoticons-beta
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o

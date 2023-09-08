@@ -2,8 +2,6 @@
 
 * Авторы: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Скачать [стабильную версию][1] (совместим с NVDA 2022.1 и выше)
-* Download [beta version][2] (compatible with NVDA 2022.1 and beyond)
 
 С помощью этого дополнения, в проговариваеммом тексте, содержащиеся символы
 эмоций будут заменены на их более подробное описание.
@@ -242,9 +240,5 @@ new key to open Emoticons settings panel or Emoticon Dictionary dialog:
 * Начальная версия.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=emoticons
-
-[2]: https://www.nvaccess.org/addonStore/legacy?file=emoticons-beta
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o
