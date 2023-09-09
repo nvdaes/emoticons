@@ -2,8 +2,6 @@
 
 * Auteurs : Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Télécharger [version stable][1] (compatible avec NVDA 2022.1 et au-delà)
-* Télécharger [version béta][2] (compatible avec NVDA 2022.1 et au-delà)
 
 En utilisant cette extension, la verbalisation du texte contenant les
 caractères de l'émoticône seront remplacés par leur description humaine plus
@@ -257,9 +255,5 @@ le panneau emoji intégré.
 * Première version.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=emoticons
-
-[2]: https://www.nvaccess.org/addonStore/legacy?file=emoticons-beta
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o

@@ -2,8 +2,6 @@
 
 * Автори: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Завантажити [стабільну версію][1] (сумісну з NVDA 2022.1 і пізнішими)
-* Download [beta version][2] (compatible with NVDA 2022.1 and beyond)
 
 Під час використання цього додатка символи смайликів у тексті, що
 промовляється, будуть замінені на їх більш зрозумілі описи.
@@ -234,9 +232,5 @@ panel.
 * Перша версія.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=emoticons
-
-[2]: https://www.nvaccess.org/addonStore/legacy?file=emoticons-beta
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o

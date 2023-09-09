@@ -2,8 +2,6 @@
 
 * Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Preuzmi [stabilnu verziju][1] (kompatibilna s NVDA 2022.1 i novijom)
-* Preuzmi [beta verziju][2] (kompatibilna s NVDA 2022.1 i novijom)
 
 Kad se koristi ovaj dodatak, emotikoni će se izgovoriti riječima ljudskog
 jezika.
@@ -237,9 +235,5 @@ ploču emojija.
 * Prvo izdanje.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=emoticons
-
-[2]: https://www.nvaccess.org/addonStore/legacy?file=emoticons-beta
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o

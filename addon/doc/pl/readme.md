@@ -2,8 +2,6 @@
 
 * Autorzy: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Pobierz [stabilna wersja][1] (kompatybilna z NVDA 2022.1 i nowszymi)
-* Pobierz [wersja beta][2] (kompatybilna z NVDA 2022.1 i nowszymi)
 
 Przy użyciu tego dodatku, wypowiadany tekst zawierający znaki emotikonów
 zostanie zastąpiony przez bardziej przyjazne opisy.
@@ -231,9 +229,5 @@ wbudowanego panelu emoji.
 * Pierwsza wersja.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=emoticons
-
-[2]: https://www.nvaccess.org/addonStore/legacy?file=emoticons-beta
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o

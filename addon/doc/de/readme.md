@@ -2,8 +2,6 @@
 
 * Autoren: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* [Stabile Version herunterladen][1] (kompatibel mit NVDA 2022.1 und neuer)
-* [Beta-Version herunterladen][2] (kompatibel mit NVDA 2022.1 und neuer)
 
 Diese NVDA-Erweiterung ersetzt Emoticons durch besser verständliche
 Beschreibungen.
@@ -253,9 +251,5 @@ integrierte Emoji-Panel zu verwenden.
 * Erste Version.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=emoticons
-
-[2]: https://www.nvaccess.org/addonStore/legacy?file=emoticons-beta
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o

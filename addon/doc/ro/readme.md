@@ -2,8 +2,6 @@
 
 * Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
-* Download [beta version][2] (compatible with NVDA 2022.1 and beyond)
 
 Folosind acest supliment, textul care conține emoticoane va fi înlocuit cu o
 descriere mult mai prietenoasă.
@@ -248,9 +246,5 @@ panel.
 * Versiunea Inițială.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=emoticons
-
-[2]: https://www.nvaccess.org/addonStore/legacy?file=emoticons-beta
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o

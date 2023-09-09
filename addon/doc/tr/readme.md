@@ -2,8 +2,6 @@
 
 * Geliştiriciler: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco
   Javier Estrada Martínez
-* [Kararlı sürümü indirin][1] (NVDA 2022.1 ve sonrası ile uyumlu)
-* [Beta sürümünü indirin][2] (NVDA 2022.1 ve sonrası ile uyumlu)
 
 Bu eklenti, metinlerde bulunan ifadeleri açıklamalarıyla değiştirerek onları
 daha anlaşılabilir kılar.
@@ -243,9 +241,5 @@ mümkündür.
 * İlk sürüm.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=emoticons
-
-[2]: https://www.nvaccess.org/addonStore/legacy?file=emoticons-beta
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o

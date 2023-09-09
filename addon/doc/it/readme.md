@@ -2,8 +2,6 @@
 
 * Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Scarica la  [versione stabile][1] (compatibile con NVDA 2022.1).
-* Download [beta version][2] (compatible with NVDA 2022.1 and beyond)
 
 Utilizzando questo componente aggiuntivo, la lettura dei caratteri che
 compongono una emoticon verrà sostituita con una sua descrizione.
@@ -249,9 +247,5 @@ nativa.
 * Versione iniziale.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=emoticons
-
-[2]: https://www.nvaccess.org/addonStore/legacy?file=emoticons-beta
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o

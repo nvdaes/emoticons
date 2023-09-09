@@ -2,8 +2,6 @@
 
 * Tác giả: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Download [stable version][1] (compatible with NVDA 2022.1 and beyond)
-* Download [beta version][2] (compatible with NVDA 2022.1 and beyond)
 
 Sử dụng add-on này, văn bản có các kí hiệu biểu tượng cảm xúc sẽ được thay
 thế bằng mô tả gần gũi với con người.
@@ -237,9 +235,5 @@ panel.
 * Phiên bản đầu tiên.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=emoticons
-
-[2]: https://www.nvaccess.org/addonStore/legacy?file=emoticons-beta
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o

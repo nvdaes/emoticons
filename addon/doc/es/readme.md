@@ -2,8 +2,6 @@
 
 * Autores: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
-* Descargar [versión estable][1] (compatible desde NVDA 2022.1 en adelante)
-* Descargar [versión beta][2] (compatible con NVDA 2022.1 y posterior)
 
 Utilizando este complemento, la verbalización de texto que contenga
 caracteres emoticonos se reemplazará por su descripción más amigable.
@@ -249,9 +247,5 @@ incorporado.
 * Versión inicial.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=emoticons
-
-[2]: https://www.nvaccess.org/addonStore/legacy?file=emoticons-beta
 
 [3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o
