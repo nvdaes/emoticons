@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 5.5\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2013-11-16 20:13+0100\n"
-"PO-Revision-Date: 2023-06-09 10:34+0200\n"
+"PO-Revision-Date: 2023-10-06 23:30+0200\n"
 "Last-Translator: Juan C. Buño <oprisniki@gmail.com>\n"
 "Language-Team: NVDA add-ons translation team <LL@li.org>\n"
 "Language: gl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.4\n"
 
 #. Translators: the label of a message box dialog.
 msgid ""
@@ -201,11 +201,11 @@ msgstr "Insertar Símbolo (%s)"
 
 #. Translators: The label for a button in the Insert symbol dialog.
 msgid "&Add"
-msgstr ""
+msgstr "&Engadir"
 
 #. Translators: The label of a text field to copy symbols in the Insert Symbol dialog.
 msgid "Symbols to &copy:"
-msgstr ""
+msgstr "Simbolos a copiar:"
 
 #. Translators: This is the message when symbol has been copied to the clipboard.
 msgid "Symbol copied to clipboard, ready for you to paste."
@@ -753,11 +753,11 @@ msgstr "cara de noxo"
 
 #. Translators: (doh) Doh!
 msgid "doh! smiley"
-msgstr "¡ui!"
+msgstr "doh! Sorriso"
 
 #. Translators: (wasntme) It wasn't me!
 msgid "it wasn't me! smiley"
-msgstr "¡eu non fun!"
+msgstr "non fun! sorriso"
 
 #. Translators: (party) Party
 msgid "party smiley"
@@ -765,7 +765,7 @@ msgstr "festa"
 
 #. Translators: (mm) Mmmm...
 msgid "mmmmmm... smiley"
-msgstr "mmmmmm..."
+msgstr "mmmmmm... sorriso"
 
 #. Translators: (nerd) Nerdy
 msgid "nerdy smiley"
