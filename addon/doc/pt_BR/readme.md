@@ -1,6 +1,6 @@
 # Emoticons #
 
-* Autores: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 
 Ao usar este complemento, os textos falados que contenham caracteres de
@@ -13,9 +13,8 @@ Pode tirar proveito dos seguintes recursos:
 
 ## Inserir Emoticon ##
 
-Às vezes uma imagem vale que 1000 palavras: use o novo emoji para animar
-suas mensagens instantâneas e fazer seus amigos saberem como você está se
-sentindo.
+Sometimes an image is worth a 1000 words: use the new emoji to liven up your
+instant message and to let your friends know how you’re feeling.
 
 Quando você não tiver certeza dos caracteres para uma carinha em particular,
 este complemento lhe possibilita selecionar e inseri-lo no texto, por

@@ -1,6 +1,6 @@
 # Emoticons #
 
-* 作者: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 
 このアドオンを使うと、顔文字を含むテキストを読み上げるときに人間がもっと理解しやすい表現に置き換えます。
@@ -11,7 +11,8 @@
 
 ## 顔文字の挿入 ##
 
-時に絵は1000語の価値があります:インスタントメッセージを活性化して、あなたの思いを友達に知らせるために、新しい絵文字を使用します。
+Sometimes an image is worth a 1000 words: use the new emoji to liven up your
+instant message and to let your friends know how you’re feeling.
 
 特定の笑った顔文字の文字がわからない時、このアドオンにより、選んで、チャットなどのテキストに挿入出来るようになります。
 

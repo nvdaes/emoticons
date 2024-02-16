@@ -1,6 +1,6 @@
 # Emoticons #
 
-* Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 
 Utilizzando questo componente aggiuntivo, la lettura dei caratteri che
@@ -13,8 +13,8 @@ NVDA potrà riconoscere il nome degli emoji quando presenti nel testo.
 
 ## Inserire emoticon ##
 
-A volte un'immagine vale più di mille parole: usa i nuovi emoji per
-vivacizzare i tuoi messaggi, e per far sapere ai tuoi amici come ti senti.
+Sometimes an image is worth a 1000 words: use the new emoji to liven up your
+instant message and to let your friends know how you’re feeling.
 
 Se non sai quale carattere usare per una emoticon, questo componente
 aggiuntivo ti permette di selezionarne uno e inserirlo nel testo che stai

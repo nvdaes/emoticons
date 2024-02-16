@@ -1,6 +1,6 @@
 # Emotikoni #
 
-* Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 
 Kad se koristi ovaj dodatak, emotikoni će se izgovoriti riječima ljudskog
@@ -13,8 +13,8 @@ Moguće je koristiti sljedeće funkcije:
 
 ## Umetni emotikon ##
 
-Ponekad je slika vrijedna tisuću riječi: koristite novi emoji da biste
-oživili vaše poruke i kažete prijateljima kako se osjećate.
+Sometimes an image is worth a 1000 words: use the new emoji to liven up your
+instant message and to let your friends know how you’re feeling.
 
 Kada niste sigurni za neki smješko, ovaj dodatak dozvoljava, odabrati i
 umetnuti ga u tekst kao što je chat.

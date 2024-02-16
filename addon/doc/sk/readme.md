@@ -1,6 +1,6 @@
 # Emotikony #
 
-* Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 
 Tento doplnok interpretuje grafické emotikony slovným popisom.
@@ -12,8 +12,8 @@ emoji.
 
 ## Vloženie emotikonu ##
 
-Namiesto tisíc slov môžete použiť jediný obrázok. Použite emoji a dajte
-vašim priateľom vedieť, ako sa cítite a čo robíte.
+Sometimes an image is worth a 1000 words: use the new emoji to liven up your
+instant message and to let your friends know how you’re feeling.
 
 Ak si nie ste istý, ako napísať správne smailíka, tento doplnok vám umožní
 vybrať požadovaný symbol zo zoznamu.

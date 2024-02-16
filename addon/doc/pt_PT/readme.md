@@ -1,6 +1,6 @@
 # Emoticons #
 
-* Autores: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 
 Ao usar este extra, o texto do emoticon que contenha caracteres será
@@ -13,9 +13,8 @@ Neste extra, pode aproveitar os seguintes recursos:
 
 ## Inserir Emoticon ##
 
-Por vezes, uma imagem vale 1000 palavras: use o novo emoji para animar a sua
-mensagem instantânea e deixar os seus amigos saberem como se está a sentir,
-naquele momento.
+Sometimes an image is worth a 1000 words: use the new emoji to liven up your
+instant message and to let your friends know how you’re feeling.
 
 Quando não tiver a certeza dos caracteres para um determinado smiley, este
 extra permite-lhe seleccioná-lo e inseri-lo no seu texto, como numa

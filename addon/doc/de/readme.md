@@ -1,6 +1,6 @@
 # Emoticons #
 
-* Autoren: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 
 Diese NVDA-Erweiterung ersetzt Emoticons durch besser verständliche
@@ -13,9 +13,8 @@ Diese NVDA-Erweiterung bietet folgende Funktionen:
 
 ## Emoticon einfügen ##
 
-Manchmal sagt ein Bild mehr als 1000 Worte: Sie können die neuen Emojis in
-Ihren Nachrichten einfügen und Ihren Freunden dadurch zeigen, wie Sie sich
-fühlen.
+Sometimes an image is worth a 1000 words: use the new emoji to liven up your
+instant message and to let your friends know how you’re feeling.
 
 Wenn Sie sich unsicher sind, welche Zeichen für ein bestimmtes Smiley
 verwendet werden, können Sie dieses Smiley mit Hilfe der Erweiterung

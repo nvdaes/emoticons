@@ -1,6 +1,6 @@
 # Các biểu tượng cảm xúc #
 
-* Tác giả: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 
 Sử dụng add-on này, văn bản có các kí hiệu biểu tượng cảm xúc sẽ được thay
@@ -13,9 +13,8 @@ Bạn có thể tận dụng các tính năng sau:
 
 ## Chèn biểu tượng cảm xúc ##
 
-đôi khi, một biểu tượng đáng giá ngàn từ: sử dụng các biểu tượng cảm xúc để
-làm sống động các tin nhắn của bạn và để bạn bè biết mình đang cảm thấy thế
-nào.
+Sometimes an image is worth a 1000 words: use the new emoji to liven up your
+instant message and to let your friends know how you’re feeling.
 
 Khi không chắc chắn các kí tự cho một biểu tượng cụ thể, addon này giúp bạn
 chọn và chèn nó vào văn bản như chèn vào một dòng chat.

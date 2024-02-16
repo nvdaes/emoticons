@@ -1,6 +1,6 @@
 # Emoticons #
 
-* Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 
 Folosind acest supliment, textul care conține emoticoane va fi înlocuit cu o
@@ -13,9 +13,8 @@ Există următoarele caracteristici:
 
 ## Inserează Emoticon ##
 
-Uneori, o imagine face cât 1000 de cuvinte: utilizați noul moji pentru a da
-viață mesajului dumneavoastră instant și pentru a permite prietenilor să
-știe ceea ce simțiți.
+Sometimes an image is worth a 1000 words: use the new emoji to liven up your
+instant message and to let your friends know how you’re feeling.
 
 Când sunteți nesigur de caracterele pentru un zâmbet particular, add-on-ul
 vă permite să-l selectați și inserați în textul dumneavoastră.

@@ -1,7 +1,7 @@
 # Humørikoner (Emoticons) #
 
-* Forfattere: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco
-  Javier Estrada Martínez
+* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+  Estrada Martínez
 
 Med dette tilføjelsesprogram vil du få udtalt humørikoner i tekster på en
 mere brugervenlig måde.
@@ -13,8 +13,8 @@ Du kan udnytte følgende funktioner:
 
 ## Indsæt humørikon ##
 
-Nogle gange er et billede 1000 ord værd: Brug de nye emoji og lade dine
-venner vide, hvordan du føler, og til at sætte fut i dine chatbeskeder.
+Sometimes an image is worth a 1000 words: use the new emoji to liven up your
+instant message and to let your friends know how you’re feeling.
 
 Når du er usikker på tegn for en særlig smiley, giver denne tilføjelse dig
 mulighed for at vælge og indsætte den i din tekst som i en chat.

@@ -1,7 +1,7 @@
 # İfadeler #
 
-* Geliştiriciler: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco
-  Javier Estrada Martínez
+* Yazarlar: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+  Estrada Martínez
 
 Bu eklenti, metinlerde bulunan ifadeleri açıklamalarıyla değiştirerek onları
 daha anlaşılabilir kılar.
@@ -13,9 +13,8 @@ Aşağıdaki özelliklerden yararlanabilirsiniz:
 
 ## İfade ekle ##
 
-Bazen bir emoji 1000 kelimeye bedeldir: Anlık mesajınızı canlandırmak ve
-arkadaşlarınıza nasıl hissettiğinizi bildirmek için yeni emojiyi
-kullanabilirsiniz.
+Bazen bir resim 1000 kelimeye bedeldir: anlık mesajınızı canlandırmak ve
+arkadaşlarınıza nasıl hissettiğinizi bildirmek için yeni emojiyi kullanın.
 
 Belirli bir suratları (smiley) oluşturmak için gereken karakterlerden emin
 değilseniz, bu eklenti  bir sohbete emojiyi olduğu gibi metninize seçip
