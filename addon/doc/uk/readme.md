@@ -1,6 +1,6 @@
 # Emoticons #
 
-* Автори: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 
 Під час використання цього додатка символи смайликів у тексті, що
@@ -13,9 +13,8 @@
 
 ## Вставити смайлик ##
 
-Іноді зображення каже більше, ніж тисяча слів: використовуйте нові емодзі,
-щоб оживити своє миттєве повідомлення та повідомити друзів, як ви себе
-почуваєте.
+Sometimes an image is worth a 1000 words: use the new emoji to liven up your
+instant message and to let your friends know how you’re feeling.
 
 Якщо ви не знаєте символів для певного смайлика, цей додаток допоможе вам
 вибрати його і вставити у ваш текст, наприклад у чат.

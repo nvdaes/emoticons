@@ -1,6 +1,6 @@
 # Emotikoni #
 
-* Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 
 Uz ovaj dodatak, svi emotikoni u izgovorenom tekstu biće zamenjeni
@@ -13,8 +13,8 @@ Evo nekoliko osnovnih mogućnosti dodatka:
 
 ## Ubacivanje emotikona ##
 
-Nekada je slika vredna 1000 reči: Koristite novi emoji da oživite vaše
-poruke i kažete vašim prijateljima kako se osećate.
+Sometimes an image is worth a 1000 words: use the new emoji to liven up your
+instant message and to let your friends know how you’re feeling.
 
 Kada niste sigurni o znakovima za neki smajli, ovaj dodatak vam dozvoljava
 da ga izaberete i unesete u tekst kao što je ćaskanje.

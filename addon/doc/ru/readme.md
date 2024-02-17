@@ -1,6 +1,6 @@
 # Emoticons #
 
-* Авторы: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 
 С помощью этого дополнения, в проговариваеммом тексте, содержащиеся символы
@@ -13,9 +13,8 @@
 
 ## Вставить Смайлик ##
 
-Иногда одно изображение стоит тысячу слов: используйте новые смайлики, чтобы
-оживить ваши мгновенные сообщения, и пусть ваши друзья знают, что вы
-чувствуете.
+Sometimes an image is worth a 1000 words: use the new emoji to liven up your
+instant message and to let your friends know how you’re feeling.
 
 Когда вы не уверены в знаке для конкретного смайлика, это дополнение
 позволит выбрать и вставить его в текст, например, в чате.

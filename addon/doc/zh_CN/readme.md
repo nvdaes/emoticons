@@ -1,7 +1,7 @@
 # 表情符号插件 #
 
-* 作者：Chris Leo，NoeliaRuizMartínez，Mesar Hameed，Francisco
-  JavierEstradaMartínez
+* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+  Estrada Martínez
 
 启用表情名称朗读来代替原字符朗读。
 
@@ -11,7 +11,8 @@
 
 ## 插入表情 ##
 
-有时一张图片胜过千言万语：使用表情符号来加入到你的即时消息并让你的朋友知道你现在的想法吧。
+Sometimes an image is worth a 1000 words: use the new emoji to liven up your
+instant message and to let your friends know how you’re feeling.
 
 如果您不确定特定表情的字符，可以使用此插件选择并将其插入到你的文本，例如聊天编辑框。
 

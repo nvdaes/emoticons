@@ -1,6 +1,6 @@
 # Emoticons #
 
-* Autorzy: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 
 Przy użyciu tego dodatku, wypowiadany tekst zawierający znaki emotikonów
@@ -13,9 +13,8 @@ Możesz wykorzystać następujące funkcje:
 
 ## Wstaw uśmieszek ##
 
-W niektórych sytuacjach, obraz jest warty 1000 słów: użyj nowego emoji, aby
-ożywić twoje wiadomości błyskawiczne i pokazać swoim przyjaciołom, jak się
-czujesz.
+Sometimes an image is worth a 1000 words: use the new emoji to liven up your
+instant message and to let your friends know how you’re feeling.
 
 Jeśli nie jesteś pewien znaku dla określonego uśmiechu, ten dodatek pozwala
 oznaczyć i dodać smajliki .

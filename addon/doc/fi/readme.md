@@ -1,6 +1,6 @@
 # Hymiöt #
 
-* Tekijät: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 
 Puhutussa tekstissä olevat hymiömerkit korvataan tätä lisäosaa käytettäessä
@@ -12,9 +12,8 @@ Voit hyödyntää seuraavia ominaisuuksia:
 
 ## Lisää hymiö ##
 
-Joskus kuva kertoo enemmän kuin 1000 sanaa: käytä uusia emojeja
-pikaviestiesi elävöittämiseen ja ilmoittaaksesi ystävillesi, miltä sinusta
-tuntuu.
+Sometimes an image is worth a 1000 words: use the new emoji to liven up your
+instant message and to let your friends know how you’re feeling.
 
 Kun olet epävarma jonkin tietyn hymiön merkeistä, tämän lisäosan avulla voit
 valita ja lisätä ne tekstiisi, kuten esim. chattiin.
