@@ -29,6 +29,7 @@ from scriptHandler import script
 
 from .smileysList import emoticons
 from .skipTranslation import translate
+from .securityUtils import secureBrowseableMessage  # Created by Cyrille (@CyrilleB79)
 
 
 addonHandler.initTranslation()
@@ -285,7 +286,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		languageDescription = languageHandler.getLanguageDescription(curLanguage)
 		# Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
 		title = _("Symbol at the review cursor position ({})").format(languageDescription)
-		ui.browseableMessage(message, title)
+		secureBrowseableMessage(message, title)
 
 	@script(
 		# Translators: Message presented in input help mode.
@@ -317,7 +318,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		languageDescription = languageHandler.getLanguageDescription(curLanguage)
 		# Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
 		title = _("Symbol at the caret position ({})").format(languageDescription)
-		ui.browseableMessage(message, title)
+		secureBrowseableMessage(message, title)
 
 
 class EmoticonFilter(object):
