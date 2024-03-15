@@ -1,6 +1,6 @@
 # Емотикони #
 
-* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+* Автори: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 
 При използването на тази добавка всеки изговарян текст, съдържащ знак за
@@ -13,8 +13,9 @@
 
 ## Вмъкване на емотикон ##
 
-Sometimes an image is worth a 1000 words: use the new emoji to liven up your
-instant message and to let your friends know how you’re feeling.
+Понякога дадено изображение струва колкото хиляда думи. Използвайте новите
+емоджи, за да освежите своите мигновени съобщения и да кажете на своите
+приятели как се чувствате.
 
 Когато не сте сигурни за нужните знаци за конкретна "усмивка", тази добавка
 ви позволява да я изберете от списък и да я вмъкнете в текста (напр. в чат).
@@ -123,6 +124,10 @@ speechDicts/emoticons.
 
 Забележка: В Windows 10 и по-нови версии е възможно да използвате и
 вградения панел за вмъкване на емоджи.
+
+## Промени във версия 22.0.0 ##
+
+* Изисква NVDA 2023.2 или по-нова.
 
 ## Промени във версия 17.0 ##
 

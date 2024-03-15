@@ -125,6 +125,10 @@ Dizionario Emoticons:
 Nota: dalla versione di Windows 10 è possibile utilizzare la finestra emoji
 nativa.
 
+## Changes for 22.0.0 ##
+
+* Requires NVDA 2023.2 or later.
+
 ## Changes for 17.0 ##
 
 * Added ability to associate gestures to type symbols.

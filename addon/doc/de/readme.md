@@ -125,6 +125,10 @@ oder das Dialogfeld für das Emoticons-Wörterbuch zu öffnen:
 Hinweis: Unter Windows 10 und Windows 11 ist es auch möglich, das
 integrierte Emoji-Panel zu verwenden.
 
+## Changes for 22.0.0 ##
+
+* Requires NVDA 2023.2 or later.
+
 ## Änderungen in 17.0 ##
 
 * Es ist nun möglich, Tastenbefehle mit Tipp-Symbolen zu verknüpfen.

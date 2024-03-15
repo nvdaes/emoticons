@@ -115,6 +115,10 @@ skrót służący do wywołania dialogu aktywacji lub słownika emotikonów:
 Uwaga: W systemie Windows 10 i nowszych można również korzystać z
 wbudowanego panelu emoji.
 
+## Changes for 22.0.0 ##
+
+* Requires NVDA 2023.2 or later.
+
 ## Zmiany w wersji 17.0 ##
 
 * Dodano możliwość kojarzenia gestów z symbolami wpisywania.

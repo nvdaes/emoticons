@@ -116,6 +116,10 @@ Hymiöt-asetuspaneelin tai hymiösanastovalintaikkunan avaamiseen:
 Huom: Windows 10:ssä ja uudemmissa on mahdollista käyttää myös
 sisäänrakennettua emojipaneelia.
 
+## Changes for 22.0.0 ##
+
+* Requires NVDA 2023.2 or later.
+
 ## Muutokset versiossa 17.0 ##
 
 * Lisätty mahdollisuus määrittää näppäinkomennot symboleiden

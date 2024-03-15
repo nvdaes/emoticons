@@ -87,6 +87,10 @@ Emoticons設定パネルにて、NVDAが現在編集しているプロファイ�
 
 備考: Windows 10以降では、搭載の絵文字パネルを使用することも可能です。
 
+## Changes for 22.0.0 ##
+
+* Requires NVDA 2023.2 or later.
+
 ## Changes for 17.0 ##
 
 * Added ability to associate gestures to type symbols.

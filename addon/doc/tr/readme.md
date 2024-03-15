@@ -124,6 +124,10 @@ düzenleyebilir VEYA YENİkısayol komutları ekleyebilirsiniz:
 Not: Windows 10 ve üzeri sürümlerde yerleşik emoji panelini kullanmak da
 mümkündür.
 
+## 22.0.0 için değişiklikler ##
+
+* NVDA 2023.2 veya sonraki sürümleri gereklidir.
+
 ## 17.0 için değişiklikler ##
 
 * Sembolleri yazmak için hareketleri ilişkilendirme yeteneği eklendi.

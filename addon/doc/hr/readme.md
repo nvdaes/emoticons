@@ -117,6 +117,10 @@ za Rječnik emotikona:
 Napomena: Na Windows 10 i novijim verzijama moguće je koristiti i ugrađenu
 ploču emojija.
 
+## Changes for 22.0.0 ##
+
+* Requires NVDA 2023.2 or later.
+
 ## Promjene u verziji 17.0 ##
 
 * Added ability to associate gestures to type symbols.

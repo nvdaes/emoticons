@@ -119,6 +119,10 @@ new key to open Emoticons settings panel or Emoticon Dictionary dialog:
 Примечание. В Windows 10 и более поздних версиях также можно использовать
 встроенную панель эмодзи.
 
+## Changes for 22.0.0 ##
+
+* Requires NVDA 2023.2 or later.
+
 ## Changes for 17.0 ##
 
 * Added ability to associate gestures to type symbols.

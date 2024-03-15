@@ -123,6 +123,10 @@ diálogo do dicionário do Emoticon:
 Note: On Windows 10 and higher, it's also possible to use the built-in emoji
 panel.
 
+## Changes for 22.0.0 ##
+
+* Requires NVDA 2023.2 or later.
+
 ## Changes for 17.0 ##
 
 * Added ability to associate gestures to type symbols.
