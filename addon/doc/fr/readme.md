@@ -131,6 +131,10 @@ dialogue Dictionnaire des émoticônes :
 Note : Sous Windows 10 et supérieure, il est également possible d’utiliser
 le panneau emoji intégré.
 
+## Changements pour la version 22.0.0 ##
+
+* Nécessite NVDA 2023.2 ou ultérieur.
+
 ## Changements pour la version 17.0 ##
 
 * Ajout de la capacité d'associer des gestes pour taper des symboles.

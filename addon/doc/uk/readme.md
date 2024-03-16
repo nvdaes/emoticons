@@ -117,6 +117,10 @@ Emoticons». Див. Нижче параметри смайликів для п�
 Note: On Windows 10 and higher, it's also possible to use the built-in emoji
 panel.
 
+## Changes for 22.0.0 ##
+
+* Requires NVDA 2023.2 or later.
+
 ## Changes for 17.0 ##
 
 * Додано можливість призначити жести на введенняя символів.

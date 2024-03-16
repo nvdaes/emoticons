@@ -126,6 +126,10 @@ Diccionario de Emoticonos:
 Nota: en Windows 10 y posterior, también es posible usar el panel de emojis
 incorporado.
 
+## Cambios para 22.0.0 ##
+
+* Se requiere NVDA 2023.2 o posterior.
+
 ## Cambios para 17.0 ##
 
 * Se ha añadido la posibilidad de asociar gestos para teclear símbolos.

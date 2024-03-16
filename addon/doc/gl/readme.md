@@ -124,6 +124,10 @@ Diccionario de Emoticóns:
 Nota: En Windows 10 e superior, tamén é posible utilizar o panel de emoji
 integrado.
 
+## Changes for 22.0.0 ##
+
+* Requires NVDA 2023.2 or later.
+
 ## Cambios para 1.0 ##
 
 * Added ability to associate gestures to type symbols.
