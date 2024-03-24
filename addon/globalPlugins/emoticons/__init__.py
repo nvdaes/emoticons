@@ -24,17 +24,19 @@ from gui import guiHelper, nvdaControls
 from gui.settingsDialogs import NVDASettingsDialog, SettingsPanel, SpeechSymbolsDialog
 from gui.speechDict import DictionaryDialog
 from globalCommands import SCRCAT_SPEECH, SCRCAT_TOOLS, SCRCAT_CONFIG, SCRCAT_TEXTREVIEW
+from NVDAState import WritePaths
 from scriptHandler import script
 
 from .smileysList import emoticons
 from .skipTranslation import translate
+from .securityUtils import secureBrowseableMessage  # Created by Cyrille (@CyrilleB79)
 
 
 addonHandler.initTranslation()
 
 # Constants
 ADDON_DICTS_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "emoticons"))
-EXPORT_DICTS_PATH = os.path.join(speechDictHandler.speechDictsPath, "emoticons")
+EXPORT_DICTS_PATH = os.path.join(WritePaths.speechDictsDir, "emoticons")
 ADDON_DIC_DEFAULT_FILE = os.path.join(ADDON_DICTS_PATH, "emoticons.dic")
 ADDON_SUMMARY = addonHandler.getCodeAddon().manifest["summary"]
 ADDON_PANEL_TITLE = ADDON_SUMMARY
@@ -189,16 +191,16 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 						pass
 
 	def onInsertEmoticonDialog(self, evt):
-		gui.mainFrame._popupSettingsDialog(InsertEmoticonDialog)
+		gui.mainFrame.popupSettingsDialog(InsertEmoticonDialog)
 
 	def onInsertSymbolDialog(self, evt):
-		gui.mainFrame._popupSettingsDialog(InsertSymbolDialog)
+		gui.mainFrame.popupSettingsDialog(InsertSymbolDialog)
 
 	def onEmDicDialog(self, evt):
-		gui.mainFrame._popupSettingsDialog(EmDicDialog)
+		gui.mainFrame.popupSettingsDialog(EmDicDialog)
 
 	def onSettingsPanel(self, evt):
-		gui.mainFrame._popupSettingsDialog(NVDASettingsDialog, AddonSettingsPanel)
+		gui.mainFrame.popupSettingsDialog(NVDASettingsDialog, AddonSettingsPanel)
 
 	@script(
 		# Translators: Message presented in input help mode.
@@ -284,7 +286,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		languageDescription = languageHandler.getLanguageDescription(curLanguage)
 		# Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
 		title = _("Symbol at the review cursor position ({})").format(languageDescription)
-		ui.browseableMessage(message, title)
+		secureBrowseableMessage(message, title)
 
 	@script(
 		# Translators: Message presented in input help mode.
@@ -316,7 +318,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		languageDescription = languageHandler.getLanguageDescription(curLanguage)
 		# Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
 		title = _("Symbol at the caret position ({})").format(languageDescription)
-		ui.browseableMessage(message, title)
+		secureBrowseableMessage(message, title)
 
 
 class EmoticonFilter(object):
