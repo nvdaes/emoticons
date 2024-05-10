@@ -1,6 +1,6 @@
 # Emoticons #
 
-* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+* Авторы: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 
 С помощью этого дополнения, в проговариваеммом тексте, содержащиеся символы
@@ -119,18 +119,18 @@ new key to open Emoticons settings panel or Emoticon Dictionary dialog:
 Примечание. В Windows 10 и более поздних версиях также можно использовать
 встроенную панель эмодзи.
 
-## Changes for 22.0.0 ##
+## Изменения в версии 22.0.0 ##
 
-* Requires NVDA 2023.2 or later.
+* Требуется NVDA 2023.2 или более поздней версии.
 
-## Changes for 17.0 ##
+## Изменения в версии 17.0 ##
 
 * Added ability to associate gestures to type symbols.
 * Added ability to copy various symbols at the same time.
 
-## Changes for 16.0 ##
+## Изменения в версии 16.0 ##
 
-* Compatible with NVDA 2023.1.
+* Совместимость с NVDA 2023.1.
 
 ## Изменения в версии 15.0 ##
 
