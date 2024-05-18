@@ -1,6 +1,6 @@
 # Emotikoni #
 
-* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+* Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 
 Kad se koristi ovaj dodatak, emotikoni će se izgovoriti riječima ljudskog
@@ -13,8 +13,8 @@ Moguće je koristiti sljedeće funkcije:
 
 ## Umetni emotikon ##
 
-Sometimes an image is worth a 1000 words: use the new emoji to liven up your
-instant message and to let your friends know how you’re feeling.
+Ponekad slika vrijedi više od tisuću riječi: koristite novi emoji da biste
+oživili vaše poruke i kažete prijateljima kako se osjećate.
 
 Kada niste sigurni za neki smješko, ovaj dodatak dozvoljava, odabrati i
 umetnuti ga u tekst kao što je chat.
@@ -117,9 +117,9 @@ za Rječnik emotikona:
 Napomena: Na Windows 10 i novijim verzijama moguće je koristiti i ugrađenu
 ploču emojija.
 
-## Changes for 22.0.0 ##
+## Promjene u verziji 22.0.0 ##
 
-* Requires NVDA 2023.2 or later.
+* Zahtijeva NVDA verziju 2023.2 ili noviju.
 
 ## Promjene u verziji 17.0 ##
 
