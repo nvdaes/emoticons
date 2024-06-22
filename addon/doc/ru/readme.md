@@ -1,4 +1,4 @@
-# Emoticons #
+# Смайлики #
 
 * Авторы: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
@@ -13,8 +13,9 @@
 
 ## Вставить Смайлик ##
 
-Sometimes an image is worth a 1000 words: use the new emoji to liven up your
-instant message and to let your friends know how you’re feeling.
+Иногда одно изображение стоит тысячу слов: используйте новые эмодзи, чтобы
+оживить ваши мгновенные сообщения, и пусть ваши друзья знают, что вы
+чувствуете.
 
 Когда вы не уверены в знаке для конкретного смайлика, это дополнение
 позволит выбрать и вставить его в текст, например, в чате.
@@ -38,24 +39,26 @@ instant message and to let your friends know how you’re feeling.
 
 ## Вставить символ ##
 
-This dialog allows you to choose one of the symbols available in the
-Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
-box or the arrow keys to select an item from the symbols list.
+Этот диалог позволяет вам выбрать один из символов, доступных в диалоге
+пунктуации/произношения символов NVDA. Вы можете использовать фильтр с полем
+редактирования или клавиши со стрелками, чтобы выбрать элемент из списка
+символов.
 
-If you want to copy various symbols, use the Add button to append them to
-the Symbols to copy edit box.
+Если вы хотите скопировать различные символы, используйте кнопку "Добавить",
+чтобы добавить их в поле редактирования "Символы для копирования".
 
-Then, press OK and the selected emoji or symbol, or the symbols contained in
-the mentioned edit box, will be copied to your clipboard, ready for pasting.
+Затем нажмите OK, и выбранный эмодзи или символ, или символы, содержащиеся в
+указанном поле редактирования, будут скопированы в ваш буфер обмена и готовы
+к вставке.
 
-## Associate gestures to symbols ##
+## Ассоциировать жесты с символами ##
 
-From NVDA's menu, Preferences submenu, Input gestures dialog, category
-Insert symbols, you can configure NVDA to type symbols through associated
-gestures.
+В меню NVDA, подменю "Параметры", диалоге "Жесты ввода", категории "Вставка
+символов" вы можете настроить NVDA на ввод символов с помощью
+соответствующих жестов.
 
-You can use the Edit field edit box to reduce the number of symbols
-presented, so that this category can be expanded faster.
+Вы можете использовать редактируемый комбинированный список, чтобы уменьшить
+количество представленных символов и ускорить расширение этой категории.
 
 ## Словарь смайликов ##
 
@@ -65,7 +68,7 @@ presented, so that this category can be expanded faster.
 Это означает, что вы можете создавать и редактировать конкретный речевой
 словарь для каждого пользовательского профиля.
 
-From NVDA MENU, Preferences -> Speech dictionaries -> Emoticons dictionary, you can open a dialog to add or to edit available emoticons.
+В меню NVDA, Параметры -> Речевые словари -> Словарь смайликов, можно открыть диалог настроек, чтобы добавить или редактировать имеющиеся смайлики.
 
 При сохранении ваших настроек, новые параметры чтения смайликов будут
 применены только к редактируемому в данный момент профилю.
@@ -87,7 +90,7 @@ From NVDA MENU, Preferences -> Speech dictionaries -> Emoticons dictionary, you 
 
 ## Настройки смайликов ##
 
-From menu Preferences -> Settings -> Emoticons opens a panel to configure the activation of your speech-dictionaries for each profile.
+Из меню Параметров -> Настроек -> Emoticons открывается панель для настройки активации ваших речевых словарей для каждого профиля.
 
 В панели настроек смайликов вы можете выбрать, должен ли речевой словарь автоматически активироваться, когда NVDA переключается на профиль, который вы сейчас редактируете. По умолчанию он отключен в обычной конфигурации NVDA и во всех ваших новых профилях.
 
@@ -101,8 +104,9 @@ From menu Preferences -> Settings -> Emoticons opens a panel to configure the ac
 
 ## Комбинации клавиш: ##
 
-These are the key commands available by default, you can edit those or add
-new key to open Emoticons settings panel or Emoticon Dictionary dialog:
+Эти команды клавиш, доступные по умолчанию, вы можете отредактировать или
+добавить новую клавишу, чтобы открыть панель настроек смайликов или диалог
+"Словарь смайликов":
 
 * NVDA+E: проговаривание смайликов вкл/выкл, переключает между проговаривать
   текст, как написано, или с заменённым дружественным описанием смайликов.
@@ -125,8 +129,8 @@ new key to open Emoticons settings panel or Emoticon Dictionary dialog:
 
 ## Изменения в версии 17.0 ##
 
-* Added ability to associate gestures to type symbols.
-* Added ability to copy various symbols at the same time.
+* Добавлена возможность связывать жесты с вводом символов.
+* Добавлена возможность одновременного копирования различных символов.
 
 ## Изменения в версии 16.0 ##
 
