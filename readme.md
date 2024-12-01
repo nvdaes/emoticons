@@ -132,7 +132,6 @@ Note: On Windows 10 and higher, it's also possible to use the built-in emoji pan
 * The Activation settings dialog has been moved to a panel in NVDA settings, so that the current profile will be shown in the title of the NVDA settings dialog.
 * The Manage Emoticons menu has been removed: now Insert emoticon will be found under the Tools menu, and Customize Emoticons will be shown under Speech dictionaries like Emoticons dictionary.
 * Requires NVDA 2018.2 or later.
-* If needed, you can download the [last version compatible with NVDA 2017.3][3].
 
 ## Changes for 6.0 ##
 
@@ -171,4 +170,3 @@ Note: On Windows 10 and higher, it's also possible to use the built-in emoji pan
 * Initial version.
 
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o
