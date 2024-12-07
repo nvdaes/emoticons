@@ -197,8 +197,6 @@ panel.
   Ferramentas e os Emoticons Personalizados serão exibidos em dicionários de
   fala, como o dicionário de Emoticons.
 * Requer o NVDA 2018.2 ou posterior.
-* Se for necessário, pode fazer o download da [última versão compatível com
-  o NVDA 2017.3] [3].
 
 ## Alterações para 6.0 ##
 
@@ -249,4 +247,3 @@ panel.
 
 [[!tag dev stable]]
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o

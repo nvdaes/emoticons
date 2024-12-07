@@ -186,8 +186,6 @@ panel.
   emotikona u meniju alati, a prilagođavanje emotikona u govornim rečnicima
   kao opcija rečnika emotikona.
 * Zahteva NVDA 2018.2 ili noviji.
-* Ako je neophodno, možete preuzeti [poslednju verziju kompatibilnu uz NVDA
-  2017.3][3].
 
 ## Promene u 6.0 ##
 
@@ -237,4 +235,3 @@ panel.
 
 [[!tag dev stable]]
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o

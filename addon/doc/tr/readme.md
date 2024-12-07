@@ -195,7 +195,6 @@ mümkündür.
   bulunacak ve İfadeleri Özelleştir, İfadeler sözlüğü gibi Konuşma
   sözlükleri altında gösterilecek.
 * NVDA 2018.2 veya sonraki bir sürümü gerektirir.
-* Gerekirse [NVDA 2017.3 ile uyumlu son sürümü][3] indirebilirsiniz.
 
 ## 6.0 için değişiklikler ##
 
@@ -245,4 +244,3 @@ mümkündür.
 
 [[!tag dev stable]]
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o

@@ -199,8 +199,6 @@ incorporado.
   encontrará en el menú Herramientas, y Personalizar Emoticonos se mostrará
   en Diccionarios del Habla como Diccionario de emoticonos.
 * Se requiere NVDA 2018.2 o posterior.
-* Si fuese necesario, puedes descargar la [última versión compatible con
-  NVDA 2017.3][3].
 
 ## Cambios para 6.0 ##
 
@@ -252,4 +250,3 @@ incorporado.
 
 [[!tag dev stable]]
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o

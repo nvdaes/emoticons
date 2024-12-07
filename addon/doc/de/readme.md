@@ -201,8 +201,6 @@ integrierte Emoji-Panel zu verwenden.
   einfügen" unter dem Menü "Extras" und "Emoticons anpassen" unter
   Sprach-Wörterbücher wie "Emoticons-Wörterbuch" angezeigt.
 * Benötigt NVDA 2018.2 oder neuer.
-* Bei Bedarf können Sie die[letzte Version, die mit NVDA 2017.3 kompatibel
-  ist][3] herunterladen.
 
 ## Änderungen in 6.0 ##
 
@@ -255,4 +253,3 @@ integrierte Emoji-Panel zu verwenden.
 
 [[!tag dev stable]]
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o

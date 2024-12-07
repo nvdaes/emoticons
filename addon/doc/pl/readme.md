@@ -182,8 +182,6 @@ wbudowanego panelu emoji.
   menu Narzędzia. Natomiast Dostosuj Emotikony zostało dodane do Słowników
   Wymowy, np. Słownika Emotikonów.
 * Wymaga NVDA w wersji 2018.2 lub nowszej.
-* W razie potrzeby, można pobrać [najnowszą wersję dodatku zgodną z NVDA
-  2017.3][3].
 
 ## Zmiany w wersji 6.0 ##
 
@@ -233,4 +231,3 @@ wbudowanego panelu emoji.
 
 [[!tag dev stable]]
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o

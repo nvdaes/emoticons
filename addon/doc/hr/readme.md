@@ -188,8 +188,6 @@ ploču emojija.
   nalazi u izborniku Alati, a „Prilagodi emotikone” će se prikazati pod
   „Govorni rječnici” kao što je „Rječnik emotikona”.
 * Zahtijeva NVDA inačicu 2018.2 ili noviju.
-* Ako treba, moguće je preuzeti [zadnju inačicu kompatibilnu s NVDA
-  2017.3][3].
 
 ## Promjene u verziji 6.0 ##
 
@@ -240,4 +238,3 @@ ploču emojija.
 
 [[!tag dev stable]]
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o

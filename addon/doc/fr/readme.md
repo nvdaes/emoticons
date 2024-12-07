@@ -206,8 +206,6 @@ le panneau emoji intégré.
   émoticônes s'affichent sous le Dictionnaires de prononciation comme le
   Dictionnaire des émoticônes.
 * Nécessite NVDA 2018.2 ou ultérieur.
-* Si nécessaire, vous pouvez télécharger la [dernière version compatible
-  avec NVDA 2017.3][3].
 
 ## Changements pour la version 6.0 ##
 
@@ -260,4 +258,3 @@ le panneau emoji intégré.
 
 [[!tag dev stable]]
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o

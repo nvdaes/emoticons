@@ -190,8 +190,6 @@ panel.
   "Indsæt humørikon" under menuen Værktøjer, og "Tilpas humørikoner" vil
   blive vist under "Udtaleordbøger" ligesom humørikoner-ordbøger.
 * Kræver NVDA 2018.2 eller nyere.
-* Hvis nødvendigt, kan du hente [den sidste version kompatibel med NVDA
-  2017.3][3].
 
 ## Ændringer i6.0 ##
 
@@ -242,4 +240,3 @@ panel.
 
 [[!tag dev stable]]
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o

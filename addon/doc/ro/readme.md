@@ -199,8 +199,6 @@ panel.
   de personalizare a emoticoanelor va fi afișată sub dicționarele de
   vorbire, la fel ca dicționarul de emoticoane.
 * Necesită NVDA 2018.2 sau mai nou.
-* Dacă e musai, puteți să descărcați [ultima versiune compatibilă cu NVDA
-  2017.3][3].
 
 ## Modificări aduse în 6.0 ##
 
@@ -250,4 +248,3 @@ panel.
 
 [[!tag dev stable]]
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o

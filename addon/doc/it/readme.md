@@ -199,8 +199,6 @@ nativa.
   stata spostata nel menu Strumenti e la finestra per creare un dizionario
   nel menu Personalizza -> Dizionari -> Dizionario Emoticons.
 * Richiede NVDA 2018.2 o versioni successive.
-* Se è necessario, è possibile scaricare l'ultima [versione compatibile con
-  NVDA 2017.3][3].
 
 ## Novità nella versione 6.0 ##
 
@@ -252,4 +250,3 @@ nativa.
 
 [[!tag dev stable]]
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o

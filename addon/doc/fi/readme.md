@@ -187,8 +187,6 @@ sisäänrakennettua emojipaneelia.
   nyt Työkalut-valikosta, ja "Mukauta hymiöitä" näkyy
   Puhesanastot-alavalikossa nimellä Hymiöt.
 * Vaatii NVDA 2018.2:n tai uudemman.
-* Tarvittaessa voit ladata [viimeisimmän version, joka on yhteensopiva NVDA
-  2017.3:n kanssa.][3]
 
 ## Muutokset versiossa 6.0 ##
 
@@ -238,4 +236,3 @@ sisäänrakennettua emojipaneelia.
 
 [[!tag dev stable]]
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o

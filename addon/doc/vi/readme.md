@@ -189,8 +189,6 @@ panel.
   các biểu tượng cảm xúc được hiển thị trong từ điển phát âm là từ điển biểu
   tượng cảm xúc.
 * Yêu cầu NVDA 2018.2 trở lên.
-* Nếu cần, bạn có thể tải về [phiên bản cuối cùng tương thích với NVDA
-  2017.3][3].
 
 ## Các thay đổi cho phiên bản 6.0 ##
 
@@ -239,4 +237,3 @@ panel.
 
 [[!tag dev stable]]
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o

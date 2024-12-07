@@ -165,7 +165,6 @@ panel.
 * Odstránené menu doplnku: Pridanie emotikonu vykonáte z menu nástroje,
   slovníky sú v menu rečové slovníky.
 * Vyžaduje NVDA od verzie 2018.2.
-* Môžete si [stiahnuť verziu pre NVDA 2017.3][3].
 
 ## Zmeny vo verzii 6.0 ##
 
@@ -210,4 +209,3 @@ panel.
 
 [[!tag dev stable]]
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o

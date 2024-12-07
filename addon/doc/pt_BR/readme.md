@@ -196,8 +196,6 @@ panel.
   encontrado no menu Ferramentas e Personalizar Emoticons será mostrado em
   dicionários como o dicionário de emoticons.
 * Requer o NVDA 2018.2 ou posterior.
-* Se necessário, você pode fazer o download da [última versão compatível com
-  o NVDA 2017.3][3].
 
 ## Mudanças na 6.0 ##
 
@@ -247,4 +245,3 @@ panel.
 
 [[!tag dev stable]]
 
-[3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o
