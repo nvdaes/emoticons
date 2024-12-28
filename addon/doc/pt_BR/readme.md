@@ -1,6 +1,6 @@
 # Emoticons #
 
-* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+* Autores: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
   Estrada Martínez
 
 Ao usar este complemento, os textos falados que contenham caracteres de
@@ -13,8 +13,9 @@ Pode tirar proveito dos seguintes recursos:
 
 ## Inserir Emoticon ##
 
-Sometimes an image is worth a 1000 words: use the new emoji to liven up your
-instant message and to let your friends know how you’re feeling.
+Às vezes uma imagem vale que 1000 palavras: use o novo emoji para animar
+suas mensagens instantâneas e fazer seus amigos saberem como você está se
+sentindo.
 
 Quando você não tiver certeza dos caracteres para uma carinha em particular,
 este complemento lhe possibilita selecionar e inseri-lo no texto, por
@@ -39,24 +40,28 @@ Ao pressionar OK, os caracteres do emoticon escolhido serão copiados para a
 
 ## Inserir símbolo ##
 
-This dialog allows you to choose one of the symbols available in the
-Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
-box or the arrow keys to select an item from the symbols list.
+Esta caixa de diálogo permite que você escolha um dos símbolos disponíveis
+no diálogo Pronúncia de pontuação/símbolos do NVDA. Pode usar a caixa de
+edição Filtro ou as teclas de setas para selecionar um item da lista de
+símbolos. Em seguida, pressione OK e o emoji ou símbolo selecionado será
+copiado para sua área de transferência, pronto para colar.
 
-If you want to copy various symbols, use the Add button to append them to
-the Symbols to copy edit box.
+Se você quiser copiar vários símbolos, use o botão Adicionar para anexá-los
+à caixa de edição Símbolos a serem copiados.
 
-Then, press OK and the selected emoji or symbol, or the symbols contained in
-the mentioned edit box, will be copied to your clipboard, ready for pasting.
+Em seguida, pressione OK e o emoji ou símbolo selecionado, ou os símbolos
+contidos na caixa de edição mencionada, serão copiados para a área de
+transferência, prontos para serem colados.
 
-## Associate gestures to symbols ##
+## Associar gestos a símbolos ##
 
-From NVDA's menu, Preferences submenu, Input gestures dialog, category
-Insert symbols, you can configure NVDA to type symbols through associated
-gestures.
+No menu do NVDA, submenu Preferências, caixa de diálogo Gestos de entrada,
+categoria Inserir símbolos, você pode configurar o NVDA para digitar
+símbolos por meio de gestos associados.
 
-You can use the Edit field edit box to reduce the number of symbols
-presented, so that this category can be expanded faster.
+Você pode usar a caixa de edição Editar campo para reduzir o número de
+símbolos apresentados, de modo que essa categoria possa ser expandida mais
+rapidamente.
 
 ## Dicionário de emoticons ##
 
@@ -120,26 +125,25 @@ Emoticons ou o diálogo Dicionário de Emoticons:
   cursor está posicionado, de modo que a descrição inteira possa ser
   explorada em modo de navegação.
 
-Note: On Windows 10 and higher, it's also possible to use the built-in emoji
-panel.
+Nota: No Windows 10, também é possível usar o painel de emojis integrado.
 
-## Changes for 22.0.0 ##
+## Mudanças na 22.0.0 ##
 
-* Requires NVDA 2023.2 or later.
+* Requer o NVDA 2023.2 ou posterior.
 
-## Changes for 17.0 ##
+## Mudanças na 17.0 ##
 
-* Added ability to associate gestures to type symbols.
-* Added ability to copy various symbols at the same time.
+* Adicionada a capacidade de associar gestos a símbolos de digitação.
+* Foi adicionada a capacidade de copiar vários símbolos ao mesmo tempo.
 
-## Changes for 16.0 ##
+## Mudanças na 16.0 ##
 
-* Compatible with NVDA 2023.1.
+* Compatível com o NVDA 2023.1.
 
-## Changes for 15.0 ##
+## Mudanças na 15.0 ##
 
-* Requires NVDA 2022.1 or later.
-* Cannot be used in secure mode.
+* Requer NVDA 2022.1 ou posterior.
+* Não pode ser usado no modo seguro.
 
 ## Mudanças na 14.0 ##
 
