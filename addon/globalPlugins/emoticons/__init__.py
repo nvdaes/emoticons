@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-# Copyright (C) 2013-2023 Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez
+# Copyright (C) 2013-2025 Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez
 # Released under GPL 2
 
 import os
@@ -23,14 +23,13 @@ import addonHandler
 from gui import guiHelper, nvdaControls
 from gui.settingsDialogs import NVDASettingsDialog, SettingsPanel, SpeechSymbolsDialog
 from gui.speechDict import DictionaryDialog
+from gui.message import MessageDialog
 from globalCommands import SCRCAT_SPEECH, SCRCAT_TOOLS, SCRCAT_CONFIG, SCRCAT_TEXTREVIEW
 from NVDAState import WritePaths
 from scriptHandler import script
 
 from .smileysList import emoticons
 from .skipTranslation import translate
-from .securityUtils import secureBrowseableMessage  # Created by Cyrille (@CyrilleB79)
-
 
 addonHandler.initTranslation()
 
@@ -286,7 +285,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		languageDescription = languageHandler.getLanguageDescription(curLanguage)
 		# Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
 		title = _("Symbol at the review cursor position ({})").format(languageDescription)
-		secureBrowseableMessage(message, title)
+		ui.browseableMessage(message, title, copyButton=True, closeButton=True)
 
 	@script(
 		# Translators: Message presented in input help mode.
@@ -318,7 +317,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		languageDescription = languageHandler.getLanguageDescription(curLanguage)
 		# Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
 		title = _("Symbol at the caret position ({})").format(languageDescription)
-		secureBrowseableMessage(message, title)
+		ui.browseableMessage(message, title, copyButton=True, closeButton=True)
 
 
 class EmoticonFilter(object):
@@ -462,7 +461,7 @@ class InsertEmoticonDialog(wx.Dialog):
 			if self.smileysList.GetItemCount() > 0:
 				focusedItem = 0
 			else:
-				gui.messageBox(
+				MessageDialog.alert(
 					# Translators: Error message when none emoticon is selected or the list is empty, and title of dialog.
 					_("There is not any emoticon selected."), translate("Error"),
 					parent=self, style=wx.OK | wx.ICON_ERROR

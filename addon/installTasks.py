@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-# Copyright (C) 2013-2019 Noelia Ruiz Martínez, other contributors
+# Copyright (C) 2013-2025 Noelia Ruiz Martínez, other contributors
 # Released under GPL2
 
 import config
@@ -19,8 +19,7 @@ def onInstall():
 	import globalVars
 	import os
 	import shutil
-	import gui
-	import wx
+	from gui.message import MessageDialog, ReturnCode
 	ADDON_DICTS_PATH = os.path.abspath(
 		os.path.join(os.path.dirname(__file__), "globalPlugins", "emoticons", "emoticons")
 	)
@@ -30,16 +29,15 @@ def onInstall():
 		or os.path.isfile(os.path.join(globalVars.appArgs.configPath, "emoticons.ini"))
 		or os.path.isdir(EXPORT_DICTS_PATH)
 	):
-		if gui.messageBox(
+		if MessageDialog.ask(
 			_(
-				# Translators: the label of a message box dialog.
+				# Translators: the label of a message dialog.
 				"You seem to have previous settings saved for this add-on."
 				" Do you want to import them, removing deprecated files?"
 			),
-			# Translators: the title of a message box dialog.
+			# Translators: the title of a message dialog.
 			_("Import Emoticons add-on settings"),
-			wx.YES | wx.NO | wx.ICON_WARNING
-		) == wx.YES:
+		) == ReturnCode.YES:
 			try:
 				os.makedirs(EXPORT_DICTS_PATH)
 				shutil.copy(os.path.join(WritePaths.speechDictsDir, "emoticons.dic"), EXPORT_DICTS_PATH)
