@@ -1,3 +1,0 @@
-## Changes ##
-* Updated translations.
-
