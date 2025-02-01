@@ -20,8 +20,9 @@ def onInstall():
 	import os
 	import shutil
 	from gui.message import MessageDialog, ReturnCode
+
 	ADDON_DICTS_PATH = os.path.abspath(
-		os.path.join(os.path.dirname(__file__), "globalPlugins", "emoticons", "emoticons")
+		os.path.join(os.path.dirname(__file__), "globalPlugins", "emoticons", "emoticons"),
 	)
 	EXPORT_DICTS_PATH = os.path.join(WritePaths.speechDictsDir, "emoticons")
 	if (
@@ -29,15 +30,18 @@ def onInstall():
 		or os.path.isfile(os.path.join(globalVars.appArgs.configPath, "emoticons.ini"))
 		or os.path.isdir(EXPORT_DICTS_PATH)
 	):
-		if MessageDialog.ask(
-			_(
-				# Translators: the label of a message dialog.
-				"You seem to have previous settings saved for this add-on."
-				" Do you want to import them, removing deprecated files?"
-			),
-			# Translators: the title of a message dialog.
-			_("Import Emoticons add-on settings"),
-		) == ReturnCode.YES:
+		if (
+			MessageDialog.ask(
+				_(
+					# Translators: the label of a message dialog.
+					"You seem to have previous settings saved for this add-on."
+					" Do you want to import them, removing deprecated files?",
+				),
+				# Translators: the title of a message dialog.
+				_("Import Emoticons add-on settings"),
+			)
+			== ReturnCode.YES
+		):
 			try:
 				os.makedirs(EXPORT_DICTS_PATH)
 				shutil.copy(os.path.join(WritePaths.speechDictsDir, "emoticons.dic"), EXPORT_DICTS_PATH)
@@ -59,7 +63,12 @@ def onInstall():
 					pass
 			return
 	previousDictsPath = os.path.join(
-		globalVars.appArgs.configPath, "addons", "emoticons", "globalPlugins", "emoticons", "emoticons"
+		globalVars.appArgs.configPath,
+		"addons",
+		"emoticons",
+		"globalPlugins",
+		"emoticons",
+		"emoticons",
 	)
 	if os.path.isdir(previousDictsPath):
 		shutil.copytree(previousDictsPath, ADDON_DICTS_PATH)

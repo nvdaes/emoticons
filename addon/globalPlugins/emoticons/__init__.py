@@ -86,7 +86,6 @@ def deactivateAnnouncement():
 
 @disableInSecureMode
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
-
 	scriptCategory = SCRCAT_SPEECH
 
 	def handleConfigProfileSwitch(self):
@@ -116,14 +115,22 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			# Case and reg are always True
 			defaultDic.append(
 				speechDictHandler.SpeechDictEntry(
-					em.pattern, otherReplacement, comment, True, speechDictHandler.ENTRY_TYPE_REGEXP
-				)
+					em.pattern,
+					otherReplacement,
+					comment,
+					True,
+					speechDictHandler.ENTRY_TYPE_REGEXP,
+				),
 			)
 			if not em.isEmoji:
 				noEmojisDic.append(
 					speechDictHandler.SpeechDictEntry(
-						em.pattern, otherReplacement, comment, True, speechDictHandler.ENTRY_TYPE_REGEXP
-					)
+						em.pattern,
+						otherReplacement,
+						comment,
+						True,
+						speechDictHandler.ENTRY_TYPE_REGEXP,
+					),
 				)
 		global profileName, oldProfileName
 		profileName = oldProfileName = config.conf.profiles[-1].name
@@ -140,7 +147,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			# Translators: the name for a menu item.
 			_("&Insert emoticon..."),
 			# Translators: the tooltip text for a menu item.
-			_("Shows a dialog to insert a smiley")
+			_("Shows a dialog to insert a smiley"),
 		)
 		gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onInsertEmoticonDialog, self.insertItem)
 		self.insertSymbolItem = self.emoticonsMenu.Append(
@@ -148,7 +155,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			# Translators: the name for a menu item.
 			_("In&sert symbol..."),
 			# Translators: the tooltip text for a menu item.
-			_("Shows a dialog to insert a symbol")
+			_("Shows a dialog to insert a symbol"),
 		)
 		gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onInsertSymbolDialog, self.insertSymbolItem)
 		self.dicItem = self.dicMenu.Append(
@@ -156,7 +163,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			# Translators: the name for a menu item.
 			_("&Emoticons dictionary..."),
 			# Translators: the tooltip text for a menu item.
-			_("Shows a dictionary dialog to customize emoticons")
+			_("Shows a dictionary dialog to customize emoticons"),
 		)
 		gui.mainFrame.sysTrayIcon.Bind(wx.EVT_MENU, self.onEmDicDialog, self.dicItem)
 		NVDASettingsDialog.categoryClasses.append(AddonSettingsPanel)
@@ -180,7 +187,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		profileName = oldProfileName = None
 		if config.conf["emoticons"]["cleanDicts"]:
 			profileNames = config.conf.listProfiles()
-			for (root, dirs, files) in os.walk(os.path.join(ADDON_DICTS_PATH, "profiles")):
+			for root, dirs, files in os.walk(os.path.join(ADDON_DICTS_PATH, "profiles")):
 				for file in files:
 					if os.path.splitext(file)[0] in profileNames:
 						continue
@@ -204,7 +211,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@script(
 		# Translators: Message presented in input help mode.
 		description=_("Toggles on and off the announcement of emoticons."),
-		gesture="kb:NVDA+e"
+		gesture="kb:NVDA+e",
 	)
 	def script_toggleSpeakingEmoticons(self, gesture):
 		if not globalVars.speechDictionaryProcessing:
@@ -224,7 +231,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# Translators: Message presented in input help mode.
 		description=_("Shows a dialog to select a smiley you want to paste."),
 		category=SCRCAT_TOOLS,
-		gesture="kb:NVDA+i"
+		gesture="kb:NVDA+i",
 	)
 	def script_insertEmoticon(self, gesture):
 		wx.CallAfter(self.onInsertEmoticonDialog, None)
@@ -240,7 +247,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@script(
 		# Translators: Message presented in input help mode.
 		description=_("Shows the Emoticons dictionary dialog."),
-		category=SCRCAT_CONFIG
+		category=SCRCAT_CONFIG,
 	)
 	def script_emDicDialog(self, gesture):
 		wx.CallAfter(self.onEmDicDialog, None)
@@ -248,7 +255,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@script(
 		# Translators: Message presented in input help mode.
 		description=_("Shows the Emoticons settings."),
-		category=SCRCAT_CONFIG
+		category=SCRCAT_CONFIG,
 	)
 	def script_settings(self, gesture):
 		wx.CallAfter(self.onSettingsPanel, None)
@@ -256,10 +263,10 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	# Borrowed from NVDA's code.
 	def _getCurrentLanguageForTextInfo(self, info):
 		curLanguage = None
-		if config.conf['speech']['autoLanguageSwitching']:
+		if config.conf["speech"]["autoLanguageSwitching"]:
 			for field in info.getTextWithFields({}):
 				if isinstance(field, textInfos.FieldCommand) and field.command == "formatChange":
-					curLanguage = field.field.get('language')
+					curLanguage = field.field.get("language")
 		if curLanguage is None:
 			curLanguage = speech.getCurrentLanguage()
 		return curLanguage
@@ -267,7 +274,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@script(
 		# Translators: Message presented in input help mode.
 		description=_("Shows the symbol positioned where the review cursor is located."),
-		category=SCRCAT_TEXTREVIEW
+		category=SCRCAT_TEXTREVIEW,
 	)
 	def script_showReviewCursorSymbol(self, gesture):
 		info = api.getReviewPosition().copy()
@@ -290,14 +297,18 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@script(
 		# Translators: Message presented in input help mode.
 		description=_("Shows the symbol positioned where the caret is located."),
-		category=SCRCAT_TEXTREVIEW
+		category=SCRCAT_TEXTREVIEW,
 	)
 	def script_showCaretSymbol(self, gesture):
 		obj = api.getFocusObject()
 		treeInterceptor = obj.treeInterceptor
-		if isinstance(
-			treeInterceptor, treeInterceptorHandler.DocumentTreeInterceptor
-		) and not treeInterceptor.passThrough:
+		if (
+			isinstance(
+				treeInterceptor,
+				treeInterceptorHandler.DocumentTreeInterceptor,
+			)
+			and not treeInterceptor.passThrough
+		):
 			obj = treeInterceptor
 		try:
 			info = obj.makeTextInfo(textInfos.POSITION_CARET)
@@ -348,7 +359,7 @@ class FilterEmoji(EmoticonFilter):
 
 
 class InsertEmoticonDialog(wx.Dialog):
-	""" A dialog  to insert emoticons from a list. """
+	"""A dialog  to insert emoticons from a list."""
 
 	_instance = None
 	_filteredEmoticons = None
@@ -366,8 +377,8 @@ class InsertEmoticonDialog(wx.Dialog):
 		x = w / 2
 		y = h / 2
 		# Minus application offset
-		x -= (width / 2)
-		y -= (height / 2)
+		x -= width / 2
+		y -= height / 2
 		return (x, y)
 
 	def __init__(self, parent):
@@ -379,8 +390,10 @@ class InsertEmoticonDialog(wx.Dialog):
 		pos = self._calculatePosition(WIDTH, HEIGHT)
 		super(InsertEmoticonDialog, self).__init__(
 			# Translators: Title of the dialog.
-			parent, title=_("Insert emoticon"),
-			pos=pos, size=(WIDTH, HEIGHT)
+			parent,
+			title=_("Insert emoticon"),
+			pos=pos,
+			size=(WIDTH, HEIGHT),
 		)
 		self._filteredEmoticons = emoticons
 		self._filter = EmoticonFilter()
@@ -403,7 +416,10 @@ class InsertEmoticonDialog(wx.Dialog):
 		# List of emoticons.
 		self.smileysList = self.sizerLayout.addLabeledControl(
 			# Translators: Label for the smileys list.
-			_("&List of smilies"), wx.ListCtrl, size=(490, 400), style=wx.LC_REPORT | wx.BORDER_SUNKEN
+			_("&List of smilies"),
+			wx.ListCtrl,
+			size=(490, 400),
+			style=wx.LC_REPORT | wx.BORDER_SUNKEN,
 		)
 		# Translators: Column which specifies the name  of emoticon.
 		self.smileysList.InsertColumn(0, _("Name"), width=350)
@@ -463,8 +479,10 @@ class InsertEmoticonDialog(wx.Dialog):
 			else:
 				MessageDialog.alert(
 					# Translators: Error message when none emoticon is selected or the list is empty, and title of dialog.
-					_("There is not any emoticon selected."), translate("Error"),
-					parent=self, style=wx.OK | wx.ICON_ERROR
+					_("There is not any emoticon selected."),
+					translate("Error"),
+					parent=self,
+					style=wx.OK | wx.ICON_ERROR,
 				)
 				return
 		icon = self._filteredEmoticons[focusedItem]
@@ -501,7 +519,6 @@ class InsertEmoticonDialog(wx.Dialog):
 
 
 class EmDicDialog(DictionaryDialog):
-
 	def __init__(self, parent):
 		disp = profileName if profileName else translate("(normal configuration)")
 		# Translators: Title for Emoticons dictionary dialog.
@@ -510,7 +527,7 @@ class EmDicDialog(DictionaryDialog):
 		super().__init__(
 			parent,
 			title=dialogTitle,
-			speechDict=sD
+			speechDict=sD,
 		)
 
 	def makeSettings(self, settingsSizer):
@@ -519,12 +536,12 @@ class EmDicDialog(DictionaryDialog):
 		bHelper.addButton(
 			parent=self,
 			# Translators: The label for a button in the Emoticons dictionary dialog.
-			label=_("Rese&t")
+			label=_("Rese&t"),
 		).Bind(wx.EVT_BUTTON, self.OnResetClick)
 		bHelper.addButton(
 			parent=self,
 			# Translators: The label for a button in the Emoticons dictionary dialog.
-			label=_("Save and e&xport dictionary")
+			label=_("Save and e&xport dictionary"),
 		).Bind(wx.EVT_BUTTON, self.OnExportClick)
 		sHelper.addItem(bHelper)
 		super(EmDicDialog, self).makeSettings(settingsSizer)
@@ -540,7 +557,7 @@ class EmDicDialog(DictionaryDialog):
 		self.tempSpeechDict.extend(self.dic)
 		for entry in self.dic:
 			self.dictList.Append(
-				(entry.comment, entry.pattern, entry.replacement, True, speechDictHandler.ENTRY_TYPE_REGEXP)
+				(entry.comment, entry.pattern, entry.replacement, True, speechDictHandler.ENTRY_TYPE_REGEXP),
 			)
 		self.dictList.SetFocus()
 
@@ -567,7 +584,6 @@ class EmDicDialog(DictionaryDialog):
 
 
 class InsertSymbolDialog(SpeechSymbolsDialog):
-
 	helpId = ""
 
 	def __init__(self, parent):
@@ -576,7 +592,9 @@ class InsertSymbolDialog(SpeechSymbolsDialog):
 		)
 		# Translators: This is the label for the Insert Symbol dialog.
 		# %s is replaced by the language for which symbol pronunciation is being edited.
-		self.SetTitle(_("Insert Symbol (%s)") % languageHandler.getLanguageDescription(self.symbolProcessor.locale))
+		self.SetTitle(
+			_("Insert Symbol (%s)") % languageHandler.getLanguageDescription(self.symbolProcessor.locale)
+		)
 
 	def makeSettings(self, settingsSizer):
 		self.filteredSymbols = self.symbols = [
@@ -598,7 +616,7 @@ class InsertSymbolDialog(SpeechSymbolsDialog):
 			nvdaControls.AutoWidthColumnListCtrl,
 			autoSizeColumn=2,  # The replacement column is likely to need the most space
 			itemTextCallable=self.getItemTextForList,
-			style=wx.LC_REPORT | wx.LC_SINGLE_SEL | wx.LC_VIRTUAL
+			style=wx.LC_REPORT | wx.LC_SINGLE_SEL | wx.LC_VIRTUAL,
 		)
 
 		# Translators: The label for a column in symbols list used to identify a symbol.
@@ -610,7 +628,7 @@ class InsertSymbolDialog(SpeechSymbolsDialog):
 		bHelper.addButton(
 			parent=self,
 			# Translators: The label for a button in the Insert symbol dialog.
-			label=_("&Add")
+			label=_("&Add"),
 		).Bind(wx.EVT_BUTTON, self.onCopyClick)
 
 		# Translators: The label of a text field to copy symbols in the Insert Symbol dialog.
@@ -658,7 +676,6 @@ class InsertSymbolDialog(SpeechSymbolsDialog):
 
 
 class AddonSettingsPanel(SettingsPanel):
-
 	# Translators: this is the title for the Emoticons panel.
 	title = ADDON_PANEL_TITLE
 

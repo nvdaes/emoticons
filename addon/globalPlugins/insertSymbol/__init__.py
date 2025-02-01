@@ -10,7 +10,6 @@ import brailleInput
 
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
-
 	# Translators: Script category for commands to insert symbols.
 	scriptCategory = _("Insert symbols")
 
@@ -24,7 +23,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@classmethod
 	def getSymbols(cls):
 		try:
-			processor = characterProcessing._localeSpeechSymbolProcessors.fetchLocaleData(speech.getCurrentLanguage())
+			processor = characterProcessing._localeSpeechSymbolProcessors.fetchLocaleData(
+				speech.getCurrentLanguage()
+			)
 		except LookupError:
 			processor = characterProcessing._localeSpeechSymbolProcessors.fetchLocaleData("en")
 		symbols = [copy.copy(symbol) for symbol in processor.computedSymbols.values()]

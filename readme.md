@@ -50,7 +50,7 @@ Saving your customizations, the new reading settings of emoticons  will only app
 
 For example, you may wish that NVDA spoken custom emoticons only in XxChat program, but not in other chat programs: you can do this by creating a profile for the XxChat application and assign to it a speech  dictionary from Speech dictionaries menu, Emoticons dictionary option. See below for Emoticons settings in relation to the configuration profiles.
 
-You can also export each custom speech-dictionary pressing "Save and export dictionary" button: in this way your  speech-dictionaries will be saved in your user config folder, speechDicts/emoticons subfolder. 
+You can also export each custom speech-dictionary pressing "Save and export dictionary" button: in this way your  speech-dictionaries will be saved in your user config folder, speechDicts/emoticons subfolder.
 
 The exact name and location of the dictionary file will be based on the editing configuration profile, which will be shown in the title of the Emoticons dictionary dialog.
 
@@ -147,7 +147,7 @@ Note: On Windows 10 and higher, it's also possible to use the built-in emoji pan
 
 * Added support for emojis.
 * Improvements for Insert Emoticon dialog with a filter field and radio buttons to choose displayed emoticons.
-* Using guiHelper for Activation settings dialog and Insert Emoticon dialog: requires NVDA 2016.4 or higher versions 
+* Using guiHelper for Activation settings dialog and Insert Emoticon dialog: requires NVDA 2016.4 or higher versions
 
 ## Changes for 4.0 ##
 
@@ -172,5 +172,3 @@ Note: On Windows 10 and higher, it's also possible to use the built-in emoji pan
 ## Changes for 1.0 ##
 
 * Initial version.
-
-
