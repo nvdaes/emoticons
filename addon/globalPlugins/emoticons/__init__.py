@@ -391,6 +391,7 @@ class InsertEmoticonDialog(wx.Dialog):
 		super(InsertEmoticonDialog, self).__init__(
 			# Translators: Title of the dialog.
 			parent,
+			# Translators: Title of the dialog.
 			title=_("Insert emoticon"),
 			pos=pos,
 			size=(WIDTH, HEIGHT),
@@ -592,6 +593,7 @@ class InsertSymbolDialog(SpeechSymbolsDialog):
 		)
 		# Translators: This is the label for the Insert Symbol dialog.
 		# %s is replaced by the language for which symbol pronunciation is being edited.
+		# Translators: This is the label for the Insert Symbol dialog.
 		self.SetTitle(
 			_("Insert Symbol (%s)") % languageHandler.getLanguageDescription(self.symbolProcessor.locale)
 		)
