@@ -208,3 +208,4 @@ panel.
 * prvé vydanie.
 
 [[!tag dev stable]]
+

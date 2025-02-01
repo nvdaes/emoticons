@@ -233,3 +233,4 @@ panel.
 * Перша версія.
 
 [[!tag dev stable]]
+
