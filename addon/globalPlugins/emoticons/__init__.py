@@ -595,7 +595,7 @@ class InsertSymbolDialog(SpeechSymbolsDialog):
 		# %s is replaced by the language for which symbol pronunciation is being edited.
 		# Translators: This is the label for the Insert Symbol dialog.
 		self.SetTitle(
-			_("Insert Symbol (%s)") % languageHandler.getLanguageDescription(self.symbolProcessor.locale)
+			_("Insert Symbol (%s)") % languageHandler.getLanguageDescription(self.symbolProcessor.locale),
 		)
 
 	def makeSettings(self, settingsSizer):

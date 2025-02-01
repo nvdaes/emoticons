@@ -24,7 +24,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def getSymbols(cls):
 		try:
 			processor = characterProcessing._localeSpeechSymbolProcessors.fetchLocaleData(
-				speech.getCurrentLanguage()
+				speech.getCurrentLanguage(),
 			)
 		except LookupError:
 			processor = characterProcessing._localeSpeechSymbolProcessors.fetchLocaleData("en")
