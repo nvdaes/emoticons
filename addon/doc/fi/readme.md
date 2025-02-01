@@ -235,3 +235,4 @@ sisäänrakennettua emojipaneelia.
 * Ensimmäinen versio.
 
 [[!tag dev stable]]
+
