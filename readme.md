@@ -76,6 +76,10 @@ These are the key commands available by default, you can edit those or add new k
 
 Note: On Windows 10 and higher, it's also possible to use the built-in emoji panel.
 
+## Changes for 33.0.0
+
+* Fixed bug in Save and export dictionaries.
+
 ## Changes for 22.0.0 ##
 
 * Requires NVDA 2023.2 or later.
