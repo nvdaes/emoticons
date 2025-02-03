@@ -237,4 +237,3 @@ ploču emojija.
 * Prvo izdanje.
 
 [[!tag dev stable]]
-

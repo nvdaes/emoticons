@@ -20,7 +20,7 @@ Belirli bir suratları (smiley) oluşturmak için gereken karakterlerden emin
 değilseniz, bu eklenti  bir sohbete emojiyi olduğu gibi metninize seçip
 eklemenizi sağlar.
 
-NVDA+i tuşuna basarak veya nvda menusu+araşlar+ifadeler alt menüsünden ifade ekle öğesini etkinleştirerek ifadeler ve emojilerin bulunduğu iletişim kutusuna ulaşabilirsiniz. 
+NVDA+i tuşuna basarak veya nvda menusu+araşlar+ifadeler alt menüsünden ifade ekle öğesini etkinleştirerek ifadeler ve emojilerin bulunduğu iletişim kutusuna ulaşabilirsiniz.
 
 Bu iletişim kutusu, bir ifade seçmenizi veya ilginizi çeken ifadeleri
 görüntülemenizi sağlar:
@@ -243,4 +243,3 @@ mümkündür.
 * İlk sürüm.
 
 [[!tag dev stable]]
-
