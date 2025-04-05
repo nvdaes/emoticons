@@ -125,6 +125,11 @@ speechDicts/emoticons.
 Забележка: В Windows 10 и по-нови версии е възможно да използвате и
 вградения панел за вмъкване на емоджи.
 
+## Changes for 33.0.0
+
+* Fixed bug in Save and export dictionaries.
+* Added copy and close buttons to messages presented in browse mode.
+
 ## Промени във версия 22.0.0 ##
 
 * Изисква NVDA 2023.2 или по-нова.

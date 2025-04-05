@@ -117,6 +117,11 @@ za Rječnik emotikona:
 Napomena: Na Windows 10 i novijim verzijama moguće je koristiti i ugrađenu
 ploču emojija.
 
+## Changes for 33.0.0
+
+* Fixed bug in Save and export dictionaries.
+* Added copy and close buttons to messages presented in browse mode.
+
 ## Promjene u verziji 22.0.0 ##
 
 * Zahtijeva NVDA verziju 2023.2 ili noviju.

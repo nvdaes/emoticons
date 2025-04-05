@@ -116,6 +116,12 @@ Hymiöt-asetuspaneelin tai hymiösanastovalintaikkunan avaamiseen:
 Huom: Windows 10:ssä ja uudemmissa on mahdollista käyttää myös
 sisäänrakennettua emojipaneelia.
 
+## Muutokset versiossa 33.0.0
+
+* Sanakirjojen tallennuksen ja viennin virhe korjattu.
+* Selaustilassa näytettäviin ilmoituksiin lisätty Kopioi- ja
+  Sulje-painikkeet.
+
 ## Muutokset versiossa 22.0.0 ##
 
 * Edellyttää NVDA 2018.2:ta tai uudempaa.
@@ -204,8 +210,8 @@ sisäänrakennettua emojipaneelia.
 * Lisätty tuki emojeille.
 * Hymiönlisäysvalintaikkunaa paranneltu suodatuskentällä ja
   valintapainikkeilla hymiötyypin valitsemiseksi.
-* Käytetään guiHelperiä käyttöönottoasetusten ja Lisää hymiö
-  -valintaikkunalle. Edellyttää NVDA:n 2016.4-versiota tai uudempaa.
+* Käytetään guiHelperiä käyttöönottoasetusten ja hymiöiden
+  lisäysvalintaikkunalle. Edellyttää NVDA:n 2016.4-versiota tai uudempaa.
 
 ## Muutokset versiossa 4.0 ##
 

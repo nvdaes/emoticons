@@ -127,6 +127,11 @@ Emoticons ou o diálogo Dicionário de Emoticons:
 
 Nota: No Windows 10, também é possível usar o painel de emojis integrado.
 
+## Changes for 33.0.0
+
+* Fixed bug in Save and export dictionaries.
+* Added copy and close buttons to messages presented in browse mode.
+
 ## Mudanças na 22.0.0 ##
 
 * Requer o NVDA 2023.2 ou posterior.

@@ -115,6 +115,11 @@ skrót służący do wywołania dialogu aktywacji lub słownika emotikonów:
 Uwaga: W systemie Windows 10 i nowszych można również korzystać z
 wbudowanego panelu emoji.
 
+## Changes for 33.0.0
+
+* Fixed bug in Save and export dictionaries.
+* Added copy and close buttons to messages presented in browse mode.
+
 ## Changes for 22.0.0 ##
 
 * Requires NVDA 2023.2 or later.

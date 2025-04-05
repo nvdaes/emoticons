@@ -124,6 +124,11 @@ Diccionario de Emoticóns:
 Nota: En Windows 10 e superior, tamén é posible utilizar o panel de emoji
 integrado.
 
+## Changes for 33.0.0
+
+* Fixed bug in Save and export dictionaries.
+* Added copy and close buttons to messages presented in browse mode.
+
 ## Changes for 22.0.0 ##
 
 * Requires NVDA 2023.2 or later.

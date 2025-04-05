@@ -127,6 +127,11 @@ Emoticons sau dialogul dicționarului de emoticoane:
 Note: On Windows 10 and higher, it's also possible to use the built-in emoji
 panel.
 
+## Changes for 33.0.0
+
+* Fixed bug in Save and export dictionaries.
+* Added copy and close buttons to messages presented in browse mode.
+
 ## Changes for 22.0.0 ##
 
 * Requires NVDA 2023.2 or later.

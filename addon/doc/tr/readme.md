@@ -124,6 +124,11 @@ düzenleyebilir VEYA YENİkısayol komutları ekleyebilirsiniz:
 Not: Windows 10 ve üzeri sürümlerde yerleşik emoji panelini kullanmak da
 mümkündür.
 
+## 33.0.0 için değişiklikler
+
+* Sözlükleri kaydetme ve Dışa Aktarma hataları düzeltildi.
+* Gözatma modunda sunulan mesajlara kopyala ve kapat düğmeleri eklendi.
+
 ## 22.0.0 için değişiklikler ##
 
 * NVDA 2023.2 veya sonraki sürümleri gereklidir.

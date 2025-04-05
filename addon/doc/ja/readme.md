@@ -87,6 +87,11 @@ Emoticons設定パネルにて、NVDAが現在編集しているプロファイ�
 
 備考: Windows 10以降では、搭載の絵文字パネルを使用することも可能です。
 
+## Changes for 33.0.0
+
+* Fixed bug in Save and export dictionaries.
+* Added copy and close buttons to messages presented in browse mode.
+
 ## Changes for 22.0.0 ##
 
 * Requires NVDA 2023.2 or later.
