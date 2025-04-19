@@ -126,10 +126,11 @@ Diccionario de Emoticonos:
 Nota: en Windows 10 y posterior, también es posible usar el panel de emojis
 incorporado.
 
-## Changes for 33.0.0
+## Cambios para 33.0.0
 
-* Fixed bug in Save and export dictionaries.
-* Added copy and close buttons to messages presented in browse mode.
+* Se corrige un fallo al guardar y exportar diccionarios.
+* Se añaden botones para copiar y cerrar en los mensajes presentados en modo
+  exploración.
 
 ## Cambios para 22.0.0 ##
 

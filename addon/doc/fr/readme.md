@@ -131,10 +131,11 @@ dialogue Dictionnaire des émoticônes :
 Note : Sous Windows 10 et supérieure, il est également possible d’utiliser
 le panneau emoji intégré.
 
-## Changes for 33.0.0
+## Changements pour la version 33.0.0
 
-* Fixed bug in Save and export dictionaries.
-* Added copy and close buttons to messages presented in browse mode.
+* Correction d'un bug dans Sauvegarder et exporter le dictionnaire.
+* Ajouter des boutons Copier et Fermer aux messages présentés en Mode
+  Navigation.
 
 ## Changements pour la version 22.0.0 ##
 
