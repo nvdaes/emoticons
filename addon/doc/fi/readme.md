@@ -19,7 +19,7 @@ tuntuu.
 Kun olet epävarma jonkin tietyn hymiön merkeistä, tämän lisäosan avulla voit
 valita ja lisätä ne tekstiisi, kuten esim. chattiin.
 
-Paina NVDA+I tai valitse Työkalut / Hymiöt / Lisää hymiö avataksesi valintaikkunan, jossa näkyvät käytettävissä olevat hymiöt ja emojit.
+Paina NVDA+I tai valitse Työkalut > Hymiöt > Lisää hymiö avataksesi valintaikkunan, jossa näkyvät käytettävissä olevat hymiöt ja emojit.
 
 Tästä valintaikkunasta voit valita haluamasi hymiön ja tarkastella
 sellaisia, jotka sinua kiinnostavat:
@@ -63,7 +63,7 @@ Hymiöt-lisäosa mahdollistaa eri puhesanastot asetusprofiileja käyttäen.
 Tämä tarkoittaa, että voit luoda kullekin profiilille oman puhesanaston tai
 muokata sitä.
 
-Voit avata valintaikkunan uusien hymiöiden lisäämiseksi tai olemassa olevien muokkaamiseksi valitsemalla NVDA-valikosta Asetukset -> Puhesanastot -> Hymiöt.
+Voit avata valintaikkunan uusien hymiöiden lisäämistä tai olemassa olevien muokkaamista varten valitsemalla NVDA-valikosta Mukautukset > Puhesanastot > Hymiöt.
 
 Uudet hymiöiden lukuasetukset koskevat vain muokattavaa profiilia.
 
@@ -82,7 +82,7 @@ profiilin mukaan, joka näkyy hymiösanastovalintaikkunan nimessä.
 
 ## Hymiöt-lisäosan asetukset ##
 
-Asetukset-valikon kohdasta Asetukset -> Hymiöt avautuu paneeli, josta voit määrittää puhesanastojen käyttöönoton asetukset kullekin asetusprofiilille.
+Mukautukset-valikon kohdasta Asetukset > Hymiöt avautuu paneeli, josta voit määrittää puhesanastojen käyttöönoton asetukset kullekin asetusprofiilille.
 
 Hymiöt-asetuspaneelissa voit valita, otetaanko puhesanasto automaattisesti käyttöön NVDA:n vaihtaessa muokkaamaasi profiiliin. Asetus ei ole  oletusarvoisesti käytössä NVDA:n normaaleissa asetuksissa eikä uusissa profiileissa.
 
