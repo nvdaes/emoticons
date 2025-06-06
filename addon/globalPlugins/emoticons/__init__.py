@@ -693,7 +693,7 @@ class AddonSettingsPanel(SettingsPanel):
 		self.emojiCheckBox.Value = config.conf["emoticons"]["speakAddonEmojis"]
 		self.insertedSymbolCheckBox = sHelper.addItem(
 			# Translators: The label for a setting in Emoticons panel.
-			wx.CheckBox(self, label=_("Ensure speaking of inserted symbols"))
+			wx.CheckBox(self, label=_("Ensure speaking of inserted symbols")),
 		)
 		self.insertedSymbolCheckBox.Value = config.conf["emoticons"]["speakInsertedSymbols"]
 		# Translators: The label for a setting in Emoticons panel.
