@@ -12,6 +12,7 @@ import config
 from config import configFlags
 import core
 
+
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	# Translators: Script category for commands to insert symbols.
 	scriptCategory = _("Insert symbols")
@@ -43,12 +44,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def _symbolScript(cls, symbol):
 		brailleInput.handler.sendChars(symbol.identifier)
 		typingEchoMode = config.conf["keyboard"]["speakTypedCharacters"]
-		if (
-			typingEchoMode == config.configFlags.TypingEcho.OFF.value
-			or (
-				typingEchoMode == config.configFlags.TypingEcho.EDIT_CONTROLS.value
-				and not speech.speech.isFocusEditable()
-			)
+		if typingEchoMode == config.configFlags.TypingEcho.OFF.value or (
+			typingEchoMode == config.configFlags.TypingEcho.EDIT_CONTROLS.value
+			and not speech.speech.isFocusEditable()
 		):
 			return
 		wx.CallAfter(speech.speakText, symbol.replacement)
