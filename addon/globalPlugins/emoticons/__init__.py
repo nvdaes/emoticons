@@ -43,6 +43,7 @@ ADDON_PANEL_TITLE = ADDON_SUMMARY
 confspec = {
 	"announcement": "integer(default=0)",
 	"speakAddonEmojis": "boolean(default=False)",
+	"speakInsertedSymbols": "boolean(default=False)",
 	"cleanDicts": "boolean(default=False)",
 }
 
@@ -690,6 +691,11 @@ class AddonSettingsPanel(SettingsPanel):
 		# Translators: The label for a setting in Emoticons panel.
 		self.emojiCheckBox = sHelper.addItem(wx.CheckBox(self, label=_("Speak add-on emojis")))
 		self.emojiCheckBox.Value = config.conf["emoticons"]["speakAddonEmojis"]
+		self.insertedSymbolCheckBox = sHelper.addItem(
+			# Translators: The label for a setting in Emoticons panel.
+			wx.CheckBox(self, label=_("Ensure speaking of inserted symbols")),
+		)
+		self.insertedSymbolCheckBox.Value = config.conf["emoticons"]["speakInsertedSymbols"]
 		# Translators: The label for a setting in Emoticons panel.
 		self.removeCheckBox = sHelper.addItem(wx.CheckBox(self, label=_("&Remove not used dictionaries")))
 		self.removeCheckBox.Value = config.conf["emoticons"]["cleanDicts"]
@@ -708,4 +714,5 @@ class AddonSettingsPanel(SettingsPanel):
 			activateAnnouncement()
 		elif not config.conf["emoticons"]["announcement"] and announcement:
 			deactivateAnnouncement()
+		config.conf["emoticons"]["speakInsertedSymbols"] = self.insertedSymbolCheckBox.Value
 		config.conf["emoticons"]["cleanDicts"] = self.removeCheckBox.Value
