@@ -80,6 +80,7 @@ Note: On Windows 10 and higher, it's also possible to use the built-in emoji pan
 
 * Fixed bug in Save and export dictionaries.
 * Added copy and close buttons to messages presented in browse mode.
+* When using commands to insert symbols, they may be spoken according to the speak typed characters option.
 
 ## Changes for 22.0.0 ##
 

@@ -1,13 +1,16 @@
-# -*- coding: UTF-8 -*-
-# Copyright (C) 2021-2023 Noelia Ruiz Martínez
+# Copyright (C) 2021-2025 Noelia Ruiz Martínez
 # Released under GPL 2
+
+import wx
 
 import globalPluginHandler
 import characterProcessing
 import speech
 import copy
 import brailleInput
-
+import config
+from config import configFlags
+import core
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	# Translators: Script category for commands to insert symbols.
@@ -39,6 +42,16 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@classmethod
 	def _symbolScript(cls, symbol):
 		brailleInput.handler.sendChars(symbol.identifier)
+		typingEchoMode = config.conf["keyboard"]["speakTypedCharacters"]
+		if (
+			typingEchoMode == config.configFlags.TypingEcho.OFF.value
+			or (
+				typingEchoMode == config.configFlags.TypingEcho.EDIT_CONTROLS.value
+				and not speech.speech.isFocusEditable()
+			)
+		):
+			return
+		wx.CallAfter(speech.speakText, symbol.replacement)
 
 	@classmethod
 	def addScriptForSymbol(cls, symbol):
