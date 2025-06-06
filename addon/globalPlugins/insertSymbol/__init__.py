@@ -51,7 +51,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			)
 		):
 			return
-		wx.CallAfter(speech.speakText, symbol.replacement)
+		wx.CallAfter(speech.speech.speakText, symbol.replacement)
 
 	@classmethod
 	def addScriptForSymbol(cls, symbol):
