@@ -41,6 +41,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@classmethod
 	def _symbolScript(cls, symbol):
 		brailleInput.handler.sendChars(symbol.identifier)
+		if not config.conf["emoticons"]["speakInsertedSymbols"]:
+			return
 		typingEchoMode = config.conf["keyboard"]["speakTypedCharacters"]
 		if typingEchoMode == config.configFlags.TypingEcho.OFF.value or (
 			typingEchoMode == config.configFlags.TypingEcho.EDIT_CONTROLS.value
