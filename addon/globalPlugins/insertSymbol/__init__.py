@@ -9,8 +9,6 @@ import speech
 import copy
 import brailleInput
 import config
-from config import configFlags
-import core
 
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
