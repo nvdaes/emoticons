@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "emoticons"
 dynamic = ["version"]
-description = "eMule add-on for NVDA"
+description = "emoticons add-on for NVDA"
 maintainers = [
 	{name = "Noelia ruiz Martínez", email = "nrm1977@gmail.com"},
 ]
