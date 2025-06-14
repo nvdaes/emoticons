@@ -17,10 +17,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.0\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 
-#. Translators: the label of a message box dialog.
+#. Translators: the label of a message dialog.
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them, removing deprecated files?"
@@ -28,7 +28,7 @@ msgstr ""
 "Čini se da su prethodne postavke spremljene za ovaj dodatak. Želite li ih "
 "uvesti, pri čemu će se ukloniti zastarjele datoteke?"
 
-#. Translators: the title of a message box dialog.
+#. Translators: the title of a message dialog.
 msgid "Import Emoticons add-on settings"
 msgstr "Uvezi postavke dodatka za emotikone"
 
@@ -224,6 +224,11 @@ msgstr "&Aktiviraj izgovaranje emotikona:"
 #. Translators: The label for a setting in Emoticons panel.
 msgid "Speak add-on emojis"
 msgstr "Izgovaraj Emoji simbole dodatka"
+
+#. Translators: The label for a setting in Emoticons panel.
+#, fuzzy
+msgid "Ensure speaking of inserted symbols"
+msgstr "Prikazuje dijaloški okvir za umetanje simbola"
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Remove not used dictionaries"

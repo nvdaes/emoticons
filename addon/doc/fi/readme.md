@@ -90,6 +90,11 @@ Lisäksi on mahdollista määrittää, puhutaanko lisäosan emojit. Tästä voi 
 hyötyä symbolien puhumisen säilyttämisessä, jos NVDA:n asetuksiin sisältyy
 emojeita.
 
+If symbols inserted using associated gestures aren't spoken in your system,
+even when NVDA is configured to speak typed characters, you can try to
+enable a checkbox to ensure the speaking of inserted symbols.
+
+
 Mikäli haluat pitää asetuskansiosi puhtaana, tästä valintaikkunasta on myös
 mahdollista valita, poistetaanko käyttämättömät (ei-olemassa oleviin
 profiileihin liitetyt) puhesanastot lisäosasta, kun se poistetaan muistista.
@@ -121,6 +126,8 @@ sisäänrakennettua emojipaneelia.
 * Sanakirjojen tallennuksen ja viennin virhe korjattu.
 * Selaustilassa näytettäviin ilmoituksiin lisätty Kopioi- ja
   Sulje-painikkeet.
+* When using commands to insert symbols, they may be spoken according to the
+  speak typed characters option.
 
 ## Muutokset versiossa 22.0.0 ##
 

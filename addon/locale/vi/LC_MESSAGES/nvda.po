@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.6.11\n"
 
-#. Translators: the label of a message box dialog.
+#. Translators: the label of a message dialog.
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them, removing deprecated files?"
@@ -25,7 +25,7 @@ msgstr ""
 "Có vẻ như bạn đã lưu các thiết lập trước đây của add-on này. Bạn có muốn nạp "
 "chúng vào và xóa các tập tin thừa không?"
 
-#. Translators: the title of a message box dialog.
+#. Translators: the title of a message dialog.
 msgid "Import Emoticons add-on settings"
 msgstr "Nạp các thiết lập của add-on các biểu tượng cảm xúc"
 
@@ -221,6 +221,11 @@ msgstr "&Kích hoạt chế độ nói các biểu tượng cảm xúc:"
 #. Translators: The label for a setting in Emoticons panel.
 msgid "Speak add-on emojis"
 msgstr "Đọc add-on emojis"
+
+#. Translators: The label for a setting in Emoticons panel.
+#, fuzzy
+msgid "Ensure speaking of inserted symbols"
+msgstr "Hiển thị một hộp thoại để chèn kí hiệu"
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Remove not used dictionaries"

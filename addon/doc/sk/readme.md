@@ -84,6 +84,11 @@ Tu môžete určiť, či sa použije slovník s emotikonmi pre práve upravovan�
 Takisto môžete zapnúť a vypnúť oznamovanie emoji. Toto je užitočné v
 prípade, že sú emoji súčasťou NVDA.
 
+If symbols inserted using associated gestures aren't spoken in your system,
+even when NVDA is configured to speak typed characters, you can try to
+enable a checkbox to ensure the speaking of inserted symbols.
+
+
 Tiež môžete z tohto dialógu odstrániť slovníky, ktoré sa viac nepoužívajú a
 nie ú asociované so žiadnym profilom.
 
@@ -107,6 +112,8 @@ panel.
 
 * Fixed bug in Save and export dictionaries.
 * Added copy and close buttons to messages presented in browse mode.
+* When using commands to insert symbols, they may be spoken according to the
+  speak typed characters option.
 
 ## Changes for 22.0.0 ##
 

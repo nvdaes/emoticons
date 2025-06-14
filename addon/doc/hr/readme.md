@@ -92,6 +92,11 @@ Pored toga, moguće je odrediti treba li se govoriti o dodatak emojis. Ovo bi
 moglo biti korisno za očuvanje izgovaranja simbola ako su emojii uključeni u
 NVDA konfiguraciju.
 
+If symbols inserted using associated gestures aren't spoken in your system,
+even when NVDA is configured to speak typed characters, you can try to
+enable a checkbox to ensure the speaking of inserted symbols.
+
+
 Ako želite izbrisati mape s konfiguracijom, možete odabrati da se rječnici
 neće koristiti (nepostojeći profili će biti uklonjeni iz dodatka).
 
@@ -121,6 +126,8 @@ ploču emojija.
 
 * Fixed bug in Save and export dictionaries.
 * Added copy and close buttons to messages presented in browse mode.
+* When using commands to insert symbols, they may be spoken according to the
+  speak typed characters option.
 
 ## Promjene u verziji 22.0.0 ##
 

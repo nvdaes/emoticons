@@ -97,6 +97,11 @@ Nella finestra impostazioni di Emoticons è possibile scegliere se il dizionario
 vocalizzate. Ciò può essere utile per conservare la pronuncia dei simboli
 quando le emoji sono incluse nella configurazione di NVDA.
 
+If symbols inserted using associated gestures aren't spoken in your system,
+even when NVDA is configured to speak typed characters, you can try to
+enable a checkbox to ensure the speaking of inserted symbols.
+
+
 Se si preferisce tenere  pulite le cartelle di configurazione, in questa
 finestra è anche possibile scegliere se i dizionari non utilizzati (quelli
 associati ad un profilo non più esistente) verranno rimossi quando il
@@ -129,6 +134,8 @@ nativa.
 
 * Fixed bug in Save and export dictionaries.
 * Added copy and close buttons to messages presented in browse mode.
+* When using commands to insert symbols, they may be spoken according to the
+  speak typed characters option.
 
 ## Changes for 22.0.0 ##
 

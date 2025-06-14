@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Poedit 1.8.8\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#. Translators: the label of a message box dialog.
+#. Translators: the label of a message dialog.
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them, removing deprecated files?"
@@ -23,7 +23,7 @@ msgstr ""
 "Vous semblez avoir des paramètres antérieurs enregistrés pour cette "
 "extension. Voulez-vous les importer en supprimant les fichiers obsolètes ?"
 
-#. Translators: the title of a message box dialog.
+#. Translators: the title of a message dialog.
 msgid "Import Emoticons add-on settings"
 msgstr "Importer les paramètres de l'extension Emoticons"
 
@@ -224,6 +224,11 @@ msgstr "&Activer la vocalisation des émoticônes:"
 #. Translators: The label for a setting in Emoticons panel.
 msgid "Speak add-on emojis"
 msgstr "Verbaliser emojis de l'extension"
+
+#. Translators: The label for a setting in Emoticons panel.
+#, fuzzy
+msgid "Ensure speaking of inserted symbols"
+msgstr "Afficher un dialogue pour insérer un symbole"
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Remove not used dictionaries"

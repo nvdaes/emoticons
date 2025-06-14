@@ -97,6 +97,12 @@ Tercihler -> Ayarlar -> İfadeler menüsünden, her profil için konuşma sözl�
 belirlemek mümkün. Bu, NVDA'nın yapılandırmasına emojiler dahil edilmişse,
 konuşan sembolleri korumak için faydalı olabilir.
 
+İlişkili hareketler kullanılarak eklenen semboller sisteminizde
+seslendirilmiyorsa, NVDA yazılan karakterleri konuşacak şekilde
+yapılandırılmış olsa bile, eklenen sembollerin konuşmasını sağlamak için bir
+onay kutusunu etkinleştirmeyi deneyebilirsiniz.
+
+
 Konfigürasyon klasörlerinizi temiz tutmak istiyorsanız, bu iletişim
 kutusunda, kullanılmayan sözlüklerin (mevcut olmayan profillerle ilişkili)
 eklenti kaldırıldığında eklentiden kaldırılıp kaldırılmayacağını da
@@ -128,6 +134,8 @@ mümkündür.
 
 * Sözlükleri kaydetme ve Dışa Aktarma hataları düzeltildi.
 * Gözatma modunda sunulan mesajlara kopyala ve kapat düğmeleri eklendi.
+* Sembol eklemek için komutlar kullanılırken, bunlar yazılan karakterleri
+  seslendir seçeneğine göre söylenebilir.
 
 ## 22.0.0 için değişiklikler ##
 

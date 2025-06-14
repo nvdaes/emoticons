@@ -98,6 +98,11 @@
 дополнения. Это может быть полезно для сохранения речи символов, если эмодзи
 включены в конфигурацию NVDA.
 
+If symbols inserted using associated gestures aren't spoken in your system,
+even when NVDA is configured to speak typed characters, you can try to
+enable a checkbox to ensure the speaking of inserted symbols.
+
+
 Если вы хотите, чтобы папки конфигурации оставались чистыми, это диалоговое
 окно также позволяет вам выбрать, будут ли неиспользуемые словари (связанные
 с несуществующими профилями) удаляться из дополнения при его выгрузке.
@@ -128,6 +133,8 @@
 * Исправлена ошибка в экспорте и сохранении словарей.
 * Добавлены кнопки копирования и закрытия в сообщениях, представленных в
   режиме обзора.
+* When using commands to insert symbols, they may be spoken according to the
+  speak typed characters option.
 
 ## Изменения в версии 22.0.0 ##
 

@@ -92,6 +92,11 @@ W oknie dialogowym ustawień aktywacji, można określić, czy słownik wymowy p
 Przede wszystkim, można regulować wymowę emoji dodatku. To jest użyteczne
 gdy chcemy zachować wymowe emoji przez NVDA.
 
+If symbols inserted using associated gestures aren't spoken in your system,
+even when NVDA is configured to speak typed characters, you can try to
+enable a checkbox to ensure the speaking of inserted symbols.
+
+
 Jeżeli wolisz nie wprowadzać do swoich folderów konfiguracji żadnych zmian,
 możesz określić w tym samym oknie dialogowym, czy nieużywane słowniki
 (przypisane do nieistniejących profili) mają zostać usunięte z dodatku po
@@ -119,6 +124,8 @@ wbudowanego panelu emoji.
 
 * Fixed bug in Save and export dictionaries.
 * Added copy and close buttons to messages presented in browse mode.
+* When using commands to insert symbols, they may be spoken according to the
+  speak typed characters option.
 
 ## Changes for 22.0.0 ##
 

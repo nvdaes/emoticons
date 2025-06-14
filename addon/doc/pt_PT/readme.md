@@ -96,6 +96,11 @@ Além disso, é possível determinar se os emojis complementares devem ser
 falados. Isto pode ser útil para preservar os símbolos falados, se os emojis
 estiverem incluídos na configuração do NVDA.
 
+If symbols inserted using associated gestures aren't spoken in your system,
+even when NVDA is configured to speak typed characters, you can try to
+enable a checkbox to ensure the speaking of inserted symbols.
+
+
 Se quiser manter limpas as suas pastas de configuração, nesta caixa de
 diálogo também é possível escolher se os dicionários não utilizados
 (associados a perfis não existentes) serão removidos do extra quando
@@ -127,6 +132,8 @@ panel.
 
 * Fixed bug in Save and export dictionaries.
 * Added copy and close buttons to messages presented in browse mode.
+* When using commands to insert symbols, they may be spoken according to the
+  speak typed characters option.
 
 ## Changes for 22.0.0 ##
 

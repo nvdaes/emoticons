@@ -94,6 +94,11 @@ Emoticons». Див. Нижче параметри смайликів для п�
 додатку. Це може знадобитися, якщо ви хочете, аби NVDA промовляла емодзі
 так, як вони прописані в її типовій конфігурації.
 
+If symbols inserted using associated gestures aren't spoken in your system,
+even when NVDA is configured to speak typed characters, you can try to
+enable a checkbox to ensure the speaking of inserted symbols.
+
+
 У цьому діалоговому вікні можна також обрати, чи будуть видалені з додатка
 словники, які не використовуються, наприклад, пов’язані з неіснуючими
 профілями, при його деактивації.
@@ -121,6 +126,8 @@ panel.
 
 * Fixed bug in Save and export dictionaries.
 * Added copy and close buttons to messages presented in browse mode.
+* When using commands to insert symbols, they may be spoken according to the
+  speak typed characters option.
 
 ## Changes for 22.0.0 ##
 

@@ -103,6 +103,11 @@ De plus, il est possible de déterminer si les emojis de cette extension
 doivent être verbalisés. Cela pourrait être utile pour préserver les
 symboles verbaliser si des emojis sont inclus dans la configuration de NVDA.
 
+If symbols inserted using associated gestures aren't spoken in your system,
+even when NVDA is configured to speak typed characters, you can try to
+enable a checkbox to ensure the speaking of inserted symbols.
+
+
 Si vous souhaitez garder propres vos dossiers de configuration, vous pouvez
 également choisir dans ce dialogue si les dictionnaires non utilisés
 (associés à des profils non existants) seront supprimés de l'extension
@@ -136,6 +141,8 @@ le panneau emoji intégré.
 * Correction d'un bug dans Sauvegarder et exporter le dictionnaire.
 * Ajouter des boutons Copier et Fermer aux messages présentés en Mode
   Navigation.
+* When using commands to insert symbols, they may be spoken according to the
+  speak typed characters option.
 
 ## Changements pour la version 22.0.0 ##
 

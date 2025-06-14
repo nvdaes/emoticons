@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.2.3\n"
 
-#. Translators: the label of a message box dialog.
+#. Translators: the label of a message dialog.
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them, removing deprecated files?"
@@ -25,7 +25,7 @@ msgstr ""
 "Scheinbar haben Sie bereits eine ältere Konfiguration dieser Erweiterung "
 "gespeichert. Möchten Sie diese importieren?"
 
-#. Translators: the title of a message box dialog.
+#. Translators: the title of a message dialog.
 msgid "Import Emoticons add-on settings"
 msgstr "Emoticons-Einstellungen importieren"
 
@@ -235,6 +235,11 @@ msgstr "&Ansagen der Emoticons einschalten:"
 #. Translators: The label for a setting in Emoticons panel.
 msgid "Speak add-on emojis"
 msgstr "Emojis der Erweiterung sprechen"
+
+#. Translators: The label for a setting in Emoticons panel.
+#, fuzzy
+msgid "Ensure speaking of inserted symbols"
+msgstr "Zeigt ein Dialogfeld zum Einfügen eines Smileys."
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Remove not used dictionaries"

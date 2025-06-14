@@ -100,6 +100,11 @@ Din panoul de setări al Emoticons, puteți dacă ar trebui sau nu ca dicționar
 fie pronunțate. Această funcție poate fi utilă în menținerea pronunțării
 simbolurilor dacă emoji-urile sunt incluse în configurația NVDA.
 
+If symbols inserted using associated gestures aren't spoken in your system,
+even when NVDA is configured to speak typed characters, you can try to
+enable a checkbox to ensure the speaking of inserted symbols.
+
+
 Dacă doriți să păstrați curate folderele de configurare, în această
 fereastră de dialog este posibil de asemenea să alegeți dacă dicționarele
 care nu sunt utilizate (asociate profilurilor inexistente) vor fi eliminate
@@ -131,6 +136,8 @@ panel.
 
 * Fixed bug in Save and export dictionaries.
 * Added copy and close buttons to messages presented in browse mode.
+* When using commands to insert symbols, they may be spoken according to the
+  speak typed characters option.
 
 ## Changes for 22.0.0 ##
 

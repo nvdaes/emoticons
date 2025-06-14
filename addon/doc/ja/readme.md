@@ -73,6 +73,11 @@ Emoticons設定パネルにて、NVDAが現在編集しているプロファイ�
 
 さらに、アドオンの絵文字が読み上げされるかを、決定することが出来ます。これは、NVDAの設定に絵文字が含まれている場合に、記号読み上げを保持するのに便利です。
 
+If symbols inserted using associated gestures aren't spoken in your system,
+even when NVDA is configured to speak typed characters, you can try to
+enable a checkbox to ensure the speaking of inserted symbols.
+
+
 設定フォルダーをきれいに保ちたい場合は、このダイアログで、使用されていない辞書(存在しないプロファイルに関連付けられている)を、アンロード時に、アドオンから除去することを選択することも出来ます。
 
 ## キーコマンド: ##
@@ -91,6 +96,8 @@ Emoticons設定パネルにて、NVDAが現在編集しているプロファイ�
 
 * Fixed bug in Save and export dictionaries.
 * Added copy and close buttons to messages presented in browse mode.
+* When using commands to insert symbols, they may be spoken according to the
+  speak typed characters option.
 
 ## Changes for 22.0.0 ##
 

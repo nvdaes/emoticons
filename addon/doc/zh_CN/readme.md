@@ -73,6 +73,11 @@ emoticons子文件夹中。
 
 此外, 还可以确定是否应该读出插件内的表情。如果在 NVDA 的配置中包含表情符号, 这可能会很有用。
 
+If symbols inserted using associated gestures aren't spoken in your system,
+even when NVDA is configured to speak typed characters, you can try to
+enable a checkbox to ensure the speaking of inserted symbols.
+
+
 如果您可能希望保持清洁配置目录，则在此对话框中还可以选择是否在卸载时从插件中删除未使用的字典（与非现有配置文件关联）。
 
 ## 快捷键： ##
@@ -92,6 +97,8 @@ panel.
 
 * Fixed bug in Save and export dictionaries.
 * Added copy and close buttons to messages presented in browse mode.
+* When using commands to insert symbols, they may be spoken according to the
+  speak typed characters option.
 
 ## Changes for 22.0.0 ##
 

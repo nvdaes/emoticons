@@ -95,6 +95,11 @@ Desuden er det muligt at afgøre, om emojis der genkendes af tilføjelsen skal
 oplyses. Dette kan være nyttigt at bevare symboler, hvis emojis er
 inkluderet i NVDAs konfiguration.
 
+If symbols inserted using associated gestures aren't spoken in your system,
+even when NVDA is configured to speak typed characters, you can try to
+enable a checkbox to ensure the speaking of inserted symbols.
+
+
 Hvis du ønsker at holde konfigurationsmapperne rene, vil det også være
 muligt i denne dialog at vælge om ubrugte ordbøger (tilhørende
 ikke-eksisterende profiler) skal fjernes fra tilføjelsen når den udlæses.
@@ -122,6 +127,8 @@ panel.
 
 * Fixed bug in Save and export dictionaries.
 * Added copy and close buttons to messages presented in browse mode.
+* When using commands to insert symbols, they may be spoken according to the
+  speak typed characters option.
 
 ## Changes for 22.0.0 ##
 
