@@ -43,8 +43,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def _symbolScript(cls, symbol):
 		api.copyToClip(symbol.identifier)
 		wx.CallAfter(KeyboardInputGesture.fromName("control+v").send)
-		if not config.conf["emoticons"]["speakInsertedSymbols"]:
-			return
 		typingEchoMode = config.conf["keyboard"]["speakTypedCharacters"]
 		if typingEchoMode == config.configFlags.TypingEcho.OFF.value or (
 			typingEchoMode == config.configFlags.TypingEcho.EDIT_CONTROLS.value
