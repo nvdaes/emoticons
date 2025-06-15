@@ -34,7 +34,7 @@ Then, press OK and the selected emoji or symbol, or the symbols contained in the
 
 ## Associate gestures to symbols ##
 
-From NVDA's menu, Preferences submenu, Input gestures dialog, category Insert symbols, you can configure NVDA to type symbols through associated gestures.
+From NVDA's menu, Preferences submenu, Input gestures dialog, category Insert symbols or Copy symbols, you can configure NVDA to type symbols through associated gestures.
 
 You can use the Edit field edit box to reduce the number of symbols presented, so that this category can be expanded faster.
 
@@ -78,6 +78,11 @@ These are the key commands available by default, you can edit those or add new k
 * Not assigned: open a browseable message showing the symbol where the caret is positioned, so that the whole description can be reviewed in browse mode.
 
 Note: On Windows 10 and higher, it's also possible to use the built-in emoji panel.
+
+## Changes for 34.0.0
+
+* Added ability to copy to clipboard, and paste individual symbols, useful when gestures associated with Insert symbols scripts don't work.
+
 
 ## Changes for 33.0.0
 

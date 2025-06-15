@@ -270,4 +270,3 @@ le panneau emoji intégré.
 * Première version.
 
 [[!tag dev stable]]
-
