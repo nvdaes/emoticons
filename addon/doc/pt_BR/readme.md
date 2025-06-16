@@ -260,4 +260,3 @@ Nota: No Windows 10, também é possível usar o painel de emojis integrado.
 * Versão inicial.
 
 [[!tag dev stable]]
-
