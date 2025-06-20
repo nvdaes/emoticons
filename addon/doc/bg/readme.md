@@ -262,3 +262,4 @@ enable a checkbox to ensure the speaking of inserted symbols.
 * Първоначално издание.
 
 [[!tag dev stable]]
+

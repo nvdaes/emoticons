@@ -259,3 +259,4 @@ panel.
 * Versiunea Inițială.
 
 [[!tag dev stable]]
+

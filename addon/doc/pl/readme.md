@@ -242,3 +242,4 @@ wbudowanego panelu emoji.
 * Pierwsza wersja.
 
 [[!tag dev stable]]
+
