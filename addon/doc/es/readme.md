@@ -99,9 +99,10 @@ Aún más, es posible determinar si los emojis del complemento deberían
 hablarse. Esto podría ser útil para preservar el habla de símbolos si los
 emojis se incluyen en la configuración de NVDA.
 
-If symbols inserted using associated gestures aren't spoken in your system,
-even when NVDA is configured to speak typed characters, you can try to
-enable a checkbox to ensure the speaking of inserted symbols.
+Si los símbolos insertados mediante gestos asociados no se verbalizan en tu
+sistema, incluso cuando NVDA está configurado para verbalizar los caracteres
+escritos, puedes probar a marcar una casilla de verificación para garantizar
+la verbalización de de símbolos insertados.
 
 
 Si deseas mantener limpias tus carpetas de configuración, en este diálogo
@@ -136,8 +137,8 @@ incorporado.
 * Se corrige un fallo al guardar y exportar diccionarios.
 * Se añaden botones para copiar y cerrar en los mensajes presentados en modo
   exploración.
-* When using commands to insert symbols, they may be spoken according to the
-  speak typed characters option.
+* Al usar órdenes para insertar símbolos, pueden verbalizarse según la
+  opción de verbalizar caracteres al escribir.
 
 ## Cambios para 22.0.0 ##
 

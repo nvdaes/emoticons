@@ -98,9 +98,10 @@ speechDicts/emoticons.
 добавката. Това би могло да бъде полезно за да се запази изговарянето на
 символите, ако изговарянето на емоджи е включено в настройките на NVDA.
 
-If symbols inserted using associated gestures aren't spoken in your system,
-even when NVDA is configured to speak typed characters, you can try to
-enable a checkbox to ensure the speaking of inserted symbols.
+Ако символите, вмъкнати чрез свързаните жестове, не се изговарят във вашата
+система, дори когато NVDA е конфигуриран да изговаря въвежданите знаци,
+можете да опитате да включите опцията, която обезпечава изговарянето на
+вмъкнатите символи.
 
 
 Ако искате да поддържате конфигурационните папки "чисти", в този диалогов
@@ -135,8 +136,8 @@ enable a checkbox to ensure the speaking of inserted symbols.
 * Отстранена грешка при запазването и експортирането на речници.
 * Добавени са бутони за копиране и затваряне към съобщенията, показвани в
   режим на разглеждане.
-* When using commands to insert symbols, they may be spoken according to the
-  speak typed characters option.
+* Когато използвате команди за вмъкване на символи, те могат да бъдат
+  изговаряни според опцията за изговаряне на въвежданите знаци.
 
 ## Промени във версия 22.0.0 ##
 

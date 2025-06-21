@@ -90,9 +90,9 @@ Lisäksi on mahdollista määrittää, puhutaanko lisäosan emojit. Tästä voi 
 hyötyä symbolien puhumisen säilyttämisessä, jos NVDA:n asetuksiin sisältyy
 emojeita.
 
-If symbols inserted using associated gestures aren't spoken in your system,
-even when NVDA is configured to speak typed characters, you can try to
-enable a checkbox to ensure the speaking of inserted symbols.
+Jos näppäinkomennoilla lisättyjä symboleita ei puhuta järjestelmässäsi,
+vaikka NVDA on määritetty puhumaan kirjoitetut merkit, voit kokeilla ottaa
+käyttöön valintaruudun varmistaaksesi symbolien puhumisen.
 
 
 Mikäli haluat pitää asetuskansiosi puhtaana, tästä valintaikkunasta on myös
@@ -126,8 +126,8 @@ sisäänrakennettua emojipaneelia.
 * Sanakirjojen tallennuksen ja viennin virhe korjattu.
 * Selaustilassa näytettäviin ilmoituksiin lisätty Kopioi- ja
   Sulje-painikkeet.
-* When using commands to insert symbols, they may be spoken according to the
-  speak typed characters option.
+* Kun symboleita lisätään komennoilla, ne voidaan puhua kirjoitettujen
+  merkkien puhumisasetuksen mukaisesti.
 
 ## Muutokset versiossa 22.0.0 ##
 
