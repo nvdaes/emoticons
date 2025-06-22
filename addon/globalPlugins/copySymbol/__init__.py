@@ -57,5 +57,5 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		funcName = script.__name__ = "script_%s" % cls._getScriptNameForSymbol(symbol)
 		# Just set the doc string of the script, using the decorator is overkill here.
 		# Translators: Message presented in input help mode.
-		script.__doc__ = _("Inserts the %s symbol" % symbol.replacement)
+		script.__doc__ = _("Copies the %s symbol to be pasted from the clipboard" % symbol.replacement)
 		setattr(cls, funcName, script)
