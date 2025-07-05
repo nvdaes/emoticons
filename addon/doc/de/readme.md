@@ -54,9 +54,9 @@ kopieren und an anderer Stelle wieder einzufügen.
 
 ## Tastenbefehle mit Symbolen verknüpfen ##
 
-Über das NVDA-Menü, Untermenü Einstellungen, Dialogfeld für die
-Tastenbefehle, Kategorie Symbole einfügen, können Sie NVDA so konfigurieren,
-dass Symbole durch zugehörige Tastenbefehle eingegeben werden können.
+From NVDA's menu, Preferences submenu, Input gestures dialog, category
+Insert symbols or Copy symbols, you can configure NVDA to type symbols
+through associated gestures.
 
 Sie können das Bearbeitungsfeld "Feld bearbeiten" verwenden, um die Anzahl
 der dargestellten Symbole zu reduzieren, so dass diese Kategorie schneller
@@ -129,6 +129,12 @@ oder das Dialogfeld für das Emoticons-Wörterbuch zu öffnen:
 
 Hinweis: Unter Windows 10 und Windows 11 ist es auch möglich, das
 integrierte Emoji-Panel zu verwenden.
+
+## Changes for 34.0.0
+
+* Added ability to copy to clipboard, and paste individual symbols, useful
+  when gestures associated with Insert symbols scripts don't work.
+
 
 ## Changes for 33.0.0
 

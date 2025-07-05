@@ -50,8 +50,9 @@ liittää ne haluamaasi paikkaan.
 
 ## Liitä näppäinkomennot symboleihin ##
 
-Näppäinkomennot-valintaikkunan Lisää symbolit -kategoriasta voit määrittää
-NVDA:n kirjoittamaan symbolit niihin liitetyillä näppäinkomennoilla.
+From NVDA's menu, Preferences submenu, Input gestures dialog, category
+Insert symbols or Copy symbols, you can configure NVDA to type symbols
+through associated gestures.
 
 Voit vähentää näytettävien symboleiden määrää käyttämällä muokkausruutua,
 jotta tätä kategoriaa laajennetaan nopeammin.
@@ -120,6 +121,12 @@ Hymiöt-asetuspaneelin tai hymiösanastovalintaikkunan avaamiseen:
 
 Huom: Windows 10:ssä ja uudemmissa on mahdollista käyttää myös
 sisäänrakennettua emojipaneelia.
+
+## Changes for 34.0.0
+
+* Added ability to copy to clipboard, and paste individual symbols, useful
+  when gestures associated with Insert symbols scripts don't work.
+
 
 ## Muutokset versiossa 33.0.0
 

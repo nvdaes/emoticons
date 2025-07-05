@@ -56,8 +56,8 @@ votre presse-papiers, prêts à être collés.
 ## Associer des gestes aux symboles ##
 
 À partir du menu NVDA, Préférences sous-menu, dialogue Gestes de commandes,
-catégorie Insert symbols,vous pouvez configurer NVDA pour taper des symboles
-via des gestes associés.
+catégorie Insérer des symboles ou Copier des symboles, vous pouvez
+configurer NVDA pour taper des symboles via des gestes associés.
 
 Vous pouvez utiliser  un champ d'édition pour réduire le nombre de symboles
 présentés, afin que cette catégorie puisse être développé plus rapidement.
@@ -136,6 +136,13 @@ dialogue Dictionnaire des émoticônes :
 
 Note : Sous Windows 10 et supérieure, il est également possible d’utiliser
 le panneau emoji intégré.
+
+## Changements pour la version 34.0.0
+
+* Ajout de la possibilité de copier dans le presse-papiers et de coller des
+  symboles individuels, utile lorsque les gestes associés aux scripts
+  Insérer des symboles ne fonctionnent pas.
+
 
 ## Changements pour la version 33.0.0
 

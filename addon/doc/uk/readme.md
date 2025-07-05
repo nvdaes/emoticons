@@ -50,9 +50,9 @@ the mentioned edit box, will be copied to your clipboard, ready for pasting.
 
 ## Призначити жести на символи ##
 
-У меню NVDA, підменю «Параметри», діалозі «Жести вводу» категорії «Вставка
-символів», ви можете налаштувати NVDA на введення символів за допомогою
-відповідних жестів.
+From NVDA's menu, Preferences submenu, Input gestures dialog, category
+Insert symbols or Copy symbols, you can configure NVDA to type symbols
+through associated gestures.
 
 Ви можете зменшити кількість представлених символів у полі редагування, щоб
 швидше розгортати цю категорію.
@@ -121,6 +121,12 @@ enable a checkbox to ensure the speaking of inserted symbols.
 
 Note: On Windows 10 and higher, it's also possible to use the built-in emoji
 panel.
+
+## Changes for 34.0.0
+
+* Added ability to copy to clipboard, and paste individual symbols, useful
+  when gestures associated with Insert symbols scripts don't work.
+
 
 ## Changes for 33.0.0
 

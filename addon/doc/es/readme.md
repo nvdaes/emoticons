@@ -52,9 +52,9 @@ mencionado, listos para pegar.
 
 ## Asociación de gestos a símbolos ##
 
-Desde el menú NVDA, submenú Preferencias, diálogo Gestos de entrada,
-categoría Insertar símbolos, se puede configurar NVDA para escribir símbolos
-mediante gestos asociados.
+From NVDA's menu, Preferences submenu, Input gestures dialog, category
+Insert symbols or Copy symbols, you can configure NVDA to type symbols
+through associated gestures.
 
 Se puede usar el cuadro de edición Editar campo para reducir la cantidad de
 símbolos presentados, de tal manera que esta categoría se expanda más
@@ -131,6 +131,12 @@ Diccionario de Emoticonos:
 
 Nota: en Windows 10 y posterior, también es posible usar el panel de emojis
 incorporado.
+
+## Changes for 34.0.0
+
+* Added ability to copy to clipboard, and paste individual symbols, useful
+  when gestures associated with Insert symbols scripts don't work.
+
 
 ## Cambios para 33.0.0
 

@@ -51,9 +51,9 @@ kopyalanacaktır.
 
 ## Hareketleri sembollerle ilişkilendirin ##
 
-NVDA menüsü, Tercihler alt menüsü, Girdi hareketleri iletişim kutusunda,
-İfadeler kategorisinden, NVDA'yı ilgili hareketlerle sembolleri yazacak
-şekilde yapılandırabilirsiniz.
+NVDA menüsü, Tercihler alt menüsü, Girdi hareketleri iletişim kutusundan,
+Sembol ekle veya Sembolleri kopyala kategorisinden, NVDA'yı ilgili
+hareketler aracılığıyla sembolleri yazacak şekilde yapılandırabilirsiniz.
 
 Bu kategorinin daha hızlı genişletilebilmesi için sunulan sembol sayısını
 azaltmak üzere Alanı düzenle düzenleme kutusunu kullanabilirsiniz.
@@ -129,6 +129,12 @@ düzenleyebilir VEYA YENİkısayol komutları ekleyebilirsiniz:
 
 Not: Windows 10 ve üzeri sürümlerde yerleşik emoji panelini kullanmak da
 mümkündür.
+
+## 34.0.0 için değişiklikler
+
+* Panoya kopyalama ve tek tek sembolleri yapıştırma özelliği eklendi, Sembol
+  ekle komutlarla ilişkili hareketler çalışmadığında kullanışlıdır.
+
 
 ## 33.0.0 için değişiklikler
 

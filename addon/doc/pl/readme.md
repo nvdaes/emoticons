@@ -48,9 +48,9 @@ wspomnianym polu edycji zostaną skopiowane do schowka, gotowe do wklejenia.
 
 ## Kojarzenie gestów z symbolami ##
 
-Z menu NVDA, podmenu Preferencje, okna dialogowego Gesty wprowadzania,
-kategorii Wstaw symbole, możesz skonfigurować NVDA do wpisywania symboli
-poprzez powiązane gesty.
+From NVDA's menu, Preferences submenu, Input gestures dialog, category
+Insert symbols or Copy symbols, you can configure NVDA to type symbols
+through associated gestures.
 
 Za pomocą pola edycji Edytuj pole można zmniejszyć liczbę prezentowanych
 symboli, dzięki czemu można szybciej rozwinąć tę kategorię.
@@ -119,6 +119,12 @@ skrót służący do wywołania dialogu aktywacji lub słownika emotikonów:
 
 Uwaga: W systemie Windows 10 i nowszych można również korzystać z
 wbudowanego panelu emoji.
+
+## Changes for 34.0.0
+
+* Added ability to copy to clipboard, and paste individual symbols, useful
+  when gestures associated with Insert symbols scripts don't work.
+
 
 ## Changes for 33.0.0
 

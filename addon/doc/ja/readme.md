@@ -41,8 +41,8 @@ the mentioned edit box, will be copied to your clipboard, ready for pasting.
 ## Associate gestures to symbols ##
 
 From NVDA's menu, Preferences submenu, Input gestures dialog, category
-Insert symbols, you can configure NVDA to type symbols through associated
-gestures.
+Insert symbols or Copy symbols, you can configure NVDA to type symbols
+through associated gestures.
 
 You can use the Edit field edit box to reduce the number of symbols
 presented, so that this category can be expanded faster.
@@ -91,6 +91,12 @@ enable a checkbox to ensure the speaking of inserted symbols.
 * 割り当てなし: 表現全体がブラウズモードで閲覧出来るように、キャレットが位置している記号を表示する閲覧可能なメッセージを開きます。
 
 備考: Windows 10以降では、搭載の絵文字パネルを使用することも可能です。
+
+## Changes for 34.0.0
+
+* Added ability to copy to clipboard, and paste individual symbols, useful
+  when gestures associated with Insert symbols scripts don't work.
+
 
 ## Changes for 33.0.0
 
