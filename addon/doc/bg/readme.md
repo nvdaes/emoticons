@@ -269,4 +269,3 @@ speechDicts/emoticons.
 * Първоначално издание.
 
 [[!tag dev stable]]
-
