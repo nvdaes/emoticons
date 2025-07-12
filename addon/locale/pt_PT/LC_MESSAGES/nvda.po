@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: emoticons 2.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2014-10-17 05:00+1000\n"
-"PO-Revision-Date: 2023-07-28 14:36+0100\n"
+"PO-Revision-Date: 2025-07-06 19:21+0100\n"
 "Last-Translator: Ângelo Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA <angelomiguelabrantes@gmail.com; "
 "rui.fontes@tiflotecnia.com>\n"
@@ -16,15 +16,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.6\n"
 
 #. Translators: the label of a message dialog.
 msgid ""
 "You seem to have previous settings saved for this add-on. Do you want to "
 "import them, removing deprecated files?"
 msgstr ""
-"Parece ter guardadas configurações anteriores para este extra. Deseja "
-"importá-las e apagar ficheiros obsoletos?"
+"Parece que tem definições anteriores guardadas para este complemento. "
+"Pretende importá-las, removendo os ficheiros obsoletos?"
 
 #. Translators: the title of a message dialog.
 msgid "Import Emoticons add-on settings"
@@ -224,9 +224,8 @@ msgid "Speak add-on emojis"
 msgstr "Lê os emoticons do extra"
 
 #. Translators: The label for a setting in Emoticons panel.
-#, fuzzy
 msgid "Ensure speaking of inserted symbols"
-msgstr "Mostra um diálogo para inserir um ssímbolo"
+msgstr "Assegurar que os símbolos inseridos são falados"
 
 #. Translators: The label for a setting in Emoticons panel.
 msgid "&Remove not used dictionaries"
