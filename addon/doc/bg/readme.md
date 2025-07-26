@@ -53,9 +53,10 @@
 
 ## Задаване на жестове за символи ##
 
-From NVDA's menu, Preferences submenu, Input gestures dialog, category
-Insert symbols or Copy symbols, you can configure NVDA to type symbols
-through associated gestures.
+От менюто на NVDA, подменюто Настройки, диалоговия прозорец "Жестове на
+въвеждане", категорията "Вмъкване на символи" или "Копиране на символи",
+можете да конфигурирате NVDA да въвежда символи чрез зададени за целта
+жестове.
 
 Можете да използвате текстовото поле, за да намалите броя на представените
 символи, така че тази категория да може да се разшири по-бързо.
@@ -131,10 +132,11 @@ speechDicts/emoticons.
 Забележка: В Windows 10 и по-нови версии е възможно да използвате и
 вградения панел за вмъкване на емоджи.
 
-## Changes for 34.0.0
+## Промени във версия 34.0.0
 
-* Added ability to copy to clipboard, and paste individual symbols, useful
-  when gestures associated with Insert symbols scripts don't work.
+* Добавена е възможност за копиране в клипборда и поставяне на отделни
+  символи, което е полезно, когато жестовете, свързани със скриптовете за
+  вмъкване на символи, не работят.
 
 
 ## Промени във версия 33.0.0
