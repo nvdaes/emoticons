@@ -252,4 +252,3 @@ panel.
 * Prva verzija
 
 [[!tag dev stable]]
-
