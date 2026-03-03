@@ -18,7 +18,7 @@ addon_info = AddonInfo(
 	addon_summary=_("Emoticons"),
 	# Translators: Description of the add-on.
 	addon_description=_("Enables the announcement of emoticon names instead of the character Representation."),
-	addon_version="37.0.0",
+	addon_version="37.1.0",
 	# Translators: TChangelog entry for the add-on.
 	addon_changelog=_("* Compatible with NVDA 2026.1."),
 	addon_author="Chris Leo <llajta2012@gmail.com>, Noelia Ruiz Martínez <nrm1977@gmail.com>, Mesar Hameed <mesar.hameed@gmail.com>, Francisco Javier Estrada Martínez <Fjestrad@hotmail.com>",
