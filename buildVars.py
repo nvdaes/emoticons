@@ -13,20 +13,23 @@ from site_scons.site_tools.NVDATool.utils import _
 
 # Add-on information variables
 addon_info = AddonInfo(
-    addon_name="emoticons",
-    addon_summary=_("Emoticons"),
-    addon_description=_("Enables the announcement of emoticon names instead of the character Representation."),
-    addon_version="37.0.0",
-    addon_changelog=_("* Compatible with NVDA 2026.1."),
-    addon_author="Chris Leo <llajta2012@gmail.com>, Noelia Ruiz Martínez <nrm1977@gmail.com>, Mesar Hameed <mesar.hameed@gmail.com>, Francisco Javier Estrada Martínez <Fjestrad@hotmail.com>",
-    addon_url="https://github.com/nvdaes/emoticons",
-    addon_sourceURL=None,
-    addon_docFileName="readme.html",
-    addon_minimumNVDAVersion="2026.1",
-    addon_lastTestedNVDAVersion="2026.1",
-    addon_updateChannel=None,
-    addon_license=None,
-    addon_licenseURL=None,
+	addon_name="emoticons",
+	# Translators: Summary of the add-on.
+	addon_summary=_("Emoticons"),
+	# Translators: Description of the add-on.
+	addon_description=_("Enables the announcement of emoticon names instead of the character Representation."),
+	addon_version="37.0.0",
+	# Translators: TChangelog entry for the add-on.
+	addon_changelog=_("* Compatible with NVDA 2026.1."),
+	addon_author="Chris Leo <llajta2012@gmail.com>, Noelia Ruiz Martínez <nrm1977@gmail.com>, Mesar Hameed <mesar.hameed@gmail.com>, Francisco Javier Estrada Martínez <Fjestrad@hotmail.com>",
+	addon_url="https://github.com/nvdaes/emoticons",
+	addon_sourceURL=None,
+	addon_docFileName="readme.html",
+	addon_minimumNVDAVersion="2026.1",
+	addon_lastTestedNVDAVersion="2026.1",
+	addon_updateChannel=None,
+	addon_license=None,
+	addon_licenseURL=None,
 )
 
 # Define the python files that are the sources of your add-on.
