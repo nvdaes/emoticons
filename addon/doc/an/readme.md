@@ -15,7 +15,7 @@ Puetz aproveitar-te d'as siguients caracteristicas:
 ## Ficar un emoticón ##
 
 Quan no sigas seguro d'os caracters d'un emoticón en particular, iste complemento te permite seleccionar-lo y ficar-lo en o texto como en un chat.
-Preta NVDA+I, u dende o menú Preferencias -> Administrar os emoticóns -> Ficar un emoticón, ta ubrir un dialogo
+Preta NVDA+I, u dende o menú Preferencias -> Administrar os emoticóns -> Ficar un emoticón, ta ubrir un dialogo 
 con os emoticóns proporcionaus.
 En que pretes Acceptar, os caracters d'o emoticón elegido se copiarán ta lo portafuellas, prestos pa apegar-se.
 
