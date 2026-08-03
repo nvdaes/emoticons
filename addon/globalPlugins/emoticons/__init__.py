@@ -10,7 +10,6 @@ import globalPluginHandler
 import globalVars
 import config
 import api
-import speechDictHandler
 import ui
 import characterProcessing
 import languageHandler
@@ -30,6 +29,7 @@ from scriptHandler import script
 
 from .smileysList import emoticons
 from .skipTranslation import translate
+from .speechDictCompat import REGEXP_ENTRY_TYPE, SpeechDict, SpeechDictEntry, SpeechDictionaryBridge
 
 addonHandler.initTranslation()
 
@@ -49,9 +49,10 @@ confspec = {
 
 config.conf.spec["emoticons"] = confspec
 
-defaultDic = speechDictHandler.SpeechDict()
-noEmojisDic = speechDictHandler.SpeechDict()
-sD = speechDictHandler.SpeechDict()
+defaultDic = SpeechDict()
+noEmojisDic = SpeechDict()
+sD = SpeechDict()
+_announcementDictionary = SpeechDictionaryBridge(sD)
 
 profileName = oldProfileName = None
 
@@ -76,13 +77,11 @@ def loadDic():
 
 
 def activateAnnouncement():
-	speechDictHandler.dictionaries["temp"].extend(sD)
+	_announcementDictionary.activate()
 
 
 def deactivateAnnouncement():
-	for entry in sD:
-		if entry in speechDictHandler.dictionaries["temp"]:
-			speechDictHandler.dictionaries["temp"].remove(entry)
+	_announcementDictionary.deactivate()
 
 
 @disableInSecureMode
@@ -104,33 +103,31 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		super(GlobalPlugin, self).__init__()
 		for em in emoticons:
 			if em.isEmoji:
-				# Translators: A prefix to each emoticon name, added to the temporary speech dictionary,
-				# visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
+				# Translators: A prefix to each emoticon name in the Emoticons dictionary.
 				emType = _("Emoji")
 			else:
-				# Translators: A prefix to each emoticon name, added to the temporary speech dictionary,
-				# visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
+				# Translators: A prefix to each emoticon name in the Emoticons dictionary.
 				emType = _("Emoticon")
 			comment = "{type}: {name}".format(type=emType, name=em.name)
 			otherReplacement = " %s; " % em.name
 			# Case and reg are always True
 			defaultDic.append(
-				speechDictHandler.SpeechDictEntry(
+				SpeechDictEntry(
 					em.pattern,
 					otherReplacement,
 					comment,
 					True,
-					speechDictHandler.ENTRY_TYPE_REGEXP,
+					REGEXP_ENTRY_TYPE,
 				),
 			)
 			if not em.isEmoji:
 				noEmojisDic.append(
-					speechDictHandler.SpeechDictEntry(
+					SpeechDictEntry(
 						em.pattern,
 						otherReplacement,
 						comment,
 						True,
-						speechDictHandler.ENTRY_TYPE_REGEXP,
+						REGEXP_ENTRY_TYPE,
 					),
 				)
 		global profileName, oldProfileName
@@ -551,7 +548,7 @@ class EmDicDialog(DictionaryDialog):
 	def OnResetClick(self, evt):
 		self.dictList.DeleteAllItems()
 		self.tempSpeechDict = []
-		self.dic = speechDictHandler.SpeechDict()
+		self.dic = SpeechDict()
 		if config.conf["emoticons"]["speakAddonEmojis"]:
 			self.dic = defaultDic
 		else:
@@ -559,7 +556,7 @@ class EmDicDialog(DictionaryDialog):
 		self.tempSpeechDict.extend(self.dic)
 		for entry in self.dic:
 			self.dictList.Append(
-				(entry.comment, entry.pattern, entry.replacement, True, speechDictHandler.ENTRY_TYPE_REGEXP),
+				(entry.comment, entry.pattern, entry.replacement, True, REGEXP_ENTRY_TYPE),
 			)
 		self.dictList.SetFocus()
 
