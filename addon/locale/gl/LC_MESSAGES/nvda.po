@@ -1,1183 +1,968 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: nvdaaddons\n"
-"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-07-21 03:08+0000\n"
-"PO-Revision-Date: 2026-08-16 05:39\n"
-"Last-Translator: \n"
-"Language-Team: Galician\n"
-"Language: gl_ES\n"
+"Project-Id-Version: emoticons 5.5\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
+"POT-Creation-Date: 2013-11-16 20:13+0100\n"
+"PO-Revision-Date: 2023-10-06 23:30+0200\n"
+"Last-Translator: Juan C. Buño <oprisniki@gmail.com>\n"
+"Language-Team: NVDA add-ons translation team <LL@li.org>\n"
+"Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: nvdaaddons\n"
-"X-Crowdin-Project-ID: 780748\n"
-"X-Crowdin-Language: gl\n"
-"X-Crowdin-File: emoticons.pot\n"
-"X-Crowdin-File-ID: 176\n"
+"X-Generator: Poedit 3.4\n"
 
-#. Translators: Script category for commands to insert symbols.
-#: addon\globalPlugins\copySymbol\__init__.py:17
-msgid "Copy symbols"
+#. Translators: the label of a message dialog.
+msgid ""
+"You seem to have previous settings saved for this add-on. Do you want to "
+"import them, removing deprecated files?"
 msgstr ""
-
-#. Just set the doc string of the script, using the decorator is overkill here.
-#. Translators: Message presented in input help mode.
-#: addon\globalPlugins\copySymbol\__init__.py:60
-#, python-format
-msgid "Copies the %s symbol and pastes it from the clipboard"
-msgstr ""
-
-#. Translators: (emoji) Grinning face, an happy face with normal eyes.
-#: addon\globalPlugins\emoticons\smileysList.py:13
-msgid "Grinning face"
-msgstr "Cara sorrindo"
-
-#. Translators: (emoji) Happy face with open mouth and squinting eyes.
-#: addon\globalPlugins\emoticons\smileysList.py:15
-msgid "Happy face with open mouth and squinting eyes"
-msgstr "Cara leda coa boca aberta e os ollos vesgos"
-
-#. Translators: (emoji) happy face with open mouth.
-#: addon\globalPlugins\emoticons\smileysList.py:17
-msgid "Happy face with open mouth"
-msgstr "Cara leda coa boca aberta"
-
-#. Translators: (emoji) A smiling face with smiling eyes and rosy cheeks.
-#: addon\globalPlugins\emoticons\smileysList.py:19
-msgid "Smiling Face With Smiling Eyes"
-msgstr "Cara sorrinte cos ollos sorrintes"
-
-#. Translators: (emoji) smirking face.
-#: addon\globalPlugins\emoticons\smileysList.py:21
-msgid "Smirking face"
-msgstr "Cara sorinte"
-
-#. Translators: (emoji) Slightly Smiling Face: a face that is a little bit happy, with a slight smile and neutral eyes.
-#: addon\globalPlugins\emoticons\smileysList.py:23
-msgid "Slightly smiling face"
-msgstr "Cara lixeiramente sorrinte"
-
-#. Translators: (emoji) white smiling face.
-#: addon\globalPlugins\emoticons\smileysList.py:25
-msgid "white smiling face"
-msgstr "cara branca sorrinte"
-
-#. Translators: (emoji) happy face with halo.
-#: addon\globalPlugins\emoticons\smileysList.py:27
-msgid "Happy face with halo"
-msgstr "Cara leda con halo"
-
-#. Translators: (emoji) white frowning face.
-#: addon\globalPlugins\emoticons\smileysList.py:29
-msgid "White frowning face"
-msgstr "Cara branca carrancuda"
-
-#. Translators: (emoji) winking face.
-#: addon\globalPlugins\emoticons\smileysList.py:31
-msgid "Winking face"
-msgstr "Cara choscando os ollos"
-
-#. Translators: (emoji) smiling face with heart shaped eyes.
-#: addon\globalPlugins\emoticons\smileysList.py:33
-msgid "Smiling face with heart shaped eyes"
-msgstr "Cara sorrinte cos ollos en forma de corazón"
-
-#. Translators: (emoji)  Rose: a single red rose.
-#: addon\globalPlugins\emoticons\smileysList.py:35
-msgid "Rose"
-msgstr "Rosa"
-
-#. Translators: (emoji) Expressionless face: a face with straight lined eyes and mouth. A deliberate display of no comment...
-#: addon\globalPlugins\emoticons\smileysList.py:37
-msgid "Expressionless face"
-msgstr "Cara inexpresiva"
-
-#. Translators: (emoji) neutral face.
-#: addon\globalPlugins\emoticons\smileysList.py:39
-msgid "Neutral face"
-msgstr "Cara neutra"
-
-#. Translators: (emoji) face without mouth.
-#: addon\globalPlugins\emoticons\smileysList.py:41
-msgid "Face without mouth"
-msgstr "Cara sen boca"
-
-#. Translators: (emoji) face throwing a kiss.
-#: addon\globalPlugins\emoticons\smileysList.py:43
-msgid "Face throwing a kiss"
-msgstr "Cara lanzando un bico"
-
-#. Translators: (emoji) kissing face with closed eyes.
-#: addon\globalPlugins\emoticons\smileysList.py:45
-msgid "Kissing face with closed eyes"
-msgstr "Cara bicando cos ollos pechados"
-
-#. Translators: (emoji) Kissing face.
-#: addon\globalPlugins\emoticons\smileysList.py:47
-msgid "Kissing face"
-msgstr "Cara bicando"
-
-#. Translators: (emoji) kissing face with arched eyes.
-#: addon\globalPlugins\emoticons\smileysList.py:49
-msgid "Kissing face with arched eyes"
-msgstr "Cara bicando cos ollos arqueados"
-
-#. Translators: (emoji) winking face with stuck out tongue.
-#: addon\globalPlugins\emoticons\smileysList.py:51
-msgid "Winking face with stuck out tongue"
-msgstr "Cara visca sacando a lingua"
-
-#. Translators: (emoji) face with stuck out tongue and eyes tightly closed.
-#: addon\globalPlugins\emoticons\smileysList.py:53
-msgid "Face with stuck out tongue and eyes tightly closed"
-msgstr "Cara coa lingua fora e os ollos ben pechados"
-
-#. Translators: (emoji) A cheeky face with stuck out tongue.
-#: addon\globalPlugins\emoticons\smileysList.py:55
-msgid "Face with stuck out tongue"
-msgstr "Cara coa lingua fora"
-
-#. Translators: (emoji) Hugging Face: a face displayed with an open hands gesture, offering a hug.
-#: addon\globalPlugins\emoticons\smileysList.py:57
-msgid "Hugging face"
-msgstr "Cara abrazando"
-
-#. Translators: (emoji) flushed face.
-#: addon\globalPlugins\emoticons\smileysList.py:59
-msgid "Flushed face"
-msgstr "Cara con rubor"
-
-#. Translators: (emoji) Grinning face showing smiling eyes.
-#: addon\globalPlugins\emoticons\smileysList.py:61
-msgid "Grinning Face With Smiling Eyes"
-msgstr "Cara Sorrinte Cos Ollos ledos"
-
-#. Translators: (emoji) A pensive, remorseful and saddened face. Quietly considering where things all went wrong.
-#: addon\globalPlugins\emoticons\smileysList.py:63
-msgid "Pensive Face"
-msgstr "Cara pensativa"
-
-#. Translators: (emoji) devil with evil smile.
-#: addon\globalPlugins\emoticons\smileysList.py:65
-msgid "Devil with evil smile"
-msgstr "Diaño con sorriso malicioso"
-
-#. Translators: (emoji) devil.
-#: addon\globalPlugins\emoticons\smileysList.py:67
-msgid "Devil"
-msgstr "Diaño"
-
-#. Translators: (emoji) relieved face.
-#: addon\globalPlugins\emoticons\smileysList.py:69
-msgid "Relieved face"
-msgstr "Cara de alivio"
-
-#. Translators: (emoji) unamused face.
-#: addon\globalPlugins\emoticons\smileysList.py:71
-msgid "Unamused face"
-msgstr "Cara sen cara"
-
-#. Translators: (emoji) A face with scrunched up and closed eyes, frowning. Used to show helplessness in a situation.
-#: addon\globalPlugins\emoticons\smileysList.py:73
-msgid "Persevering Face"
-msgstr "Cara perseverante"
-
-#. Translators: (emoji) crying face.
-#: addon\globalPlugins\emoticons\smileysList.py:75
-msgid "Crying face"
-msgstr "Cara chorando"
-
-#. Translators: (emoji) face with tears of joy.
-#: addon\globalPlugins\emoticons\smileysList.py:77
-msgid "Face with tears of joy"
-msgstr "Cara con bágoas de ledicia"
-
-#. Translators: (emoji) loudly crying face.
-#: addon\globalPlugins\emoticons\smileysList.py:79
-msgid "Loudly crying face"
-msgstr "Cara chorando moito"
-
-#. Translators: (emoji) sleepy face.
-#: addon\globalPlugins\emoticons\smileysList.py:81
-msgid "Sleepy face"
-msgstr "Cara durminte"
-
-#. Translators: (emoji) Shrugging: A person shrugging their shoulders to indicate a lack of knowledge about a particular topic, or a lack of care about the result of a situation.
-#: addon\globalPlugins\emoticons\smileysList.py:83
-msgid "Shrugging emoji"
-msgstr "Encollendo emoji"
-
-#. Translators: (emoji) disappointed face.
-#: addon\globalPlugins\emoticons\smileysList.py:85
-msgid "Disappointed face"
-msgstr "Cara decepcionada"
-
-#. Translators: (emoji) disappointed but relieved face.
-#: addon\globalPlugins\emoticons\smileysList.py:87
-msgid "Disappointed but relieved face"
-msgstr "Cara decepcionada pero aliviada"
-
-#. Translators: (emoji) Face with a look of concern, with a blue forehead and sweat dripping down the cheek.
-#: addon\globalPlugins\emoticons\smileysList.py:89
-msgid "Face With Open Mouth & Cold Sweat"
-msgstr "Cara coa boca aberta e con suor fría"
-
-#. Translators: (emoji) Happy face with a single drop of sweat on one side of the face.
-#: addon\globalPlugins\emoticons\smileysList.py:91
-msgid "Smiling Face With Open Mouth & Cold Sweat"
-msgstr "Cara sorrinte coa boca aberta e suor frío"
-
-#. Translators: (emoji) face with cold sweat.
-#: addon\globalPlugins\emoticons\smileysList.py:93
-msgid "Face with cold sweat"
-msgstr "Cara con suor fría"
-
-#. Translators: (emoji) A distraught-looking face with  an open mouth and crescent shaped eyes.
-#: addon\globalPlugins\emoticons\smileysList.py:95
-msgid "Weary Face"
-msgstr "Cara aburrida"
-
-#. Translators: (emoji) An exhausted-looking face with an open mouth and tightly closed eyes.
-#: addon\globalPlugins\emoticons\smileysList.py:97
-msgid "Tired Face"
-msgstr "Cara cansa"
-
-#. Translators: (emoji) fearful face.
-#: addon\globalPlugins\emoticons\smileysList.py:99
-msgid "Fearful face"
-msgstr "Cara de medo"
-
-#. Translators: (emoji) face screaming in fear.
-#: addon\globalPlugins\emoticons\smileysList.py:101
-msgid "Face screaming in fear"
-msgstr "Cara berrando de medo"
-
-#. Translators: (emoji) angry face.
-#. Translators: :@ angry face.
-#: addon\globalPlugins\emoticons\smileysList.py:103
-#: addon\globalPlugins\emoticons\smileysList.py:195
-msgid "Angry face"
-msgstr "Cara enfadada"
-
-#. Translators: (emoji) pouting face.
-#: addon\globalPlugins\emoticons\smileysList.py:105
-msgid "Pouting face"
-msgstr "Cara aremedando"
-
-#. Translators: (emoji) A face with air coming out of its nose, huffing with anger face.
-#: addon\globalPlugins\emoticons\smileysList.py:107
-msgid "Face With Steam From Nose"
-msgstr "Cara respirando polo nariz"
-
-#. Translators: (emoji) confounded face.
-#: addon\globalPlugins\emoticons\smileysList.py:109
-msgid "Confounded face"
-msgstr "Cara confundida"
-
-#. Translators: (emoji) Smiling Face With Open Mouth and Tightly-Closed Eyes.
-#: addon\globalPlugins\emoticons\smileysList.py:111
-msgid "Smiling Face With Open Mouth and Tightly-Closed Eyes"
-msgstr "Cara sorrinte coa boca aberta e os ollos pechados"
-
-#. Translators: (emoji) happy face licking lips.
-#: addon\globalPlugins\emoticons\smileysList.py:113
-msgid "Happy face licking lips"
-msgstr "Cara leda relambéndose"
-
-#. Translators: (emoji) happy face with sunglasses.
-#: addon\globalPlugins\emoticons\smileysList.py:115
-msgid "Happy face with sunglasses"
-msgstr "Cara leda con anteollos de sol"
-
-#. Translators: (emoji) sleeping face.
-#: addon\globalPlugins\emoticons\smileysList.py:117
-msgid "Sleeping face"
-msgstr "Cara durminte"
-
-#. Translators: (emoji) A dizzy face, looking sick or confused from being spun around in circles too many times.
-#: addon\globalPlugins\emoticons\smileysList.py:119
-msgid "Dizzy Face"
-msgstr "Cara aturdida"
-
-#. Translators: (emoji) astonished face.
-#: addon\globalPlugins\emoticons\smileysList.py:121
-msgid "Astonished face"
-msgstr "Cara asombrada"
-
-#. Translators: (emoji) worried face.
-#: addon\globalPlugins\emoticons\smileysList.py:123
-msgid "Worried face"
-msgstr "Cara preocupada"
-
-#. Translators: (emoji) Dismayed face with open eyes and open mouth, appear closer to  a frowning face.
-#: addon\globalPlugins\emoticons\smileysList.py:125
-msgid "Frowning Face With Open Mouth"
-msgstr "Cara fruncida coa boca aberta"
-
-#. Translators: (emoji) anguished face.
-#: addon\globalPlugins\emoticons\smileysList.py:127
-msgid "Anguished face"
-msgstr "Cara angustiada"
-
-#. Translators: (emoji) A face with Open Mouth, generally used to represent an element of surprise.
-#: addon\globalPlugins\emoticons\smileysList.py:129
-msgid "Face with Open Mouth"
-msgstr "Cara coa boca aberta"
-
-#. Translators: (emoji) grimacing face.
-#: addon\globalPlugins\emoticons\smileysList.py:131
-msgid "Grimacing face"
-msgstr "Cara facendo acenos"
-
-#. Translators: (emoji) confused face.
-#: addon\globalPlugins\emoticons\smileysList.py:133
-msgid "Confused face"
-msgstr "Cara confusa"
-
-#. Translators: (emoji) A face with high eyebrows and an open mouth, it looks more surprised than hushed.
-#: addon\globalPlugins\emoticons\smileysList.py:135
-msgid "Hushed Face"
-msgstr "Cara enfadada"
-
-#. Translators: (emoji) broken heart.
-#: addon\globalPlugins\emoticons\smileysList.py:137
-msgid "Broken heart"
-msgstr "Corazón partido"
-
-#. Translators: (emoji) pulsating heart.
-#: addon\globalPlugins\emoticons\smileysList.py:139
-msgid "Pulsating heart"
-msgstr "Corazón pulsante"
-
-#. Translators: (emoji) beating heart.
-#: addon\globalPlugins\emoticons\smileysList.py:141
-msgid "Beating heart"
-msgstr "Corazón palpebrante"
-
-#. Translators: (emoji) two hearts.
-#: addon\globalPlugins\emoticons\smileysList.py:143
-msgid "Two hearts"
-msgstr "Dous corazóns"
-
-#. Translators: (emoji) heart with arrow.
-#: addon\globalPlugins\emoticons\smileysList.py:145
-msgid "Heart with arrow"
-msgstr "Corazón con frecha"
-
-#. Translators: (emoji) purple heart.
-#: addon\globalPlugins\emoticons\smileysList.py:147
-msgid "Purple heart"
-msgstr "Corazón púrpura"
-
-#. Translators: (emoji) red heart.
-#: addon\globalPlugins\emoticons\smileysList.py:149
-msgid "Red heart"
-msgstr "Corazón bermello"
-
-#. Translators: (emoji) yellow heart.
-#: addon\globalPlugins\emoticons\smileysList.py:151
-msgid "Yellow heart"
-msgstr "Corazón marelo"
-
-#. Translators: (emoji) green heart.
-#: addon\globalPlugins\emoticons\smileysList.py:153
-msgid "Green heart"
-msgstr "Corazón verde"
-
-#. Translators: (emoji) blue heart.
-#: addon\globalPlugins\emoticons\smileysList.py:155
-msgid "Blue heart"
-msgstr "Corazón azul"
-
-#. Translators: (emoji) This emoji is the version of the phrase ROFL. A person lying on the floor due to an extreme amount of laughter.
-#: addon\globalPlugins\emoticons\smileysList.py:157
-msgid "Rolling on the Floor Laughing"
-msgstr "Tirado no chan de risa"
-
-#. Translators: (emoji) A face that is a little bit sad, with a slight frown and neutral eyes.
-#: addon\globalPlugins\emoticons\smileysList.py:159
-msgid "Slightly Frowning Face"
-msgstr "Cara lixeiramente fruncida"
-
-#. Translators: (emoji) A face that is upside-down.
-#: addon\globalPlugins\emoticons\smileysList.py:161
-msgid "Upside-down Face"
-msgstr "Cara do revés"
-
-#. Translators: (emoji) A face displaying eyes glancing upward.
-#: addon\globalPlugins\emoticons\smileysList.py:163
-msgid "Face With Rolling Eyes"
-msgstr "Cara cos ollos virados"
-
-#. Translators: (emoji) A person with arms forming an X to indicate no or no good.
-#: addon\globalPlugins\emoticons\smileysList.py:165
-msgid "Person Gesturing No"
-msgstr "Persoa facendo un xesto desaprobatorio"
-
-#. Translators: (emoji) A person with arms above his head, making an OK sign with the whole body.
-#: addon\globalPlugins\emoticons\smileysList.py:167
-msgid "Person Gesturing OK"
-msgstr "Persoa facendo un xesto aprobatorio"
-
-#. Translators: (emoji) A person bowing deeply, express a sincere apology or to request a favour.
-#: addon\globalPlugins\emoticons\smileysList.py:169
-msgid "Person bowing"
-msgstr "Persoa facendo una reverencia"
-
-#. Translators: (emoji) An upset person frowning with dismay.
-#: addon\globalPlugins\emoticons\smileysList.py:171
-msgid "Person Frowning"
-msgstr "Persoa fruncindo o entrecello"
-
-#. Translators: (emoji) Two hands placed firmly together.
-#: addon\globalPlugins\emoticons\smileysList.py:173
-msgid "Folded Hands"
-msgstr "Mans pregadas"
-
-#. Translators: (emoji) A person with a surgical mask on their face.
-#: addon\globalPlugins\emoticons\smileysList.py:175
-msgid "Face with medical mask"
-msgstr "Cara con máscara de médíco"
-
-#. Translators: (emoji) A black version of white smiling face.
-#: addon\globalPlugins\emoticons\smileysList.py:177
-msgid "Black Smiling Face"
-msgstr "Cara sorinte negra"
-
-#. Translators: (emoji) happy cat face with heart shaped eyes.
-#: addon\globalPlugins\emoticons\smileysList.py:179
-msgid "Happy cat face with heart shaped eyes"
-msgstr "Cara de gato ledo cos ollos en forma de corazón"
-
-#. Translators: (emoji) ok hand sign.
-#: addon\globalPlugins\emoticons\smileysList.py:181
-msgid "Ok hand sign"
-msgstr "Man co signo de OK"
-
-#. Translators: (emoji) thumbs up symbol.
-#: addon\globalPlugins\emoticons\smileysList.py:183
-msgid "Thumbs up symbol"
-msgstr "Símbolo de dedo cara arriba"
-
-#. Translators: (emoji) thumbs down symbol.
-#: addon\globalPlugins\emoticons\smileysList.py:185
-msgid "Thumbs down symbol"
-msgstr "Símbolo de dedo cara abaixo"
-
-#. Translators: (emoji) Victory Hand.
-#: addon\globalPlugins\emoticons\smileysList.py:187
-msgid "Victory Hand"
-msgstr "Man facendo a victoria"
-
-#. Translators: :) Smile
-#: addon\globalPlugins\emoticons\smileysList.py:189
-msgid "smiling smiley"
-msgstr "cara sorrindo"
-
-#. Translators: :( Sad face.
-#: addon\globalPlugins\emoticons\smileysList.py:191
-msgid "Sad face"
-msgstr "Cara triste"
-
-#. Translators: :D Laugh
-#: addon\globalPlugins\emoticons\smileysList.py:193
-msgid "Laughing smiley"
-msgstr "Cara rindo"
-
-#. Translators: :O Surprised
-#: addon\globalPlugins\emoticons\smileysList.py:197
-msgid "surprised smiley"
-msgstr "cara de sorpresa"
-
-#. Translators: ;) Wink;
-#: addon\globalPlugins\emoticons\smileysList.py:199
-msgid "winking smiley"
-msgstr "cara choscando os ollos"
-
-#. Translators: ;( Crying
-#: addon\globalPlugins\emoticons\smileysList.py:201
-msgid "crying smiley"
-msgstr "cara chorando"
-
-#. Translators: :s :-S :-Q Confused face:
-#: addon\globalPlugins\emoticons\smileysList.py:203
-msgid "Confused Face"
-msgstr "Cara confusa"
-
-#. Translators: (:| Sweating
-#: addon\globalPlugins\emoticons\smileysList.py:205
-msgid "sweating smiley"
-msgstr "sudando"
-
-#. Translators: :|] Robot (a robot head)
-#: addon\globalPlugins\emoticons\smileysList.py:207
-msgid "Robot Smiley"
-msgstr "Robot"
-
-#. Translators: :| Speechless
-#: addon\globalPlugins\emoticons\smileysList.py:209
-msgid "speechless smiley"
-msgstr "cara estupefacta"
-
-#. Translators: :* Kiss
-#: addon\globalPlugins\emoticons\smileysList.py:211
-msgid "kiss smiley"
-msgstr "bico"
-
-#. Translators: :P Cheeky
-#: addon\globalPlugins\emoticons\smileysList.py:213
-msgid "cheeky smiley"
-msgstr "atrevido"
-
-#. Translators: :$ Blushing
-#: addon\globalPlugins\emoticons\smileysList.py:215
-msgid "blushing smiley"
-msgstr "cara corada"
-
-#. Translators: :^) Wondering
-#: addon\globalPlugins\emoticons\smileysList.py:217
-msgid "wondering smiley"
-msgstr "cara dubidando"
-
-#. Translators: |-) Sleepy
-#: addon\globalPlugins\emoticons\smileysList.py:219
-msgid "sleepy smiley"
-msgstr "cara de sono"
-
-#. Translators: |-( Dull
-#: addon\globalPlugins\emoticons\smileysList.py:221
-msgid "dull smiley"
-msgstr "cara aburrida"
-
-#. Translators: :x My lips are sealed
-#: addon\globalPlugins\emoticons\smileysList.py:223
-msgid "my lips are sealed smiley"
-msgstr "meus beizos están selados"
-
-#. Translators: \o/ Dancing
-#: addon\globalPlugins\emoticons\smileysList.py:225
-msgid "dancing smiley"
-msgstr "bailando"
-
-#. Translators: :'( crying a lot smiley
-#: addon\globalPlugins\emoticons\smileysList.py:227
-msgid "crying a lot smiley"
-msgstr "cara chorando inconsolavelmente"
-
-#. Translators: >:( Angry
-#. Translators: (angry) Angry
-#: addon\globalPlugins\emoticons\smileysList.py:229
-#: addon\globalPlugins\emoticons\smileysList.py:279
-msgid "angry smiley"
-msgstr "cara irritada"
-
-#. Translators: :/ Worried
-#. Translators: (worry) Worried
-#: addon\globalPlugins\emoticons\smileysList.py:231
-#: addon\globalPlugins\emoticons\smileysList.py:255
-msgid "worried smiley"
-msgstr "cara preocupada"
-
-#. Translators: <3 Heart
-#. Translators: (heart) Heart
-#: addon\globalPlugins\emoticons\smileysList.py:233
-#: addon\globalPlugins\emoticons\smileysList.py:337
-msgid "heart smiley"
-msgstr "corazón"
-
-#. Translators:  O:)  O:-) Angel
-#: addon\globalPlugins\emoticons\smileysList.py:235
-msgid "Angel Smiley"
-msgstr "Anxo"
-
-#. Translators:  O.o  o.O  Confused
-#: addon\globalPlugins\emoticons\smileysList.py:237
-msgid "Confused Smiley"
-msgstr "Cara confusa"
-
-#. Translators:   3:-) Devil
-#: addon\globalPlugins\emoticons\smileysList.py:239
-msgid "Devil Smiley"
-msgstr "Demo"
-
-#. Translators:  ^_^ Keke (This smiley is inspired by the Asian style, which is a happy face.)
-#: addon\globalPlugins\emoticons\smileysList.py:241
-msgid "Keke Smiley"
-msgstr "Bolo"
-
-#. Translators: -_- Bored (This smiley face has its eyes closed and is sporting a very small grin.)
-#: addon\globalPlugins\emoticons\smileysList.py:243
-msgid "Bored smiley"
-msgstr "Cara sorrinte cos ollos pechados"
-
-#. Translators:  >:O  Upset, angry or shouting...
-#: addon\globalPlugins\emoticons\smileysList.py:245
-msgid "Angry Smiley"
-msgstr "Cara berrando"
-
-#. Translators:  :3  Cat (Cat faced smiley with curly lips)
-#: addon\globalPlugins\emoticons\smileysList.py:247
-msgid "Cat Smiley"
-msgstr "Cara de gato sorrindo"
-
-#. Translators: (-.-)ZZZ Iӭ Sleepy
-#: addon\globalPlugins\emoticons\smileysList.py:249
-msgid "I am Sleepy smiley"
-msgstr "Estou durmido"
-
-#. Translators: 8-) Glasses
-#: addon\globalPlugins\emoticons\smileysList.py:251
-msgid "glasses smiley"
-msgstr "gafas"
-
-#. Translators: (^^^) shark
-#: addon\globalPlugins\emoticons\smileysList.py:253
-msgid "shark smiley"
-msgstr "tiburón"
-
-#. Translators:  (cash) Cash
-#: addon\globalPlugins\emoticons\smileysList.py:257
-msgid "cash smiley"
-msgstr "diñeiro"
-
-#. Translators: (flex) Muscle
-#: addon\globalPlugins\emoticons\smileysList.py:259
-msgid "muscle smiley"
-msgstr "flexionando os músculos"
-
-#. Translators: (beer) Beer
-#: addon\globalPlugins\emoticons\smileysList.py:261
-msgid "beer smiley"
-msgstr "cervexa"
-
-#. Translators: (d) Drink
-#: addon\globalPlugins\emoticons\smileysList.py:263
-msgid "drink smiley"
-msgstr "cara bebiendo"
-
-#. Translators: (ninja) Ninja
-#: addon\globalPlugins\emoticons\smileysList.py:265
-msgid "ninja smiley"
-msgstr "ninja"
-
-#. Translators: (cool) Cool
-#: addon\globalPlugins\emoticons\smileysList.py:267
-msgid "cool smiley"
-msgstr "cool"
-
-#. Translators: (inlove) In Love
-#: addon\globalPlugins\emoticons\smileysList.py:269
-msgid "in love smiley"
-msgstr "cara namorada"
-
-#. Translators: (yn) Fingers crossed
-#: addon\globalPlugins\emoticons\smileysList.py:271
-msgid "fingers crossed smiley"
-msgstr "dedos cruzados"
-
-#. Translators: (yawn) Yawn
-#: addon\globalPlugins\emoticons\smileysList.py:273
-msgid "yawning smiley"
-msgstr "cara bocexando"
-
-#. Translators: (puke) Puking
-#: addon\globalPlugins\emoticons\smileysList.py:275
-msgid "puking smiley"
-msgstr "cara de noxo"
-
-#. Translators: (doh) Doh!
-#: addon\globalPlugins\emoticons\smileysList.py:277
-msgid "doh! smiley"
-msgstr "doh! Sorriso"
-
-#. Translators: (wasntme) It wasn't me!
-#: addon\globalPlugins\emoticons\smileysList.py:281
-msgid "it wasn't me! smiley"
-msgstr "non fun! sorriso"
-
-#. Translators: (party) Party
-#: addon\globalPlugins\emoticons\smileysList.py:283
-msgid "party smiley"
-msgstr "festa"
-
-#. Translators: (mm) Mmmm...
-#: addon\globalPlugins\emoticons\smileysList.py:285
-msgid "mmmmmm... smiley"
-msgstr "mmmmmm... sorriso"
-
-#. Translators: (nerd) Nerdy
-#: addon\globalPlugins\emoticons\smileysList.py:287
-msgid "nerdy smiley"
-msgstr "queimar as pestanas"
-
-#. Translators: (wave) Hi
-#: addon\globalPlugins\emoticons\smileysList.py:289
-msgid "hi smiley"
-msgstr "ola"
-
-#. Translators: (facepalm) Facepalm
-#: addon\globalPlugins\emoticons\smileysList.py:291
-msgid "facepalm smiley"
-msgstr "cara de desesperación"
-
-#. Translators: (devil) Devil
-#: addon\globalPlugins\emoticons\smileysList.py:293
-msgid "devil smiley"
-msgstr "demo"
-
-#. Translators: (angel) Angel
-#: addon\globalPlugins\emoticons\smileysList.py:295
-msgid "angel smiley"
-msgstr "ánxo"
-
-#. Translators: (envy) Envy
-#: addon\globalPlugins\emoticons\smileysList.py:297
-msgid "envy smiley"
-msgstr "envidiando"
-
-#. Translators: (wait) Wait
-#: addon\globalPlugins\emoticons\smileysList.py:299
-msgid "wait smiley"
-msgstr "esperando"
-
-#. Translators: (hug) Hug
-#: addon\globalPlugins\emoticons\smileysList.py:301
-msgid "hug smiley"
-msgstr "abrazos"
-
-#. Translators: (makeup) Make-up
-#: addon\globalPlugins\emoticons\smileysList.py:303
-msgid "make-up smiley"
-msgstr "maquillaxe"
-
-#. Translators: (chuckle) Giggle
-#: addon\globalPlugins\emoticons\smileysList.py:305
-msgid "giggle smiley"
-msgstr "cacarejar"
-
-#. Translators: (clap) Clapping
-#: addon\globalPlugins\emoticons\smileysList.py:307
-msgid "clapping smiley"
-msgstr "aplausos"
-
-#. Translators: (think) Thinking
-#: addon\globalPlugins\emoticons\smileysList.py:309
-msgid "thinking smiley"
-msgstr "cara pensativa"
-
-#. Translators: (bow) Bowing
-#: addon\globalPlugins\emoticons\smileysList.py:311
-msgid "bowing smiley"
-msgstr "reverencia"
-
-#. Translators: (rofl) Rolling on the floor laughing
-#: addon\globalPlugins\emoticons\smileysList.py:313
-msgid "rolling on the floor laughing! smiley"
-msgstr "tirado no chan de risa!"
-
-#. Translators: (whew) Relieved
-#: addon\globalPlugins\emoticons\smileysList.py:315
-msgid "relieved smiley"
-msgstr "cara de alivio"
-
-#. Translators: (happy) Happy
-#: addon\globalPlugins\emoticons\smileysList.py:317
-msgid "happy smiley"
-msgstr "cara feliz"
-
-#. Translators: (smirk) Smirking
-#: addon\globalPlugins\emoticons\smileysList.py:319
-msgid "smirking smiley"
-msgstr "sorriso de satisfacción"
-
-#. Translators: (nod) Nodding
-#: addon\globalPlugins\emoticons\smileysList.py:321
-msgid "nodding smiley"
-msgstr "afirmando"
-
-#. Translators: (shake) Shake
-#: addon\globalPlugins\emoticons\smileysList.py:323
-msgid "shakeing smiley"
-msgstr "negando"
-
-#. Translators: (waiting) Waiting
-#: addon\globalPlugins\emoticons\smileysList.py:325
-msgid "waiting smiley"
-msgstr "esperando"
-
-#. Translators: (emo) Emo;
-#: addon\globalPlugins\emoticons\smileysList.py:327
-msgid "Emo smiley"
-msgstr "Emo"
-
-#. Translators: (y) Yes
-#: addon\globalPlugins\emoticons\smileysList.py:329
-msgid "yes smiley"
-msgstr "si"
-
-#. Translators: (n) no;
-#: addon\globalPlugins\emoticons\smileysList.py:331
-msgid "no smiley"
-msgstr "non"
-
-#. Translators: (handshake) Handshake
-#: addon\globalPlugins\emoticons\smileysList.py:333
-msgid "handshake smiley"
-msgstr "aperta de mans"
-
-#. Translators: (highfive) High five
-#: addon\globalPlugins\emoticons\smileysList.py:335
-msgid "high five smiley"
-msgstr "choca as cinco"
-
-#. Translators: (lalala) Lalala;
-#: addon\globalPlugins\emoticons\smileysList.py:339
-msgid "lalala smiley"
-msgstr "blablablá"
-
-#. Translators: (heidy) Heidy;
-#: addon\globalPlugins\emoticons\smileysList.py:341
-msgid "heidy smiley"
-msgstr "esquío"
-
-#. Translators: (F) Flower
-#: addon\globalPlugins\emoticons\smileysList.py:343
-msgid "flower smiley"
-msgstr "flor"
-
-#. Translators: (rain) Raining
-#: addon\globalPlugins\emoticons\smileysList.py:345
-msgid "raining smiley"
-msgstr "choiva"
-
-#. Translators: (sun) Sun
-#: addon\globalPlugins\emoticons\smileysList.py:347
-msgid "sunny smiley"
-msgstr "sol"
-
-#. Translators: (tumbleweed) Tumbleweed
-#: addon\globalPlugins\emoticons\smileysList.py:349
-msgid "tumbleweed smiley"
-msgstr "planta rodadora"
-
-#. Translators: (music) Music
-#: addon\globalPlugins\emoticons\smileysList.py:351
-msgid "music smiley"
-msgstr "música"
-
-#. Translators: (bandit) Bandit
-#: addon\globalPlugins\emoticons\smileysList.py:353
-msgid "bandit smiley"
-msgstr "bandido"
-
-#. Translators: (tmi) Too much information
-#: addon\globalPlugins\emoticons\smileysList.py:355
-msgid "too much information smiley"
-msgstr "exceso de información"
-
-#. Translators: (coffee) Coffee
-#: addon\globalPlugins\emoticons\smileysList.py:357
-msgid "coffee smiley"
-msgstr "café"
-
-#. Translators: (pi) Pizza
-#: addon\globalPlugins\emoticons\smileysList.py:359
-msgid "pizza smiley"
-msgstr "pizza"
-
-#. Translators: (^) Cake
-#: addon\globalPlugins\emoticons\smileysList.py:361
-msgid "cake smiley"
-msgstr "tarta"
-
-#. Translators: (*) Star
-#: addon\globalPlugins\emoticons\smileysList.py:363
-msgid "star smiley"
-msgstr "estrela"
+"Parece que tes a configuración anterior gardada para este complemento. "
+"¿Queres importala, borrando a deprecada?"
+
+#. Translators: the title of a message dialog.
+msgid "Import Emoticons add-on settings"
+msgstr "Importar configuración do complemento Emoticons"
 
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary,
 #. visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
-#: addon\globalPlugins\emoticons\__init__.py:109
-#: addon\globalPlugins\emoticons\__init__.py:452
 msgid "Emoji"
 msgstr "Emoji"
 
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary,
 #. visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
-#: addon\globalPlugins\emoticons\__init__.py:113
 msgid "Emoticon"
 msgstr "Emoticón"
 
 #. Translators: the name of a submenu.
-#: addon\globalPlugins\emoticons\__init__.py:144
 msgid "&Emoticons"
 msgstr "&Emoticons"
 
 #. Translators: the name for a menu item.
-#: addon\globalPlugins\emoticons\__init__.py:149
 msgid "&Insert emoticon..."
 msgstr "&Insertar emoticón..."
 
 #. Translators: the tooltip text for a menu item.
-#: addon\globalPlugins\emoticons\__init__.py:151
 msgid "Shows a dialog to insert a smiley"
 msgstr "Amosa un diálogo para insertar un emoticón"
 
 #. Translators: the name for a menu item.
-#: addon\globalPlugins\emoticons\__init__.py:157
 msgid "In&sert symbol..."
 msgstr "In&sertar símbolo..."
 
 #. Translators: the tooltip text for a menu item.
-#: addon\globalPlugins\emoticons\__init__.py:159
 msgid "Shows a dialog to insert a symbol"
 msgstr "Amosa un diálogo para insertar un símbolo"
 
 #. Translators: the name for a menu item.
-#: addon\globalPlugins\emoticons\__init__.py:165
 msgid "&Emoticons dictionary..."
 msgstr "Diccionario de &Emoticóns..."
 
 #. Translators: the tooltip text for a menu item.
-#: addon\globalPlugins\emoticons\__init__.py:167
 msgid "Shows a dictionary dialog to customize emoticons"
 msgstr "Amosa un diálogo de diccionario para persoalizar emoticóns"
 
 #. Translators: Message presented in input help mode.
-#: addon\globalPlugins\emoticons\__init__.py:214
 msgid "Toggles on and off the announcement of emoticons."
 msgstr "Activa e desactiva o anuncio de emoticóns."
 
 #. Translators: message presented when the dictionary for emoticons is unloaded.
-#: addon\globalPlugins\emoticons\__init__.py:224
 msgid "Emoticons off."
 msgstr "Emoticóns desactivados."
 
 #. Translators: message presented when the dictionary for emoticons is loaded.
-#: addon\globalPlugins\emoticons\__init__.py:229
 msgid "Emoticons on."
 msgstr "Emoticóns activados."
 
 #. Translators: Message presented in input help mode.
-#: addon\globalPlugins\emoticons\__init__.py:233
 msgid "Shows a dialog to select a smiley you want to paste."
 msgstr "Amosa un diálogo para seleccionar un emoticón que queras pegar."
 
 #. Translators: Message presented in input help mode.
-#: addon\globalPlugins\emoticons\__init__.py:242
 msgid "Shows a dialog to select a symbol you want to paste."
 msgstr "Amosa un diálogo para seleccionar un símbolo que queiras copiar."
 
 #. Translators: Message presented in input help mode.
-#: addon\globalPlugins\emoticons\__init__.py:250
 msgid "Shows the Emoticons dictionary dialog."
 msgstr "Amosar o diálogo Diccionario de Emoticóns."
 
 #. Translators: Message presented in input help mode.
-#: addon\globalPlugins\emoticons\__init__.py:258
 msgid "Shows the Emoticons settings."
 msgstr "Amosa a configuración de emoticóns."
 
 #. Translators: Message presented in input help mode.
-#: addon\globalPlugins\emoticons\__init__.py:277
 msgid "Shows the symbol positioned where the review cursor is located."
 msgstr "Amosa o símbolo posicionado onde se atopa o cursor de revisión."
 
 #. Translators: Reported when there is no replacement for the symbol at the position of the review cursor.
 #. Translators: Reported when there is no replacement for the symbol at the position of the caret.
-#: addon\globalPlugins\emoticons\__init__.py:288
-#: addon\globalPlugins\emoticons\__init__.py:324
 msgid "No symbol replacement"
 msgstr "Sen reemprazo para o símbolo"
 
 #. Translators: Character and its replacement used from the "Review current Symbol" command.
 #. Example: "Character: ? Replacement: question"
-#: addon\globalPlugins\emoticons\__init__.py:292
-#: addon\globalPlugins\emoticons\__init__.py:328
-#, python-brace-format
-msgid "Character: {}\n"
+msgid ""
+"Character: {}\n"
 "Replacement: {}"
-msgstr "Carácter: ´{}\n"
+msgstr ""
+"Carácter: ´{}\n"
 "Reemprazo: {}"
 
 #. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
-#: addon\globalPlugins\emoticons\__init__.py:295
-#, python-brace-format
 msgid "Symbol at the review cursor position ({})"
 msgstr "Símbolo na posición do cursor de revisión ({})"
 
 #. Translators: Message presented in input help mode.
-#: addon\globalPlugins\emoticons\__init__.py:300
 msgid "Shows the symbol positioned where the caret is located."
 msgstr "Amosa o símbolo posicionado onde se atopa o cursor."
 
 #. Translators: title for expanded symbol dialog. Example: "Expanded symbol (English)"
-#: addon\globalPlugins\emoticons\__init__.py:331
-#, python-brace-format
 msgid "Symbol at the caret position ({})"
 msgstr "Símbolo na posición do cursor ({})"
 
 #. Translators: Title of the dialog.
-#: addon\globalPlugins\emoticons\__init__.py:396
 msgid "Insert emoticon"
 msgstr "Insertar emoticón"
 
 #. Filter panel.
 #. Translators: A text field to filter emoticons.
 #. Translators: The label of a text field to search for symbols in the Insert Symbol dialog.
-#: addon\globalPlugins\emoticons\__init__.py:405
-#: addon\globalPlugins\emoticons\__init__.py:607
 msgid "&Filter:"
 msgstr "&Filtrar:"
 
 #. Translators: A radio button to choose all types of emoticons.
-#: addon\globalPlugins\emoticons\__init__.py:410
 msgid "&All"
 msgstr "&Todos"
 
 #. Translators: A radio button to choose only standard emoticons.
-#: addon\globalPlugins\emoticons\__init__.py:413
 msgid "&Standard"
 msgstr "&Estándar"
 
 #. Translators: A radio button to choose only emojis.
-#: addon\globalPlugins\emoticons\__init__.py:416
 msgid "Emoj&is"
 msgstr "Emoj&is"
 
 #. Translators: Label for the smileys list.
-#: addon\globalPlugins\emoticons\__init__.py:421
 msgid "&List of smilies"
 msgstr "&Lista de emoticóns"
 
 #. Translators: Column which specifies the name  of emoticon.
-#: addon\globalPlugins\emoticons\__init__.py:427
 msgid "Name"
 msgstr "Nome"
 
 #. Translators: Column which specifies the type of emoticon (standard or emoji).
-#: addon\globalPlugins\emoticons\__init__.py:429
 msgid "Type"
 msgstr "Tipo"
 
 #. Translators: The column which contains the characters of the emoticon.
-#: addon\globalPlugins\emoticons\__init__.py:431
 msgid "Characters"
 msgstr "Carácteres"
 
 #. Translators: Label for standard emoticons in the list.
-#: addon\globalPlugins\emoticons\__init__.py:455
 msgid "Standard"
 msgstr "Estándar"
 
 #. Translators: Error message when none emoticon is selected or the list is empty, and title of dialog.
-#: addon\globalPlugins\emoticons\__init__.py:484
 msgid "There is not any emoticon selected."
 msgstr "Non hay ningún emoticono seleccionado."
 
 #. Translators: This is the message when smiley has been copied to the clipboard.
-#: addon\globalPlugins\emoticons\__init__.py:494
 msgid "Smiley copied to clipboard, ready for you to paste."
 msgstr "Emoticón copiado ó portapapeis, listo para se pegar."
 
 #. Translators: Message when the emoticon couldn't be copied.
-#: addon\globalPlugins\emoticons\__init__.py:497
 msgid "Cannot copy smiley."
 msgstr "Non se pode copiar o emoticón."
 
 #. Translators: Title for Emoticons dictionary dialog.
-#: addon\globalPlugins\emoticons\__init__.py:527
 #, python-format
 msgid "Emoticons dictionary (%s)"
 msgstr "Diccionario de Emoticóns (%s)"
 
 #. Translators: The label for a button in the Emoticons dictionary dialog.
-#: addon\globalPlugins\emoticons\__init__.py:541
 msgid "Rese&t"
 msgstr "Re&iniciar"
 
 #. Translators: The label for a button in the Emoticons dictionary dialog.
-#: addon\globalPlugins\emoticons\__init__.py:546
 msgid "Save and e&xport dictionary"
 msgstr "Gardar e e&xportar diccionario"
 
 #. Translators: This is the label for the Insert Symbol dialog.
 #. %s is replaced by the language for which symbol pronunciation is being edited.
-#: addon\globalPlugins\emoticons\__init__.py:598
 #, python-format
 msgid "Insert Symbol (%s)"
 msgstr "Insertar Símbolo (%s)"
 
 #. Translators: The label for a button in the Insert symbol dialog.
-#: addon\globalPlugins\emoticons\__init__.py:633
 msgid "&Add"
 msgstr "&Engadir"
 
 #. Translators: The label of a text field to copy symbols in the Insert Symbol dialog.
-#: addon\globalPlugins\emoticons\__init__.py:637
 msgid "Symbols to &copy:"
 msgstr "Simbolos a copiar:"
 
 #. Translators: This is the message when symbol has been copied to the clipboard.
-#: addon\globalPlugins\emoticons\__init__.py:673
 msgid "Symbol copied to clipboard, ready for you to paste."
 msgstr "Símbolo copiado ó portapapeis, listo para se pegar."
 
 #. Translators: Message when the symbol couldn't be copied.
-#: addon\globalPlugins\emoticons\__init__.py:676
 msgid "Cannot copy symbol."
 msgstr "Non se pode copiar o símbolo."
 
 #. Translators: The label for a setting in Emoticons panel.
-#: addon\globalPlugins\emoticons\__init__.py:687
 msgid "&Activate speaking of emoticons:"
 msgstr "&Activar fala de emoticóns:"
 
 #. Translators: The label for a setting in Emoticons panel.
-#: addon\globalPlugins\emoticons\__init__.py:692
 msgid "Speak add-on emojis"
 msgstr "Anunciar emojis do complemento"
 
 #. Translators: The label for a setting in Emoticons panel.
-#: addon\globalPlugins\emoticons\__init__.py:696
+#, fuzzy
 msgid "Ensure speaking of inserted symbols"
-msgstr ""
+msgstr "Amosa un diálogo para insertar un símbolo"
 
 #. Translators: The label for a setting in Emoticons panel.
-#: addon\globalPlugins\emoticons\__init__.py:700
 msgid "&Remove not used dictionaries"
 msgstr "&Borrar diccionarios non usados"
 
-#. Translators: Script category for commands to insert symbols.
-#: addon\globalPlugins\insertSymbol\__init__.py:16
-msgid "Insert symbols"
-msgstr ""
+#. Translators: (emoji) Grinning face, an happy face with normal eyes.
+msgid "Grinning face"
+msgstr "Cara sorrindo"
 
-#. Just set the doc string of the script, using the decorator is overkill here.
-#. Translators: Message presented in input help mode.
-#: addon\globalPlugins\insertSymbol\__init__.py:60
-#, python-format
-msgid "Inserts the %s symbol"
-msgstr ""
+#. Translators: (emoji) Happy face with open mouth and squinting eyes.
+msgid "Happy face with open mouth and squinting eyes"
+msgstr "Cara leda coa boca aberta e os ollos vesgos"
 
-#. Add-on summary/title, usually the user visible name of the add-on
-#. Translators: Summary/title for this add-on
-#. to be shown on installation and add-on information found in add-on store
-#: buildVars.py:20
+#. Translators: (emoji) happy face with open mouth.
+msgid "Happy face with open mouth"
+msgstr "Cara leda coa boca aberta"
+
+#. Translators: (emoji) A smiling face with smiling eyes and rosy cheeks.
+msgid "Smiling Face With Smiling Eyes"
+msgstr "Cara sorrinte cos ollos sorrintes"
+
+#. Translators: (emoji) smirking face.
+msgid "Smirking face"
+msgstr "Cara sorinte"
+
+#. Translators: (emoji) Slightly Smiling Face: a face that is a little bit happy, with a slight smile and neutral eyes.
+msgid "Slightly smiling face"
+msgstr "Cara lixeiramente sorrinte"
+
+#. Translators: (emoji) white smiling face.
+msgid "white smiling face"
+msgstr "cara branca sorrinte"
+
+#. Translators: (emoji) happy face with halo.
+msgid "Happy face with halo"
+msgstr "Cara leda con halo"
+
+#. Translators: (emoji) white frowning face.
+msgid "White frowning face"
+msgstr "Cara branca carrancuda"
+
+#. Translators: (emoji) winking face.
+msgid "Winking face"
+msgstr "Cara choscando os ollos"
+
+#. Translators: (emoji) smiling face with heart shaped eyes.
+msgid "Smiling face with heart shaped eyes"
+msgstr "Cara sorrinte cos ollos en forma de corazón"
+
+#. Translators: (emoji)  Rose: a single red rose.
+msgid "Rose"
+msgstr "Rosa"
+
+#. Translators: (emoji) Expressionless face: a face with straight lined eyes and mouth. A deliberate display of no comment...
+msgid "Expressionless face"
+msgstr "Cara inexpresiva"
+
+#. Translators: (emoji) neutral face.
+msgid "Neutral face"
+msgstr "Cara neutra"
+
+#. Translators: (emoji) face without mouth.
+msgid "Face without mouth"
+msgstr "Cara sen boca"
+
+#. Translators: (emoji) face throwing a kiss.
+msgid "Face throwing a kiss"
+msgstr "Cara lanzando un bico"
+
+#. Translators: (emoji) kissing face with closed eyes.
+msgid "Kissing face with closed eyes"
+msgstr "Cara bicando cos ollos pechados"
+
+#. Translators: (emoji) Kissing face.
+msgid "Kissing face"
+msgstr "Cara bicando"
+
+#. Translators: (emoji) kissing face with arched eyes.
+msgid "Kissing face with arched eyes"
+msgstr "Cara bicando cos ollos arqueados"
+
+#. Translators: (emoji) winking face with stuck out tongue.
+msgid "Winking face with stuck out tongue"
+msgstr "Cara visca sacando a lingua"
+
+#. Translators: (emoji) face with stuck out tongue and eyes tightly closed.
+msgid "Face with stuck out tongue and eyes tightly closed"
+msgstr "Cara coa lingua fora e os ollos ben pechados"
+
+#. Translators: (emoji) A cheeky face with stuck out tongue.
+msgid "Face with stuck out tongue"
+msgstr "Cara coa lingua fora"
+
+#. Translators: (emoji) Hugging Face: a face displayed with an open hands gesture, offering a hug.
+msgid "Hugging face"
+msgstr "Cara abrazando"
+
+#. Translators: (emoji) flushed face.
+msgid "Flushed face"
+msgstr "Cara con rubor"
+
+#. Translators: (emoji) Grinning face showing smiling eyes.
+msgid "Grinning Face With Smiling Eyes"
+msgstr "Cara Sorrinte Cos Ollos ledos"
+
+#. Translators: (emoji) A pensive, remorseful and saddened face. Quietly considering where things all went wrong.
+msgid "Pensive Face"
+msgstr "Cara pensativa"
+
+#. Translators: (emoji) devil with evil smile.
+msgid "Devil with evil smile"
+msgstr "Diaño con sorriso malicioso"
+
+#. Translators: (emoji) devil.
+msgid "Devil"
+msgstr "Diaño"
+
+#. Translators: (emoji) relieved face.
+msgid "Relieved face"
+msgstr "Cara de alivio"
+
+#. Translators: (emoji) unamused face.
+msgid "Unamused face"
+msgstr "Cara sen cara"
+
+#. Translators: (emoji) A face with scrunched up and closed eyes, frowning. Used to show helplessness in a situation.
+msgid "Persevering Face"
+msgstr "Cara perseverante"
+
+#. Translators: (emoji) crying face.
+msgid "Crying face"
+msgstr "Cara chorando"
+
+#. Translators: (emoji) face with tears of joy.
+msgid "Face with tears of joy"
+msgstr "Cara con bágoas de ledicia"
+
+#. Translators: (emoji) loudly crying face.
+msgid "Loudly crying face"
+msgstr "Cara chorando moito"
+
+#. Translators: (emoji) sleepy face.
+msgid "Sleepy face"
+msgstr "Cara durminte"
+
+#. Translators: (emoji) Shrugging: A person shrugging their shoulders to indicate a lack of knowledge about a particular topic, or a lack of care about the result of a situation.
+msgid "Shrugging emoji"
+msgstr "Encollendo emoji"
+
+#. Translators: (emoji) disappointed face.
+msgid "Disappointed face"
+msgstr "Cara decepcionada"
+
+#. Translators: (emoji) disappointed but relieved face.
+msgid "Disappointed but relieved face"
+msgstr "Cara decepcionada pero aliviada"
+
+#. Translators: (emoji) Face with a look of concern, with a blue forehead and sweat dripping down the cheek.
+msgid "Face With Open Mouth & Cold Sweat"
+msgstr "Cara coa boca aberta e con suor fría"
+
+#. Translators: (emoji) Happy face with a single drop of sweat on one side of the face.
+msgid "Smiling Face With Open Mouth & Cold Sweat"
+msgstr "Cara sorrinte coa boca aberta e suor frío"
+
+#. Translators: (emoji) face with cold sweat.
+msgid "Face with cold sweat"
+msgstr "Cara con suor fría"
+
+#. Translators: (emoji) A distraught-looking face with  an open mouth and crescent shaped eyes.
+msgid "Weary Face"
+msgstr "Cara aburrida"
+
+#. Translators: (emoji) An exhausted-looking face with an open mouth and tightly closed eyes.
+msgid "Tired Face"
+msgstr "Cara cansa"
+
+#. Translators: (emoji) fearful face.
+msgid "Fearful face"
+msgstr "Cara de medo"
+
+#. Translators: (emoji) face screaming in fear.
+msgid "Face screaming in fear"
+msgstr "Cara berrando de medo"
+
+#. Translators: (emoji) angry face.
+#. Translators: :@ angry face.
+msgid "Angry face"
+msgstr "Cara enfadada"
+
+#. Translators: (emoji) pouting face.
+msgid "Pouting face"
+msgstr "Cara aremedando"
+
+#. Translators: (emoji) A face with air coming out of its nose, huffing with anger face.
+msgid "Face With Steam From Nose"
+msgstr "Cara respirando polo nariz"
+
+#. Translators: (emoji) confounded face.
+msgid "Confounded face"
+msgstr "Cara confundida"
+
+#. Translators: (emoji) Smiling Face With Open Mouth and Tightly-Closed Eyes.
+msgid "Smiling Face With Open Mouth and Tightly-Closed Eyes"
+msgstr "Cara sorrinte coa boca aberta e os ollos pechados"
+
+#. Translators: (emoji) happy face licking lips.
+msgid "Happy face licking lips"
+msgstr "Cara leda relambéndose"
+
+#. Translators: (emoji) happy face with sunglasses.
+msgid "Happy face with sunglasses"
+msgstr "Cara leda con anteollos de sol"
+
+#. Translators: (emoji) sleeping face.
+msgid "Sleeping face"
+msgstr "Cara durminte"
+
+#. Translators: (emoji) A dizzy face, looking sick or confused from being spun around in circles too many times.
+msgid "Dizzy Face"
+msgstr "Cara aturdida"
+
+#. Translators: (emoji) astonished face.
+msgid "Astonished face"
+msgstr "Cara asombrada"
+
+#. Translators: (emoji) worried face.
+msgid "Worried face"
+msgstr "Cara preocupada"
+
+#. Translators: (emoji) Dismayed face with open eyes and open mouth, appear closer to  a frowning face.
+msgid "Frowning Face With Open Mouth"
+msgstr "Cara fruncida coa boca aberta"
+
+#. Translators: (emoji) anguished face.
+msgid "Anguished face"
+msgstr "Cara angustiada"
+
+#. Translators: (emoji) A face with Open Mouth, generally used to represent an element of surprise.
+msgid "Face with Open Mouth"
+msgstr "Cara coa boca aberta"
+
+#. Translators: (emoji) grimacing face.
+msgid "Grimacing face"
+msgstr "Cara facendo acenos"
+
+#. Translators: (emoji) confused face.
+msgid "Confused face"
+msgstr "Cara confusa"
+
+#. Translators: (emoji) A face with high eyebrows and an open mouth, it looks more surprised than hushed.
+msgid "Hushed Face"
+msgstr "Cara enfadada"
+
+#. Translators: (emoji) broken heart.
+msgid "Broken heart"
+msgstr "Corazón partido"
+
+#. Translators: (emoji) pulsating heart.
+msgid "Pulsating heart"
+msgstr "Corazón pulsante"
+
+#. Translators: (emoji) beating heart.
+msgid "Beating heart"
+msgstr "Corazón palpebrante"
+
+#. Translators: (emoji) two hearts.
+msgid "Two hearts"
+msgstr "Dous corazóns"
+
+#. Translators: (emoji) heart with arrow.
+msgid "Heart with arrow"
+msgstr "Corazón con frecha"
+
+#. Translators: (emoji) purple heart.
+msgid "Purple heart"
+msgstr "Corazón púrpura"
+
+#. Translators: (emoji) red heart.
+msgid "Red heart"
+msgstr "Corazón bermello"
+
+#. Translators: (emoji) yellow heart.
+msgid "Yellow heart"
+msgstr "Corazón marelo"
+
+#. Translators: (emoji) green heart.
+msgid "Green heart"
+msgstr "Corazón verde"
+
+#. Translators: (emoji) blue heart.
+msgid "Blue heart"
+msgstr "Corazón azul"
+
+#. Translators: (emoji) This emoji is the version of the phrase ROFL. A person lying on the floor due to an extreme amount of laughter.
+msgid "Rolling on the Floor Laughing"
+msgstr "Tirado no chan de risa"
+
+#. Translators: (emoji) A face that is a little bit sad, with a slight frown and neutral eyes.
+msgid "Slightly Frowning Face"
+msgstr "Cara lixeiramente fruncida"
+
+#. Translators: (emoji) A face that is upside-down.
+msgid "Upside-down Face"
+msgstr "Cara do revés"
+
+#. Translators: (emoji) A face displaying eyes glancing upward.
+msgid "Face With Rolling Eyes"
+msgstr "Cara cos ollos virados"
+
+#. Translators: (emoji) A person with arms forming an X to indicate no or no good.
+msgid "Person Gesturing No"
+msgstr "Persoa facendo un xesto desaprobatorio"
+
+#. Translators: (emoji) A person with arms above his head, making an OK sign with the whole body.
+msgid "Person Gesturing OK"
+msgstr "Persoa facendo un xesto aprobatorio"
+
+#. Translators: (emoji) A person bowing deeply, express a sincere apology or to request a favour.
+msgid "Person bowing"
+msgstr "Persoa facendo una reverencia"
+
+#. Translators: (emoji) An upset person frowning with dismay.
+msgid "Person Frowning"
+msgstr "Persoa fruncindo o entrecello"
+
+#. Translators: (emoji) Two hands placed firmly together.
+msgid "Folded Hands"
+msgstr "Mans pregadas"
+
+#. Translators: (emoji) A person with a surgical mask on their face.
+msgid "Face with medical mask"
+msgstr "Cara con máscara de médíco"
+
+#. Translators: (emoji) A black version of white smiling face.
+msgid "Black Smiling Face"
+msgstr "Cara sorinte negra"
+
+#. Translators: (emoji) happy cat face with heart shaped eyes.
+msgid "Happy cat face with heart shaped eyes"
+msgstr "Cara de gato ledo cos ollos en forma de corazón"
+
+#. Translators: (emoji) ok hand sign.
+msgid "Ok hand sign"
+msgstr "Man co signo de OK"
+
+#. Translators: (emoji) thumbs up symbol.
+msgid "Thumbs up symbol"
+msgstr "Símbolo de dedo cara arriba"
+
+#. Translators: (emoji) thumbs down symbol.
+msgid "Thumbs down symbol"
+msgstr "Símbolo de dedo cara abaixo"
+
+#. Translators: (emoji) Victory Hand.
+msgid "Victory Hand"
+msgstr "Man facendo a victoria"
+
+#. Translators: :) Smile
+msgid "smiling smiley"
+msgstr "cara sorrindo"
+
+#. Translators: :( Sad face.
+msgid "Sad face"
+msgstr "Cara triste"
+
+#. Translators: :D Laugh
+msgid "Laughing smiley"
+msgstr "Cara rindo"
+
+#. Translators: :O Surprised
+msgid "surprised smiley"
+msgstr "cara de sorpresa"
+
+#. Translators: ;) Wink;
+msgid "winking smiley"
+msgstr "cara choscando os ollos"
+
+#. Translators: ;( Crying
+msgid "crying smiley"
+msgstr "cara chorando"
+
+#. Translators: :s :-S :-Q Confused face:
+msgid "Confused Face"
+msgstr "Cara confusa"
+
+#. Translators: (:| Sweating
+msgid "sweating smiley"
+msgstr "sudando"
+
+#. Translators: :|] Robot (a robot head)
+msgid "Robot Smiley"
+msgstr "Robot"
+
+#. Translators: :| Speechless
+msgid "speechless smiley"
+msgstr "cara estupefacta"
+
+#. Translators: :* Kiss
+msgid "kiss smiley"
+msgstr "bico"
+
+#. Translators: :P Cheeky
+msgid "cheeky smiley"
+msgstr "atrevido"
+
+#. Translators: :$ Blushing
+msgid "blushing smiley"
+msgstr "cara corada"
+
+#. Translators: :^) Wondering
+msgid "wondering smiley"
+msgstr "cara dubidando"
+
+#. Translators: |-) Sleepy
+msgid "sleepy smiley"
+msgstr "cara de sono"
+
+#. Translators: |-( Dull
+msgid "dull smiley"
+msgstr "cara aburrida"
+
+#. Translators: :x My lips are sealed
+msgid "my lips are sealed smiley"
+msgstr "meus beizos están selados"
+
+#. Translators: \o/ Dancing
+msgid "dancing smiley"
+msgstr "bailando"
+
+#. Translators: :'( crying a lot smiley
+msgid "crying a lot smiley"
+msgstr "cara chorando inconsolavelmente"
+
+#. Translators: >:( Angry
+#. Translators: (angry) Angry
+msgid "angry smiley"
+msgstr "cara irritada"
+
+#. Translators: :/ Worried
+#. Translators: (worry) Worried
+msgid "worried smiley"
+msgstr "cara preocupada"
+
+#. Translators: <3 Heart
+#. Translators: (heart) Heart
+msgid "heart smiley"
+msgstr "corazón"
+
+#. Translators:  O:)  O:-) Angel
+msgid "Angel Smiley"
+msgstr "Anxo"
+
+#. Translators:  O.o  o.O  Confused
+msgid "Confused Smiley"
+msgstr "Cara confusa"
+
+#. Translators:   3:-) Devil
+msgid "Devil Smiley"
+msgstr "Demo"
+
+#. Translators:  ^_^ Keke (This smiley is inspired by the Asian style, which is a happy face.)
+msgid "Keke Smiley"
+msgstr "Bolo"
+
+#. Translators: -_- Bored (This smiley face has its eyes closed and is sporting a very small grin.)
+msgid "Bored smiley"
+msgstr "Cara sorrinte cos ollos pechados"
+
+#. Translators:  >:O  Upset, angry or shouting...
+msgid "Angry Smiley"
+msgstr "Cara berrando"
+
+#. Translators:  :3  Cat (Cat faced smiley with curly lips)
+msgid "Cat Smiley"
+msgstr "Cara de gato sorrindo"
+
+#. Translators: (-.-)ZZZ Iӭ Sleepy
+msgid "I am Sleepy smiley"
+msgstr "Estou durmido"
+
+#. Translators: 8-) Glasses
+msgid "glasses smiley"
+msgstr "gafas"
+
+#. Translators: (^^^) shark
+msgid "shark smiley"
+msgstr "tiburón"
+
+#. Translators:  (cash) Cash
+msgid "cash smiley"
+msgstr "diñeiro"
+
+#. Translators: (flex) Muscle
+msgid "muscle smiley"
+msgstr "flexionando os músculos"
+
+#. Translators: (beer) Beer
+msgid "beer smiley"
+msgstr "cervexa"
+
+#. Translators: (d) Drink
+msgid "drink smiley"
+msgstr "cara bebiendo"
+
+#. Translators: (ninja) Ninja
+msgid "ninja smiley"
+msgstr "ninja"
+
+#. Translators: (cool) Cool
+msgid "cool smiley"
+msgstr "cool"
+
+#. Translators: (inlove) In Love
+msgid "in love smiley"
+msgstr "cara namorada"
+
+#. Translators: (yn) Fingers crossed
+msgid "fingers crossed smiley"
+msgstr "dedos cruzados"
+
+#. Translators: (yawn) Yawn
+msgid "yawning smiley"
+msgstr "cara bocexando"
+
+#. Translators: (puke) Puking
+msgid "puking smiley"
+msgstr "cara de noxo"
+
+#. Translators: (doh) Doh!
+msgid "doh! smiley"
+msgstr "doh! Sorriso"
+
+#. Translators: (wasntme) It wasn't me!
+msgid "it wasn't me! smiley"
+msgstr "non fun! sorriso"
+
+#. Translators: (party) Party
+msgid "party smiley"
+msgstr "festa"
+
+#. Translators: (mm) Mmmm...
+msgid "mmmmmm... smiley"
+msgstr "mmmmmm... sorriso"
+
+#. Translators: (nerd) Nerdy
+msgid "nerdy smiley"
+msgstr "queimar as pestanas"
+
+#. Translators: (wave) Hi
+msgid "hi smiley"
+msgstr "ola"
+
+#. Translators: (facepalm) Facepalm
+msgid "facepalm smiley"
+msgstr "cara de desesperación"
+
+#. Translators: (devil) Devil
+msgid "devil smiley"
+msgstr "demo"
+
+#. Translators: (angel) Angel
+msgid "angel smiley"
+msgstr "ánxo"
+
+#. Translators: (envy) Envy
+msgid "envy smiley"
+msgstr "envidiando"
+
+#. Translators: (wait) Wait
+msgid "wait smiley"
+msgstr "esperando"
+
+#. Translators: (hug) Hug
+msgid "hug smiley"
+msgstr "abrazos"
+
+#. Translators: (makeup) Make-up
+msgid "make-up smiley"
+msgstr "maquillaxe"
+
+#. Translators: (chuckle) Giggle
+msgid "giggle smiley"
+msgstr "cacarejar"
+
+#. Translators: (clap) Clapping
+msgid "clapping smiley"
+msgstr "aplausos"
+
+#. Translators: (think) Thinking
+msgid "thinking smiley"
+msgstr "cara pensativa"
+
+#. Translators: (bow) Bowing
+msgid "bowing smiley"
+msgstr "reverencia"
+
+#. Translators: (rofl) Rolling on the floor laughing
+msgid "rolling on the floor laughing! smiley"
+msgstr "tirado no chan de risa!"
+
+#. Translators: (whew) Relieved
+msgid "relieved smiley"
+msgstr "cara de alivio"
+
+#. Translators: (happy) Happy
+msgid "happy smiley"
+msgstr "cara feliz"
+
+#. Translators: (smirk) Smirking
+msgid "smirking smiley"
+msgstr "sorriso de satisfacción"
+
+#. Translators: (nod) Nodding
+msgid "nodding smiley"
+msgstr "afirmando"
+
+#. Translators: (shake) Shake
+msgid "shakeing smiley"
+msgstr "negando"
+
+#. Translators: (waiting) Waiting
+msgid "waiting smiley"
+msgstr "esperando"
+
+#. Translators: (emo) Emo;
+msgid "Emo smiley"
+msgstr "Emo"
+
+#. Translators: (y) Yes
+msgid "yes smiley"
+msgstr "si"
+
+#. Translators: (n) no;
+msgid "no smiley"
+msgstr "non"
+
+#. Translators: (handshake) Handshake
+msgid "handshake smiley"
+msgstr "aperta de mans"
+
+#. Translators: (highfive) High five
+msgid "high five smiley"
+msgstr "choca as cinco"
+
+#. Translators: (lalala) Lalala;
+msgid "lalala smiley"
+msgstr "blablablá"
+
+#. Translators: (heidy) Heidy;
+msgid "heidy smiley"
+msgstr "esquío"
+
+#. Translators: (F) Flower
+msgid "flower smiley"
+msgstr "flor"
+
+#. Translators: (rain) Raining
+msgid "raining smiley"
+msgstr "choiva"
+
+#. Translators: (sun) Sun
+msgid "sunny smiley"
+msgstr "sol"
+
+#. Translators: (tumbleweed) Tumbleweed
+msgid "tumbleweed smiley"
+msgstr "planta rodadora"
+
+#. Translators: (music) Music
+msgid "music smiley"
+msgstr "música"
+
+#. Translators: (bandit) Bandit
+msgid "bandit smiley"
+msgstr "bandido"
+
+#. Translators: (tmi) Too much information
+msgid "too much information smiley"
+msgstr "exceso de información"
+
+#. Translators: (coffee) Coffee
+msgid "coffee smiley"
+msgstr "café"
+
+#. Translators: (pi) Pizza
+msgid "pizza smiley"
+msgstr "pizza"
+
+#. Translators: (^) Cake
+msgid "cake smiley"
+msgstr "tarta"
+
+#. Translators: (*) Star
+msgid "star smiley"
+msgstr "estrela"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Emoticons"
 msgstr "Emoticons"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-on store
-#: buildVars.py:23
-msgid "Enables the announcement of emoticon names instead of the character Representation."
-msgstr "Permite o anuncio dos nomes dos emoticóns en lugar da representación de caracteres."
-
-#. Brief changelog for this version
-#. Translators: what's new content for the add-on version to be shown in the add-on store
-#: buildVars.py:28
-msgid "* Compatible with NVDA 2026.1."
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+msgid ""
+"Enables the announcement of emoticon names instead of the character "
+"Representation."
 msgstr ""
+"Permite o anuncio dos nomes dos emoticóns en lugar da representación de "
+"caracteres."
 
+#~ msgid ""
+#~ "You have installed the Emoticons add-on, probably an old and incompatible "
+#~ "version with this one. Do you want to uninstall the old version?"
+#~ msgstr ""
+#~ "Instalaches o complemento Emoticons, probablemente unha versión vella e "
+#~ "incompatible con ésta. ¿Queres desinstalar a versión anterior?"
+
+#~ msgid "Uninstall incompatible add-on"
+#~ msgstr "Desinstalar complemento incompatible"
+
+#~ msgid "Manag&e emoticons"
+#~ msgstr "&xestionar emoticóns"
+
+#~ msgid "Emoticons menu"
+#~ msgstr "Menú Emoticóns"
+
+#~ msgid "&Customize emoticons..."
+#~ msgstr "&Persoalizar emoticóns..."
+
+#~ msgid "&Activation settings..."
+#~ msgstr "Opciones de &Activación..."
+
+#~ msgid "Shows a dialog to choose when emoticons speaking should be activated"
+#~ msgstr ""
+#~ "Amosa un diálogo para escoller cando debería activarse a fala de emoticóns"
+
+#~ msgid "Activation settings"
+#~ msgstr "Opcións de Activación"
