@@ -270,4 +270,3 @@ incorporado.
 * Versión inicial.
 
 [[!tag dev stable]]
-
