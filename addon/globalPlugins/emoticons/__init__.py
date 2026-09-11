@@ -11,6 +11,7 @@ import globalVars
 import config
 import api
 import speechDictHandler
+from speechDictHandler.types import DictionaryType
 import ui
 import characterProcessing
 import languageHandler
@@ -52,6 +53,7 @@ config.conf.spec["emoticons"] = confspec
 defaultDic = speechDictHandler.SpeechDict()
 noEmojisDic = speechDictHandler.SpeechDict()
 sD = speechDictHandler.SpeechDict()
+tempDict = speechDictHandler.definitions.getDictionaryDefinition(DictionaryType.TEMP).dictionary
 
 profileName = oldProfileName = None
 
@@ -76,13 +78,13 @@ def loadDic():
 
 
 def activateAnnouncement():
-	speechDictHandler.dictionaries["temp"].extend(sD)
+	tempDict.extend(sD)
 
 
 def deactivateAnnouncement():
 	for entry in sD:
-		if entry in speechDictHandler.dictionaries["temp"]:
-			speechDictHandler.dictionaries["temp"].remove(entry)
+		if entry in tempDict:
+			tempDict.remove(entry)
 
 
 @disableInSecureMode
