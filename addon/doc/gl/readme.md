@@ -262,4 +262,3 @@ integrado.
 * Versión inicial.
 
 [[!tag dev stable]]
-
