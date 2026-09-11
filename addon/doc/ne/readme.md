@@ -15,7 +15,7 @@ replaced by its more human friendly description.  86 emoticons are defined.
 ## मुस्कान घुसाउनु होस्  ##
 
 When you are unsure of the characters for a particular smiley, this addon enables you to select and insert it into your text such as in a chat.
-Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert smiley, to open a dialog
+Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert smiley, to open a dialog 
 with the provided smilies.
 When you press OK, the characters for the chosen smiley will be copied to your clipboard, ready for pasting.
 
