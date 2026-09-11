@@ -25,7 +25,9 @@ addon_info = AddonInfo(
 	addon_version='38.0.0',
 	# Brief changelog for this version
 	# Translators: what's new content for the add-on version to be shown in the add-on store
-	addon_changelog=_('* Compatible with NVDA 2026.1.'),
+	addon_changelog=_("""* Fixed the announcement of the focused item when moving to the desktop, which stops working correctly in NVDA 2026.2.
+* Updates to translations.
+"""),
 	# Author(s)
 	addon_author='Chris Leo <llajta2012@gmail.com>, Noelia Ruiz Martínez <nrm1977@gmail.com>, Mesar Hameed <mesar.hameed@gmail.com>, Francisco Javier Estrada Martínez <Fjestrad@hotmail.com>',
 	# URL for the add-on documentation support
