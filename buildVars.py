@@ -22,7 +22,7 @@ addon_info = AddonInfo(
 	# Translators: Long description to be shown for this add-on on add-on information from add-on store
 	addon_description=_('Enables the announcement of emoticon names instead of the character Representation.'),
 	# version
-	addon_version='38.0.0',
+	addon_version="38.0.0",
 	# Brief changelog for this version
 	# Translators: what's new content for the add-on version to be shown in the add-on store
 	addon_changelog=_("""* Fixed the announcement of the focused item when moving to the desktop, which stops working correctly in NVDA 2026.2.
