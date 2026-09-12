@@ -11,7 +11,7 @@ import globalVars
 import config
 import api
 import speechDictHandler
-from speechDictHandler.types import DictionaryType
+from speechDictHandler.types import DictionaryType, EntryType, SpeechDict, SpeechDictEntry
 import ui
 import characterProcessing
 import languageHandler
@@ -50,9 +50,9 @@ confspec = {
 
 config.conf.spec["emoticons"] = confspec
 
-defaultDic = speechDictHandler.SpeechDict()
-noEmojisDic = speechDictHandler.SpeechDict()
-sD = speechDictHandler.SpeechDict()
+defaultDic = SpeechDict()
+noEmojisDic = SpeechDict()
+sD = SpeechDict()
 tempDict = speechDictHandler.definitions.getDictionaryDefinition(DictionaryType.TEMP).dictionary
 
 profileName = oldProfileName = None
@@ -117,22 +117,22 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			otherReplacement = " %s; " % em.name
 			# Case and reg are always True
 			defaultDic.append(
-				speechDictHandler.SpeechDictEntry(
+				SpeechDictEntry(
 					em.pattern,
 					otherReplacement,
 					comment,
 					True,
-					speechDictHandler.ENTRY_TYPE_REGEXP,
+					EntryType.REGEXP,
 				),
 			)
 			if not em.isEmoji:
 				noEmojisDic.append(
-					speechDictHandler.SpeechDictEntry(
+					SpeechDictEntry(
 						em.pattern,
 						otherReplacement,
 						comment,
 						True,
-						speechDictHandler.ENTRY_TYPE_REGEXP,
+						EntryType.REGEXP,
 					),
 				)
 		global profileName, oldProfileName
@@ -553,7 +553,7 @@ class EmDicDialog(DictionaryDialog):
 	def OnResetClick(self, evt):
 		self.dictList.DeleteAllItems()
 		self.tempSpeechDict = []
-		self.dic = speechDictHandler.SpeechDict()
+		self.dic = SpeechDict()
 		if config.conf["emoticons"]["speakAddonEmojis"]:
 			self.dic = defaultDic
 		else:
@@ -561,7 +561,7 @@ class EmDicDialog(DictionaryDialog):
 		self.tempSpeechDict.extend(self.dic)
 		for entry in self.dic:
 			self.dictList.Append(
-				(entry.comment, entry.pattern, entry.replacement, True, speechDictHandler.ENTRY_TYPE_REGEXP),
+				(entry.comment, entry.pattern, entry.replacement, True, EntryType.REGEXP),
 			)
 		self.dictList.SetFocus()
 
