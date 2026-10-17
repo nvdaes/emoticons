@@ -1,6 +1,7 @@
 # 表情符号插件 #
 
-* 作者：Chris Leo、Noelia Ruiz Martínez、Mesar Hameed、Francisco Javier Estrada Martínez
+* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier
+  Estrada Martínez
 
 启用表情名称朗读来代替原字符朗读。
 
@@ -10,7 +11,8 @@
 
 ## 插入表情 ##
 
-有时一图胜千言：使用全新表情符号来活跃您的即时聊天氛围，让朋友们实时感知您的情绪状态。
+Sometimes an image is worth a 1000 words: use the new emoji to liven up your
+instant message and to let your friends know how you’re feeling.
 
 如果您不确定特定表情的字符，可以使用此插件选择并将其插入到你的文本，例如聊天编辑框。
 
@@ -19,24 +21,32 @@
 此对话框允许您选择表情符号并浏览您感兴趣的表情符号：
 
 *	可编辑字段允许您在可用的表情符号中过滤搜索所需表情符号。
-*	通过一组单选按钮，您可以选择仅查看表情符号类别（alt + E）或仅查看标准表情符号类别（alt + s）或查看所有可用的表情符号（alt +A）。
-*	表情符号列表（alt + L）按三列显示：表情符号的名称，表情符号的类型（标准表情符号或表情符号），相应的字符。
+*	通过一组单选按钮，您可以选择仅查看表情符号类别（alt + E）或仅查看标准表情符号类别（alt + s）或查看所有可用的表情符号（alt +
+  A）。
+*	表情符号列表（alt + L）分别显示在三列上：表情符号的名称，表情符号的类型（标准表情符号或表情符号），相应的字符。
 
 按确认后，所选表情符号的字符将被复制到剪贴板，准备粘贴。
 
 ## 插入符号 ##
 
-此对话框允许您选择 NVDA 的标点符号读音对话框中可用的符号之一。您可以使用搜索编辑框或箭头键从符号列表中选择一个项目。
+This dialog allows you to choose one of the symbols available in the
+Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit
+box or the arrow keys to select an item from the symbols list.
 
-如需复制多个符号，可点击"添加"按钮将其追加至"待复制符号"编辑框。
+If you want to copy various symbols, use the Add button to append them to
+the Symbols to copy edit box.
 
-点击确认后，选定的表情符号或编辑框内的所有符号内容将复制到剪贴板，随时准备粘贴。
+Then, press OK and the selected emoji or symbol, or the symbols contained in
+the mentioned edit box, will be copied to your clipboard, ready for pasting.
 
-## 为符号配置快捷键 ##
+## Associate gestures to symbols ##
 
-通过 NVDA 菜单、选项子菜单、按键与手势对话框，在插入符号或复制符号类别下，可配置通过关联快捷键直接输入符号的功能。
+From NVDA's menu, Preferences submenu, Input gestures dialog, category
+Insert symbols or Copy symbols, you can configure NVDA to type symbols
+through associated gestures.
 
-您可通过编辑字段减少显示的符号数量，从而加快类别展开速度。
+You can use the Edit field edit box to reduce the number of symbols
+presented, so that this category can be expanded faster.
 
 ## 表情词典 ##
 
@@ -50,7 +60,8 @@
 
 例如，您可能希望NVDA仅在XxChat程序中使用自定义表情符号，而不是在其他聊天程序中：您可以通过为XxChat应用程序创建配置文件并从语音词典菜单中分配语音词典，表情符号词典选项来完成此操作。请参阅下面有关配置配置文件的表情符号设置。
 
-您还可以按“保存并导出词典”按钮导出每个自定义语音词典：这样您的语音词典将保存在您的用户配置文件夹，speechDicts /emoticons子文件夹中。
+您还可以按“保存并导出词典”按钮导出每个自定义语音词典：这样您的语音词典将保存在您的用户配置文件夹，speechDicts /
+emoticons子文件夹中。
 
 字典文件的确切名称和位置将基于编辑配置配置文件，该配置文件将显示在“表情符号”字典对话框的标题中。
 
@@ -62,7 +73,9 @@
 
 此外, 还可以确定是否应该读出插件内的表情。如果在 NVDA 的配置中包含表情符号, 这可能会很有用。
 
-若通过关联手势插入的符号在系统中未触发语音反馈（即使已配置 NVDA 读出输入的字符），可尝试启用复选框确保插入的符号被读出。
+If symbols inserted using associated gestures aren't spoken in your system,
+even when NVDA is configured to speak typed characters, you can try to
+enable a checkbox to ensure the speaking of inserted symbols.
 
 
 如果您可能希望保持清洁配置目录，则在此对话框中还可以选择是否在卸载时从插件中删除未使用的字典（与非现有配置文件关联）。
@@ -74,45 +87,48 @@
 * NVDA + E：开启/关闭表情符号朗读。
 * NVDA + I：显示对话框，用于选择要复制的表情。
 * 未分配：显示一个对话框来选择你要复制的NVDA的符号。
-* 未分配: 打开显示查看光标所在位置的符号的可浏览消息, 以便可以在浏览模式下浏览整个描述。
-* 未分配: 打开显示系统光标所在位置的符号的可浏览消息, 以便可以在浏览模式下查看整个描述。
+* 未分配: 打开显示浏览光标所在位置的符号的可浏览消息, 以便可以在浏览模式下浏览整个描述。
+* 未分配: 打开显示插入符号所在位置的符号的可浏览消息, 以便可以在浏览模式下查看整个描述。
 
-注意：在 Windows 10 及更高版本上，也可使用内置的表情符号面板。
+Note: On Windows 10 and higher, it's also possible to use the built-in emoji
+panel.
 
-## 版本 34.0.0
+## Changes for 34.0.0
 
-* 新增单符号复制到剪贴板并粘贴的功能，当插入符号脚本关联的快捷键失效时尤为实用。
+* Added ability to copy to clipboard, and paste individual symbols, useful
+  when gestures associated with Insert symbols scripts don't work.
 
 
-## 版本 33.0.0
+## Changes for 33.0.0
 
-* 修复了保存和导出词典时的错误。
-* 在浏览模式显示的消息中添加了复制和关闭按钮。
-* 使用命令插入符号时，可根据“读出输入的字符”选项读出符号。
+* Fixed bug in Save and export dictionaries.
+* Added copy and close buttons to messages presented in browse mode.
+* When using commands to insert symbols, they may be spoken according to the
+  speak typed characters option.
 
-## 版本 22.0.0 ##
+## Changes for 22.0.0 ##
 
-* 需要 NVDA 2023.2 或更高版本。
+* Requires NVDA 2023.2 or later.
 
-## 版本 17.0 ##
+## Changes for 17.0 ##
 
-* 添加了将手势与输入符号相关联的功能。
-* 增加了同时复制多个符号的功能。
+* Added ability to associate gestures to type symbols.
+* Added ability to copy various symbols at the same time.
 
-## 版本 16.0 ##
+## Changes for 16.0 ##
 
-* 与 NVDA 2023.1 兼容。
+* Compatible with NVDA 2023.1.
 
-## 版本 15.0 ##
+## Changes for 15.0 ##
 
-* 需要 NVDA 2022.1 或更高版本。
-* 无法在安全模式下使用。
+* Requires NVDA 2022.1 or later.
+* Cannot be used in secure mode.
 
-## 版本 14.0 ##
+## 14.0更新日志 ##
 
 * 兼容 NVDA 2021.1或更高版本。
 
-## 版本 13.0 ##
+## 13.0更新日志 ##
 
 * 修正了插入表情符号对话框中的错误。
 * 在NVDA的标点符号/符号发音中增加了一个插入可用符号的对话框。
@@ -150,7 +166,9 @@
 ## 6.0更新日志 ##
 
 * 添加了对配置文件的支持。
-* 在NVDA 2017.4或更高版本中，配置设置和自定义词典将根据所选配置文件自动更改。在2017.3或更早版本中，您可以通过重新加载插件来应用更改（按下 Ctrl+NVDA+F3）。
+* 在NVDA
+  2017.4或更高版本中，配置设置和自定义词典将根据所选配置文件自动更改。在2017.3或更早版本中，您可以通过重新加载插件来应用更改（按下ctrl+
+  NVDA + f3）。
 * 如果您在更新插件时选择导入设置，则会删除或已弃用此版本的（emoticons.ini和emoticons.dic）文件。
 
 ## 5.0更新日志 ##
@@ -182,3 +200,6 @@
 ## 1.0更新日志 ##
 
 * 发布初始版本。
+
+[[!tag dev stable]]
+
